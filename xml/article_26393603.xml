@@ -1,0 +1,187 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28146106</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Learning to Monitor Machine Health with Convolutional Bi-Directional LSTM Networks.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E273</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17020273</ELocationID>
+            <Abstract>
+                <AbstractText>In modern manufacturing systems and industries, more and more research efforts have been made in developing effective machine health monitoring systems. Among various machine health monitoring approaches, data-driven methods are gaining in popularity due to the development of advanced sensing and data analytic techniques. However, considering the noise, varying length and irregular sampling behind sensory data, this kind of sequential data cannot be fed into classiﬁcation and regression models directly. Therefore, previous work focuses on feature extraction/fusion methods requiring expensive human labor and high quality expert knowledge. With the development of deep learning methods in the last few years, which redeﬁne representation learning from raw data, a deep neural network structure named Convolutional Bi-directional Long Short-Term Memory networks (CBLSTM) has been designed here to address raw sensory data. CBLSTM ﬁrstly uses CNN to extract local features that are robust and informative from the sequential input. Then, bi-directional LSTM is introduced to encode temporal information. Long Short-Term Memory networks(LSTMs) are able to capture long-term dependencies and model sequential data, and the bi-directional structure enables the capture of past and future contexts. Stacked, fully-connected layers and the linear regression layer are built on top of bi-directional LSTMs to predict the target value. Here, a real-life tool wear test is introduced, and our proposed CBLSTM is able to predict the actual tool wear based on raw sensory data. The experimental results have shown that our model is able to outperform several state-of-the-art baseline methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Rui</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Instrument Science and Engineering, Southeast University, Nanjing 210009, China. ekzmao@ntu.edu.sg.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore. ekzmao@ntu.edu.sg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Ruqiang</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Instrument Science and Engineering, Southeast University, Nanjing 210009, China. ruqiang@seu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jinjiang</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Mechanical and Transportation Engineering, China University of Petroleum, Beijing 102249, China. jwang@cup.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mao</LastName>
+                    <ForeName>Kezhi</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore. ekzmao@ntu.edu.sg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Cogn Sci. 2007 Oct;11(10):428-34</RefSource>
+                <PMID Version="1">17921042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2015 Mar 23;15(3):7062-83</RefSource>
+                <PMID Version="1">25806876</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2016 Sep 15;16(9):null</RefSource>
+                <PMID Version="1">27649193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2012;12(5):5919-39</RefSource>
+                <PMID Version="1">22778622</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2009 May;31(5):855-68</RefSource>
+                <PMID Version="1">19299860</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2016 Feb 11;16(2):226</RefSource>
+                <PMID Version="1">26875983</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2011;11(2):1641-56</RefSource>
+                <PMID Version="1">22319373</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2014 Dec 24;15(1):135-47</RefSource>
+                <PMID Version="1">25609039</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2010;10(1):241-53</RefSource>
+                <PMID Version="1">22315537</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2000 Oct;12(10):2451-71</RefSource>
+                <PMID Version="1">11032042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2016 May 31;16(6):null</RefSource>
+                <PMID Version="1">27258277</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2015 Sep 23;15(9):24514-29</RefSource>
+                <PMID Version="1">26404309</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2015 Sep 18;15(9):23903-26</RefSource>
+                <PMID Version="1">26393603</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">bi-directional long-short term memory network</Keyword>
+            <Keyword MajorTopicYN="N">convolutional neural network</Keyword>
+            <Keyword MajorTopicYN="N">machine health monitoring</Keyword>
+            <Keyword MajorTopicYN="N">recurrent neural network</Keyword>
+            <Keyword MajorTopicYN="N">tool wear prediction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28146106</ArticleId>
+            <ArticleId IdType="pii">s17020273</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17020273</ArticleId>
+            <ArticleId IdType="pmc">PMC5336098</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

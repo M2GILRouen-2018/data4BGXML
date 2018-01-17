@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28103556</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Steerable Wavelet Machines (SWM): Learning Moving Frames for Texture Classification.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1626-1636</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2655438</ELocationID>
+            <Abstract>
+                <AbstractText>We present texture operators encoding class-specific local organizations of image directions (LOIDs) in a rotation-invariant fashion. The LOIDs are key for visual understanding, and are at the origin of the success of the popular approaches, such as local binary patterns (LBPs) and the scale-invariant feature transform (SIFT). Whereas, LBPs and SIFT yield hand-crafted image representations, we propose to learn data-specific representations of the LOIDs in a rotation-invariant fashion. The image operators are based on steerable circular harmonic wavelets (CHWs), offering a rich and yet compact initial representation for characterizing natural textures. The joint location and orientation required to encode the LOIDs is preserved by using moving frames (MFs) texture representations built from locally-steered image gradients that are invariant to rigid motions. In a second step, we use support vector machines to learn a multi-class shaping matrix for the initial CHW representation, yielding data-driven MFs called steerable wavelet machines (SWMs). The SWM forward function is composed of linear operations (i.e., convolution and weighted combinations) interleaved with non-linear steermax operations. We experimentally demonstrate the effectiveness of the proposed operators for classifying natural textures. Our scheme outperforms recent approaches on several test suites of the Outex and the CUReT databases.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Depeursinge</LastName>
+                    <ForeName>Adrien</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Puspoki</LastName>
+                    <ForeName>Zsuzsanna</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ward</LastName>
+                    <ForeName>John Paul</ForeName>
+                    <Initials>JP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Unser</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103556</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2655438</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

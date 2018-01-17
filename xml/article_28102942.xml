@@ -1,0 +1,194 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28102942</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A platform-independent method to reduce CT truncation artifacts using discriminative dictionary representations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>121-131</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12032</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">When the scan field of view (SFOV) of a CT system is not large enough to enclose the entire cross-section of the patient, or the patient needs to be positioned partially outside the SFOV for certain clinical applications, truncation artifacts often appear in the reconstructed CT images. Many truncation artifact correction methods perform extrapolations of the truncated projection data based on certain a priori assumptions. The purpose of this work was to develop a novel CT truncation artifact reduction method that directly operates on DICOM images.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">The blooming of pixel values associated with truncation was modeled using exponential decay functions, and based on this model, a discriminative dictionary was constructed to represent truncation artifacts and nonartifact image information in a mutually exclusive way. The discriminative dictionary consists of a truncation artifact subdictionary and a nonartifact subdictionary. The truncation artifact subdictionary contains 1000 atoms with different decay parameters, while the nonartifact subdictionary contains 1000 independent realizations of Gaussian white noise that are exclusive with the artifact features. By sparsely representing an artifact-contaminated CT image with this discriminative dictionary, the image was separated into a truncation artifact-dominated image and a complementary image with reduced truncation artifacts. The artifact-dominated image was then subtracted from the original image with an appropriate weighting coefficient to generate the final image with reduced artifacts. This proposed method was validated via physical phantom studies and retrospective human subject studies. Quantitative image evaluation metrics including the relative root-mean-square error (rRMSE) and the universal image quality index (UQI) were used to quantify the performance of the algorithm.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">For both phantom and human subject studies, truncation artifacts at the peripheral region of the SFOV were effectively reduced, revealing soft tissue and bony structure once buried in the truncation artifacts. For the phantom study, the proposed method reduced the relative RMSE from 15% (original images) to 11%, and improved the UQI from 0.34 to 0.80.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">A discriminative dictionary representation method was developed to mitigate CT truncation artifacts directly in the DICOM image domain. Both phantom and human subject studies demonstrated that the proposed method can effectively reduce truncation artifacts without access to projection data.</AbstractText>
+                <CopyrightInformation>© 2016 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, University of Wisconsin-Madison School of Medicine and Public Health, 1111 Highland Avenue, Madison, WI, 53705, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Image Science and Technology, Southeast University, Nanjing, China, 210096.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Budde</LastName>
+                    <ForeName>Adam</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, University of Wisconsin-Madison School of Medicine and Public Health, 1111 Highland Avenue, Madison, WI, 53705, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>GE Healthcare, 3000 N Grandview Boulevard, Waukesha, WI, 53188, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Ke</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, University of Wisconsin-Madison School of Medicine and Public Health, 1111 Highland Avenue, Madison, WI, 53705, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Wisconsin-Madison School of Medicine and Public Health, 600 Highland Avenue, Madison, WI, 53792, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Yinsheng</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, University of Wisconsin-Madison School of Medicine and Public Health, 1111 Highland Avenue, Madison, WI, 53705, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hsieh</LastName>
+                    <ForeName>Jiang</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, University of Wisconsin-Madison School of Medicine and Public Health, 1111 Highland Avenue, Madison, WI, 53705, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>GE Healthcare, 3000 N Grandview Boulevard, Waukesha, WI, 53188, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Guang-Hong</ForeName>
+                    <Initials>GH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, University of Wisconsin-Madison School of Medicine and Public Health, 1111 Highland Avenue, Madison, WI, 53705, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Wisconsin-Madison School of Medicine and Public Health, 600 Highland Avenue, Madison, WI, 53792, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016477" MajorTopicYN="Y">Artifacts</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019047" MajorTopicYN="N">Phantoms, Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CT</Keyword>
+            <Keyword MajorTopicYN="N">discriminative dictionary representation</Keyword>
+            <Keyword MajorTopicYN="N">sparse representation</Keyword>
+            <Keyword MajorTopicYN="N">truncation artifacts</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28102942</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12032</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,109 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28925372</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-2552</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of neural engineering</Title>
+                <ISOAbbreviation>J Neural Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An automatic algorithm for blink-artifact suppression based on iterative template matching: Application to single channel recording of cortical auditory evoked potentials.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1741-2552/aa8d95</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Artifact reduction in electroencephalogram (EEG) signals is usually necessary to carry out data analysis appropriately. Despite the large amount of denoising techniques available with a multichannel setup, there is a lack of efficient algorithms that remove (not only detect) blink-artifacts from a single channel EEG, which is of interest in many clinical and research applications. This paper describes and evaluates the Iterative Template Matching and Suppression (ITMS), a new method proposed for detecting and suppressing the artifact associated with the blink activity from a single channel EEG.&amp;#13; &amp;#13; Approach: The approach of ITMS consists of (a) an iterative process in which blink-events are detected and the blink-artifact waveform of the analyzed subject is estimated, (b) generation of a signal modeling the blink-artifact, and (c) suppression of this signal from the raw EEG. The performance of ITMS is compared with the Multi-window Summation of Derivatives within a Window (MSDW) technique using both synthesized and real EEG data.&amp;#13; &amp;#13; Main results: Results suggest that ITMS presents an adequate performance in detecting and suppressing blink-artifacts from a single channel EEG. When applied to the analysis of cortical auditory evoked potentials (CAEPs), ITMS provides a significant quality improvement in the resulting responses, i.e. in a cohort of 30 adults, the mean correlation coefficient improved from 0.37 to 0.65 when the blink-artifacts were detected and suppressed by ITMS.&amp;#13; &amp;#13; Significance: ITMS is an efficient solution to the problem of denoising blink-artifacts in single-channel EEG applications, both in clinical and research fields. The proposed ITMS algorithm is stable; automatic, since it does not require human intervention; low-invasive, because the EEG segments not contaminated by blink-artifacts remain unaltered; and easy to implement, as can be observed in the Matlab script implemeting the algorithm provided as supporting material.</AbstractText>
+                <CopyrightInformation>© 2017 IOP Publishing Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Valderrama</LastName>
+                    <ForeName>Joaquin T</ForeName>
+                    <Initials>JT</Initials>
+                    <Identifier Source="ORCID">0000-0002-5529-8620</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>National Acoustic Laboratories, Australian Hearing, Sydney, New South Wales, AUSTRALIA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de la Torre</LastName>
+                    <ForeName>Angel</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Theory, Telematics and Communications, University of Granada, Granada, SPAIN.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Van Dun</LastName>
+                    <ForeName>Bram</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Acoustic Laboratories, Australian Hearing, Sydney, New South Wales, AUSTRALIA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Neural Eng</MedlineTA>
+            <NlmUniqueID>101217933</NlmUniqueID>
+            <ISSNLinking>1741-2552</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">artifact removal</Keyword>
+            <Keyword MajorTopicYN="N">blinking</Keyword>
+            <Keyword MajorTopicYN="N">brain-computer interface (BCI) games</Keyword>
+            <Keyword MajorTopicYN="N">quality enhancement</Keyword>
+            <Keyword MajorTopicYN="N">single channel EEG</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28925372</ArticleId>
+            <ArticleId IdType="doi">10.1088/1741-2552/aa8d95</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

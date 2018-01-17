@@ -1,0 +1,307 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">24725842</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>06</Month>
+            <Day>17</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>10</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>Apr</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>dRiskKB: a large-scale disease-disease risk relationship knowledge base constructed from biomedical text.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>105</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1471-2105-15-105</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Discerning the genetic contributions to complex human diseases is a challenging mandate that demands new types of data and calls for new avenues for advancing the state-of-the-art in computational approaches to uncovering disease etiology. Systems approaches to studying observable phenotypic relationships among diseases are emerging as an active area of research for both novel disease gene discovery and drug repositioning. Currently, systematic study of disease relationships on a phenome-wide scale is limited due to the lack of large-scale machine understandable disease phenotype relationship knowledge bases. Our study innovates a semi-supervised iterative pattern learning approach that is used to build an precise, large-scale disease-disease risk relationship (D1 → D2) knowledge base (dRiskKB) from a vast corpus of free-text published biomedical literature.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">21,354,075 MEDLINE records comprised the text corpus under study. First, we used one typical disease risk-specific syntactic pattern (i.e. &quot;D1 due to D2&quot;) as a seed to automatically discover other patterns specifying similar semantic relationships among diseases. We then extracted D1 → D2 risk pairs from MEDLINE using the learned patterns. We manually evaluated the precisions of the learned patterns and extracted pairs. Finally, we analyzed the correlations between disease-disease risk pairs and their associated genes and drugs. The newly created dRiskKB consists of a total of 34,448 unique D1 → D2 pairs, representing the risk-specific semantic relationships among 12,981 diseases with each disease linked to its associated genes and drugs. The identified patterns are highly precise (average precision of 0.99) in specifying the risk-specific relationships among diseases. The precisions of extracted pairs are 0.919 for those that are exactly matched and 0.988 for those that are partially matched. By comparing the iterative pattern approach starting from different seeds, we demonstrated that our algorithm is robust in terms of seed choice. We show that diseases and their risk diseases as well as diseases with similar risk profiles tend to share both genes and drugs.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This unique dRiskKB, when combined with existing phenotypic, genetic, and genomic datasets, can have profound implications in our deeper understanding of disease etiology and in drug repositioning.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Rong</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Informatics Division, Case Western Reserve University, Cleveland, OH, USA. rxx@case.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Quanqiu</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R25 CA094186</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR000439</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 RR024989</GrantID>
+                    <Acronym>RR</Acronym>
+                    <Agency>NCRR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>04</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2003 May;34(1):15-21</RefSource>
+                <PMID Version="1">12721547</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Sep 1;29(17):2186-94</RefSource>
+                <PMID Version="1">23828786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2005 Jan 1;33(Database issue):D514-7</RefSource>
+                <PMID Version="1">15608251</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell. 2006 Mar 3;21(5):589-94</RefSource>
+                <PMID Version="1">16507357</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Hum Genet. 2006 May;14(5):535-42</RefSource>
+                <PMID Version="1">16493445</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2007 Mar;25(3):309-16</RefSource>
+                <PMID Version="1">17344885</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 Jul 10;104(28):11694-9</RefSource>
+                <PMID Version="1">17609372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Bioinform Comput Biol. 2007 Dec;5(6):1233-59</RefSource>
+                <PMID Version="1">18172927</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2008 Jan;4(1):e20</RefSource>
+                <PMID Version="1">18225946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Genet. 2008 Mar;24(3):103-6</RefSource>
+                <PMID Version="1">18243400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2008;4:189</RefSource>
+                <PMID Version="1">18463613</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2008 Jul 22;105(29):9880-5</RefSource>
+                <PMID Version="1">18599447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2007;:249-53</RefSource>
+                <PMID Version="1">18693836</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2008 Sep;26(9):983-4</RefSource>
+                <PMID Version="1">18779805</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2008;:820-4</RefSource>
+                <PMID Version="1">18999169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009;10 Suppl 2:S14</RefSource>
+                <PMID Version="1">19208189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2009;5:262</RefSource>
+                <PMID Version="1">19357641</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroscience. 2009 Nov 24;164(1):30-42</RefSource>
+                <PMID Version="1">19344640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2010 Jan;6(1):e1000641</RefSource>
+                <PMID Version="1">20090828</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2009;2009:709-13</RefSource>
+                <PMID Version="1">20351945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 May 1;26(9):1219-24</RefSource>
+                <PMID Version="1">20215462</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Biotechnol. 2010 Jul;28(7):381-90</RefSource>
+                <PMID Version="1">20570001</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2010 Dec;11(12):855-66</RefSource>
+                <PMID Version="1">21085204</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2011;5:79</RefSource>
+                <PMID Version="1">21599985</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(7):e21502</RefSource>
+                <PMID Version="1">21799737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2011 Aug;7(8):e1002141</RefSource>
+                <PMID Version="1">21901084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(9):e24171</RefSource>
+                <PMID Version="1">21912671</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Oct 1;27(19):2692-9</RefSource>
+                <PMID Version="1">21824970</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2011 Oct;39(18):e119</RefSource>
+                <PMID Version="1">21737429</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2013;14:181</RefSource>
+                <PMID Version="1">23742147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Res Methodol. 2001;1:7</RefSource>
+                <PMID Version="1">11591220</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003924" MajorTopicYN="N">Diabetes Mellitus, Type 2</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058492" MajorTopicYN="N">Drug Repositioning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051188" MajorTopicYN="Y">Knowledge Bases</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016239" MajorTopicYN="Y">MEDLINE</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009765" MajorTopicYN="N">Obesity</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010641" MajorTopicYN="N">Phenotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3998061</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>04</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>4</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>4</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>6</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24725842</ArticleId>
+            <ArticleId IdType="pii">1471-2105-15-105</ArticleId>
+            <ArticleId IdType="doi">10.1186/1471-2105-15-105</ArticleId>
+            <ArticleId IdType="pmc">PMC3998061</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

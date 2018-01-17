@@ -1,0 +1,280 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28127402</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1756-0381</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>10</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BioData mining</Title>
+                <ISOAbbreviation>BioData Min</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Accurate prediction of protein relative solvent accessibility using a balanced model.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13040-016-0121-5</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Protein relative solvent accessibility provides insight into understanding protein structure and function. Prediction of protein relative solvent accessibility is often the first stage of predicting other protein properties. Recent predictors of relative solvent accessibility discriminate against exposed regions as compared with buried regions, resulting in higher prediction accuracy associated with buried regions relative to exposed regions.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Here, we propose a more accurate and balanced predictor of protein relative solvent accessibility. First, we collected known proteins in three subsets according to sequence length and constructed a balanced dataset after reducing redundancy within each subset. Next, we measured the performance associated with different variables and variable combinations to determine the best variable combination. Finally, a predictor called BMRSA was constructed for modelling and prediction, which used the balanced set as the training set, the position- specific scoring matrix, predicted secondary structure, buried-exposed profile, and length of a query sequence as variables, and the conditional random field as the machine-learning method.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">BMRSA performance on test sets confirmed that our approach improved prediction accuracy relative to state-of-the-art approaches and was balanced in its comparison of buried and exposed regions. Our method is valuable when higher levels of accuracy in predicting exposed-residue states are required. The BMRSA is available at: http://cheminfo.tongji.edu.cn:8080/BMRSA/.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Tongji University, Shanghai, China.</Affiliation>
+                        <Identifier Source="ISNI">0000000123704535</Identifier>
+                        <Identifier Source="GRID">grid.24516.34</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Zhiheng</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Tongji University, Shanghai, China.</Affiliation>
+                        <Identifier Source="ISNI">0000000123704535</Identifier>
+                        <Identifier Source="GRID">grid.24516.34</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y" EqualContrib="Y">
+                    <LastName>Cong</LastName>
+                    <ForeName>Peisheng</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Tongji University, Shanghai, China.</Affiliation>
+                        <Identifier Source="ISNI">0000000123704535</Identifier>
+                        <Identifier Source="GRID">grid.24516.34</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y" EqualContrib="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Tonghua</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Tongji University, Shanghai, China.</Affiliation>
+                        <Identifier Source="ISNI">0000000123704535</Identifier>
+                        <Identifier Source="GRID">grid.24516.34</Identifier>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BioData Min</MedlineTA>
+            <NlmUniqueID>101319161</NlmUniqueID>
+            <ISSNLinking>1756-0381</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2016 Jul 8;44(W1):W430-5</RefSource>
+                <PMID Version="1">27112573</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2007 Jul 1;68(1):82-91</RefSource>
+                <PMID Version="1">17436325</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Jun 15;21(12):2844-9</RefSource>
+                <PMID Version="1">15814555</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2004 Sep 1;56(4):753-67</RefSource>
+                <PMID Version="1">15281128</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Jan 11;6:18962</RefSource>
+                <PMID Version="1">26752681</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2005 May 3;102(18):6395-400</RefSource>
+                <PMID Version="1">15851683</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jul;40(Web Server issue):W298-302</RefSource>
+                <PMID Version="1">22553364</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 Mar 15;31(6):857-63</RefSource>
+                <PMID Version="1">25391399</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Aug 15;29(16):2056-8</RefSource>
+                <PMID Version="1">23772049</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2015;2015:678764</RefSource>
+                <PMID Version="1">26339631</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2006 Jul 1;22(13):1658-9</RefSource>
+                <PMID Version="1">16731699</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biopolymers. 1983 Dec;22(12):2577-637</RefSource>
+                <PMID Version="1">6667333</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2012 Jan 30;33(3):259-67</RefSource>
+                <PMID Version="1">22045506</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2009 May;37(8):2672-87</RefSource>
+                <PMID Version="1">19273533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BioData Min. 2015 Jan 31;8:3</RefSource>
+                <PMID Version="1">26478747</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Struct Biol. 2009 Jul 31;9:51</RefSource>
+                <PMID Version="1">19646261</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Sep 15;30(18):2592-7</RefSource>
+                <PMID Version="1">24860169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 Jul 13;12:283</RefSource>
+                <PMID Version="1">21749732</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2013 Mar 06;14:88</RefSource>
+                <PMID Version="1">23497251</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 Feb 01;12:43</RefSource>
+                <PMID Version="1">21284866</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochimie. 2013 Dec;95(12):2460-4</RefSource>
+                <PMID Version="1">24056076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W94-8</RefSource>
+                <PMID Version="1">15980589</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2007 Aug 15;68(3):636-45</RefSource>
+                <PMID Version="1">17510969</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Mol Sci. 2015 Jul 29;16(8):17315-30</RefSource>
+                <PMID Version="1">26230689</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2012 Jul;80(7):1791-7</RefSource>
+                <PMID Version="1">22434533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2002 May 1;47(2):142-53</RefSource>
+                <PMID Version="1">11933061</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1976 Jul 25;105(1):1-12</RefSource>
+                <PMID Version="1">994183</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1971 Feb 14;55(3):379-400</RefSource>
+                <PMID Version="1">5551392</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Feb 15;28(4):503-9</RefSource>
+                <PMID Version="1">22190692</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Jun 1;24(11):1401-2</RefSource>
+                <PMID Version="1">18430742</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2016 Jan 11;17 Suppl 1:8</RefSource>
+                <PMID Version="1">26818760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D475-82</RefSource>
+                <PMID Version="1">23193259</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 2006 May;15(5):1017-29</RefSource>
+                <PMID Version="1">16641487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 1997 Sep 1;25(17):3389-402</RefSource>
+                <PMID Version="1">9254694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2007 Jun 14;8:201</RefSource>
+                <PMID Version="1">17570843</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Balanceable model</Keyword>
+            <Keyword MajorTopicYN="N">Prediction</Keyword>
+            <Keyword MajorTopicYN="N">Profile</Keyword>
+            <Keyword MajorTopicYN="N">Relative solvent accessibility</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28127402</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13040-016-0121-5</ArticleId>
+            <ArticleId IdType="pii">121</ArticleId>
+            <ArticleId IdType="pmc">PMC5259893</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,226 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28120144</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-5447</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Australasian physical &amp; engineering sciences in medicine</Title>
+                <ISOAbbreviation>Australas Phys Eng Sci Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Predicting prostate tumour location from multiparametric MRI using Gaussian kernel support vector machines: a preliminary study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>39-49</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s13246-016-0515-1</ELocationID>
+            <Abstract>
+                <AbstractText>The performance of a support vector machine (SVM) algorithm was investigated to predict prostate tumour location using multi-parametric MRI (mpMRI) data. The purpose was to obtain information of prostate tumour location for the implementation of bio-focused radiotherapy. In vivo mpMRI data were collected from 16 patients prior to radical prostatectomy. Sequences included T2-weighted imaging, diffusion-weighted imaging and dynamic contrast enhanced imaging. In vivo mpMRI was registered with 'ground truth' histology, using ex vivo MRI as an intermediate registration step to improve accuracy. Prostate contours were delineated by a radiation oncologist and tumours were annotated on histology by a pathologist. Five patients with minimal imaging artefacts were selected for this study. A Gaussian kernel SVM was trained and tested on different patient data subsets. Parameters were optimised using leave-oneout cross validation. Signal intensities of mpMRI were used as features and histology annotations as true labels. Prediction accuracy, as well as area under the curve (AUC) of the receiver operating characteristics (ROC) curve, were used to assess performance. Results demonstrated the prediction accuracy ranged from 70.4 to 87.1% and AUC of ROC ranged from 0.81 to 0.94. Additional investigations showed the apparent diffusion coefficient map from diffusion weighted imaging was the most important imaging modality for predicting tumour location. Future work will incorporate additional patient data into the framework to increase the sensitivity and specificity of the model, and will be extended to incorporate predictions of biological characteristics of the tumour which will be used in bio-focused radiotherapy optimisation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Yu</ForeName>
+                    <Initials>Y</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5206-8782</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia. yu.sun@petermac.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physical Sciences, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia. yu.sun@petermac.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reynolds</LastName>
+                    <ForeName>Hayley</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physical Sciences, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wraith</LastName>
+                    <ForeName>Darren</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Health and Biomedical Innovation, Queensland University of Technology, Brisbane, QLD, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Williams</LastName>
+                    <ForeName>Scott</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Radiation Oncology and Cancer Imaging, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Finnegan</LastName>
+                    <ForeName>Mary E</ForeName>
+                    <Initials>ME</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging, Imperial College Healthcare NHS Trust, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioengineering, Imperial College London, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mitchell</LastName>
+                    <ForeName>Catherine</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Murphy</LastName>
+                    <ForeName>Declan</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cancer Surgery, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ebert</LastName>
+                    <ForeName>Martin A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Sir Charles Gairdner Hospital, Perth, WA, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Physics, University of Western Australia, Perth, WA, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Haworth</LastName>
+                    <ForeName>Annette</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physical Sciences, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Australas Phys Eng Sci Med</MedlineTA>
+            <NlmUniqueID>8208130</NlmUniqueID>
+            <ISSNLinking>0158-9938</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019540" MajorTopicYN="N">Area Under Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="Y">Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011471" MajorTopicYN="N">Prostatic Neoplasms</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012372" MajorTopicYN="N">ROC Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="Y">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bio-focused therapy</Keyword>
+            <Keyword MajorTopicYN="N">Focal therapy</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Multiparametric MRI</Keyword>
+            <Keyword MajorTopicYN="N">Prostate cancer</Keyword>
+            <Keyword MajorTopicYN="N">Support vector machines</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28120144</ArticleId>
+            <ArticleId IdType="doi">10.1007/s13246-016-0515-1</ArticleId>
+            <ArticleId IdType="pii">10.1007/s13246-016-0515-1</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

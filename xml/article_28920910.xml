@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28920910</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Online Density Estimation of Nonstationary Sources Using Exponential Family of Distributions.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2017.2740003</ELocationID>
+            <Abstract>
+                <AbstractText>We investigate online probability density estimation (or learning) of nonstationary (and memoryless) sources using exponential family of distributions. To this end, we introduce a truly sequential algorithm that achieves Hannan-consistent log-loss regret performance against true probability distribution without requiring any information about the observation sequence (e.g., the time horizon T and the drift of the underlying distribution C) to optimize its parameters. Our results are guaranteed to hold in an individual sequence manner. Our log-loss performance with respect to the true probability density has regret bounds of O((CT)1/2), where C is the total change (drift) in the natural parameters of the underlying distribution. To achieve this, we design a variety of probability density estimators with exponentially quantized learning rates and merge them with a mixture-of-experts notion. Hence, we achieve this square-root regret with computational complexity only logarithmic in the time horizon. Thus, our algorithm can be efficiently used in big data applications. Apart from the regret bounds, through synthetic and real-life experiments, we demonstrate substantial performance gains with respect to the state-of-the-art probability density estimation algorithms in the literature.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gokcesu</LastName>
+                    <ForeName>Kaan</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kozat</LastName>
+                    <ForeName>Suleyman S</ForeName>
+                    <Initials>SS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28920910</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2017.2740003</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,157 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29187143</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>528</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1909-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">DNA methylation is an epigenetic modification that is studied at a single-base resolution with bisulfite treatment followed by high-throughput sequencing. After alignment of the sequence reads to a reference genome, methylation counts are analyzed to determine genomic regions that are differentially methylated between two or more biological conditions. Even though a variety of software packages is available for different aspects of the bioinformatics analysis, they often produce results that are biased or require excessive computational requirements.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">DMRfinder is a novel computational pipeline that identifies differentially methylated regions efficiently. Following alignment, DMRfinder extracts methylation counts and performs a modified single-linkage clustering of methylation sites into genomic regions. It then compares methylation levels using beta-binomial hierarchical modeling and Wald tests. Among its innovative attributes are the analyses of novel methylation sites and methylation linkage, as well as the simultaneous statistical analysis of multiple sample groups. To demonstrate its efficiency, DMRfinder is benchmarked against other computational approaches using a large published dataset. Contrasting two replicates of the same sample yielded minimal genomic regions with DMRfinder, whereas two alternative software packages reported a substantial number of false positives. Further analyses of biological samples revealed fundamental differences between DMRfinder and another software package, despite the fact that they utilize the same underlying statistical basis. For each step, DMRfinder completed the analysis in a fraction of the time required by other software.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Among the computational approaches for identifying differentially methylated regions from high-throughput bisulfite sequencing datasets, DMRfinder is the first that integrates all the post-alignment steps in a single package. Compared to other software, DMRfinder is extremely efficient and unbiased in this process. DMRfinder is free and open-source software, available on GitHub ( github.com/jsh58/DMRfinder ); it is written in Python and R, and is supported on Linux.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gaspar</LastName>
+                    <ForeName>John M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmaceutics, Rutgers University, Piscataway, NJ, USA. jsh58@wildcats.unh.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hart</LastName>
+                    <ForeName>Ronald P</ForeName>
+                    <Initials>RP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cell Biology and Neuroscience, Rutgers University, Piscataway, NJ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R21DA035594</GrantID>
+                    <Agency>National Institutes of Health</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 ES026057</GrantID>
+                    <Acronym>ES</Acronym>
+                    <Agency>NIEHS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>1R01AT009152</GrantID>
+                    <Agency>National Institutes of Health</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R21 DA035594</GrantID>
+                    <Acronym>DA</Acronym>
+                    <Agency>NIDA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>1R01ES026057</GrantID>
+                    <Agency>National Institutes of Health</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R21 DA039686</GrantID>
+                    <Acronym>DA</Acronym>
+                    <Agency>NIDA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 AT009152</GrantID>
+                    <Acronym>AT</Acronym>
+                    <Agency>NCCIH NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bisulfite sequencing</Keyword>
+            <Keyword MajorTopicYN="N">CpG islands</Keyword>
+            <Keyword MajorTopicYN="N">DNA methylation</Keyword>
+            <Keyword MajorTopicYN="N">Single-linkage clustering</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29187143</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1909-0</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1909-0</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

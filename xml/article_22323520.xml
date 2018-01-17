@@ -1,0 +1,348 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28797240</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2164</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>10</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC genomics</Title>
+                <ISOAbbreviation>BMC Genomics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A comparison of Illumina and Ion Torrent sequencing platforms in the context of differential gene expression.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>602</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12864-017-4011-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Though Illumina has largely dominated the RNA-Seq field, the simultaneous availability of Ion Torrent has left scientists wondering which platform is most effective for differential gene expression (DGE) analysis. Previous investigations of this question have typically used reference samples derived from cell lines and brain tissue, and do not involve biological variability. While these comparisons might inform studies of tissue-specific expression, marked by large-scale transcriptional differences, this is not the common use case.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here we employ a standard treatment/control experimental design, which enables us to evaluate these platforms in the context of the expression differences common in differential gene expression experiments. Specifically, we assessed the hepatic inflammatory response of mice by assaying liver RNA from control and IL-1β treated animals with both the Illumina HiSeq and the Ion Torrent Proton sequencing platforms. We found the greatest difference between the platforms at the level of read alignment, a moderate level of concordance at the level of DGE analysis, and nearly identical results at the level of differentially affected pathways. Interestingly, we also observed a strong interaction between sequencing platform and choice of aligner. By aligning both real and simulated Illumina and Ion Torrent data with the twelve most commonly-cited aligners in the literature, we observed that different aligner and platform combinations were better suited to probing different genomic features; for example, disentangling the source of expression in gene-pseudogene pairs.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Taken together, our results indicate that while Illumina and Ion Torrent have similar capacities to detect changes in biology from a treatment/control experiment, these platforms may be tailored to interrogate different transcriptional phenomena through careful selection of alignment software.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lahens</LastName>
+                    <ForeName>Nicholas F</ForeName>
+                    <Initials>NF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA. nif@mail.med.upenn.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ricciotti</LastName>
+                    <ForeName>Emanuela</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Smirnova</LastName>
+                    <ForeName>Olga</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Diabetes, Obesity and Metabolism, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Toorens</LastName>
+                    <ForeName>Erik</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Penn Genomic Analysis Core, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Eun Ji</ForeName>
+                    <Initials>EJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baruzzo</LastName>
+                    <ForeName>Giacomo</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Information Engineering, University of Padova, Padova, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayer</LastName>
+                    <ForeName>Katharina E</ForeName>
+                    <Initials>KE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ganguly</LastName>
+                    <ForeName>Tapan</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Penn Genomic Analysis Core, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Abramson Cancer Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schug</LastName>
+                    <ForeName>Jonathan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Diabetes, Obesity and Metabolism, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grant</LastName>
+                    <ForeName>Gregory R</ForeName>
+                    <Initials>GR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P30 CA016520</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U54 HL117798</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR000003</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Genomics</MedlineTA>
+            <NlmUniqueID>100965258</NlmUniqueID>
+            <ISSNLinking>1471-2164</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Metab Eng. 2003 Apr;5(2):108-23</RefSource>
+                <PMID Version="1">12850133</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2017 Feb;14 (2):135-139</RefSource>
+                <PMID Version="1">27941783</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Mar 04;9(4):357-9</RefSource>
+                <PMID Version="1">22388286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2014 Sep;32(9):888-95</RefSource>
+                <PMID Version="1">25150837</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mediators Inflamm. 2015;2015:630265</RefSource>
+                <PMID Version="1">26549942</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methods Med Res. 2013 Oct;22(5):519-36</RefSource>
+                <PMID Version="1">22127579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2016 May;17(5):257-71</RefSource>
+                <PMID Version="1">26996076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2014 Sep;32(9):915-925</RefSource>
+                <PMID Version="1">25150835</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2012 May;30(5):434-9</RefSource>
+                <PMID Version="1">22522955</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2012 Jul 24;13:341</RefSource>
+                <PMID Version="1">22827831</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2014 Sep;32(9):903-14</RefSource>
+                <PMID Version="1">25150838</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Rheumatology (Oxford). 2004 Jun;43 Suppl 3:iii2-iii9</RefSource>
+                <PMID Version="1">15150426</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Dec 15;10(12):e0144811</RefSource>
+                <PMID Version="1">26669558</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Appl Environ Microbiol. 2014 Dec;80(24):7583-91</RefSource>
+                <PMID Version="1">25261520</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2006 Sep;24(9):1151-61</RefSource>
+                <PMID Version="1">16964229</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Mar 20;9(3):e92192</RefSource>
+                <PMID Version="1">24651575</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Jan 1;29(1):15-21</RefSource>
+                <PMID Version="1">23104886</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Semin Immunol. 2013 Dec 15;25(6):469-84</RefSource>
+                <PMID Version="1">24275598</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D84-90</RefSource>
+                <PMID Version="1">22086963</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Sep 15;27(18):2518-28</RefSource>
+                <PMID Version="1">21775302</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 1983 Mar;32(3):755-61</RefSource>
+                <PMID Version="1">6831559</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2010 Jan;38(Database issue):D613-9</RefSource>
+                <PMID Version="1">19906737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2015 Dec 16;16:1069</RefSource>
+                <PMID Version="1">26673413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Apr 20;43(7):e47</RefSource>
+                <PMID Version="1">25605792</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Apr 1;26(7):873-81</RefSource>
+                <PMID Version="1">20147302</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2017 Jan 17;18(1):38</RefSource>
+                <PMID Version="1">28095772</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Gastroenterol Hepatol. 2015 Jul;12 (7):387-400</RefSource>
+                <PMID Version="1">26055245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2004 Mar 09;5(1):20</RefSource>
+                <PMID Version="1">15113400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2016 May 26;17:403</RefSource>
+                <PMID Version="1">27229683</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2013 May 29;14(5):R51</RefSource>
+                <PMID Version="1">23718773</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 May;40(10):e72</RefSource>
+                <PMID Version="1">22323520</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Differential expression</Keyword>
+            <Keyword MajorTopicYN="N">Illumina</Keyword>
+            <Keyword MajorTopicYN="N">Ion Torrent</Keyword>
+            <Keyword MajorTopicYN="N">Pathway analysis</Keyword>
+            <Keyword MajorTopicYN="N">RNA-Seq</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28797240</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12864-017-4011-0</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12864-017-4011-0</ArticleId>
+            <ArticleId IdType="pmc">PMC5553782</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

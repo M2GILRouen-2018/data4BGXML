@@ -1,0 +1,644 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">26674805</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>17</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>17</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1756-0381</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>8</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BioData mining</Title>
+                <ISOAbbreviation>BioData Min</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Identifying gene-gene interactions that are highly associated with Body Mass Index using Quantitative Multifactor Dimensionality Reduction (QMDR).</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>41</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13040-015-0074-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Despite heritability estimates of 40-70 % for obesity, less than 2 % of its variation is explained by Body Mass Index (BMI) associated loci that have been identified so far. Epistasis, or gene-gene interactions are a plausible source to explain portions of the missing heritability of BMI.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Using genotypic data from 18,686 individuals across five study cohorts - ARIC, CARDIA, FHS, CHS, MESA - we filtered SNPs (Single Nucleotide Polymorphisms) using two parallel approaches. SNPs were filtered either on the strength of their main effects of association with BMI, or on the number of knowledge sources supporting a specific SNP-SNP interaction in the context of BMI. Filtered SNPs were specifically analyzed for interactions that are highly associated with BMI using QMDR (Quantitative Multifactor Dimensionality Reduction). QMDR is a nonparametric, genetic model-free method that detects non-linear interactions associated with a quantitative trait.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We identified seven novel, epistatic models with a Bonferroni corrected p-value of association &lt; 0.1. Prior experimental evidence helps explain the plausible biological interactions highlighted within our results and their relationship with obesity. We identified interactions between genes involved in mitochondrial dysfunction (POLG2), cholesterol metabolism (SOAT2), lipid metabolism (CYP11B2), cell adhesion (EZR), cell proliferation (MAP2K5), and insulin resistance (IGF1R). Moreover, we found an 8.8 % increase in the variance in BMI explained by these seven SNP-SNP interactions, beyond what is explained by the main effects of an index FTO SNP and the SNPs within these interactions. We also replicated one of these interactions and 58 proxy SNP-SNP models representing it in an independent dataset from the eMERGE study.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This study highlights a novel approach for discovering gene-gene interactions by combining methods such as QMDR with traditional statistics.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>De</LastName>
+                    <ForeName>Rishika</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Genetics Laboratory, Department of Genetics, Geisel School of Medicine at Dartmouth, Dartmouth-Hitchcock Medical Center, 706 Rubin Building, HB7937, One Medical Center Dr, Lebanon, NH 03756 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Verma</LastName>
+                    <ForeName>Shefali S</ForeName>
+                    <Initials>SS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Systems Genomics, Department of Biochemistry and Molecular Biology, 512 Wartik Laboratory, The Pennsylvania State University, University Park, PA 16802 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Drenos</LastName>
+                    <ForeName>Fotios</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Cardiovascular Genetics, Institute of Cardiovascular Science, Faculty of Population Health Sciences, University College London, 5 University Street, London, WC1E 6JF UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Holzinger</LastName>
+                    <ForeName>Emily R</ForeName>
+                    <Initials>ER</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Systems Genomics, Department of Biochemistry and Molecular Biology, 512 Wartik Laboratory, The Pennsylvania State University, University Park, PA 16802 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Holmes</LastName>
+                    <ForeName>Michael V</ForeName>
+                    <Initials>MV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Transplant Surgery, Perelman School of Medicine, University of Pennsylvania, 3400 Spruce Street, 2 Dulles Pvln, Philadelphia, PA 19104 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hall</LastName>
+                    <ForeName>Molly A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Systems Genomics, Department of Biochemistry and Molecular Biology, 512 Wartik Laboratory, The Pennsylvania State University, University Park, PA 16802 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Crosslin</LastName>
+                    <ForeName>David R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genome Sciences, University of Washington, 3720 15th Ave NE, Seattle, WA 98195-5065 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Carrell</LastName>
+                    <ForeName>David S</ForeName>
+                    <Initials>DS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Group Health Research Institute, Metropolitan Park East, 1730 Minor Avenue, Suite 1600, Seattle, WA 98101-1448 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hakonarson</LastName>
+                    <ForeName>Hakon</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Joseph Stokes Jr. Research Institute, The Children's Hospital of Philadelphia, Office 1016 Abramson Building, Room 1216E, 3615 Civic Center Blvd, Philadelphia, PA 19104 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jarvik</LastName>
+                    <ForeName>Gail</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genome Sciences, University of Washington, 3720 15th Ave NE, Seattle, WA 98195-5065 USA ; Division of Medical Genetics, Department of Medicine, University of Washington, Health Sciences Building, K-253B, Medical Genetics, Box 357720, Seattle, WA 98195-7720 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Larson</LastName>
+                    <ForeName>Eric</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Group Health Research Institute, Metropolitan Park East, 1730 Minor Avenue, Suite 1600, Seattle, WA 98101-1448 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pacheco</LastName>
+                    <ForeName>Jennifer A</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Genetic Medicine, Northwestern University Feinberg School of Medicine, 303 E. Superior Street, Lurie 7-125, Chicago, IL 60611 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rasmussen-Torvik</LastName>
+                    <ForeName>Laura J</ForeName>
+                    <Initials>LJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Preventive Medicine, Northwestern University, Feinberg School of Medicine, 680 N Lake Shore Drive, Suite 1400, Chicago, IL 60611 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moore</LastName>
+                    <ForeName>Carrie B</ForeName>
+                    <Initials>CB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Systems Genomics, Department of Biochemistry and Molecular Biology, 512 Wartik Laboratory, The Pennsylvania State University, University Park, PA 16802 USA ; Center for Human Genetics Research, Vanderbilt University School of Medicine, 519 Light Hall, Nashville, TN 37232 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Asselbergs</LastName>
+                    <ForeName>Folkert W</ForeName>
+                    <Initials>FW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Division Heart and Lungs, University Medical Center Utrecht, Room E03.511, P.O. Box 85500, 3508 GA Utrecht, The Netherlands ; Institute of Cardiovascular Science, University College London, London, UK ; Durrer Center for Cardiogenetic Research, ICIN-Netherlands Heart Institute, Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moore</LastName>
+                    <ForeName>Jason H</ForeName>
+                    <Initials>JH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Biomedical Informatics, The Perelman School of Medicine, University of Pennsylvania, 1418 Blockley Hall, 423 Guardian Drive, Philadelphia, PA 19104-6021 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ritchie</LastName>
+                    <ForeName>Marylyn D</ForeName>
+                    <Initials>MD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Systems Genomics, Department of Biochemistry and Molecular Biology, 512 Wartik Laboratory, The Pennsylvania State University, University Park, PA 16802 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Keating</LastName>
+                    <ForeName>Brendan J</ForeName>
+                    <Initials>BJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Joseph Stokes Jr. Research Institute, The Children's Hospital of Philadelphia, Office 1016 Abramson Building, Room 1216E, 3615 Civic Center Blvd, Philadelphia, PA 19104 USA ; University Medical Center Utrecht, Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gilbert-Diamond</LastName>
+                    <ForeName>Diane</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Quantitative Biomedical Sciences at Dartmouth, Hanover, NH USA ; Department of Epidemiology, Geisel School of Medicine at Dartmouth, One Medical Center Drive, 7927 Rubin Building, Lebanon, NH 03756 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>U01 HG006385</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P20 GM103534</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006375</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P20 GM103506</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG004438</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG008657</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006382</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG004424</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006389</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG008684</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 LM011360</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006828</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006380</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 LM010098</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006388</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 LM009012</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006378</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006379</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MC_UU_12013/5</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P20 GM104416</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HG006830</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BioData Min</MedlineTA>
+            <NlmUniqueID>101319161</NlmUniqueID>
+            <ISSNLinking>1756-0381</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Dec 15;24(24):2938-9</RefSource>
+                <PMID Version="1">18974171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2004 Apr 7;291(13):1642-3</RefSource>
+                <PMID Version="1">15069055</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 15;308(5720):419-21</RefSource>
+                <PMID Version="1">15761120</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Aug 24;101(34):12670-5</RefSource>
+                <PMID Version="1">15314230</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2000 Jan 1;28(1):27-30</RefSource>
+                <PMID Version="1">10592173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Med. 2014 Jun 09;6(6):124</RefSource>
+                <PMID Version="1">25031624</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2006 Aug;38(8):904-9</RefSource>
+                <PMID Version="1">16862161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Med. 2000 Dec;6(12):1341-7</RefSource>
+                <PMID Version="1">11100118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 15;308(5720):421-4</RefSource>
+                <PMID Version="1">15761121</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2007 Jul;3(7):e115</RefSource>
+                <PMID Version="1">17658951</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Genomics. 2011 Jan 26;4:13</RefSource>
+                <PMID Version="1">21269473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2010 Jun 03;6(6):e1000976</RefSource>
+                <PMID Version="1">20532202</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jan;42(Database issue):D472-7</RefSource>
+                <PMID Version="1">24243840</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Atherosclerosis. 2000 Nov;153(1):241-8</RefSource>
+                <PMID Version="1">11058720</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2007 Jun 28;447(7148):1087-93</RefSource>
+                <PMID Version="1">17529967</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Obes Relat Metab Disord. 2004 Nov;28(11):1357-64</RefSource>
+                <PMID Version="1">15356668</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BioData Min. 2013 Dec 30;6(1):25</RefSource>
+                <PMID Version="1">24378202</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 15;308(5720):385-9</RefSource>
+                <PMID Version="1">15761122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Med. 2002;34(2):88-95</RefSource>
+                <PMID Version="1">12108579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 1989 Apr;129(4):687-702</RefSource>
+                <PMID Version="1">2646917</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Med. 2002 Mar-Apr;4(2):45-61</RefSource>
+                <PMID Version="1">11882781</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2007 May 11;316(5826):889-94</RefSource>
+                <PMID Version="1">17434869</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hypertens. 2010 Jun;23(6):660-7</RefSource>
+                <PMID Version="1">20224556</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Physiol Cell Physiol. 2010 Mar;298(3):C450-6</RefSource>
+                <PMID Version="1">19923424</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2001 Jul;69(1):138-47</RefSource>
+                <PMID Version="1">11404819</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2004 Oct;2(10):e294</RefSource>
+                <PMID Version="1">15328533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011 May 11;6(5):e19586</RefSource>
+                <PMID Version="1">21589926</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Obesity (Silver Spring). 2011 Dec;19(12):2436-9</RefSource>
+                <PMID Version="1">21779088</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Metab. 2006 Nov;4(5):407-14</RefSource>
+                <PMID Version="1">17084713</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2002 Nov 1;156(9):871-81</RefSource>
+                <PMID Version="1">12397006</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Behav Genet. 1997 Jul;27(4):325-51</RefSource>
+                <PMID Version="1">9519560</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Nov;42(11):937-48</RefSource>
+                <PMID Version="1">20935630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Genet. 2012 Oct;131(10):1655-64</RefSource>
+                <PMID Version="1">22821350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Biochem Cell Biol. 2009 Oct;41(10):1846-54</RefSource>
+                <PMID Version="1">19703653</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2004 Aug;4(8):579-91</RefSource>
+                <PMID Version="1">15286738</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2014 Jan;15(1):22-33</RefSource>
+                <PMID Version="1">24296533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2008;3(10):e3583</RefSource>
+                <PMID Version="1">18974833</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hypertens. 2007 Feb;20(2):218-22</RefSource>
+                <PMID Version="1">17261471</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Epidemiol. 1988;41(11):1105-16</RefSource>
+                <PMID Version="1">3204420</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jul;40(Web Server issue):W484-90</RefSource>
+                <PMID Version="1">22684505</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2010 Jun;11(6):446-50</RefSource>
+                <PMID Version="1">20479774</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2014 Feb 26;311(8):806-14</RefSource>
+                <PMID Version="1">24570244</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Feb 15;26(4):445-55</RefSource>
+                <PMID Version="1">20053841</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Obes (Lond). 2008 Sep;32(9):1431-7</RefSource>
+                <PMID Version="1">18607383</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Hered. 2003;56(1-3):73-82</RefSource>
+                <PMID Version="1">14614241</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2010;:327-36</RefSource>
+                <PMID Version="1">19908385</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2009 Oct 8;461(7265):747-53</RefSource>
+                <PMID Version="1">19812666</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2009;:368-79</RefSource>
+                <PMID Version="1">19209715</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2006 Dec 14;444(7121):840-6</RefSource>
+                <PMID Version="1">17167471</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2001 Nov 6;98(23):13219-24</RefSource>
+                <PMID Version="1">11687612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Clin Nutr. 2000 Jul;72(1):82-8</RefSource>
+                <PMID Version="1">10871565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2007 Sep;81(3):559-75</RefSource>
+                <PMID Version="1">17701901</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Physiol Heart Circ Physiol. 2005 May;288(5):H2031-41</RefSource>
+                <PMID Version="1">15653761</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 1986 Jul 4;256(1):51-4</RefSource>
+                <PMID Version="1">3712713</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FASEB J. 2007 Jul;21(9):2185-94</RefSource>
+                <PMID Version="1">17384139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Genet. 2014 Apr 30;5:106</RefSource>
+                <PMID Version="1">24817878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2012 Feb 1;21(3):711-20</RefSource>
+                <PMID Version="1">22021425</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Jun 21;8(6):e66545</RefSource>
+                <PMID Version="1">23805232</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2013 Jan 1;22(1):184-201</RefSource>
+                <PMID Version="1">23001569</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Epidemiol. 1991 Feb;1(3):263-76</RefSource>
+                <PMID Version="1">1669507</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Public Health Nations Health. 1951 Mar;41(3):279-81</RefSource>
+                <PMID Version="1">14819398</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1988 Aug;85(16):5829-33</RefSource>
+                <PMID Version="1">2901091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2004 Jun 18;279(25):26627-34</RefSource>
+                <PMID Version="1">15087446</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <OtherID Source="NLM">PMC4678717</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Epistasis</Keyword>
+            <Keyword MajorTopicYN="N">GWAS</Keyword>
+            <Keyword MajorTopicYN="N">Gene-gene interaction</Keyword>
+            <Keyword MajorTopicYN="N">Multifactor dimensionality reduction</Keyword>
+            <Keyword MajorTopicYN="N">Obesity</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26674805</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13040-015-0074-0</ArticleId>
+            <ArticleId IdType="pii">74</ArticleId>
+            <ArticleId IdType="pmc">PMC4678717</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

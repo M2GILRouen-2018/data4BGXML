@@ -1,0 +1,412 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26283093</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>08</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>05</Month>
+            <Day>02</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2164</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Aug</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC genomics</Title>
+                <ISOAbbreviation>BMC Genomics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>PhosphOrtholog: a web-based tool for cross-species mapping of orthologous protein post-translational modifications.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>617</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12864-015-1820-x</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Most biological processes are influenced by protein post-translational modifications (PTMs). Identifying novel PTM sites in different organisms, including humans and model organisms, has expedited our understanding of key signal transduction mechanisms. However, with increasing availability of deep, quantitative datasets in diverse species, there is a growing need for tools to facilitate cross-species comparison of PTM data. This is particularly important because functionally important modification sites are more likely to be evolutionarily conserved; yet cross-species comparison of PTMs is difficult since they often lie in structurally disordered protein domains. Current tools that address this can only map known PTMs between species based on known orthologous phosphosites, and do not enable the cross-species mapping of newly identified modification sites. Here, we addressed this by developing a web-based software tool, PhosphOrtholog ( www.phosphortholog.com ) that accurately maps protein modification sites between different species. This facilitates the comparison of datasets derived from multiple species, and should be a valuable tool for the proteomics community.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here we describe PhosphOrtholog, a web-based application for mapping known and novel orthologous PTM sites from experimental data obtained from different species. PhosphOrtholog is the only generic and automated tool that enables cross-species comparison of large-scale PTM datasets without relying on existing PTM databases. This is achieved through pairwise sequence alignment of orthologous protein residues. To demonstrate its utility we apply it to two sets of human and rat muscle phosphoproteomes generated following insulin and exercise stimulation, respectively, and one publicly available mouse phosphoproteome following cellular stress revealing high mapping and coverage efficiency. Although coverage statistics are dataset dependent, PhosphOrtholog increased the number of cross-species mapped sites in all our example data sets by more than double when compared to those recovered using existing resources such as PhosphoSitePlus.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">PhosphOrtholog is the first tool that enables mapping of thousands of novel and known protein phosphorylation sites across species, accessible through an easy-to-use web interface. Identification of conserved PTMs across species from large-scale experimental data increases our knowledgebase of functional PTM sites. Moreover, PhosphOrtholog is generic being applicable to other PTM datasets such as acetylation, ubiquitination and methylation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chaudhuri</LastName>
+                    <ForeName>Rima</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. rima.chaudhuri@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. rima.chaudhuri@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sadrieh</LastName>
+                    <ForeName>Arash</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lowy Packer Building, Victor Chang Cardiac Research Institute, 405 Liverpool Street, Darlinghurst, NSW, 2010, Australia. a.sadrieh@victorchang.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hoffman</LastName>
+                    <ForeName>Nolan J</ForeName>
+                    <Initials>NJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. nolan.hoffman@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. nolan.hoffman@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Parker</LastName>
+                    <ForeName>Benjamin L</ForeName>
+                    <Initials>BL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. benjamin.parker@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. benjamin.parker@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Humphrey</LastName>
+                    <ForeName>Sean J</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Proteomics and Signal Transduction, Max Planck Institute for Biochemistry, Martinsried, Germany. humphrey@biochem.mpg.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stöckli</LastName>
+                    <ForeName>Jacqueline</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. jacqueline.stoeckli@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. jacqueline.stoeckli@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hill</LastName>
+                    <ForeName>Adam P</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lowy Packer Building, Victor Chang Cardiac Research Institute, 405 Liverpool Street, Darlinghurst, NSW, 2010, Australia. a.hill@victorchang.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>James</LastName>
+                    <ForeName>David E</ForeName>
+                    <Initials>DE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. david.james@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. david.james@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Jean Yee Hwa</ForeName>
+                    <Initials>JY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Mathematics and Statistics, University of Sydney, Camperdown, NSW, 2006, Australia. jean.yang@sydney.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>08</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Genomics</MedlineTA>
+            <NlmUniqueID>100965258</NlmUniqueID>
+            <ISSNLinking>1471-2164</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D020543">Proteome</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2010 Jan;9(1):84-99</RefSource>
+                <PMID Version="1">19770167</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2011;2011:bar009</RefSource>
+                <PMID Version="1">21447597</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2002 Jan 1;30(1):13-6</RefSource>
+                <PMID Version="1">11752242</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetologia. 2013 Apr;56(4):875-85</RefSource>
+                <PMID Version="1">23344726</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2006 Nov 3;127(3):635-48</RefSource>
+                <PMID Version="1">17081983</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2008 Mar;26(3):274-5</RefSource>
+                <PMID Version="1">18327232</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2010 Dec;9(12):2642-53</RefSource>
+                <PMID Version="1">20688971</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Rep. 2014 Sep 11;8(5):1583-94</RefSource>
+                <PMID Version="1">25159151</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2002 Dec 6;298(5600):1912-34</RefSource>
+                <PMID Version="1">12471243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Aug 15;21(16):3439-40</RefSource>
+                <PMID Version="1">16082012</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011;12:357</RefSource>
+                <PMID Version="1">21880147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2007;8(5):R90</RefSource>
+                <PMID Version="1">17521420</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2004 Aug;22(8):1035-6</RefSource>
+                <PMID Version="1">15286655</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2013 Dec;12(12):3444-52</RefSource>
+                <PMID Version="1">24187339</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Jul 1;29(13):1693-5</RefSource>
+                <PMID Version="1">23658419</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Jun 15;24(12):1426-32</RefSource>
+                <PMID Version="1">18426804</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D1063-9</RefSource>
+                <PMID Version="1">23203882</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1992 Nov 15;89(22):10915-9</RefSource>
+                <PMID Version="1">1438297</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 Dec 4;104(49):19428-33</RefSource>
+                <PMID Version="1">18040051</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2008;9(10):R144</RefSource>
+                <PMID Version="1">18828897</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2006 Oct;24(10):1285-92</RefSource>
+                <PMID Version="1">16964243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2015 Jan;15(2-3):591-607</RefSource>
+                <PMID Version="1">25263469</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2002 May;1(5):376-86</RefSource>
+                <PMID Version="1">12118079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2008 Jan;7(1):145-62</RefSource>
+                <PMID Version="1">17934212</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2004 Jun;4(6):1551-61</RefSource>
+                <PMID Version="1">15174125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2008 Feb;7(2):299-307</RefSource>
+                <PMID Version="1">17938405</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Signal. 2009;2(81):ra39</RefSource>
+                <PMID Version="1">19638616</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Proteome Res. 2011 Apr 1;10(4):1794-805</RefSource>
+                <PMID Version="1">21254760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2008 Dec;26(12):1367-72</RefSource>
+                <PMID Version="1">19029910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Proteome Res. 2011 Dec 2;10(12):5354-62</RefSource>
+                <PMID Version="1">22073976</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2006 Jan 1;34(Database issue):D489-94</RefSource>
+                <PMID Version="1">16381918</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2011 Jan;39(Database issue):D253-60</RefSource>
+                <PMID Version="1">21081558</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2009;4(8):1184-91</RefSource>
+                <PMID Version="1">19617889</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Metab. 2013 Jun 4;17(6):1009-20</RefSource>
+                <PMID Version="1">23684622</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Electrophoresis. 1999 Dec;20(18):3551-67</RefSource>
+                <PMID Version="1">10612281</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2001 Dec 14;314(5):1041-52</RefSource>
+                <PMID Version="1">11743721</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Genet. 2009 May;25(5):193-7</RefSource>
+                <PMID Version="1">19349092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2007;3:139</RefSource>
+                <PMID Version="1">17940529</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2007;8(11):R250</RefSource>
+                <PMID Version="1">18039369</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Soc Mass Spectrom. 1994 Nov;5(11):976-89</RefSource>
+                <PMID Version="1">24226387</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D261-70</RefSource>
+                <PMID Version="1">22135298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Jan;43(Database issue):D512-20</RefSource>
+                <PMID Version="1">25514926</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jan;42(Database issue):D191-8</RefSource>
+                <PMID Version="1">24253303</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030562" MajorTopicYN="N">Databases, Protein</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020407" MajorTopicYN="N">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051379" MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010766" MajorTopicYN="N">Phosphorylation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011499" MajorTopicYN="Y">Protein Processing, Post-Translational</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020543" MajorTopicYN="N">Proteome</DescriptorName>
+                <QualifierName UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051381" MajorTopicYN="N">Rats</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020539" MajorTopicYN="N">Sequence Analysis, Protein</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4539857</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>5</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26283093</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12864-015-1820-x</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12864-015-1820-x</ArticleId>
+            <ArticleId IdType="pmc">PMC4539857</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,203 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28943718</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0920-5691</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>123</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of computer vision</Title>
+                <ISOAbbreviation>Int J Comput Vis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Branch-and-Bound Framework for Unsupervised Common Event Discovery.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>372-391</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s11263-017-0989-7</ELocationID>
+            <Abstract>
+                <AbstractText>Event discovery aims to discover a temporal segment of interest, such as human behavior, actions or activities. Most approaches to event discovery within or between time series use supervised learning. This becomes problematic when some relevant event labels are unknown, are difficult to detect, or not all possible combinations of events have been anticipated. To overcome these problems, this paper explores Common Event Discovery (CED), a new problem that aims to discover common events of variable-length segments in an unsupervised manner. A potential solution to CED is searching over all possible pairs of segments, which would incur a prohibitive quartic cost. In this paper, we propose an efficient branch-and-bound (B&amp;B) framework that avoids exhaustive search while guaranteeing a globally optimal solution. To this end, we derive novel bounding functions for various commonality measures and provide extensions to multiple commonality discovery and accelerated search. The B&amp;B framework takes as input any multidimensional signal that can be quantified into histograms. A generalization of the framework can be readily applied to discover events at the same or different times (synchrony and event commonality, respectively). We consider extensions to video search and supervised event detection. The effectiveness of the B&amp;B framework is evaluated in motion capture of deliberate behavior and in video of spontaneous facial behavior in diverse interpersonal contexts: interviews, small groups of young adults, and parent-infant face-to-face interaction.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chu</LastName>
+                    <ForeName>Wen-Sheng</ForeName>
+                    <Initials>WS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robotics Institute, Carnegie Mellon University, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De la Torre</LastName>
+                    <ForeName>Fernando</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robotics Institute, Carnegie Mellon University, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cohn</LastName>
+                    <ForeName>Jeffrey F</ForeName>
+                    <Initials>JF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robotics Institute, Carnegie Mellon University, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychology, University of Pittsburgh, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Messinger</LastName>
+                    <ForeName>Daniel S</ForeName>
+                    <Initials>DS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychology, University of Miami, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 GM105004</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 MH096951</GrantID>
+                    <Acronym>MH</Acronym>
+                    <Agency>NIMH NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Int J Comput Vis</MedlineTA>
+            <NlmUniqueID>101189508</NlmUniqueID>
+            <ISSNLinking>0920-5691</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc IEEE Int Conf Comput Vis. 2013;2013:2400-2407</RefSource>
+                <PMID Version="1">25264433</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc IEEE Comput Soc Conf Comput Vis Pattern Recognit. 2011;:1881-1888</RefSource>
+                <PMID Version="1">21922079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2013 Mar;35(3):582-96</RefSource>
+                <PMID Version="1">22732658</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Int Conf Autom Face Gesture Recognit Workshops. 2015 May;1:null</RefSource>
+                <PMID Version="1">27275131</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2016 Mar 28;:</RefSource>
+                <PMID Version="1">28113267</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc IEEE Int Conf Comput Vis. 2015 Dec;2015:3146-3154</RefSource>
+                <PMID Version="1">27346988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2016 Nov;25(11):4999-5011</RefSource>
+                <PMID Version="1">27552746</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Sci. 2012 Aug 1;23(8):869-78</RefSource>
+                <PMID Version="1">22760882</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2009 Dec;31(12):2129-42</RefSource>
+                <PMID Version="1">19834136</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Netw. 2010 Oct-Nov;23(8-9):1004-16</RefSource>
+                <PMID Version="1">20863654</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2014 Apr 15;111(15):E1454-62</RefSource>
+                <PMID Version="1">24706770</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2013 Jul;35(7):1635-48</RefSource>
+                <PMID Version="1">23681992</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2011 Sep;33(9):1728-43</RefSource>
+                <PMID Version="1">21339530</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Infancy. 2009 May 1;14(3):285-305</RefSource>
+                <PMID Version="1">19885384</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Int Conf Autom Face Gesture Recognit Workshops. 2015 May;1:null</RefSource>
+                <PMID Version="1">27346987</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2010 Sep;14(5):1236-46</RefSource>
+                <PMID Version="1">20529751</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>07</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28943718</ArticleId>
+            <ArticleId IdType="doi">10.1007/s11263-017-0989-7</ArticleId>
+            <ArticleId IdType="pmc">PMC5605189</ArticleId>
+            <ArticleId IdType="mid">NIHMS845929</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

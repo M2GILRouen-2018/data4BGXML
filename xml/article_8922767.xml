@@ -1,0 +1,271 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23148492</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>11</Month>
+            <Day>28</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>04</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>02</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1472-6947</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medical informatics and decision making</Title>
+                <ISOAbbreviation>BMC Med Inform Decis Mak</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Decision tree-based learning to predict patient controlled analgesia consumption and readjustment.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>131</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1472-6947-12-131</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Appropriate postoperative pain management contributes to earlier mobilization, shorter hospitalization, and reduced cost. The under treatment of pain may impede short-term recovery and have a detrimental long-term effect on health. This study focuses on Patient Controlled Analgesia (PCA), which is a delivery system for pain medication. This study proposes and demonstrates how to use machine learning and data mining techniques to predict analgesic requirements and PCA readjustment.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The sample in this study included 1099 patients. Every patient was described by 280 attributes, including the class attribute. In addition to commonly studied demographic and physiological factors, this study emphasizes attributes related to PCA. We used decision tree-based learning algorithms to predict analgesic consumption and PCA control readjustment based on the first few hours of PCA medications. We also developed a nearest neighbor-based data cleaning method to alleviate the class-imbalance problem in PCA setting readjustment prediction.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The prediction accuracies of total analgesic consumption (continuous dose and PCA dose) and PCA analgesic requirement (PCA dose only) by an ensemble of decision trees were 80.9% and 73.1%, respectively. Decision tree-based learning outperformed Artificial Neural Network, Support Vector Machine, Random Forest, Rotation Forest, and Naïve Bayesian classifiers in analgesic consumption prediction. The proposed data cleaning method improved the performance of every learning method in this study of PCA setting readjustment prediction. Comparative analysis identified the informative attributes from the data mining models and compared them with the correlates of analgesic requirement reported in previous works.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This study presents a real-world application of data mining to anesthesiology. Unlike previous research, this study considers a wider variety of predictive factors, including PCA demands over time. We analyzed PCA patient data and conducted several experiments to evaluate the potential of applying machine-learning algorithms to assist anesthesiologists in PCA administration. Results demonstrate the feasibility of the proposed ensemble approach to postoperative pain management.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Yuh-Jyh</ForeName>
+                    <Initials>YJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Biomedical Engineering, National Chiao Tung University, Hsinchu, Taiwan. yhu@cs.nctu.edu.tw</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ku</LastName>
+                    <ForeName>Tien-Hsiung</ForeName>
+                    <Initials>TH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jan</LastName>
+                    <ForeName>Rong-Hong</ForeName>
+                    <Initials>RH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Kuochen</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tseng</LastName>
+                    <ForeName>Yu-Chee</ForeName>
+                    <Initials>YC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Shu-Fen</ForeName>
+                    <Initials>SF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med Inform Decis Mak</MedlineTA>
+            <NlmUniqueID>101088682</NlmUniqueID>
+            <ISSNLinking>1472-6947</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pain. 2001 Feb 15;90(3):261-9</RefSource>
+                <PMID Version="1">11207398</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Anaesthesiol Scand. 2001 Aug;45(7):795-804</RefSource>
+                <PMID Version="1">11472277</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Can J Anaesth. 2002 Mar;49(3):249-55</RefSource>
+                <PMID Version="1">11861342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Anaesth. 2002 Sep;89(3):409-23</RefSource>
+                <PMID Version="1">12402719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 1971 Sep 27;217(13):1835-41</RefSource>
+                <PMID Version="1">5109724</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pain. 1996 Feb;64(2):357-64</RefSource>
+                <PMID Version="1">8740614</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2011;11:51</RefSource>
+                <PMID Version="1">21801360</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 1999 May 22;353(9166):1784-8</RefSource>
+                <PMID Version="1">10348007</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesthesiology. 2006 Mar;104(3):417-25</RefSource>
+                <PMID Version="1">16508387</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2006 Oct;28(10):1619-30</RefSource>
+                <PMID Version="1">16986543</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Anaesthesiol Taiwan. 2006 Sep;44(3):135-40</RefSource>
+                <PMID Version="1">17037000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pain Med. 2008 Apr;9(3):299-314</RefSource>
+                <PMID Version="1">18366510</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesthesiology. 2011 Feb;114(2):445-57</RefSource>
+                <PMID Version="1">21245740</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Can J Anaesth. 1996 Nov;43(11):1121-7</RefSource>
+                <PMID Version="1">8922767</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000367" MajorTopicYN="N">Age Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016058" MajorTopicYN="Y">Analgesia, Patient-Controlled</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="N">classification</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000704" MajorTopicYN="N">Analysis of Variance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001185" MajorTopicYN="Y">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001794" MajorTopicYN="N">Blood Pressure</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002641" MajorTopicYN="N" Type="Geographic">Chicago</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003663" MajorTopicYN="Y">Decision Trees</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004334" MajorTopicYN="Y">Drug Administration Schedule</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006339" MajorTopicYN="N">Heart Rate</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="N">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010043" MajorTopicYN="N">Outcome and Process Assessment (Health Care)</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059408" MajorTopicYN="N">Pain Management</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010149" MajorTopicYN="N">Pain, Postoperative</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011237" MajorTopicYN="N">Predictive Value of Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012959" MajorTopicYN="N">Socioeconomic Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3507711</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>4</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23148492</ArticleId>
+            <ArticleId IdType="pii">1472-6947-12-131</ArticleId>
+            <ArticleId IdType="doi">10.1186/1472-6947-12-131</ArticleId>
+            <ArticleId IdType="pmc">PMC3507711</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

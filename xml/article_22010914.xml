@@ -1,0 +1,215 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28943682</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0162-1459</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>112</Volume>
+                    <Issue>517</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the American Statistical Association</Title>
+                <ISOAbbreviation>J Am Stat Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Residual Weighted Learning for Estimating Individualized Treatment Rules.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>169-187</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1080/01621459.2015.1093947</ELocationID>
+            <Abstract>
+                <AbstractText>Personalized medicine has received increasing attention among statisticians, computer scientists, and clinical practitioners. A major component of personalized medicine is the estimation of individualized treatment rules (ITRs). Recently, Zhao et al. (2012) proposed outcome weighted learning (OWL) to construct ITRs that directly optimize the clinical outcome. Although OWL opens the door to introducing machine learning techniques to optimal treatment regimes, it still has some problems in performance. (1) The estimated ITR of OWL is affected by a simple shift of the outcome. (2) The rule from OWL tries to keep treatment assignments that subjects actually received. (3) There is no variable selection mechanism with OWL. All of them weaken the finite sample performance of OWL. In this article, we propose a general framework, called Residual Weighted Learning (RWL), to alleviate these problems, and hence to improve finite sample performance. Unlike OWL which weights misclassification errors by clinical outcomes, RWL weights these errors by residuals of the outcome from a regression fit on clinical covariates excluding treatment assignment. We utilize the smoothed ramp loss function in RWL, and provide a difference of convex (d.c.) algorithm to solve the corresponding non-convex optimization problem. By estimating residuals with linear models or generalized linear models, RWL can effectively deal with different types of outcomes, such as continuous, binary and count outcomes. We also propose variable selection methods for linear and nonlinear rules, respectively, to further improve the performance. We show that the resulting estimator of the treatment rule is consistent. We further obtain a rate of convergence for the difference between the expected outcome using the estimated ITR and that of the optimal treatment rule. The performance of the proposed RWL methods is illustrated in simulation studies and in an analysis of cystic fibrosis clinical trial data.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Xin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of North Carolina at Chapel Hill, NC 27599 (xinzhou@live.unc.edu).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mayer-Hamblett</LastName>
+                    <ForeName>Nicole</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics and Department of Biostatistics, University of Washington (nicole.hamblett@seattlechildrens.org).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Khan</LastName>
+                    <ForeName>Umer</ForeName>
+                    <Initials>U</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cystic Fibrosis Foundation Therapeutics Development Network, Seattle Childrens Hospital (umer.khan@seattlechildrens.org).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kosorok</LastName>
+                    <ForeName>Michael R</ForeName>
+                    <Initials>MR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, and Professor, Department of Statistics and Operations Research, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 (kosorok@unc.edu).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P01 CA142538</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HL080310</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR000423</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR001111</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Am Stat Assoc</MedlineTA>
+            <NlmUniqueID>01510020R</NlmUniqueID>
+            <ISSNLinking>0162-1459</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Contemp Clin Trials. 2009 May;30(3):256-68</RefSource>
+                <PMID Version="1">19470318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2005 May 30;24(10):1455-81</RefSource>
+                <PMID Version="1">15586395</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Stat Assoc. 2015;110(510):583-598</RefSource>
+                <PMID Version="1">26236062</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2009 Nov 20;28(26):3294-315</RefSource>
+                <PMID Version="1">19750510</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Pediatr Adolesc Med. 2011 Sep;165(9):847-56</RefSource>
+                <PMID Version="1">21893650</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methodol. 2011 Jan 30;1(8):42-55</RefSource>
+                <PMID Version="1">21179592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2004 Jul;5(3):427-43</RefSource>
+                <PMID Version="1">15208204</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Stat. 2011 Apr 1;39(2):1180-1210</RefSource>
+                <PMID Version="1">21666835</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2003 Apr;15(4):915-36</RefSource>
+                <PMID Version="1">12689392</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Feb 1;24(3):412-9</RefSource>
+                <PMID Version="1">18175770</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 2012 Dec;68(4):1010-8</RefSource>
+                <PMID Version="1">22550953</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 2011 Dec;67(4):1422-33</RefSource>
+                <PMID Version="1">21385164</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med. 2013 Mar 27;11:84</RefSource>
+                <PMID Version="1">23531230</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Stat Assoc. 2012 Sep 1;107(449):1106-1118</RefSource>
+                <PMID Version="1">23630406</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2011 Oct 20;365(16):1482-91</RefSource>
+                <PMID Version="1">22010914</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Convergence Rate</Keyword>
+            <Keyword MajorTopicYN="N">Martingale residuals</Keyword>
+            <Keyword MajorTopicYN="N">Optimal Treatment Regime</Keyword>
+            <Keyword MajorTopicYN="N">RKHS</Keyword>
+            <Keyword MajorTopicYN="N">Residuals</Keyword>
+            <Keyword MajorTopicYN="N">Universal consistency</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28943682</ArticleId>
+            <ArticleId IdType="doi">10.1080/01621459.2015.1093947</ArticleId>
+            <ArticleId IdType="pmc">PMC5607057</ArticleId>
+            <ArticleId IdType="mid">NIHMS714474</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

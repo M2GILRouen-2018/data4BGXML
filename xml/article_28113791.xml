@@ -1,0 +1,172 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28113791</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>08</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2208</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE journal of biomedical and health informatics</Title>
+                <ISOAbbreviation>IEEE J Biomed Health Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Robust Motion Artifact Detection Algorithm for Accurate Detection of Heart Rates From Photoplethysmographic Signals Using Time-Frequency Spectral Features.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1242-1253</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/JBHI.2016.2612059</ELocationID>
+            <Abstract>
+                <AbstractText>Motion and noise artifacts (MNAs) impose limits on the usability of the photoplethysmogram (PPG), particularly in the context of ambulatory monitoring. MNAs can distort PPG, causing erroneous estimation of physiological parameters such as heart rate (HR) and arterial oxygen saturation (SpO2). In this study, we present a novel approach, &quot;TifMA,&quot; based on using the time-frequency spectrum of PPG to first detect the MNA-corrupted data and next discard the nonusable part of the corrupted data. The term &quot;nonusable&quot; refers to segments of PPG data from which the HR signal cannot be recovered accurately. Two sequential classification procedures were included in the TifMA algorithm. The first classifier distinguishes between MNA-corrupted and MNA-free PPG data. Once a segment of data is deemed MNA-corrupted, the next classifier determines whether the HR can be recovered from the corrupted segment or not. A support vector machine (SVM) classifier was used to build a decision boundary for the first classification task using data segments from a training dataset. Features from time-frequency spectra of PPG were extracted to build the detection model. Five datasets were considered for evaluating TifMA performance: (1) and (2) were laboratory-controlled PPG recordings from forehead and finger pulse oximeter sensors with subjects making random movements, (3) and (4) were actual patient PPG recordings from UMass Memorial Medical Center with random free movements and (5) was a laboratory-controlled PPG recording dataset measured at the forehead while the subjects ran on a treadmill. The first dataset was used to analyze the noise sensitivity of the algorithm. Datasets 2-4 were used to evaluate the MNA detection phase of the algorithm. The results from the first phase of the algorithm (MNA detection) were compared to results from three existing MNA detection algorithms: the Hjorth, kurtosis-Shannon entropy, and time-domain variability-SVM approaches. This last is an approach recently developed in our laboratory. The proposed TifMA algorithm consistently provided higher detection rates than the other three methods, with accuracies greater than 95% for all data. Moreover, our algorithm was able to pinpoint the start and end times of the MNA with an error of less than 1 s in duration, whereas the next-best algorithm had a detection error of more than 2.2 s. The final, most challenging, dataset was collected to verify the performance of the algorithm in discriminating between corrupted data that were usable for accurate HR estimations and data that were nonusable. It was found that on average 48% of the data segments were found to have MNA, and of these, 38% could be used to provide reliable HR estimation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dao</LastName>
+                    <ForeName>Duy</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Salehizadeh</LastName>
+                    <ForeName>S M A</ForeName>
+                    <Initials>SMA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Noh</LastName>
+                    <ForeName>Yeonsik</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chong</LastName>
+                    <ForeName>Jo Woon</ForeName>
+                    <Initials>JW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cho</LastName>
+                    <ForeName>Chae Ho</ForeName>
+                    <Initials>CH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McManus</LastName>
+                    <ForeName>Dave</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Darling</LastName>
+                    <ForeName>Chad E</ForeName>
+                    <Initials>CE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mendelson</LastName>
+                    <ForeName>Yitzhak</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chon</LastName>
+                    <ForeName>Ki H</ForeName>
+                    <Initials>KH</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE J Biomed Health Inform</MedlineTA>
+            <NlmUniqueID>101604520</NlmUniqueID>
+            <ISSNLinking>2168-2194</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016477" MajorTopicYN="N">Artifacts</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006339" MajorTopicYN="N">Heart Rate</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009068" MajorTopicYN="N">Movement</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017156" MajorTopicYN="N">Photoplethysmography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012815" MajorTopicYN="Y">Signal Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>1</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113791</ArticleId>
+            <ArticleId IdType="doi">10.1109/JBHI.2016.2612059</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,436 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28143596</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>31</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A scalable algorithm for structure identification of complex gene regulatory network from temporal expression data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>74</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1489-z</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Gene regulatory interactions are of fundamental importance to various biological functions and processes. However, only a few previous computational studies have claimed success in revealing genome-wide regulatory landscapes from temporal gene expression data, especially for complex eukaryotes like human. Moreover, recent work suggests that these methods still suffer from the curse of dimensionality if a network size increases to 100 or higher.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here we present a novel scalable algorithm for identifying genome-wide gene regulatory network (GRN) structures, and we have verified the algorithm performances by extensive simulation studies based on the DREAM challenge benchmark data. The highlight of our method is that its superior performance does not degenerate even for a network size on the order of 104, and is thus readily applicable to large-scale complex networks. Such a breakthrough is achieved by considering both prior biological knowledge and multiple topological properties (i.e., sparsity and hub gene structure) of complex networks in the regularized formulation. We also validate and illustrate the application of our algorithm in practice using the time-course gene expression data from a study on human respiratory epithelial cells in response to influenza A virus (IAV) infection, as well as the CHIP-seq data from ENCODE on transcription factor (TF) and target gene interactions. An interesting finding, owing to the proposed algorithm, is that the biggest hub structures (e.g., top ten) in the GRN all center at some transcription factors in the context of epithelial cell infection by IAV.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The proposed algorithm is the first scalable method for large complex network structure identification. The GRN structure identified by our algorithm could reveal possible biological links and help researchers to choose which gene functions to investigate in a biological event. The algorithm described in this article is implemented in MATLAB Ⓡ , and the source code is freely available from https://github.com/Hongyu-Miao/DMI.git .</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gui</LastName>
+                    <ForeName>Shupeng</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Rochester, Rochester, 14620, NY, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rice</LastName>
+                    <ForeName>Andrew P</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Virology and Microbiology, Baylor College of Medicine, Houston, 77030, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Rui</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, 77030, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Liang</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of Texas Health Science Center, Houston, 77030, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Ji</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Rochester, Rochester, 14620, NY, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Goergen Institute for Data Science, University of Rochester, Rochester, 14620, NY, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miao</LastName>
+                    <ForeName>Hongyu</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-4131-3164</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of Texas Health Science Center, Houston, 77030, TX, USA. hongyu.miao@uth.tmc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 EY018571</GrantID>
+                    <Acronym>EY</Acronym>
+                    <Agency>NEI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 EY020540</GrantID>
+                    <Acronym>EY</Acronym>
+                    <Agency>NEI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 EY022356</GrantID>
+                    <Acronym>EY</Acronym>
+                    <Agency>NEI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D014157">Transcription Factors</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Virol. 2000 Dec;74(24):11566-73</RefSource>
+                <PMID Version="1">11090154</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Virology. 2008 Sep 1;378(2):214-25</RefSource>
+                <PMID Version="1">18614194</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Sep 6;489(7414):91-100</RefSource>
+                <PMID Version="1">22955619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2012 Feb;19(2):175-87</RefSource>
+                <PMID Version="1">22300319</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2000 Jan 1;28(1):27-30</RefSource>
+                <PMID Version="1">10592173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1999 Oct 15;286(5439):509-12</RefSource>
+                <PMID Version="1">10521342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2004 Feb;5(2):101-13</RefSource>
+                <PMID Version="1">14735121</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Host Microbe. 2012 Aug 16;12 (2):233-45</RefSource>
+                <PMID Version="1">22901543</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jul 15;9(8):796-804</RefSource>
+                <PMID Version="1">22796662</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2012 Nov 22;6:145</RefSource>
+                <PMID Version="1">23173819</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2014 Oct;14(10):673-82</RefSource>
+                <PMID Version="1">25190083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2010 Jan;11(1):31-46</RefSource>
+                <PMID Version="1">19997069</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2007;3:78</RefSource>
+                <PMID Version="1">17299415</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Mar 25;11:154</RefSource>
+                <PMID Version="1">20338053</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 1998;14(8):656-64</RefSource>
+                <PMID Version="1">9789091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 1998 Nov 6;273(45):29279-82</RefSource>
+                <PMID Version="1">9792624</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2006 Jan 1;34(Database issue):D108-10</RefSource>
+                <PMID Version="1">16381825</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Biochim Biophys Sin (Shanghai). 2009 May;41(5):414-28</RefSource>
+                <PMID Version="1">19430707</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Apr 1;24(7):932-42</RefSource>
+                <PMID Version="1">18292116</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2013 Jan 16;14:6</RefSource>
+                <PMID Version="1">23323795</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2014 Nov 15;23(22):5866-78</RefSource>
+                <PMID Version="1">24939910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2011 Jan;12(1):56-68</RefSource>
+                <PMID Version="1">21164525</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D84-90</RefSource>
+                <PMID Version="1">22086963</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2008;4:213</RefSource>
+                <PMID Version="1">18682703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Sci. 2005 Nov 1;118(Pt 21):4947-57</RefSource>
+                <PMID Version="1">16254242</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2002 Feb;18(2):261-74</RefSource>
+                <PMID Version="1">11847074</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2007 Jan;5(1):e8</RefSource>
+                <PMID Version="1">17214507</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2008 Oct 29;9:461</RefSource>
+                <PMID Version="1">18959772</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2008 Jan;36(Database issue):D102-6</RefSource>
+                <PMID Version="1">18006571</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2000;:418-29</RefSource>
+                <PMID Version="1">10902190</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2002 Apr 30;99(9):6163-8</RefSource>
+                <PMID Version="1">11983907</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2006 Jan 1;34(Database issue):D411-4</RefSource>
+                <PMID Version="1">16381900</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Immunol. 2013 Aug;14(8):867-75</RefSource>
+                <PMID Version="1">23812095</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2003 Sep;4(3):228-35</RefSource>
+                <PMID Version="1">14582517</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Rep. 2015 Mar 31;10(12):2043-54</RefSource>
+                <PMID Version="1">25801035</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2008 Dec 29;9:559</RefSource>
+                <PMID Version="1">19114008</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2010 Sep 28;5(9):null</RefSource>
+                <PMID Version="1">20927193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Immunol. 2014 Feb;15(2):118-27</RefSource>
+                <PMID Version="1">24448569</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2009 Feb;16(2):229-39</RefSource>
+                <PMID Version="1">19183003</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Virol. 2012 Jun;86(11):6109-22</RefSource>
+                <PMID Version="1">22438559</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2002 Jan 1;30(1):207-10</RefSource>
+                <PMID Version="1">11752295</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 May 15;31(10):1614-22</RefSource>
+                <PMID Version="1">25573916</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Apr 6;107(14):6286-91</RefSource>
+                <PMID Version="1">20308593</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2010 Mar 5;140(5):744-52</RefSource>
+                <PMID Version="1">20211142</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Jan 1;21(1):71-9</RefSource>
+                <PMID Version="1">15308537</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2015 Sep 30;2015:null</RefSource>
+                <PMID Version="1">26424082</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2007 Aug 06;1:37</RefSource>
+                <PMID Version="1">17683609</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Aug 15;27(16):2263-70</RefSource>
+                <PMID Version="1">21697125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Mol Cell Biol. 2008 Oct;9(10):770-80</RefSource>
+                <PMID Version="1">18797474</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2001 Apr 6;276(14):10990-8</RefSource>
+                <PMID Version="1">11150300</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2002;9(1):67-103</RefSource>
+                <PMID Version="1">11911796</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2006 Mar 20;7 Suppl 1:S7</RefSource>
+                <PMID Version="1">16723010</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014 Oct 04;15:336</RefSource>
+                <PMID Version="1">25281301</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Virol. 2007 Jul;81(13):7011-21</RefSource>
+                <PMID Version="1">17442719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Wiley Interdiscip Rev Syst Biol Med. 2013 Jan-Feb;5(1):73-82</RefSource>
+                <PMID Version="1">23184638</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Virology. 2006 Sep 15;353(1):1-5</RefSource>
+                <PMID Version="1">16860366</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004847" MajorTopicYN="N">Epithelial Cells</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName UI="Q000821" MajorTopicYN="N">virology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D053263" MajorTopicYN="Y">Gene Regulatory Networks</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009980" MajorTopicYN="N">Influenza A virus</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014157" MajorTopicYN="N">Transcription Factors</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Decomposable multi-structure identification</Keyword>
+            <Keyword MajorTopicYN="N">Gene regulatory network</Keyword>
+            <Keyword MajorTopicYN="N">Hub gene structure</Keyword>
+            <Keyword MajorTopicYN="N">Influenza infection</Keyword>
+            <Keyword MajorTopicYN="N">Ultra-high dimensional problem</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28143596</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1489-z</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1489-z</ArticleId>
+            <ArticleId IdType="pmc">PMC5294888</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

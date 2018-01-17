@@ -1,0 +1,96 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28103565</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Scan-Line Forest Growing-Based Hand Segmentation Framework With Multipriority Vertex Stereo Matching for Wearable Devices.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2016.2646701</ELocationID>
+            <Abstract>
+                <AbstractText>A hand segmentation framework is proposed for 3-D hand gesture interaction for wearable devices. In this framework, all the objects in a scene are regarded as directed trees in a forest, and the problem of the hand segmentation can be converted into finding the target tree (called hand tree) in the forest with proper hand properties including color consistency, space consistency, disparity, and hand shape constraints. The forest grows scan-line by scan-line from high reliable regions to low reliable regions. First, the vertices in each tree are generated through boundary detection. To get rid of the interference of skin-colored objects, an under-segment vertex splitting step is added in. Second, a scan-line-based forest growing method is proposed by constructing the maximum spanning forest (MSF) with the edges weighted by the consistencies of color and space. Meanwhile, the high-order history information of the tree construction propagates along each growing tree to the current scan-line to predict the 3-D location of the growing hand tree, so as to achieve semiglobal optimization. At last, the growing hand tree is trimmed and labeled with the disparity and hand shape constraints to correct the misconnection in the MSF. The vertex's disparity is obtained by our multipriority vertex stereo matching algorithm using the 3-D location prediction to overcome the problem of occlusion and high similarity between fingers. Experimental results demonstrate that by using our method, the hand can be well segmented. The F1 score and accuracy of the hand segmentation result is about 96.3% and 92.9%, respectively.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Yiyi</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Xiang</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Guolin</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Zhihua</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103565</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2016.2646701</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

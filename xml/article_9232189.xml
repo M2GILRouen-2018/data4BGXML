@@ -1,0 +1,133 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">9232189</PMID>
+        <DateCreated>
+            <Year>1997</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>1997</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2004</Year>
+            <Month>11</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0933-3657</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>10</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>1997</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Artificial intelligence in medicine</Title>
+                <ISOAbbreviation>Artif Intell Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Avoiding premature closure in sequential diagnosis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>269-83</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>An important aspect of diagnostic reasoning is the ability to recognise when there is sufficient evidence to enable a working diagnosis to be made and thus avoid the unnecessary risks and costs of further testing. On the other hand, the reasoner must be careful to avoid the error, known as premature closure, of accepting a diagnosis before it is fully verified. In the absence of a more rigorous approach to verification, a pragmatic approach adopted in many programs for sequential diagnosis is to discontinue testing when the probability of the leading hypothesis reaches an arbitrary threshold. Experimental results are presented to illustrate the potential unreliability of this approach. A more reliable way to avoid premature closure is to discontinue testing only when the lower bound for the probability of the leading hypothesis reaches an acceptably high level. For example, a lower bound of 70% means that its probability can never be less than 70% regardless of any evidence that further testing may reveal. Another reason to discontinue testing may be that further evidence can at best increase the probability of the leading hypothesis by a small amount. For example, if the probability of the leading hypothesis is 72%, with a lower bound of 65% and an upper bound of 75%, further testing may be difficult to justify. As these examples illustrate, a termination strategy informed by upper and lower bounds for the probability of the leading hypothesis may help to avoid both premature closure and undue prolongation of the testing process. Finding upper and lower bounds for the probability of a diagnostic hypothesis as each new piece of evidence is obtained is feasible by existing techniques only when the number of remaining tests is small. However, new techniques are presented which can often produce a dramatic reduction in the computational effort required to find the upper and lower bounds. Based on the independence Bayesian framework, the theory presented extends a probabilistic model of hypothetico-deductive reasoning designed to enable programs for sequential diagnosis in medicine to emulate the reasoning processes of human diagnosticians.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McSherry</LastName>
+                    <ForeName>D</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information and Software Engineering, University of Ulster, Coleraine, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Artif Intell Med</MedlineTA>
+            <NlmUniqueID>8915031</NlmUniqueID>
+            <ISSNLinking>0933-3657</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000006" MajorTopicYN="N">Abdomen, Acute</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000367" MajorTopicYN="N">Age Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001185" MajorTopicYN="N">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003937" MajorTopicYN="N">Diagnosis, Differential</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011336" MajorTopicYN="N">Probability</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012737" MajorTopicYN="N">Sex Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>1997</Year>
+                <Month>7</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>1997</Year>
+                <Month>7</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>1997</Year>
+                <Month>7</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">9232189</ArticleId>
+            <ArticleId IdType="pii">S0933-3657(97)00396-5</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

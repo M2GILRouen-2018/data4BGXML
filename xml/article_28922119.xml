@@ -1,0 +1,107 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28922119</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>27</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <MedlineDate>2018 Jan.</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>PURE-LET Image Deconvolution.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>92-105</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2753404</ELocationID>
+            <Abstract>
+                <AbstractText>We propose a non-iterative image deconvolution algorithm for data corrupted by Poisson or mixed Poisson-Gaussian noise. Many applications involve such a problem, ranging from astronomical to biological imaging. We parameterize the deconvolution process as a linear combination of elementary functions, termed as linear expansion of thresholds. This parameterization is then optimized by minimizing a robust estimate of the true mean squared error, the Poisson unbiased risk estimate. Each elementary function consists of a Wiener filtering followed by a pointwise thresholding of undecimated Haar wavelet coefficients. In contrast to existing approaches, the proposed algorithm merely amounts to solving a linear system of equations, which has a fast and exact solution. Simulation experiments over different types of convolution kernels and various noise levels indicate that the proposed method outperforms the state-of-the-art techniques, in terms of both restoration quality and computational complexity. Finally, we present some results on real confocal fluorescence microscopy images and demonstrate the potential applicability of the proposed method for improving the quality of these images.We propose a non-iterative image deconvolution algorithm for data corrupted by Poisson or mixed Poisson-Gaussian noise. Many applications involve such a problem, ranging from astronomical to biological imaging. We parameterize the deconvolution process as a linear combination of elementary functions, termed as linear expansion of thresholds. This parameterization is then optimized by minimizing a robust estimate of the true mean squared error, the Poisson unbiased risk estimate. Each elementary function consists of a Wiener filtering followed by a pointwise thresholding of undecimated Haar wavelet coefficients. In contrast to existing approaches, the proposed algorithm merely amounts to solving a linear system of equations, which has a fast and exact solution. Simulation experiments over different types of convolution kernels and various noise levels indicate that the proposed method outperforms the state-of-the-art techniques, in terms of both restoration quality and computational complexity. Finally, we present some results on real confocal fluorescence microscopy images and demonstrate the potential applicability of the proposed method for improving the quality of these images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jizhou</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electronic Engineering, The Chinese University of Hong Kong, Hong Kong.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luisier</LastName>
+                    <ForeName>Florian</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Roche Diagnostics Hematology, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blu</LastName>
+                    <ForeName>Thierry</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electronic Engineering, The Chinese University of Hong Kong, Hong Kong.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AWGN</Keyword>
+            <Keyword MajorTopicYN="N">Deconvolution</Keyword>
+            <Keyword MajorTopicYN="N">Image restoration</Keyword>
+            <Keyword MajorTopicYN="N">Mathematical model</Keyword>
+            <Keyword MajorTopicYN="N">Microscopy</Keyword>
+            <Keyword MajorTopicYN="N">Noise measurement</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28922119</ArticleId>
+            <ArticleId IdType="pii">8039195</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2753404</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

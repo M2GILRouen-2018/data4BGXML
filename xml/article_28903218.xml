@@ -1,0 +1,115 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28903218</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>7</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2007</Year>
+                        <Month>Oct</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Improving Estimation Performance in Networked Control Systems Applying the Send-on-delta Transmission Method.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2128-2138</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/S7102128</ELocationID>
+            <Abstract>
+                <AbstractText>This paper is concerned with improving performance of a state estimationproblem over a network in which a send-on-delta (SOD) transmission method is used. TheSOD method requires that a sensor node transmit data to the estimator node only if itsmeasurement value changes more than a given specified δ value. This method has beenexplored and applied by researchers because of its efficiency in the network bandwidthimprovement. However, when this method is used, it is not ensured that the estimator nodereceives data from the sensor nodes regularly at every estimation period. Therefore, wepropose a method to reduce estimation error in case of no sensor data reception. When theestimator node does not receive data from the sensor node, the sensor value is known to bein a (-δi , δi ) interval from the last transmitted sensor value. This implicit information hasbeen used to improve estimation performance in previous studies. The main contribution ofthis paper is to propose an algorithm, where the sensor value interval is reduced to(-δi / 2, δi / 2) in certain situations. Thus, the proposed algorithm improves the overallestimation performance without any changes in the send-on-delta algorithms of the sensornodes. Through numerical simulations, we demonstrate the feasibility and the usefulness ofthe proposed method.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nguyen</LastName>
+                    <ForeName>Vinh Hao</ForeName>
+                    <Initials>VH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, University of Ulsan, Namgu, Ulsan 680-749, Korea. vinhhao@hcmut.edu.vn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suh</LastName>
+                    <ForeName>Young Soo</ForeName>
+                    <Initials>YS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, University of Ulsan, Namgu, Ulsan 680-749, Korea. suh@ieee.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2007</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Estimation</Keyword>
+            <Keyword MajorTopicYN="N">Kalman filter</Keyword>
+            <Keyword MajorTopicYN="N">Send-on-delta.</Keyword>
+            <Keyword MajorTopicYN="N">Sensor networks</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2007</Year>
+                <Month>09</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2007</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2007</Year>
+                <Month>10</Month>
+                <Day>5</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2007</Year>
+                <Month>10</Month>
+                <Day>5</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28903218</ArticleId>
+            <ArticleId IdType="pii">S7102128</ArticleId>
+            <ArticleId IdType="doi">10.3390/S7102128</ArticleId>
+            <ArticleId IdType="pmc">PMC3864513</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

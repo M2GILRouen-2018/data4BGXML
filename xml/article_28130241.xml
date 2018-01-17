@@ -1,0 +1,146 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28130241</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Classification of RNA structure change by 'gazing' at experimental data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1647-1655</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx041</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Mutations (or Single Nucleotide Variants) in folded RiboNucleic Acid structures that cause local or global conformational change are riboSNitches. Predicting riboSNitches is challenging, as it requires making two, albeit related, structure predictions. The data most often used to experimentally validate riboSNitch predictions is Selective 2' Hydroxyl Acylation by Primer Extension, or SHAPE. Experimentally establishing a riboSNitch requires the quantitative comparison of two SHAPE traces: wild-type (WT) and mutant. Historically, SHAPE data was collected on electropherograms and change in structure was evaluated by 'gel gazing.' SHAPE data is now routinely collected with next generation sequencing and/or capillary sequencers. We aim to establish a classifier capable of simulating human 'gazing' by identifying features of the SHAPE profile that human experts agree 'looks' like a riboSNitch.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We find strong quantitative agreement between experts when RNA scientists 'gaze' at SHAPE data and identify riboSNitches. We identify dynamic time warping and seven other features predictive of the human consensus. The classSNitch classifier reported here accurately reproduces human consensus for 167 mutant/WT comparisons with an Area Under the Curve (AUC) above 0.8. When we analyze 2019 mutant traces for 17 different RNAs, we find that features of the WT SHAPE reactivity allow us to improve thermodynamic structure predictions of riboSNitches. This is significant, as accurate RNA structural analysis and prediction is likely to become an important aspect of precision medicine.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">The classSNitch R package is freely available at http://classsnitch.r-forge.r-project.org .</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">alain@email.unc.edu.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Woods</LastName>
+                    <ForeName>Chanin Tolson</ForeName>
+                    <Initials>CT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Laederach</LastName>
+                    <ForeName>Alain</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>T32 GM067553</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 HG008133</GrantID>
+                    <Acronym>HG</Acronym>
+                    <Agency>NHGRI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 HL111527</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P30 CA016086</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM101237</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28130241</ArticleId>
+            <ArticleId IdType="pii">btx041</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx041</ArticleId>
+            <ArticleId IdType="pmc">PMC5447233</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

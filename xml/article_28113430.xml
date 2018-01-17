@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113430</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Piecewise Mapping in HEVC Lossless Intra-prediction Coding.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2571065</ELocationID>
+            <Abstract>
+                <AbstractText>The lossless intra-prediction coding modality of the High Efficiency Video Coding (HEVC) standard provides high coding performance while allowing frame-by-frame basis access to the coded data. This is of interest in many professional applications such as medical imaging, automotive vision and digital preservation in libraries and archives. Various improvements to lossless intra-prediction coding have been proposed recently, most of them based on sample-wise prediction using Differential Pulse Code Modulation (DPCM). Other recent proposals aim at further reducing the energy of intra-predicted residual blocks. However, the energy reduction achieved is frequently minimal due to the difficulty of correctly predicting the sign and magnitude of residual values. In this paper, we pursue a novel approach to this energy-reduction problem using piecewise mapping (pwm) functions. Specifically, we analyze the range of values in residual blocks and apply accordingly a pwm function to map specific residual values to unique lower values. We encode appropriate parameters associated with the pwm functions at the encoder, so that the corresponding inverse pwm functions at the decoder can map values back to the same residual values. These residual values are then used to reconstruct the original signal. This mapping is, therefore, reversible and introduces no losses. We evaluate the pwm functions on 4×4 residual blocks computed after DPCM-based prediction for lossless coding of a variety of camera-captured and screen content sequences. Evaluation results show that the pwm functions can attain maximum bit-rate reductions of 5.54% and 28.33% for screen content material compared to DPCM-based and block-wise intra-prediction, respectively. Compared to Intra- Block Copy, piecewise mapping can attain maximum bit-rate reductions of 11.48% for camera-captured material.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sanchez</LastName>
+                    <ForeName>Victor</ForeName>
+                    <Initials>V</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Auli-Llinas</LastName>
+                    <ForeName>Francesc</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Serra-Sagrista</LastName>
+                    <ForeName>Joan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113430</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2571065</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113655</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Ranking Saliency.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2609426</ELocationID>
+            <Abstract>
+                <AbstractText>Most existing bottom-up algorithms measure the foreground saliency of a pixel or region based on its contrast within a local context or the entire image, whereas a few methods focus on segmenting out background regions and thereby salient objects. Instead of only considering the contrast between salient objects and their surrounding regions, we consider both foreground and background cues in this work. We rank the similarity of image elements with foreground or background cues via graph-based manifold ranking. The saliency of image elements is defined based on their relevances to the given seeds or queries. We represent an image as a multi-scale graph with fine superpixels and coarse regions as nodes. These nodes are ranked based on the similarity to background and foreground queries using affinity matrices. Saliency detection is carried out in a cascade scheme to extract background regions and foreground salient objects efficiently. Experimental results demonstrate the proposed method performs well against the state-of-the-art methods in terms of accuracy and speed. We also propose a new benchmark dataset containing 5,168 images for large-scale performance evaluation of saliency detection methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Lihe</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Chuan</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Huchuan</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ruan</LastName>
+                    <ForeName>Xiang</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Ming-Hsuan</ForeName>
+                    <Initials>MH</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113655</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2609426</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

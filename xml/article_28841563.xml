@@ -1,0 +1,167 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29161317</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>05</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluating architecture impact on system energy efficiency.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0188428</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0188428</ELocationID>
+            <Abstract>
+                <AbstractText>As the energy consumption has been surging in an unsustainable way, it is important to understand the impact of existing architecture designs from energy efficiency perspective, which is especially valuable for High Performance Computing (HPC) and datacenter environment hosting tens of thousands of servers. One obstacle hindering the advance of comprehensive evaluation on energy efficiency is the deficient power measuring approach. Most of the energy study relies on either external power meters or power models, both of these two methods contain intrinsic drawbacks in their practical adoption and measuring accuracy. Fortunately, the advent of Intel Running Average Power Limit (RAPL) interfaces has promoted the power measurement ability into next level, with higher accuracy and finer time resolution. Therefore, we argue it is the exact time to conduct an in-depth evaluation of the existing architecture designs to understand their impact on system energy efficiency. In this paper, we leverage representative benchmark suites including serial and parallel workloads from diverse domains to evaluate the architecture features such as Non Uniform Memory Access (NUMA), Simultaneous Multithreading (SMT) and Turbo Boost. The energy is tracked at subcomponent level such as Central Processing Unit (CPU) cores, uncore components and Dynamic Random-Access Memory (DRAM) through exploiting the power measurement ability exposed by RAPL. The experiments reveal non-intuitive results: 1) the mismatch between local compute and remote memory node caused by NUMA effect not only generates dramatic power and energy surge but also deteriorates the energy efficiency significantly; 2) for multithreaded application such as the Princeton Application Repository for Shared-Memory Computers (PARSEC), most of the workloads benefit a notable increase of energy efficiency using SMT, with more than 40% decline in average power consumption; 3) Turbo Boost is effective to accelerate the workload execution and further preserve the energy, however it may not be applicable on system with tight power budget.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Shijie</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Hailong</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1101-7927</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Rui</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luan</LastName>
+                    <ForeName>Zhongzhi</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qian</LastName>
+                    <ForeName>Depei</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Cybern. 2017 Aug 22;:null</RefSource>
+                <PMID Version="1">28841563</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001108" MajorTopicYN="N">Architecture</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003205" MajorTopicYN="Y">Computing Methodologies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004526" MajorTopicYN="Y">Efficiency</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011211" MajorTopicYN="Y">Electric Power Supplies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055585" MajorTopicYN="N">Physical Phenomena</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29161317</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0188428</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-22534</ArticleId>
+            <ArticleId IdType="pmc">PMC5697812</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28114051</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>48</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Bayesian Intent Prediction in Object Tracking Using Bridging Distributions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>215-227</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2016.2629025</ELocationID>
+            <Abstract>
+                <AbstractText>In several application areas, such as human computer interaction, surveillance and defence, determining the intent of a tracked object enables systems to aid the user/operator and facilitate effective, possibly automated, decision making. In this paper, we propose a probabilistic inference approach that permits the prediction, well in advance, of the intended destination of a tracked object and its future trajectory. Within the framework introduced here, the observed partial track of the object is modeled as being part of a Markov bridge terminating at its destination, since the target path, albeit random, must end at the intended endpoint. This captures the underlying long term dependencies in the trajectory, as dictated by the object intent. By determining the likelihood of the partial track being drawn from a particular constructed bridge, the probability of each of a number of possible destinations is evaluated. These bridges can also be employed to produce refined estimates of the latent system state (e.g., object position, velocity, etc.), predict its future values (up until reaching the designated endpoint) and estimate the time of arrival. This is shown to lead to a low complexity Kalman-filter-based implementation of the inference routine, where any linear Gaussian motion model, including the destination reverting ones, can be applied. Free hand pointing gestures data collected in an instrumented vehicle and synthetic trajectories of a vessel heading toward multiple possible harbors are utilized to demonstrate the effectiveness of the proposed approach.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ahmad</LastName>
+                    <ForeName>Bashar I</ForeName>
+                    <Initials>BI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Murphy</LastName>
+                    <ForeName>James K</ForeName>
+                    <Initials>JK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Langdon</LastName>
+                    <ForeName>Patrick M</ForeName>
+                    <Initials>PM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Godsill</LastName>
+                    <ForeName>Simon J</ForeName>
+                    <Initials>SJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114051</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2016.2629025</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

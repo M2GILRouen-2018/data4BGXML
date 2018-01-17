@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113814</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fast and Provably Accurate Bilateral Filtering.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2548363</ELocationID>
+            <Abstract>
+                <AbstractText>The bilateral filter is a non-linear filter that uses a range filter along with a spatial filter to perform edge-preserving smoothing of images. A direct computation of the bilateral filter requires O(S) operations per pixel, where S is the size of the support of the spatial filter. In this paper, we present a fast and provably accurate algorithm for approximating the bilateral filter when the range kernel is Gaussian. In particular, for box and Gaussian spatial filters, the proposed algorithm can cut down the complexity to O(1) per pixel for any arbitrary S. The algorithm has a simple implementation involving N + 1 spatial filterings, where N is the approximation order. We give a detailed analysis of the filtering accuracy that can be achieved by the proposed approximation in relation to the target bilateral filter. This allows us to to estimate the order N required to obtain a given accuracy. We also present comprehensive numerical results to demonstrate that the proposed algorithm is competitive with state-of-the-art methods in terms of speed and accuracy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chaudhury</LastName>
+                    <ForeName>Kunal</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dabhade</LastName>
+                    <ForeName>Swapnil</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113814</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2548363</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

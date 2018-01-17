@@ -1,0 +1,272 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26048075</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>06</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>08</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1438-8871</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Jun</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of medical Internet research</Title>
+                <ISOAbbreviation>J. Med. Internet Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Scalable Framework to Detect Personal Health Mentions on Twitter.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e138</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2196/jmir.4305</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Biomedical research has traditionally been conducted via surveys and the analysis of medical records. However, these resources are limited in their content, such that non-traditional domains (eg, online forums and social media) have an opportunity to supplement the view of an individual's health.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The objective of this study was to develop a scalable framework to detect personal health status mentions on Twitter and assess the extent to which such information is disclosed.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We collected more than 250 million tweets via the Twitter streaming API over a 2-month period in 2014. The corpus was filtered down to approximately 250,000 tweets, stratified across 34 high-impact health issues, based on guidance from the Medical Expenditure Panel Survey. We created a labeled corpus of several thousand tweets via a survey, administered over Amazon Mechanical Turk, that documents when terms correspond to mentions of personal health issues or an alternative (eg, a metaphor). We engineered a scalable classifier for personal health mentions via feature selection and assessed its potential over the health issues. We further investigated the utility of the tweets by determining the extent to which Twitter users disclose personal health status.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Our investigation yielded several notable findings. First, we find that tweets from a small subset of the health issues can train a scalable classifier to detect health mentions. Specifically, training on 2000 tweets from four health issues (cancer, depression, hypertension, and leukemia) yielded a classifier with precision of 0.77 on all 34 health issues. Second, Twitter users disclosed personal health status for all health issues. Notably, personal health status was disclosed over 50% of the time for 11 out of 34 (33%) investigated health issues. Third, the disclosure rate was dependent on the health issue in a statistically significant manner (P&lt;.001). For instance, more than 80% of the tweets about migraines (83/100) and allergies (85/100) communicated personal health status, while only around 10% of the tweets about obesity (13/100) and heart attack (12/100) did so. Fourth, the likelihood that people disclose their own versus other people's health status was dependent on health issue in a statistically significant manner as well (P&lt;.001). For example, 69% (69/100) of the insomnia tweets disclosed the author's status, while only 1% (1/100) disclosed another person's status. By contrast, 1% (1/100) of the Down syndrome tweets disclosed the author's status, while 21% (21/100) disclosed another person's status.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">It is possible to automatically detect personal health status mentions on Twitter in a scalable manner. These mentions correspond to the health issues of the Twitter users themselves, but also other individuals. Though this study did not investigate the veracity of such statements, we anticipate such information may be useful in supplementing traditional health-related sources for research purposes.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yin</LastName>
+                    <ForeName>Zhijun</ForeName>
+                    <Initials>Z</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-3075-1337</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Dept. of Electrical Engineering &amp; Computer Science, Vanderbilt University, Nashville, TN, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fabbri</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0530-2510</Identifier>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rosenbloom</LastName>
+                    <ForeName>S Trent</ForeName>
+                    <Initials>ST</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-7455-2260</Identifier>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Malin</LastName>
+                    <ForeName>Bradley</ForeName>
+                    <Initials>B</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-3040-5175</Identifier>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Canada</Country>
+            <MedlineTA>J Med Internet Res</MedlineTA>
+            <NlmUniqueID>100959882</NlmUniqueID>
+            <ISSNLinking>1438-8871</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 2000 Apr 10;160(7):967-73</RefSource>
+                <PMID Version="1">10761962</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 2000 Apr;31(4):858-62</RefSource>
+                <PMID Version="1">10753988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2014;16(7):e169</RefSource>
+                <PMID Version="1">25014311</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2014 Mar 14;343(6176):1203-5</RefSource>
+                <PMID Version="1">24626916</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Empir Res Hum Res Ethics. 2014 Feb;9(1):58-70</RefSource>
+                <PMID Version="1">24572084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2014;348:g368</RefSource>
+                <PMID Version="1">24472779</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2014;16(10):e236</RefSource>
+                <PMID Version="1">25331122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2014;2014:1150-9</RefSource>
+                <PMID Version="1">25954426</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ Open. 2014;4(1):e004089</RefSource>
+                <PMID Version="1">24448847</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2014;16(8):e182</RefSource>
+                <PMID Version="1">25092386</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014;9(8):e103408</RefSource>
+                <PMID Version="1">25084530</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Intern Med. 2013 Dec;274(6):547-60</RefSource>
+                <PMID Version="1">23952476</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2013;15(10):e237</RefSource>
+                <PMID Version="1">24158773</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2013;15(9):e189</RefSource>
+                <PMID Version="1">24014109</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2013 Aug;45(2):228-36</RefSource>
+                <PMID Version="1">23867031</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2013;15(5):e103</RefSource>
+                <PMID Version="1">23715762</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2013;15(4):e62</RefSource>
+                <PMID Version="1">23594933</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Med. 2013;10(2):e1001382</RefSource>
+                <PMID Version="1">23424286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2012 Aug;45(4):763-71</RefSource>
+                <PMID Version="1">22326800</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2012 Jun;13(6):395-405</RefSource>
+                <PMID Version="1">22549152</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AIDS Care. 2012;24(5):593-600</RefSource>
+                <PMID Version="1">22149081</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 1993 May 29;306(6890):1440-4</RefSource>
+                <PMID Version="1">8518640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Care. 1993 Jun;31(6):498-507</RefSource>
+                <PMID Version="1">8501997</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2002 Apr-Nov;4(2):E13</RefSource>
+                <PMID Version="1">12554560</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003625" MajorTopicYN="N">Data Collection</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030881" MajorTopicYN="Y">Disclosure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006304" MajorTopicYN="Y">Health Status</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020407" MajorTopicYN="Y">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012650" MajorTopicYN="Y">Self Disclosure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061108" MajorTopicYN="Y">Social Media</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4526910</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">consumer health</Keyword>
+            <Keyword MajorTopicYN="N">infodemiology</Keyword>
+            <Keyword MajorTopicYN="N">information retrieval</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+            <Keyword MajorTopicYN="N">social media</Keyword>
+            <Keyword MajorTopicYN="N">twitter</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>03</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26048075</ArticleId>
+            <ArticleId IdType="pii">v17i6e138</ArticleId>
+            <ArticleId IdType="doi">10.2196/jmir.4305</ArticleId>
+            <ArticleId IdType="pmc">PMC4526910</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,289 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23514097</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>03</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>07</Month>
+            <Day>02</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14 Suppl 4</Volume>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluation and integration of existing methods for computational prediction of allergens.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>S1</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1471-2105-14-S4-S1</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Allergy involves a series of complex reactions and factors that contribute to the development of the disease and triggering of the symptoms, including rhinitis, asthma, atopic eczema, skin sensitivity, even acute and fatal anaphylactic shock. Prediction and evaluation of the potential allergenicity is of importance for safety evaluation of foods and other environment factors. Although several computational approaches for assessing the potential allergenicity of proteins have been developed, their performance and relative merits and shortcomings have not been compared systematically.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">To evaluate and improve the existing methods for allergen prediction, we collected an up-to-date definitive dataset consisting of 989 known allergens and massive putative non-allergens. The three most widely used allergen computational prediction approaches including sequence-, motif- and SVM-based (Support Vector Machine) methods were systematically compared using the defined parameters and we found that SVM-based method outperformed the other two methods with higher accuracy and specificity. The sequence-based method with the criteria defined by FAO/WHO (FAO: Food and Agriculture Organization of the United Nations; WHO: World Health Organization) has higher sensitivity of over 98%, but having a low specificity. The advantage of motif-based method is the ability to visualize the key motif within the allergen. Notably, the performances of the sequence-based method defined by FAO/WHO and motif eliciting strategy could be improved by the optimization of parameters. To facilitate the allergen prediction, we integrated these three methods in a web-based application proAP, which provides the global search of the known allergens and a powerful tool for allergen predication. Flexible parameter setting and batch prediction were also implemented. The proAP can be accessed at http://gmobl.sjtu.edu.cn/proAP/main.html.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This study comprehensively evaluated sequence-, motif- and SVM-based computational prediction approaches for allergens and optimized their parameters to obtain better performance. These findings may provide helpful guidance for the researchers in allergen-prediction. Furthermore, we integrated these methods into a web application proAP, greatly facilitating users to do customizable allergen search and prediction.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bor Luh Food Safety Center, National Center for Molecular Characterization of Genetically Modified Organisms, State Key Laboratory of Hybrid Rice, School of Life Science and Biotechnology, Shanghai Jiao Tong University, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Yabin</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Yunan</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Dabing</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>03</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000485">Allergens</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D011506">Proteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Immunol. 2007 Jan;44(4):514-20</RefSource>
+                <PMID Version="1">16563508</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(6):e5861</RefSource>
+                <PMID Version="1">19516900</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1988 Apr;85(8):2444-8</RefSource>
+                <PMID Version="1">3162770</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Drug Deliv Rev. 2000 Aug 31;42(3):225-38</RefSource>
+                <PMID Version="1">10963837</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2006 Jul 1;34(Web Server issue):W202-9</RefSource>
+                <PMID Version="1">16844994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann N Y Acad Sci. 2005 Nov;1056:30-45</RefSource>
+                <PMID Version="1">16387675</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Rev Food Sci Nutr. 1996;36 Suppl:S165-86</RefSource>
+                <PMID Version="1">8959382</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bull World Health Organ. 1986;64(5):767-74</RefSource>
+                <PMID Version="1">3492310</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformation. 2009 Apr 21;3(8):344-5</RefSource>
+                <PMID Version="1">19707297</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FASEB J. 2003 Jun;17(9):1141-3</RefSource>
+                <PMID Version="1">12709401</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2000 May;16(5):412-24</RefSource>
+                <PMID Version="1">10871264</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2005 Aug;27(8):1226-38</RefSource>
+                <PMID Version="1">16119262</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Soc Trans. 2002 Nov;30(Pt 6):930-5</RefSource>
+                <PMID Version="1">12440949</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2006;34(13):3779-93</RefSource>
+                <PMID Version="1">16977698</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Food Chem Toxicol. 2008 Oct;46 Suppl 10:S20-3</RefSource>
+                <PMID Version="1">18708115</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2007 Jul;35(Web Server issue):W694-700</RefSource>
+                <PMID Version="1">17537818</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Pharmacol Toxicol. 2002;42:99-112</RefSource>
+                <PMID Version="1">11807166</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1990 Oct 5;215(3):403-10</RefSource>
+                <PMID Version="1">2231712</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2005 Jan;115(1):14-23; quiz 24</RefSource>
+                <PMID Version="1">15637541</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Int Conf Intell Syst Mol Biol. 1994;2:28-36</RefSource>
+                <PMID Version="1">7584402</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 1998;14(1):48-54</RefSource>
+                <PMID Version="1">9520501</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2000 Jan 21;466(1):192-6</RefSource>
+                <PMID Version="1">10648840</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2007 Feb 15;23(4):504-6</RefSource>
+                <PMID Version="1">17150996</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Rev Food Sci Nutr. 1996;36 Suppl:S1-18</RefSource>
+                <PMID Version="1">8959375</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Immunol. 2009 Feb;46(5):873-83</RefSource>
+                <PMID Version="1">18950868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2010;5(6):e10972</RefSource>
+                <PMID Version="1">20532046</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2004 Sep 16;5:133</RefSource>
+                <PMID Version="1">15373946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1981 Mar 25;147(1):195-7</RefSource>
+                <PMID Version="1">7265238</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 1997 Sep 1;25(17):3389-402</RefSource>
+                <PMID Version="1">9254694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Agric Food Chem. 2010 Jan 13;58(1):20-7</RefSource>
+                <PMID Version="1">19921800</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000485" MajorTopicYN="N">Allergens</DescriptorName>
+                <QualifierName UI="Q000737" MajorTopicYN="N">chemistry</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020816" MajorTopicYN="N">Amino Acid Motifs</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005512" MajorTopicYN="N">Food Hypersensitivity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017434" MajorTopicYN="N">Protein Structure, Tertiary</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011506" MajorTopicYN="N">Proteins</DescriptorName>
+                <QualifierName UI="Q000737" MajorTopicYN="N">chemistry</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3599076</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>3</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>3</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>7</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23514097</ArticleId>
+            <ArticleId IdType="pii">1471-2105-14-S4-S1</ArticleId>
+            <ArticleId IdType="doi">10.1186/1471-2105-14-S4-S1</ArticleId>
+            <ArticleId IdType="pmc">PMC3599076</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

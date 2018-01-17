@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113437</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effectively identifying compound-protein interactions by learning from positive and unlabeled examples.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2570211</ELocationID>
+            <Abstract>
+                <AbstractText>Prediction of compound-protein interactions (CPIs) is to find new compound-protein pairs where a protein is targeted by at least a compound, which is a crucial step in new drug design. Currently, a number of machine learning based methods have been developed to predict new CPIs in the literature. However, as there is not yet any publicly available set of validated negative CPIs, most existing machine learning based approaches use the unknown interactions (not validated CPIs) selected randomly as the negative examples to train classifiers for predicting new CPIs. Obviously, this is not quite reasonable and unavoidably impacts the CPI prediction performance. In this paper, we simply take the unknown CPIs as unlabeled examples, and propose a new method called PUCPI (the abbreviation of PU learning for Compound-Protein Interaction identification) that employs biased-SVM (Support Vector Machine) to predict CPIs using only positive and unlabeled examples. PU learning is a class of learning methods that leans from positive and unlabeled (PU) samples. To the best of our knowledge, this is the first work that identifies CPIs using only positive and unlabeled examples. We first collect known CPIs as positive examples and then randomly select compound-protein pairs not in the positive set as unlabeled examples. For each CPI/compound-protein pair, we extract protein domains as protein features and compound substructures as chemical features, then take the tensor product of the corresponding compound features and protein features as the feature vector of the CPI/compound-protein pair. After that, biased-SVM is employed to train classifiers on different datasets of CPIs and compound-protein pairs. Experiments over various datasets show that our method outperforms six typical classifiers, including random forest, L1- and L2-regularized logistic regression, naive Bayes, SVM and k-nearest neighbor (kNN), and three types of existing CPI prediction models. Source code, datasets and related documents of PUCPI are available at: http://admis.fudan.edu.cn/projects/pucpi.html.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cheng</LastName>
+                    <ForeName>Zhanzhan</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Shuigeng</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Hui</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guan</LastName>
+                    <ForeName>Jihong</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yi-Ping Phoebe</ForeName>
+                    <Initials>YP</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113437</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2570211</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

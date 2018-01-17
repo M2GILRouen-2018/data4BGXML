@@ -1,0 +1,141 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28130233</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A comprehensive quality control workflow for paired tumor-normal NGS experiments.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1721-1722</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx032</ELocationID>
+            <Abstract>
+                <AbstractText Label="Summary" NlmCategory="UNASSIGNED">Quality control (QC) is an important part of all NGS data analysis stages. Many available tools calculate QC metrics from different analysis steps of single sample experiments (raw reads, mapped reads and variant lists). Multi-sample experiments, as sequencing of tumor-normal pairs, require additional QC metrics to ensure validity of results. These multi-sample QC metrics still lack standardization. We therefore suggest a new workflow for QC of DNA sequencing of tumor-normal pairs. With this workflow well-known single-sample QC metrics and additional metrics specific for tumor-normal pairs can be calculated. The segmentation into different tools offers a high flexibility and allows reuse for other purposes. All tools produce qcML, a generic XML format for QC of -omics experiments. qcML uses quality metrics defined in an ontology, which was adapted for NGS.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">All QC tools are implemented in C ++ and run both under Linux and Windows. Plotting requires python 2.7 and matplotlib. The software is available under the 'GNU General Public License version 2' as part of the ngs-bits project: https://github.com/imgag/ngs-bits.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">christopher.schroeder@med.uni-tuebingen.de.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Schroeder</LastName>
+                    <ForeName>Christopher M</ForeName>
+                    <Initials>CM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hilke</LastName>
+                    <ForeName>Franz J</ForeName>
+                    <Initials>FJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Löffler</LastName>
+                    <ForeName>Markus W</ForeName>
+                    <Initials>MW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of General, Visceral and Transplant Surgery, University Hospital Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Interfaculty Institute for Cell Biology, Department of Immunology, University of Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bitzer</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Internal Medicine I, University Hospital Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lenz</LastName>
+                    <ForeName>Florian</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sturm</LastName>
+                    <ForeName>Marc</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28130233</ArticleId>
+            <ArticleId IdType="pii">btx032</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx032</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

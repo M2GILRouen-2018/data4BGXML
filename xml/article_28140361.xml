@@ -1,0 +1,142 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28140361</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-6560</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>62</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physics in medicine and biology</Title>
+                <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Directional sinogram interpolation for motion weighted 4D cone-beam CT reconstruction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2254-2275</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/aa5b6e</ELocationID>
+            <Abstract>
+                <AbstractText>The image quality of respiratory sorted four-dimensional (4D) cone-beam (CB) computed tomography (CT) is often limited by streak artifacts due to insufficient projections. A motion weighted reconstruction (MWR) method is proposed to decrease streak artifacts and improve image quality. Firstly, respiratory correlated CBCT projections were interpolated by directional sinogram interpolation (DSI) to generate additional CB projections for each phase and subsequently reconstructed. Secondly, local motion was estimated by deformable image registration of the interpolated 4D CBCT. Thirdly, a regular 3D FDK CBCT was reconstructed from the non-interpolated projections. Finally, weights were assigned to each voxel, based on the local motion, and then were used to combine the 3D FDK CBCT and interpolated 4D CBCT to generate the final 4D image. MWR method was compared with regular 4D CBCT scans as well as McKinnon and Bates (MKB) based reconstructions. Comparisons were made in terms of (1) comparing the steepness of an extracted profile from the boundary of the region-of-interest (ROI), (2) contrast-to-noise ratio (CNR) inside certain ROIs, and (3) the root-mean-square-error (RMSE) between the planning CT and CBCT inside a homogeneous moving region. Comparisons were made for both a phantom and four patient scans. In a 4D phantom, RMSE were reduced by 24.7% and 38.7% for MKB and MWR respectively, compared to conventional 4D CBCT. Meanwhile, interpolation induced blur was minimal in static regions for MWR based reconstructions. In regions with considerable respiratory motion, image blur using MWR is less than the MKB and 3D Feldkamp (FDK) methods. In the lung cancer patients, average CNRs of MKB, DSI and MWR improved by a factor 1.7, 2.8 and 3.5 respectively relative to 4D FDK. MWR effectively reduces RMSE in 4D cone-beam CT and improves the image quality in both the static and respiratory moving regions compared to 4D FDK and MKB methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Hua</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX, Amsterdam, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kruis</LastName>
+                    <ForeName>Matthijs</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sonke</LastName>
+                    <ForeName>Jan-Jakob</ForeName>
+                    <Initials>JJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Phys Med Biol</MedlineTA>
+            <NlmUniqueID>0401220</NlmUniqueID>
+            <ISSNLinking>0031-9155</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016477" MajorTopicYN="N">Artifacts</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D054893" MajorTopicYN="N">Cone-Beam Computed Tomography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005471" MajorTopicYN="N">Fluoroscopy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056973" MajorTopicYN="N">Four-Dimensional Computed Tomography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008175" MajorTopicYN="N">Lung Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009038" MajorTopicYN="Y">Motion</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019047" MajorTopicYN="N">Phantoms, Imaging</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28140361</ArticleId>
+            <ArticleId IdType="doi">10.1088/1361-6560/aa5b6e</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,494 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28625502</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-6833</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>188</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of pediatrics</Title>
+                <ISOAbbreviation>J. Pediatr.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Computable Phenotype Improves Cohort Ascertainment in a Pediatric Pulmonary Hypertension Registry.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>224-231.e5</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0022-3476(17)30658-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jpeds.2017.05.037</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">To compare registry and electronic health record (EHR) data mining approaches for cohort ascertainment in patients with pediatric pulmonary hypertension (PH) in an effort to overcome some of the limitations of registry enrollment alone in identifying patients with particular disease phenotypes.</AbstractText>
+                <AbstractText Label="STUDY DESIGN" NlmCategory="METHODS">This study was a single-center retrospective analysis of EHR and registry data at Boston Children's Hospital. The local Informatics for Integrating Biology and the Bedside (i2b2) data warehouse was queried for billing codes, prescriptions, and narrative data related to pediatric PH. Computable phenotype algorithms were developed by fitting penalized logistic regression models to a physician-annotated training set. Algorithms were applied to a candidate patient cohort, and performance was evaluated using a separate set of 136 records and 179 registry patients. We compared clinical and demographic characteristics of patients identified by computable phenotype and the registry.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The computable phenotype had an area under the receiver operating characteristics curve of 90% (95% CI, 85%-95%), a positive predictive value of 85% (95% CI, 77%-93%), and identified 413 patients (an additional 231%) with pediatric PH who were not enrolled in the registry. Patients identified by the computable phenotype were clinically distinct from registry patients, with a greater prevalence of diagnoses related to perinatal distress and left heart disease.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Mining of EHRs using computable phenotypes identified a large cohort of patients not recruited using a classic registry. Fusion of EHR and registry data can improve cohort ascertainment for the study of rare diseases.</AbstractText>
+                <AbstractText Label="TRIAL REGISTRATION" NlmCategory="BACKGROUND">ClinicalTrials.gov: NCT02249923.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Geva</LastName>
+                    <ForeName>Alon</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Division of Critical Care Medicine, Department of Anesthesiology, Perioperative, and Pain Medicine, Boston Children's Hospital, Boston, MA; Department of Anesthesia, Harvard Medical School, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gronsbell</LastName>
+                    <ForeName>Jessica L</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, Harvard T. H. Chan School of Public Health, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cai</LastName>
+                    <ForeName>Tianxi</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, Harvard T. H. Chan School of Public Health, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cai</LastName>
+                    <ForeName>Tianrun</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Rheumatology, Immunology and Allergy, Brigham and Women's Hospital, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Murphy</LastName>
+                    <ForeName>Shawn N</ForeName>
+                    <Initials>SN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Research Information Services and Computing, Partners Healthcare, Boston, MA; Department of Neurology, Massachusetts General Hospital, Boston, MA; Department of Biomedical Informatics, Harvard Medical School, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lyons</LastName>
+                    <ForeName>Jessica C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics, Harvard Medical School, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heinz</LastName>
+                    <ForeName>Michelle M</ForeName>
+                    <Initials>MM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Health Informatics Program, Boston Children's Hospital, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Natter</LastName>
+                    <ForeName>Marc D</ForeName>
+                    <Initials>MD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Department of Pediatrics, Harvard Medical School, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Patibandla</LastName>
+                    <ForeName>Nandan</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Services Department, Boston Children's Hospital, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bickel</LastName>
+                    <ForeName>Jonathan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Department of Pediatrics, Harvard Medical School, Boston, MA; Information Services Department, Boston Children's Hospital, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mullen</LastName>
+                    <ForeName>Mary P</ForeName>
+                    <Initials>MP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Harvard Medical School, Boston, MA; Department of Cardiology, Boston Children's Hospital, Boston, MA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mandl</LastName>
+                    <ForeName>Kenneth D</ForeName>
+                    <Initials>KD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Department of Biomedical Informatics, Harvard Medical School, Boston, MA; Department of Pediatrics, Harvard Medical School, Boston, MA. Electronic address: kenneth_mandl@harvard.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Pediatric Pulmonary Hypertension Network and National Heart, Lung, and Blood Institute Pediatric Pulmonary Vascular Disease Outcomes Bioinformatics Clinical Coordinating Center Investigators</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>L40 HL133929</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM104303</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 HD040128</GrantID>
+                    <Acronym>HD</Acronym>
+                    <Agency>NICHD NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HL121518</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D064888">Observational Study</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Pediatr</MedlineTA>
+            <NlmUniqueID>0375410</NlmUniqueID>
+            <ISSNLinking>0022-3476</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2016 Jul 29;11(7):e0159621</RefSource>
+                <PMID Version="1">27472449</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2012 Feb 11;379(9815):537-46</RefSource>
+                <PMID Version="1">22240409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Med. 2015 Apr 30;7(1):41</RefSource>
+                <PMID Version="1">25937834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2015 Sep;22(5):993-1000</RefSource>
+                <PMID Version="1">25929596</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2016 Apr;23 (e1):e20-7</RefSource>
+                <PMID Version="1">26338219</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Dec;58:156-65</RefSource>
+                <PMID Version="1">26464024</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2009 Sep;19(9):1675-81</RefSource>
+                <PMID Version="1">19602638</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Aug 24;10(8):e0136651</RefSource>
+                <PMID Version="1">26301417</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D267-70</RefSource>
+                <PMID Version="1">14681409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2011 Jun;12(6):417-28</RefSource>
+                <PMID Version="1">21587298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Jt Summits Transl Sci Proc. 2014 Apr 07;2014:96-101</RefSource>
+                <PMID Version="1">25717408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pers Med. 2016 Feb 26;6(1):null</RefSource>
+                <PMID Version="1">26927184</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2016 Sep;23(5):909-15</RefSource>
+                <PMID Version="1">26911824</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Pediatr. 2014 Oct;26(5):527-35</RefSource>
+                <PMID Version="1">25136947</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Semin Pediatr Surg. 2015 Feb;24(1):12-6</RefSource>
+                <PMID Version="1">25639804</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Jul-Aug;21(4):615-20</RefSource>
+                <PMID Version="1">24821734</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Stat Assoc. 2011 Jan 1;106(496):1371-1382</RefSource>
+                <PMID Version="1">22844171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir Rev. 2012 Mar 1;21(123):8-18</RefSource>
+                <PMID Version="1">22379169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 2016 Dec;72 (4):1194-1205</RefSource>
+                <PMID Version="1">26910481</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2016 Nov;23 (6):1046-1052</RefSource>
+                <PMID Version="1">27026615</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2015 Nov;22(6):1220-30</RefSource>
+                <PMID Version="1">26342218</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057225" MajorTopicYN="Y">Data Mining</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057286" MajorTopicYN="Y">Electronic Health Records</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006976" MajorTopicYN="N">Hypertension, Pulmonary</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010641" MajorTopicYN="N">Phenotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011237" MajorTopicYN="N">Predictive Value of Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012042" MajorTopicYN="Y">Registries</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014481" MajorTopicYN="N">United States</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">bioinformatics</Keyword>
+            <Keyword MajorTopicYN="N">computer-based model</Keyword>
+            <Keyword MajorTopicYN="N">pediatrics</Keyword>
+            <Keyword MajorTopicYN="N">pulmonary hypertension</Keyword>
+            <Keyword MajorTopicYN="N">registry</Keyword>
+        </KeywordList>
+        <InvestigatorList>
+            <Investigator ValidYN="Y">
+                <LastName>Abman</LastName>
+                <ForeName>Steven</ForeName>
+                <Initials>S</Initials>
+                <AffiliationInfo>
+                    <Affiliation>University of Colorado, Denver, CO.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Adatia</LastName>
+                <ForeName>Ian</ForeName>
+                <Initials>I</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Stollery Children's Hospital, Mazankowski Alberta Heart Institute, University of Alberta, Edmonton, AB, Canada.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Austin</LastName>
+                <ForeName>Eric D</ForeName>
+                <Initials>ED</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Monroe Carell Jr. Children's Hospital at Vanderbilt, Nashville, TN.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Feinstein</LastName>
+                <ForeName>Jeffrey</ForeName>
+                <Initials>J</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Stanford University, Stanford, CA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fineman</LastName>
+                <ForeName>Jeff</ForeName>
+                <Initials>J</Initials>
+                <AffiliationInfo>
+                    <Affiliation>University of California, San Francisco, San Francisco, CA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hanna</LastName>
+                <ForeName>Brian</ForeName>
+                <Initials>B</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Children's Hospital of Philadelphia, Philadelphia, PA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hopper</LastName>
+                <ForeName>Rachel</ForeName>
+                <Initials>R</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Children's Hospital of Philadelphia, Philadelphia, PA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ivy</LastName>
+                <ForeName>Dunbar</ForeName>
+                <Initials>D</Initials>
+                <AffiliationInfo>
+                    <Affiliation>University of Colorado, Denver, CO.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Keller</LastName>
+                <ForeName>Roberta</ForeName>
+                <Initials>R</Initials>
+                <AffiliationInfo>
+                    <Affiliation>University of California, San Francisco, San Francisco, CA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Krishnan</LastName>
+                <ForeName>Usha</ForeName>
+                <Initials>U</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Columbia University, New York-Presbyterian, Morgan Stanley Children's Hospital, New York, NY.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kulik</LastName>
+                <ForeName>Thomas</ForeName>
+                <Initials>T</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Boston Children's Hospital, Boston, MA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mullen</LastName>
+                <ForeName>Mary</ForeName>
+                <Initials>M</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Boston Children's Hospital, Boston, MA.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Raj</LastName>
+                <ForeName>Usha</ForeName>
+                <Initials>U</Initials>
+                <AffiliationInfo>
+                    <Affiliation>University of Illinois, Chicago, Chicago, IL.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rosenzweig</LastName>
+                <ForeName>Erika Berman</ForeName>
+                <Initials>EB</Initials>
+                <AffiliationInfo>
+                    <Affiliation>Columbia University, New York-Presbyterian, Morgan Stanley Children's Hospital, New York, NY.</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+        </InvestigatorList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28625502</ArticleId>
+            <ArticleId IdType="pii">S0022-3476(17)30658-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jpeds.2017.05.037</ArticleId>
+            <ArticleId IdType="pmc">PMC5572538</ArticleId>
+            <ArticleId IdType="mid">NIHMS885513</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

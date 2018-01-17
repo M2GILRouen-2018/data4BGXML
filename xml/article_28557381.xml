@@ -1,0 +1,179 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28557381</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1099-0496</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>52</Volume>
+                    <Issue>7</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Pediatric pulmonology</Title>
+                <ISOAbbreviation>Pediatr. Pulmonol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Predicting frequent emergency department visits among children with asthma using EHR data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>880-890</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/ppul.23735</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">For children with asthma, emergency department (ED) visits are common, expensive, and often avoidable. Though several factors are associated with ED use (demographics, comorbidities, insurance, medications), its predictability using electronic health record (EHR) data is understudied.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We used a retrospective cohort study design and EHR data from one center to examine the relationship of patient factors in 1 year (2013) and the likelihood of frequent ED use (≥2 visits) in the following year (2014), using bivariate and multivariable statistics. We applied and compared several machine-learning algorithms to predict frequent ED use, then selected a model based on accuracy, parsimony, and interpretability.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We identified 2691 children. In bivariate analyses, future frequent ED use was associated with demographics, co-morbidities, insurance status, medication history, and use of healthcare resources. Machine learning algorithms had very good AUC (area under the curve) values [0.66-0.87], though fair PPV (positive predictive value) [48-70%] and poor sensitivity [16-27%]. Our final multivariable logistic regression model contained two variables: insurance status and prior ED use. For publicly insured patients, the odds of frequent ED use were 3.1 [2.2-4.5] times that of privately insured patients. Publicly insured patients with 4+ ED visits and privately insured patients with 6+ ED visits in a year had ≥50% probability of frequent ED use the following year. The model had an AUC of 0.86, PPV of 56%, and sensitivity of 23%.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Among children with asthma, prior frequent ED use and insurance status strongly predict future ED use.</AbstractText>
+                <CopyrightInformation>© 2017 Wiley Periodicals, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Das</LastName>
+                    <ForeName>Lala T</ForeName>
+                    <Initials>LT</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-1932-9194</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Healthcare Policy &amp; Research, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abramson</LastName>
+                    <ForeName>Erika L</ForeName>
+                    <Initials>EL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Healthcare Policy &amp; Research, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>New York Presbyterian Hospital, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stone</LastName>
+                    <ForeName>Anne E</ForeName>
+                    <Initials>AE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>New York Presbyterian Hospital, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kondrich</LastName>
+                    <ForeName>Janienne E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>New York Presbyterian Hospital, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kern</LastName>
+                    <ForeName>Lisa M</ForeName>
+                    <Initials>LM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Healthcare Policy &amp; Research, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>New York Presbyterian Hospital, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grinspan</LastName>
+                    <ForeName>Zachary M</ForeName>
+                    <Initials>ZM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Healthcare Policy &amp; Research, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Weill Cornell Medicine, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>New York Presbyterian Hospital, New York, New York.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Pediatr Pulmonol</MedlineTA>
+            <NlmUniqueID>8510590</NlmUniqueID>
+            <ISSNLinking>1099-0496</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">asthma and early wheeze</Keyword>
+            <Keyword MajorTopicYN="N">biostatistics</Keyword>
+            <Keyword MajorTopicYN="N">electronic health records</Keyword>
+            <Keyword MajorTopicYN="N">evidence-based medicine and outcomes</Keyword>
+            <Keyword MajorTopicYN="N">predictive modeling</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>5</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>5</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>5</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28557381</ArticleId>
+            <ArticleId IdType="doi">10.1002/ppul.23735</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

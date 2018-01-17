@@ -1,0 +1,90 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28129157</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Bounded Self-Weights Estimation Method for Non-Local Means Image Denoising Using Minimax Estimators.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1637-1649</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2658941</ELocationID>
+            <Abstract>
+                <AbstractText>A non-local means (NLM) filter is a weighted average of a large number of non-local pixels with various image intensity values. The NLM filters have been shown to have powerful denoising performance, excellent detail preservation by averaging many noisy pixels, and using appropriate values for the weights, respectively. The NLM weights between two different pixels are determined based on the similarities between two patches that surround these pixels and a smoothing parameter. Another important factor that influences the denoising performance is the self-weight values for the same pixel. The recently introduced local James-Stein type center pixel weight estimation method (LJS) outperforms other existing methods when determining the contribution of the center pixels in the NLM filter. However, the LJS method may result in excessively large self-weight estimates since no upper bound is assumed, and the method uses a relatively large local area for estimating the self-weights, which may lead to a strong bias. In this paper, we investigated these issues in the LJS method, and then propose a novel local self-weight estimation methods using direct bounds (LMM-DB) and reparametrization (LMM-RP) based on the Baranchik's minimax estimator. Both the LMM-DB and LMM-RP methods were evaluated using a wide range of natural images and a clinical MRI image together with the various levels of additive Gaussian noise. Our proposed parameter selection methods yielded an improved bias-variance trade-off, a higher peak signal-to-noise (PSNR) ratio, and fewer visual artifacts when compared with the results of the classical NLM and LJS methods. Our proposed methods also provide a heuristic way to select a suitable global smoothing parameters that can yield PSNR values that are close to the optimal values.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nguyen</LastName>
+                    <ForeName>Minh Phuong</ForeName>
+                    <Initials>MP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chun</LastName>
+                    <ForeName>Se Young</ForeName>
+                    <Initials>SY</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28129157</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2658941</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

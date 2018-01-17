@@ -1,0 +1,384 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29173280</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2050-084X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>eLife</Title>
+                <ISOAbbreviation>Elife</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Predicting non-linear dynamics by stable local learning in a recurrent spiking neural network.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.7554/eLife.28295</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">e28295</ELocationID>
+            <Abstract>
+                <AbstractText>The brain needs to predict how the body reacts to motor commands, but how a network of spiking neurons can learn non-linear body dynamics using local, online and stable learning rules is unclear. Here, we present a supervised learning scheme for the feedforward and recurrent connections in a network of heterogeneous spiking neurons. The error in the output is fed back through fixed random connections with a negative gain, causing the network to follow the desired dynamics. The rule for Feedback-based Online Local Learning Of Weights (FOLLOW) is local in the sense that weight changes depend on the presynaptic activity and the error signal projected onto the postsynaptic neuron. We provide examples of learning linear, non-linear and chaotic dynamics, as well as the dynamics of a two-link arm. Under reasonable approximations, we show, using the Lyapunov method, that FOLLOW learning is uniformly stable, with the error going to zero asymptotically.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gilra</LastName>
+                    <ForeName>Aditya</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-8628-1864</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Brain-Mind Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer and Communication Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gerstner</LastName>
+                    <ForeName>Wulfram</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Brain-Mind Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer and Communication Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Elife</MedlineTA>
+            <NlmUniqueID>101579614</NlmUniqueID>
+            <ISSNLinking>2050-084X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2005 Oct;17(10):2176-214</RefSource>
+                <PMID Version="1">16105222</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 1992 Apr;12(4):1435-53</RefSource>
+                <PMID Version="1">1556602</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Exp Med Biol. 2009;629:317-35</RefSource>
+                <PMID Version="1">19227507</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2014 May 21;82(4):925-38</RefSource>
+                <PMID Version="1">24768299</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2014 Feb 5;81(3):521-8</RefSource>
+                <PMID Version="1">24507189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2006 Jun;18(6):1318-48</RefSource>
+                <PMID Version="1">16764506</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2016 Feb 29;12(2):e1004792</RefSource>
+                <PMID Version="1">26928718</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Mar 9;107(10):4722-7</RefSource>
+                <PMID Version="1">20167805</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cereb Cortex. 2014 Mar;24(3):677-90</RefSource>
+                <PMID Version="1">23146969</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Comput Neurosci. 2010 May 11;4:11</RefSource>
+                <PMID Version="1">20485466</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Neurobiol. 2014 Apr;25:134-9</RefSource>
+                <PMID Version="1">24468508</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2004 Jan 15;427(6971):244-7</RefSource>
+                <PMID Version="1">14724638</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Biol Sci. 2016 Nov 30;283(1843):</RefSource>
+                <PMID Version="1">27903878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(9):e22885</RefSource>
+                <PMID Version="1">21980334</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2000 Apr;26(1):259-71</RefSource>
+                <PMID Version="1">10798409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2010 Jun 23;30(25):8400-10</RefSource>
+                <PMID Version="1">20573887</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2005 Aug;17(8):1715-38</RefSource>
+                <PMID Version="1">15969915</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2003 Jul 3;424(6944):72-5</RefSource>
+                <PMID Version="1">12840761</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1995 Sep 29;269(5232):1880-2</RefSource>
+                <PMID Version="1">7569931</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2016 Mar;19(3):350-5</RefSource>
+                <PMID Version="1">26906501</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neural Eng. 2005 Sep;2(3):S313-9</RefSource>
+                <PMID Version="1">16135891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Neural Netw. 1994;5(2):157-66</RefSource>
+                <PMID Version="1">18267787</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2016 Aug 17;11(8):e0161335</RefSource>
+                <PMID Version="1">27532262</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2008 Nov;4(11):e1000211</RefSource>
+                <PMID Version="1">18989391</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2004 Apr 2;304(5667):78-80</RefSource>
+                <PMID Version="1">15064413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2009 Feb 26;457(7233):1133-6</RefSource>
+                <PMID Version="1">19151698</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2016 Nov 08;7:13276</RefSource>
+                <PMID Version="1">27824044</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2014 Jun 18;82(6):1394-406</RefSource>
+                <PMID Version="1">24945778</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2009 Aug 27;63(4):544-57</RefSource>
+                <PMID Version="1">19709635</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2015 Jan;18(1):138-44</RefSource>
+                <PMID Version="1">25420067</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Early Dev Parent. 1997 Sep;6(3-4):179-192</RefSource>
+                <PMID Version="1">24634574</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Netw. 1996 Nov;9(8):1265-1279</RefSource>
+                <PMID Version="1">12662535</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2005 Feb;93(2):1055-68</RefSource>
+                <PMID Version="1">15456796</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2006 Mar;9(3):420-8</RefSource>
+                <PMID Version="1">16474393</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Jul 5;487(7405):51-6</RefSource>
+                <PMID Version="1">22722855</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neural Circuits. 2013 Jun 19;7:106</RefSource>
+                <PMID Version="1">23801941</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2015 Dec 03;11(12):e1004566</RefSource>
+                <PMID Version="1">26633645</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2000 Nov;3 Suppl:1192-8</RefSource>
+                <PMID Version="1">11127837</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(8):e40233</RefSource>
+                <PMID Version="1">22879876</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2005 Jun;17(6):1276-314</RefSource>
+                <PMID Version="1">15901399</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2015 Oct 8;163(2):456-92</RefSource>
+                <PMID Version="1">26451489</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neuroinform. 2009 Mar 24;3:7</RefSource>
+                <PMID Version="1">19352442</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Vis. 2008 Apr 23;8(4):20.1-19</RefSource>
+                <PMID Version="1">18484859</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Neural Syst. 2012 Aug;22(4):1250012</RefSource>
+                <PMID Version="1">22830962</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Comput Neurosci. 2015 Mar 19;9:32</RefSource>
+                <PMID Version="1">25852530</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2000 Nov;3 Suppl:1212-7</RefSource>
+                <PMID Version="1">11127840</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cold Spring Harb Symp Quant Biol. 1990;55:899-910</RefSource>
+                <PMID Version="1">2132866</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2016 Mar;19(3):375-82</RefSource>
+                <PMID Version="1">26906504</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 1997 Nov 15;9(8):1735-80</RefSource>
+                <PMID Version="1">9377276</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 1994 May;14(5 Pt 2):3208-24</RefSource>
+                <PMID Version="1">8182467</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Netw. 2007 Apr;20(3):323-34</RefSource>
+                <PMID Version="1">17517489</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroscience. 2001;102(3):615-23</RefSource>
+                <PMID Version="1">11226698</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Rev Neurosci. 2003;14(1-2):5-19</RefSource>
+                <PMID Version="1">12929914</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2008 Jun;20(6):1473-94</RefSource>
+                <PMID Version="1">18254696</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(5):e37372</RefSource>
+                <PMID Version="1">22655041</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Brain Res. 2009 Feb;192(4):571-604</RefSource>
+                <PMID Version="1">19139857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Neurobiol. 2008 Dec;18(6):573-81</RefSource>
+                <PMID Version="1">19054663</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2004 Dec 9;432(7018):758-61</RefSource>
+                <PMID Version="1">15592414</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2012 Dec;108(12):3313-21</RefSource>
+                <PMID Version="1">22972960</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2016 Jun 16;12 (6):e1004895</RefSource>
+                <PMID Version="1">27309381</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2002 Nov;14(11):2531-60</RefSource>
+                <PMID Version="1">12433288</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2011 Dec 16;334(6062):1569-73</RefSource>
+                <PMID Version="1">22075724</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cogn Neurosci. 1997 Mar;9(2):222-37</RefSource>
+                <PMID Version="1">23962013</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Neural Netw. 1995;6(5):1212-28</RefSource>
+                <PMID Version="1">18263409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Neural Netw. 1992;3(6):837-63</RefSource>
+                <PMID Version="1">18276483</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">feedback</Keyword>
+            <Keyword MajorTopicYN="N">learning</Keyword>
+            <Keyword MajorTopicYN="N">motor control</Keyword>
+            <Keyword MajorTopicYN="N">neuroscience</Keyword>
+            <Keyword MajorTopicYN="N">none</Keyword>
+            <Keyword MajorTopicYN="N">plasticity</Keyword>
+            <Keyword MajorTopicYN="N">recurrent neural networks</Keyword>
+            <Keyword MajorTopicYN="N">stability</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29173280</ArticleId>
+            <ArticleId IdType="doi">10.7554/eLife.28295</ArticleId>
+            <ArticleId IdType="pmc">PMC5730383</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

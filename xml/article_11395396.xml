@@ -1,0 +1,287 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28114882</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>FuGePrior: A novel gene fusion prioritization algorithm based on accurate fusion structure analysis in cancer RNA-seq samples.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>58</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-016-1450-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Latest Next Generation Sequencing technologies opened the way to a novel era of genomic studies, allowing to gain novel insights into multifactorial pathologies as cancer. In particular gene fusion detection and comprehension have been deeply enhanced by these methods. However, state of the art algorithms for gene fusion identification are still challenging. Indeed, they identify huge amounts of poorly overlapping candidates and all the reported fusions should be considered for in lab validation clearly overwhelming wet lab capabilities.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In this work we propose a novel methodological approach and tool named FuGePrior for the prioritization of gene fusions from paired-end RNA-Seq data. The proposed pipeline combines state of the art tools for chimeric transcript discovery and prioritization, a series of filtering and processing steps designed by considering modern literature on gene fusions and an analysis on functional reliability of gene fusion structure.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">FuGePrior performance has been assessed on two publicly available paired-end RNA-Seq datasets: The first by Edgren and colleagues includes four breast cancer cell lines and a normal breast sample, whereas the second by Ren and colleagues comprises fourteen primary prostate cancer samples and their paired normal counterparts. FuGePrior results accounted for a reduction in the number of fusions output of chimeric transcript discovery tools that ranges from 65 to 75% depending on the considered breast cancer cell line and from 37 to 65% according to the prostate cancer sample under examination. Furthermore, since both datasets come with a partial validation we were able to assess the performance of FuGePrior in correctly prioritizing real gene fusions. Specifically, 25 out of 26 validated fusions in breast cancer dataset have been correctly labelled as reliable and biologically significant. Similarly, 2 out of 5 validated fusions in prostate dataset have been recognized as priority by FuGePrior tool.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Paciello</LastName>
+                    <ForeName>Giulia</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Control and Computer Engineering DAUIN, Politecnico di Torino, C.so Duca degli Abruzzi 24, Turin, 10129, Italy. giulia.paciello@polito.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ficarra</LastName>
+                    <ForeName>Elisa</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Control and Computer Engineering DAUIN, Politecnico di Torino, C.so Duca degli Abruzzi 24, Turin, 10129, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D011993">Recombinant Fusion Proteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Case Rep Hematol. 2015;2015:458052</RefSource>
+                <PMID Version="1">25949834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2011 Feb 10;470(7333):214-20</RefSource>
+                <PMID Version="1">21307934</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Jan 14;463(7278):191-6</RefSource>
+                <PMID Version="1">20016485</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Clin Exp Med. 2015 Sep 15;8(9):15127-36</RefSource>
+                <PMID Version="1">26628996</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pathol. 2014 Oct;234(2):142-5</RefSource>
+                <PMID Version="1">25074498</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood. 1999 Feb 1;93(3):1107-8</RefSource>
+                <PMID Version="1">10025981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Oct 15;27(20):2903-4</RefSource>
+                <PMID Version="1">21840877</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2015 Feb 06;11(2):e1005001</RefSource>
+                <PMID Version="1">25658338</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D84-90</RefSource>
+                <PMID Version="1">22086963</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Natl Cancer Inst. 2015 Nov 12;108(1):null</RefSource>
+                <PMID Version="1">26563356</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2014 Sep 04;8:97</RefSource>
+                <PMID Version="1">25183062</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2011 May;7(5):e1001138</RefSource>
+                <PMID Version="1">21625565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Feb 10;6:21597</RefSource>
+                <PMID Version="1">26862001</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pathol. 2013 Jun;230(2):174-83</RefSource>
+                <PMID Version="1">23447416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2010 Oct;38(18):e178</RefSource>
+                <PMID Version="1">20802226</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Aug 15;28(16):2114-21</RefSource>
+                <PMID Version="1">22711792</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood. 2009 Sep 17;114(12):2489-96</RefSource>
+                <PMID Version="1">19528532</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Transl Med. 2011 Aug 3;3(94):94ra72</RefSource>
+                <PMID Version="1">21813756</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood. 2011 Mar 3;117(9):2577-84</RefSource>
+                <PMID Version="1">21097673</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D71-5</RefSource>
+                <PMID Version="1">22102590</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Oct 15;29(20):2539-46</RefSource>
+                <PMID Version="1">23956304</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Res. 2012 May;22(5):806-21</RefSource>
+                <PMID Version="1">22349460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood Cancer J. 2015 Feb 06;5:e278</RefSource>
+                <PMID Version="1">25658984</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Haematol. 2016 Mar;172(6):987-90</RefSource>
+                <PMID Version="1">26147192</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2015 Jun;15(6):371-81</RefSource>
+                <PMID Version="1">25998716</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2011;12(1):R6</RefSource>
+                <PMID Version="1">21247443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Pathol. 2001 Jun;158(6):2185-93</RefSource>
+                <PMID Version="1">11395396</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001943" MajorTopicYN="N">Breast Neoplasms</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D045744" MajorTopicYN="N">Cell Line, Tumor</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="N">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023281" MajorTopicYN="N">Genomics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061986" MajorTopicYN="N">MCF-7 Cells</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011471" MajorTopicYN="N">Prostatic Neoplasms</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011993" MajorTopicYN="N">Recombinant Fusion Proteins</DescriptorName>
+                <QualifierName UI="Q000737" MajorTopicYN="N">chemistry</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017423" MajorTopicYN="Y">Sequence Analysis, RNA</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Chimeric transcript discovery tools</Keyword>
+            <Keyword MajorTopicYN="N">Gene fusion prioritization</Keyword>
+            <Keyword MajorTopicYN="N">Gene fusions</Keyword>
+            <Keyword MajorTopicYN="N">RNA-sequencing</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114882</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-016-1450-6</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-016-1450-6</ArticleId>
+            <ArticleId IdType="pmc">PMC5260008</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

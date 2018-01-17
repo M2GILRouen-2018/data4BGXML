@@ -1,0 +1,336 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28931373</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Improving contig binning of metagenomic data using [Formula: see text] oligonucleotide frequency dissimilarity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>425</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1835-1</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Metagenomics sequencing provides deep insights into microbial communities. To investigate their taxonomic structure, binning assembled contigs into discrete clusters is critical. Many binning algorithms have been developed, but their performance is not always satisfactory, especially for complex microbial communities, calling for further development.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">According to previous studies, relative sequence compositions are similar across different regions of the same genome, but they differ between distinct genomes. Generally, current tools have used the normalized frequency of k-tuples directly, but this represents an absolute, not relative, sequence composition. Therefore, we attempted to model contigs using relative k-tuple composition, followed by measuring dissimilarity between contigs using [Formula: see text]. The [Formula: see text] was designed to measure the dissimilarity between two long sequences or Next-Generation Sequencing data with the Markov models of the background genomes. This method was effective in revealing group and gradient relationships between genomes, metagenomes and metatranscriptomes. With many binning tools available, we do not try to bin contigs from scratch. Instead, we developed [Formula: see text] to adjust contigs among bins based on the output of existing binning tools for a single metagenomic sample. The tool is taxonomy-free and depends only on k-tuples. To evaluate the performance of [Formula: see text], five widely used binning tools with different strategies of sequence composition or the hybrid of sequence composition and abundance were selected to bin six synthetic and real datasets, after which [Formula: see text] was applied to adjust the binning results. Our experiments showed that [Formula: see text] consistently achieves the best performance with tuple length k = 6 under the independent identically distributed (i.i.d.) background model. Using the metrics of recall, precision and ARI (Adjusted Rand Index), [Formula: see text] improves the binning performance in 28 out of 30 testing experiments (6 datasets with 5 binning tools). The [Formula: see text] is available at https://github.com/kunWangkun/d2SBin .</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Experiments showed that [Formula: see text] accurately measures the dissimilarity between contigs of metagenomic reads and that relative sequence composition is more reasonable to bin the contigs. The [Formula: see text] can be applied to any existing contig-binning tools for single metagenomic samples to obtain better binning results.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8766-5950</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Automation, Xiamen University, Xiamen, Fujian, 361005, China. wangying@xmu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Kun</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Automation, Xiamen University, Xiamen, Fujian, 361005, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Yang Young</ForeName>
+                    <Initials>YY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular and Computational Biology Program, University of Southern California, Los Angeles, California, CA, 90089, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Fengzhu</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular and Computational Biology Program, University of Southern California, Los Angeles, California, CA, 90089, USA. fsun@usc.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Systems Biology, Fudan University, Shanghai, 200433, China. fsun@usc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 GM120624</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PeerJ. 2014 Sep 30;2:e603</RefSource>
+                <PMID Version="1">25289188</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Feb 15;32(4):605-7</RefSource>
+                <PMID Version="1">26515820</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Struct Biotechnol J. 2016 Dec 05;15:48-55</RefSource>
+                <PMID Version="1">27980708</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2008 Oct 08;3(10):e3373</RefSource>
+                <PMID Version="1">18841204</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Apr 12;6:24175</RefSource>
+                <PMID Version="1">27067514</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2012 Nov;13(6):669-81</RefSource>
+                <PMID Version="1">22962338</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Jan 1;27(1):127-9</RefSource>
+                <PMID Version="1">21062764</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2008 May;18(5):821-9</RefSource>
+                <PMID Version="1">18349386</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2017 Jan 9;45(1):39-53</RefSource>
+                <PMID Version="1">27899557</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2016 Jan 4;44(D1):D279-85</RefSource>
+                <PMID Version="1">26673716</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2011 Mar;18(3):523-34</RefSource>
+                <PMID Version="1">21385052</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2009;10(8):R85</RefSource>
+                <PMID Version="1">19698104</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009 Oct 02;10:316</RefSource>
+                <PMID Version="1">19799776</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Sep 15;28(18):i356-i362</RefSource>
+                <PMID Version="1">22962452</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Microbiol. 2012 Dec 05;3:410</RefSource>
+                <PMID Version="1">23227024</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2013 Feb;20(2):64-79</RefSource>
+                <PMID Version="1">23383994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Nov 02;11:544</RefSource>
+                <PMID Version="1">21044341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Bacteriol. 1997 Jun;179(12):3899-913</RefSource>
+                <PMID Version="1">9190805</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbiome. 2014 Aug 01;2:26</RefSource>
+                <PMID Version="1">25136443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2004 Mar 4;428(6978):37-43</RefSource>
+                <PMID Version="1">14961025</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2017 Mar 15;33(6):791-798</RefSource>
+                <PMID Version="1">27256312</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Nov 23;6:37243</RefSource>
+                <PMID Version="1">27876823</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2007 Mar;17(3):377-86</RefSource>
+                <PMID Version="1">17255551</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2006 Nov 28;103(48):18296-301</RefSource>
+                <PMID Version="1">17114289</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2006 Oct 26;443(7114):950-5</RefSource>
+                <PMID Version="1">16980956</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2012 Feb;19(2):241-9</RefSource>
+                <PMID Version="1">22300323</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Jan 02;9(1):e84348</RefSource>
+                <PMID Version="1">24392128</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2012 Dec 27;13:730</RefSource>
+                <PMID Version="1">23268604</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2013 Jan;23(1):111-20</RefSource>
+                <PMID Version="1">22936250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2014 Mar 03;15(3):R46</RefSource>
+                <PMID Version="1">24580807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Jun 1;27(11):1489-95</RefSource>
+                <PMID Version="1">21493653</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 22;308(5721):554-7</RefSource>
+                <PMID Version="1">15845853</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbiome. 2015 Jan 20;3(1):1</RefSource>
+                <PMID Version="1">25621171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2015 Jul;25(7):1043-55</RefSource>
+                <PMID Version="1">25977477</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2010 Nov;17(11):1467-90</RefSource>
+                <PMID Version="1">20973742</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2014 Nov;11(11):1144-6</RefSource>
+                <PMID Version="1">25218180</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Genet. 2004;38:525-52</RefSource>
+                <PMID Version="1">15568985</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2007 Jun;4(6):495-500</RefSource>
+                <PMID Version="1">17468765</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Feb 05;16:36</RefSource>
+                <PMID Version="1">25652152</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005787" MajorTopicYN="N">Gene Frequency</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016678" MajorTopicYN="N">Genome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059014" MajorTopicYN="N">High-Throughput Nucleotide Sequencing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020407" MajorTopicYN="N">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008390" MajorTopicYN="N">Markov Chains</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056186" MajorTopicYN="N">Metagenomics</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014584" MajorTopicYN="N">User-Computer Interface</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Contig binning</Keyword>
+            <Keyword MajorTopicYN="N">Metagenomics</Keyword>
+            <Keyword MajorTopicYN="N">Taxonomy-independent</Keyword>
+            <Keyword MajorTopicYN="N">dissimilarity, k-tuple</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28931373</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1835-1</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1835-1</ArticleId>
+            <ArticleId IdType="pmc">PMC5607646</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113504</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Oct</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Marked Poisson Process Driven Latent Shape Model for 3D Segmentation of Reflectance Confocal Microscopy Image Stacks of Human Skin.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2615291</ELocationID>
+            <Abstract>
+                <AbstractText>Segmenting objects of interest from 3D datasets is a common problem encountered in biological data. Small field of view and intrinsic biological variability combined with optically subtle changes of intensity, resolution and low contrast in images make the task of segmentation difficult, especially for microscopy of unstained living or freshly excised thick tissues. Incorporating shape information in addition to the appearance of the object of interest can often help improve segmentation performance. However, shapes of objects in tissue can be highly variable and design of a flexible shape model that encompasses these variations is challenging. To address such complex segmentation problems, we propose a unified probabilistic framework that can incorporate the uncertainty associated with complex shapes, variable appearance and unknown locations. The driving application which inspired the development of this framework is a biologically important segmentation problem: the task of automatically detecting and segmenting the dermal-epidermal junction (DEJ) in 3D reflectance confocal microscopy (RCM) images of human skin. RCM imaging allows noninvasive observation of cellular, nuclear and morphological detail. The DEJ is an important morphological feature as it is where disorder, disease and cancer usually start. Detecting the DEJ is challenging because it is a 2D surface in a 3D volume which has strong but highly variable number of irregularly spaced and variably shaped &quot;peaks and valleys&quot;. In addition, RCM imaging resolution, contrast and intensity vary with depth. Thus a prior model needs to incorporate the intrinsic structure while allowing variability in essentially all its parameters. We propose a model which can incorporate objects of interest with complex shapes and variable appearance in an unsupervised setting by utilizing domain knowledge to build appropriate priors of the model. Our novel strategy to model this structure combines a spatial Poisson process with shape priors and performs inference using Gibbs sampling. Experimental results show that the proposed unsupervised model is able to automatically detect the DEJ with physiologically relevant accuracy in the range 10 - 20 μ m.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ghanta</LastName>
+                    <ForeName>Sindhu</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jordan</LastName>
+                    <ForeName>Michael I</ForeName>
+                    <Initials>MI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kose</LastName>
+                    <ForeName>Kivanc</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brooks</LastName>
+                    <ForeName>Dana H</ForeName>
+                    <Initials>DH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rajadhyaksha</LastName>
+                    <ForeName>Milind</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dy</LastName>
+                    <ForeName>Jennifer G</ForeName>
+                    <Initials>JG</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113504</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2615291</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

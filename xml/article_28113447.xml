@@ -1,0 +1,81 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113447</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Implementing Kernel Methods Incrementally by Incremental Nonlinear Projection Trick.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2016.2565683</ELocationID>
+            <Abstract>
+                <AbstractText>Recently, the nonlinear projection trick (NPT) was introduced enabling direct computation of coordinates of samples in a reproducing kernel Hilbert space. With NPT, any machine learning algorithm can be extended to a kernel version without relying on the so called kernel trick. However, NPT is inherently difficult to be implemented incrementally because an ever increasing kernel matrix should be treated as additional training samples are introduced. In this paper, an incremental version of the NPT (INPT) is proposed based on the observation that the centerization step in NPT is unnecessary. Because the proposed INPT does not change the coordinates of the old data, the coordinates obtained by INPT can directly be used in any incremental methods to implement a kernel version of the incremental methods. The effectiveness of the INPT is shown by applying it to implement incremental versions of kernel methods such as, kernel singular value decomposition, kernel principal component analysis, and kernel discriminant analysis which are utilized for problems of kernel matrix reconstruction, letter classification, and face image retrieval, respectively.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kwak</LastName>
+                    <ForeName>Nojun</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113447</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2016.2565683</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

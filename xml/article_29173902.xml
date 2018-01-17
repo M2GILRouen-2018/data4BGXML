@@ -1,0 +1,170 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29173902</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1724-191X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>42</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)</Title>
+                <ISOAbbreviation>Phys Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Impact of deformable image registration accuracy on thoracic images with different regularization weight parameter settings.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>108-111</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1120-1797(17)30445-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ejmp.2017.09.122</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">We assessed the deformable image registration (DIR) accuracy of thoracic images under different regularization weights using commercially available DIR software.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The thoracic 4-dimensional (4D) CT images of 10 patients were used. The datasets for these patients were provided by DIR-lab (www.dir-lab.com) and included a coordinate list of 300 anatomic landmarks that had been manually identified. The ANAtomically CONstrained Deformation Algorithm (ANACONDA) of RayStation (RaySearch Laboratories, Stockholm, Sweden) was used to deform the peak-inhale to peak-exhale images under different regularization weights (4, 40, 400-default setting, 1500, 4000, 10,000, 15,000, 20,000, 30,000, and 40,000). The regularization weights were changed using a script. The registration error (RE) was determined by calculating the difference at each landmark point between the displacement calculated by the DIR software and that calculated by the landmark. We measured the computation time for each regularization weight setting.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">High regularization weights resulted in a smaller RE than that observed with lower regularization weights. The RE decreases rapidly with increase in regularization weight before reaching a plateau. No significant difference was found between a regularization weight of 400 and regularization weights of 4, 40, 4000 or 40,000 (P value &gt;0.05). The range of the average time was 8.4-12.2s.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We concluded that the default setting for ANACONDA is stable with respect to regularization weight in the thoracic region.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Associazione Italiana di Fisica Medica. Published by Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Miura</LastName>
+                    <ForeName>Hideharu</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan; Department of Radiation Oncology, Institute of Biomedical &amp; Health Science, Hiroshima University, 1-2-3, Kasumi, Minami-ku, Hiroshima 734-8551, Japan. Electronic address: miura@hiprac.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ozawa</LastName>
+                    <ForeName>Shuichi</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan; Department of Radiation Oncology, Institute of Biomedical &amp; Health Science, Hiroshima University, 1-2-3, Kasumi, Minami-ku, Hiroshima 734-8551, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakao</LastName>
+                    <ForeName>Minoru</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Furukawa</LastName>
+                    <ForeName>Kengo</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Doi</LastName>
+                    <ForeName>Yoshiko</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kawabata</LastName>
+                    <ForeName>Hideo</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kenjou</LastName>
+                    <ForeName>Masahiro</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nagata</LastName>
+                    <ForeName>Yasushi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan; Department of Radiation Oncology, Institute of Biomedical &amp; Health Science, Hiroshima University, 1-2-3, Kasumi, Minami-ku, Hiroshima 734-8551, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Italy</Country>
+            <MedlineTA>Phys Med</MedlineTA>
+            <NlmUniqueID>9302888</NlmUniqueID>
+            <ISSNLinking>1120-1797</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">4D CT</Keyword>
+            <Keyword MajorTopicYN="N">Deformable image registration</Keyword>
+            <Keyword MajorTopicYN="N">Lung</Keyword>
+            <Keyword MajorTopicYN="N">Regularization weight</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29173902</ArticleId>
+            <ArticleId IdType="pii">S1120-1797(17)30445-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ejmp.2017.09.122</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

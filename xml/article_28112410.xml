@@ -1,0 +1,254 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28112410</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>28</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hybrid ZTE/Dixon MR-based attenuation correction for quantitative uptake estimation of pelvic lesions in PET/MRI.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>902-913</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12122</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">This study introduces a new hybrid ZTE/Dixon MR-based attenuation correction (MRAC) method including bone density estimation for PET/MRI and quantifies the effects of bone attenuation on metastatic lesion uptake in the pelvis.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Six patients with pelvic lesions were scanned using fluorodeoxyglucose (18F-FDG) in an integrated time-of-flight (TOF) PET/MRI system. For PET attenuation correction, MR imaging consisted of two-point Dixon and zero echo-time (ZTE) pulse sequences. A continuous-value fat and water pseudoCT was generated from a two-point Dixon MRI. Bone was segmented from the ZTE images and converted to Hounsfield units (HU) using a continuous two-segment piecewise linear model based on ZTE MRI intensity. The HU values were converted to linear attenuation coefficients (LAC) using a bilinear model. The bone voxels of the Dixon-based pseudoCT were replaced by the ZTE-derived bone to produce the hybrid ZTE/Dixon pseudoCT. The three different AC maps (Dixon, hybrid ZTE/Dixon, CTAC) were used to reconstruct PET images using a TOF-ordered subset expectation maximization algorithm with a point-spread function model. Metastatic lesions were separated into two classes, bone lesions and soft tissue lesions, and analyzed. The MRAC methods were compared using a root-mean-squared error (RMSE), where the registered CTAC was taken as ground truth.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The RMSE of the maximum standardized uptake values (SUVmax ) is 11.02% and 7.79% for bone (N = 6) and soft tissue lesions (N = 8), respectively, using Dixon MRAC. The RMSE of SUVmax for these lesions is significantly reduced to 3.28% and 3.94% when using the new hybrid ZTE/Dixon MRAC. Additionally, the RMSE for PET SUVs across the entire pelvis and all patients are 8.76% and 4.18%, for the Dixon and hybrid ZTE/Dixon MRAC methods, respectively.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">A hybrid ZTE/Dixon MRAC method was developed and applied to pelvic regions in an integrated TOF PET/MRI, demonstrating improved MRAC. This new method included bone density estimation, through which PET quantification is improved.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Leynes</LastName>
+                    <ForeName>Andrew P</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and Biomedical Imaging, University of California San Francisco, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Jaewon</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and Biomedical Imaging, University of California San Francisco, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shanbhag</LastName>
+                    <ForeName>Dattesh D</ForeName>
+                    <Initials>DD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GE Global Research, Plot #122, Export Promotion Industrial Park, Phase 2, Hoodi Village, Whitefield Road, Bangalore, 560066, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kaushik</LastName>
+                    <ForeName>Sandeep S</ForeName>
+                    <Initials>SS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GE Global Research, Plot #122, Export Promotion Industrial Park, Phase 2, Hoodi Village, Whitefield Road, Bangalore, 560066, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Seo</LastName>
+                    <ForeName>Youngho</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and Biomedical Imaging, University of California San Francisco, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>UC Berkeley-UCSF Graduate Program in Bioengineering, University of California, Berkeley, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University of California, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hope</LastName>
+                    <ForeName>Thomas A</ForeName>
+                    <Initials>TA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and Biomedical Imaging, University of California San Francisco, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wiesinger</LastName>
+                    <ForeName>Florian</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GE Global Research, Freisinger Landstrasse 50, 85748 Garching bei München, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Larson</LastName>
+                    <ForeName>Peder E Z</ForeName>
+                    <Initials>PE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and Biomedical Imaging, University of California San Francisco, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>UC Berkeley-UCSF Graduate Program in Bioengineering, University of California, Berkeley, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University of California, 1700 4th St, San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D019275">Radiopharmaceuticals</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0Z5B2CJX4D</RegistryNumber>
+                <NameOfSubstance UI="D019788">Fluorodeoxyglucose F18</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D015519" MajorTopicYN="N">Bone Density</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001859" MajorTopicYN="N">Bone Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000556" MajorTopicYN="N">secondary</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001842" MajorTopicYN="N">Bone and Bones</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019788" MajorTopicYN="N">Fluorodeoxyglucose F18</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="N">Imaging, Three-Dimensional</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016014" MajorTopicYN="N">Linear Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="N">Magnetic Resonance Imaging</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D064847" MajorTopicYN="N">Multimodal Imaging</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010386" MajorTopicYN="N">Pelvic Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D049268" MajorTopicYN="N">Positron-Emission Tomography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019275" MajorTopicYN="N">Radiopharmaceuticals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012983" MajorTopicYN="N">Soft Tissue Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000556" MajorTopicYN="N">secondary</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">MRAC</Keyword>
+            <Keyword MajorTopicYN="N">Dixon MRI</Keyword>
+            <Keyword MajorTopicYN="N">TOF-PET/MRI</Keyword>
+            <Keyword MajorTopicYN="N">pelvis</Keyword>
+            <Keyword MajorTopicYN="N">zero echo-time (ZTE) MRI</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28112410</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12122</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,96 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28922134</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Training-Based Gradient LBP Feature Models for Multiresolution Texture Classification.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2017.2748500</ELocationID>
+            <Abstract>
+                <AbstractText>Local binary pattern (LBP) is a simple, yet efficient coding model for extracting texture features. To improve texture classification, this paper designs a median sampling regulation, defines a group of gradient LBP (gLBP) descriptors, proposes a training-based feature model mapping method, and then develops a texture classification frame using the multiresolution feature fusion of four gLBP descriptors. Cooperated by median sampling, four descriptors encode a pixel respectively by central gradient, radial gradient, magnitude gradient and tangent gradient to generate initial gLBP patterns. The feature mapping models of gLBP descriptors are constructed by the maximal relative-variation rate (mr2) of rotation-invariant patterns, and then prestored as mapping lookup files. By mapping, initial patterns can be transformed into low-dimensional ones. And then it generates multiresolution texture features via the joint and concatenation of gLBP descriptors on different sampling parameters. A trained nearest neighbor classifier with chi-square distance is applied to classify textures by feature histograms. The experimental results of simulation on five public texture databases show that the proposed method is reliable and efficient in texture classification. In comparison with nine other similar approaches, including two state-of-the-art ones, the proposed method runs faster than most of them and also outperforms all of them in terms of classification accuracy and noise robustness. It achieves higher accuracy and has also better robustness to the Salt&amp;Pepper and Gaussian noise added artificially into texture images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ji</LastName>
+                    <ForeName>Luping</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Yan</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Guisong</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pu</LastName>
+                    <ForeName>Xiaorong</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28922134</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2017.2748500</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

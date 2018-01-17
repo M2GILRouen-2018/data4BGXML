@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113901</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Layer-Based Approach for Image Pair Fusion.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2556618</ELocationID>
+            <Abstract>
+                <AbstractText>Recently, image pairs, such as noisy and blurred images or infrared and noisy images, have been considered as a solution to provide high-quality photographs under low lighting conditions. In this paper, a new method for decomposing the image pairs into two layers, i.e., the base layer and the detail layer, is proposed for image pair fusion. In the case of infrared and noisy images, simple naive fusion leads to unsatisfactory results due to the discrepancies in brightness and image structures between the image pair. To address this problem, a local contrast-preserving conversion method is first proposed to create a new base layer of the infrared image, which can have visual appearance similar to another base layer such as the denoised noisy image. Then, a new way of designing three types of detail layers from the given noisy and infrared images is presented. To estimate the noise-free and unknown detail layer from the three designed detail layers, the optimization framework is modeled with residual-based sparsity and patch redundancy priors. To better suppress the noise, an iterative approach that updates the detail layer of the noisy image is adopted via a feedback loop. This proposed layer-based method can also be applied to fuse another noisy and blurred image pair. The experimental results show that the proposed method is effective for solving the image pair fusion problem.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Son</LastName>
+                    <ForeName>Chang-Hwan</ForeName>
+                    <Initials>CH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Xiao-Ping</ForeName>
+                    <Initials>XP</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113901</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2556618</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

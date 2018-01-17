@@ -1,0 +1,242 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28100584</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-5469</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>27</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Genome research</Title>
+                <ISOAbbreviation>Genome Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>UMI-tools: modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>491-499</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1101/gr.209601.116</ELocationID>
+            <Abstract>
+                <AbstractText>Unique Molecular Identifiers (UMIs) are random oligonucleotide barcodes that are increasingly used in high-throughput sequencing experiments. Through a UMI, identical copies arising from distinct molecules can be distinguished from those arising through PCR amplification of the same molecule. However, bioinformatic methods to leverage the information from UMIs have yet to be formalized. In particular, sequencing errors in the UMI sequence are often ignored or else resolved in an ad hoc manner. We show that errors in the UMI sequence are common and introduce network-based methods to account for these errors when identifying PCR duplicates. Using these methods, we demonstrate improved quantification accuracy both under simulated conditions and real iCLIP and single-cell RNA-seq data sets. Reproducibility between iCLIP replicates and single-cell RNA-seq clustering are both improved using our proposed network-based method, demonstrating the value of properly accounting for errors in UMIs. These methods are implemented in the open source UMI-tools software package.</AbstractText>
+                <CopyrightInformation>© 2017 Smith et al.; Published by Cold Spring Harbor Laboratory Press.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Smith</LastName>
+                    <ForeName>Tom</ForeName>
+                    <Initials>T</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-0697-8777</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Genomics Analysis and Training Programme, MRC WIMM Centre for Computational Biology, University of Oxford, Oxford OX3 9DS, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heger</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-7720-0447</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Genomics Analysis and Training Programme, MRC WIMM Centre for Computational Biology, University of Oxford, Oxford OX3 9DS, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sudbery</LastName>
+                    <ForeName>Ian</ForeName>
+                    <Initials>I</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5038-0190</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biotechnology, University of Sheffield, Sheffield S10 2TN, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Genome Res</MedlineTA>
+            <NlmUniqueID>9518021</NlmUniqueID>
+            <ISSNLinking>1088-9051</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Genet. 2007 Dec;45(11-12):761-7</RefSource>
+                <PMID Version="1">17955361</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2015 Aug 05;16:578</RefSource>
+                <PMID Version="1">26238335</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2011 Nov 20;9(1):72-4</RefSource>
+                <PMID Version="1">22101854</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2012 Jan 24;109(4):1347-52</RefSource>
+                <PMID Version="1">22232676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2015 Apr;33(4):395-401</RefSource>
+                <PMID Version="1">25751057</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2016 May;48(5):488-96</RefSource>
+                <PMID Version="1">27064255</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Struct Mol Biol. 2010 Jul;17(7):909-15</RefSource>
+                <PMID Version="1">20601959</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Commun Signal. 2008 Jun;2(1-2):25-45</RefSource>
+                <PMID Version="1">18766469</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2011 Apr;14(4):452-8</RefSource>
+                <PMID Version="1">21358640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2015 May 21;161(5):1187-201</RefSource>
+                <PMID Version="1">26000487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2014 Feb;11(2):163-6</RefSource>
+                <PMID Version="1">24363023</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Aug 1;30(15):2114-20</RefSource>
+                <PMID Version="1">24695404</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2015 May 21;161(5):1202-14</RefSource>
+                <PMID Version="1">26000488</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2012 Sep 4;109(36):14508-13</RefSource>
+                <PMID Version="1">22853953</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(12):e27310</RefSource>
+                <PMID Version="1">22194782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2016 Mar 11;17 :125</RefSource>
+                <PMID Version="1">26968756</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Med. 2015 Nov 20;7:121</RefSource>
+                <PMID Version="1">26589402</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2009;10(3):R25</RefSource>
+                <PMID Version="1">19261174</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomics. 2015 Mar;105(3):150-8</RefSource>
+                <PMID Version="1">25543032</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Mar 31;43(6):e37</RefSource>
+                <PMID Version="1">25586220</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2011;12(2):R18</RefSource>
+                <PMID Version="1">21338519</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Jan 16;16:10</RefSource>
+                <PMID Version="1">25592313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2014 Feb;15(2):121-32</RefSource>
+                <PMID Version="1">24434847</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Theor Biol. 2003 Apr 21;221(4):615-24</RefSource>
+                <PMID Version="1">12713944</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genes Dev. 2016 Mar 1;30(5):553-66</RefSource>
+                <PMID Version="1">26944680</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jul 15;25(14):1754-60</RefSource>
+                <PMID Version="1">19451168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2015 Jun 06;16:120</RefSource>
+                <PMID Version="1">26047807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2013 Aug 13;110(33):13463-8</RefSource>
+                <PMID Version="1">23898164</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods. 2013 Sep 1;63(1):41-9</RefSource>
+                <PMID Version="1">23816787</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Virol J. 2015 Apr 09;12:55</RefSource>
+                <PMID Version="1">25879746</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28100584</ArticleId>
+            <ArticleId IdType="pii">gr.209601.116</ArticleId>
+            <ArticleId IdType="doi">10.1101/gr.209601.116</ArticleId>
+            <ArticleId IdType="pmc">PMC5340976</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

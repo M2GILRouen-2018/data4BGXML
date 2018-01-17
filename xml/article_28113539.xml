@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113539</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>$L_0$ Regularized Stationary-Time Estimation for Crowd Analysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>981-994</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2560807</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, we tackle the problem of stationary crowd analysis which is as important as modeling mobile groups in crowd scenes and finds many important applications in crowd surveillance. Our key contribution is to propose a robust algorithm for estimating how long a foreground pixel becomes stationary. It is much more challenging than only subtracting background because failure at a single frame due to local movement of objects, lighting variation, and occlusion could lead to large errors on stationary-time estimation. To achieve robust and accurate estimation, sparse constraints along spatial and temporal dimensions are jointly added by mixed partials (which are second-order gradients) to shape a 3D stationary-time map. It is formulated as an L0 optimization problem. Besides background subtraction, it distinguishes among different foreground objects, which are close or overlapped in the spatio-temporal space by using a locally shared foreground codebook. The proposed technologies are further demonstrated through three applications. 1) Based on the results of stationary-time estimation, 12 descriptors are proposed to detect four types of stationary crowd activities. 2) The averaged stationary-time map is estimated to analyze crowd scene structures. 3) The result of stationary-time estimation is also used to study the influence of stationary crowd groups to traffic patterns.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shuai Yi</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiaogang Wang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cewu Lu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jiaya Jia</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hongsheng Li</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113539</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2560807</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,114 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113634</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <MedlineDate>2017 Nov-Dec</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Protein Inference from the Integration of Tandem MS Data and Interactome Networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1399-1409</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2601618</ELocationID>
+            <Abstract>
+                <AbstractText>Since proteins are digested into a mixture of peptides in the preprocessing step of tandem mass spectrometry (MS), it is difficult to determine which specific protein a shared peptide belongs to. In recent studies, besides tandem MS data and peptide identification information, some other information is exploited to infer proteins. Different from the methods which first use only tandem MS data to infer proteins and then use network information to refine them, this study proposes a protein inference method named TMSIN, which uses interactome networks directly. As two interacting proteins should co-exist, it is reasonable to assume that if one of the interacting proteins is confidently inferred in a sample, its interacting partners should have a high probability in the same sample, too. Therefore, we can use the neighborhood information of a protein in an interactome network to adjust the probability that the shared peptide belongs to the protein. In TMSIN, a multi-weighted graph is constructed by incorporating the bipartite graph with interactome network information, where the bipartite graph is built with the peptide identification information. Based on multi-weighted graphs, TMSIN adopts an iterative workflow to infer proteins. At each iterative step, the probability that a shared peptide belongs to a specific protein is calculated by using the Bayes' law based on the neighbor protein support scores of each protein which are mapped by the shared peptides. We carried out experiments on yeast data and human data to evaluate the performance of TMSIN in terms of ROC, q-value, and accuracy. The experimental results show that AUC scores yielded by TMSIN are 0.742 and 0.874 in yeast dataset and human dataset, respectively, and TMSIN yields the maximum number of true positives when q-value less than or equal to 0.05. The overlap analysis shows that TMSIN is an effective complementary approach for protein inference.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhong</LastName>
+                    <ForeName>Jiancheng</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jianxing</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ding</LastName>
+                    <ForeName>Xiaojun</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Zhen</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Min</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Fang-Xiang</ForeName>
+                    <Initials>FX</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Yi</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113634</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2601618</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

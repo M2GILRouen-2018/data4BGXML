@@ -1,0 +1,245 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28149701</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2167-8359</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>5</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PeerJ</Title>
+                <ISOAbbreviation>PeerJ</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>RelocaTE2: a high resolution transposable element insertion site mapping tool for population resequencing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e2942</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.7717/peerj.2942</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Transposable element (TE) polymorphisms are important components of population genetic variation. The functional impacts of TEs in gene regulation and generating genetic diversity have been observed in multiple species, but the frequency and magnitude of TE variation is under appreciated. Inexpensive and deep sequencing technology has made it affordable to apply population genetic methods to whole genomes with methods that identify single nucleotide and insertion/deletion polymorphisms. However, identifying TE polymorphisms, particularly transposition events or non-reference insertion sites can be challenging due to the repetitive nature of these sequences, which hamper both the sensitivity and specificity of analysis tools.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We have developed the tool RelocaTE2 for identification of TE insertion sites at high sensitivity and specificity. RelocaTE2 searches for known TE sequences in whole genome sequencing reads from second generation sequencing platforms such as Illumina. These sequence reads are used as seeds to pinpoint chromosome locations where TEs have transposed. RelocaTE2 detects target site duplication (TSD) of TE insertions allowing it to report TE polymorphism loci with single base pair precision.</AbstractText>
+                <AbstractText Label="RESULTS AND DISCUSSION" NlmCategory="CONCLUSIONS">The performance of RelocaTE2 is evaluated using both simulated and real sequence data. RelocaTE2 demonstrate high level of sensitivity and specificity, particularly when the sequence coverage is not shallow. In comparison to other tools tested, RelocaTE2 achieves the best balance between sensitivity and specificity. In particular, RelocaTE2 performs best in prediction of TSDs for TE insertions. Even in highly repetitive regions, such as those tested on rice chromosome 4, RelocaTE2 is able to report up to 95% of simulated TE insertions with less than 0.1% false positive rate using 10-fold genome coverage resequencing data. RelocaTE2 provides a robust solution to identify TE insertion sites and can be incorporated into analysis workflows in support of describing the complete genotype from light coverage genome sequencing.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Jinfeng</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Plant Pathology &amp; Microbiology, University of California, Riverside, CA, United States; Institute for Integrative Genome Biology, University of California, Riverside, CA, United States; Department of Botany and Plant Sciences, University of California, Riverside, CA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wrightsman</LastName>
+                    <ForeName>Travis R</ForeName>
+                    <Initials>TR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Botany and Plant Sciences, University of California , Riverside , CA , United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wessler</LastName>
+                    <ForeName>Susan R</ForeName>
+                    <Initials>SR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Integrative Genome Biology, University of California, Riverside, CA, United States; Department of Botany and Plant Sciences, University of California, Riverside, CA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stajich</LastName>
+                    <ForeName>Jason E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Plant Pathology &amp; Microbiology, University of California, Riverside, CA, United States; Institute for Integrative Genome Biology, University of California, Riverside, CA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>S10 OD016290</GrantID>
+                    <Acronym>OD</Acronym>
+                    <Agency>NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PeerJ</MedlineTA>
+            <NlmUniqueID>101603425</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2011 Dec 11;30(1):105-11</RefSource>
+                <PMID Version="1">22158310</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2002 Apr;12(4):656-64</RefSource>
+                <PMID Version="1">11932250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Feb 1;29(3):389-90</RefSource>
+                <PMID Version="1">23233656</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Jun 1;28(11):1533-5</RefSource>
+                <PMID Version="1">22508794</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2008 May;9(5):397-405</RefSource>
+                <PMID Version="1">18368054</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2007 Sep 4;5(10):e254</RefSource>
+                <PMID Version="1">17803354</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Plant Biol. 2014;65:505-30</RefSource>
+                <PMID Version="1">24579996</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2011 Aug;7(8):e1002236</RefSource>
+                <PMID Version="1">21876680</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2009 Sep;19(9):1516-26</RefSource>
+                <PMID Version="1">19439515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2011 Sep 25;43(11):1154-9</RefSource>
+                <PMID Version="1">21946353</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2014;15(11):506</RefSource>
+                <PMID Version="1">25468217</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2008 Jun;40(6):722-9</RefSource>
+                <PMID Version="1">18438408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jun;42(11):6826-38</RefSource>
+                <PMID Version="1">24753423</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2013;9(1):e1003234</RefSource>
+                <PMID Version="1">23358118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2013 Jan;14(1):49-61</RefSource>
+                <PMID Version="1">23247435</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2002 May;12(5):817-23</RefSource>
+                <PMID Version="1">11997348</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Elife. 2016 Jun 03;5:null</RefSource>
+                <PMID Version="1">27258693</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2007 Oct 19;318(5849):420-6</RefSource>
+                <PMID Version="1">17901297</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Jun 15;26(12):i350-7</RefSource>
+                <PMID Version="1">20529927</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2009 Oct;10(10):691-703</RefSource>
+                <PMID Version="1">19763152</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2014 Dec;24(12):1963-76</RefSource>
+                <PMID Version="1">25319995</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Jul;42(7):631-4</RefSource>
+                <PMID Version="1">20526341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Mar 05;16:72</RefSource>
+                <PMID Version="1">25887332</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jul 15;25(14):1754-60</RefSource>
+                <PMID Version="1">19451168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>G3 (Bethesda). 2013 Jun 21;3(6):949-57</RefSource>
+                <PMID Version="1">23576519</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Annotation</Keyword>
+            <Keyword MajorTopicYN="N">Bioinformatics</Keyword>
+            <Keyword MajorTopicYN="N">Diversity</Keyword>
+            <Keyword MajorTopicYN="N">Parallel processing</Keyword>
+            <Keyword MajorTopicYN="N">Population genomics</Keyword>
+            <Keyword MajorTopicYN="N">Resequencing</Keyword>
+            <Keyword MajorTopicYN="N">Rice</Keyword>
+            <Keyword MajorTopicYN="N">Short read</Keyword>
+            <Keyword MajorTopicYN="N">Transposons</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare there are no competing interests.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28149701</ArticleId>
+            <ArticleId IdType="doi">10.7717/peerj.2942</ArticleId>
+            <ArticleId IdType="pii">2942</ArticleId>
+            <ArticleId IdType="pmc">PMC5274521</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

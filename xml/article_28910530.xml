@@ -1,0 +1,133 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28910530</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-9626</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical theory and computation</Title>
+                <ISOAbbreviation>J Chem Theory Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Efficient Implicit Solvation Method for Full Potential DFT.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5582-5603</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jctc.7b00297</ELocationID>
+            <Abstract>
+                <AbstractText>With the advent of efficient electronic structure methods, effective continuum solvation methods have emerged as a way to, at least partially, include solvent effects into simulations without the need for expensive sampling over solvent degrees of freedom. The multipole moment expansion (MPE) model, while based on ideas initially put forward almost 100 years ago, has recently been updated for the needs of modern electronic structure calculations. Indeed, for an all-electron code relying on localized basis sets and-more importantly-a multipole moment expansion of the electrostatic potential, the MPE method presents a particularly cheap way of solving the macroscopic Poisson equation to determine the electrostatic response of a medium surrounding a solute. In addition to our implementation of the MPE model in the FHI-aims electronic structure theory code [ Blum , V. ; Comput. Phys. Commun. 2009 , 180 , 2175 - 2196 , DOI: 10.1016/j.cpc.2009.06.022 ], we describe novel algorithms for determining equidistributed points on the solvation cavity-defined as a charge density isosurface-and the determination of cavity surface and volume from just this collection of points and their local density gradients. We demonstrate the efficacy of our model on an analytically solvable test case, against high-accuracy finite-element calculations for a set of ≈140000 2D test cases, and finally against experimental solvation free energies of a number of neutral and singly charged molecular test sets [ Andreussi , O. ; J. Chem. Phys. 2012 , 136 , 064102 , DOI: 10.1063/1.3676407 ; Marenich , A. V. ; Minnesota Solvation Database , Version 2012; University of Minnesota : Minneapolis, MN, USA , 2012 . ]. In all test cases we find that our MPE approach compares very well with given references at computational overheads &lt; 20% and sometimes much smaller compared to a plain self-consistency cycle.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sinstein</LastName>
+                    <ForeName>Markus</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair for Theoretical Chemistry and Catalysis Research Center, Technische Universität München , Lichtenbergstraße 4, D-85747 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scheurer</LastName>
+                    <ForeName>Christoph</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7227-8672</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Chair for Theoretical Chemistry and Catalysis Research Center, Technische Universität München , Lichtenbergstraße 4, D-85747 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Matera</LastName>
+                    <ForeName>Sebastian</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut für Mathematik, Freie Universität Berlin , Arnimallee 9, D-14195 Berlin, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blum</LastName>
+                    <ForeName>Volker</ForeName>
+                    <Initials>V</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8660-7230</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical Engineering and Materials Science, Duke University , Durham, North Carolina 27708, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reuter</LastName>
+                    <ForeName>Karsten</ForeName>
+                    <Initials>K</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8473-8659</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Chair for Theoretical Chemistry and Catalysis Research Center, Technische Universität München , Lichtenbergstraße 4, D-85747 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oberhofer</LastName>
+                    <ForeName>Harald</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5791-6736</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Chair for Theoretical Chemistry and Catalysis Research Center, Technische Universität München , Lichtenbergstraße 4, D-85747 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Theory Comput</MedlineTA>
+            <NlmUniqueID>101232704</NlmUniqueID>
+            <ISSNLinking>1549-9618</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910530</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jctc.7b00297</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

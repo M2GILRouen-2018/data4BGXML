@@ -1,0 +1,260 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110720</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>01</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Classification-based quantitative analysis of stable isotope labeling by amino acids in cell culture (SILAC) data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>137-148</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30136-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.017</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Stable isotope labeling by amino acids in cell culture (SILAC) is a practical and powerful approach for quantitative proteomic analysis. A key advantage of SILAC is the ability to simultaneously detect the isotopically labeled peptides in a single instrument run and so guarantee relative quantitation for a large number of peptides without introducing any variation caused by separate experiment. However, there are a few approaches available to assessing protein ratios and none of the existing algorithms pays considerable attention to the proteins having only one peptide hit.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We introduce new quantitative approaches to dealing with SILAC protein-level summary using classification-based methodologies, such as Gaussian mixture models with EM algorithms and its Bayesian approach as well as K-means clustering. In addition, a new approach is developed using Gaussian mixture model and a stochastic, metaheuristic global optimization algorithm, particle swarm optimization (PSO), to avoid either a premature convergence or being stuck in a local optimum.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Our simulation studies show that the newly developed PSO-based method performs the best among others in terms of F1 score and the proposed methods further demonstrate the ability of detecting potential markers through real SILAC experimental data.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">No matter how many peptide hits the protein has, the developed approach can be applicable, rescuing many proteins doomed to removal. Furthermore, no additional correction for multiple comparisons is necessary for the developed methods, enabling direct interpretation of the analysis outcomes.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Seongho</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biostatistics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Department of Oncology, Wayne State University, Detroit, MI 48201, USA. Electronic address: kimse@karmanos.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Carruthers</LastName>
+                    <ForeName>Nicholas</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Proteomics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Institute of Environmental Health Sciences, Wayne State University, Detroit, MI 48201, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Joohyoung</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biostatistics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Department of Family Medicine and Public Health Sciences, Wayne State University, Detroit, MI 48201, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chinni</LastName>
+                    <ForeName>Sreenivasa</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Urology, School of Medicine, Wayne State University, Detroit, MI 48201, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stemmer</LastName>
+                    <ForeName>Paul</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Proteomics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Institute of Environmental Health Sciences, Wayne State University, Detroit, MI 48201, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P30 CA022453</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P30 ES020957</GrantID>
+                    <Acronym>ES</Acronym>
+                    <Agency>NIEHS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA151557</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>S10 OD010700</GrantID>
+                    <Acronym>OD</Acronym>
+                    <Agency>NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D023361">Validation Studies</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000596">Amino Acids</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2012;13 Suppl 16:S12</RefSource>
+                <PMID Version="1">23176165</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2015 Aug;15(15):2580-91</RefSource>
+                <PMID Version="1">25913743</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Urol Oncol. 2014 Jan;32(1):25.e1-12</RefSource>
+                <PMID Version="1">23410945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2002 May;1(5):376-86</RefSource>
+                <PMID Version="1">12118079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Proteome Res. 2014 Sep 5;13(9):4184-91</RefSource>
+                <PMID Version="1">25058807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anal Chem. 2012 May 15;84(10):4535-43</RefSource>
+                <PMID Version="1">22519468</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2008 Dec;26(12):1367-72</RefSource>
+                <PMID Version="1">19029910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009 Oct 14;4(10):e7454</RefSource>
+                <PMID Version="1">19829701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2010 Mar;10(6):1150-9</RefSource>
+                <PMID Version="1">20101611</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2006;1(6):2650-60</RefSource>
+                <PMID Version="1">17406521</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2001 Oct;19(10):946-51</RefSource>
+                <PMID Version="1">11581660</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 2004 Mar;13(3):383-90</RefSource>
+                <PMID Version="1">15006913</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Mol Cell Biol. 2006 Dec;7(12 ):952-8</RefSource>
+                <PMID Version="1">17139335</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000596" MajorTopicYN="N">Amino Acids</DescriptorName>
+                <QualifierName UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018929" MajorTopicYN="N">Cell Culture Techniques</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007553" MajorTopicYN="Y">Isotope Labeling</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Classification</Keyword>
+            <Keyword MajorTopicYN="Y">Mass spectrometry</Keyword>
+            <Keyword MajorTopicYN="Y">Particle swarm optimization</Keyword>
+            <Keyword MajorTopicYN="Y">Proteomics</Keyword>
+            <Keyword MajorTopicYN="Y">SILAC</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110720</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30136-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.017</ArticleId>
+            <ArticleId IdType="pmc">PMC5260509</ArticleId>
+            <ArticleId IdType="mid">NIHMS818024</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

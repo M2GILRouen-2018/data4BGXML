@@ -1,0 +1,109 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186340</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Semi-supervised network inference using simulated gene expression dynamics.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx748</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Inferring the structure of gene regulatory networks from high-throughput datasets remains an important and unsolved problem. Current methods are hampered by problems such as noise, low sample size, and incomplete characterizations of regulatory dynamics, leading to networks with missing and anomalous links. Integration of prior network information (e.g., from pathway databases) has the potential to improve reconstructions.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We developed a semi-supervised network reconstruction algorithm that enables the synthesis of information from partially known networks with time course gene expression data. We adapted PLS-VIP for time course data and used reference networks to simulate expression data from which null distributions of VIP scores are generated and used to estimate edge probabilities for input expression data. By using simulated dynamics to generate reference distributions, this approach incorporates previously known regulatory relationships and links the network to the dynamics to form a semi-supervised approach that discovers novel and anomalous connections. We applied this approach to data from a sleep deprivation study with KEGG pathways treated as prior networks, as well as to synthetic data from several DREAM challenges, and find that it is able to recover many of the true edges and identify errors in these networks, suggesting its ability to derive posterior networks that accurately reflect gene expression dynamics.</AbstractText>
+                <AbstractText Label="Availability" NlmCategory="UNASSIGNED">R code is available at https://github.com/pn51/postPLSR.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">rbraun@northwestern.edu.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nguyen</LastName>
+                    <ForeName>Phan</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Engineering Sciences and Applied Mathematics, Northwestern University, Evanston, IL 60208, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Braun</LastName>
+                    <ForeName>Rosemary</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Engineering Sciences and Applied Mathematics, Northwestern University, Evanston, IL 60208, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Biostatistics Division, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186340</ArticleId>
+            <ArticleId IdType="pii">4665418</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx748</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

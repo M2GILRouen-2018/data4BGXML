@@ -1,0 +1,167 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186351</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Reactome diagram viewer: Data structures and strategies to boost performance.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx752</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Reactome is a free, open-source, open-data, curated and peer-reviewed knowledgebase of biomolecular pathways. For web-based pathway visualisation, Reactome uses a custom pathway diagram viewer that has been evolved over the past years. Here, we present comprehensive enhancements in usability and performance based on extensive usability testing sessions and technology developments, aiming to optimise the viewer towards the needs of the community.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">The pathway diagram viewer version 3 achieves consistently better performance, loading and rendering of 97% of the diagrams in Reactome in less than 1 second. Combining the multi-layer html5 canvas strategy with a space partitioning data structure minimises CPU workload, enabling the introduction of new features that further enhance user experience. Through the use of highly optimised data structures and algorithms, Reactome has boosted the performance and usability of the new pathway diagram viewer, providing a robust, scalable and easy-to-integrate solution to pathway visualisation. As graph-based visualisation of complex data is a frequent challenge in bioinformatics, many of the individual strategies presented here are applicable to a wide range of web-based bioinformatics resources.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">Reactome is available online at: https://reactome.org. The diagram viewer is part of the Reactome pathway browser (https://reactome.org/PathwayBrowser/) and also available as a stand-alone widget at: https://reactome.org/dev/diagram/. The source code is freely available at: https://github.com/reactome-pwp/diagram.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">hhe@ebi.ac.uk, fabregat@ebi.ac.uk.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">An introductory video explaining the most relevant features of the Reactome pathway browser and the diagram viewer is available at https://youtu.be/-skixrvI4nU.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Fabregat</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton (UK).</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Open Targets, Wellcome Genome Campus, Hinxton (UK).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sidiropoulos</LastName>
+                    <ForeName>Konstantinos</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton (UK).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Viteri</LastName>
+                    <ForeName>Guilherme</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton (UK).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marin-Garcia</LastName>
+                    <ForeName>Pablo</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Fundación Investigación INCLIVA, Universitat de València, Valencia (Spain).</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Instituto de Medicina Genomica, Valencia (Spain).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ping</LastName>
+                    <ForeName>Peipei</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NIH BD2K Center of Excellence and Department of Physiology, Medicine and Bioinformatics, University of California, Los Angeles (USA).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stein</LastName>
+                    <ForeName>Lincoln</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ontario Institute for Cancer Research, Toronto (Canada).</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Genetics, University of Toronto, Toronto, (Canada).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>D'Eustachio</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NYU Langone Medical Center, New York (USA).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hermjakob</LastName>
+                    <ForeName>Henning</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton (UK).</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Proteomics, Beijing Proteome Research Center, Beijing Institute of Radiation Medicine; National Center for Protein Sciences· Beijing, 102206, Beijing (China).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186351</ArticleId>
+            <ArticleId IdType="pii">4653698</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx752</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

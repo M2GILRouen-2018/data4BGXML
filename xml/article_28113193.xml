@@ -1,0 +1,140 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28113193</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-2531</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>64</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>02</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on bio-medical engineering</Title>
+                <ISOAbbreviation>IEEE Trans Biomed Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Computer-Aided Diagnosis System With EEG Based on the P3b Wave During an Auditory Odd-Ball Task in Schizophrenia.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>395-407</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TBME.2016.2558824</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE">To design a Computer-aided diagnosis (CAD) system using an optimized methodology over the P3b wave in order to objectively and accurately discriminate between healthy controls (HC) and schizophrenic subjects (SZ).</AbstractText>
+                <AbstractText Label="METHODS">We train, test, analyze, and compare various machine learning classification approaches optimized in terms of the correct classification rate (CCR), the degenerated Youden's index (DYI) and the area under the receiver operating curve (AUC). CAD system comprises five stages: electroencephalography (EEG) preprocessing, feature extraction, seven electrode groupings, discriminant feature selection, and binary classification.</AbstractText>
+                <AbstractText Label="RESULTS">With two optimal combinations of electrode grouping, filtering, feature selection algorithm, and classification machine, we get either a mean CCR = 93.42%, specificity = 0.9673, sensitivity = 0.8727, DYI = 0.9188, and AUC = 0.9567 (total-15 Hz-J5-MLP), or a mean CCR = 92.23%, specificity = 0.9499, sensitivity = 0.8838, DYI = 0.9162, and AUC = 0.9807 (right hemisphere-35 Hz-J5-SVM), which to our knowledge are higher than those available to date.</AbstractText>
+                <AbstractText Label="CONCLUSIONS">We have verified that a more restrictive low-pass filtering achieves higher CCR as compared to others at higher frequencies in the P3b wave. In addition, results validate previous hypothesis about the importance of the parietal-temporal region, associated with memory processing, allowing us to identify powerful {feature,electrode} pairs in the diagnosis of schizophrenia, achieving higher CCR and AUC in classification of both right and left Hemispheres, and parietal-temporal EEG signals, like, for instance, the {PSE, P4} pair (J5 and mutual information feature selection).</AbstractText>
+                <AbstractText Label="SIGNIFICANCE">Diagnosis of schizophrenia is made thoroughly by psychiatrists but as any human-based decision that has a subjective component. This CAD system provides the human expert with an objective complimentary measure to help him in diagnosing schizophrenia.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Santos-Mayo</LastName>
+                    <ForeName>Lorenzo</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>San-Jose-Revuelta</LastName>
+                    <ForeName>Luis M</ForeName>
+                    <Initials>LM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arribas</LastName>
+                    <ForeName>Juan Ignacio</ForeName>
+                    <Initials>JI</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Biomed Eng</MedlineTA>
+            <NlmUniqueID>0012737</NlmUniqueID>
+            <ISSNLinking>0018-9294</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019540" MajorTopicYN="N">Area Under Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016022" MajorTopicYN="N">Case-Control Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003936" MajorTopicYN="N">Diagnosis, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004569" MajorTopicYN="N">Electroencephalography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012372" MajorTopicYN="N">ROC Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012559" MajorTopicYN="N">Schizophrenia</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012815" MajorTopicYN="Y">Signal Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113193</ArticleId>
+            <ArticleId IdType="doi">10.1109/TBME.2016.2558824</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

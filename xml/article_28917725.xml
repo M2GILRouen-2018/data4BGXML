@@ -1,0 +1,163 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28917725</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1095-9130</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>132</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Methods (San Diego, Calif.)</Title>
+                <ISOAbbreviation>Methods</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A computational approach for phenotypic comparisons of cell populations in high-dimensional cytometry data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>66-75</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1046-2023(17)30045-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ymeth.2017.09.005</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Cytometry is an experimental technique used to measure molecules expressed by cells at a single cell resolution. Recently, several technological improvements have made possible to increase greatly the number of cell markers that can be simultaneously measured. Many computational methods have been proposed to identify clusters of cells having similar phenotypes. Nevertheless, only a limited number of computational methods permits to compare the phenotypes of the cell clusters identified by different clustering approaches. These phenotypic comparisons are necessary to choose the appropriate clustering methods and settings. Because of this lack of tools, comparisons of cell cluster phenotypes are often performed manually, a highly biased and time-consuming process.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We designed CytoCompare, an R package that performs comparisons between the phenotypes of cell clusters with the purpose of identifying similar and different ones, based on the distribution of marker expressions. For each phenotype comparison of two cell clusters, CytoCompare provides a distance measure as well as a p-value asserting the statistical significance of the difference. CytoCompare can import clustering results from various algorithms including SPADE, viSNE/ACCENSE, and Citrus, the most current widely used algorithms. Additionally, CytoCompare can generate parallel coordinates, parallel heatmaps, multidimensional scaling or circular graph representations to visualize easily cell cluster phenotypes and the comparison results.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">CytoCompare is a flexible analysis pipeline for comparing the phenotypes of cell clusters identified by automatic gating algorithms in high-dimensional cytometry data. This R package is ideal for benchmarking different clustering algorithms and associated parameters. CytoCompare is freely distributed under the GPL-3 license and is available on https://github.com/tchitchek-lab/CytoCompare.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 The Authors. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Platon</LastName>
+                    <ForeName>Ludovic</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pejoski</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gautreau</LastName>
+                    <ForeName>Guillaume</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Targat</LastName>
+                    <ForeName>Brice</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Le Grand</LastName>
+                    <ForeName>Roger</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beignon</LastName>
+                    <ForeName>Anne-Sophie</ForeName>
+                    <Initials>AS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tchitchek</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CEA - Université Paris Sud 11 - INSERM U1184, Immunology of Viral Infections and Autoimmune Diseases, IDMIT Infrastructure, 92265 Fontenay-aux-Roses, France. Electronic address: nicolas.tchitchek@cea.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Methods</MedlineTA>
+            <NlmUniqueID>9426302</NlmUniqueID>
+            <ISSNLinking>1046-2023</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cell Clusters</Keyword>
+            <Keyword MajorTopicYN="N">Comparisons</Keyword>
+            <Keyword MajorTopicYN="N">Cytometry</Keyword>
+            <Keyword MajorTopicYN="N">Phenotype</Keyword>
+            <Keyword MajorTopicYN="N">Visualizations</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28917725</ArticleId>
+            <ArticleId IdType="pii">S1046-2023(17)30045-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ymeth.2017.09.005</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,290 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26175271</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>09</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>27</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1861-6429</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of computer assisted radiology and surgery</Title>
+                <ISOAbbreviation>Int J Comput Assist Radiol Surg</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A multi-vertebrae CT to US registration of the lumbar spine in clinical data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1371-81</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s11548-015-1247-5</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Spinal needle injections are widely applied to alleviate back pain and for anesthesia. Current treatment is performed either blindly with palpation or using fluoroscopy or computed tomography (CT). Both fluoroscopy and CT guidance expose patients to ionizing radiation. Ultrasound (US) guidance for spinal needle procedures is becoming more prevalent as an alternative. It is challenging to use US as the sole imaging modality for intraoperative guidance of spine needle injections due to the acoustic shadows created by the bony structures of the vertebra that limit visibility of the target areas for injection. We propose registration of CT and the US images to augment anatomical visualization for the clinician during spinal interventions guided by US.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed method involves automatic global and multi-vertebrae registration to find the closest alignment between CT and US data. This is performed by maximizing the similarity between the two modalities using voxel intensity information as well as features extracted from the input volumes. In our method, the lumbar spine is first globally aligned between the CT and US data using intensity-based registration followed by point-based registration. To account for possible curvature change of the spine between the CT and US volumes, a multi-vertebrae registration step is also performed. Springs are used to constrain the movement of the individually transformed vertebrae to ensure the optimal alignment is a pose of the lumbar spine that is physically possible.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Evaluation of the algorithm is performed on 10 clinical patient datasets. The registration approach was able to align CT and US datasets from initial misalignments of up to 25 mm, with a mean TRE of 1.37 mm. These results suggest that the proposed approach has the potential to offer a sufficiently accurate registration between clinical CT and US data.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nagpal</LastName>
+                    <ForeName>Simrin</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computing, Queen's University, Kingston, ON, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abolmaesumi</LastName>
+                    <ForeName>Purang</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rasoulian</LastName>
+                    <ForeName>Abtin</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hacihaliloglu</LastName>
+                    <ForeName>Ilker</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ungi</LastName>
+                    <ForeName>Tamas</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Osborn</LastName>
+                    <ForeName>Jill</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lessoway</LastName>
+                    <ForeName>Victoria A</ForeName>
+                    <Initials>VA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rudan</LastName>
+                    <ForeName>John</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jaeger</LastName>
+                    <ForeName>Melanie</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rohling</LastName>
+                    <ForeName>Robert N</ForeName>
+                    <Initials>RN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borschneck</LastName>
+                    <ForeName>Dan P</ForeName>
+                    <Initials>DP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mousavi</LastName>
+                    <ForeName>Parvin</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>07</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Int J Comput Assist Radiol Surg</MedlineTA>
+            <NlmUniqueID>101499225</NlmUniqueID>
+            <ISSNLinking>1861-6410</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson Imaging. 2012 Oct;36(4):987-92</RefSource>
+                <PMID Version="1">22645031</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pain Physician. 2012 Nov-Dec;15(6):E909-53</RefSource>
+                <PMID Version="1">23159980</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Jun;39(6):3154-66</RefSource>
+                <PMID Version="1">22755700</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2013 Oct;32(10):1890-900</RefSource>
+                <PMID Version="1">23771318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesth Analg. 2009 Jun;108(6):1876-81</RefSource>
+                <PMID Version="1">19448216</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2012 Apr;16(3):662-74</RefSource>
+                <PMID Version="1">21126904</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2009;12 (Pt 1):516-23</RefSource>
+                <PMID Version="1">20426027</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2013;16(Pt 2):361-8</RefSource>
+                <PMID Version="1">24579161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesthesiol Res Pract. 2013;2013:525818</RefSource>
+                <PMID Version="1">23365568</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1998 Oct;17 (5):743-52</RefSource>
+                <PMID Version="1">9874298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Aided Surg. 2002;7(6):342-52</RefSource>
+                <PMID Version="1">12731097</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Comput Assist Radiol Surg. 2011 Jul;6(4):523-37</RefSource>
+                <PMID Version="1">20976567</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2012 Oct;59(10 ):2766-72</RefSource>
+                <PMID Version="1">22851228</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2010 Dec;32(12):2262-75</RefSource>
+                <PMID Version="1">20975122</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004867" MajorTopicYN="N">Equipment Design</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007278" MajorTopicYN="N">Injections, Spinal</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008159" MajorTopicYN="N">Lumbar Vertebrae</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="N">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D064847" MajorTopicYN="N">Multimodal Imaging</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009339" MajorTopicYN="N">Needles</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011839" MajorTopicYN="N">Radiation, Ionizing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014463" MajorTopicYN="N">Ultrasonography</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26175271</ArticleId>
+            <ArticleId IdType="doi">10.1007/s11548-015-1247-5</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

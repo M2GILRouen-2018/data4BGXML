@@ -1,0 +1,159 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">19623688</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>07</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2009</Year>
+            <Month>10</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1536-0210</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Investigative radiology</Title>
+                <ISOAbbreviation>Invest Radiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Prediction rules for the detection of coronary artery plaques: evidence from cardiac CT.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>483-90</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">To evaluate spatial plaque distribution patterns in coronary arteries based on computed tomography coronary angiography data sets and to express the learned patterns in prediction rules. An application is proposed to use these prediction rules for the detection of initially missed plaques.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS" NlmCategory="METHODS">Two hundred fifty two consecutive patients with chronic coronary artery disease underwent contrast-enhanced dual-source computed tomography coronary angiography for clinical indications. Coronary artery plaques were manually labeled on a 16-segment coronary model and their position (ie, segments and bifurcations) and composition (ie, calcified, mixed, or noncalcified) were noted. The frequent itemset mining algorithm was used to statistically search for plaque distribution patterns. The patterns were expressed as prediction rules: given plaques at certain locations as conditions, a prediction rule gave evidence--with a certain confidence value--for a plaque at another location within the coronary artery tree. Prediction rules with the highest confidence values were evaluated and described. Furthermore, to improve manual plaque detection, all prediction rules were applied on the patient data to search for segments with potentially missed plaques. These segments were then reviewed in a second, guided reading for the existence of plaques. The same number of segments was also determined by a weighted random approach to evaluate the quality of prediction resulting from frequent itemset mining.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In 200 of 252 (79.4%) patients, at least one coronary plaque (range, 1-22 plaques) was found. In total 1229 plaques (990 calcified, 80.6%; 227 mixed, 18.5%; 12 noncalcified, 1%) distributed, over 916 coronary segments and 507 vessels were manually labeled. Four plaque distribution patterns were identified: 20.6% of the patients had no plaques at all; 31.7% had plaques in the left coronary artery tree; 46.4% had plaques both in left and right coronary arteries, whereas 1.2% of the patients had plaques solely in the right coronary artery (RCA). General rules were found predicting plaques in the left anterior descending artery (LAD), given plaques in segments of the RCA or in the left main artery. Further general rules predicted plaques in the LAD, given plaques in the circumflex artery. In the guided review, the segment selection based on the prediction rules from frequent itemset mining performed significantly better (P &lt; 0.001) than the weighted random approach by revealing 48 initially missed plaques.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This study demonstrates spatial plaque distribution patterns in coronary arteries as determined with cardiac CT. Use of the frequent itemset mining algorithm yielded rules that predicted plaques at certain sites given plaques at other sites of the coronary artery tree. Use of these prediction rules improved the manual labeling of coronary plaques as initially missed plaques could be predicted with the guided review.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Saur</LastName>
+                    <ForeName>Stefan C</ForeName>
+                    <Initials>SC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Vision Laboratory, ETH Zurich, Zurich, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cattin</LastName>
+                    <ForeName>Philippe C</ForeName>
+                    <Initials>PC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Desbiolles</LastName>
+                    <ForeName>Lotus</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fuchs</LastName>
+                    <ForeName>Thomas J</ForeName>
+                    <Initials>TJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Székely</LastName>
+                    <ForeName>Gábor</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alkadhi</LastName>
+                    <ForeName>Hatem</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Invest Radiol</MedlineTA>
+            <NlmUniqueID>0045377</NlmUniqueID>
+            <ISSNLinking>0020-9996</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001185" MajorTopicYN="Y">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017023" MajorTopicYN="N">Coronary Angiography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011856" MajorTopicYN="N">Radiographic Image Enhancement</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011857" MajorTopicYN="N">Radiographic Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>7</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>7</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">19623688</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

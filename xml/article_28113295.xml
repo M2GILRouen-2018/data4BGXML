@@ -1,0 +1,151 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28113295</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-2531</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>64</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on bio-medical engineering</Title>
+                <ISOAbbreviation>IEEE Trans Biomed Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using Contact Forces and Robot Arm Accelerations to Automatically Rate Surgeon Skill at Peg Transfer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2263-2275</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TBME.2016.2634861</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Most trainees begin learning robotic minimally invasive surgery by performing inanimate practice tasks with clinical robots such as the Intuitive Surgical da Vinci. Expert surgeons are commonly asked to evaluate these performances using standardized five-point rating scales, but doing such ratings is time consuming, tedious, and somewhat subjective. This paper presents an automatic skill evaluation system that analyzes only the contact force with the task materials, the broad-bandwidth accelerations of the robotic instruments and camera, and the task completion time.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We recruited N = 38 participants of varying skill in robotic surgery to perform three trials of peg transfer with a da Vinci Standard robot instrumented with our Smart Task Board. After calibration, three individuals rated these trials on five domains of the Global Evaluative Assessment of Robotic Skill (GEARS) structured assessment tool, providing ground-truth labels for regression and classification machine learning algorithms that predict GEARS scores based on the recorded force, acceleration, and time signals.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Both machine learning approaches produced scores on the reserved testing sets that were in good to excellent agreement with the human raters, even when the force information was not considered. Furthermore, regression predicted GEARS scores more accurately and efficiently than classification.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">A surgeon's skill at robotic peg transfer can be reliably rated via regression using features gathered from force, acceleration, and time sensors external to the robot.</AbstractText>
+                <AbstractText Label="SIGNIFICANCE" NlmCategory="CONCLUSIONS">We expect improved trainee learning as a result of providing these automatic skill ratings during inanimate task practice on a surgical robot.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Brown</LastName>
+                    <ForeName>Jeremy D</ForeName>
+                    <Initials>JD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O Brien</LastName>
+                    <ForeName>Conor E</ForeName>
+                    <Initials>CE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leung</LastName>
+                    <ForeName>Sarah C</ForeName>
+                    <Initials>SC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dumon</LastName>
+                    <ForeName>Kristoffel R</ForeName>
+                    <Initials>KR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>David I</ForeName>
+                    <Initials>DI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuchenbecker</LastName>
+                    <ForeName>Katherine J</ForeName>
+                    <Initials>KJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D059040">Video-Audio Media</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Biomed Eng</MedlineTA>
+            <NlmUniqueID>0012737</NlmUniqueID>
+            <ISSNLinking>0018-9294</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D061725" MajorTopicYN="N">Accelerometry</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002983" MajorTopicYN="Y">Clinical Competence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008328" MajorTopicYN="Y">Man-Machine Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D065287" MajorTopicYN="N">Robotic Surgical Procedures</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013314" MajorTopicYN="N">Stress, Mechanical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D066231" MajorTopicYN="N">Surgeons</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013647" MajorTopicYN="N">Task Performance and Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113295</ArticleId>
+            <ArticleId IdType="doi">10.1109/TBME.2016.2634861</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

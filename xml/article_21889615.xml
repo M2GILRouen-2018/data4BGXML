@@ -1,0 +1,159 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">21889615</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>04</Month>
+            <Day>05</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2011</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-0480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical informatics</Title>
+                <ISOAbbreviation>J Biomed Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Method selection and adaptation for distributed monitoring of infectious diseases for syndromic surveillance.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1093-101</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jbi.2011.08.012</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Automated surveillance systems require statistical methods to recognize increases in visit counts that might indicate an outbreak. In prior work we presented methods to enhance the sensitivity of C2, a commonly used time series method. In this study, we compared the enhanced C2 method with five regression models.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We used emergency department chief complaint data from US CDC BioSense surveillance system, aggregated by city (total of 206 hospitals, 16 cities) during 5/2008-4/2009. Data for six syndromes (asthma, gastrointestinal, nausea and vomiting, rash, respiratory, and influenza-like illness) was used and was stratified by mean count (1-19, 20-49, ≥50 per day) into 14 syndrome-count categories. We compared the sensitivity for detecting single-day artificially-added increases in syndrome counts. Four modifications of the C2 time series method, and five regression models (two linear and three Poisson), were tested. A constant alert rate of 1% was used for all methods.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Among the regression models tested, we found that a Poisson model controlling for the logarithm of total visits (i.e., visits both meeting and not meeting a syndrome definition), day of week, and 14-day time period was best. Among 14 syndrome-count categories, time series and regression methods produced approximately the same sensitivity (&lt;5% difference) in 6; in six categories, the regression method had higher sensitivity (range 6-14% improvement), and in two categories the time series method had higher sensitivity.</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">When automated data are aggregated to the city level, a Poisson regression model that controls for total visits produces the best overall sensitivity for detecting artificially added visit counts. This improvement was achieved without increasing the alert rate, which was held constant at 1% for all methods. These findings will improve our ability to detect outbreaks in automated surveillance system data.</AbstractText>
+                <CopyrightInformation>Published by Elsevier Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xing</LastName>
+                    <ForeName>Jian</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centers for Disease Control and Prevention, Atlanta, GA 30333, USA. jxing@cdc.gov</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Burkom</LastName>
+                    <ForeName>Howard</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tokars</LastName>
+                    <ForeName>Jerome</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Biomed Inform</MedlineTA>
+            <NlmUniqueID>100970413</NlmUniqueID>
+            <ISSNLinking>1532-0464</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D023482" MajorTopicYN="N">Bioterrorism</DescriptorName>
+                <QualifierName UI="Q000517" MajorTopicYN="N">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003141" MajorTopicYN="Y">Communicable Diseases</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004196" MajorTopicYN="N">Disease Outbreaks</DescriptorName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+                <QualifierName UI="Q000706" MajorTopicYN="N">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008490" MajorTopicYN="N">Medical Informatics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="N">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011159" MajorTopicYN="N">Population Surveillance</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012044" MajorTopicYN="N">Regression Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>04</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>08</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>08</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">21889615</ArticleId>
+            <ArticleId IdType="pii">S1532-0464(11)00139-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jbi.2011.08.012</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

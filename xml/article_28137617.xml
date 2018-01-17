@@ -1,0 +1,162 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28137617</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>03</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-4863</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>244</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biotechnology</Title>
+                <ISOAbbreviation>J. Biotechnol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Bioprocess optimization under uncertainty using ensemble modeling.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>34-44</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0168-1656(17)30030-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jbiotec.2017.01.013</ELocationID>
+            <Abstract>
+                <AbstractText>The performance of model-based bioprocess optimizations depends on the accuracy of the mathematical model. However, models of bioprocesses often have large uncertainty due to the lack of model identifiability. In the presence of such uncertainty, process optimizations that rely on the predictions of a single &quot;best fit&quot; model, e.g. the model resulting from a maximum likelihood parameter estimation using the available process data, may perform poorly in real life. In this study, we employed ensemble modeling to account for model uncertainty in bioprocess optimization. More specifically, we adopted a Bayesian approach to define the posterior distribution of the model parameters, based on which we generated an ensemble of model parameters using a uniformly distributed sampling of the parameter confidence region. The ensemble-based process optimization involved maximizing the lower confidence bound of the desired bioprocess objective (e.g. yield or product titer), using a mean-standard deviation utility function. We demonstrated the performance and robustness of the proposed strategy in an application to a monoclonal antibody batch production by mammalian hybridoma cell culture.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 The Author(s). Published by Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Chemical and Bioengineering, ETH Zurich, Switzerland; Swiss Institute of Bioinformatics, Lausanne, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gunawan</LastName>
+                    <ForeName>Rudiyanto</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Chemical and Bioengineering, ETH Zurich, Switzerland; Swiss Institute of Bioinformatics, Lausanne, Switzerland. Electronic address: rudi.gunawan@chem.ethz.ch.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>J Biotechnol</MedlineTA>
+            <NlmUniqueID>8411927</NlmUniqueID>
+            <ISSNLinking>0168-1656</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000911">Antibodies, Monoclonal</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000911" MajorTopicYN="N">Antibodies, Monoclonal</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061249" MajorTopicYN="N">Batch Cell Culture Techniques</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001499" MajorTopicYN="N">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019149" MajorTopicYN="N">Bioreactors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006825" MajorTopicYN="N">Hybridomas</DescriptorName>
+                <QualifierName UI="Q000166" MajorTopicYN="Y">cytology</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008954" MajorTopicYN="Y">Models, Biological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D035501" MajorTopicYN="N">Uncertainty</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bioprocess</Keyword>
+            <Keyword MajorTopicYN="N">Ensemble modeling</Keyword>
+            <Keyword MajorTopicYN="N">Monoclonal antibody</Keyword>
+            <Keyword MajorTopicYN="N">Optimization</Keyword>
+            <Keyword MajorTopicYN="N">Uncertainty</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28137617</ArticleId>
+            <ArticleId IdType="pii">S0168-1656(17)30030-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jbiotec.2017.01.013</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

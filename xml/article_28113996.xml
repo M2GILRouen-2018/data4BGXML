@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113996</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Novel Discretized Weak Estimators Based on the Principles of the Stochastic Search on the Line Problem.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2015.2487338</ELocationID>
+            <Abstract>
+                <AbstractText>Generally speaking, research in the field of estimation involves designing strong estimators, i.e., those which converge with probability 1, as the number of samples increases indefinitely. But when the underlying distribution is nonstationary, one should rather seek for weak estimators, i.e., those which can unlearn when the distribution has changed. One such estimator, the so-called stochastic learning weak estimator (SLWE) was based on the principles of continuous stochastic learning automata (LA). A problem that has been unsolved has been that of designing such weak estimators in the context of systems with finite memory, which is what we investigate here. In this paper, we propose a new family of stochastic discretized weak estimators which can track time-varying binomial distributions. As opposed to the SLWE, our proposed estimator is discretized, i.e., the estimate can assume only a finite number of values. By virtue of discretization, our estimator realizes extremely fast adjustments of the running estimates by executing jumps, and it is thus able to robustly, and very quickly, track changes in the parameters of the distribution after a switch has occurred. The design principle of our strategy is based on a solution for the stochastic search on the line problem. In order to achieve efficient estimation, we have to first infer (or rather simulate) an Artificial Oracle which informs the LA whether to go right or left, which is then utilized to infer whether we are to increase the current estimate or to decrease it. This paper briefly reports pioneering and conclusive experimental results that demonstrate the ability of the proposed estimator to cope with nonstationary environments.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yazidi</LastName>
+                    <ForeName>Anis</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oommen</LastName>
+                    <ForeName>Basantkumar John</ForeName>
+                    <Initials>BJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113996</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2015.2487338</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

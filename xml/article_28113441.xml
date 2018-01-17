@@ -1,0 +1,116 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113441</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1940-9990</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on biomedical circuits and systems</Title>
+                <ISOAbbreviation>IEEE Trans Biomed Circuits Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mapping Generative Models onto a Network of Digital Spiking Neurons.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TBCAS.2016.2539352</ELocationID>
+            <Abstract>
+                <AbstractText>Stochastic neural networks such as Restricted Boltzmann Machines (RBMs) have been successfully used in applications ranging from speech recognition to image classification, and are particularly interesting because of their potential for generative tasks. Inference and learning in these algorithms use a Markov Chain Monte Carlo procedure called Gibbs sampling, where a logistic function forms the kernel of this sampler. On the other side of the spectrum, neuromorphic systems have shown great promise for low-power and parallelized cognitive computing, but lack well-suited applications and automation procedures. In this work, we propose a systematic method for bridging the RBM algorithm and digital neuromorphic systems, with a generative pattern completion task as proof of concept. For this, we first propose a method of producing the Gibbs sampler using bio-inspired digital noisy integrate-and-fire neurons. Next, we describe the process of mapping generative RBMs trained offline onto the IBM TrueNorth neurosynaptic processor-a low-power digital neuromorphic VLSI substrate. Mapping these algorithms onto neuromorphic hardware presents unique challenges in network connectivity and weight and bias quantization, which, in turn, require architectural and design strategies for the physical realization. Generative performance is analyzed to validate the neuromorphic requirements and to best select the neuron parameters for the model. Lastly, we describe a design automation procedure which achieves optimal resource usage, accounting for the novel hardware adaptations. This work represents the first implementation of generative RBM inference on a neuromorphic VLSI substrate.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pedroni</LastName>
+                    <ForeName>Bruno U</ForeName>
+                    <Initials>BU</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Das</LastName>
+                    <ForeName>Srinjoy</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arthur</LastName>
+                    <ForeName>John V</ForeName>
+                    <Initials>JV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Merolla</LastName>
+                    <ForeName>Paul A</ForeName>
+                    <Initials>PA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jackson</LastName>
+                    <ForeName>Bryan L</ForeName>
+                    <Initials>BL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Modha</LastName>
+                    <ForeName>Dharmendra S</ForeName>
+                    <Initials>DS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kreutz-Delgado</LastName>
+                    <ForeName>Kenneth</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cauwenberghs</LastName>
+                    <ForeName>Gert</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Biomed Circuits Syst</MedlineTA>
+            <NlmUniqueID>101312520</NlmUniqueID>
+            <ISSNLinking>1932-4545</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113441</ArticleId>
+            <ArticleId IdType="doi">10.1109/TBCAS.2016.2539352</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

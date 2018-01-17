@@ -1,0 +1,112 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28910696</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-8423</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>42</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical image analysis</Title>
+                <ISOAbbreviation>Med Image Anal</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Tissue microstructure estimation using a deep network inspired by a dictionary-based framework.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>288-299</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1361-8415(17)30132-9</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.media.2017.09.001</ELocationID>
+            <Abstract>
+                <AbstractText>Diffusion magnetic resonance imaging (dMRI) captures the anisotropic pattern of water displacement in the neuronal tissue and allows noninvasive investigation of the complex tissue microstructure. A number of biophysical models have been proposed to relate the tissue organization with the observed diffusion signals, so that the tissue microstructure can be inferred. The Neurite Orientation Dispersion and Density Imaging (NODDI) model has been a popular choice and has been widely used for many neuroscientific studies. It models the diffusion signal with three compartments that are characterized by distinct diffusion properties, and the parameters in the model describe tissue microstructure. In NODDI, these parameters are estimated in a maximum likelihood framework, where the nonlinear model fitting is computationally intensive. Therefore, efforts have been made to develop efficient and accurate algorithms for NODDI microstructure estimation, which is still an open problem. In this work, we propose a deep network based approach that performs end-to-end estimation of NODDI microstructure, which is named Microstructure Estimation using a Deep Network (MEDN). MEDN comprises two cascaded stages and is motivated by the AMICO algorithm, where the NODDI microstructure estimation is formulated in a dictionary-based framework. The first stage computes the coefficients of the dictionary. It resembles the solution to a sparse reconstruction problem, where the iterative process in conventional estimation approaches is unfolded and truncated, and the weights are learned instead of predetermined by the dictionary. In the second stage, microstructure properties are computed from the output of the first stage, which resembles the weighted sum of normalized dictionary coefficients in AMICO, and the weights are also learned. Because spatial consistency of diffusion signals can be used to reduce the effect of noise, we also propose MEDN+, which is an extended version of MEDN. MEDN+ allows incorporation of neighborhood information by inserting a stage with learned weights before the MEDN structure, where the diffusion signals in the neighborhood of a voxel are processed. The weights in MEDN or MEDN+ are jointly learned from training samples that are acquired with diffusion gradients densely sampling the q-space. We performed MEDN and MEDN+ on brain dMRI scans, where two shells each with 30 gradient directions were used, and measured their accuracy with respect to the gold standard. Results demonstrate that the proposed networks outperform the competing methods.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ye</LastName>
+                    <ForeName>Chuyang</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China; National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, Beijing, China. Electronic address: chuyang.ye@nlpr.ia.ac.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Med Image Anal</MedlineTA>
+            <NlmUniqueID>9713490</NlmUniqueID>
+            <ISSNLinking>1361-8415</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Deep network</Keyword>
+            <Keyword MajorTopicYN="N">Diffusion MRI</Keyword>
+            <Keyword MajorTopicYN="N">NODDI</Keyword>
+            <Keyword MajorTopicYN="N">Sparse reconstruction</Keyword>
+            <Keyword MajorTopicYN="N">Tissue microstructure</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910696</ArticleId>
+            <ArticleId IdType="pii">S1361-8415(17)30132-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.media.2017.09.001</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

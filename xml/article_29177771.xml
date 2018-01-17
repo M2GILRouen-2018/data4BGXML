@@ -1,0 +1,140 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29177771</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1352-8661</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Magma (New York, N.Y.)</Title>
+                <ISOAbbreviation>MAGMA</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic gallbladder segmentation using combined 2D and 3D shape features to perform volumetric analysis in native and secretin-enhanced MRCP sequences.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s10334-017-0664-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">We aimed to develop the first fully automated 3D gallbladder segmentation approach to perform volumetric analysis in volume data of magnetic resonance (MR) cholangiopancreatography (MRCP) sequences. Volumetric gallbladder analysis is performed for non-contrast-enhanced and secretin-enhanced MRCP sequences.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Native and secretin-enhanced MRCP volume data were produced with a 1.5-T MR system. Images of coronal maximum intensity projections (MIP) are used to automatically compute 2D characteristic shape features of the gallbladder in the MIP images. A gallbladder shape space is generated to derive 3D gallbladder shape features, which are then combined with 2D gallbladder shape features in a support vector machine approach to detect gallbladder regions in MRCP volume data. A region-based level set approach is used for fine segmentation. Volumetric analysis is performed for both sequences to calculate gallbladder volume differences between both sequences.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The approach presented achieves segmentation results with mean Dice coefficients of 0.917 in non-contrast-enhanced sequences and 0.904 in secretin-enhanced sequences.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This is the first approach developed to detect and segment gallbladders in MR-based volume data automatically in both sequences. It can be used to perform gallbladder volume determination in epidemiological studies and to detect abnormal gallbladder volumes or shapes. The positive volume differences between both sequences may indicate the quantity of the pancreatobiliary reflux.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gloger</LastName>
+                    <ForeName>Oliver</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Community Medicine, Ernst Moritz Arndt University of Greifswald, Walther-Rathenau-Str. 48, 17475, Greifswald, Germany. gloger@uni-greifswald.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bülow</LastName>
+                    <ForeName>Robin</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Diagnostic Radiology and Neuroradiology, Ernst Moritz Arndt University of Greifswald, Ferdinand-Sauerbruch-Str. 1, 17475, Greifswald, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tönnies</LastName>
+                    <ForeName>Klaus</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Simulation and Graphics, Otto von Guericke University of Magdeburg, Universitätsplatz 2, 39106, Magdeburg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Völzke</LastName>
+                    <ForeName>Henry</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Community Medicine, Ernst Moritz Arndt University of Greifswald, Walther-Rathenau-Str. 48, 17475, Greifswald, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>GL 785/1-1</GrantID>
+                    <Agency>Deutsche Forschungsgemeinschaft</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>MAGMA</MedlineTA>
+            <NlmUniqueID>9310752</NlmUniqueID>
+            <ISSNLinking>0968-5243</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Fourier descriptors</Keyword>
+            <Keyword MajorTopicYN="N">Non-contrast-enhanced and secretin-enhanced magnetic resonance cholangiopancreatography volume data</Keyword>
+            <Keyword MajorTopicYN="N">Principal component analysis</Keyword>
+            <Keyword MajorTopicYN="N">Support vector machines</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29177771</ArticleId>
+            <ArticleId IdType="doi">10.1007/s10334-017-0664-6</ArticleId>
+            <ArticleId IdType="pii">10.1007/s10334-017-0664-6</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

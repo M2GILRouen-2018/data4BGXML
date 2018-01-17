@@ -1,0 +1,170 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29199642</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-2552</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>04</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of neural engineering</Title>
+                <ISOAbbreviation>J Neural Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Signal processing methods for reducing artifacts in microelectrode brain recordings caused by functional electrical stimulation.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1741-2552/aa9ee8</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Functional electrical stimulation (FES) is a promising technology for restoring movement to paralyzed limbs. Intracortical brain-computer interfaces (iBCIs) have enabled intuitive control over virtual and robotic movements, and more recently over upper extremity FES neuroprostheses. However, electrical stimulation of muscles creates artifacts in intracortical microelectrode recordings that could degrade iBCI performance. Here, we investigate methods for reducing the cortically recorded artifacts that result from peripheral electrical stimulation.</AbstractText>
+                <AbstractText Label="APPROACH" NlmCategory="METHODS">One participant in the BrainGate2 pilot clinical trial had two intracortical microelectrode arrays placed in the motor cortex, and thirty-six stimulating intramuscular electrodes placed in the muscles of the contralateral limb. We characterized intracortically recorded electrical artifacts during both intramuscular and surface stimulation. We compared the performance of three artifact reduction methods: blanking, common average reference (CAR) and linear regression reference (LRR), which creates channel-specific reference signals, composed of weighted sums of other channels.</AbstractText>
+                <AbstractText Label="MAIN RESULTS" NlmCategory="RESULTS">Electrical artifacts resulting from surface stimulation were 175x larger than baseline neural recordings (which were 110µV peak-to-peak), while intramuscular stimulation artifacts were only 4x larger. The artifact waveforms were highly consistent across electrodes within each array. Application of LRR reduced artifact magnitudes to less than 10µV and largely preserved the original neural feature values used for decoding. Unmitigated stimulation artifacts decreased iBCI decoding performance, but performance was almost completely recovered using LRR, which outperformed CAR and blanking and extracted useful neural information during stimulation artifact periods.</AbstractText>
+                <AbstractText Label="SIGNIFICANCE" NlmCategory="CONCLUSIONS">The LRR method was effective at reducing electrical artifacts resulting from both intramuscular and surface FES, and almost completely restored iBCI decoding performance (&amp;gt;90% recovery for surface stimulation and full recovery for intramuscular stimulation). The results demonstrate that FES-induced artifacts can be easily mitigated in FES+iBCI systems by using LRR for artifact reduction, and suggest that the LRR method may also be useful in other noise reduction applications.</AbstractText>
+                <CopyrightInformation>© 2017 IOP Publishing Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Young</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">0000-0003-1861-971X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, 44106-7220, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Willett</LastName>
+                    <ForeName>Francis</ForeName>
+                    <Initials>F</Initials>
+                    <Identifier Source="ORCID">0000-0002-2652-8511</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Memberg</LastName>
+                    <ForeName>William D</ForeName>
+                    <Initials>WD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Murphy</LastName>
+                    <ForeName>Brian</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Walter</LastName>
+                    <ForeName>Benjamin</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neurology, UH Cleveland Medical Center, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sweet</LastName>
+                    <ForeName>Jennifer A</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neurosurgery, UH Case Medical Center, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miller</LastName>
+                    <ForeName>Jonathan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neurology, UH Cleveland Medical Center, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hochberg</LastName>
+                    <ForeName>Leigh</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>VA RR&amp;D Center for Neurorestoration and Neuortechnology, Brown University, Providence, Rhode Island, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kirsch</LastName>
+                    <ForeName>Robert F</ForeName>
+                    <Initials>RF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ajiboye</LastName>
+                    <ForeName>A Bolu</ForeName>
+                    <Initials>AB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Neural Eng</MedlineTA>
+            <NlmUniqueID>101217933</NlmUniqueID>
+            <ISSNLinking>1741-2552</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">BCI</Keyword>
+            <Keyword MajorTopicYN="N">FES</Keyword>
+            <Keyword MajorTopicYN="N">FES+iBCI</Keyword>
+            <Keyword MajorTopicYN="N">artefact blanking</Keyword>
+            <Keyword MajorTopicYN="N">artifact reduction</Keyword>
+            <Keyword MajorTopicYN="N">stimulation artifact</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29199642</ArticleId>
+            <ArticleId IdType="doi">10.1088/1741-2552/aa9ee8</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

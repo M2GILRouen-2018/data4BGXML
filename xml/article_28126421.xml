@@ -1,0 +1,174 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28126421</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-4030</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>41</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical engineering &amp; physics</Title>
+                <ISOAbbreviation>Med Eng Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel fully automatic measurement of apparent breast volume from trunk surface mesh.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>46-54</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1350-4533(17)30005-X</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.medengphy.2017.01.004</ELocationID>
+            <Abstract>
+                <AbstractText>This paper presents a novel method for assessing apparent breast volume from trunk surface mesh without any manual intervention. The proposed method requires a closed and smooth triangular mesh of the trunk. It comprises four main steps: automatic nipple localization, automatic breasts delineation, chest-wall interpolation and volume computation. The mean curvature is computed for each vertex using a quadratic fitting approach and used as an indicator to determine the convex fold of the breasts. The delineation is modeled as an ellipse in the frontal plane and all the vertices inside it are removed. The remaining ones are used to interpolate the chest wall with radial basis functions. The voxels inside the resulting mesh without breasts are then subtracted from the original voxelized volume to generate the breasts volume. The validation is conducted on 30 adolescent female for each of which an MRI and a trunk surface (TS) acquisitions were available. Three breast volumes are considered: the anatomical volumes (AV) manually segmented on the MRI, the external volumes computed with the proposed method first in prone position (EVP) using the trunk mesh extracted from the MRI, and second, in standing position (EVS) using the TS's mesh. Significant correlations (R&gt; 0.77) are found between each two of the three volumes. AVs are much larger than both EVS and EPS. In fact, the manual segmentation using MRI slices allows for a direct visualization of the breast posterior delineation. Computed automatically, EVS and EPS are highly similar, indicating that the proposed method is robust to changes from prone to standing position. No significant difference between the regressions on the left and right breasts is noted. Fully-automatic 3D breast volumetry from trunk surface mesh is feasible and provides measurements that are highly correlated to manual MRI volumetry and robust to changes in posture.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 IPEM. Published by Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Seoud</LastName>
+                    <ForeName>Lama</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Research Council, Canada. Electronic address: lama.seoud@nrc-cnrc.gc.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ramsay</LastName>
+                    <ForeName>Joyce</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sainte Justine University Hospital Research Center, Montreal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Parent</LastName>
+                    <ForeName>Stefan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sainte Justine University Hospital Research Center, Montreal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheriet</LastName>
+                    <ForeName>Farida</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer and Software Engineering, Polytechnique Montreal, Canada; Sainte Justine University Hospital Research Center, Montreal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Med Eng Phys</MedlineTA>
+            <NlmUniqueID>9422753</NlmUniqueID>
+            <ISSNLinking>1350-4533</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000293" MajorTopicYN="N">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="N">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001940" MajorTopicYN="N">Breast</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="Y">anatomy &amp; histology</QualifierName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="N">Imaging, Three-Dimensional</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="N">Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009929" MajorTopicYN="N">Organ Size</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011187" MajorTopicYN="N">Posture</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060726" MajorTopicYN="Y">Torso</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Breast volumetry</Keyword>
+            <Keyword MajorTopicYN="N">Curvature</Keyword>
+            <Keyword MajorTopicYN="N">Surface mesh</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28126421</ArticleId>
+            <ArticleId IdType="pii">S1350-4533(17)30005-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.medengphy.2017.01.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

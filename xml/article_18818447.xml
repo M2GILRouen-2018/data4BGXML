@@ -1,0 +1,293 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23055232</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>11</Month>
+            <Day>12</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>02</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0070-3370</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>49</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Demography</Title>
+                <ISOAbbreviation>Demography</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The DYNAMO-HIA model: an efficient implementation of a risk factor/chronic disease Markov model for use in Health Impact Assessment (HIA).</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1259-83</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s13524-012-0122-z</ELocationID>
+            <Abstract>
+                <AbstractText>In Health Impact Assessment (HIA), or priority-setting for health policy, effects of risk factors (exposures) on health need to be modeled, such as with a Markov model, in which exposure influences mortality and disease incidence rates. Because many risk factors are related to a variety of chronic diseases, these Markov models potentially contain a large number of states (risk factor and disease combinations), providing a challenge both technically (keeping down execution time and memory use) and practically (estimating the model parameters and retaining transparency). To meet this challenge, we propose an approach that combines micro-simulation of the exposure information with macro-simulation of the diseases and survival. This approach allows users to simulate exposure in detail while avoiding the need for large simulated populations because of the relative rareness of chronic disease events. Further efficiency is gained by splitting the disease state space into smaller spaces, each of which contains a cluster of diseases that is independent of the other clusters. The challenge of feasible input data requirements is met by including parameter calculation routines, which use marginal population data to estimate the transitions between states. As an illustration, we present the recently developed model DYNAMO-HIA (DYNAMIC MODEL for Health Impact Assessment) that implements this approach.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Boshuizen</LastName>
+                    <ForeName>Hendriek C</ForeName>
+                    <Initials>HC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics and Mathematical Modelling, National Institute of Public Health and the Environment, Bilthoven, The Netherlands. hendriek.boshuizen@rivm.nl</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lhachimi</LastName>
+                    <ForeName>Stefan K</ForeName>
+                    <Initials>SK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Baal</LastName>
+                    <ForeName>Pieter H M</ForeName>
+                    <Initials>PH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hoogenveen</LastName>
+                    <ForeName>Rudolf T</ForeName>
+                    <Initials>RT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Smit</LastName>
+                    <ForeName>Henriette A</ForeName>
+                    <Initials>HA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mackenbach</LastName>
+                    <ForeName>Johan P</ForeName>
+                    <Initials>JP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nusselder</LastName>
+                    <ForeName>Wilma J</ForeName>
+                    <Initials>WJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Demography</MedlineTA>
+            <NlmUniqueID>0226703</NlmUniqueID>
+            <ISSNLinking>0070-3370</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Aff (Millwood). 2005;24 Suppl 2:W5R5-17</RefSource>
+                <PMID Version="1">16186147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 1992 Jun;48(2):587-92</RefSource>
+                <PMID Version="1">1637981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Math Popul Stud. 1998;7(1):29-49, 109</RefSource>
+                <PMID Version="1">12321476</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2006 Jun 15;163(12):1157; author reply 1159-61</RefSource>
+                <PMID Version="1">16754636</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetologia. 2004 Oct;47(10 ):1747-59</RefSource>
+                <PMID Version="1">15517152</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Cardiovasc Prev Rehabil. 2009 Jun;16(3):371-6</RefSource>
+                <PMID Version="1">19305351</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2007 Jun 7;356(23):2388-98</RefSource>
+                <PMID Version="1">17554120</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Epidemiol Community Health. 1997 Apr;51(2):144-50</RefSource>
+                <PMID Version="1">9196643</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Decis Making. 2006 Sep-Oct;26(5):550-3</RefSource>
+                <PMID Version="1">16997930</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Popul Health Metr. 2011 Sep 01;9(1):51</RefSource>
+                <PMID Version="1">21884614</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cost Eff Resour Alloc. 2003 Feb 26;1(1):6</RefSource>
+                <PMID Version="1">12773215</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Epidemiol Community Health. 2005 Aug;59(8):645-50</RefSource>
+                <PMID Version="1">16020640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Care Manag Sci. 2003 Aug;6(3):137-46</RefSource>
+                <PMID Version="1">12943149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Epidemiol Community Health. 2002 Aug;56(8):611-6</RefSource>
+                <PMID Version="1">12118053</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Value Health. 2009 Nov-Dec;12(8):1210-4</RefSource>
+                <PMID Version="1">19695002</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Technol Assess. 2009 Jun;13(29):iii, ix-xi, 1-61</RefSource>
+                <PMID Version="1">19500484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2010 Jan;38(1):78-84</RefSource>
+                <PMID Version="1">20117561</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Popul Health Metr. 2003 Apr 14;1(1):4</RefSource>
+                <PMID Version="1">12773212</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Math Med Biol. 2010 Mar;27(1):1-19</RefSource>
+                <PMID Version="1">19516046</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Demography. 1994 Feb;31(1):159-75</RefSource>
+                <PMID Version="1">8005340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Public Health. 2008 Nov;122(11):1177-87</RefSource>
+                <PMID Version="1">18799174</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Econ. 1994 Mar-Apr;3(2):95-104</RefSource>
+                <PMID Version="1">8044216</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2012 Mar 15;31(6):533-43</RefSource>
+                <PMID Version="1">22139860</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Public Health Rep. 2009 Nov-Dec;124(6):778-89</RefSource>
+                <PMID Version="1">19894419</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Popul Health Metr. 2006 Nov 03;4:14</RefSource>
+                <PMID Version="1">17083719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gerontol B Psychol Sci Soc Sci. 2008 Sep;63(5):S269-81</RefSource>
+                <PMID Version="1">18818447</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002908" MajorTopicYN="N">Chronic Disease</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+                <QualifierName UI="Q000401" MajorTopicYN="N">mortality</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003920" MajorTopicYN="N">Diabetes Mellitus</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015438" MajorTopicYN="N">Health Behavior</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D062489" MajorTopicYN="N">Health Impact Assessment</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+                <QualifierName UI="Q000706" MajorTopicYN="Y">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015994" MajorTopicYN="N">Incidence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008019" MajorTopicYN="N">Life Style</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008390" MajorTopicYN="Y">Markov Chains</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009765" MajorTopicYN="N">Obesity</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012907" MajorTopicYN="N">Smoking</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012959" MajorTopicYN="N">Socioeconomic Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>2</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23055232</ArticleId>
+            <ArticleId IdType="doi">10.1007/s13524-012-0122-z</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28920911</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Efficient Online Learning Algorithms Based on LSTM Neural Networks.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2017.2741598</ELocationID>
+            <Abstract>
+                <AbstractText>We investigate online nonlinear regression and introduce novel regression structures based on the long short term memory (LSTM) networks. For the introduced structures, we also provide highly efficient and effective online training methods. To train these novel LSTM-based structures, we put the underlying architecture in a state space form and introduce highly efficient and effective particle filtering (PF)-based updates. We also provide stochastic gradient descent and extended Kalman filter-based updates. Our PF-based training method guarantees convergence to the optimal parameter estimation in the mean square error sense provided that we have a sufficient number of particles and satisfy certain technical conditions. More importantly, we achieve this performance with a computational complexity in the order of the first-order gradient-based methods by controlling the number of particles. Since our approach is generic, we also introduce a gated recurrent unit (GRU)-based approach by directly replacing the LSTM architecture with the GRU architecture, where we demonstrate the superiority of our LSTM-based approach in the sequential prediction task via different real life data sets. In addition, the experimental results illustrate significant performance improvements achieved by the introduced algorithms with respect to the conventional methods over several different benchmark real life data sets.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ergen</LastName>
+                    <ForeName>Tolga</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kozat</LastName>
+                    <ForeName>Suleyman Serdar</ForeName>
+                    <Initials>SS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28920911</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2017.2741598</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

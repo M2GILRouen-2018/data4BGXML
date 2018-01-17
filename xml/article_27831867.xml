@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">27831867</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Real-Time Ultrasound Segmentation, Analysis and Visualisation of Deep Cervical Muscle Structure.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>653-665</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2016.2623819</ELocationID>
+            <Abstract>
+                <AbstractText>Despite widespread availability of ultrasound and a need for personalised muscle diagnosis (neck/back pain-injury, work related disorder, myopathies, neuropathies), robust, online segmentation of muscles within complex groups remains unsolved by existing methods. For example, Cervical Dystonia (CD) is a prevalent neurological condition causing painful spasticity in one or multiple muscles in the cervical muscle system. Clinicians currently have no method for targeting/monitoring treatment of deep muscles. Automated methods of muscle segmentation would enable clinicians to study, target, and monitor the deep cervical muscles via ultrasound. We have developed a method for segmenting five bilateral cervical muscles and the spine via ultrasound alone, in real-time. Magnetic Resonance Imaging (MRI) and ultrasound data were collected from 22 participants (age: 29.0±6.6, male: 12). To acquire ultrasound muscle segment labels, a novel multimodal registration method was developed, involving MRI image annotation, and shape registration to MRI-matched ultrasound images, via approximation of the tissue deformation. We then applied polynomial regression to transform our annotations and textures into a mean space, before using shape statistics to generate a texture-to-shape dictionary. For segmentation, test images were compared to dictionary textures giving an initial segmentation, and then we used a customized Active Shape Model to refine the fit. Using ultrasound alone, on unseen participants, our technique currently segments a single image in [Formula: see text] to over 86% accuracy (Jaccard index). We propose this approach is applicable generally to segment, extrapolate and visualise deep muscle structure, and analyse statistical features online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cunningham</LastName>
+                    <ForeName>Ryan J</ForeName>
+                    <Initials>RJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Harding</LastName>
+                    <ForeName>Peter J</ForeName>
+                    <Initials>PJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Loram</LastName>
+                    <ForeName>Ian D</ForeName>
+                    <Initials>ID</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27831867</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2016.2623819</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

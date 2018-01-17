@@ -1,0 +1,290 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26582928</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>07</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>07</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1362-4962</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>D1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jan</Month>
+                        <Day>04</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nucleic acids research</Title>
+                <ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>WeGET: predicting new genes for molecular systems by weighted co-expression.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>D567-73</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/nar/gkv1228</ELocationID>
+            <Abstract>
+                <AbstractText>We have developed the Weighted Gene Expression Tool and database (WeGET, http://weget.cmbi.umcn.nl) for the prediction of new genes of a molecular system by correlated gene expression. WeGET utilizes a compendium of 465 human and 560 murine gene expression datasets that have been collected from multiple tissues under a wide range of experimental conditions. It exploits this abundance of expression data by assigning a high weight to datasets in which the known genes of a molecular system are harmoniously up- and down-regulated. WeGET ranks new candidate genes by calculating their weighted co-expression with that system. A weighted rank is calculated for human genes and their mouse orthologs. Then, an integrated gene rank and p-value is computed using a rank-order statistic. We applied our method to predict novel genes that have a high degree of co-expression with Gene Ontology terms and pathways from KEGG and Reactome. For each query set we provide a list of predicted novel genes, computed weights for transcription datasets used and cell and tissue types that contributed to the final predictions. The performance for each query set is assessed by 10-fold cross-validation. Finally, users can use the WeGET to predict novel genes that co-express with a custom query set.</AbstractText>
+                <CopyrightInformation>© The Author(s) 2015. Published by Oxford University Press on behalf of Nucleic Acids Research.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Szklarczyk</LastName>
+                    <ForeName>Radek</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Maastricht University Medical Centre, P. Debyelaan 25, 6226XM Maastricht, The Netherlands Centre for Molecular and Biomolecular Informatics (CMBI), Radboud University Medical Centre, Geert Grooteplein Zuid 26-28, 6525 GA Nijmegen, Nijmegen, The Netherlands radek.szklarczyk@maastrichtuniversity.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Megchelenbrink</LastName>
+                    <ForeName>Wout</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Molecular and Biomolecular Informatics (CMBI), Radboud University Medical Centre, Geert Grooteplein Zuid 26-28, 6525 GA Nijmegen, Nijmegen, The Netherlands Institute for Computing and Information Sciences (ICIS), Radboud University, Toernooiveld 212, 6525 EC Nijmegen, The Netherlands Centre for Systems Biology and Bioenergetics (CSBB), Radboud University Medical Centre, Geert Grooteplein Zuid 10, 6500 HB Nijmegen, Nijmegen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cizek</LastName>
+                    <ForeName>Pavel</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Molecular and Biomolecular Informatics (CMBI), Radboud University Medical Centre, Geert Grooteplein Zuid 26-28, 6525 GA Nijmegen, Nijmegen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ledent</LastName>
+                    <ForeName>Marie</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Maastricht University Medical Centre, P. Debyelaan 25, 6226XM Maastricht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Velemans</LastName>
+                    <ForeName>Gonny</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Molecular and Biomolecular Informatics (CMBI), Radboud University Medical Centre, Geert Grooteplein Zuid 26-28, 6525 GA Nijmegen, Nijmegen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Szklarczyk</LastName>
+                    <ForeName>Damian</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Molecular Life Sciences and Swiss Institute of Bioinformatics, University of Zurich, 8057 Zurich, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huynen</LastName>
+                    <ForeName>Martijn A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Molecular and Biomolecular Informatics (CMBI), Radboud University Medical Centre, Geert Grooteplein Zuid 26-28, 6525 GA Nijmegen, Nijmegen, The Netherlands Centre for Systems Biology and Bioenergetics (CSBB), Radboud University Medical Centre, Geert Grooteplein Zuid 10, 6500 HB Nijmegen, Nijmegen, The Netherlands Martijn.Huijnen@radboudumc.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Nucleic Acids Res</MedlineTA>
+            <NlmUniqueID>0411011</NlmUniqueID>
+            <ISSNLinking>0305-1048</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D1014-20</RefSource>
+                <PMID Version="1">23203868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2002 May 23;417(6887):399-403</RefSource>
+                <PMID Version="1">12000970</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2005 Feb;23(2):238-43</RefSource>
+                <PMID Version="1">15654329</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Physiol Genomics. 2006 Feb 14;24(3):252-63</RefSource>
+                <PMID Version="1">16303873</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2006 May;24(5):537-44</RefSource>
+                <PMID Version="1">16680138</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jul;41(Web Server issue):W115-22</RefSource>
+                <PMID Version="1">23794635</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Neurosci. 2013 Nov;57:1-9</RefSource>
+                <PMID Version="1">23994814</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Neurosci. 2014 Mar;37(3):146-58</RefSource>
+                <PMID Version="1">24461875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D991-5</RefSource>
+                <PMID Version="1">23193258</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Epilepsia. 2012 Dec;53 Suppl 9:21-31</RefSource>
+                <PMID Version="1">23216576</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain. 2012 Sep;135(Pt 9):2585-612</RefSource>
+                <PMID Version="1">22961543</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2012 Feb 23;73(4):638-52</RefSource>
+                <PMID Version="1">22365541</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Feb 15;28(4):573-80</RefSource>
+                <PMID Version="1">22247279</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Neurosci. 2011 Mar;12(3):139-53</RefSource>
+                <PMID Version="1">21304548</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain. 2010 Sep;133(9):2519-27</RefSource>
+                <PMID Version="1">20724292</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009;10:332</RefSource>
+                <PMID Version="1">19828039</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2009 Aug;5(8):e1000590</RefSource>
+                <PMID Version="1">19680543</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Metab. 2009 Aug;10(2):119-30</RefSource>
+                <PMID Version="1">19656490</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE/ACM Trans Comput Biol Bioinform. 2004 Jan-Mar;1(1):24-45</RefSource>
+                <PMID Version="1">17048406</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1998 Oct 23;282(5389):699-705</RefSource>
+                <PMID Version="1">9784122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2004 Jun;14(6):1085-94</RefSource>
+                <PMID Version="1">15173114</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2003 Oct 10;302(5643):249-55</RefSource>
+                <PMID Version="1">12934013</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Genet. 2003 May;19(5):238-42</RefSource>
+                <PMID Version="1">12711213</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Jan;43(Database issue):D1124-32</RefSource>
+                <PMID Version="1">25361971</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2003 Aug 1;12(15):1813-21</RefSource>
+                <PMID Version="1">12874102</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="Y">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020869" MajorTopicYN="Y">Gene Expression Profiling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051379" MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009437" MajorTopicYN="N">Neuralgia</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4702868</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>7</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26582928</ArticleId>
+            <ArticleId IdType="pii">gkv1228</ArticleId>
+            <ArticleId IdType="doi">10.1093/nar/gkv1228</ArticleId>
+            <ArticleId IdType="pmc">PMC4702868</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

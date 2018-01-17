@@ -1,0 +1,157 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28130936</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>01</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2044-8317</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>70</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The British journal of mathematical and statistical psychology</Title>
+                <ISOAbbreviation>Br J Math Stat Psychol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Meta-CART: A tool to identify interactions between moderators in meta-analysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>118-136</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/bmsp.12088</ELocationID>
+            <Abstract>
+                <AbstractText>In the framework of meta-analysis, moderator analysis is usually performed only univariately. When several study characteristics are available that may account for treatment effect, standard meta-regression has difficulties in identifying interactions between them. To overcome this problem, meta-CART has been proposed: an approach that applies classification and regression trees (CART) to identify interactions, and then subgroup meta-analysis to test the significance of moderator effects. The previous version of meta-CART has its shortcomings: when applying CART, the sample sizes of studies are not taken into account, and the effect sizes are dichotomized around the median value. Therefore, this article proposes new meta-CART extensions, weighting study effect sizes by their accuracy, and using a regression tree to avoid dichotomization. In addition, new pruning rules are proposed. The performance of all versions of meta-CART was evaluated via a Monte Carlo simulation study. The simulation results revealed that meta-regression trees with random-effects weights and a 0.5-standard-error pruning rule perform best. The required sample size for meta-CART to achieve satisfactory performance depends on the number of study characteristics, the magnitude of the interactions, and the residual heterogeneity.</AbstractText>
+                <CopyrightInformation>© 2017 The British Psychological Society.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Xinru</ForeName>
+                    <Initials>X</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6859-2311</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Mathematical Institute, Leiden University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dusseldorp</LastName>
+                    <ForeName>Elise</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Psychology, Leiden University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meulman</LastName>
+                    <ForeName>Jacqueline J</ForeName>
+                    <Initials>JJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mathematical Institute, Leiden University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Br J Math Stat Psychol</MedlineTA>
+            <NlmUniqueID>0004047</NlmUniqueID>
+            <ISSNLinking>0007-1102</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="N">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003627" MajorTopicYN="N">Data Interpretation, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015201" MajorTopicYN="Y">Meta-Analysis as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="Y">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017063" MajorTopicYN="N">Outcome Assessment (Health Care)</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012044" MajorTopicYN="Y">Regression Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">classification and regression trees</Keyword>
+            <Keyword MajorTopicYN="N">interaction between moderators</Keyword>
+            <Keyword MajorTopicYN="N">meta-analysis</Keyword>
+            <Keyword MajorTopicYN="N">residual heterogeneity</Keyword>
+            <Keyword MajorTopicYN="N">weighted effect sizes</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28130936</ArticleId>
+            <ArticleId IdType="doi">10.1111/bmsp.12088</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

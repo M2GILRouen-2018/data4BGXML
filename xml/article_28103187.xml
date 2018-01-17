@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28103187</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Convexity Shape Prior for Binary Segmentation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>258-271</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2547399</ELocationID>
+            <Abstract>
+                <AbstractText>Convexity is a known important cue in human vision. We propose shape convexity as a new high-order regularization constraint for binary image segmentation. In the context of discrete optimization, object convexity is represented as a sum of three-clique potentials penalizing any 1- 0- 1 configuration on all straight lines. We show that these non-submodular potentials can be efficiently optimized using an iterative trust region approach. At each iteration the energy is linearly approximated and globally optimized within a small trust region around the current solution. While the quadratic number of all three-cliques is prohibitively high, we design a dynamic programming technique for evaluating and approximating these cliques in linear time. We also derive a second order approximation model that is more accurate but computationally intensive. We discuss limitations of our local optimization and propose gradual non-submodularization scheme that alleviates some limitations. Our experiments demonstrate general usefulness of the proposed convexity shape prior on synthetic and real image segmentation examples. Unlike standard second-order length regularization, our convexity prior does not have shrinking bias, and is robust to changes in scale and parameter selection.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gorelick</LastName>
+                    <ForeName>Lena</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Veksler</LastName>
+                    <ForeName>Olga</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boykov</LastName>
+                    <ForeName>Yuri</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nieuwenhuis</LastName>
+                    <ForeName>Claudia</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103187</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2547399</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

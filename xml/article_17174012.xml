@@ -1,0 +1,217 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157218</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Brain medical image diagnosis based on corners with importance-values.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>505</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1903-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Brain disorders are one of the top causes of human death. Generally, neurologists analyze brain medical images for diagnosis. In the image analysis field, corners are one of the most important features, which makes corner detection and matching studies essential. However, existing corner detection studies do not consider the domain information of brain. This leads to many useless corners and the loss of significant information. Regarding corner matching, the uncertainty and structure of brain are not employed in existing methods. Moreover, most corner matching studies are used for 3D image registration. They are inapplicable for 2D brain image diagnosis because of the different mechanisms. To address these problems, we propose a novel corner-based brain medical image classification method. Specifically, we automatically extract multilayer texture images (MTIs) which embody diagnostic information from neurologists. Moreover, we present a corner matching method utilizing the uncertainty and structure of brain medical images and a bipartite graph model. Finally, we propose a similarity calculation method for diagnosis.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Brain CT and MRI image sets are utilized to evaluate the proposed method. First, classifiers are trained in N-fold cross-validation analysis to produce the best θ and K. Then independent brain image sets are tested to evaluate the classifiers. Moreover, the classifiers are also compared with advanced brain image classification studies. For the brain CT image set, the proposed classifier outperforms the comparison methods by at least 8% on accuracy and 2.4% on F1-score. Regarding the brain MRI image set, the proposed classifier is superior to the comparison methods by more than 7.3% on accuracy and 4.9% on F1-score. Results also demonstrate that the proposed method is robust to different intensity ranges of brain medical image.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">In this study, we develop a robust corner-based brain medical image classifier. Specifically, we propose a corner detection method utilizing the diagnostic information from neurologists and a corner matching method based on the uncertainty and structure of brain medical images. Additionally, we present a similarity calculation method for brain image classification. Experimental results on two brain image sets show the proposed corner-based brain medical image classifier outperforms the state-of-the-art studies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gao</LastName>
+                    <ForeName>Linlin</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Haiwei</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China. panhaiwei@hrbeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Qing</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Xiaoqin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Zhiqiang</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Jinming</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurology and Neuroscience Center, the First Hospital of Jilin University, Changchun, 130021, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhai</LastName>
+                    <ForeName>Xiao</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Alzheimer’s Disease Neuroimaging Initiative</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>61672181</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>51679058</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>F2016005</GrantID>
+                    <Agency>Natural Science Foundation of Heilongjiang Province</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2017 Apr;37:101-113</RefSource>
+                <PMID Version="1">28167394</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 1986 Jun;8(6):679-98</RefSource>
+                <PMID Version="1">21869365</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 Mar 15;31(6):857-63</RefSource>
+                <PMID Version="1">25391399</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2013 Jul 22;14:232</RefSource>
+                <PMID Version="1">23870191</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2010 Mar;40(3):331-9</RefSource>
+                <PMID Version="1">20132930</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE J Biomed Health Inform. 2014 Mar;18(2):574-84</RefSource>
+                <PMID Version="1">24608057</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2010 Dec;32(12):2262-75</RefSource>
+                <PMID Version="1">20975122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2010 Jan;32(1):105-19</RefSource>
+                <PMID Version="1">19926902</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurobiol Aging. 2008 Apr;29(4):514-23</RefSource>
+                <PMID Version="1">17174012</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bipartite graph</Keyword>
+            <Keyword MajorTopicYN="N">Brain medical image diagnosis</Keyword>
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">Corner detection</Keyword>
+            <Keyword MajorTopicYN="N">Corner matching</Keyword>
+            <Keyword MajorTopicYN="N">Multilayer texture images</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157218</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1903-6</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1903-6</ArticleId>
+            <ArticleId IdType="pmc">PMC5697385</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

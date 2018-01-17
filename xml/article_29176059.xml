@@ -1,0 +1,117 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29176059</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-6560</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physics in medicine and biology</Title>
+                <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Multi-GPU configuration of 4D intensity modulated radiation therapy inverse planning using global optimization.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/aa9c96</ELocationID>
+            <Abstract>
+                <AbstractText>We report on the design, implementation and characterization of a multi-graphic processing unit (GPU) computational platform for higher-order optimization in radiotherapy treatment planning. In collaboration with a commercial vendor (Varian Medical Systems, Palo Alto, CA), a research prototype GPU-enabled Eclipse (V13.6) workstation was configured. The hardware consisted of dual 8-core xeon processors, 256 GB RAM and four NVIDIA Tesla K80 general purpose GPUs. We demonstrate the utility of this platform for large radiotherapy optimization problems through the development and characterization of a parallelized particle swarm optimization (PSO) four dimensional (4D) intensity modulated radiation therapy (IMRT) technique. The PSO engine was coupled to the Eclipse treatment planning system via a vendor-provided scripting interface. Specific challenges addressed in this implementation were (i) data management and (ii) non uniform memory access (NUMA). For the former, we alternated between parameters over which the computation process was parallelized. For the latter, we reduced the amount of data required to be efficiently utilizing data transfers transferred over the NUMA bridge. The datasets examined in this study were approximately 300 GB in size, including 4D computed tomography images, anatomical structure contours and dose deposition matrices. For evaluation, we created a 4D-IMRT treatment plan for one lung cancer patient and analyzed computation speed while varying several parameters (number of respiratory phases, GPUs and particles, as well as data matrix size). The optimized 4D-IMRT plan enhanced sparing of organs at risk by an average reduction of 26% in maximum dose, compared to the clinical optimized IMRT plan, where internal target volume was used. The computation speed in our implementation did not monotonically increase with the number of GPUs. The optimal number of GPUs (five, in our study) is directly related to the hardware specifications. The optimization process took 35 minutes using 50 PSO particles, 25 iterations and 5 GPUs.</AbstractText>
+                <CopyrightInformation>© 2017 Institute of Physics and Engineering in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hagan</LastName>
+                    <ForeName>Aaron Michael</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Centre, Dallas, TX 75235, Dallas, Texas, 75205, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sawant</LastName>
+                    <ForeName>Amit</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Maryland School of Medicine, Baltimore, Maryland, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Folkerts</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Varian Medical Systems Inc, Palo Alto, California, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Modiri</LastName>
+                    <ForeName>Arezoo</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Radiation Oncology, University of Maryland, School of medicine, 685 W. Baltimore St., MSTF 7-00, MD, Baltimore, Maryland, 21201, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Phys Med Biol</MedlineTA>
+            <NlmUniqueID>0401220</NlmUniqueID>
+            <ISSNLinking>0031-9155</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">GPU</Keyword>
+            <Keyword MajorTopicYN="N">IMRT</Keyword>
+            <Keyword MajorTopicYN="N">NUMA</Keyword>
+            <Keyword MajorTopicYN="N">Optimization</Keyword>
+            <Keyword MajorTopicYN="N">PSO</Keyword>
+            <Keyword MajorTopicYN="N">Parallel Processing</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29176059</ArticleId>
+            <ArticleId IdType="doi">10.1088/1361-6560/aa9c96</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

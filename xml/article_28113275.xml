@@ -1,0 +1,96 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113275</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>On the Equivalence of the LC-KSVD and the D-KSVD Algorithms.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2545661</ELocationID>
+            <Abstract>
+                <AbstractText>Sparse and redundant representations, where signals are modeled as a combination of a few atoms from an overcomplete dictionary, is increasingly used in many image processing applications, such as denoising, super resolution, and classification. One common problem is learning a &quot;good&quot; dictionary for different tasks. In the classification task the aim is to learn a dictionary that also takes training labels into account, and indeed there exist several approaches to this problem. One well-known technique is D-KSVD, which jointly learns a dictionary and a linear classifier using the K-SVD algorithm. LC-KSVD is a recent variation intended to further improve on this idea by adding an explicit label consistency term to the optimization problem, so that different classes are represented by different dictionary atoms. In this work we prove that, under identical initialization conditions, LC-KSVD with uniform atom allocation is in fact a reformulation of D-KSVD: given the regularization parameters of LC-KSVD, we give a closed-form expression for the equivalent D-KSVD regularization parameter, assuming the LC-KSVD's initialization scheme is used. We confirm this by reproducing several of the original LC-KSVD experiments.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kviatkovsky</LastName>
+                    <ForeName>Igor</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gabel</LastName>
+                    <ForeName>Moshe</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rivlin</LastName>
+                    <ForeName>Ehud</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shimshoni</LastName>
+                    <ForeName>Ilan</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113275</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2545661</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

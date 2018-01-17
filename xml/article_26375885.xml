@@ -1,0 +1,189 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26375885</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>11</Month>
+            <Day>20</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>08</Month>
+            <Day>29</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>11</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2860</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>65</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Artificial intelligence in medicine</Title>
+                <ISOAbbreviation>Artif Intell Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>On local anomaly detection and analysis for clinical pathways.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>167-77</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.artmed.2015.09.001</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0933-3657(15)00108-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Anomaly detection, as an imperative task for clinical pathway (CP) analysis and improvement, can provide useful and actionable knowledge of interest to clinical experts to be potentially exploited. Existing studies mainly focused on the detection of global anomalous inpatient traces of CPs using the similarity measures in a structured manner, which brings order in the chaos of CPs, may decline the accuracy of similarity measure between inpatient traces, and may distort the efficiency of anomaly detection. In addition, local anomalies that exist in some subsegments of events or behaviors in inpatient traces are easily overlooked by existing approaches since they are designed for detecting global or large anomalies.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">In this study, we employ a probabilistic topic model to discover underlying treatment patterns, and assume any significant unexplainable deviations from the normal behaviors surmised by the derived patterns are strongly correlated with anomalous behaviours. In this way, we can figure out the detailed local abnormal behaviors and the associations between these anomalies such that diagnostic information on local anomalies can be provided.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The proposed approach is evaluated via a clinical data-set, including 2954 unstable angina patient traces and 483,349 clinical events, extracted from a Chinese hospital. Using the proposed method, local anomalies are detected from the log. In addition, the identified associations between the detected local anomalies are derived from the log, which lead to clinical concern on the reason resulting in these anomalies in CPs. The correctness of the proposed approach has been evaluated by three experience cardiologists of the hospital. For four types of local anomalies (i.e., unexpected events, early events, delay events, and absent events), the proposed approach achieves 94%, 71% 77%, and 93.2% in terms of recall. This is quite remarkable as we do not use a prior knowledge.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Substantial experimental results show that the proposed approach can effectively detect local anomalies in CPs, and also provide diagnostic information on the detected anomalies in an informative manner.</AbstractText>
+                <CopyrightInformation>Copyright © 2015 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Zhengxing</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biomedical Engineering and Instrument Science, Zhejiang University, Zhou Yiqing Building 510, Zheda Road 38#, 310008 Hangzhou, Zhejiang, China. Electronic address: zhengxinghuang@zju.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dong</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Chinese PLA General Hospital, Fuxing Road 28#, 100853 Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ji</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IT Department, Chinese PLA General Hospital, Fuxing Road 28#, 100853 Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yin</LastName>
+                    <ForeName>Liangying</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biomedical Engineering and Instrument Science, Zhejiang University, Zhou Yiqing Building 510, Zheda Road 38#, 310008 Hangzhou, Zhejiang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Duan</LastName>
+                    <ForeName>Huilong</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biomedical Engineering and Instrument Science, Zhejiang University, Zhou Yiqing Building 510, Zheda Road 38#, 310008 Hangzhou, Zhejiang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Artif Intell Med</MedlineTA>
+            <NlmUniqueID>8915031</NlmUniqueID>
+            <ISSNLinking>0933-3657</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000789" MajorTopicYN="N">Angina, Unstable</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="N">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002681" MajorTopicYN="N" Type="Geographic">China</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019091" MajorTopicYN="N">Critical Pathways</DescriptorName>
+                <QualifierName UI="Q000706" MajorTopicYN="Y">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057225" MajorTopicYN="N">Data Mining</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="Y">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058996" MajorTopicYN="N">Quality Improvement</DescriptorName>
+                <QualifierName UI="Q000706" MajorTopicYN="Y">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Clinical event log</Keyword>
+            <Keyword MajorTopicYN="N">Clinical pathway analysis</Keyword>
+            <Keyword MajorTopicYN="N">Local anomaly detection</Keyword>
+            <Keyword MajorTopicYN="N">Probabilistic topicmodel</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>07</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26375885</ArticleId>
+            <ArticleId IdType="pii">S0933-3657(15)00108-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.artmed.2015.09.001</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

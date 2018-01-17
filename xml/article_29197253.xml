@@ -1,0 +1,170 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29197253</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-8423</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical image analysis</Title>
+                <ISOAbbreviation>Med Image Anal</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Deep learning analysis of the myocardium in coronary CT angiography for identification of patients with functionally significant coronary artery stenosis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>72-85</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1361-8415(17)30177-9</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.media.2017.11.008</ELocationID>
+            <Abstract>
+                <AbstractText>In patients with coronary artery stenoses of intermediate severity, the functional significance needs to be determined. Fractional flow reserve (FFR) measurement, performed during invasive coronary angiography (ICA), is most often used in clinical practice. To reduce the number of ICA procedures, we present a method for automatic identification of patients with functionally significant coronary artery stenoses, employing deep learning analysis of the left ventricle (LV) myocardium in rest coronary CT angiography (CCTA). The study includes consecutively acquired CCTA scans of 166 patients who underwent invasive FFR measurements. To identify patients with a functionally significant coronary artery stenosis, analysis is performed in several stages. First, the LV myocardium is segmented using a multiscale convolutional neural network (CNN). To characterize the segmented LV myocardium, it is subsequently encoded using unsupervised convolutional autoencoder (CAE). As ischemic changes are expected to appear locally, the LV myocardium is divided into a number of spatially connected clusters, and statistics of the encodings are computed as features. Thereafter, patients are classified according to the presence of functionally significant stenosis using an SVM classifier based on the extracted features. Quantitative evaluation of LV myocardium segmentation in 20 images resulted in an average Dice coefficient of 0.91 and an average mean absolute distance between the segmented and reference LV boundaries of 0.7 mm. Twenty CCTA images were used to train the LV myocardium encoder. Classification of patients was evaluated in the remaining 126 CCTA scans in 50 10-fold cross-validation experiments and resulted in an area under the receiver operating characteristic curve of 0.74 ± 0.02. At sensitivity levels 0.60, 0.70 and 0.80, the corresponding specificity was 0.77, 0.71 and 0.59, respectively. The results demonstrate that automatic analysis of the LV myocardium in a single CCTA scan acquired at rest, without assessment of the anatomy of the coronary arteries, can be used to identify patients with functionally significant coronary artery stenosis. This might reduce the number of patients undergoing unnecessary invasive FFR measurements.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zreik</LastName>
+                    <ForeName>Majd</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: M.Zreik@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lessmann</LastName>
+                    <ForeName>Nikolas</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: N.Lessmann@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Hamersvelt</LastName>
+                    <ForeName>Robbert W</ForeName>
+                    <Initials>RW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: R.W.vanHamersvelt-3@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wolterink</LastName>
+                    <ForeName>Jelmer M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: J.M.Wolterink@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Voskuil</LastName>
+                    <ForeName>Michiel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: Mvoskuil@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Viergever</LastName>
+                    <ForeName>Max A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: M.Viergever@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leiner</LastName>
+                    <ForeName>Tim</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: T.Leiner@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Išgum</LastName>
+                    <ForeName>Ivana</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: I.Isgum@umcutrecht.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Med Image Anal</MedlineTA>
+            <NlmUniqueID>9713490</NlmUniqueID>
+            <ISSNLinking>1361-8415</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Convolutional autoencoder</Keyword>
+            <Keyword MajorTopicYN="N">Convolutional neural network</Keyword>
+            <Keyword MajorTopicYN="N">Coronary CT angiography</Keyword>
+            <Keyword MajorTopicYN="N">Deep learning</Keyword>
+            <Keyword MajorTopicYN="N">Fractional flow reserve</Keyword>
+            <Keyword MajorTopicYN="N">Functionally significant coronary artery stenosis</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29197253</ArticleId>
+            <ArticleId IdType="pii">S1361-8415(17)30177-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.media.2017.11.008</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

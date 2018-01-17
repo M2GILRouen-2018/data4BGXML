@@ -1,0 +1,379 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28103239</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1553-7358</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PLoS computational biology</Title>
+                <ISOAbbreviation>PLoS Comput. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Identifying T Cell Receptors from High-Throughput Sequencing: Dealing with Promiscuity in TCRα and TCRβ Pairing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e1005313</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pcbi.1005313</ELocationID>
+            <Abstract>
+                <AbstractText>Characterisation of the T cell receptors (TCR) involved in immune responses is important for the design of vaccines and immunotherapies for cancer and autoimmune disease. The specificity of the interaction between the TCR heterodimer and its peptide-MHC ligand derives largely from the juxtaposed hypervariable CDR3 regions on the TCRα and TCRβ chains, and obtaining the paired sequences of these regions is a standard for functionally defining the TCR. A brute force approach to identifying the TCRs in a population of T cells is to use high-throughput single-cell sequencing, but currently this process remains costly and risks missing small clones. Alternatively, CDR3α and CDR3β sequences can be associated using their frequency of co-occurrence in independent samples, but this approach can be confounded by the sharing of CDR3α and CDR3β across clones, commonly observed within epitope-specific T cell populations. The accurate, exhaustive, and economical recovery of TCR sequences from such populations therefore remains a challenging problem. Here we describe an algorithm for performing frequency-based pairing (alphabetr) that accommodates CDR3α- and CDR3β-sharing, cells expressing two TCRα chains, and multiple forms of sequencing error. The algorithm also yields accurate estimates of clonal frequencies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Edward S</ForeName>
+                    <Initials>ES</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1723-4463</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Infection, Immunity &amp; Inflammation, Glasgow Biomedical Research Centre, University of Glasgow, Glasgow, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thomas</LastName>
+                    <ForeName>Paul G</ForeName>
+                    <Initials>PG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>St. Jude Children's Research Hospital, Memphis, Tennessee, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mold</LastName>
+                    <ForeName>Jeff E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Karolinska Institute, CMB, Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yates</LastName>
+                    <ForeName>Andrew J</ForeName>
+                    <Initials>AJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-4606-4483</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Infection, Immunity &amp; Inflammation, Glasgow Biomedical Research Centre, University of Glasgow, Glasgow, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 AI107625</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS Comput Biol</MedlineTA>
+            <NlmUniqueID>101238922</NlmUniqueID>
+            <ISSNLinking>1553-734X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D022801">Complementarity Determining Regions</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D011948">Receptors, Antigen, T-Cell</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1993 Oct 15;262(5132):422-4</RefSource>
+                <PMID Version="1">8211163</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Med. 2002 Apr 15;195(8):991-1001</RefSource>
+                <PMID Version="1">11956290</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunity. 2008 Jun;28(6):859-69</RefSource>
+                <PMID Version="1">18499487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunol Cell Biol. 2016 Jul;94(6):604-11</RefSource>
+                <PMID Version="1">26860370</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(5):e37338</RefSource>
+                <PMID Version="1">22649519</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Immunol. 2013 Sep;43(9):2507-15</RefSource>
+                <PMID Version="1">23696157</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 1997 Nov 15;159(10):4848-56</RefSource>
+                <PMID Version="1">9366410</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2008 Feb 15;180(4):2240-50</RefSource>
+                <PMID Version="1">18250431</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2001 Nov 1;167(9):4996-5003</RefSource>
+                <PMID Version="1">11673507</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 1998 Oct 15;102(8):1551-8</RefSource>
+                <PMID Version="1">9788968</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Immunol. 2014 Feb;44(2):597-603</RefSource>
+                <PMID Version="1">24114719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunol Cell Biol. 2015 Oct;93(9):804-14</RefSource>
+                <PMID Version="1">25804828</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunity. 2007 Aug;27(2):203-13</RefSource>
+                <PMID Version="1">17707129</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Virol. 2015 Apr;89(8):4517-26</RefSource>
+                <PMID Version="1">25653453</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2014 Jul;32(7):684-92</RefSource>
+                <PMID Version="1">24952902</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Immunol. 2006 Dec;6(12):883-94</RefSource>
+                <PMID Version="1">17110956</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Immunol. 1998 Dec;28(12):4382-90</RefSource>
+                <PMID Version="1">9862375</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2002 Nov 29;298(5599):1797-800</RefSource>
+                <PMID Version="1">12459592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Virol. 2002 Apr;76(8):3748-55</RefSource>
+                <PMID Version="1">11907214</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2013 Nov;10(11):1096-8</RefSource>
+                <PMID Version="1">24056875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 2011 Jan;121(1):288-95</RefSource>
+                <PMID Version="1">21135507</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2000 Jun 1;164(11):5782-7</RefSource>
+                <PMID Version="1">10820256</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Med. 1996 Dec 1;184(6):2327-39</RefSource>
+                <PMID Version="1">8976187</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunity. 1994 May;1(2):83-93</RefSource>
+                <PMID Version="1">7534200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genes Dev. 1996 Apr 15;10(8):948-62</RefSource>
+                <PMID Version="1">8608942</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2016 Mar;11(3):429-42</RefSource>
+                <PMID Version="1">26844430</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2014 Sep 9;111(36):13139-44</RefSource>
+                <PMID Version="1">25157137</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunol Cell Biol. 2011 Mar;89(3):375-87</RefSource>
+                <PMID Version="1">21301479</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Cancer Res. 2014 May 1;20(9):2424-32</RefSource>
+                <PMID Version="1">24583799</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 2010 Jun;120(6):1885-94</RefSource>
+                <PMID Version="1">20440073</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Immunol. 2015;33:169-200</RefSource>
+                <PMID Version="1">25493333</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2014 Dec;24(12):2033-40</RefSource>
+                <PMID Version="1">25079858</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood. 2009 Nov 5;114(19):4099-107</RefSource>
+                <PMID Version="1">19706884</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 2006 May;116(5):1443-56</RefSource>
+                <PMID Version="1">16614754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Med. 2015 Jan;21(1):86-91</RefSource>
+                <PMID Version="1">25501908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 1991 Aug 9;66(3):533-40</RefSource>
+                <PMID Version="1">1868548</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2011 Apr 1;186(7):4285-94</RefSource>
+                <PMID Version="1">21383244</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 1998 Nov 15;161(10):5284-95</RefSource>
+                <PMID Version="1">9820501</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2016 Apr;13(4):329-32</RefSource>
+                <PMID Version="1">26950746</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2013 Feb;31(2):166-9</RefSource>
+                <PMID Version="1">23334449</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pathol. 2013 Dec;231(4):433-40</RefSource>
+                <PMID Version="1">24027095</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2013 Jul 30;110(31):E2905-14</RefSource>
+                <PMID Version="1">23858460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2010 Sep;28(9):965-9</RefSource>
+                <PMID Version="1">20802495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Transl Med. 2015 Aug 19;7(301):301ra131</RefSource>
+                <PMID Version="1">26290413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2006 May 5;358(3):764-72</RefSource>
+                <PMID Version="1">16563430</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1990 Apr;87(7):2579-82</RefSource>
+                <PMID Version="1">2138780</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Immunol. 2010;28:275-94</RefSource>
+                <PMID Version="1">20307209</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002478" MajorTopicYN="N">Cells, Cultured</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D022801" MajorTopicYN="N">Complementarity Determining Regions</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059014" MajorTopicYN="N">High-Throughput Nucleotide Sequencing</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011948" MajorTopicYN="Y">Receptors, Antigen, T-Cell</DescriptorName>
+                <QualifierName UI="Q000737" MajorTopicYN="N">chemistry</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013601" MajorTopicYN="N">T-Lymphocytes</DescriptorName>
+                <QualifierName UI="Q000166" MajorTopicYN="N">cytology</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <CoiStatement>I have read the journal’s policy and the authors of this manuscript have the following competing interests: The University of Glasgow has filed an initial patent application based upon this algorithm. However the implementation of the algorithm as described in the text is provided in R and freely available through the GPL 3.0.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103239</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pcbi.1005313</ArticleId>
+            <ArticleId IdType="pii">PCOMPBIOL-D-16-01022</ArticleId>
+            <ArticleId IdType="pmc">PMC5289640</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

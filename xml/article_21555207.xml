@@ -1,0 +1,187 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">21555207</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>04</Month>
+            <Day>17</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-0771</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society</Title>
+                <ISOAbbreviation>Comput Med Imaging Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Quantification of coronary arterial stenoses in CTA using fuzzy distance transform.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>11-24</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.compmedimag.2011.03.004</ELocationID>
+            <Abstract>
+                <AbstractText>Quantification of coronary arterial stenoses is useful for the diagnosis of several coronary heart diseases. Being noninvasive, economical and informative, computed tomographic angiography (CTA) has become a common modality for monitoring disease status and treatment effects. Here, we present a new method for detecting and quantifying coronary arterial stenosis in CTA using fuzzy distance transform (FDT) approach and a new coherence analysis of observed data for computing expected local diameter. FDT allows computing local depth at each image point in the presence of partial voluming and thus, eliminates the need for binarization, commonly, associated with inclusion of additional errors. In the current method, coronary arterial stenoses are detected and their severities are quantified by analyzing FDT values along the medial axis of an arterial tree obtained by its skeletonization. A new skeletal pruning algorithm has been developed toward improving the quality of medial axes and thereby, enhancing the accuracy of stenosis detection and quantification. Further, we have developed a new method to estimate &quot;expected diameter&quot; along a given arterial branch using a new coherence analysis of observed diameter values along the branch. The overall method is completed in the following steps--(1) fuzzy segmentation of coronary artery in CTA, (2) FDT computation of coronary arteries, (3) medial axis computation, (4) estimation of observed and expected diameters along arteries and (5) detection of stenoses and quantification of arterial blockage. The performance of this method has been quantitatively evaluated on a realistic coronary artery phantom dataset with randomly simulated stenoses and the results have been compared with a binary distance transform based and a conventional binary algorithm. The method has also been applied on a clinical CTA dataset from thirteen heart patients and the results have been compared with an expert's quantitative assessment of stenoses. Results of the phantom experiment indicate that the new method (error: 0.53%) is significantly more accurate as compared to both binary distance transform based (error 2.11%) and conventional binary (error 3.71%) methods. Also, the results of the clinical study indicate that the new FDT-based method (kappa coefficient = 87.9%) is highly in agreement with the expert's assessments and, in this respect, outperforms the other two methods (kappa coefficients = 75.2% and 69.5%).</AbstractText>
+                <CopyrightInformation>Copyright © 2011 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Yan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical &amp; Computer Engineering, University of Iowa, Iowa, IA 52240, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liang</LastName>
+                    <ForeName>Guoyuan</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Guangshu</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Yan</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Geng</LastName>
+                    <ForeName>Jinzhao</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saha</LastName>
+                    <ForeName>Punam K</ForeName>
+                    <Initials>PK</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>05</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Comput Med Imaging Graph</MedlineTA>
+            <NlmUniqueID>8806104</NlmUniqueID>
+            <ISSNLinking>0895-6111</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017023" MajorTopicYN="N">Coronary Angiography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023921" MajorTopicYN="N">Coronary Stenosis</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017143" MajorTopicYN="Y">Fuzzy Logic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="N">Imaging, Three-Dimensional</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011856" MajorTopicYN="N">Radiographic Image Enhancement</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011857" MajorTopicYN="N">Radiographic Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>03</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>4</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">21555207</ArticleId>
+            <ArticleId IdType="pii">S0895-6111(11)00060-7</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.compmedimag.2011.03.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

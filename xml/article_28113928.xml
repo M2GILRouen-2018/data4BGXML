@@ -1,0 +1,138 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28113928</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>03</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic Scoring of Multiple Semantic Attributes With Multi-Task Feature Leverage: A Study on Pulmonary Nodules in CT Images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>802-814</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2016.2629462</ELocationID>
+            <Abstract>
+                <AbstractText>The gap between the computational and semantic features is the one of major factors that bottlenecks the computer-aided diagnosis (CAD) performance from clinical usage. To bridge this gap, we exploit three multi-task learning (MTL) schemes to leverage heterogeneous computational features derived from deep learning models of stacked denoising autoencoder (SDAE) and convolutional neural network (CNN), as well as hand-crafted Haar-like and HoG features, for the description of 9 semantic features for lung nodules in CT images. We regard that there may exist relations among the semantic features of &quot;spiculation&quot;, &quot;texture&quot;, &quot;margin&quot;, etc., that can be explored with the MTL. The Lung Image Database Consortium (LIDC) data is adopted in this study for the rich annotation resources. The LIDC nodules were quantitatively scored w.r.t. 9 semantic features from 12 radiologists of several institutes in U.S.A. By treating each semantic feature as an individual task, the MTL schemes select and map the heterogeneous computational features toward the radiologists' ratings with cross validation evaluation schemes on the randomly selected 2400 nodules from the LIDC dataset. The experimental results suggest that the predicted semantic scores from the three MTL schemes are closer to the radiologists' ratings than the scores from single-task LASSO and elastic net regression methods. The proposed semantic attribute scoring scheme may provide richer quantitative assessments of nodules for better support of diagnostic decision and management. Meanwhile, the capability of the automatic association of medical image contents with the clinical semantic terms by our method may also assist the development of medical search engine.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sihong Chen</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jing Qin</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xing Ji</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baiying Lei</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tianfu Wang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dong Ni</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jie-Zhi Cheng</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008175" MajorTopicYN="N">Lung Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="N">Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="N">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011857" MajorTopicYN="N">Radiographic Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003074" MajorTopicYN="N">Solitary Pulmonary Nodule</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113928</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2016.2629462</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

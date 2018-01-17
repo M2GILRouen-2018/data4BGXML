@@ -1,0 +1,285 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27040838</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>04</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>128</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>PCA-based polling strategy in machine learning framework for coronary artery disease risk assessment in intravascular ultrasound: A link between carotid and coronary grayscale plaque morphology.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>137-58</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.02.004</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(15)30275-3</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Percutaneous coronary interventional procedures need advance planning prior to stenting or an endarterectomy. Cardiologists use intravascular ultrasound (IVUS) for screening, risk assessment and stratification of coronary artery disease (CAD). We hypothesize that plaque components are vulnerable to rupture due to plaque progression. Currently, there are no standard grayscale IVUS tools for risk assessment of plaque rupture. This paper presents a novel strategy for risk stratification based on plaque morphology embedded with principal component analysis (PCA) for plaque feature dimensionality reduction and dominant feature selection technique. The risk assessment utilizes 56 grayscale coronary features in a machine learning framework while linking information from carotid and coronary plaque burdens due to their common genetic makeup.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">This system consists of a machine learning paradigm which uses a support vector machine (SVM) combined with PCA for optimal and dominant coronary artery morphological feature extraction. Carotid artery proven intima-media thickness (cIMT) biomarker is adapted as a gold standard during the training phase of the machine learning system. For the performance evaluation, K-fold cross validation protocol is adapted with 20 trials per fold. For choosing the dominant features out of the 56 grayscale features, a polling strategy of PCA is adapted where the original value of the features is unaltered. Different protocols are designed for establishing the stability and reliability criteria of the coronary risk assessment system (cRAS).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Using the PCA-based machine learning paradigm and cross-validation protocol, a classification accuracy of 98.43% (AUC 0.98) with K=10 folds using an SVM radial basis function (RBF) kernel was achieved. A reliability index of 97.32% and machine learning stability criteria of 5% were met for the cRAS.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This is the first Computer aided design (CADx) system of its kind that is able to demonstrate the ability of coronary risk assessment and stratification while demonstrating a successful design of the machine learning system based on our assumptions.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Araki</LastName>
+                    <ForeName>Tadashi</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiovascular Medicine, Toho University Ohashi Medical Center, Tokyo, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ikeda</LastName>
+                    <ForeName>Nobutaka</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cardiovascular Medicine, National Center for Global Health and Medicine, Tokyo, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shukla</LastName>
+                    <ForeName>Devarshi</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jain</LastName>
+                    <ForeName>Pankaj K</ForeName>
+                    <Initials>PK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Londhe</LastName>
+                    <ForeName>Narendra D</ForeName>
+                    <Initials>ND</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shrivastava</LastName>
+                    <ForeName>Vimal K</ForeName>
+                    <Initials>VK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Banchhor</LastName>
+                    <ForeName>Sumit K</ForeName>
+                    <Initials>SK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saba</LastName>
+                    <ForeName>Luca</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Cagliari, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nicolaides</LastName>
+                    <ForeName>Andrew</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Vascular Screening and Diagnostic Centre, London, England, United Kingdom; Vascular Diagnostic Center, University of Cyprus, Nicosia, Cyprus.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shafique</LastName>
+                    <ForeName>Shoaib</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CorVasc Vascular Laboratory, 8433 Harcourt Rd #100, Indianapolis, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Laird</LastName>
+                    <ForeName>John R</ForeName>
+                    <Initials>JR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UC Davis Vascular Center, University of California, Davis, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suri</LastName>
+                    <ForeName>Jasjit S</ForeName>
+                    <Initials>JS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA; Point-Of-Care Devices, Global Biomedical Technologies, Inc., Roseville, CA, USA; Department of Electrical Engineering, University of Idaho (Affl.), Pocatello, ID, USA. Electronic address: jasjit.suri@atheropoint.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002339" MajorTopicYN="N">Carotid Arteries</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059168" MajorTopicYN="N">Carotid Intima-Media Thickness</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017076" MajorTopicYN="N">Computer-Aided Design</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003331" MajorTopicYN="N">Coronary Vessels</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="Y">Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058226" MajorTopicYN="N">Plaque, Atherosclerotic</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D025341" MajorTopicYN="N">Principal Component Analysis</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018570" MajorTopicYN="N">Risk Assessment</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="N">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014463" MajorTopicYN="Y">Ultrasonography</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Carotid IMT</Keyword>
+            <Keyword MajorTopicYN="N">Coronary artery</Keyword>
+            <Keyword MajorTopicYN="N">IVUS</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">PCA</Keyword>
+            <Keyword MajorTopicYN="N">Risk assessment</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27040838</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(15)30275-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.02.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

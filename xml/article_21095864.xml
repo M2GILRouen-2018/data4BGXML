@@ -1,0 +1,196 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28143776</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1095-9572</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>150</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>NeuroImage</Title>
+                <ISOAbbreviation>Neuroimage</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Predictive modelling using neuroimaging data in the presence of confounds.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>23-49</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1053-8119(17)30089-7</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.neuroimage.2017.01.066</ELocationID>
+            <Abstract>
+                <AbstractText>When training predictive models from neuroimaging data, we typically have available non-imaging variables such as age and gender that affect the imaging data but which we may be uninterested in from a clinical perspective. Such variables are commonly referred to as 'confounds'. In this work, we firstly give a working definition for confound in the context of training predictive models from samples of neuroimaging data. We define a confound as a variable which affects the imaging data and has an association with the target variable in the sample that differs from that in the population-of-interest, i.e., the population over which we intend to apply the estimated predictive model. The focus of this paper is the scenario in which the confound and target variable are independent in the population-of-interest, but the training sample is biased due to a sample association between the target and confound. We then discuss standard approaches for dealing with confounds in predictive modelling such as image adjustment and including the confound as a predictor, before deriving and motivating an Instance Weighting scheme that attempts to account for confounds by focusing model training so that it is optimal for the population-of-interest. We evaluate the standard approaches and Instance Weighting in two regression problems with neuroimaging data in which we train models in the presence of confounding, and predict samples that are representative of the population-of-interest. For comparison, these models are also evaluated when there is no confounding present. In the first experiment we predict the MMSE score using structural MRI from the ADNI database with gender as the confound, while in the second we predict age using structural MRI from the IXI database with acquisition site as the confound. Considered over both datasets we find that none of the methods for dealing with confounding gives more accurate predictions than a baseline model which ignores confounding, although including the confound as a predictor gives models that are less accurate than the baseline model. We do find, however, that different methods appear to focus their predictions on specific subsets of the population-of-interest, and that predictive accuracy is greater when there is no confounding present. We conclude with a discussion comparing the advantages and disadvantages of each approach, and the implications of our evaluation for building predictive models that can be used in clinical practice.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 The Authors. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rao</LastName>
+                    <ForeName>Anil</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University College London, United Kingdom; Max Planck University College London Centre for Computational Psychiatry and Ageing Research, University College London, London, United Kingdom. Electronic address: a.rao@ucl.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Monteiro</LastName>
+                    <ForeName>Joao M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University College London, United Kingdom; Max Planck University College London Centre for Computational Psychiatry and Ageing Research, University College London, London, United Kingdom. Electronic address: joao.monteiro@ucl.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mourao-Miranda</LastName>
+                    <ForeName>Janaina</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University College London, United Kingdom; Max Planck University College London Centre for Computational Psychiatry and Ageing Research, University College London, London, United Kingdom. Electronic address: j.mourao-miranda@ucl.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Alzheimer's Disease Initiative</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>U01 AG024904</GrantID>
+                    <Acronym>AG</Acronym>
+                    <Agency>NIA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Neuroimage</MedlineTA>
+            <NlmUniqueID>9215515</NlmUniqueID>
+            <ISSNLinking>1053-8119</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Feb 1;49(3):2178-89</RefSource>
+                <PMID Version="1">19879364</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Sep 28;6:69</RefSource>
+                <PMID Version="1">23060754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage Clin. 2013 May 19;2:735-45</RefSource>
+                <PMID Version="1">24179825</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2008 Sep 15;168(6):656-64</RefSource>
+                <PMID Version="1">18682488</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Biostat. 2016 May 1;12 (1):31-44</RefSource>
+                <PMID Version="1">26641972</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(7):e22193</RefSource>
+                <PMID Version="1">21829449</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2015 Dec 10;34(28):3661-79</RefSource>
+                <PMID Version="1">26238958</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson Imaging. 2013 Nov;38(5):1283-91</RefSource>
+                <PMID Version="1">23371908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 May 15;56(2):662-73</RefSource>
+                <PMID Version="1">20348000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Jul 15;51(4):1405-13</RefSource>
+                <PMID Version="1">20347044</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2014 Sep;98:405-15</RefSource>
+                <PMID Version="1">24791746</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2013 Nov 1;81:347-57</RefSource>
+                <PMID Version="1">23684876</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2002 Jan;15(1):273-89</RefSource>
+                <PMID Version="1">11771995</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Jun 1;56(3):1164-70</RefSource>
+                <PMID Version="1">21324367</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Neural Netw. 2011 Feb;22(2):199-210</RefSource>
+                <PMID Version="1">21095864</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28143776</ArticleId>
+            <ArticleId IdType="pii">S1053-8119(17)30089-7</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.neuroimage.2017.01.066</ArticleId>
+            <ArticleId IdType="pmc">PMC5391990</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

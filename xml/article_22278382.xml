@@ -1,0 +1,220 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29190786</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Unsupervised morphological segmentation of tissue compartments in histopathological images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0188717</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0188717</ELocationID>
+            <Abstract>
+                <AbstractText>Algorithmic segmentation of histologically relevant regions of tissues in digitized histopathological images is a critical step towards computer-assisted diagnosis and analysis. For example, automatic identification of epithelial and stromal tissues in images is important for spatial localisation and guidance in the analysis and characterisation of tumour micro-environment. Current segmentation approaches are based on supervised methods, which require extensive training data from high quality, manually annotated images. This is often difficult and costly to obtain. This paper presents an alternative data-independent framework based on unsupervised segmentation of oropharyngeal cancer tissue micro-arrays (TMAs). An automated segmentation algorithm based on mathematical morphology is first applied to light microscopy images stained with haematoxylin and eosin. This partitions the image into multiple binary 'virtual-cells', each enclosing a potential 'nucleus' (dark basins in the haematoxylin absorbance image). Colour and morphology measurements obtained from these virtual-cells as well as their enclosed nuclei are input into an advanced unsupervised learning model for the identification of epithelium and stromal tissues. Here we exploit two Consensus Clustering (CC) algorithms for the unsupervised recognition of tissue compartments, that consider the consensual opinion of a group of individual clustering algorithms. Unlike most unsupervised segmentation analyses, which depend on a single clustering method, the CC learning models allow for more robust and stable detection of tissue regions. The proposed framework performance has been evaluated on fifty-five hand-annotated tissue images of oropharyngeal tissues. Qualitative and quantitative results of the proposed segmentation algorithm compare favourably with eight popular tissue segmentation strategies. Furthermore, the unsupervised results obtained here outperform those obtained with individual clustering algorithms.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Fouad</LastName>
+                    <ForeName>Shereen</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5147-0040</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>School of Dentistry, Institute of Clinical Sciences, University of Birmingham, Birmingham, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Randell</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Dentistry, Institute of Clinical Sciences, University of Birmingham, Birmingham, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Galton</LastName>
+                    <ForeName>Antony</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Exeter, Exeter, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mehanna</LastName>
+                    <ForeName>Hisham</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Head and Neck Studies and Education, Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Landini</LastName>
+                    <ForeName>Gabriel</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Dentistry, Institute of Clinical Sciences, University of Birmingham, Birmingham, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microsc. 2017 Feb;265(2):185-195</RefSource>
+                <PMID Version="1">27649382</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diagn Pathol. 2012 Mar 02;7:22</RefSource>
+                <PMID Version="1">22385523</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurocomputing. 2016 May 26;191:214-223</RefSource>
+                <PMID Version="1">28154470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cytometry A. 2004 Sep;61(1):45-55</RefSource>
+                <PMID Version="1">15351988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2010 Feb;14(1):1-12</RefSource>
+                <PMID Version="1">19819181</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2017 Aug;40:1-10</RefSource>
+                <PMID Version="1">28549310</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2009 Mar;13(2):152-7</RefSource>
+                <PMID Version="1">19272857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011 Feb 28;6(2):e15818</RefSource>
+                <PMID Version="1">21386898</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Rev Biomed Eng. 2009;2:147-71</RefSource>
+                <PMID Version="1">20671804</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2015;2015:569071</RefSource>
+                <PMID Version="1">26579535</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2012 Nov;34(11):2274-82</RefSource>
+                <PMID Version="1">22641706</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2005 Jun;27(6):835-50</RefSource>
+                <PMID Version="1">15943417</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anal Quant Cytol Histol. 2010 Feb;32(1):30-8</RefSource>
+                <PMID Version="1">20701085</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 1993;2(2):176-201</RefSource>
+                <PMID Version="1">18296207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2016 Oct;33:170-175</RefSource>
+                <PMID Version="1">27423409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anal Quant Cytol Histol. 2001 Aug;23(4):291-9</RefSource>
+                <PMID Version="1">11531144</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 Mar-Apr;19(2):317-23</RefSource>
+                <PMID Version="1">22278382</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007090" MajorTopicYN="N">Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29190786</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0188717</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-22548</ArticleId>
+            <ArticleId IdType="pmc">PMC5708642</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

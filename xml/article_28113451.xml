@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113451</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Active Clustering with Model-Based Uncertainty Reduction.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2539965</ELocationID>
+            <Abstract>
+                <AbstractText>Semi-supervised clustering seeks to augment traditional clustering methods by incorporating side information provided via human expertise in order to increase the semantic meaningfulness of the resulting clusters. However, most current methods are passive in the sense that the side information is provided beforehand and selected randomly. This may require a large number of constraints, some of which could be redundant, unnecessary, or even detrimental to the clustering results. Thus in order to scale such semi-supervised algorithms to larger problems it is desirable to pursue an active clustering method- i.e. an algorithm that maximizes the effectiveness of the available human labor by only requesting human input where it will have the greatest impact. Here, we propose a novel online framework for active semi-supervised spectral clustering that selects pairwise constraints as clustering proceeds, based on the principle of uncertainty reduction. Using a first-order Taylor expansion, we decompose the expected uncertainty reduction problem into a gradient and a step-scale, computed via an application of matrix perturbation theory and cluster-assignment entropy, respectively. The resulting model is used to estimate the uncertainty reduction potential of each sample in the dataset. We then present the human user with pairwise queries with respect to only the best candidate sample. We evaluate our method using three different image datasets (faces, leaves and dogs), a set of common UCI machine learning datasets and a gene dataset. The results validate our decomposition formulation and show that our method is consistently superior to existing state-of-the-art techniques, as well as being robust to noise and to unknown numbers of clusters.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xiong</LastName>
+                    <ForeName>Caiming</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Johnson</LastName>
+                    <ForeName>David M</ForeName>
+                    <Initials>DM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Corso</LastName>
+                    <ForeName>Jason J</ForeName>
+                    <Initials>JJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113451</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2539965</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

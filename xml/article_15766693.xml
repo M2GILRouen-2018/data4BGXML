@@ -1,0 +1,182 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">15766693</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2005</Year>
+            <Month>07</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1076-6332</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>12</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Academic radiology</Title>
+                <ISOAbbreviation>Acad Radiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Task-based model/human observer evaluation of SPIHT wavelet compression with human visual system-based quantization.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>324-36</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="RATIONALE AND OBJECTIVE" NlmCategory="OBJECTIVE">The set partitioning in hierarchical trees (SPIHT) wavelet image compression algorithm with the human visual system (HVS) quantization matrix was investigated using x-ray coronary angiograms. We tested whether the HVS quantization matrix for the SPIHT wavelet compression improved computer model/human observer performance in a detection task with variable signals compared to performance with the default quantization matrix. We also tested the hypothesis of whether evaluating the rank order of the two quantization matrices (HVS versus default) based on performance of computer model observers in a signal known exactly but variable task (SKEV) generalized to model/human performance in the more clinically realistic signal known statistically task (SKS).</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Nine hundred test images were created using real x-ray coronary angiograms as backgrounds and simulated arteries with filling defects (signals). The task for the model and human observer was to detect which one of the four computer simulated arterial segments contained the signal, four alternative-forced-choice (4 AFC). We obtained performance for four model observers (nonprewhitening matched filter with an eye filter, Hotelling, Channelized Hotelling, and Laguerre Gauss Hotelling model observers) for both the SKEV and SKS tasks with images compressed with and without the HVS quantization matrix. A psychophysical study measured performance from three human observers for the same conditions and tasks as the model observers.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Performance for all four model observers improved with the use of the HVS quantization scheme. Improvements ranged from 5% (at compression ratio 7:1) to 50% (at compression ratio 30:1) for both the SKEV and SKS tasks. Human observer performance improvement averaged across observers ranged from 6% (at compression ratio 7:1) to 35% (at compression ratio 30:1) for the SKEV task and from 2% (at compression ratio 7:1) to 38% (at compression ratio 30:1) for the SKS task. Addition of internal noise to the model observers allowed for good prediction of human performance.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Use of the HVS quantization scheme in the SPIHT wavelet compression led to improved model and human observer performance in clinically relevant detection tasks in x-ray coronary angiograms. Model observer performance can be reliably used to predict the human observer performance for the studied tasks as a function of SPIHT wavelet image compression. Our results further confirmed that model observer performance in the computationally more tractable SKEV task can be potentially used as a figure of merit for the more clinically realistic SKS task with real anatomic backgrounds.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yani</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychology, University of California, Santa Barbara, USA. zhang@psych.ucsb.edu</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pham</LastName>
+                    <ForeName>Binh T</ForeName>
+                    <Initials>BT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eckstein</LastName>
+                    <ForeName>Miguel P</ForeName>
+                    <Initials>MP</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01-HBL 53455</GrantID>
+                    <Acronym>HB</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Acad Radiol</MedlineTA>
+            <NlmUniqueID>9440159</NlmUniqueID>
+            <ISSNLinking>1076-6332</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CitationSubset>S</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016477" MajorTopicYN="N">Artifacts</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017023" MajorTopicYN="Y">Coronary Angiography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003327" MajorTopicYN="N">Coronary Disease</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005544" MajorTopicYN="N">Forecasting</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="Y">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015588" MajorTopicYN="N">Observer Variation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011601" MajorTopicYN="N">Psychophysics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013647" MajorTopicYN="N">Task Performance and Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014796" MajorTopicYN="Y">Visual Perception</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NASA">
+            <Keyword MajorTopicYN="N">Non-programmatic</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2004</Year>
+                <Month>05</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2004</Year>
+                <Month>07</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2004</Year>
+                <Month>09</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2004</Year>
+                <Month>09</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2005</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">15766693</ArticleId>
+            <ArticleId IdType="pii">S1076-6332(04)00806-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.acra.2004.09.015</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

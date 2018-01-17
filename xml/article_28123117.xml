@@ -1,0 +1,212 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28123117</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1076-836X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>66</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Systematic biology</Title>
+                <ISOAbbreviation>Syst. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Phylogenomics from Whole Genome Sequences Using aTRAM.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>786-798</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/sysbio/syw105</ELocationID>
+            <Abstract>
+                <AbstractText>Novel sequencing technologies are rapidly expanding the size of data sets that can be applied to phylogenetic studies. Currently the most commonly used phylogenomic approaches involve some form of genome reduction. While these approaches make assembling phylogenomic data sets more economical for organisms with large genomes, they reduce the genomic coverage and thereby the long-term utility of the data. Currently, for organisms with moderate to small genomes ($&lt;$1000 Mbp) it is feasible to sequence the entire genome at modest coverage ($10-30\times$). Computational challenges for handling these large data sets can be alleviated by assembling targeted reads, rather than assembling the entire genome, to produce a phylogenomic data matrix. Here we demonstrate the use of automated Target Restricted Assembly Method (aTRAM) to assemble 1107 single-copy ortholog genes from whole genome sequencing of sucking lice (Anoplura) and out-groups. We developed a pipeline to extract exon sequences from the aTRAM assemblies by annotating them with respect to the original target protein. We aligned these protein sequences with the inferred amino acids and then performed phylogenetic analyses on both the concatenated matrix of genes and on each gene separately in a coalescent analysis. Finally, we tested the limits of successful assembly in aTRAM by assembling 100 genes from close- to distantly related taxa at high to low levels of coverage.Both the concatenated analysis and the coalescent-based analysis produced the same tree topology, which was consistent with previously published results and resolved weakly supported nodes. These results demonstrate that this approach is successful at developing phylogenomic data sets from raw genome sequencing reads. Further, we found that with coverages above $5-10\times$, aTRAM was successful at assembling 80-90% of the contigs for both close and distantly related taxa. As sequencing costs continue to decline, we expect full genome sequencing will become more feasible for a wider array of organisms, and aTRAM will enable mining of these genomic data sets for an extensive variety of applications, including phylogenomics. [aTRAM; gene assembly; genome sequencing; phylogenomics.].</AbstractText>
+                <CopyrightInformation>© The Author(s) 2017. Published by Oxford University Press, on behalf of the Society of Systematic Biologists. All rights reserved. For Permissions, please email: journals.permissions@oup.com.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Allen</LastName>
+                    <ForeName>Julie M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Illinois Natural History Survey, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boyd</LastName>
+                    <ForeName>Bret</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Illinois Natural History Survey, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Florida Museum of Natural History, University of Florida, Gainesville, FL 32611, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nguyen</LastName>
+                    <ForeName>Nam-Phuong</ForeName>
+                    <Initials>NP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vachaspati</LastName>
+                    <ForeName>Pranjal</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Warnow</LastName>
+                    <ForeName>Tandy</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioengineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Daisie I</ForeName>
+                    <Initials>DI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biodiversity Research Centre, University of British Columbia, Vancouver V6T 1Z4, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grady</LastName>
+                    <ForeName>Patrick G S</ForeName>
+                    <Initials>PGS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Illinois Natural History Survey, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bell</LastName>
+                    <ForeName>Kayce C</ForeName>
+                    <Initials>KC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology and Museum of Southwestern Biology, University of New Mexico, Albuquerque, NM 87131, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cronk</LastName>
+                    <ForeName>Quentin C B</ForeName>
+                    <Initials>QCB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biodiversity Research Centre, University of British Columbia, Vancouver V6T 1Z4, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mugisha</LastName>
+                    <ForeName>Lawrence</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Conservation &amp; Ecosystem Health Alliance (CEHA), Kampala, Uganda.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, Animal Resources &amp; Biosecurity (COVAB), Makerere University, Uganda.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pittendrigh</LastName>
+                    <ForeName>Barry R</ForeName>
+                    <Initials>BR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Entomology Michigan State University, East Lansing, MI 48823, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leonardi</LastName>
+                    <ForeName>M Soledad</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Instituto de Biología de Organismos Marinos, Centro Nacional Patagónico, Puerto Madryn, Argentina.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reed</LastName>
+                    <ForeName>David L</ForeName>
+                    <Initials>DL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Florida Museum of Natural History, University of Florida, Gainesville, FL 32611, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Johnson</LastName>
+                    <ForeName>Kevin P</ForeName>
+                    <Initials>KP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Illinois Natural History Survey, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Syst Biol</MedlineTA>
+            <NlmUniqueID>9302532</NlmUniqueID>
+            <ISSNLinking>1063-5157</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28123117</ArticleId>
+            <ArticleId IdType="pii">syw105</ArticleId>
+            <ArticleId IdType="doi">10.1093/sysbio/syw105</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113752</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Oct</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Depth Map Restoration from Under-sampled Data.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2621410</ELocationID>
+            <Abstract>
+                <AbstractText>Depth map sensed by low-cost active sensors are often limited in resolution, whereas depth information achieved from structure from motion or sparse depth scanning techniques may result in a sparse point cloud. Achieving a high resolution (HR) depth map from a low resolution (LR) depth map or densely reconstructing a sparse non-uniformly sampled depth map are fundamentally similar problems with dierent types of up-sampling requirements. The first problem involves upsampling in a uniform grid, whereas the second type of problem requires an up-sampling in a non-uniform grid. In this paper, we propose a new approach to address such issues in a unified framework, based on sparse representation. Unlike, most of the approaches of depth map restoration, our approach does not require an HR intensity image. Based on example depth maps, a dictionary of exemplars is constructed, and is used to restore HR/dense depth map. In case of uniform up-sampling of LR depth map, an edge preserving constraint is used for preserving the discontinuity present in the depth map, and a pyramidal reconstruction strategy is applied in order to deal with higher up-sampling factors. For up-sampling of non-uniformly sampled sparse depth maps, we compute the missing information in local patches from that from similar exemplars. Furthermore, we also suggest an alternative method of reconstructing dense depth map from very sparse non-uniformly sampled depth data by sequential cascading of uniform and non-uniform up-sampling techniques. We provide a variety of qualitative and quantitative results to demonstrate the ecacy of our approach for depth map restoration.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mandal</LastName>
+                    <ForeName>Srimanta</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bhavsar</LastName>
+                    <ForeName>Arnav</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sao</LastName>
+                    <ForeName>Anil</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113752</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2621410</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

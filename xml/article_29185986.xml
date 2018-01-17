@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29185986</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>27</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Novel Integration of Frame Rate Up Conversion and HEVC Coding Based on Rate-Distortion Optimization.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>678-691</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2767782</ELocationID>
+            <Abstract>
+                <AbstractText>Frame rate up conversion (FRUC) can improve the visual quality by interpolating new intermediate frames. However, high frame rate videos by FRUC are confronted with more bitrate consumption or annoying artifacts of interpolated frames. In this paper, a novel integration framework of FRUC and high efficiency video coding (HEVC) is proposed based on rate-distortion optimization, and the interpolated frames can be reconstructed at encoder side with low bitrate cost and high visual quality. First, joint motion estimation (JME) algorithm is proposed to obtain robust motion vectors, which are shared between FRUC and video coding. What's more, JME is embedded into the coding loop and employs the original motion search strategy in HEVC coding. Then, the frame interpolation is formulated as a rate-distortion optimization problem, where both the coding bitrate consumption and visual quality are taken into account. Due to the absence of original frames, the distortion model for interpolated frames is established according to the motion vector reliability and coding quantization error. Experimental results demonstrate that the proposed framework can achieve 21% ~ 42% reduction in BDBR, when compared with the traditional methods of FRUC cascaded with coding.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Guo</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Xiaoyun</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gao</LastName>
+                    <ForeName>Zhiyong</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29185986</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2767782</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

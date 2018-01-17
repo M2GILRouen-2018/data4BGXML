@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113770</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>07</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Superpixels of RGB-D Images for Indoor Scenes Based on Weighted Geodesic Driven Metric.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2342-2356</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2016.2621763</ELocationID>
+            <Abstract>
+                <AbstractText>Serving as a key step for applications of image processing, superpixel generation has been attracting increasing attention. RGB-D images are used pervasively in scenes reconstruction and representation, benefiting from their contained depth data. In this paper, we present a novel framework for generating superpixels focus on RGB-D images of indoor scenes, based on a weighted geodesic driven metric that combines both color and geometric information. In particular, taking into account the unique structures of indoor scenarios, we first denoise the given RGB-D image, and construct the corresponding triangular mesh. A new weighted geodesic driven metric is defined by introducing a weight function constrained with normal vectors and colors. Under this metric, an energy function is defined to measure our over-segmentation of the triangular mesh, by optimizing which, we can acquire an optimal over-segmentation of the triangular mesh with object boundaries respected, such that vertices in each sub-region have similar geometric structures and color intensities. Re-mapping the over-segmentation of the triangular mesh to the RGB-D image results in desired superpixels. We perform extensive experiments on a large-scale database of RGB-D images to verify the efficacy of our algorithm. The results show that our algorithm has considerable advantages over the existing state-of-the-art methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Xiao</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Yuanfeng</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Feng</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Caiming</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113770</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2016.2621763</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

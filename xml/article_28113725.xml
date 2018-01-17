@@ -1,0 +1,94 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113725</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <MedlineDate>2017 Nov-Dec</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Normalizing Kernels in the Billera-Holmes-Vogtmann Treespace.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1359-1365</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2565475</ELocationID>
+            <Abstract>
+                <AbstractText>As costs of genome sequencing have dropped precipitously, development of efficient bioinformatic methods to analyze genome structure and evolution have become ever more urgent. For example, most published phylogenomic studies involve either massive concatenation of sequences, or informal comparisons of phylogenies inferred on a small subset of orthologous genes, neither of which provides a comprehensive overview of evolution or systematic identification of genes with unusual and interesting evolution (e.g., horizontal gene transfers, gene duplication, and subsequent neofunctionalization). We are interested in identifying such &quot;outlying&quot; gene trees from the set of gene trees and estimating the distribution of trees over the &quot;tree space&quot;. This paper describes an improvement to the kdetrees algorithm, an adaptation of classical kernel density estimation to the metric space of phylogenetic trees (Billera-Holmes-Vogtman treespace), whereby the kernel normalizing constants, are estimated through the use of the novel holonomic gradient methods. As in the original kdetrees paper, we have applied kdetrees to a set of Apicomplexa genes. The analysis identified several unreliable sequence alignments that had escaped previous detection, as well as a gene independently reported as a possible case of horizontal gene transfer. The updated version of the kdetrees software package is available both from CRAN (the official R package system), as well as from the official development repository on Github. ( github.com/grady/kdetrees).</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Weyenberg</LastName>
+                    <ForeName>Grady</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yoshida</LastName>
+                    <ForeName>Ruriko</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Howe</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113725</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2565475</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,262 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28924571</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">2329-4302</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>4</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of medical imaging (Bellingham, Wash.)</Title>
+                <ISOAbbreviation>J Med Imaging (Bellingham)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Tracking and diameter estimation of retinal vessels using Gaussian process and Radon transform.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>034006</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1117/1.JMI.4.3.034006</ELocationID>
+            <Abstract>
+                <AbstractText>Extraction of blood vessels in retinal images is an important step for computer-aided diagnosis of ophthalmic pathologies. We propose an approach for blood vessel tracking and diameter estimation. We hypothesize that the curvature and the diameter of blood vessels are Gaussian processes (GPs). Local Radon transform, which is robust against noise, is subsequently used to compute the features and train the GPs. By learning the kernelized covariance matrix from training data, vessel direction and its diameter are estimated. In order to detect bifurcations, multiple GPs are used and the difference between their corresponding predicted directions is quantified. The combination of Radon features and GP results in a good performance in the presence of noise. The proposed method successfully deals with typically difficult cases such as bifurcations and central arterial reflex, and also tracks thin vessels with high accuracy. Experiments are conducted on the publicly available DRIVE, STARE, CHASEDB1, and high-resolution fundus databases evaluating sensitivity, specificity, and Matthew's correlation coefficient (MCC). Experimental results on these datasets show that the proposed method reaches an average sensitivity of 75.67%, specificity of 97.46%, and MCC of 72.18% which is comparable to the state-of-the-art.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Asl</LastName>
+                    <ForeName>Masoud Elhami</ForeName>
+                    <Initials>ME</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Tarbiat Modares University, Faculty of Electrical and Computer Engineering, Tehran, Iran.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koohbanani</LastName>
+                    <ForeName>Navid Alemi</ForeName>
+                    <Initials>NA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Tarbiat Modares University, Faculty of Electrical and Computer Engineering, Tehran, Iran.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Frangi</LastName>
+                    <ForeName>Alejandro F</ForeName>
+                    <Initials>AF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Sheffield, Centre for Computational Imaging and Simulation Technologies in Biomedicine, Department of Electronic and Electrical Engineering, Sheffield, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gooya</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Sheffield, Centre for Computational Imaging and Simulation Technologies in Biomedicine, Department of Electronic and Electrical Engineering, Sheffield, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Med Imaging (Bellingham)</MedlineTA>
+            <NlmUniqueID>101643461</NlmUniqueID>
+            <ISSNLinking>2329-4302</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 2002 Jan;40(1):2-13</RefSource>
+                <PMID Version="1">11954703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2008 Aug;17(8):1295-312</RefSource>
+                <PMID Version="1">18632340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1989;8(1):78-88</RefSource>
+                <PMID Version="1">18230503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE J Biomed Health Inform. 2016 Jul;20(4):1129-38</RefSource>
+                <PMID Version="1">26054078</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2000 Mar;19(3):203-10</RefSource>
+                <PMID Version="1">10875704</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2011 Jan;30(1):146-58</RefSource>
+                <PMID Version="1">20699207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1998 Apr;17(2):263-73</RefSource>
+                <PMID Version="1">9688158</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2004 Apr;23(4):501-9</RefSource>
+                <PMID Version="1">15084075</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2009 Dec;13(6):819-45</RefSource>
+                <PMID Version="1">19818675</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2015 Jul;62(7):1738-49</RefSource>
+                <PMID Version="1">25700436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2002 Feb;21(2):61-75</RefSource>
+                <PMID Version="1">11929106</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2011 May;58(5):1183-92</RefSource>
+                <PMID Version="1">21147592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Rev Biomed Eng. 2010;3:169-208</RefSource>
+                <PMID Version="1">22275207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2007 Feb;16(2):310-6</RefSource>
+                <PMID Version="1">17269626</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 Dec;35(12 ):2631-2644</RefSource>
+                <PMID Version="1">27514039</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Invest Ophthalmol Vis Sci. 2009 May;50(5):2004-10</RefSource>
+                <PMID Version="1">19324866</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Methods Programs Biomed. 2007 Nov;88(2):131-43</RefSource>
+                <PMID Version="1">17919766</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Invest Ophthalmol Vis Sci. 2013 May 01;54(5):3546-59</RefSource>
+                <PMID Version="1">23794433</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Ophthalmol. 2001 Mar;85(3):261-6</RefSource>
+                <PMID Version="1">11222327</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Methods Programs Biomed. 2012 Oct;108(1):407-33</RefSource>
+                <PMID Version="1">22525589</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2017 Jan;64(1):16-27</RefSource>
+                <PMID Version="1">26930672</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Syst. 2012 Feb;36(1):145-57</RefSource>
+                <PMID Version="1">20703740</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2007 Feb;11(1):47-61</RefSource>
+                <PMID Version="1">17204445</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2013 Dec;43(12):2136-55</RefSource>
+                <PMID Version="1">24290931</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2009 Sep;28(9):1488-97</RefSource>
+                <PMID Version="1">19336294</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2015 Jan;19(1):46-57</RefSource>
+                <PMID Version="1">25240643</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 Nov;35(11):2369-2380</RefSource>
+                <PMID Version="1">27046869</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Prog Retin Eye Res. 2006 Jan;25(1):99-127</RefSource>
+                <PMID Version="1">16154379</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2007 Aug;54(8):1427-35</RefSource>
+                <PMID Version="1">17694863</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ophthalmology. 2010 Jun;117(6):1147-54</RefSource>
+                <PMID Version="1">20399502</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2006 Dec;10(6):815-25</RefSource>
+                <PMID Version="1">16876462</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Gaussian process</Keyword>
+            <Keyword MajorTopicYN="N">Radon transform</Keyword>
+            <Keyword MajorTopicYN="N">diameter estimation</Keyword>
+            <Keyword MajorTopicYN="N">retinal imaging</Keyword>
+            <Keyword MajorTopicYN="N">vessel tracking</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28924571</ArticleId>
+            <ArticleId IdType="doi">10.1117/1.JMI.4.3.034006</ArticleId>
+            <ArticleId IdType="pii">17019RR</ArticleId>
+            <ArticleId IdType="pmc">PMC5594385</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

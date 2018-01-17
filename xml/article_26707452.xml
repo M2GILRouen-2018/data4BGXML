@@ -1,0 +1,181 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26707452</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>14</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-0480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>59</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical informatics</Title>
+                <ISOAbbreviation>J Biomed Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Inferring new drug indications using the complementarity between clinical disease signatures and drug effects.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>248-57</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jbi.2015.12.003</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S1532-0464(15)00283-X</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Drug repositioning is the process of finding new indications for existing drugs. Its importance has been dramatically increasing recently due to the enormous increase in new drug discovery cost. However, most of the previous molecular-centered drug repositioning work is not able to reflect the end-point physiological activities of drugs because of the inherent complexity of human physiological systems.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Here, we suggest a novel computational framework to make inferences for alternative indications of marketed drugs by using electronic clinical information which reflects the end-point physiological results of drug's effects on the biological activities of humans. In this work, we use the concept of complementarity between clinical disease signatures and clinical drug effects. With this framework, we establish disease-related clinical variable vectors (clinical disease signature vectors) and drug-related clinical variable vectors (clinical drug effect vectors) by applying two methodologies (i.e., statistical analysis and literature mining). Finally, we assign a repositioning possibility score to each disease-drug pair by the calculation of complementarity (anti-correlation) and association between clinical states (&quot;up&quot; or &quot;down&quot;) of disease signatures and clinical effects (&quot;up&quot;, &quot;down&quot; or &quot;association&quot;) of drugs. A total of 717 clinical variables in the electronic clinical dataset (NHANES), are considered in this study.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The statistical significance of our prediction results is supported through two benchmark datasets (Comparative Toxicogenomics Database and Clinical Trials). We discovered not only lots of known relationships between diseases and drugs, but also many hidden disease-drug relationships. For example, glutathione and edetic-acid may be investigated as candidate drugs for asthma treatment. We examined prediction results by using statistical experiments (enrichment verification, hyper-geometric and permutation test P&lt;0.009 in Comparative Toxicogenomics Database and Clinical Trials) and presented evidences for those with already published literature.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The results show that electronic clinical information is a feasible data resource and utilizing the complementarity (anti-correlated relationships) between clinical signatures of disease and clinical effects of drugs is a potentially predictive concept in drug repositioning research. It makes the proposed approach useful to identity novel relationships between diseases and drugs that have a high probability of being biologically valid.</AbstractText>
+                <CopyrightInformation>Copyright © 2015 The Authors. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jang</LastName>
+                    <ForeName>Dongjin</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bio and Brain Engineering, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea; Bio-Synergy Research Center, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea. Electronic address: djjang@kaist.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Sejoon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bio-Synergy Research Center, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea. Electronic address: sejuning@kaist.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Jaehyun</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bio and Brain Engineering, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea; Bio-Synergy Research Center, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea. Electronic address: jaeh@kaist.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Kiseong</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bio and Brain Engineering, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea; Bio-Synergy Research Center, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea. Electronic address: iames@kaist.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Doheon</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bio and Brain Engineering, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea; Bio-Synergy Research Center, 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Republic of Korea. Electronic address: dhlee@kaist.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Biomed Inform</MedlineTA>
+            <NlmUniqueID>100970413</NlmUniqueID>
+            <ISSNLinking>1532-0464</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D035843" MajorTopicYN="N">Biomedical Research</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057225" MajorTopicYN="N">Data Mining</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058492" MajorTopicYN="N">Drug Repositioning</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057286" MajorTopicYN="Y">Electronic Health Records</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008491" MajorTopicYN="Y">Medical Informatics Applications</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Clinical disease signatures</Keyword>
+            <Keyword MajorTopicYN="N">Clinical drug effects</Keyword>
+            <Keyword MajorTopicYN="N">Drug repositioning</Keyword>
+            <Keyword MajorTopicYN="N">Electronic clinical information</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26707452</ArticleId>
+            <ArticleId IdType="pii">S1532-0464(15)00283-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jbi.2015.12.003</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

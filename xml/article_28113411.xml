@@ -1,0 +1,90 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113411</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>28</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Novel Formulation of Adaptive MPC as EKF Using ANN Model: Multiproduct Semibatch Polymerization Reactor Case Study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3061-3073</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2614878</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, a novel formulation for nonlinear model predictive control (MPC) has been proposed incorporating the extended Kalman filter (EKF) control concept using a purely data-driven artificial neural network (ANN) model based on measurements for supervisory control. The proposed scheme consists of two modules focusing on online parameter estimation based on past measurements and control estimation over control horizon based on minimizing the deviation of model output predictions from set points along the prediction horizon. An industrial case study for temperature control of a multiproduct semibatch polymerization reactor posed as a challenge problem has been considered as a test bed to apply the proposed ANN-EKFMPC strategy at supervisory level as a cascade control configuration along with proportional integral controller [ANN-EKFMPC with PI (ANN-EKFMPC-PI)]. The proposed approach is formulated incorporating all aspects of MPC including move suppression factor for control effort minimization and constraint-handling capability including terminal constraints. The nominal stability analysis and offset-free tracking capabilities of the proposed controller are proved. Its performance is evaluated by comparison with a standard MPC-based cascade control approach using the same adaptive ANN model. The ANN-EKFMPC-PI control configuration has shown better controller performance in terms of temperature tracking, smoother input profiles, as well as constraint-handling ability compared with the ANN-MPC with PI approach for two products in summer and winter. The proposed scheme is found to be versatile although it is based on a purely data-driven model with online parameter estimation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kamesh</LastName>
+                    <ForeName>Reddi</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rani</LastName>
+                    <ForeName>Kalipatnapu Yamuna</ForeName>
+                    <Initials>KY</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113411</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2614878</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

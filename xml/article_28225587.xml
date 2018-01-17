@@ -1,0 +1,144 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28225587</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>22</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-6882</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>89</Volume>
+                    <Issue>7</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                        <Day>04</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Analytical chemistry</Title>
+                <ISOAbbreviation>Anal. Chem.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>compMS2Miner: An Automatable Metabolite Identification, Visualization, and Data-Sharing R Package for High-Resolution LC-MS Data Sets.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3919-3928</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.analchem.6b02394</ELocationID>
+            <Abstract>
+                <AbstractText>A long-standing challenge of untargeted metabolomic profiling by ultrahigh-performance liquid chromatography-high-resolution mass spectrometry (UHPLC-HRMS) is efficient transition from unknown mass spectral features to confident metabolite annotations. The compMS(2)Miner (Comprehensive MS(2) Miner) package was developed in the R language to facilitate rapid, comprehensive feature annotation using a peak-picker-output and MS(2) data files as inputs. The number of MS(2) spectra that can be collected during a metabolomic profiling experiment far outweigh the amount of time required for pain-staking manual interpretation; therefore, a degree of software workflow autonomy is required for broad-scale metabolite annotation. CompMS(2)Miner integrates many useful tools in a single workflow for metabolite annotation and also provides a means to overview the MS(2) data with a Web application GUI compMS(2)Explorer (Comprehensive MS(2) Explorer) that also facilitates data-sharing and transparency. The automatable compMS(2)Miner workflow consists of the following steps: (i) matching unknown MS(1) features to precursor MS(2) scans, (ii) filtration of spectral noise (dynamic noise filter), (iii) generation of composite mass spectra by multiple similar spectrum signal summation and redundant/contaminant spectra removal, (iv) interpretation of possible fragment ion substructure using an internal database, (v) annotation of unknowns with chemical and spectral databases with prediction of mammalian biotransformation metabolites, wrapper functions for in silico fragmentation software, nearest neighbor chemical similarity scoring, random forest based retention time prediction, text-mining based false positive removal/true positive ranking, chemical taxonomic prediction and differential evolution based global annotation score optimization, and (vi) network graph visualizations, data curation, and sharing are made possible via the compMS(2)Explorer application. Metabolite identities and comments can also be recorded using an interactive table within compMS(2)Explorer. The utility of the package is illustrated with a data set of blood serum samples from 7 diet induced obese (DIO) and 7 nonobese (NO) C57BL/6J mice, which were also treated with an antibiotic (streptomycin) to knockdown the gut microbiota. The results of fully autonomous and objective usage of compMS(2)Miner are presented here. All automatically annotated spectra output by the workflow are provided in the Supporting Information and can alternatively be explored as publically available compMS(2)Explorer applications for both positive and negative modes ( https://wmbedmands.shinyapps.io/compMS2_mouseSera_POS and https://wmbedmands.shinyapps.io/compMS2_mouseSera_NEG ). The workflow provided rapid annotation of a diversity of endogenous and gut microbially derived metabolites affected by both diet and antibiotic treatment, which conformed to previously published reports. Composite spectra (n = 173) were autonomously matched to entries of the Massbank of North America (MoNA) spectral repository. These experimental and virtual (lipidBlast) spectra corresponded to 29 common endogenous compound classes (e.g., 51 lysophosphatidylcholines spectra) and were then used to calculate the ranking capability of 7 individual scoring metrics. It was found that an average of the 7 individual scoring metrics provided the most effective weighted average ranking ability of 3 for the MoNA matched spectra in spite of potential risk of false positive annotations emerging from automation. Minor structural differences such as relative carbon-carbon double bond positions were found in several cases to affect the correct rank of the MoNA annotated metabolite. The latest release and an example workflow is available in the package vignette ( https://github.com/WMBEdmands/compMS2Miner ) and a version of the published application is available on the shinyapps.io site ( https://wmbedmands.shinyapps.io/compMS2Example ).</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Edmands</LastName>
+                    <ForeName>William M B</ForeName>
+                    <Initials>WM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-4633-8173</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Rappaport Lab, UC Berkeley, School of Public Health , GL81 Koshland Hall, Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Petrick</LastName>
+                    <ForeName>Lauren</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Rappaport Lab, UC Berkeley, School of Public Health , GL81 Koshland Hall, Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barupal</LastName>
+                    <ForeName>Dinesh K</ForeName>
+                    <Initials>DK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Metabolomics FiehnLab, NIH West-Coast Metabolomics Center (WCMC), University of California Davis , Davis, California 95616 United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scalbert</LastName>
+                    <ForeName>Augustin</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Agency for Research on Cancer (IARC) , Nutrition and Metabolism Section (NME), Biomarkers Group (BMA), 150 Cours Albert Thomas, F-69372 Lyon Cedex 08, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wilson</LastName>
+                    <ForeName>Mark J</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Global Environmental Health Sciences, Tulane University , 1440 Canal Street, Suite 2100 No. 8360, New Orleans, Louisiana 70112 United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wickliffe</LastName>
+                    <ForeName>Jeffrey K</ForeName>
+                    <Initials>JK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Global Environmental Health Sciences, Tulane University , 1440 Canal Street, Suite 2100 No. 8360, New Orleans, Louisiana 70112 United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rappaport</LastName>
+                    <ForeName>Stephen M</ForeName>
+                    <Initials>SM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-3806-0848</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Rappaport Lab, UC Berkeley, School of Public Health , GL81 Koshland Hall, Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Anal Chem</MedlineTA>
+            <NlmUniqueID>0370536</NlmUniqueID>
+            <ISSNLinking>0003-2700</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28225587</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.analchem.6b02394</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

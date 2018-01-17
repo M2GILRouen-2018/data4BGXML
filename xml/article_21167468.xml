@@ -1,0 +1,294 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25649116</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>07</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2164</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Feb</Month>
+                        <Day>03</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC genomics</Title>
+                <ISOAbbreviation>BMC Genomics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mixture SNPs effect on phenotype in genome-wide association studies.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1471-2164-16-3</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Recently mixed linear models are used to address the issue of &quot;missing&quot; heritability in traditional Genome-wide association studies (GWAS). The models assume that all single-nucleotide polymorphisms (SNPs) are associated with the phenotypes of interest. However, it is more common that only a small proportion of SNPs have significant effects on the phenotypes, while most SNPs have no or very small effects. To incorporate this feature, we propose an efficient Hierarchical Bayesian Model (HBM) that extends the existing mixed models to enforce automatic selection of significant SNPs. The HBM models the SNP effects using a mixture distribution of a point mass at zero and a normal distribution, where the point mass corresponds to those non-associative SNPs.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We estimate the HBM using Gibbs sampling. The estimation performance of our method is first demonstrated through two simulation studies. We make the simulation setups realistic by using parameters fitted on the Framingham Heart Study (FHS) data. The simulation studies show that our method can accurately estimate the proportion of SNPs associated with the simulated phenotype and identify these SNPs, as well as adapt to certain model mis-specification than the standard mixed models. In addition, we analyze data from the FHS and the Health and Retirement Study (HRS) to study the association between Body Mass Index (BMI) and SNPs on Chromosome 16, and replicate the identified genetic associations. The analysis of the FHS data identifies 0.3% SNPs on Chromosome 16 that affect BMI, including rs9939609 and rs9939973 on the FTO gene. These two SNPs are in strong linkage disequilibrium with rs1558902 (Rsq =0.901 for rs9939609 and Rsq =0.905 for rs9939973), which has been reported to be linked with obesity in previous GWAS. We then replicate the findings using the HRS data: the analysis finds 0.4% of SNPs associated with BMI on Chromosome 16. Furthermore, around 25% of the genes that are identified to be associated with BMI are common between the two studies.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The results demonstrate that the HBM and the associated estimation algorithm offer a powerful tool for identifying significant genetic associations with phenotypes of interest, among a large number of SNPs that are common in modern genetics studies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Ling</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics and Operation Research, University of North Carolina-Chapel Hill, 27514, Chapel Hill, USA. lingw@email.unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Haipeng</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics and Operation Research, University of North Carolina-Chapel Hill, 27514, Chapel Hill, USA. haipeng@email.unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Innovation and Information Management, School of Business, Faculty of Business and Economics, University of Hong Kong, Hong Kong, PR China. haipeng@email.unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Hexuan</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Sociology, University of North Carolina-Chapel Hill, 27514, Chapel Hill, USA. hexuanl@live.unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Guang</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Sociology, University of North Carolina-Chapel Hill, 27514, Chapel Hill, USA. guang_guo@unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Carolina Center for Genome Sciences, University of North Carolina-Chapel Hill, 27514, Chapel Hill, USA. guang_guo@unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Caroline Population Center, University of North Carolina-Chapel Hill, 27514, Chapel Hill, USA. guang_guo@unc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P2C HD050924</GrantID>
+                    <Acronym>HD</Acronym>
+                    <Agency>NICHD NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>RC1 DA029425</GrantID>
+                    <Acronym>DA</Acronym>
+                    <Agency>NIDA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>RC1 DA029425-01</GrantID>
+                    <Acronym>DA</Acronym>
+                    <Agency>NIDA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>02</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Genomics</MedlineTA>
+            <NlmUniqueID>100965258</NlmUniqueID>
+            <ISSNLinking>1471-2164</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D011506">Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 1.14.11.33</RegistryNumber>
+                <NameOfSubstance UI="D000071516">Alpha-Ketoglutarate-Dependent Dioxygenase FTO</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 1.14.11.33</RegistryNumber>
+                <NameOfSubstance UI="C526492">FTO protein, human</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Jul;42(7):565-9</RefSource>
+                <PMID Version="1">20562875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003 Jan;19(1):90-7</RefSource>
+                <PMID Version="1">12499298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2011 Jun;43(6):519-25</RefSource>
+                <PMID Version="1">21552263</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Genet. 2010;11:107</RefSource>
+                <PMID Version="1">20598163</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes. 2008 Oct;57(10):2851-7</RefSource>
+                <PMID Version="1">18599522</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2013;9(2):e1003264</RefSource>
+                <PMID Version="1">23408905</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Stat Assoc. 2012;107(499):1019-1035</RefSource>
+                <PMID Version="1">24729644</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Chim Acta. 2010 Nov 11;411(21-22):1716-22</RefSource>
+                <PMID Version="1">20650268</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Nov;42(11):937-48</RefSource>
+                <PMID Version="1">20935630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010;11:58</RefSource>
+                <PMID Version="1">20105321</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Technol Ther. 2011 Jan;13(1):33-42</RefSource>
+                <PMID Version="1">21175269</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Genet. 2010;11:57</RefSource>
+                <PMID Version="1">20377915</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J R Stat Soc Series B Stat Methodol. 2008;70(5):849-911</RefSource>
+                <PMID Version="1">19603084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Hum Genet. 2008;53(6):546-53</RefSource>
+                <PMID Version="1">18379722</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2008 Oct;4(10):e1000231</RefSource>
+                <PMID Version="1">18949033</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2008 May;40(5):489-90</RefSource>
+                <PMID Version="1">18443579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2011 Jan 7;88(1):76-82</RefSource>
+                <PMID Version="1">21167468</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000483" MajorTopicYN="N">Alleles</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000071516" MajorTopicYN="N">Alpha-Ketoglutarate-Dependent Dioxygenase FTO</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001499" MajorTopicYN="N">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015992" MajorTopicYN="N">Body Mass Index</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002885" MajorTopicYN="N">Chromosomes, Human, Pair 16</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055106" MajorTopicYN="Y">Genome-Wide Association Study</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015810" MajorTopicYN="N">Linkage Disequilibrium</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010641" MajorTopicYN="N">Phenotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020641" MajorTopicYN="N">Polymorphism, Single Nucleotide</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D025341" MajorTopicYN="N">Principal Component Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011506" MajorTopicYN="N">Proteins</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4417323</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>03</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25649116</ArticleId>
+            <ArticleId IdType="doi">10.1186/1471-2164-16-3</ArticleId>
+            <ArticleId IdType="pii">1471-2164-16-3</ArticleId>
+            <ArticleId IdType="pmc">PMC4417323</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

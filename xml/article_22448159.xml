@@ -1,0 +1,475 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28910621</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>03</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-4199</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>95</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Neuron</Title>
+                <ISOAbbreviation>Neuron</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Fully Automated Approach to Spike Sorting.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1381-1394.e6</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0896-6273(17)30745-6</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.neuron.2017.08.030</ELocationID>
+            <Abstract>
+                <AbstractText>Understanding the detailed dynamics of neuronal networks will require the simultaneous measurement of spike trains from hundreds of neurons (or more). Currently, approaches to extracting spike times and labels from raw data are time consuming, lack standardization, and involve manual intervention, making it difficult to maintain data provenance and assess the quality of scientific results. Here, we describe an automated clustering approach and associated software package that addresses these problems and provides novel cluster quality metrics. We show that our approach has accuracy comparable to or exceeding that achieved using manual or semi-manual techniques with desktop central processing unit (CPU) runtimes faster than acquisition time for up to hundreds of electrodes. Moreover, a single choice of parameters in the algorithm is effective for a variety of electrode geometries and across multiple brain regions. This algorithm has the potential to enable reproducible and automated spike sorting of larger scale recordings than is currently possible.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chung</LastName>
+                    <ForeName>Jason E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neuroscience Graduate Program, Kavli Institute for Fundamental Neuroscience and Department of Physiology, University of California San Francisco, CA 94158, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Magland</LastName>
+                    <ForeName>Jeremy F</ForeName>
+                    <Initials>JF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barnett</LastName>
+                    <ForeName>Alex H</ForeName>
+                    <Initials>AH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA; Department of Mathematics, Dartmouth College, Hanover, NH 03755, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tolosa</LastName>
+                    <ForeName>Vanessa M</ForeName>
+                    <Initials>VM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Micro- and Nano-Technology, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tooker</LastName>
+                    <ForeName>Angela C</ForeName>
+                    <Initials>AC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Micro- and Nano-Technology, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Kye Y</ForeName>
+                    <Initials>KY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Micro- and Nano-Technology, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Kedar G</ForeName>
+                    <Initials>KG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Micro- and Nano-Technology, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Felix</LastName>
+                    <ForeName>Sarah H</ForeName>
+                    <Initials>SH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Micro- and Nano-Technology, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Frank</LastName>
+                    <ForeName>Loren M</ForeName>
+                    <Initials>LM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neuroscience Graduate Program, Kavli Institute for Fundamental Neuroscience and Department of Physiology, University of California San Francisco, CA 94158, USA; Howard Hughes Medical Institute. Electronic address: loren@phy.ucsf.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Greengard</LastName>
+                    <ForeName>Leslie F</ForeName>
+                    <Initials>LF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA; Courant Institute, NYU, New York, NY 10012, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>F30 MH109292</GrantID>
+                    <Acronym>MH</Acronym>
+                    <Agency>NIMH NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 GM007618</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 NS090537</GrantID>
+                    <Acronym>NS</Acronym>
+                    <Agency>NINDS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Howard Hughes Medical Institute</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 MH105174</GrantID>
+                    <Acronym>MH</Acronym>
+                    <Agency>NIMH NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Neuron</MedlineTA>
+            <NlmUniqueID>8809320</NlmUniqueID>
+            <ISSNLinking>0896-6273</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2001 Oct 11;32(1):141-9</RefSource>
+                <PMID Version="1">11604145</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2003 Aug;90(2):1314-23</RefSource>
+                <PMID Version="1">12904510</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2012 Oct 15;211(1):58-65</RefSource>
+                <PMID Version="1">22841630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2004 Aug;16(8):1661-87</RefSource>
+                <PMID Version="1">15228749</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Biol. 2012 Jan 24;22(2):R45-6</RefSource>
+                <PMID Version="1">22280903</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 1999 Dec 15;94(1):41-52</RefSource>
+                <PMID Version="1">10638814</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2015 Sep;114(3):2043-52</RefSource>
+                <PMID Version="1">26133801</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2014 Feb 10;8:6</RefSource>
+                <PMID Version="1">24574979</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2014 Jan;61(1):41-54</RefSource>
+                <PMID Version="1">23912463</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroscience. 2005;131(1):1-11</RefSource>
+                <PMID Version="1">15680687</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2004 Jun;51(6):912-8</RefSource>
+                <PMID Version="1">15188858</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2011 Jun 15;31(24):8699-705</RefSource>
+                <PMID Version="1">21677152</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1993 Aug 20;261(5124):1055-8</RefSource>
+                <PMID Version="1">8351520</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2014 Jan;111(1):217-27</RefSource>
+                <PMID Version="1">24089403</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2011 Mar 15;196(1):159-69</RefSource>
+                <PMID Version="1">21182868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2004 Sep 1;24(35):7681-9</RefSource>
+                <PMID Version="1">15342735</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2004 May;91(5):2259-72</RefSource>
+                <PMID Version="1">14736863</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain Res. 1971 Nov;34(1):171-5</RefSource>
+                <PMID Version="1">5124915</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2007 Oct 3;27(40):10742-50</RefSource>
+                <PMID Version="1">17913908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Elife. 2017 Sep 08;6:null</RefSource>
+                <PMID Version="1">28885141</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(10):e26204</RefSource>
+                <PMID Version="1">22022568</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 May 03;8(5):e62123</RefSource>
+                <PMID Version="1">23671583</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Neurosci. 2015 Jun;38(3):439-59</RefSource>
+                <PMID Version="1">25652689</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2014 Mar;111(5):1132-49</RefSource>
+                <PMID Version="1">24353300</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2004 May 30;135(1-2):95-105</RefSource>
+                <PMID Version="1">15020094</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2014 Nov;26(11):2379-94</RefSource>
+                <PMID Version="1">25149694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 1995 Dec;63(1-2):43-54</RefSource>
+                <PMID Version="1">8788047</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2014 Jan 30;222:47-55</RefSource>
+                <PMID Version="1">24184059</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2001 Jan 1;21(1):240-8</RefSource>
+                <PMID Version="1">11150341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 1996 Nov;69(2):175-88</RefSource>
+                <PMID Version="1">8946321</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Conf Proc IEEE Eng Med Biol Soc. 2014;2014:6830-3</RefSource>
+                <PMID Version="1">25571565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2007 Aug 15;164(1):1-18</RefSource>
+                <PMID Version="1">17512603</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Network. 1998 Nov;9(4):R53-78</RefSource>
+                <PMID Version="1">10221571</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Neurobiol. 2012 Feb;22(1):11-7</RefSource>
+                <PMID Version="1">22023727</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nano Lett. 2016 Nov 9;16(11):6857-6862</RefSource>
+                <PMID Version="1">27766885</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2004 May 30;135(1-2):55-65</RefSource>
+                <PMID Version="1">15020089</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2007 Nov;54(11):2037-50</RefSource>
+                <PMID Version="1">18018699</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2016 May 1;264:65-77</RefSource>
+                <PMID Version="1">26930629</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2016 Apr;19(4):634-641</RefSource>
+                <PMID Version="1">26974951</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2016 Aug 1;116(2):892-903</RefSource>
+                <PMID Version="1">27306671</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2006 Oct 30;157(2):303-16</RefSource>
+                <PMID Version="1">16828167</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 1996 Nov;17(5):813-22</RefSource>
+                <PMID Version="1">8938115</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2014 Jun 27;344(6191):1492-6</RefSource>
+                <PMID Version="1">24970081</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 1983 Aug;8(4):391-7</RefSource>
+                <PMID Version="1">6621101</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2015 Jul;27(7):1438-60</RefSource>
+                <PMID Version="1">25973549</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Neurosci. 2010 Aug;29(1-2):127-148</RefSource>
+                <PMID Version="1">19499318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(5):e5494</RefSource>
+                <PMID Version="1">19424438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hippocampus. 1996;6(4):347-470</RefSource>
+                <PMID Version="1">8915675</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2016 Aug 26;19(9):1165-74</RefSource>
+                <PMID Version="1">27571195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2012 Oct 24;32(43):14859-73</RefSource>
+                <PMID Version="1">23100409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2000 Jul;27(1):169-78</RefSource>
+                <PMID Version="1">10939340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 2000 Jul;84(1):401-14</RefSource>
+                <PMID Version="1">10899214</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neuroinform. 2012 Mar 19;6:5</RefSource>
+                <PMID Version="1">22448159</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000200" MajorTopicYN="N">Action Potentials</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="N">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001921" MajorTopicYN="N">Brain</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009474" MajorTopicYN="N">Neurons</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051381" MajorTopicYN="N">Rats</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012815" MajorTopicYN="Y">Signal Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">automated</Keyword>
+            <Keyword MajorTopicYN="N">cluster metrics</Keyword>
+            <Keyword MajorTopicYN="N">clustering</Keyword>
+            <Keyword MajorTopicYN="N">cortex</Keyword>
+            <Keyword MajorTopicYN="N">hippocampus</Keyword>
+            <Keyword MajorTopicYN="N">reproducibility</Keyword>
+            <Keyword MajorTopicYN="N">spike sorting</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910621</ArticleId>
+            <ArticleId IdType="pii">S0896-6273(17)30745-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.neuron.2017.08.030</ArticleId>
+            <ArticleId IdType="pmc">PMC5743236</ArticleId>
+            <ArticleId IdType="mid">NIHMS904739</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

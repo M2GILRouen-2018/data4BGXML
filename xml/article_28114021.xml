@@ -1,0 +1,105 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28114021</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Error-Bounded and Feature Preserving Surface Remeshing with Minimal Angle Improvement.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2560-2573</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2016.2632720</ELocationID>
+            <Abstract>
+                <AbstractText>Surface remeshing is a key component in many geometry processing applications. The typical goal consists in finding a mesh that is (1) geometrically faithful to the original geometry, (2) as coarse as possible to obtain a low-complexity representation and (3) free of bad elements that would hamper the desired application (e.g., the minimum interior angle is above an application-dependent threshold). Our algorithm is designed to address all three optimization goals simultaneously by targeting prescribed bounds on approximation error , minimal interior angle and maximum mesh complexity (number of vertices). The approximation error bound is a hard constraint, while the other two criteria are modeled as optimization goals to guarantee feasibility. Our optimization framework applies carefully prioritized local operators in order to greedily search for the coarsest mesh with minimal interior angle above and approximation error bounded by . Fast runtime is enabled by a local approximation error estimation, while implicit feature preservation is obtained by specifically designed vertex relocation operators. Experiments show that for reasonable angle bounds ( ) our approach delivers high-quality meshes with implicitly preserved features (no tagging required) and better balances between geometric fidelity, mesh complexity and element quality than the state-of-the-art.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Kaimo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Dong-Ming</ForeName>
+                    <Initials>DM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bommes</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alliez</LastName>
+                    <ForeName>Pierre</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Benes</LastName>
+                    <ForeName>Bedrich</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114021</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2016.2632720</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

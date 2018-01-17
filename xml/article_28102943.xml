@@ -1,0 +1,222 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28102943</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Comparison of five cluster validity indices performance in brain [18 F]FET-PET image segmentation using k-means.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>209-220</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12025</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Dynamic [18 F]fluoro-ethyl-L-tyrosine positron emission tomography ([18 F]FET-PET) is used to identify tumor lesions for radiotherapy treatment planning, to differentiate glioma recurrence from radiation necrosis and to classify gliomas grading. To segment different regions in the brain k-means cluster analysis can be used. The main disadvantage of k-means is that the number of clusters must be pre-defined. In this study, we therefore compared different cluster validity indices for automated and reproducible determination of the optimal number of clusters based on the dynamic PET data.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The k-means algorithm was applied to dynamic [18 F]FET-PET images of 8 patients. Akaike information criterion (AIC), WB, I, modified Dunn's and Silhouette indices were compared on their ability to determine the optimal number of clusters based on requirements for an adequate cluster validity index. To check the reproducibility of k-means, the coefficients of variation CVs of the objective function values OFVs (sum of squared Euclidean distances within each cluster) were calculated using 100 random centroid initialization replications RCI100 for 2 to 50 clusters. k-means was performed independently on three neighboring slices containing tumor for each patient to investigate the stability of the optimal number of clusters within them. To check the independence of the validity indices on the number of voxels, cluster analysis was applied after duplication of a slice selected from each patient. CVs of index values were calculated at the optimal number of clusters using RCI100 to investigate the reproducibility of the validity indices. To check if the indices have a single extremum, visual inspection was performed on the replication with minimum OFV from RCI100 .</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The maximum CV of OFVs was 2.7 × 10-2 from all patients. The optimal number of clusters given by modified Dunn's and Silhouette indices was 2 or 3 leading to a very poor segmentation. WB and I indices suggested in median 5, [range 4-6] and 4, [range 3-6] clusters, respectively. For WB, I, modified Dunn's and Silhouette validity indices the suggested optimal number of clusters was not affected by the number of the voxels. The maximum coefficient of variation of WB, I, modified Dunn's, and Silhouette validity indices were 3 × 10-2 , 1, 2 × 10-1 and 3 × 10-3 , respectively. WB-index showed a single global maximum, whereas the other indices showed also local extrema.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">From the investigated cluster validity indices, the WB-index is best suited for automated determination of the optimal number of clusters for [18 F]FET-PET brain images for the investigated image reconstruction algorithm and the used scanner: it yields meaningful results allowing better differentiation of tissues with higher number of clusters, it is simple, reproducible and has an unique global minimum.</AbstractText>
+                <CopyrightInformation>© 2016 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Abualhaj</LastName>
+                    <ForeName>Bedor</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Radiation Physics/Radiation Protection, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Weng</LastName>
+                    <ForeName>Guoyang</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Radiation Physics/Radiation Protection, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ong</LastName>
+                    <ForeName>Melissa</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Clinical Radiology and Nuclear Medicine, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Attarwala</LastName>
+                    <ForeName>Ali Asgar</ForeName>
+                    <Initials>AA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Radiation Physics/Radiation Protection, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Molina</LastName>
+                    <ForeName>Flavia</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Radiation Physics/Radiation Protection, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Clinical Radiology and Nuclear Medicine, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Büsing</LastName>
+                    <ForeName>Karen</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Clinical Radiology and Nuclear Medicine, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Glatting</LastName>
+                    <ForeName>Gerhard</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Radiation Physics/Radiation Protection, Universitätsmedizin Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Radiation Physics, Department of Nuclear Medicine, Ulm University, Ulm, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C545932">(18F)fluoroethyltyrosine</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>42HK56048U</RegistryNumber>
+                <NameOfSubstance UI="D014443">Tyrosine</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001921" MajorTopicYN="N">Brain</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003937" MajorTopicYN="N">Diagnosis, Differential</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005910" MajorTopicYN="N">Glioma</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D049268" MajorTopicYN="Y">Positron-Emission Tomography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012008" MajorTopicYN="N">Recurrence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014443" MajorTopicYN="N">Tyrosine</DescriptorName>
+                <QualifierName UI="Q000031" MajorTopicYN="Y">analogs &amp; derivatives</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">PET</Keyword>
+            <Keyword MajorTopicYN="Y">WB-index</Keyword>
+            <Keyword MajorTopicYN="Y">cluster validity indices</Keyword>
+            <Keyword MajorTopicYN="Y">image analysis</Keyword>
+            <Keyword MajorTopicYN="Y">segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28102943</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12025</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

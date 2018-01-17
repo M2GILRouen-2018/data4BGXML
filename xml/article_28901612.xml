@@ -1,0 +1,118 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901612</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Compression of CT sinogram data by decimation in the view direction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e138-e146</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12181</ELocationID>
+            <Abstract>
+                <AbstractText Label="PUPOSE" NlmCategory="UNASSIGNED">In clinical computed tomography (CT), the image data is acquired during continuous rotation. If the time during which the signal is integrated (the frame time) is too long, the data is blurred in the view direction (i.e., azimuthal blur). This can be overcome by having a high angular sampling rate, but for systems with limited bandwidth, the increased amount of data can be a problem. In this paper, we evaluate the benefit of maintaining a high angular sampling rate on the CT gantry and performing a decimation (digital low-pass filtration followed by a downsampling) in the view direction before the bottleneck of the data transfer chain.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A theoretical evaluation of the effects of the decimation is presented and the implementation of the digital filter is discussed. The compression scheme is evaluated on image data of a CATPHAN® 504 phantom and a human skull phantom.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">It is shown that digital decimation can be used to compress data before read-out with more remaining data fidelity compared to having longer frame times. Specifically, the method is shown to preserve the detail in the reconstruction of the CATPHAN resolution patterns and the human skull phantom. It is also demonstrated that the method can be used to prevent aliasing artifacts.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Decimation in the view direction is presented as an alternative to increasing the frame time for CT systems with limited bandwidth of the data read-out. The method can be used to either remove aliasing artifacts or preserve spatial resolution. The proposed compression scheme can be implemented on the CT gantry and thus reduce the bandwidth requirements on the data transfer.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sjölin</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Physics of Medical Imaging, KTH Royal Institute of Technology, Roslagstullsbacken 21, SE-106 91, Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Danielsson</LastName>
+                    <ForeName>Mats</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Physics of Medical Imaging, KTH Royal Institute of Technology, Roslagstullsbacken 21, SE-106 91, Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">FIR filter</Keyword>
+            <Keyword MajorTopicYN="N">compression</Keyword>
+            <Keyword MajorTopicYN="N">computed tomography</Keyword>
+            <Keyword MajorTopicYN="N">decimation</Keyword>
+            <Keyword MajorTopicYN="N">low-pass filter</Keyword>
+            <Keyword MajorTopicYN="N">sinogram</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901612</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12181</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,145 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">27277040</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>06</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>43</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Anatomical pulmonary magnetic resonance imaging segmentation for regional structure-function measurements of asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2911-2926</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1118/1.4948999</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Pulmonary magnetic-resonance-imaging (MRI) and x-ray computed-tomography have provided strong evidence of spatially and temporally persistent lung structure-function abnormalities in asthmatics. This has generated a shift in their understanding of lung disease and supports the use of imaging biomarkers as intermediate endpoints of asthma severity and control. In particular, pulmonary (1)H MRI can be used to provide quantitative lung structure-function measurements longitudinally and in response to treatment. However, to translate such biomarkers of asthma, robust methods are required to segment the lung from pulmonary (1)H MRI. Therefore, their objective was to develop a pulmonary (1)H MRI segmentation algorithm to provide regional measurements with the precision and speed required to support clinical studies.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The authors developed a method to segment the left and right lung from (1)H MRI acquired in 20 asthmatics including five well-controlled and 15 severe poorly controlled participants who provided written informed consent to a study protocol approved by Health Canada. Same-day spirometry and plethysmography measurements of lung function and volume were acquired as well as (1)H MRI using a whole-body radiofrequency coil and fast spoiled gradient-recalled echo sequence at a fixed lung volume (functional residual capacity + 1 l). We incorporated the left-to-right lung volume proportion prior based on the Potts model and derived a volume-proportion preserved Potts model, which was approximated through convex relaxation and further represented by a dual volume-proportion preserved max-flow model. The max-flow model led to a linear problem with convex and linear equality constraints that implicitly encoded the proportion prior. To implement the algorithm, (1)H MRI was resampled into ∼3 × 3 × 3 mm(3) isotropic voxel space. Two observers placed seeds on each lung and on the background of 20 pulmonary (1)H MR images in a randomized dataset, on five occasions, five consecutive days in a row. Segmentation accuracy was evaluated using the Dice-similarity-coefficient (DSC) of the segmented thoracic cavity with comparison to five-rounds of manual segmentation by an expert observer. The authors also evaluated the root-mean-squared-error (RMSE) of the Euclidean distance between lung surfaces, the absolute, and percent volume error. Reproducibility was measured using the coefficient of variation (CoV) and intraclass correlation coefficient (ICC) for two observers who repeated segmentation measurements five-times.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">For five well-controlled asthmatics, forced expiratory volume in 1 s (FEV1)/forced vital capacity (FVC) was 83% ± 7% and FEV1 was 86 ± 9%pred. For 15 severe, poorly controlled asthmatics, FEV1/FV C = 66% ± 17% and FEV1 = 72 ± 27%pred. The DSC for algorithm and manual segmentation was 91% ± 3%, 92% ± 2% and 91% ± 2% for the left, right, and whole lung, respectively. RMSE was 4.0 ± 1.0 mm for each of the left, right, and whole lung. The absolute (percent) volume errors were 0.1 l (∼6%) for each of right and left lung and ∼0.2 l (∼6%) for whole lung. Intra- and inter-CoV (ICC) were &lt;0.5% (&gt;0.91%) for DSC and &lt;4.5% (&gt;0.93%) for RMSE. While segmentation required 10 s including ∼6 s for user interaction, the smallest detectable difference was 0.24 l for algorithm measurements which was similar to manual measurements.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This lung segmentation approach provided the necessary and sufficient precision and accuracy required for research and clinical studies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>F</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada and Graduate Program in Biomedical Engineering, The University of Western Ontario, London, Ontario N6A 5B9, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Svenningsen</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada and Department of Medical Biophysics, The University of Western Ontario, London, Ontario N6A 5C1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eddy</LastName>
+                    <ForeName>R L</ForeName>
+                    <Initials>RL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada and Department of Medical Biophysics, The University of Western Ontario, London, Ontario N6A 5C1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Capaldi</LastName>
+                    <ForeName>D P I</ForeName>
+                    <Initials>DPI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada and Department of Medical Biophysics, The University of Western Ontario, London, Ontario N6A 5C1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sheikh</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada and Department of Medical Biophysics, The University of Western Ontario, London, Ontario N6A 5C1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fenster</LastName>
+                    <ForeName>A</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada; Graduate Program in Biomedical Engineering, The University of Western Ontario, London, Ontario N6A 5B9, Canada; and Department of Medical Biophysics, The University of Western Ontario, London, Ontario N6A 5C1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Parraga</LastName>
+                    <ForeName>G</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Ontario N6A 5B7, Canada and Graduate Program in Biomedical Engineering, The University of Western Ontario, London, Ontario N6A 5B9, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27277040</ArticleId>
+            <ArticleId IdType="doi">10.1118/1.4948999</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

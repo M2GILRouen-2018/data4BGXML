@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28103563</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2208</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>17</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE journal of biomedical and health informatics</Title>
+                <ISOAbbreviation>IEEE J Biomed Health Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effective Glottal Instant Detection and Electroglottographic Parameter Extraction for Automated Voice Pathology Assessment.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/JBHI.2017.2654683</ELocationID>
+            <Abstract>
+                <AbstractText>Accurate determination of glottal instants and electroglottographic (EGG) parameters is most important in voice pathology analysis including multiple voice disorders: neurological, functional, and laryngeal diseases. In this paper, we present a new effective method for reliable detection of glottal instants and EGG parameters from an EGG signal composed of voiced and non-voice segments. In the first stage, we present an adaptive variational mode decomposition (aVMD) based algorithm for suppressing low-frequency artifacts and additive high-frequency noises. Based upon mode center frequency criterion, the proposed method first constructs a candidate EGG feature signal for determination of glottal closure and opening instants. In the second stage, the candidate glottal instants are determined by detecting the positive and negative zerocrossings in normalized candidate EGG feature signal, respectively. Finally, an autocorrelation features based postprocessing algorithm is presented to reject non-glottal instants from the non-speech production segments. The accuracy and robustness of the method is tested using noise-free and noisy EGG signals. Evaluation results show that the proposed method achieves an average overall accuracy (OA) of 95.06%, identification rate (IR) of 95.34%, missed rate (MR) of 3.60% and false alarm rate (FAR) of 0.06% with average absolute identification error of 0.71 0.66 ms for a SNR of 15 dB. Results demonstrate that the proposed method significantly outperforms the other existing methods under both noise-free and noisy EGG signals.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Deshpande</LastName>
+                    <ForeName>Pranav</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manikandan</LastName>
+                    <ForeName>M Sabarimalai</ForeName>
+                    <Initials>MS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE J Biomed Health Inform</MedlineTA>
+            <NlmUniqueID>101604520</NlmUniqueID>
+            <ISSNLinking>2168-2194</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103563</ArticleId>
+            <ArticleId IdType="doi">10.1109/JBHI.2017.2654683</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,99 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29059975</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1557-170X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2017</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual Conference</Title>
+                <ISOAbbreviation>Conf Proc IEEE Eng Med Biol Soc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel hardware implementation for detecting respiration rate using photoplethysmography.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>726-729</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/EMBC.2017.8036927</ELocationID>
+            <Abstract>
+                <AbstractText>Asthma is a serious public health problem. Continuous monitoring of breathing may offer an alternative way to assess disease status. In this paper we present a novel hardware implementation for the capture and storage of a photoplethysmography (PPG) signal. The LED duty cycle was altered to determine the effect on respiratory rate accuracy. The oximeter was mounted to the left index finger of ten healthy volunteers. The breathing rate derived from the oximeter was validated against a nasal airflow sensor. The duty cycle of a pulse oximeter was changed between 5%, 10% and 25% at a sample rate of 500 Hz. A PPG signal and reference signal was captured for each duty cycle. The PPG signals were post processed in Matlab to derive a respiration rate using an existing Matlab toolbox. At a 25% duty cycle the RMSE was &lt;;2 breaths per minute for the top performing algorithm. The RMSE increased to over 5 breaths per minute when the duty cycle was reduced to 5%. The power consumed by the hardware for a 5%, 10% and 25% duty cycle was 5.4 mW, 7.8 mW, and 15 mW respectively. For clinical assessment of respiratory rate, a RSME of &lt;;2 breaths per minute is recommended. Further work is required to determine utility in asthma management. However for non-clinical applications such as fitness tracking, lower accuracy may be sufficient to allow a reduced duty cycle setting.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Prinable</LastName>
+                    <ForeName>Joseph</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thamrin</LastName>
+                    <ForeName>Cindy</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McEwan</LastName>
+                    <ForeName>Alistair</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Conf Proc IEEE Eng Med Biol Soc</MedlineTA>
+            <NlmUniqueID>101243413</NlmUniqueID>
+            <ISSNLinking>1557-170X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29059975</ArticleId>
+            <ArticleId IdType="doi">10.1109/EMBC.2017.8036927</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

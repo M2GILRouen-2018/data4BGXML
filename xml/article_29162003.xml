@@ -1,0 +1,87 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29162003</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1530-888X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Neural computation</Title>
+                <ISOAbbreviation>Neural Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Feedforward Approximations to Dynamic Recurrent Network Architectures.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-22</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1162/neco_a_01042</ELocationID>
+            <Abstract>
+                <AbstractText>Recurrent neural network architectures can have useful computational properties, with complex temporal dynamics and input-sensitive attractor states. However, evaluation of recurrent dynamic architectures requires solving systems of differential equations, and the number of evaluations required to determine their response to a given input can vary with the input or can be indeterminate altogether in the case of oscillations or instability. In feedforward networks, by contrast, only a single pass through the network is needed to determine the response to a given input. Modern machine learning systems are designed to operate efficiently on feedforward architectures. We hypothesized that two-layer feedforward architectures with simple, deterministic dynamics could approximate the responses of single-layer recurrent network architectures. By identifying the fixed-point responses of a given recurrent network, we trained two-layer networks to directly approximate the fixed-point response to a given input. These feedforward networks then embodied useful computations, including competitive interactions, information transformations, and noise rejection. Our approach was able to find useful approximations to recurrent networks, which can then be evaluated in linear and deterministic time complexity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Muir</LastName>
+                    <ForeName>Dylan R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biozentrum, University of Basel, Basel 4056, Switzerland dylan.muir@unibas.ch.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Neural Comput</MedlineTA>
+            <NlmUniqueID>9426182</NlmUniqueID>
+            <ISSNLinking>0899-7667</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29162003</ArticleId>
+            <ArticleId IdType="doi">10.1162/neco_a_01042</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

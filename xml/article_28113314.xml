@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113314</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Weakly Supervised Multimodal Kernel for Categorizing Aerial Photographs.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3748-3758</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2639438</ELocationID>
+            <Abstract>
+                <AbstractText>Accurately distinguishing aerial photographs from different categories is a promising technique in computer vision. It can facilitate a series of applications, such as video surveillance and vehicle navigation. In this paper, a new image kernel is proposed for effectively recognizing aerial photographs. The key is to encode high-level semantic cues into local image patches in a weakly supervised way, and integrate multimodal visual features using a newly developed hashing algorithm. The flowchart can be elaborated as follows. Given an aerial photo, we first extract a number of graphlets to describe its topological structure. For each graphlet, we utilize color and texture to capture its appearance, and a weakly supervised algorithm to capture its semantics. Thereafter, aerial photo categorization can be naturally formulated as graphlet-to-graphlet matching. As the number of graphlets from each aerial photo is huge, to accelerate matching, we present a hashing algorithm to seamlessly fuze the multiple visual features into binary codes. Finally, an image kernel is calculated by fast matching the binary codes corresponding to each graphlet. And a multi-class SVM is learned for aerial photo categorization. We demonstrate the advantage of our proposed model by comparing it with state-of-the-art image descriptors. Moreover, an in-depth study of the descriptiveness of the hash-based graphlet is presented.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yingjie Xia</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luming Zhang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhenguang Liu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liqiang Nie</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xuelong Li</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113314</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2639438</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

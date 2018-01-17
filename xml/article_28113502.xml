@@ -1,0 +1,96 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113502</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Oct</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Multimodal Stereoscopic Movie Summarization Conforming to Narrative Characteristics.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2615289</ELocationID>
+            <Abstract>
+                <AbstractText>Video summarization is a timely and rapidly developing research field with broad commercial interest, due to the increasing availability of massive video data. Relevant algorithms face the challenge of needing to achieve a careful balance between summary compactness, enjoyability and content coverage. The specific case of stereoscopic 3D theatrical films has become more important over the past years, but not received corresponding research attention. In the present work, a multi-stage, multimodal summarization process for such stereoscopic movies is proposed, that is able to extract a short, representative video skim conforming to narrative characteristics from a 3D film. At the initial stage, a novel, low-level video frame description method is introduced (Frame Moments Descriptor, or FMoD), that compactly captures informative image statistics from luminance, color, optical flow and stereoscopic disparity video data, both in a global and in a local scale. Thus, scene texture, illumination, motion and geometry properties may succinctly be contained within a single frame feature descriptor, which can subsequently be employed as a building block in any key-frame extraction scheme, e.g., for intra-shot frame clustering. The computed key-frames are then used to construct a movie summary in the form of a video skim, which is post-processed in a manner that also takes into account the audio modality. The next stage of the proposed summarization pipeline essentially performs shot pruning, controlled by a userprovided shot retention parameter, that removes segments from the skim based on the narrative prominence of movie characters in both the visual and the audio modalities. This novel process (Multimodal Shot Pruning, or MSP) is algebraically modelled as a multimodal matrix Column Subset Selection Problem, which is solved using an evolutionary computing approach. Subsequently, disorienting editing effects induced by summarization are dealt with, through manipulation of the video skim. At the last step, the skim is suitably post-processed in order to reduce stereoscopic video defects that may cause visual fatigue.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mademlis</LastName>
+                    <ForeName>Ioannis</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tefas</LastName>
+                    <ForeName>Anastasios</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nikolaidis</LastName>
+                    <ForeName>Nikos</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pitas</LastName>
+                    <ForeName>Ioannis</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113502</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2615289</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

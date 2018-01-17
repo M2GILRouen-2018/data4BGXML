@@ -1,0 +1,156 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110719</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Examining palpebral conjunctiva for anemia assessment with image processing methods.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>125-135</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30247-4</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.08.025</ELocationID>
+            <Abstract>
+                <AbstractText>Examining the hemoglobin level of blood is an important way to achieve the diagnosis of anemia, but it requires blood drawing and blood test. Examining the color distribution of palpebral conjunctiva is a standard procedure of anemia diagnosis, which requires no blood test. However, since color perception is not always consistent among different people, we attempt to imitate the way of physical examination of palpebral conjunctiva to detect anemia, so that computers can identify anemia patients automatically in a consolidated manner for a screening process. In this paper we propose two algorithms for anemia diagnosis. The first algorithm is intended to be simple and fast, while the second one to be more sophisticated and robust, providing an option for different applications. The first algorithm consists of a simple two-stage classifier. In the first stage, we use a thresholding decision technique based on a feature called high hue rate (HHR) (extracted from the HSI color space). In the second stage, a feature called pixel value in the middle (PVM) (extracted from the RGB color space) is proposed, followed by the use of a minimum distance classifier based on Mahalanobis distance. In the second algorithm, we consider 18 possible features, including a newly added entropy feature, some improved features from the first algorithm, and 13 features proposed in a previous work. We use correlation and simple statistics to select 3 relatively independent features (entropy, binarization of HHR, and PVM of G component) for classification using a support vector machine or an artificial neural network. Finally, we evaluate the classification performance of the proposed algorithms in terms of sensitivity, specificity, and Kappa value. The experimental results show relatively good performance and prove the feasibility of our attempt, which may encourage more follow-up study in the future.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yi-Ming</ForeName>
+                    <Initials>YM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Acoustic Science and Technology Laboratory, College of Underwater Acoustic Engineering, Harbin Engineering University, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miaou</LastName>
+                    <ForeName>Shaou-Gang</ForeName>
+                    <Initials>SG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electronic Engineering, Chung Yuan Christian University, Taiwan. Electronic address: miaou@cycu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bian</LastName>
+                    <ForeName>Hongyu</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Acoustic Science and Technology Laboratory, College of Underwater Acoustic Engineering, Harbin Engineering University, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D018798" MajorTopicYN="N">Anemia, Iron-Deficiency</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003228" MajorTopicYN="N">Conjunctiva</DescriptorName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="Y">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="N">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="N">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Anemia</Keyword>
+            <Keyword MajorTopicYN="N">Artificial neural network</Keyword>
+            <Keyword MajorTopicYN="N">Color and texture features</Keyword>
+            <Keyword MajorTopicYN="N">Images of palpebral conjunctiva</Keyword>
+            <Keyword MajorTopicYN="N">Support vector machine</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110719</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30247-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.08.025</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

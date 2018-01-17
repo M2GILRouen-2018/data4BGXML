@@ -1,0 +1,181 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28116639</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-5447</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Australasian physical &amp; engineering sciences in medicine</Title>
+                <ISOAbbreviation>Australas Phys Eng Sci Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Localized-atlas-based segmentation of breast MRI in a decision-making framework.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>69-84</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s13246-016-0513-3</ELocationID>
+            <Abstract>
+                <AbstractText>Breast-region segmentation is an important step for density estimation and Computer-Aided Diagnosis (CAD) systems in Magnetic Resonance Imaging (MRI). Detection of breast-chest wall boundary is often a difficult task due to similarity between gray-level values of fibroglandular tissue and pectoral muscle. This paper proposes a robust breast-region segmentation method which is applicable for both complex cases with fibroglandular tissue connected to the pectoral muscle, and simple cases with high contrast boundaries. We present a decision-making framework based on geometric features and support vector machine (SVM) to classify breasts in two main groups, complex and simple. For complex cases, breast segmentation is done using a combination of intensity-based and atlas-based techniques; however, only intensity-based operation is employed for simple cases. A novel atlas-based method, that is called localized-atlas, accomplishes the processes of atlas construction and registration based on the region of interest (ROI). Atlas-based segmentation is performed by relying on the chest wall template. Our approach is validated using a dataset of 210 cases. Based on similarity between automatic and manual segmentation results, the proposed method achieves Dice similarity coefficient, Jaccard coefficient, total overlap, false negative, and false positive values of 96.3, 92.9, 97.4, 2.61 and 4.77%, respectively. The localization error of the breast-chest wall boundary is 1.97 mm, in terms of averaged deviation distance. The achieved results prove that the suggested framework performs the breast segmentation with negligible errors and efficient computational time for different breasts from the viewpoints of size, shape, and density pattern.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Fooladivanda</LastName>
+                    <ForeName>Aida</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Iran University of Science and Technology (IUST), Tehran, Iran. a_fooladivanda@iust.ac.ir.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shokouhi</LastName>
+                    <ForeName>Shahriar B</ForeName>
+                    <Initials>SB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Iran University of Science and Technology (IUST), Tehran, Iran.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ahmadinejad</LastName>
+                    <ForeName>Nasrin</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Advanced Diagnostic and Interventional Radiology Research Center (ADIR), Tehran University of Medical Science, Tehran, Iran.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Australas Phys Eng Sci Med</MedlineTA>
+            <NlmUniqueID>8208130</NlmUniqueID>
+            <ISSNLinking>0158-9938</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000716" MajorTopicYN="N">Anatomy, Artistic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019540" MajorTopicYN="N">Area Under Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001271" MajorTopicYN="Y">Atlases as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001940" MajorTopicYN="N">Breast</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="Y">anatomy &amp; histology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003657" MajorTopicYN="Y">Decision Making</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="Y">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="Y">Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="N">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D035441" MajorTopicYN="N">Thoracic Wall</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="N">anatomy &amp; histology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Atlas-based segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Breast MRI</Keyword>
+            <Keyword MajorTopicYN="N">Breast segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Geometric features</Keyword>
+            <Keyword MajorTopicYN="N">Localized-atlas</Keyword>
+            <Keyword MajorTopicYN="N">Support vector machine (SVM)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28116639</ArticleId>
+            <ArticleId IdType="doi">10.1007/s13246-016-0513-3</ArticleId>
+            <ArticleId IdType="pii">10.1007/s13246-016-0513-3</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

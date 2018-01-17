@@ -1,0 +1,174 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28947008</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>151</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A method for generating 3D thermal models with decoupled acquisition.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>79-90</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)31419-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.08.009</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Both thermal imaging and 3D scanning offer convenient advantages for medical applications, namely, being contactless, non-invasive and fast. Consequently, many approaches have been proposed to combine both sensing modalities in order to acquire 3D thermal models. The predominant approach is to affix a 3D scanner and a thermal camera in the same support and calibrate them together. While this approach allows straightforward projection of thermal images over the 3D mesh, it requires their simultaneous acquisition. In this work, a method for generation of 3D thermal models that allows combination of separately acquired 3D mesh and thermal images is presented. Among the advantages of this decoupled acquisition are increased modularity of acquisition procedures and reuse of legacy equipment and data.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed method is based on the projection of thermal images over a 3D mesh. Unlike previous methods, it is considered that the 3D mesh and the thermal images are acquired separately, so camera pose estimation is required to determine the correct spatial positioning from which to project the images. This is done using Structure from Motion, which requires a series of interest points correspondences between the images, for which the SIFT method was used. As thermal images of human skin are predominantly homogeneous, an intensity transformation is proposed to increase the efficacy of interest point detection and make the approach feasible. Before projection, the adequate alignment of the 3D mesh in space is determined using Particle Swarm Optimization. For validation of the method, the design and implementation of a test object is presented. It can be used to validate other methods and can be reproduced with common printed circuit board manufacturing processes.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The proposed approach is accurate, with an average displacement error of 1.41  mm (s = 0.74  mm) with the validation test object and 4.58 mm (s = 2.12  mm) with human subjects.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The proposed method is able to combine separately a acquired 3D mesh and thermal images into an accurate 3D thermal model. The results with human subjects suggest that the method can be successfully employed in medical applications.</AbstractText>
+                <CopyrightInformation>Copyright © 2017. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Krefer</LastName>
+                    <ForeName>Andriy Guilherme</ForeName>
+                    <Initials>AG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School on Electrical Engineering - CPGEI, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: andriy.krefer@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lie</LastName>
+                    <ForeName>Maiko Min Ian</ForeName>
+                    <Initials>MMI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School on Electrical Engineering - CPGEI, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: minian.lie@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borba</LastName>
+                    <ForeName>Gustavo Benvenutti</ForeName>
+                    <Initials>GB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School on Biomedical Engineering - PPGEB, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: gustavobborba@utfpr.edu.br.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gamba</LastName>
+                    <ForeName>Humberto Remigio</ForeName>
+                    <Initials>HR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School on Electrical Engineering - CPGEI, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: humberto@utfpr.edu.br.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lavarda</LastName>
+                    <ForeName>Marcos Dinís</ForeName>
+                    <Initials>MD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School on Biomedical Engineering - PPGEB, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: marcos.dinis.lavarda@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abreu de Souza</LastName>
+                    <ForeName>Mauren</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School on Biomedical Engineering - PPGEB, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: mauren.abreu.souza@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="Y">Imaging, Three-Dimensional</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="N">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012881" MajorTopicYN="Y">Skin Temperature</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">3D thermography</Keyword>
+            <Keyword MajorTopicYN="N">Multi-modality imaging</Keyword>
+            <Keyword MajorTopicYN="N">Scale Invariant Feature Transform</Keyword>
+            <Keyword MajorTopicYN="N">Structure from Motion</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28947008</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)31419-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.08.009</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,153 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28940825</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1552-6569</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>28</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of neuroimaging : official journal of the American Society of Neuroimaging</Title>
+                <ISOAbbreviation>J Neuroimaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cluster Confidence Index: A Streamline-Wise Pathway Reproducibility Metric for Diffusion-Weighted MRI Tractography.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>64-69</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/jon.12467</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Diffusion-weighted magnetic resonance imaging tractography can be used to create models of white matter fascicles. Anatomical and pathological variability between subjects can drastically alter the tractography output, so standardizing results across a cohort is nontrivial. Furthermore, tractography methods have inherently low reproducibility due to stochasticity (for probabilistic methods) and subjective decisions, since the final fascicle model often requires a manual intervention step performed by an expert human operator to control both outliers and systematic false-positive pathways, as defined by prior knowledge of anatomy.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We present an approach that computationally assigns a cluster confidence index (CCI) reflecting the reproducibility of that pathway in the context of a streamline dataset. This metric is a tractography algorithm-agnostic tool that can be applied to any dataset of streamlines.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Applications of this metric include systematic elimination of outlier streamlines using a CCI threshold and interactive filtering by CCI to facilitate manual segmentation of fascicle models.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This method is intended to replace the application of a streamline density threshold so that outliers are eliminated based on low pathway density instead of voxel-wise density.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 by the American Society of Neuroimaging.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jordan</LastName>
+                    <ForeName>Kesshi M</ForeName>
+                    <Initials>KM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Neurology, University of California, San Francisco, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Amirbekian</LastName>
+                    <ForeName>Bagrat</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Neurology, University of California, San Francisco, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Keshavan</LastName>
+                    <ForeName>Anisha</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Neurology, University of California, San Francisco, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Henry</LastName>
+                    <ForeName>Roland G</ForeName>
+                    <Initials>RG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Neurology, University of California, San Francisco, CA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Radiology and Biomedical Imaging, University of California, San Francisco, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Neuroimaging</MedlineTA>
+            <NlmUniqueID>9102705</NlmUniqueID>
+            <ISSNLinking>1051-2284</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Reproducibility of results</Keyword>
+            <Keyword MajorTopicYN="N">diffusion-weighted magnetic resonance imaging</Keyword>
+            <Keyword MajorTopicYN="N">open-source software</Keyword>
+            <Keyword MajorTopicYN="N">probabilistic tractography</Keyword>
+            <Keyword MajorTopicYN="N">white matter fascicle model</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28940825</ArticleId>
+            <ArticleId IdType="doi">10.1111/jon.12467</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,268 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901614</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Investigating simulation-based metrics for characterizing linear iterative reconstruction in digital breast tomosynthesis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e279-e296</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12445</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Simulation-based image quality metrics are adapted and investigated for characterizing the parameter dependences of linear iterative image reconstruction for DBT.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Three metrics based on a 2D DBT simulation are investigated: (1) a root-mean-square-error (RMSE) between the test phantom and reconstructed image, (2) a gradient RMSE where the comparison is made after taking a spatial gradient of both image and phantom, and (3) a region-of-interest (ROI) Hotelling observer (HO) for signal-known-exactly/background-known-exactly (SKE/BKE) and signal-known-exactly/background-known-statistically (SKE/BKS) detection tasks. Two simulation studies are performed using the aforementioned metrics, varying voxel aspect ratio, and regularization strength for two types of Tikhonov-regularized least-squares optimization. The RMSE metrics are applied to a 2D test phantom with resolution bar patterns at varying angles, and the ROI-HO metric is applied to two tasks relevant to DBT: lesion detection, modeled by use of a large, low-contrast signal, and microcalcification detection, modeled by use of a small, high-contrast signal. The RMSE metric trends are compared with visual assessment of the reconstructed bar-pattern phantom. The ROI-HO metric trends are compared with 3D reconstructed images from ACR phantom data acquired with a Hologic Selenia Dimensions DBT system.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Sensitivity of the image RMSE to mean pixel value is found to limit its applicability to the assessment of DBT image reconstruction. The image gradient RMSE is insensitive to mean pixel value and appears to track better with subjective visualization of the reconstructed bar-pattern phantom. The ROI-HO metric shows an increasing trend with regularization strength for both forms of Tikhonov-regularized least-squares; however, this metric saturates at intermediate regularization strength indicating a point of diminishing returns for signal detection. Visualization with the reconstructed ACR phantom images appear to show a similar dependence with regularization strength.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">From the limited studies presented it appears that image gradient RMSE trends correspond with visual assessment better than image RMSE for DBT image reconstruction. The ROI-HO metric for both detection tasks also appears to reflect visual trends in the ACR phantom reconstructions as a function of regularization strength. We point out, however, that the true utility of these metrics can only be assessed after amassing more data.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rose</LastName>
+                    <ForeName>Sean D</ForeName>
+                    <Initials>SD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sanchez</LastName>
+                    <ForeName>Adrian A</ForeName>
+                    <Initials>AA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sidky</LastName>
+                    <ForeName>Emil Y</ForeName>
+                    <Initials>EY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Xiaochuan</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>F31 EB023076</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA158446</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA182264</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 EB018102</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2013 Mar 21;58(6):1663-81</RefSource>
+                <PMID Version="1">23422272</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Apr;37(4):1591-600</RefSource>
+                <PMID Version="1">20443480</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2013 Jan;40(1):014302</RefSource>
+                <PMID Version="1">23298127</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2013 Mar;40(3):031104</RefSource>
+                <PMID Version="1">23464284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2011 Feb;15(1):53-70</RefSource>
+                <PMID Version="1">20713313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Jun;37(6):2627-37</RefSource>
+                <PMID Version="1">20632574</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2004 Sep;31(9):2636-47</RefSource>
+                <PMID Version="1">15487747</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Opt Soc Am A. 1990 Jul;7(7):1279-93</RefSource>
+                <PMID Version="1">2370590</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2008 Dec;35(12):5242-52</RefSource>
+                <PMID Version="1">19175083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2013 Sep 7;58(17):6011-27</RefSource>
+                <PMID Version="1">23938858</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 1996;5(9):1346-58</RefSource>
+                <PMID Version="1">18285223</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2011 Apr;38(4):1754-68</RefSource>
+                <PMID Version="1">21626910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2015 Sep 21;60(18):7007-33</RefSource>
+                <PMID Version="1">26308968</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Imaging (Bellingham). 2014 Dec 8;1(3):031010</RefSource>
+                <PMID Version="1">25685825</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2004 Jun 7;49(11):2463-75</RefSource>
+                <PMID Version="1">15248590</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Mar;39(3):1435-41</RefSource>
+                <PMID Version="1">22380376</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2009 Jun;251(3):673-82</RefSource>
+                <PMID Version="1">19474373</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2009 Apr;36(4):1199-207</RefSource>
+                <PMID Version="1">19472626</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2013 May;40(5):051914</RefSource>
+                <PMID Version="1">23635284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2014 Oct;41(10 ):101917</RefSource>
+                <PMID Version="1">25281969</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2015 Feb 7;60(3):1259-88</RefSource>
+                <PMID Version="1">25591807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Opt Soc Am A Opt Image Sci Vis. 2007 Dec;24(12):B52-60</RefSource>
+                <PMID Version="1">18059914</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Dec;37(12):6253-70</RefSource>
+                <PMID Version="1">21302782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2008 Oct;35(10 ):4685-94</RefSource>
+                <PMID Version="1">18975714</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Imaging (Bellingham). 2016 Jan;3(1):011008</RefSource>
+                <PMID Version="1">26702408</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Hotelling observer</Keyword>
+            <Keyword MajorTopicYN="N">digital breast tomosynthesis</Keyword>
+            <Keyword MajorTopicYN="N">image reconstruction</Keyword>
+            <Keyword MajorTopicYN="N">model observers</Keyword>
+            <Keyword MajorTopicYN="N">signal detection</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901614</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12445</ArticleId>
+            <ArticleId IdType="pmc">PMC5604860</ArticleId>
+            <ArticleId IdType="mid">NIHMS889616</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

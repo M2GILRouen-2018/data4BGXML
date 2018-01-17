@@ -1,0 +1,126 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28108451</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>GWAR: robust analysis and meta-analysis of genome-wide association studies.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1521-1527</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx008</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">In the context of genome-wide association studies (GWAS), there is a variety of statistical techniques in order to conduct the analysis, but, in most cases, the underlying genetic model is usually unknown. Under these circumstances, the classical Cochran-Armitage trend test (CATT) is suboptimal. Robust procedures that maximize the power and preserve the nominal type I error rate are preferable. Moreover, performing a meta-analysis using robust procedures is of great interest and has never been addressed in the past. The primary goal of this work is to implement several robust methods for analysis and meta-analysis in the statistical package Stata and subsequently to make the software available to the scientific community.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">The CATT under a recessive, additive and dominant model of inheritance as well as robust methods based on the Maximum Efficiency Robust Test statistic, the MAX statistic and the MIN2 were implemented in Stata. Concerning MAX and MIN2, we calculated their asymptotic null distributions relying on numerical integration resulting in a great gain in computational time without losing accuracy. All the aforementioned approaches were employed in a fixed or a random effects meta-analysis setting using summary data with weights equal to the reciprocal of the combined cases and controls. Overall, this is the first complete effort to implement procedures for analysis and meta-analysis in GWAS using Stata.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">A Stata program and a web-server are freely available for academic users at http://www.compgen.org/tools/GWAR.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">pbagos@compgen.org.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dimou</LastName>
+                    <ForeName>Niki L</ForeName>
+                    <Initials>NL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Biomedical Informatics, University of Thessaly, Lamia 35100, Greece.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Hygiene and Epidemiology, School of Medicine, University of Ioannina, Ioannina 45110, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsirigos</LastName>
+                    <ForeName>Konstantinos D</ForeName>
+                    <Initials>KD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Biophysics, Science for Life Laboratory, Swedish E-Science Research Center, Stockholm University, Box 1031, Solna 17121, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Elofsson</LastName>
+                    <ForeName>Arne</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Biophysics, Science for Life Laboratory, Swedish E-Science Research Center, Stockholm University, Box 1031, Solna 17121, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bagos</LastName>
+                    <ForeName>Pantelis G</ForeName>
+                    <Initials>PG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Biomedical Informatics, University of Thessaly, Lamia 35100, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28108451</ArticleId>
+            <ArticleId IdType="pii">btx008</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx008</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

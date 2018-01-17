@@ -1,0 +1,151 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29178161</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Analytical dose modeling for preclinical proton irradiation of millimetric targets.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12696</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Due to the considerable development of proton radiotherapy, several proton platforms have emerged to irradiate small animals in order to study the biological effectiveness of proton radiation. A dedicated analytical treatment planning tool was developed in this study to accurately calculate the delivered dose given the specific constraints imposed by the small dimensions of the irradiated areas.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The treatment planning system (TPS) developed in this study is based on an analytical formulation of the Bragg peak and uses experimental range values of protons. The method was validated after comparison with experimental data from the literature and then compared to Monte Carlo simulations conducted using Geant4. Three examples of treatment planning, performed with phantoms made of water targets and bone-slab insert, were generated with the analytical formulation and Geant4. Each treatment planning was evaluated using dose-volume histograms and gamma index maps.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We demonstrate the value of the analytical function for mouse irradiation, which requires a targeting accuracy of 0.1 mm. Using the appropriate database, the analytical modeling limits the errors caused by misestimating the stopping power. For example, 99% of a 1-mm tumor irradiated with a 24-MeV beam receives the prescribed dose. The analytical dose deviations from the prescribed dose remain within the dose tolerances stated by report 62 of the International Commission on Radiation Units and Measurements for all tested configurations. In addition, the gamma index maps show that the highly constrained targeting accuracy of 0.1 mm for mouse irradiation leads to a significant disagreement between Geant4 and the reference. This simulated treatment planning is nevertheless compatible with a targeting accuracy exceeding 0.2 mm, corresponding to rat and rabbit irradiations.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Good dose accuracy for millimetric tumors is achieved with the analytical calculation used in this work. These volume sizes are typical in mouse models for radiation studies. Our results demonstrate that the choice of analytical rather than simulated treatment planning depends on the animal model under consideration.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vanstalle</LastName>
+                    <ForeName>Marie</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Strasbourg, CNRS, IPHC UMR 7178, Strasbourg, F-67000, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Constanzo</LastName>
+                    <ForeName>Julie</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Strasbourg, CNRS, IPHC UMR 7178, Strasbourg, F-67000, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karakaya</LastName>
+                    <ForeName>Yusuf</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Strasbourg, CNRS, IPHC UMR 7178, Strasbourg, F-67000, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Finck</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Strasbourg, CNRS, IPHC UMR 7178, Strasbourg, F-67000, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rousseau</LastName>
+                    <ForeName>Marc</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Strasbourg, CNRS, IPHC UMR 7178, Strasbourg, F-67000, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brasse</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Strasbourg, CNRS, IPHC UMR 7178, Strasbourg, F-67000, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Geant4</Keyword>
+            <Keyword MajorTopicYN="N">analytical dose modeling</Keyword>
+            <Keyword MajorTopicYN="N">millimetric target</Keyword>
+            <Keyword MajorTopicYN="N">protontherapy</Keyword>
+            <Keyword MajorTopicYN="N">small animal</Keyword>
+            <Keyword MajorTopicYN="N">treatment planning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29178161</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12696</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

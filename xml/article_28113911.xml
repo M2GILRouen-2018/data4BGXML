@@ -1,0 +1,89 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113911</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <MedlineDate>2017 Jul-Aug</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A New Feature Vector Based on Gene Ontology Terms for Protein-Protein Interaction Prediction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>762-770</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2555304</ELocationID>
+            <Abstract>
+                <AbstractText>Protein-protein interaction (PPI) plays a key role in understanding cellular mechanisms in different organisms. Many supervised classifiers like Random Forest (RF) and Support Vector Machine (SVM) have been used for intra or inter-species interaction prediction. For improving the prediction performance, in this paper we propose a novel set of features to represent a protein pair using their annotated Gene Ontology (GO) terms, including their ancestors. In our approach, a protein pair is treated as a document (bag of words), where the terms annotating the two proteins represent the words. Feature value of each word is calculated using information content of the corresponding term multiplied by a coefficient, which represents the weight of that term inside a document (i.e., a protein pair). We have tested the performance of the classifier using the proposed feature on different well known data sets of different species like S. cerevisiae, H. Sapiens, E. Coli, and D. melanogaster. We compare it with the other GO based feature representation technique, and demonstrate its competitive performance.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bandyopadhyay</LastName>
+                    <ForeName>Sanghamitra</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mallick</LastName>
+                    <ForeName>Koushik</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113911</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2555304</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

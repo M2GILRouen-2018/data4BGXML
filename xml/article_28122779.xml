@@ -1,0 +1,128 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28122779</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Introducing COCOS: codon consequence scanner for annotating reading frame changes induced by stop-lost and frame shift variants.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1561-1562</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btw820</ELocationID>
+            <Abstract>
+                <AbstractText Label="Summary" NlmCategory="UNASSIGNED">Reading frame altering genomic variants can impact gene expression levels and the structure of protein products, thus potentially inducing disease phenotypes. Current annotation approaches report the impact of such variants in the context of altered DNA sequence only; attributes of the resulting transcript, reading frame and translated protein product are not reported. To remedy this shortcoming, we present a new genetic annotation approach termed Codon Consequence Scanner (COCOS). Implemented as an Ensembl variant effect predictor (VEP) plugin, COCOS captures amino acid sequence alterations stemming from variants that produce an altered reading frame, such as stop-lost variants and small insertions and deletions (InDels). To highlight its significance, COCOS was applied to data from the 1000 Genomes Project. Transcripts affected by stop-lost variants introduce a median of 15 amino acids, while InDels have a more extensive impact with a median of 66 amino acids being incorporated. Captured sequence alterations are written out in FASTA format and can be further analyzed for impact on the underlying protein structure.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">COCOS is available to all users on github: https://github.com/butkiem/COCOS.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">mariusz.butkiewicz@case.edu.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Butkiewicz</LastName>
+                    <ForeName>Mariusz</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Biostatistics, Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Haines</LastName>
+                    <ForeName>Jonathan L</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Biostatistics, Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bush</LastName>
+                    <ForeName>William S</ForeName>
+                    <Initials>WS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Biostatistics, Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>U01 AG032984</GrantID>
+                    <Acronym>AG</Acronym>
+                    <Agency>NIA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UF1 AG047133</GrantID>
+                    <Acronym>AG</Acronym>
+                    <Agency>NIA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28122779</ArticleId>
+            <ArticleId IdType="pii">btw820</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btw820</ArticleId>
+            <ArticleId IdType="pmc">PMC5423451</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

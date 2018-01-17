@@ -1,0 +1,146 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28108198</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1095-9130</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>115</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Methods (San Diego, Calif.)</Title>
+                <ISOAbbreviation>Methods</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>TED: A Tolerant Edit Distance for segmentation evaluation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>119-127</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1046-2023(16)30507-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ymeth.2016.12.013</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, we present a novel error measure to compare a computer-generated segmentation of images or volumes against ground truth. This measure, which we call Tolerant Edit Distance (TED), is motivated by two observations that we usually encounter in biomedical image processing: (1) Some errors, like small boundary shifts, are tolerable in practice. Which errors are tolerable is application dependent and should be explicitly expressible in the measure. (2) Non-tolerable errors have to be corrected manually. The effort needed to do so should be reflected by the error measure. Our measure is the minimal weighted sum of split and merge operations to apply to one segmentation such that it resembles another segmentation within specified tolerance bounds. This is in contrast to other commonly used measures like Rand index or variation of information, which integrate small, but tolerable, differences. Additionally, the TED provides intuitive numbers and allows the localization and classification of errors in images or volumes. We demonstrate the applicability of the TED on 3D segmentations of neurons in electron microscopy images where topological correctness is arguable more important than exact boundary locations. Furthermore, we show that the TED is not just limited to evaluation tasks. We use it as the loss function in a max-margin learning framework to find parameters of an automatic neuron segmentation algorithm. We show that training to minimize the TED, i.e., to minimize crucial errors, leads to higher segmentation accuracy compared to other learning methods.</AbstractText>
+                <CopyrightInformation>Copyright © 2016. Published by Elsevier Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Funke</LastName>
+                    <ForeName>Jan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut de Robòtica i Informàtica Industrial, UPC/CSIC, Barcelona, Spain; Janelia Research Campus, VA, Ashburn, United States; Institute of Neuroinformatics, UZH/ETH, Zurich, Switzerland. Electronic address: jfunke@iri.upc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Klein</LastName>
+                    <ForeName>Jonas</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Neuroinformatics, UZH/ETH, Zurich, Switzerland. Electronic address: klein@ini.uzh.ch.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moreno-Noguer</LastName>
+                    <ForeName>Francesc</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut de Robòtica i Informàtica Industrial, UPC/CSIC, Barcelona, Spain. Electronic address: fmoreno@iri.upc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cardona</LastName>
+                    <ForeName>Albert</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Janelia Research Campus, VA, Ashburn, United States. Electronic address: cardonaa@janelia.hhmi.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cook</LastName>
+                    <ForeName>Matthew</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Neuroinformatics, UZH/ETH, Zurich, Switzerland. Electronic address: cook@ini.uzh.ch.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Methods</MedlineTA>
+            <NlmUniqueID>9426302</NlmUniqueID>
+            <ISSNLinking>1046-2023</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Computer vision</Keyword>
+            <Keyword MajorTopicYN="N">Electron microscopy</Keyword>
+            <Keyword MajorTopicYN="N">Evaluation</Keyword>
+            <Keyword MajorTopicYN="N">Learning</Keyword>
+            <Keyword MajorTopicYN="N">Neuron segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28108198</ArticleId>
+            <ArticleId IdType="pii">S1046-2023(16)30507-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ymeth.2016.12.013</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113449</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Blessing of Dimensionality: Recovering Mixture Data via Dictionary Pursuit.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2539946</ELocationID>
+            <Abstract>
+                <AbstractText>This paper studies the problem of recovering the authentic samples that lie on a union of multiple subspaces from their corrupted observations. Due to the high-dimensional and massive nature of today's data-driven community, it is arguable that the target matrix (i.e., authentic sample matrix) to recover is often low-rank. In this case, the recently established Robust Principal Component Analysis (RPCA) method already provides us a convenient way to solve the problem of recovering mixture data. However, in general, RPCA is not good enough because the incoherent condition assumed by RPCA is not so consistent with the mixture structure of multiple subspaces. Namely, when the subspace number grows, the row-coherence of data keeps heightening and, accordingly, RPCA degrades. To overcome the challenges arising from mixture data, we suggest to consider LRR in this paper. We elucidate that LRR can well handle mixture data, as long as its dictionary is configured appropriately. More precisely, we mathematically prove that LRR can weaken the dependence on the row-coherence, provided that the dictionary is well-conditioned and has a rank of not too high. In particular, if the dictionary itself is sufficiently low-rank, then the dependence on the row-coherence can be completely removed. These provide some elementary principles for dictionary learning and naturally lead to a practical algorithm for recovering mixture data. Our experiments on randomly generated matrices and real motion sequences show promising results.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Guangcan</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Qingshan</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Ping</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113449</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2539946</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

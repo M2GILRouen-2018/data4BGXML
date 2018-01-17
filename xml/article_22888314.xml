@@ -1,0 +1,380 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28943846</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1662-5188</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>11</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in computational neuroscience</Title>
+                <ISOAbbreviation>Front Comput Neurosci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Computational Model for the Automatic Diagnosis of Attention Deficit Hyperactivity Disorder Based on Functional Brain Volume.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>75</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fncom.2017.00075</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, we investigated the problem of computer-aided diagnosis of Attention Deficit Hyperactivity Disorder (ADHD) using machine learning techniques. With the ADHD-200 dataset, we developed a Support Vector Machine (SVM) model to classify ADHD patients from typically developing controls (TDCs), using the regional brain volumes as predictors. Conventionally, the volume of a brain region was considered to be an anatomical feature and quantified using structural magnetic resonance images. One major contribution of the present study was that we had initially proposed to measure the regional brain volumes using fMRI images. Brain volumes measured from fMRI images were denoted as functional volumes, which quantified the volumes of brain regions that were actually functioning during fMRI imaging. We compared the predictive power of functional volumes with that of regional brain volumes measured from anatomical images, which were denoted as anatomical volumes. The former demonstrated higher discriminative power than the latter for the classification of ADHD patients vs. TDCs. Combined with our two-step feature selection approach which integrated prior knowledge with the recursive feature elimination (RFE) algorithm, our SVM classification model combining functional volumes and demographic characteristics achieved a balanced accuracy of 67.7%, which was 16.1% higher than that of a relevant model published previously in the work of Sato et al. Furthermore, our classifier highlighted 10 brain regions that were most discriminative in distinguishing between ADHD patients and TDCs. These 10 regions were mainly located in occipital lobe, cerebellum posterior lobe, parietal lobe, frontal lobe, and temporal lobe. Our present study using functional images will likely provide new perspectives about the brain regions affected by ADHD.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>Lirong</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Biomedical Informatics, Cincinnati Children's Hospital Research FoundationCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering and Computing System, University of CincinnatiCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Xinyu</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Biomedical Informatics, Cincinnati Children's Hospital Research FoundationCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering and Computing System, University of CincinnatiCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Sheng</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Biomedical Informatics, Cincinnati Children's Hospital Research FoundationCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mathematical Sciences, McMicken College of Arts and Sciences, University of CincinnatiCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Epstein</LastName>
+                    <ForeName>Jeff N</ForeName>
+                    <Initials>JN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Cincinnati Children's Hospital Research FoundationCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Long J</ForeName>
+                    <Initials>LJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Biomedical Informatics, Cincinnati Children's Hospital Research FoundationCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering and Computing System, University of CincinnatiCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Management, Wuhan University, WuhanHubei, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Environmental Health, College of Medicine, University of CincinnatiCincinnati, OH, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 HL111829</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR000077</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR001425</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Comput Neurosci</MedlineTA>
+            <NlmUniqueID>101477956</NlmUniqueID>
+            <ISSNLinking>1662-5188</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Atten Disord. 2011 Jul;15(5):368-81</RefSource>
+                <PMID Version="1">21490174</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Sep 24;6:68</RefSource>
+                <PMID Version="1">23015782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurology. 1998 Apr;50(4):1087-93</RefSource>
+                <PMID Version="1">9566399</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2013 Aug 15;77:44-51</RefSource>
+                <PMID Version="1">23571416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Psychiatry. 2007 Jun 15;61(12):1361-9</RefSource>
+                <PMID Version="1">16950217</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Sep 28;6:69</RefSource>
+                <PMID Version="1">23060754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(9):e25159</RefSource>
+                <PMID Version="1">21949877</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain Behav. 2015 Oct 12;5(12 ):e00391</RefSource>
+                <PMID Version="1">26807332</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Feb 1;49(3):2216-24</RefSource>
+                <PMID Version="1">19878722</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Psychiatry. 2011 Nov;168(11):1154-63</RefSource>
+                <PMID Version="1">21865529</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2007 Oct 1;23(19):2507-17</RefSource>
+                <PMID Version="1">17720704</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Psychiatry. 2009 Nov 15;66(10):972-7</RefSource>
+                <PMID Version="1">19576573</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain Topogr. 2011 Oct;24(3-4):243-52</RefSource>
+                <PMID Version="1">21191807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurosci Bull. 2013 Oct;29(5):603-13</RefSource>
+                <PMID Version="1">23861089</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Psychiatry. 2008 Jun 30;8:51</RefSource>
+                <PMID Version="1">18590567</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Imaging. 2009 May 15;9:8</RefSource>
+                <PMID Version="1">19445668</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2008 Oct 15;43(1):44-58</RefSource>
+                <PMID Version="1">18672070</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dialogues Clin Neurosci. 2002 Dec;4(4):444-8</RefSource>
+                <PMID Version="1">22034444</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Psychiatr Scand. 2012 Feb;125(2):114-26</RefSource>
+                <PMID Version="1">22118249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(9):e45671</RefSource>
+                <PMID Version="1">23049834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Gen Psychiatry. 2001 Mar;58(3):289-95</RefSource>
+                <PMID Version="1">11231836</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychiatry Res. 2012 Oct 30;204(1):32-9</RefSource>
+                <PMID Version="1">23142193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Acad Child Adolesc Psychiatry. 2010 Mar;49(3):229-38</RefSource>
+                <PMID Version="1">20410712</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Oct 1;58(3):785-92</RefSource>
+                <PMID Version="1">21708272</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Aug 16;6:59</RefSource>
+                <PMID Version="1">22912605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2002 Oct 9;288(14):1740-8</RefSource>
+                <PMID Version="1">12365958</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Psychiatry. 2007 Apr;164(4):647-55</RefSource>
+                <PMID Version="1">17403979</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Imaging. 2010 May;28(4):583-93</RefSource>
+                <PMID Version="1">20096528</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AJNR Am J Neuroradiol. 2007 Mar;28(3):543-7</RefSource>
+                <PMID Version="1">17353333</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurosci Lett. 2011 Sep 15;502(2):89-93</RefSource>
+                <PMID Version="1">21810451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(10):e48658</RefSource>
+                <PMID Version="1">23119084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Gen Psychiatry. 2006 May;63(5):540-9</RefSource>
+                <PMID Version="1">16651511</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Schizophr Res. 2010 Mar;117(1):13-20</RefSource>
+                <PMID Version="1">19854028</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2014 Sep;98:405-15</RefSource>
+                <PMID Version="1">24791746</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2008 Feb 1;39(3):1180-5</RefSource>
+                <PMID Version="1">18032068</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Sep 03;6:63</RefSource>
+                <PMID Version="1">22969710</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 May 16;8(5):e63660</RefSource>
+                <PMID Version="1">23696841</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage Clin. 2013 Oct 11;3:416-28</RefSource>
+                <PMID Version="1">24363991</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2002 Jan;15(1):273-89</RefSource>
+                <PMID Version="1">11771995</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2013 Jul 15;75:249-61</RefSource>
+                <PMID Version="1">21924367</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Brain Mapp. 2012 Aug;33(8):1914-28</RefSource>
+                <PMID Version="1">21769991</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Gen Psychiatry. 1996 Jul;53(7):607-16</RefSource>
+                <PMID Version="1">8660127</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(2):e28664</RefSource>
+                <PMID Version="1">22319555</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Mar 1;55(1):287-95</RefSource>
+                <PMID Version="1">21118724</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Sep 05;6:62</RefSource>
+                <PMID Version="1">22973200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Psychiatry. 2002 Oct 15;52(8):785-94</RefSource>
+                <PMID Version="1">12372650</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2001 Jun;17(6):520-5</RefSource>
+                <PMID Version="1">11395428</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2008 Jul 15;172(1):137-41</RefSource>
+                <PMID Version="1">18501969</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain Dev. 2007 Mar;29(2):83-91</RefSource>
+                <PMID Version="1">16919409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurosci Lett. 2005 Dec 2;389(2):88-93</RefSource>
+                <PMID Version="1">16129560</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Syst Neurosci. 2012 Aug 06;6:58</RefSource>
+                <PMID Version="1">22888314</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">attention deficit hyperactivity disorder</Keyword>
+            <Keyword MajorTopicYN="N">automatic diagnosis</Keyword>
+            <Keyword MajorTopicYN="N">functional volume</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+            <Keyword MajorTopicYN="N">support vector machine</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28943846</ArticleId>
+            <ArticleId IdType="doi">10.3389/fncom.2017.00075</ArticleId>
+            <ArticleId IdType="pmc">PMC5596085</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

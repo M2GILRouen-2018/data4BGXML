@@ -1,0 +1,205 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27147329</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>05</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>08</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>43</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic coronary calcium scoring using noncontrast and contrast CT images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2174</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1118/1.4945045</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Calcium scoring is widely used to assess the risk of coronary heart disease (CHD). Accurate coronary artery calcification detection in noncontrast CT image is a prerequisite step for coronary calcium scoring. Currently, calcified lesions in the coronary arteries are manually identified by radiologists in clinical practice. Thus, in this paper, a fully automatic calcium scoring method was developed to alleviate the work load of the radiologists or cardiologists.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The challenge of automatic coronary calcification detection is to discriminate the calcification in the coronary arteries from the calcification in the other tissues. Since the anatomy of coronary arteries is difficult to be observed in the noncontrast CT images, the contrast CT image of the same patient is used to extract the regions of the aorta, heart, and coronary arteries. Then, a patient-specific region-of-interest (ROI) is generated in the noncontrast CT image according to the segmentation results in the contrast CT image. This patient-specific ROI focuses on the regions in the neighborhood of coronary arteries for calcification detection, which can eliminate the calcifications in the surrounding tissues. A support vector machine classifier is applied finally to refine the results by removing possible image noise. Furthermore, the calcified lesions in the noncontrast images belonging to the different main coronary arteries are identified automatically using the labeling results of the extracted coronary arteries.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Forty datasets from four different CT machine vendors were used to evaluate their algorithm, which were provided by the MICCAI 2014 Coronary Calcium Scoring (orCaScore) Challenge. The sensitivity and positive predictive value for the volume of detected calcifications are 0.989 and 0.948. Only one patient out of 40 patients had been assigned to the wrong risk category defined according to Agatston scores (0, 1-100, 101-300, &gt;300) by comparing with the ground truth.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The calcified lesions in the noncontrast CT images can be detected automatically by using the segmentation results of the aorta, heart, and coronary arteries obtained in the contrast CT images with a very high accuracy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Guanyu</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China; Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China; and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China; Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China; and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ning</LastName>
+                    <ForeName>Xiufang</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Qiaoyu</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shu</LastName>
+                    <ForeName>Huazhong</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China; Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China; and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Coatrieux</LastName>
+                    <ForeName>Jean-Louis</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INSERM-U1099, Rennes F-35000, France; Labotatoire Traitement du Signal et de l'Image (LTSI), Université de Rennes 1, Campus de Beaulieu, Bat. 22, Rennes 35042 Cedex, France; and Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D003287">Contrast Media</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>SY7Q814VUP</RegistryNumber>
+                <NameOfSubstance UI="D002118">Calcium</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001011" MajorTopicYN="N">Aorta</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002118" MajorTopicYN="N">Calcium</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003287" MajorTopicYN="N">Contrast Media</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017023" MajorTopicYN="N">Coronary Angiography</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D066264" MajorTopicYN="N">Datasets as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006321" MajorTopicYN="N">Heart</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007090" MajorTopicYN="N">Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="N">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061205" MajorTopicYN="N">Vascular Calcification</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>5</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>5</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27147329</ArticleId>
+            <ArticleId IdType="doi">10.1118/1.4945045</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,96 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28910771</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>11</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A General Framework for Linear Distance Preserving Hashing.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2751150</ELocationID>
+            <Abstract>
+                <AbstractText>Binary hashing approaches the approximate nearest neighbor search problem by transferring the data to Hamming space with explicit or implicit distance preserving constraint. With compact data representation, binary hashing identifies the approximate nearest neighbors via very efficient Hamming distance computation. In this paper, we propose a generic hashing framework with a new linear pairwise distance preserving objective and point-wise constraint. In our framework, the direct distance preserving objective aims to keep the linear relationship between the Euclidean distance and the Hamming distance of data points. On the other hand, to impose the point-wise constraint, we instantiate the framework from three different perspectives with pseudo-supervised, unsupervised, and supervised clues and obtain three different hashing methods. The first one is a pseudo-supervised hashing method, which adopts a certain existing unsupervised hashing method to generate binary codes as pseudo-supervised information. For the second one, we get an unsupervised hashing method by considering the quantization loss. The third one, as a supervised hashing method, learns the hash functions in a two-step paradigm. Furthermore, we improve the above framework by constraining the global scope of the proposed linear distance preserving objective to a local range. We validate our framework on four large-scale benchmark datasets. The experiments demonstrate that our pseudo-supervised method achieves consistent improvement over the state-of-the-art unsupervised hashing methods, while our unsupervised and supervised methods achieve promising performance compared with the state-of-the-art algorithms.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Min</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Wengang</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tian</LastName>
+                    <ForeName>Qi</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Houqiang</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910771</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2751150</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,209 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28129434</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>28</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Development of an in silico stochastic 4D model of tumor growth with angiogenesis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1563-1576</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12130</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">A stochastic computer model of tumour growth with spatial and temporal components that includes tumour angiogenesis was developed. In the current work it was used to simulate head and neck tumour growth. The model also provides the foundation for a 4D cellular radiotherapy simulation tool.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The model, developed in Matlab, contains cell positions randomised in 3D space without overlap. Blood vessels are represented by strings of blood vessel units which branch outwards to achieve the desired tumour relative vascular volume. Hypoxic cells have an increased cell cycle time and become quiescent at oxygen tensions less than 1 mmHg. Necrotic cells are resorbed. A hierarchy of stem cells, transit cells and differentiated cells is considered along with differentiated cell loss. Model parameters include the relative vascular volume (2-10%), blood oxygenation (20-100 mmHg), distance from vessels to the onset of necrosis (80-300 μm) and probability for stem cells to undergo symmetric division (2%). Simulations were performed to observe the effects of hypoxia on tumour growth rate for head and neck cancers. Simulations were run on a supercomputer with eligible parts running in parallel on 12 cores.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Using biologically plausible model parameters for head and neck cancers, the tumour volume doubling time varied from 45 ± 5 days (n = 3) for well oxygenated tumours to 87 ± 5 days (n = 3) for severely hypoxic tumours.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The main achievements of the current model were randomised cell positions and the connected vasculature structure between the cells. These developments will also be beneficial when irradiating the simulated tumours using Monte Carlo track structure methods.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Forster</LastName>
+                    <ForeName>Jake C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics, University of Adelaide, North Terrace, Adelaide, South Australia, 5005, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Royal Adelaide Hospital, North Terrace, Adelaide, South Australia, 5000, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Douglass</LastName>
+                    <ForeName>Michael J J</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics, University of Adelaide, North Terrace, Adelaide, South Australia, 5005, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Royal Adelaide Hospital, North Terrace, Adelaide, South Australia, 5000, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Harriss-Phillips</LastName>
+                    <ForeName>Wendy M</ForeName>
+                    <Initials>WM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics, University of Adelaide, North Terrace, Adelaide, South Australia, 5005, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Royal Adelaide Hospital, North Terrace, Adelaide, South Australia, 5000, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bezak</LastName>
+                    <ForeName>Eva</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics, University of Adelaide, North Terrace, Adelaide, South Australia, 5005, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Sansom Institute for Health Research and School of Health Sciences, Division of Health Sciences, University of South Australia, Adelaide, South Australia, 5001, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>S88TT14065</RegistryNumber>
+                <NameOfSubstance UI="D010100">Oxygen</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D015687" MajorTopicYN="N">Cell Hypoxia</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D049109" MajorTopicYN="N">Cell Proliferation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="Y">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019583" MajorTopicYN="N">Dose Fractionation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006258" MajorTopicYN="N">Head and Neck Neoplasms</DescriptorName>
+                <QualifierName UI="Q000098" MajorTopicYN="Y">blood supply</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+                <QualifierName UI="Q000532" MajorTopicYN="N">radiotherapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008954" MajorTopicYN="N">Models, Biological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009010" MajorTopicYN="N">Monte Carlo Method</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009336" MajorTopicYN="N">Necrosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009389" MajorTopicYN="Y">Neovascularization, Pathologic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010100" MajorTopicYN="N">Oxygen</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013269" MajorTopicYN="N">Stochastic Processes</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013997" MajorTopicYN="N">Time Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">cancer</Keyword>
+            <Keyword MajorTopicYN="N">cancer stem cell</Keyword>
+            <Keyword MajorTopicYN="N">doubling time</Keyword>
+            <Keyword MajorTopicYN="N">head and neck</Keyword>
+            <Keyword MajorTopicYN="N">hypoxia</Keyword>
+            <Keyword MajorTopicYN="N">stochastic</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28129434</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12130</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

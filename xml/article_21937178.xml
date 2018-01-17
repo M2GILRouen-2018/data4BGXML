@@ -1,0 +1,158 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28149968</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>9901</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention</Title>
+                <ISOAbbreviation>Med Image Comput Comput Assist Interv</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>7T-Guided Learning Framework for Improving the Segmentation of 3T MR Images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>572-580</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/978-3-319-46723-8_66</ELocationID>
+            <Abstract>
+                <AbstractText>The emerging era of ultra-high-field MRI using 7T MRI scanners dramatically improved sensitivity, image resolution, and tissue contrast when compared to 3T MRI scanners in examining various anatomical structures. The advantages of these high-resolution MR images include higher segmentation accuracy of MRI brain tissues. However, currently, accessibility to 7T MRI scanners remains much more limited than 3T MRI scanners due to technological and economical constraints. Hence, we propose in this work the first learning-based model that improves the segmentation of an input 3T MR image with any conventional segmentation method, through the reconstruction of a higher-quality 7T-like MR image, without actually acquiring an ultra-high-field 7T MRI. Our proposed framework comprises two main steps. First, we estimate a non-linear mapping from 3T MRI to 7T MRI space, using random forest regression model with novel weighting and ensembling schemes, to reconstruct initial 7T-like MR images. Second, we use a group sparse representation with a new pre-selection approach to further refine the 7T-like MR image reconstruction. We evaluated our 7T MRI reconstruction results along with their segmentation results using 13 subjects acquired with both 3T and 7T MR images. For tissue segmentation, we applied two widely used segmentation methods (FAST and SPM) to perform the experiments. Our results showed (1) the improvement of WM, GM and CSF brain tissues segmentation results when guided by reconstructed 7T-like images compared to 3T MR images, and (2) the outperformance of the proposed 7T MRI reconstruction method when compared to other state-of-the-art methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bahrami</LastName>
+                    <ForeName>Khosro</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rekik</LastName>
+                    <ForeName>Islem</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Feng</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gao</LastName>
+                    <ForeName>Yaozong</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Dinggang</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 EB008374</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Med Image Comput Comput Assist Interv</MedlineTA>
+            <NlmUniqueID>101249582</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2014;17(Pt 3):225-32</RefSource>
+                <PMID Version="1">25320803</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Aug 1;57(3):1015-21</RefSource>
+                <PMID Version="1">21620980</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2001 Jan;20(1):45-57</RefSource>
+                <PMID Version="1">11293691</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2010 Nov;19(11):2861-73</RefSource>
+                <PMID Version="1">20483687</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2013 Dec;32(12 ):2348-63</RefSource>
+                <PMID Version="1">24058022</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2005 Jul 1;26(3):839-51</RefSource>
+                <PMID Version="1">15955494</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Radiol. 2013 May;82(5):708-18</RefSource>
+                <PMID Version="1">21937178</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28149968</ArticleId>
+            <ArticleId IdType="doi">10.1007/978-3-319-46723-8_66</ArticleId>
+            <ArticleId IdType="pmc">PMC5278835</ArticleId>
+            <ArticleId IdType="mid">NIHMS833399</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

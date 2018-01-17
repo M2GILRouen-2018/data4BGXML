@@ -1,0 +1,347 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29180647</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2045-2322</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>7</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scientific reports</Title>
+                <ISOAbbreviation>Sci Rep</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Prediction of postoperative outcomes using intraoperative hemodynamic monitoring data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>16376</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41598-017-16233-4</ELocationID>
+            <Abstract>
+                <AbstractText>Major surgeries can result in high rates of adverse postoperative events. Reliable prediction of which patient might be at risk for such events may help guide peri- and postoperative care. We show how archiving and mining of intraoperative hemodynamic data in orthotopic liver transplantation (OLT) can aid in the prediction of postoperative 180-day mortality and acute renal failure (ARF), improving upon predictions that rely on preoperative information only. From 101 patient records, we extracted 15 preoperative features from clinical records and 41 features from intraoperative hemodynamic signals. We used logistic regression with leave-one-out cross-validation to predict outcomes, and incorporated methods to limit potential model instabilities from feature multicollinearity. Using only preoperative features, mortality prediction achieved an area under the receiver operating characteristic curve (AUC) of 0.53 (95% CI: 0.44-0.78). By using intraoperative features, performance improved significantly to 0.82 (95% CI: 0.56-0.91, P = 0.001). Similarly, including intraoperative features (AUC = 0.82; 95% CI: 0.66-0.94) in ARF prediction improved performance over preoperative features (AUC = 0.72; 95% CI: 0.50-0.85), though not significantly (P = 0.32). We conclude that inclusion of intraoperative hemodynamic features significantly improves prediction of postoperative events in OLT. Features strongly associated with occurrence of both outcomes included greater intraoperative central venous pressure and greater transfusion volumes.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Prasad</LastName>
+                    <ForeName>Varesh</ForeName>
+                    <Initials>V</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-4125-5205</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Harvard-MIT Health Sciences and Technology Program, Massachusetts Institute of Technology, Cambridge, MA, USA. varesh@mit.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA. varesh@mit.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guerrisi</LastName>
+                    <ForeName>Maria</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Section, Department of Biomedicine and Prevention, University of Rome &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dauri</LastName>
+                    <ForeName>Mario</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Science and Translational Medicine, University of Rome &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Emergency and Critical Care Medicine, Pain Medicine and Anaesthesiology, University Hospital &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Coniglione</LastName>
+                    <ForeName>Filadelfo</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Science and Translational Medicine, University of Rome &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Emergency and Critical Care Medicine, Pain Medicine and Anaesthesiology, University Hospital &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University &quot;Our Lady of Good Counsel&quot;, Tirana, Albania.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tisone</LastName>
+                    <ForeName>Giuseppe</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Experimental Medicine and Surgery, University of Rome &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De Carolis</LastName>
+                    <ForeName>Elisa</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Emergency and Critical Care Medicine, Pain Medicine and Anaesthesiology, University Hospital &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cillis</LastName>
+                    <ForeName>Annagrazia</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Emergency and Critical Care Medicine, Pain Medicine and Anaesthesiology, University Hospital &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Canichella</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Section, Department of Biomedicine and Prevention, University of Rome &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Toschi</LastName>
+                    <ForeName>Nicola</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Section, Department of Biomedicine and Prevention, University of Rome &quot;Tor Vergata&quot;, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heldt</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2446-1499</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Sci Rep</MedlineTA>
+            <NlmUniqueID>101563288</NlmUniqueID>
+            <ISSNLinking>2045-2322</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cardiothorac Vasc Anesth. 2004 Aug;18(4):438-41</RefSource>
+                <PMID Version="1">15365923</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Transplant. 2016 Jun 24;6(2):291-305</RefSource>
+                <PMID Version="1">27358774</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Dec 12;8(12):e80661</RefSource>
+                <PMID Version="1">24349010</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Transplant. 2009 Mar-Apr;23(2):220-7</RefSource>
+                <PMID Version="1">19210688</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Transplant Proc. 2013 Jan-Feb;45(1):236-40</RefSource>
+                <PMID Version="1">23375307</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methods Med Res. 2008 Apr;17(2):207-21</RefSource>
+                <PMID Version="1">18426855</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Liver Transpl. 2009 Mar;15(3):287-91</RefSource>
+                <PMID Version="1">19242994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care. 2014 Oct 28;18(5):584</RefSource>
+                <PMID Version="1">25348900</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Transplantation. 2004 Jan 15;77(1):99-106</RefSource>
+                <PMID Version="1">14724442</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Liver Transpl. 2006 Jan;12(1):117-23</RefSource>
+                <PMID Version="1">16382461</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cardiothorac Vasc Anesth. 2008 Apr;22(2):315-7</RefSource>
+                <PMID Version="1">18375342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Monit Comput. 2013 Aug;27(4):417-26</RefSource>
+                <PMID Version="1">23314842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care. 2011 Jun 24;15(3):R154</RefSource>
+                <PMID Version="1">21702945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Surg. 2013 May;216(5):902-7</RefSource>
+                <PMID Version="1">23478547</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cardiothorac Vasc Anesth. 2008 Apr;22(2):311-4</RefSource>
+                <PMID Version="1">18375341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Anaesthesiol. 2011 Oct;28(10):684-722</RefSource>
+                <PMID Version="1">21885981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Hepatol. 2015 Jun 8;7(10):1302-11</RefSource>
+                <PMID Version="1">26052376</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care. 2011 Aug 15;15(4):R197</RefSource>
+                <PMID Version="1">21843353</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Transplant. 2008 Dec;8(12):2537-46</RefSource>
+                <PMID Version="1">18945283</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hepatology. 1996 Jun;23(6):1418-28</RefSource>
+                <PMID Version="1">8675159</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care. 2004 Aug;8(4):R204-12</RefSource>
+                <PMID Version="1">15312219</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Surg Today. 2013 Jul;43(7):777-81</RefSource>
+                <PMID Version="1">23238884</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 1988 Sep;44(3):837-45</RefSource>
+                <PMID Version="1">3203132</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Kidney Int. 2006 Mar;69(6):1073-80</RefSource>
+                <PMID Version="1">16528257</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gastrointest Oncol. 2012 Mar;3(1):19-27</RefSource>
+                <PMID Version="1">22811866</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Transplant Rev (Orlando). 2011 Jul;25(3):124-9</RefSource>
+                <PMID Version="1">21514137</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Liver Transpl. 2006 Jul;12(7):1049-61</RefSource>
+                <PMID Version="1">16799946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Surg. 2010;8(2):90-9</RefSource>
+                <PMID Version="1">20079469</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care. 2010;14(3):R118</RefSource>
+                <PMID Version="1">20553586</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Surg. 2010 Aug;34(8):1864-73</RefSource>
+                <PMID Version="1">20372900</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care Med. 2009 Jun;37(6):2079-90</RefSource>
+                <PMID Version="1">19384211</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Surg. 2001 Oct;136(10):1177-83</RefSource>
+                <PMID Version="1">11585512</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Epidemiol. 1996 Dec;49(12):1373-9</RefSource>
+                <PMID Version="1">8970487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care Med. 1999 Oct;27(10):2147-52</RefSource>
+                <PMID Version="1">10548197</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesth Analg. 2004 May;98(5):1245-51, table of contents</RefSource>
+                <PMID Version="1">15105195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gastrointest Surg. 2000 Mar-Apr;4(2):162-7</RefSource>
+                <PMID Version="1">10675239</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Gastrointest Surg. 2015 Jun 27;7(6):86-93</RefSource>
+                <PMID Version="1">26131330</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care Med. 2013 Apr;41(4):954-62</RefSource>
+                <PMID Version="1">23385106</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29180647</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41598-017-16233-4</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41598-017-16233-4</ArticleId>
+            <ArticleId IdType="pmc">PMC5703992</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

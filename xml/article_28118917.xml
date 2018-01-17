@@ -1,0 +1,175 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28118917</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-8243</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>99</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>03</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of medical informatics</Title>
+                <ISOAbbreviation>Int J Med Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Opening the Duke electronic health record to apps: Implementing SMART on FHIR.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-10</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1386-5056(16)30273-8</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ijmedinf.2016.12.005</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE">Recognizing a need for our EHR to be highly interoperable, our team at Duke Health enabled our Epic-based electronic health record to be compatible with the Boston Children's project called Substitutable Medical Apps and Reusable Technologies (SMART), which employed Health Level Seven International's (HL7) Fast Healthcare Interoperability Resources (FHIR), commonly known as SMART on FHIR.</AbstractText>
+                <AbstractText Label="METHODS">We created a custom SMART on FHIR-compatible server infrastructure written in Node.js that served two primary functions. First, it handled API management activities such rate-limiting, authorization, auditing, logging, and analytics. Second, it retrieved the EHR data and made it available in a FHIR-compatible format. Finally, we made required changes to the EHR user interface to allow us to integrate several compatible apps into the provider- and patient-facing EHR workflows.</AbstractText>
+                <AbstractText Label="RESULTS">After integrating SMART on FHIR into our Epic-based EHR, we demonstrated several types of apps running on the infrastructure. This included both provider- and patient-facing apps as well as apps that are closed source, open source and internally-developed. We integrated the apps into the testing environment of our desktop EHR as well as our patient portal. We also demonstrated the integration of a native iOS app.</AbstractText>
+                <AbstractText Label="CONCLUSION">In this paper, we demonstrate the successful implementation of the SMART and FHIR technologies on our Epic-based EHR and subsequent integration of several compatible provider- and patient-facing apps.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bloomfield</LastName>
+                    <ForeName>Richard A</ForeName>
+                    <Initials>RA</Initials>
+                    <Suffix>Jr</Suffix>
+                    <AffiliationInfo>
+                        <Affiliation>Duke Health Technology Solutions, 2424 Erwin Road, Suite 12053, Durham, NC 27705, USA. Electronic address: ricky.bloomfield@duke.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Polo-Wood</LastName>
+                    <ForeName>Felipe</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Duke Health Technology Solutions, 3100 Tower Blvd. Office 270, Durham, NC 27707, USA. Electronic address: felipe.polowood@duke.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mandel</LastName>
+                    <ForeName>Joshua C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Harvard Medical School, Department of Biomedical Informatics, 10 Shattuck St, Office 315B, Boston, MA 02115, USA. Electronic address: jmandel@med.harvard.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mandl</LastName>
+                    <ForeName>Kenneth D</ForeName>
+                    <Initials>KD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Boston Children's Hospital, Computational Health Informatics Program, 300 Longwood Avenue, 1 Autumn 535 Mail Stop BCH3187, Boston, MA 02115, USA. Electronic address: Kenneth_Mandl@harvard.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Int J Med Inform</MedlineTA>
+            <NlmUniqueID>9711057</NlmUniqueID>
+            <ISSNLinking>1386-5056</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001900" MajorTopicYN="N">Boston</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057286" MajorTopicYN="N">Electronic Health Records</DescriptorName>
+                <QualifierName UI="Q000458" MajorTopicYN="Y">organization &amp; administration</QualifierName>
+                <QualifierName UI="Q000592" MajorTopicYN="Y">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D066275" MajorTopicYN="N">Health Information Exchange</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="Y">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057208" MajorTopicYN="N">Health Level Seven</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="Y">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D063731" MajorTopicYN="Y">Mobile Applications</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018511" MajorTopicYN="N">Systems Integration</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Electronic health records</Keyword>
+            <Keyword MajorTopicYN="Y">HL7 FHIR</Keyword>
+            <Keyword MajorTopicYN="Y">Interoperability</Keyword>
+            <Keyword MajorTopicYN="Y">Software</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28118917</ArticleId>
+            <ArticleId IdType="pii">S1386-5056(16)30273-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijmedinf.2016.12.005</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

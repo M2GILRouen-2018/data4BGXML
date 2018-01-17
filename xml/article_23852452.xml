@@ -1,0 +1,168 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29190737</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A short feature vector for image matching: The Log-Polar Magnitude feature descriptor.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0188496</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0188496</ELocationID>
+            <Abstract>
+                <AbstractText>The choice of an optimal feature detector-descriptor combination for image matching often depends on the application and the image type. In this paper, we propose the Log-Polar Magnitude feature descriptor-a rotation, scale, and illumination invariant descriptor that achieves comparable performance to SIFT on a large variety of image registration problems but with much shorter feature vectors. The descriptor is based on the Log-Polar Transform followed by a Fourier Transform and selection of the magnitude spectrum components. Selecting different frequency components allows optimizing for image patterns specific for a particular application. In addition, by relying only on coordinates of the found features and (optionally) feature sizes our descriptor is completely detector independent. We propose 48- or 56-long feature vectors that potentially can be shortened even further depending on the application. Shorter feature vectors result in better memory usage and faster matching. This combined with the fact that the descriptor does not require a time-consuming feature orientation estimation (the rotation invariance is achieved solely by using the magnitude spectrum of the Log-Polar Transform) makes it particularly attractive to applications with limited hardware capacity. Evaluation is performed on the standard Oxford dataset and two different microscopy datasets; one with fluorescence and one with transmission electron microscopy images. Our method performs better than SURF and comparable to SIFT on the Oxford dataset, and better than SIFT on both microscopy datasets indicating that it is particularly useful in applications with microscopy images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Matuszewski</LastName>
+                    <ForeName>Damian J</ForeName>
+                    <Initials>DJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6148-5174</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Science for Life Laboratory, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Image Analysis, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hast</LastName>
+                    <ForeName>Anders</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Image Analysis, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wählby</LastName>
+                    <ForeName>Carolina</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Science for Life Laboratory, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Image Analysis, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sintorn</LastName>
+                    <ForeName>Ida-Maria</ForeName>
+                    <Initials>IM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Science for Life Laboratory, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Image Analysis, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Vironova AB, Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2005 Oct;27(10):1615-30</RefSource>
+                <PMID Version="1">16237996</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2010 May;32(5):815-30</RefSource>
+                <PMID Version="1">20299707</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2012 Oct;34(10):2031-45</RefSource>
+                <PMID Version="1">22201063</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2013 Sep;10 (9):857-60</RefSource>
+                <PMID Version="1">23852452</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D005583" MajorTopicYN="N">Fourier Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="Y">Pattern Recognition, Automated</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29190737</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0188496</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-08232</ArticleId>
+            <ArticleId IdType="pmc">PMC5708636</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

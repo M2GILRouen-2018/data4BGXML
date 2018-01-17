@@ -1,0 +1,128 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29195708</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-8243</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>109</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of medical informatics</Title>
+                <ISOAbbreviation>Int J Med Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A new computationally efficient algorithm for record linkage with field dependency and missing data imputation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>70-75</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1386-5056(17)30401-X</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ijmedinf.2017.10.021</ELocationID>
+            <Abstract>
+                <AbstractText>Record linkage algorithms aim to identify pairs of records that correspond to the same individual from two or more datasets. In general, fields that are common to both datasets are compared to determine which record-pairs to link. The classic model for probabilistic linkage was proposed by Fellegi and Sunter and assumes that individual fields common to both datasets are completely observed, and that the field agreement indicators are conditionally independent within the subsets of record pairs corresponding to the same and differing individuals. Herein, we propose a novel record linkage algorithm that is independent of these two baseline assumptions. We demonstrate improved performance of the algorithm in the presence of missing data and correlation patterns between the agreement indicators. The algorithm is computationally efficient and can be used to link large databases consisting of millions of record pairs. An R-package, corlink, has been developed to implement the new algorithm and can be downloaded from the CRAN repository.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ferguson</LastName>
+                    <ForeName>John</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Research Facility, National University of Ireland, Galway, Ireland. Electronic address: john.ferguson@nuigalway.ie.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hannigan</LastName>
+                    <ForeName>Ailish</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate Entry Medical School, University of Limerick, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stack</LastName>
+                    <ForeName>Austin</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate Entry Medical School, University of Limerick, Ireland; Health Research Institute, University of Limerick, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Int J Med Inform</MedlineTA>
+            <NlmUniqueID>9711057</NlmUniqueID>
+            <ISSNLinking>1386-5056</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Conditional independence</Keyword>
+            <Keyword MajorTopicYN="N">EM-algorithm</Keyword>
+            <Keyword MajorTopicYN="N">Fellegi/Sunter</Keyword>
+            <Keyword MajorTopicYN="N">Log-linear models</Keyword>
+            <Keyword MajorTopicYN="N">Record linkage</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29195708</ArticleId>
+            <ArticleId IdType="pii">S1386-5056(17)30401-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijmedinf.2017.10.021</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

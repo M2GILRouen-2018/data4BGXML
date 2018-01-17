@@ -1,0 +1,505 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28644851</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>23</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1553-7358</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PLoS computational biology</Title>
+                <ISOAbbreviation>PLoS Comput. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Comorbidities in the diseasome are more apparent than real: What Bayesian filtering reveals about the comorbidities of depression.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e1005487</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pcbi.1005487</ELocationID>
+            <Abstract>
+                <AbstractText>Comorbidity patterns have become a major source of information to explore shared mechanisms of pathogenesis between disorders. In hypothesis-free exploration of comorbid conditions, disease-disease networks are usually identified by pairwise methods. However, interpretation of the results is hindered by several confounders. In particular a very large number of pairwise associations can arise indirectly through other comorbidity associations and they increase exponentially with the increasing breadth of the investigated diseases. To investigate and filter this effect, we computed and compared pairwise approaches with a systems-based method, which constructs a sparse Bayesian direct multimorbidity map (BDMM) by systematically eliminating disease-mediated comorbidity relations. Additionally, focusing on depression-related parts of the BDMM, we evaluated correspondence with results from logistic regression, text-mining and molecular-level measures for comorbidities such as genetic overlap and the interactome-based association score. We used a subset of the UK Biobank Resource, a cross-sectional dataset including 247 diseases and 117,392 participants who filled out a detailed questionnaire about mental health. The sparse comorbidity map confirmed that depressed patients frequently suffer from both psychiatric and somatic comorbid disorders. Notably, anxiety and obesity show strong and direct relationships with depression. The BDMM identified further directly co-morbid somatic disorders, e.g. irritable bowel syndrome, fibromyalgia, or migraine. Using the subnetwork of depression and metabolic disorders for functional analysis, the interactome-based system-level score showed the best agreement with the sparse disease network. This indicates that these epidemiologically strong disease-disease relations have improved correspondence with expected molecular-level mechanisms. The substantially fewer number of comorbidity relations in the BDMM compared to pairwise methods implies that biologically meaningful comorbid relations may be less frequent than earlier pairwise methods suggested. The computed interactive comprehensive multimorbidity views over the diseasome are available on the web at Co=MorNet: bioinformatics.mit.bme.hu/UKBNetworks.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Marx</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8821-3622</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Antal</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-4370-2198</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bolgar</LastName>
+                    <ForeName>Bence</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bagdy</LastName>
+                    <ForeName>Gyorgy</ForeName>
+                    <Initials>G</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8141-3410</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>NAP-A-SE New Antidepressant Target Research Group, Hungarian Brain Research Program, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Deakin</LastName>
+                    <ForeName>Bill</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neuroscience and Psychiatry Unit, School of Biological Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Manchester, UK and Greater Manchester Mental Health NHS Foundation Trust, Manchester, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Juhasz</LastName>
+                    <ForeName>Gabriella</ForeName>
+                    <Initials>G</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5975-4267</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Neuroscience and Psychiatry Unit, School of Biological Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Manchester, UK and Greater Manchester Mental Health NHS Foundation Trust, Manchester, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MTA-SE-NAP B Genetic Brain Imaging Migraine Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS Comput Biol</MedlineTA>
+            <NlmUniqueID>101238922</NlmUniqueID>
+            <ISSNLinking>1553-734X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2005 Jul;37(7):710-7</RefSource>
+                <PMID Version="1">15965475</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2015 Apr 15;2015:bav028</RefSource>
+                <PMID Version="1">25877637</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arthritis Res Ther. 2016 Jan 28;18:33</RefSource>
+                <PMID Version="1">26818851</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2013 Sep;45(9):984-94</RefSource>
+                <PMID Version="1">23933821</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 May 22;104(21):8685-90</RefSource>
+                <PMID Version="1">17502601</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Psychiatr Res. 2014 May;52:28-35</RefSource>
+                <PMID Version="1">24513499</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Gen Psychiatry. 1992 Sep;49(9):716-22</RefSource>
+                <PMID Version="1">1514877</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Psychiatry. 2007 Jan;20(1):42-6</RefSource>
+                <PMID Version="1">17143081</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2015 Apr 08;11(4):e1004120</RefSource>
+                <PMID Version="1">25853560</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Psychiatry. 2007 Jul;20(4):353-8</RefSource>
+                <PMID Version="1">17551350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2003 Dec 15;158(12):1139-47</RefSource>
+                <PMID Version="1">14652298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2013 Nov 15;3:3202</RefSource>
+                <PMID Version="1">24232732</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2013 Aug;31(8):720-5</RefSource>
+                <PMID Version="1">23851447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2012;10(4):e1001301</RefSource>
+                <PMID Version="1">22509135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Transl Psychiatry. 2015 Jun 30;5:e592</RefSource>
+                <PMID Version="1">26125155</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Psychiatry. 2003 Aug 1;54(3):317-29</RefSource>
+                <PMID Version="1">12893107</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurology. 2003 Apr 22;60(8):1308-12</RefSource>
+                <PMID Version="1">12707434</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chronic Dis. 1970 Dec;23(7):455-68</RefSource>
+                <PMID Version="1">26309916</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2011 Aug;7(8):e1002141</RefSource>
+                <PMID Version="1">21901084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2015 Dec;16(12):689-701</RefSource>
+                <PMID Version="1">26503796</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Psychiatry. 2014 Nov;75(11):1202-8; quiz 1208</RefSource>
+                <PMID Version="1">25470083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuropsychopharmacology. 2016 Jan;41(1):297-319</RefSource>
+                <PMID Version="1">26321314</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Psychiatry. 2003 Feb;160(2):221-36</RefSource>
+                <PMID Version="1">12562565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2016 Mar;17(3):129-45</RefSource>
+                <PMID Version="1">26875678</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Transl Psychiatry. 2015 Aug 18;5:e620</RefSource>
+                <PMID Version="1">26285130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2012 May;35(5):1171-80</RefSource>
+                <PMID Version="1">22517938</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 Jul 10;104(28):11694-9</RefSource>
+                <PMID Version="1">17609372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Gen Psychiatry. 2007 Jun;64(6):651-60</RefSource>
+                <PMID Version="1">17548747</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Affect Disord. 2002 Dec;72(3):227-36</RefSource>
+                <PMID Version="1">12450639</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2015 Feb 20;347(6224):1257601</RefSource>
+                <PMID Version="1">25700523</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2016 May 5;165(4):1002-11</RefSource>
+                <PMID Version="1">27114037</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clinics (Sao Paulo). 2005 Jun;60(3):241-50</RefSource>
+                <PMID Version="1">15962086</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2013 Apr 20;381(9875):1371-9</RefSource>
+                <PMID Version="1">23453885</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastroenterology. 2002 Apr;122(4):1140-56</RefSource>
+                <PMID Version="1">11910364</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Oct 5;338(6103):15</RefSource>
+                <PMID Version="1">23042853</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2015 Nov;47(11):1236-41</RefSource>
+                <PMID Version="1">26414676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Psychiatry. 2014 Jul;27(4):289-93</RefSource>
+                <PMID Version="1">24840158</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2015 Aug 22;386(9995):721-2</RefSource>
+                <PMID Version="1">26063473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2009 Apr;5(4):e1000353</RefSource>
+                <PMID Version="1">19360091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Clin Psychol. 2006;2:111-33</RefSource>
+                <PMID Version="1">17716066</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Psychiatry. 2014 Sep;19(9):960-2</RefSource>
+                <PMID Version="1">24492350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2008 Jul 22;105(29):9880-5</RefSource>
+                <PMID Version="1">18599447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Med. 2005 May;35(5):611-24</RefSource>
+                <PMID Version="1">15918338</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jul;42(Web Server issue):W137-46</RefSource>
+                <PMID Version="1">24895436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 May 15;21(10):2394-402</RefSource>
+                <PMID Version="1">15713736</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2012;2:342</RefSource>
+                <PMID Version="1">22461973</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Med. 2015 Mar 31;12 (3):e1001779</RefSource>
+                <PMID Version="1">25826379</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychosom Med. 2015 May;77(4):449-57</RefSource>
+                <PMID Version="1">25768845</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Nov 21;8(11):e79809</RefSource>
+                <PMID Version="1">24278183</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Hum Genet. 2014 Jan;22(1):144-7</RefSource>
+                <PMID Version="1">23695286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Med. 2007 Mar;37(3):453-62</RefSource>
+                <PMID Version="1">17121688</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2014 Apr 22;111(16):E1666-73</RefSource>
+                <PMID Version="1">24706871</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Med. 2013 Nov;10(11):e1001547</RefSource>
+                <PMID Version="1">24223526</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2007 Sep 8;370(9590):851-8</RefSource>
+                <PMID Version="1">17826170</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2015 Aug 22;386(9995):743-800</RefSource>
+                <PMID Version="1">26063472</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Obes (Lond). 2008 Jun;32(6):881-91</RefSource>
+                <PMID Version="1">18414420</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Psychiatry. 2006 Sep;21(6):379-88</RefSource>
+                <PMID Version="1">16797937</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Nov 25;8(11):e75362</RefSource>
+                <PMID Version="1">24282498</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Genet. 2014 Feb;133(2):173-86</RefSource>
+                <PMID Version="1">24081561</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2004 Feb 6;303(5659):799-805</RefSource>
+                <PMID Version="1">14764868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Neuropsychopharmacol. 2005 Aug;15(4):357-76</RefSource>
+                <PMID Version="1">15961293</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Fam Med. 1997 Jan-Feb;6(1):43-9</RefSource>
+                <PMID Version="1">9003169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2016 Apr 26;12(4):e1004885</RefSource>
+                <PMID Version="1">27115429</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychosom Med. 2004 Nov-Dec;66(6):837-44</RefSource>
+                <PMID Version="1">15564347</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001499" MajorTopicYN="Y">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015897" MajorTopicYN="Y">Comorbidity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="N">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003627" MajorTopicYN="N">Data Interpretation, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057225" MajorTopicYN="N">Data Mining</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003863" MajorTopicYN="N">Depression</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015994" MajorTopicYN="N">Incidence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D043183" MajorTopicYN="N">Irritable Bowel Syndrome</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001523" MajorTopicYN="N">Mental Disorders</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008659" MajorTopicYN="N">Metabolic Diseases</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008881" MajorTopicYN="N">Migraine Disorders</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="Y">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019636" MajorTopicYN="N">Neurodegenerative Diseases</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016016" MajorTopicYN="Y">Proportional Hazards Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018570" MajorTopicYN="N">Risk Assessment</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28644851</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pcbi.1005487</ArticleId>
+            <ArticleId IdType="pii">PCOMPBIOL-D-16-01959</ArticleId>
+            <ArticleId IdType="pmc">PMC5507322</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

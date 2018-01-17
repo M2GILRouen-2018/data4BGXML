@@ -1,0 +1,167 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" VersionID="2" VersionDate="2017/10/13" Owner="NLM">
+        <PMID Version="2">29152221</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2046-1402</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>6</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>F1000Research</Title>
+                <ISOAbbreviation>F1000Res</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>PubRunner: A light-weight framework for updating text mining results.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>612</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.12688/f1000research.11389.2</ELocationID>
+            <Abstract>
+                <AbstractText>Biomedical text mining promises to assist biologists in quickly navigating the combined knowledge in their domain. This would allow improved understanding of the complex interactions within biological systems and faster hypothesis generation. New biomedical research articles are published daily and text mining tools are only as good as the corpus from which they work. Many text mining tools are underused because their results are static and do not reflect the constantly expanding knowledge in the field. In order for biomedical text mining to become an indispensable tool used by researchers, this problem must be addressed. To this end, we present PubRunner, a framework for regularly running text mining tools on the latest publications. PubRunner is lightweight, simple to use, and can be integrated with an existing text mining tool. The workflow involves downloading the latest abstracts from PubMed, executing a user-defined tool, pushing the resulting data to a public FTP or Zenodo dataset, and publicizing the location of these results on the public PubRunner website. We illustrate the use of this tool by re-running the commonly used word2vec tool on the latest PubMed abstracts to generate up-to-date word vector representations for the biomedical domain. This shows a proof of concept that we hope will encourage text mining developers to build tools that truly will aid biologists in exploring the latest publications.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Anekalla</LastName>
+                    <ForeName>Kishore R</ForeName>
+                    <Initials>KR</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-8366-5782</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Northwestern University, Chicago, IL, 60611, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Courneya</LastName>
+                    <ForeName>J P</ForeName>
+                    <Initials>JP</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0001-9014-649X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Health Sciences and Human Services Library, University of Maryland, Baltimore, MD, 21201, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fiorini</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-9260-1326</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD, 20894, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lever</LastName>
+                    <ForeName>Jake</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, University of British Columbia, Vancouver, BC, V5Z 4S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Muchow</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute of Standards and Technology, Gaithersburg, MD, 20899, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Busby</LastName>
+                    <ForeName>Ben</ForeName>
+                    <Initials>B</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0001-5267-4988</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>F1000Res</MedlineTA>
+            <NlmUniqueID>101594320</NlmUniqueID>
+            <ISSNLinking>2046-1402</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2015 Sep 25;11(9):e1004391</RefSource>
+                <PMID Version="1">26407127</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2011 Jan 18;2011:baq036</RefSource>
+                <PMID Version="1">21245076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Elife. 2016 Jul 07;5:null</RefSource>
+                <PMID Version="1">27387362</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Nov 15;29(22):2909-17</RefSource>
+                <PMID Version="1">23969135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Jul 1;27(13):i111-9</RefSource>
+                <PMID Version="1">21685059</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">BioNLP</Keyword>
+            <Keyword MajorTopicYN="N">PubMed</Keyword>
+            <Keyword MajorTopicYN="N">PubRunner</Keyword>
+            <Keyword MajorTopicYN="N">biomedical text mining</Keyword>
+            <Keyword MajorTopicYN="N">natural language processing</Keyword>
+            <Keyword MajorTopicYN="N">text mining</Keyword>
+        </KeywordList>
+        <CoiStatement>Competing interests: No competing interests were disclosed.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29152221</ArticleId>
+            <ArticleId IdType="doi">10.12688/f1000research.11389.2</ArticleId>
+            <ArticleId IdType="pmc">PMC5664974</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

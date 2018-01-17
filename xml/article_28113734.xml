@@ -1,0 +1,151 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28113734</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2208</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE journal of biomedical and health informatics</Title>
+                <ISOAbbreviation>IEEE J Biomed Health Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Visually Meaningful Histopathological Features for Automatic Grading of Prostate Cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1027-1038</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/JBHI.2016.2565515</ELocationID>
+            <Abstract>
+                <AbstractText>Histopathologic features, particularly Gleason grading system, have contributed significantly to the diagnosis, treatment, and prognosis of prostate cancer for decades. However, prostate cancer demonstrates enormous heterogeneity in biological behavior, thus establishing improved prognostic and predictive markers is particularly important to personalize therapy of men with clinically localized and newly diagnosed malignancy. Many automated grading systems have been developed for Gleason grading but acceptance in the medical community has been lacking due to poor interpretability. To overcome this problem, we developed a set of visually meaningful features to differentiate between low- and high-grade prostate cancer. The visually meaningful feature set consists of luminal and architectural features. For luminal features, we compute: 1) the shortest path from the nuclei to their closest luminal spaces; 2) ratio of the epithelial nuclei to the total number of nuclei. A nucleus is considered an epithelial nucleus if the shortest path between it and the luminal space does not contain any other nucleus; 3) average shortest distance of all nuclei to their closest luminal spaces. For architectural features, we compute directional changes in stroma and nuclei using directional filter banks. These features are utilized to create two subspaces; one for prostate images histopathologically assessed as low grade and the other for high grade. The grade associated with a subspace, which results in the minimum reconstruction error is considered as the prediction for the test image. For training, we utilized 43 regions of interest (ROI) images, which were extracted from 25 prostate whole slide images of The Cancer Genome Atlas (TCGA) database. For testing, we utilized an independent dataset of 88 ROIs extracted from 30 prostate whole slide images. The method resulted in 93.0% and 97.6% training and testing accuracies, respectively, for the spectrum of cases considered. The application of visually meaningful features provided promising levels of accuracy and consistency for grading prostate cancer.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Niazi</LastName>
+                    <ForeName>M Khalid Khan</ForeName>
+                    <Initials>MKK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Keluo Yao</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zynger</LastName>
+                    <ForeName>Debra L</ForeName>
+                    <Initials>DL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clinton</LastName>
+                    <ForeName>Steven K</ForeName>
+                    <Initials>SK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>James</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koyuturk</LastName>
+                    <ForeName>Mehmet</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>LaFramboise</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gurcan</LastName>
+                    <ForeName>Metin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE J Biomed Health Inform</MedlineTA>
+            <NlmUniqueID>101604520</NlmUniqueID>
+            <ISSNLinking>2168-2194</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D006651" MajorTopicYN="N">Histocytochemistry</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007090" MajorTopicYN="N">Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060787" MajorTopicYN="N">Neoplasm Grading</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011467" MajorTopicYN="N">Prostate</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011471" MajorTopicYN="N">Prostatic Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113734</ArticleId>
+            <ArticleId IdType="doi">10.1109/JBHI.2016.2565515</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

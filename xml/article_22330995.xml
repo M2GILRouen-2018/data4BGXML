@@ -1,0 +1,314 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28926610</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>20</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Image similarity evaluation of the bulk-density-assigned synthetic CT derived from MRI of intracranial regions for radiation treatment.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0185082</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0185082</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Various methods for radiation-dose calculation have been investigated over previous decades, focusing on the use of magnetic resonance imaging (MRI) only. The bulk-density-assignment method based on manual segmentation has exhibited promising results compared to dose-calculation with computed tomography (CT). However, this method cannot be easily implemented in clinical practice due to its time-consuming nature. Therefore, we investigated an automatic anatomy segmentation method with the intention of providing the proper methodology to evaluate synthetic CT images for a radiation-dose calculation based on MR images.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">CT images of 20 brain cancer patients were selected, and their MR images including T1-weighted, T2-weighted, and PETRA were retrospectively collected. Eight anatomies of the patients, such as the body, air, eyeball, lens, cavity, ventricle, brainstem, and bone, were segmented for bulk-density-assigned CT image (BCT) generation. In addition, water-equivalent CT images (WCT) with only two anatomies-body and air-were generated for a comparison with BCT. Histogram comparison and gamma analysis were performed by comparison with the original CT images, after the evaluation of automatic segmentation performance with the dice similarity coefficient (DSC), false negative dice (FND) coefficient, and false positive dice (FPD) coefficient.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The highest DSC value was 99.34 for air segmentation, and the lowest DSC value was 73.50 for bone segmentation. For lens segmentation, relatively high FND and FPD values were measured. The cavity and bone were measured as over-segmented anatomies having higher FPD values than FND. The measured histogram comparison results of BCT were better than those of WCT in all cases. In gamma analysis, the averaged improvement of BCT compared to WCT was measured. All the measured results of BCT were better than those of WCT. Therefore, the results of this study show that the introduced methods, such as histogram comparison and gamma analysis, are valid for the evaluation of the synthetic CT generation from MR images.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The image similarity results showed that BCT has superior results compared to WCT for all measurements performed in this study. Consequently, more accurate radiation treatment for the intracranial regions can be expected when the proper image similarity evaluation introduced in this study is performed.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Shin-Wook</ForeName>
+                    <Initials>SW</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-3736-349X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shin</LastName>
+                    <ForeName>Hun-Joo</ForeName>
+                    <Initials>HJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hwang</LastName>
+                    <ForeName>Jin-Ho</ForeName>
+                    <Initials>JH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shin</LastName>
+                    <ForeName>Jin-Sol</ForeName>
+                    <Initials>JS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Park</LastName>
+                    <ForeName>Sung-Kwang</ForeName>
+                    <Initials>SK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Busan Paik Hospital, Inje University, Busan, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Jin-Young</ForeName>
+                    <Initials>JY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Haeundae Paik Hospital, Inje University, Busan, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Ki-Jun</ForeName>
+                    <Initials>KJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kay</LastName>
+                    <ForeName>Chul-Seung</ForeName>
+                    <Initials>CS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kang</LastName>
+                    <ForeName>Young-Nam</ForeName>
+                    <Initials>YN</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-3547-8157</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Seoul St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiat Oncol. 2009 Nov 17;4:54</RefSource>
+                <PMID Version="1">19919713</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2014 Jan;41(1):011704</RefSource>
+                <PMID Version="1">24387496</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Oncol. 2008;47(7):1294-302</RefSource>
+                <PMID Version="1">18663645</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2013 Jul;70(1):127-35</RefSource>
+                <PMID Version="1">22886780</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiat Oncol. 2014 Jan 09;9:16</RefSource>
+                <PMID Version="1">24405515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2003 Feb;66(2):203-16</RefSource>
+                <PMID Version="1">12648793</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2014 May;41(5):051711</RefSource>
+                <PMID Version="1">24784377</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2011 May;38(5):2708-14</RefSource>
+                <PMID Version="1">21776807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2014;2014:231090</RefSource>
+                <PMID Version="1">24812609</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2015 Nov 21;60(22):R323-61</RefSource>
+                <PMID Version="1">26509844</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2011 Mar;98 (3):330-4</RefSource>
+                <PMID Version="1">21339009</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2009 Jun 1;74(2):644-51</RefSource>
+                <PMID Version="1">19427564</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Jun;39(6):3283-90</RefSource>
+                <PMID Version="1">22755711</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2008 Jul 7;53(13):3579-93</RefSource>
+                <PMID Version="1">18560047</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Appl Clin Med Phys. 2009 Apr 30;10(2):2847</RefSource>
+                <PMID Version="1">19458588</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiat Oncol. 2010 Jun 30;5:62</RefSource>
+                <PMID Version="1">20591179</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2008 Jun 21;53(12):R151-91</RefSource>
+                <PMID Version="1">18495981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2004 Nov 21;49(22):5157-70</RefSource>
+                <PMID Version="1">15609565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Phys. 2008 Oct;33(4):136-40</RefSource>
+                <PMID Version="1">19893706</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1994;13(4):716-24</RefSource>
+                <PMID Version="1">18218550</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Radiol. 2012 Jan;85(1009):61-8</RefSource>
+                <PMID Version="1">22190750</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 1998 May;25(5):656-61</RefSource>
+                <PMID Version="1">9608475</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2005 Feb;32(2):473-82</RefSource>
+                <PMID Version="1">15789594</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2015 Jan;42(1):28-39</RefSource>
+                <PMID Version="1">25563245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2012 May 1;83(1):e5-11</RefSource>
+                <PMID Version="1">22330995</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001842" MajorTopicYN="N">Bone and Bones</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="N">anatomy &amp; histology</QualifierName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001921" MajorTopicYN="N">Brain</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="N">anatomy &amp; histology</QualifierName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001932" MajorTopicYN="N">Brain Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000532" MajorTopicYN="Y">radiotherapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="N">Magnetic Resonance Imaging</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011880" MajorTopicYN="N">Radiotherapy Planning, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="Y">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28926610</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0185082</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-03342</ArticleId>
+            <ArticleId IdType="pmc">PMC5605009</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

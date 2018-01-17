@@ -1,0 +1,105 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113521</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>28</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Robust Image Regression Based on the Extended Matrix Variate Power Exponential Distribution of Dependent Noise.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2168-2182</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2573644</ELocationID>
+            <Abstract>
+                <AbstractText>Dealing with partial occlusion or illumination is one of the most challenging problems in image representation and classification. In this problem, the characterization of the representation error plays a crucial role. In most current approaches, the error matrix needs to be stretched into a vector and each element is assumed to be independently corrupted. This ignores the dependence between the elements of error. In this paper, it is assumed that the error image caused by partial occlusion or illumination changes is a random matrix variate and follows the extended matrix variate power exponential distribution. This has the heavy tailed regions and can be used to describe a matrix pattern of l×m dimensional observations that are not independent. This paper reveals the essence of the proposed distribution: it actually alleviates the correlations between pixels in an error matrix E and makes E approximately Gaussian. On the basis of this distribution, we derive a Schatten p -norm-based matrix regression model with Lq regularization. Alternating direction method of multipliers is applied to solve this model. To get a closed-form solution in each step of the algorithm, two singular value function thresholding operators are introduced. In addition, the extended Schatten p -norm is utilized to characterize the distance between the test samples and classes in the design of the classifier. Extensive experimental results for image reconstruction and classification with structural noise demonstrate that the proposed algorithm works much more robustly than some existing regression-based methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Jian</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qian</LastName>
+                    <ForeName>Jianjun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tai</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Gui-Fu</ForeName>
+                    <Initials>GF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113521</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2573644</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

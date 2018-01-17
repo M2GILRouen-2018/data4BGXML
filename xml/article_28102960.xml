@@ -1,0 +1,214 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28102960</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Nine-degrees-of-freedom flexmap for a cone-beam computed tomography imaging device with independently movable source and detector.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>132-142</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12033</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Couch-mounted cone-beam computed tomography (CBCT) imaging devices with independently rotatable x-ray source and flat-panel detector arms for acquisitions of arbitrary regions of interest (ROI) have recently been introduced in image-guided radiotherapy (IGRT). This work analyzes mechanical limitations and gravity-induced effects influencing the geometric accuracy of images acquired with arbitrary angular constellations of source and detector in nonisocentric trajectories, which is considered essential for IGRT. In order to compensate for geometric inaccuracies of this modality, a 9-degrees-of-freedom (9-DOF) flexmap correction approach is presented, focusing especially on the separability of the flexmap parameters of the independently movable components of the device.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The 9-DOF comprise a 3D translation of the x-ray source focal spot, a 3D translation of the flat-panel's active area center and three Euler-rotations of the detector's row and column vectors. The flexmap parameters are expressed with respect to the angular position of each of the devices arms. Estimation of the parameters is performed, using a CT-based structure set of a table-mounted, cylindrical ball-bearing phantom. Digitally reconstructed radiograph (DRR) patches are derived from the structure set followed by local 2D in-plane registration and subsequent 3D transform estimation by nonlinear regression with outlier detection.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Flexmap parameter evaluations for the factory-calibrated system in clockwise and counter-clockwise rotation direction have shown only minor differences for the overall set of flexmap parameters. High short-term reproducibility of the flexmap parameters has been confirmed by experiments over 10 acquisitions for both directions, resulting in standard deviation values of ≤0.183 mm for translational components and ≤0.0219 deg for rotational components, respectively. A comparison of isocentric and nonisocentric flexmap evaluations showed that the mean differences of the parameter curves reside within their standard deviations, confirming the ability of the proposed calibration method to handle both types of trajectories equally well. Reconstructions of 0.1 mm and 0.25 mm steel wires showed similar results for the isocentric and nonisocentric cases. The full-width at half maximum (FWHM) measure indicates an average improvement of the calibrated reconstruction of 85% over the uncalibrated reconstruction. The contrast of the point spread function (PSF) improved by 310% on average over all experiments. Moreover, a reduced amount of artifacts visible in nonisocentric reconstructions of a head phantom and a line-pair phantom has been achieved by separate application of the 9-DOF flexmap on the geometry described by the independently moving source arm and detector arm.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Using a 9-DOF flexmap approach for correcting the geometry of projections acquired with a device capable of independent movements of the source and panel arms has been shown to be essential for IGRT use cases such as CBCT reconstruction and 2D/3D registration tasks. The proposed pipeline is able to create flexmap curves which are easy to interpret, useful for mechanical description of the device and repetitive quality assurance as well as system-level preventive maintenance. Application of the flexmap has shown improvements of image quality for planar imaging and volumetric imaging which is crucial for patient alignment accuracy.</AbstractText>
+                <CopyrightInformation>© 2016 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Keuschnigg</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kellner</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>medPhoton GmbH, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fritscher</LastName>
+                    <ForeName>Karl</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>medPhoton GmbH, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division for Biomedical Image Analysis, Department for Biomedical Informatics and Mechatronics, University for Health Sciences, Medical Informatics and Technology (UMIT), Hall in Tyrol, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zechner</LastName>
+                    <ForeName>Andrea</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>EBG MedAustron GmbH, Wiener Neustadt, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mayer</LastName>
+                    <ForeName>Ulrich</ForeName>
+                    <Initials>U</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>medPhoton GmbH, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huber</LastName>
+                    <ForeName>Philipp</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sedlmayer</LastName>
+                    <ForeName>Felix</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University Clinic for Radiotherapy and Radio-Oncology, Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Deutschmann</LastName>
+                    <ForeName>Heinz</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>medPhoton GmbH, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University Clinic for Radiotherapy and Radio-Oncology, Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steininger</LastName>
+                    <ForeName>Philipp</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>medPhoton GmbH, Salzburg, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D054893" MajorTopicYN="N">Cone-Beam Computed Tomography</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009038" MajorTopicYN="Y">Motion</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CBCT</Keyword>
+            <Keyword MajorTopicYN="N">flexmap</Keyword>
+            <Keyword MajorTopicYN="N">imagingring</Keyword>
+            <Keyword MajorTopicYN="N">reconstruction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28102960</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12033</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113400</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Rendering Thin Transparent Layers with Extended Normal Distribution Functions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2108-2119</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2016.2617872</ELocationID>
+            <Abstract>
+                <AbstractText>Realistic Rendering of thin transparent layers bounded by rough surfaces involves substantial expense of computation time to account for multiple internal reflections. Resorting to Monte Carlo rendering for such material is usually impractical since recursive importance sampling is inevitable. To reduce the burden of sampling for simulating subsurface scattering and hence improve rendering performance, we adapt the microfacet model to the material with a single thin layer by introducing the extended normal distribution function (ENDF), a new representation of this model, to express visually perceived roughness due to multiple bounces of reflections and refractions. With such a representation, both surface reflection and subsurface scattering can be treated in the same microfacet framework, and the sampling process can be reduced to only once for each bounce of scattering. We derive analytical expressions of the ENDF for several cases using joint spherical warping. We also show how to choose proper shadowing-masking and Fresnel terms to make the proposed bidirectional scattering distribution function (BSDF) model energy-conserving. Experiments demonstrate that our model can be easily incorporated into a Monte Carlo path tracer with little extra computational and storage overhead, enabling some real-time applications.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Jie</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qian</LastName>
+                    <ForeName>Jinghui</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Yanwen</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Jingui</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113400</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2016.2617872</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

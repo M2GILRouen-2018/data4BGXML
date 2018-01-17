@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28129155</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Learning Deep Sharable and Structural Detectors for Face Alignment.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1666-1678</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2657118</ELocationID>
+            <Abstract>
+                <AbstractText>Face alignment aims at localizing multiple facial landmarks for a given facial image, which usually suffers from large variances of diverse facial expressions, aspect ratios and partial occlusions, especially when face images were captured in wild conditions. Conventional face alignment methods extract local features and then directly concatenate these features for global shape regression. Unlike these methods which cannot explicitly model the correlation of neighbouring landmarks and motivated by the fact that individual landmarks are usually correlated, we propose a deep sharable and structural detectors (DSSD) method for face alignment. To achieve this, we firstly develop a structural feature learning method to explicitly exploit the correlation of neighbouring landmarks, which learns to cover semantic information to disambiguate the neighbouring landmarks. Moreover, our model selectively learns a subset of sharable latent tasks across neighbouring landmarks under the paradigm of the multi-task learning framework, so that the redundancy information of the overlapped patches can be efficiently removed. To better improve the performance, we extend our DSSD to a recurrent DSSD (R-DSSD) architecture by integrating with the complementary information from multi-scale perspectives. Experimental results on the widely used benchmark datasets show that our methods achieve very competitive performance compared to the state-of-the-arts.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Hao</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Jiwen</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Feng</LastName>
+                    <ForeName>Jianjiang</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Jie</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28129155</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2657118</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

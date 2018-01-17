@@ -1,0 +1,497 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28945743</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1553-7358</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PLoS computational biology</Title>
+                <ISOAbbreviation>PLoS Comput. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Predictive representations can link model-based reinforcement learning to model-free mechanisms.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e1005768</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pcbi.1005768</ELocationID>
+            <Abstract>
+                <AbstractText>Humans and animals are capable of evaluating actions by considering their long-run future rewards through a process described using model-based reinforcement learning (RL) algorithms. The mechanisms by which neural circuits perform the computations prescribed by model-based RL remain largely unknown; however, multiple lines of evidence suggest that neural circuits supporting model-based behavior are structurally homologous to and overlapping with those thought to carry out model-free temporal difference (TD) learning. Here, we lay out a family of approaches by which model-based computation may be built upon a core of TD learning. The foundation of this framework is the successor representation, a predictive state representation that, when combined with TD learning of value predictions, can produce a subset of the behaviors associated with model-based learning, while requiring less decision-time computation than dynamic programming. Using simulations, we delineate the precise behavioral capabilities enabled by evaluating actions using this approach, and compare them to those demonstrated by biological organisms. We then introduce two new algorithms that build upon the successor representation while progressively mitigating its limitations. Because this framework can account for the full range of observed putatively model-based behaviors while still utilizing a core TD framework, we suggest that it represents a neurally plausible family of mechanisms for model-based evaluation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Russek</LastName>
+                    <ForeName>Evan M</ForeName>
+                    <Initials>EM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2929-6912</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Neural Science, New York University, New York, NY, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Momennejad</LastName>
+                    <ForeName>Ida</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Princeton Neuroscience Institute and Department of Psychology, Princeton University, Princeton, NJ, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Botvinick</LastName>
+                    <ForeName>Matthew M</ForeName>
+                    <Initials>MM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>DeepMind, London, United Kingdom and Gatsby Computational Neuroscience Unit, University College London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gershman</LastName>
+                    <ForeName>Samuel J</ForeName>
+                    <Initials>SJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6546-3298</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychology and Center for Brain Science, Harvard University, Cambridge, MA, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Daw</LastName>
+                    <ForeName>Nathaniel D</ForeName>
+                    <Initials>ND</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-5029-1430</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Princeton Neuroscience Institute and Department of Psychology, Princeton University, Princeton, NJ, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS Comput Biol</MedlineTA>
+            <NlmUniqueID>101238922</NlmUniqueID>
+            <ISSNLinking>1553-734X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1997 Mar 14;275(5306):1593-9</RefSource>
+                <PMID Version="1">9054347</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neurosci. 2010 May 15;4:6</RefSource>
+                <PMID Version="1">21221409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 May 15;61(1):139-48</RefSource>
+                <PMID Version="1">22418393</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2004 Aug;7(8):887-93</RefSource>
+                <PMID Version="1">15235607</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Elife. 2017 Apr 27;6:null</RefSource>
+                <PMID Version="1">28448253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2013 Oct 30;33(44):17342-9</RefSource>
+                <PMID Version="1">24174667</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2005 Mar 16;25(11):2771-80</RefSource>
+                <PMID Version="1">15772337</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Psychol. 2013 Mar 04;4:92</RefSource>
+                <PMID Version="1">23459512</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2017 Aug 30;95(5):1197-1207.e3</RefSource>
+                <PMID Version="1">28823726</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2014 Feb 5;81(3):687-99</RefSource>
+                <PMID Version="1">24507199</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2010 Mar 11;65(5):695-705</RefSource>
+                <PMID Version="1">20223204</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Neuroanat. 2003 Dec;26(4):317-30</RefSource>
+                <PMID Version="1">14729134</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Netw. 1999 Oct;12(7-8):961-974</RefSource>
+                <PMID Version="1">12662639</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Rev. 2012 Jan;119(1):120-54</RefSource>
+                <PMID Version="1">22229491</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 1999 May 15;19(10):4090-101</RefSource>
+                <PMID Version="1">10234037</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hippocampus. 2010 Dec;20(12):1350-65</RefSource>
+                <PMID Version="1">20054817</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Behav Neurosci. 2012 Nov 27;6:79</RefSource>
+                <PMID Version="1">23205006</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2016 Jan 27;36(4):1211-22</RefSource>
+                <PMID Version="1">26818509</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2000 Nov;3 Suppl:1184-91</RefSource>
+                <PMID Version="1">11127836</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2016 Dec 7;92 (5):975-982</RefSource>
+                <PMID Version="1">27866796</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2012 Jun;24(6):1553-68</RefSource>
+                <PMID Version="1">22364500</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Rev. 1948 Jul;55(4):189-208</RefSource>
+                <PMID Version="1">18870876</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Philos Trans R Soc Lond B Biol Sci. 2014 Nov 5;369(1655):null</RefSource>
+                <PMID Version="1">25267820</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Jun 15;336(6087):1454-8</RefSource>
+                <PMID Version="1">22555434</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2002 Dec 15;22(24):10976-84</RefSource>
+                <PMID Version="1">12486193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2017 Oct 02;:null</RefSource>
+                <PMID Version="1">28967910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroscience. 1989;31(3):551-70</RefSource>
+                <PMID Version="1">2687720</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Aug 19;6:31378</RefSource>
+                <PMID Version="1">27539554</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2010 May 27;66(4):585-95</RefSource>
+                <PMID Version="1">20510862</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2015 May;18(5):767-72</RefSource>
+                <PMID Version="1">25799041</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Neurosci. 2004 Jan;19(1):181-9</RefSource>
+                <PMID Version="1">14750976</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Neurosci. 2001;24:167-202</RefSource>
+                <PMID Version="1">11283309</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2015 Dec 11;11(12):e1004648</RefSource>
+                <PMID Version="1">26657806</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Behav Brain Res. 2011 Sep 23;222(2):279-88</RefSource>
+                <PMID Version="1">21419172</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2014 Jul 1;111(26):9615-20</RefSource>
+                <PMID Version="1">24979760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Neurosci. 2012 Apr;35(7):1036-51</RefSource>
+                <PMID Version="1">22487034</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Psychol Gen. 2014 Feb;143(1):182-94</RefSource>
+                <PMID Version="1">23230992</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cogn Affect Behav Neurosci. 2008 Dec;8(4):429-53</RefSource>
+                <PMID Version="1">19033240</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 1996 Mar 1;16(5):1936-47</RefSource>
+                <PMID Version="1">8774460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2014 Jan 22;81(2):267-279</RefSource>
+                <PMID Version="1">24462094</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Hum Neurosci. 2015 Mar 20;9:125</RefSource>
+                <PMID Version="1">25852515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuropsychopharmacology. 2010 Jan;35(1):48-69</RefSource>
+                <PMID Version="1">19776734</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2010 Aug 11;30(32):10692-702</RefSource>
+                <PMID Version="1">20702700</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cognition. 2009 Dec;113(3):262-80</RefSource>
+                <PMID Version="1">18926527</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2016 Sep 21;91(6):1402-1412</RefSource>
+                <PMID Version="1">27657452</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2009 Oct;12(10):1222-3</RefSource>
+                <PMID Version="1">19749750</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2008 May 8;58(3):451-63</RefSource>
+                <PMID Version="1">18466754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Nov 25;310(5752):1337-40</RefSource>
+                <PMID Version="1">16311337</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2011 Oct;7(10):e1002235</RefSource>
+                <PMID Version="1">22046115</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2008 Jul 16;28(29):7324-33</RefSource>
+                <PMID Version="1">18632936</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2011 Mar 24;69(6):1204-15</RefSource>
+                <PMID Version="1">21435563</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2001 Oct;13(10):2221-37</RefSource>
+                <PMID Version="1">11570997</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Cybern. 2002 Jan;86(1):15-28</RefSource>
+                <PMID Version="1">11918209</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychopharmacology (Berl). 2007 Apr;191(3):507-20</RefSource>
+                <PMID Version="1">17031711</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2016 Oct 24;:null</RefSource>
+                <PMID Version="1">27791110</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Brain Res. 2001 Sep;140(2):234-40</RefSource>
+                <PMID Version="1">11521155</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2004 Dec 10;306(5703):1940-3</RefSource>
+                <PMID Version="1">15528409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2013 Apr;16(4):486-92</RefSource>
+                <PMID Version="1">23416451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2011 Apr 6;31(14):5526-39</RefSource>
+                <PMID Version="1">21471389</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Philos Trans R Soc Lond B Biol Sci. 2014 Nov 5;369(1655):null</RefSource>
+                <PMID Version="1">25267822</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Neurosci. 2005 Jul;22(2):513-23</RefSource>
+                <PMID Version="1">16045504</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2013 Oct;16(10):1492-8</RefSource>
+                <PMID Version="1">24013592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Neurosci. 2016 Aug;17 (8):513-23</RefSource>
+                <PMID Version="1">27256552</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2005 Dec;8(12):1704-11</RefSource>
+                <PMID Version="1">16286932</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Neurobiol. 2014 Apr;25:123-9</RefSource>
+                <PMID Version="1">24463329</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2012 Aug 9;75(3):418-24</RefSource>
+                <PMID Version="1">22884326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Elife. 2016 Mar 07;5:</RefSource>
+                <PMID Version="1">26949249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Cogn Sci. 2015 Nov;19(11):700-10</RefSource>
+                <PMID Version="1">26483151</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1994 Jul 29;265(5172):676-9</RefSource>
+                <PMID Version="1">8036517</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2011 Sep 13;108 Suppl 3:15647-54</RefSource>
+                <PMID Version="1">21389268</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2015 Mar 10;112(10):3098-103</RefSource>
+                <PMID Version="1">25675480</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2016 Mar 16;89(6):1343-1354</RefSource>
+                <PMID Version="1">26948895</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain. 2016 Feb;139(Pt 2):355-64</RefSource>
+                <PMID Version="1">26685155</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Neurosci. 1990 Jul;13(7):266-71</RefSource>
+                <PMID Version="1">1695401</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Rev. 1995 Jul;102(3):419-57</RefSource>
+                <PMID Version="1">7624455</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Oct 12;338(6104):270-3</RefSource>
+                <PMID Version="1">23066083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2011 May;7(5):e1002055</RefSource>
+                <PMID Version="1">21637741</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2015 Feb 3;112(5):1595-600</RefSource>
+                <PMID Version="1">25605941</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hippocampus. 2010 Jan;20(1):1-10</RefSource>
+                <PMID Version="1">19816984</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2016 Jun;19(6):845-54</RefSource>
+                <PMID Version="1">27110917</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="Y">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003657" MajorTopicYN="N">Decision Making</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008959" MajorTopicYN="Y">Models, Neurological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012054" MajorTopicYN="Y">Reinforcement (Psychology)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013997" MajorTopicYN="N">Time Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28945743</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pcbi.1005768</ArticleId>
+            <ArticleId IdType="pii">PCOMPBIOL-D-16-01392</ArticleId>
+            <ArticleId IdType="pmc">PMC5628940</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

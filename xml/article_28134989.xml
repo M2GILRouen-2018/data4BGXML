@@ -1,0 +1,187 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28134989</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>28</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Swiss cheese error detection method for real-time EPID-based quality assurance and error prevention.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1212-1223</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12142</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">To develop a robust and efficient process that detects relevant dose errors (dose errors of ≥5%) in external beam radiation therapy and directly indicates the origin of the error. The process is illustrated in the context of electronic portal imaging device (EPID)-based angle-resolved volumetric-modulated arc therapy (VMAT) quality assurance (QA), particularly as would be implemented in a real-time monitoring program.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A Swiss cheese error detection (SCED) method was created as a paradigm for a cine EPID-based during-treatment QA. For VMAT, the method compares a treatment plan-based reference set of EPID images with images acquired over each 2° gantry angle interval. The process utilizes a sequence of independent consecutively executed error detection tests: an aperture check that verifies in-field radiation delivery and ensures no out-of-field radiation; output normalization checks at two different stages; global image alignment check to examine if rotation, scaling, and translation are within tolerances; pixel intensity check containing the standard gamma evaluation (3%, 3 mm) and pixel intensity deviation checks including and excluding high dose gradient regions. Tolerances for each check were determined. To test the SCED method, 12 different types of errors were selected to modify the original plan. A series of angle-resolved predicted EPID images were artificially generated for each test case, resulting in a sequence of precalculated frames for each modified treatment plan. The SCED method was applied multiple times for each test case to assess the ability to detect introduced plan variations. To compare the performance of the SCED process with that of a standard gamma analysis, both error detection methods were applied to the generated test cases with realistic noise variations.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Averaged over ten test runs, 95.1% of all plan variations that resulted in relevant patient dose errors were detected within 2° and 100% within 14° (&lt;4% of patient dose delivery). Including cases that led to slightly modified but clinically equivalent plans, 89.1% were detected by the SCED method within 2°. Based on the type of check that detected the error, determination of error sources was achieved. With noise ranging from no random noise to four times the established noise value, the averaged relevant dose error detection rate of the SCED method was between 94.0% and 95.8% and that of gamma between 82.8% and 89.8%.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">An EPID-frame-based error detection process for VMAT deliveries was successfully designed and tested via simulations. The SCED method was inspected for robustness with realistic noise variations, demonstrating that it has the potential to detect a large majority of relevant dose errors. Compared to a typical (3%, 3 mm) gamma analysis, the SCED method produced a higher detection rate for all introduced dose errors, identified errors in an earlier stage, displayed a higher robustness to noise variations, and indicated the error source.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Passarge</LastName>
+                    <ForeName>Michelle</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Medical Radiation Physics and Department of Radiation Oncology, Inselspital Bern University Hospital and University of Bern, Berne, 3010, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Virginia Health System, Charlottesville, 22908, Virginia, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fix</LastName>
+                    <ForeName>Michael K</ForeName>
+                    <Initials>MK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Medical Radiation Physics and Department of Radiation Oncology, Inselspital Bern University Hospital and University of Bern, Berne, 3010, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manser</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Medical Radiation Physics and Department of Radiation Oncology, Inselspital Bern University Hospital and University of Bern, Berne, 3010, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stampanoni</LastName>
+                    <ForeName>Marco F M</ForeName>
+                    <Initials>MF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Biomedical Engineering, Swiss Federal Institute of Technology (ETH), Zurich, 8092, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Paul Scherrer Institute (PSI), Villigen, 5232, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Siebers</LastName>
+                    <ForeName>Jeffrey V</ForeName>
+                    <Initials>JV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Virginia Health System, Charlottesville, 22908, Virginia, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D055615" MajorTopicYN="Y">Electrical Equipment and Supplies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019300" MajorTopicYN="Y">Medical Errors</DescriptorName>
+                <QualifierName UI="Q000517" MajorTopicYN="N">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019047" MajorTopicYN="N">Phantoms, Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011785" MajorTopicYN="N">Quality Assurance, Health Care</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011879" MajorTopicYN="N">Radiotherapy Dosage</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D050397" MajorTopicYN="N">Radiotherapy, Intensity-Modulated</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013997" MajorTopicYN="N">Time Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">EPID</Keyword>
+            <Keyword MajorTopicYN="N">VMAT</Keyword>
+            <Keyword MajorTopicYN="N">error detection</Keyword>
+            <Keyword MajorTopicYN="N">real-time quality assurance</Keyword>
+            <Keyword MajorTopicYN="N">treatment verification</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28134989</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12142</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,116 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29199498</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-8259</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>20</Volume>
+                    <Issue>16</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods in biomechanics and biomedical engineering</Title>
+                <ISOAbbreviation>Comput Methods Biomech Biomed Engin</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>GPGPU-based explicit finite element computations for applications in biomechanics: the performance of material models, element technologies, and hardware generations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1643-1657</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1080/10255842.2017.1404586</ELocationID>
+            <Abstract>
+                <AbstractText>Finite element (FE) simulations are increasingly valuable in assessing and improving the performance of biomedical devices and procedures. Due to high computational demands such simulations may become difficult or even infeasible, especially when considering nearly incompressible and anisotropic material models prevalent in analyses of soft tissues. Implementations of GPGPU-based explicit FEs predominantly cover isotropic materials, e.g. the neo-Hookean model. To elucidate the computational expense of anisotropic materials, we implement the Gasser-Ogden-Holzapfel dispersed, fiber-reinforced model and compare solution times against the neo-Hookean model. Implementations of GPGPU-based explicit FEs conventionally rely on single-point (under) integration. To elucidate the expense of full and selective-reduced integration (more reliable) we implement both and compare corresponding solution times against those generated using underintegration. To better understand the advancement of hardware, we compare results generated using representative Nvidia GPGPUs from three recent generations: Fermi (C2075), Kepler (K20c), and Maxwell (GTX980). We explore scaling by solving the same boundary value problem (an extension-inflation test on a segment of human aorta) with progressively larger FE meshes. Our results demonstrate substantial improvements in simulation speeds relative to two benchmark FE codes (up to 300[Formula: see text] while maintaining accuracy), and thus open many avenues to novel applications in biomechanics and medicine.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Strbac</LastName>
+                    <ForeName>V</ForeName>
+                    <Initials>V</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1278-4116</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>a Biomechanics Section, Department of Mechanical Engineering , KULeuven , Heverlee , Belgium .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pierce</LastName>
+                    <ForeName>D M</ForeName>
+                    <Initials>DM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-9713-1204</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>b Interdisciplinary Mechanics Laboratory, Departments of Mechanical Engineering/Biomedical Engineering/Mathematics , University of Connecticut , Storrs , CT , USA .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vander Sloten</LastName>
+                    <ForeName>J</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Biomechanics Section, Department of Mechanical Engineering , KULeuven , Heverlee , Belgium .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Famaey</LastName>
+                    <ForeName>N</ForeName>
+                    <Initials>N</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7374-8912</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>a Biomechanics Section, Department of Mechanical Engineering , KULeuven , Heverlee , Belgium .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Comput Methods Biomech Biomed Engin</MedlineTA>
+            <NlmUniqueID>9802899</NlmUniqueID>
+            <ISSNLinking>1025-5842</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Finite element analysis</Keyword>
+            <Keyword MajorTopicYN="N">Gaussian integration</Keyword>
+            <Keyword MajorTopicYN="N">anisotropic constitutive model</Keyword>
+            <Keyword MajorTopicYN="N">general purpose graphics processing unit</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29199498</ArticleId>
+            <ArticleId IdType="doi">10.1080/10255842.2017.1404586</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

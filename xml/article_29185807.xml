@@ -1,0 +1,172 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29185807</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-8666</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of computational biology : a journal of computational molecular cell biology</Title>
+                <ISOAbbreviation>J. Comput. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ICON-MIC: Implementing a CPU/MIC Collaboration Parallel Framework for ICON on Tianhe-2 Supercomputer.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1089/cmb.2017.0151</ELocationID>
+            <Abstract>
+                <AbstractText>Electron tomography (ET) is an important technique for studying the three-dimensional structures of the biological ultrastructure. Recently, ET has reached sub-nanometer resolution for investigating the native and conformational dynamics of macromolecular complexes by combining with the sub-tomogram averaging approach. Due to the limited sampling angles, ET reconstruction typically suffers from the &quot;missing wedge&quot; problem. Using a validation procedure, iterative compressed-sensing optimized nonuniform fast Fourier transform (NUFFT) reconstruction (ICON) demonstrates its power in restoring validated missing information for a low-signal-to-noise ratio biological ET dataset. However, the huge computational demand has become a bottleneck for the application of ICON. In this work, we implemented a parallel acceleration technology ICON-many integrated core (MIC) on Xeon Phi cards to address the huge computational demand of ICON. During this step, we parallelize the element-wise matrix operations and use the efficient summation of a matrix to reduce the cost of matrix computation. We also developed parallel versions of NUFFT on MIC to achieve a high acceleration of ICON by using more efficient fast Fourier transform (FFT) calculation. We then proposed a hybrid task allocation strategy (two-level load balancing) to improve the overall performance of ICON-MIC by making full use of the idle resources on Tianhe-2 supercomputer. Experimental results using two different datasets show that ICON-MIC has high accuracy in biological specimens under different noise levels and a significant acceleration, up to 13.3 × , compared with the CPU version. Further, ICON-MIC has good scalability efficiency and overall performance on Tianhe-2 supercomputer.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Zihao</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2 University of Chinese Academy of Sciences , Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>6 These authors contributed equally to this work.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yu</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2 University of Chinese Academy of Sciences , Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>6 These authors contributed equally to this work.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Jingrong</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2 University of Chinese Academy of Sciences , Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Lun</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>3 School of Mathematical Sciences, University of Chinese Academy of Sciences , Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wan</LastName>
+                    <ForeName>Xiaohua</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Zhiyong</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Fei</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 University of Chinese Academy of Sciences , Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>4 National Key Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>5 Center for Biological Imaging, Institute of Biophysics , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Fa</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China .</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Comput Biol</MedlineTA>
+            <NlmUniqueID>9433358</NlmUniqueID>
+            <ISSNLinking>1066-5277</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ICON</Keyword>
+            <Keyword MajorTopicYN="N">MIC acceleration</Keyword>
+            <Keyword MajorTopicYN="N">Tianhe-2 supercomputer.</Keyword>
+            <Keyword MajorTopicYN="N">electron tomography</Keyword>
+            <Keyword MajorTopicYN="N">hybrid task allocation strategy</Keyword>
+            <Keyword MajorTopicYN="N">parallel NUFFT</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29185807</ArticleId>
+            <ArticleId IdType="doi">10.1089/cmb.2017.0151</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

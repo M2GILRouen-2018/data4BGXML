@@ -1,0 +1,406 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29176802</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Assessment of automated analysis of portable oximetry as a screening test for moderate-to-severe sleep apnea in patients with chronic obstructive pulmonary disease.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0188094</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0188094</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The coexistence of obstructive sleep apnea syndrome (OSAS) and chronic obstructive pulmonary disease (COPD) leads to increased morbidity and mortality. The development of home-based screening tests is essential to expedite diagnosis. Nevertheless, there is still very limited evidence on the effectiveness of portable monitoring to diagnose OSAS in patients with pulmonary comorbidities.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To assess the influence of suffering from COPD in the performance of an oximetry-based screening test for moderate-to-severe OSAS, both in the hospital and at home.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A total of 407 patients showing moderate-to-high clinical suspicion of OSAS were involved in the study. All subjects underwent (i) supervised portable oximetry simultaneously to in-hospital polysomnography (PSG) and (ii) unsupervised portable oximetry at home. A regression-based multilayer perceptron (MLP) artificial neural network (ANN) was trained to estimate the apnea-hypopnea index (AHI) from portable oximetry recordings. Two independent validation datasets were analyzed: COPD versus non-COPD.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The portable oximetry-based MLP ANN reached similar intra-class correlation coefficient (ICC) values between the estimated AHI and the actual AHI for the non-COPD and the COPD groups either in the hospital (non-COPD: 0.937, 0.909-0.956 CI95%; COPD: 0.936, 0.899-0.960 CI95%) and at home (non-COPD: 0.731, 0.631-0.808 CI95%; COPD: 0.788, 0.678-0.864 CI95%). Regarding the area under the receiver operating characteristics curve (AUC), no statistically significant differences (p &gt;0.01) between COPD and non-COPD groups were found in both settings, particularly for severe OSAS (AHI ≥30 events/h): 0.97 (0.92-0.99 CI95%) non-COPD vs. 0.98 (0.92-1.0 CI95%) COPD in the hospital, and 0.87 (0.79-0.92 CI95%) non-COPD vs. 0.86 (0.75-0.93 CI95%) COPD at home.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The agreement and the diagnostic performance of the estimated AHI from automated analysis of portable oximetry were similar regardless of the presence of COPD both in-lab and at-home. Particularly, portable oximetry could be used as an abbreviated screening test for moderate-to-severe OSAS in patients with COPD.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Andrés-Blanco</LastName>
+                    <ForeName>Ana M</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Service, Río Hortega University Hospital, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Álvarez</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Service, Río Hortega University Hospital, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering Group, University of Valladolid, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Crespo</LastName>
+                    <ForeName>Andrea</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Service, Río Hortega University Hospital, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering Group, University of Valladolid, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arroyo</LastName>
+                    <ForeName>C Ainhoa</ForeName>
+                    <Initials>CA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Service, Río Hortega University Hospital, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cerezo-Hernández</LastName>
+                    <ForeName>Ana</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Service, Río Hortega University Hospital, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gutiérrez-Tobal</LastName>
+                    <ForeName>Gonzalo C</ForeName>
+                    <Initials>GC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering Group, University of Valladolid, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hornero</LastName>
+                    <ForeName>Roberto</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering Group, University of Valladolid, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Del Campo</LastName>
+                    <ForeName>Félix</ForeName>
+                    <Initials>F</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-4554-2167</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Service, Río Hortega University Hospital, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering Group, University of Valladolid, Valladolid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2014 Aug 5;161(3):210-20</RefSource>
+                <PMID Version="1">25089864</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2016 Apr;149(4):1074-81</RefSource>
+                <PMID Version="1">26539918</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2003 Nov;124(5):1694-701</RefSource>
+                <PMID Version="1">14605037</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Sleep Med. 2007 Dec 15;3(7):737-47</RefSource>
+                <PMID Version="1">18198809</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Artif Intell Med. 2006 Jun;37(2):111-8</RefSource>
+                <PMID Version="1">16386411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ Open. 2015 Jun 30;5(6):e007956</RefSource>
+                <PMID Version="1">26129636</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 2013 Dec;51(12):1367-80</RefSource>
+                <PMID Version="1">24057145</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Sleep Med. 2017 Mar 15;13(3):479-504</RefSource>
+                <PMID Version="1">28162150</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sleep Breath. 2011 Dec;15(4):679-86</RefSource>
+                <PMID Version="1">20890768</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 2010 Sep;48(9):895-902</RefSource>
+                <PMID Version="1">20574725</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesth Analg. 2012 May;114(5):993-1000</RefSource>
+                <PMID Version="1">22366847</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2016 Oct 4;11(10 ):e0163439</RefSource>
+                <PMID Version="1">27701416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Eng Phys. 2007 Dec;29(10):1073-83</RefSource>
+                <PMID Version="1">17204443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sleep Med. 2012 Sep;13(8):1033-8</RefSource>
+                <PMID Version="1">22841038</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Physiol Meas. 2011 Mar;32(3):287-303</RefSource>
+                <PMID Version="1">21285482</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Physiol Heart Circ Physiol. 2000 Jun;278(6):H2039-49</RefSource>
+                <PMID Version="1">10843903</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Chron Obstruct Pulmon Dis. 2016 Mar 30;11:665-73</RefSource>
+                <PMID Version="1">27099484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2015 Dec;277(3):826-32</RefSource>
+                <PMID Version="1">26509226</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sleep. 1999 Feb 1;22(1):105-11</RefSource>
+                <PMID Version="1">9989371</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2016 Mar;63(3):636-46</RefSource>
+                <PMID Version="1">26276985</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 2013 Mar;51(3):305-15</RefSource>
+                <PMID Version="1">23160897</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2016 Nov 23;11(11):e0167031</RefSource>
+                <PMID Version="1">27880845</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 2013 Apr;41(4):879-87</RefSource>
+                <PMID Version="1">22878873</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Laryngoscope. 2017 Dec;127(12 ):2891-2896</RefSource>
+                <PMID Version="1">28626986</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Sleep Med. 2009 Jun 15;5(3):263-76</RefSource>
+                <PMID Version="1">19960649</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2012 Jan;59(1):141-9</RefSource>
+                <PMID Version="1">21926015</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 1991 May;99(5):1151-7</RefSource>
+                <PMID Version="1">2019170</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2004 Apr 28;291(16):2013-6</RefSource>
+                <PMID Version="1">15113821</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2001 Aug;120(2):625-33</RefSource>
+                <PMID Version="1">11502669</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2017 Dec;152(6):1318-1326</RefSource>
+                <PMID Version="1">28442310</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Chron Obstruct Pulmon Dis. 2014 Apr 08;9:349-62</RefSource>
+                <PMID Version="1">24748786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Respirology. 2017 Apr;22(3):575-601</RefSource>
+                <PMID Version="1">28150362</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Neural Syst. 2013 Oct;23(5):1350020</RefSource>
+                <PMID Version="1">23924411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sleep Breath. 2016 May;20(2):509-14</RefSource>
+                <PMID Version="1">26087718</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Nov 17;9(11):e112959</RefSource>
+                <PMID Version="1">25401696</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sleep. 1998 Nov 1;21(7):759-67</RefSource>
+                <PMID Version="1">11300121</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2017 Jun 14;:null</RefSource>
+                <PMID Version="1">28622666</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Eng Phys. 2012 Oct;34(8):1049-57</RefSource>
+                <PMID Version="1">22154238</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Can Respir J. 2014 May-Jun;21(3):171-5</RefSource>
+                <PMID Version="1">24524112</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2010 Dec;57(12):2816-24</RefSource>
+                <PMID Version="1">20624698</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sleep. 2014 Dec 01;37(12):1953-61</RefSource>
+                <PMID Version="1">25325484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Breathe (Sheff). 2017 Jun;13(2):137-140</RefSource>
+                <PMID Version="1">28620435</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2003 May;123(5):1567-76</RefSource>
+                <PMID Version="1">12740275</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Methods Programs Biomed. 2008 Oct;92(1):79-89</RefSource>
+                <PMID Version="1">18672313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2001 Dec;48(12):1424-33</RefSource>
+                <PMID Version="1">11759923</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="N">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019992" MajorTopicYN="N">Databases as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003710" MajorTopicYN="N">Demography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008403" MajorTopicYN="Y">Mass Screening</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="N">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010092" MajorTopicYN="N">Oximetry</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017286" MajorTopicYN="N">Polysomnography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D029424" MajorTopicYN="N">Pulmonary Disease, Chronic Obstructive</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012372" MajorTopicYN="N">ROC Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012891" MajorTopicYN="N">Sleep Apnea Syndromes</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29176802</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0188094</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-27039</ArticleId>
+            <ArticleId IdType="pmc">PMC5703515</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,183 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28939059</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-0593</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>73</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Oral oncology</Title>
+                <ISOAbbreviation>Oral Oncol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Complex integrated analysis of lncRNAs-miRNAs-mRNAs in oral squamous cell carcinoma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1368-8375(17)30217-8</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.oraloncology.2017.07.026</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">This study aims to reveal regulatory network of lncRNAs-miRNAs-mRNAs in oral squamous cell carcinoma (OSCC) through gene expression data.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS" NlmCategory="METHODS">Differentially expressed lncRNAs, miRNAs and mRNAs (cut-off: False discovery rate (FDR)&lt;0.05 and |fold change|&gt;1.5) were unveiled by package edgeR of R. Cox regression analysis was performed to screen prognostic factors in OSCC related with overall survival (OS) and relapse-free survival (RFS). Protein-protein interaction (PPI) network was constructed for differentially expressed mRNAs using BioGRID, HPRD and DIP. Key hub genes were identified from top 100 differentially expressed mRNAs ranked by betweenness centrality using recursive feature elimination. LncRNA-miRNA and miRNA-mRNA regulatory network were constructed and combined into ceRNAs regulatory network. Gene ontology biological terms and Kyoto Encyclopedia of Genes and Genomes pathways were identified using Fisher's exact test.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A total of 929 differentially expressed mRNAs, 23 differentially expressed lncRNAs and 29 differentially expressed miRNAs were identified. 59 mRNAs, 6 miRNAs (hsa-mir-133a-1, hsa-mir-1-2, hsa-mir-486, hsa-mir-135b, hsa-mir-196b, hsa-mir-193b) and 6 lncRNAs (C10orf91, C2orf48, SFTA1P, FLJ41941,PART1,TTTY14) were related with OS; and 52 mRNAs, 4 miRNAs (hsa-mir-133a-1, hsa-mir-135b, hsa-mir-196b, hsa-mir-193b) and 2 lncRNAs (PART1, TTTY14) were associated with RFS. A support vector machine (SVM) classifier containing 37 key hub genes was obtained. A ceRNA regulatory network containing 417 nodes and 696 edges was constructed. ECM-receptor interaction, cytokine-cytokine receptor interaction, focal adhesion, arachidonic acid metabolism, and p53 signaling pathway were significantly enriched in the network.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">These findings uncover the pathogenesis of OSCC and might provide potential therapeutic targets.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Simin</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cariology, Endodontology and Periodontology, University Leipzig, Liebigstr. 12, 04103 Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Xiujie</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang Province, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Xiangqiong</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang Province, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Periodontology, The Stomatology Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Hongying</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Orthopedic surgery, Brigham and Women's Hospital, Harvard Medical School, Harvard University, Boston, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Haak</LastName>
+                    <ForeName>Rainer</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cariology, Endodontology and Periodontology, University Leipzig, Liebigstr. 12, 04103 Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schmidt</LastName>
+                    <ForeName>Jana</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cariology, Endodontology and Periodontology, University Leipzig, Liebigstr. 12, 04103 Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ziebolz</LastName>
+                    <ForeName>Dirk</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cariology, Endodontology and Periodontology, University Leipzig, Liebigstr. 12, 04103 Leipzig, Germany. Electronic address: Dirk.Ziebolz@medizin.uni-leipzig.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schmalz</LastName>
+                    <ForeName>Gerhard</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cariology, Endodontology and Periodontology, University Leipzig, Liebigstr. 12, 04103 Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Oral Oncol</MedlineTA>
+            <NlmUniqueID>9709118</NlmUniqueID>
+            <ISSNLinking>1368-8375</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Biomarker</Keyword>
+            <Keyword MajorTopicYN="N">OSCC</Keyword>
+            <Keyword MajorTopicYN="N">Oral cancer</Keyword>
+            <Keyword MajorTopicYN="N">Prognosis</Keyword>
+            <Keyword MajorTopicYN="N">Regulatory network</Keyword>
+            <Keyword MajorTopicYN="N">ceRNA</Keyword>
+            <Keyword MajorTopicYN="N">lncRNA</Keyword>
+            <Keyword MajorTopicYN="N">mRNA</Keyword>
+            <Keyword MajorTopicYN="N">miRNA</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28939059</ArticleId>
+            <ArticleId IdType="pii">S1368-8375(17)30217-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.oraloncology.2017.07.026</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

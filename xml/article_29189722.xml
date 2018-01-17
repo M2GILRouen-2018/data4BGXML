@@ -1,0 +1,142 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29189722</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using Spherical-Harmonics Expansions for Optics Surface Reconstruction from Gradients.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2780</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17122780</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, we propose a new algorithm to reconstruct optics surfaces (aka wavefronts) from gradients, defined on a circular domain, by means of the Spherical Harmonics. The experimental results indicate that this algorithm renders the same accuracy, compared to the reconstruction based on classical Zernike polynomials, using a smaller number of polynomial terms, which potentially speeds up the wavefront reconstruction. Additionally, we provide an open-source C++ library, released under the terms of the GNU General Public License version 2 (GPLv2), wherein several polynomial sets are coded. Therefore, this library constitutes a robust software alternative for wavefront reconstruction in a high energy laser field, optical surface reconstruction, and, more generally, in surface reconstruction from gradients. The library is a candidate for being integrated in control systems for optical devices, or similarly to be used in ad hoc simulations. Moreover, it has been developed with flexibility in mind, and, as such, the implementation includes the following features: (i) a mock-up generator of various incident wavefronts, intended to simulate the wavefronts commonly encountered in the field of high-energy lasers production; (ii) runtime selection of the library in charge of performing the algebraic computations; (iii) a profiling mechanism to measure and compare the performance of different steps of the algorithms and/or third-party linear algebra libraries. Finally, the library can be easily extended to include additional dependencies, such as porting the algebraic operations to specific architectures, in order to exploit hardware acceleration features.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Solano-Altamirano</LastName>
+                    <ForeName>Juan Manuel</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Facultad de Ciencias Químicas, Benemérita Universidad Autónoma de Puebla, 14 Sur y Av. San Claudio, Col. San Manuel, Puebla 72520, Mexico. jmsolanoalt@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vázquez-Otero</LastName>
+                    <ForeName>Alejandro</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>MSD IT Global Innovation Center s.r.o., Svornosti 3321/2, 150 00 Prague 5, Czech Republic. alejandro.vazquez.otero@merck.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Khikhlukha</LastName>
+                    <ForeName>Danila</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>ELI Beamlines, Institute of Physics ASCR, Za Radnicí 835, 252 41 Dolní Břežany, Czech Republic. danila.khikhlukha@eli-beams.eu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dormido</LastName>
+                    <ForeName>Raquel</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Sciences and Automatic Control, UNED, C/Juan del Rosal, 16, 28040 Madrid, Spain. raquel@dia.uned.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Duro</LastName>
+                    <ForeName>Natividad</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Sciences and Automatic Control, UNED, C/Juan del Rosal, 16, 28040 Madrid, Spain. nduro@dia.uned.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">algorithm</Keyword>
+            <Keyword MajorTopicYN="N">spherical harmonics</Keyword>
+            <Keyword MajorTopicYN="N">surface reconstruction from gradients</Keyword>
+            <Keyword MajorTopicYN="N">wavefront reconstruction from gradients</Keyword>
+            <Keyword MajorTopicYN="N">zernike-polynomials</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29189722</ArticleId>
+            <ArticleId IdType="pii">s17122780</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17122780</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

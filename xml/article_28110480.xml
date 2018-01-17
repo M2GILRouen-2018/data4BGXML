@@ -1,0 +1,139 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28110480</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1867-1462</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Interdisciplinary sciences, computational life sciences</Title>
+                <ISOAbbreviation>Interdiscip Sci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>CAsubtype: An R Package to Identify Gene Sets Predictive of Cancer Subtypes and Clinical Outcomes.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s12539-016-0198-z</ELocationID>
+            <Abstract>
+                <AbstractText>In the past decade, molecular classification of cancer has gained high popularity owing to its high predictive power on clinical outcomes as compared with traditional methods commonly used in clinical practice. In particular, using gene expression profiles, recent studies have successfully identified a number of gene sets for the delineation of cancer subtypes that are associated with distinct prognosis. However, identification of such gene sets remains a laborious task due to the lack of tools with flexibility, integration and ease of use. To reduce the burden, we have developed an R package, CAsubtype, to efficiently identify gene sets predictive of cancer subtypes and clinical outcomes. By integrating more than 13,000 annotated gene sets, CAsubtype provides a comprehensive repertoire of candidates for new cancer subtype identification. For easy data access, CAsubtype further includes the gene expression and clinical data of more than 2000 cancer patients from TCGA. CAsubtype first employs principal component analysis to identify gene sets (from user-provided or package-integrated ones) with robust principal components representing significantly large variation between cancer samples. Based on these principal components, CAsubtype visualizes the sample distribution in low-dimensional space for better understanding of the distinction between samples and classifies samples into subgroups with prevalent clustering algorithms. Finally, CAsubtype performs survival analysis to compare the clinical outcomes between the identified subgroups, assessing their clinical value as potentially novel cancer subtypes. In conclusion, CAsubtype is a flexible and well-integrated tool in the R environment to identify gene sets for cancer subtype identification and clinical outcome prediction. Its simple R commands and comprehensive data sets enable efficient examination of the clinical value of any given gene set, thus facilitating hypothesis generating and testing in biological and clinical studies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kong</LastName>
+                    <ForeName>Hualei</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, 200240, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tong</LastName>
+                    <ForeName>Pan</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Xiaodong</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Jielin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, 200240, China. jlsun@sjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Hua</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China. kaikaixinxin@sjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Interdiscip Sci</MedlineTA>
+            <NlmUniqueID>101515919</NlmUniqueID>
+            <ISSNLinking>1867-1462</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cancer subtype</Keyword>
+            <Keyword MajorTopicYN="N">Clinical outcome</Keyword>
+            <Keyword MajorTopicYN="N">Gene expression profile</Keyword>
+            <Keyword MajorTopicYN="N">Gene signature</Keyword>
+            <Keyword MajorTopicYN="N">R package</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110480</ArticleId>
+            <ArticleId IdType="doi">10.1007/s12539-016-0198-z</ArticleId>
+            <ArticleId IdType="pii">10.1007/s12539-016-0198-z</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

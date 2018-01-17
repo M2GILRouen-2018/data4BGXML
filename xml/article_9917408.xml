@@ -1,0 +1,308 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29199981</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2059-7983</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>73</Volume>
+                    <Issue>Pt 12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Acta crystallographica. Section D, Structural biology</Title>
+                <ISOAbbreviation>Acta Crystallogr D Struct Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Solving the scalability issue in quantum-based refinement: Q|R#1.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1020-1028</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1107/S2059798317016746</ELocationID>
+            <Abstract>
+                <AbstractText>Accurately refining biomacromolecules using a quantum-chemical method is challenging because the cost of a quantum-chemical calculation scales approximately as nm, where n is the number of atoms and m (≥3) is based on the quantum method of choice. This fundamental problem means that quantum-chemical calculations become intractable when the size of the system requires more computational resources than are available. In the development of the software package called Q|R, this issue is referred to as Q|R#1. A divide-and-conquer approach has been developed that fragments the atomic model into small manageable pieces in order to solve Q|R#1. Firstly, the atomic model of a crystal structure is analyzed to detect noncovalent interactions between residues, and the results of the analysis are represented as an interaction graph. Secondly, a graph-clustering algorithm is used to partition the interaction graph into a set of clusters in such a way as to minimize disruption to the noncovalent interaction network. Thirdly, the environment surrounding each individual cluster is analyzed and any residue that is interacting with a particular cluster is assigned to the buffer region of that particular cluster. A fragment is defined as a cluster plus its buffer region. The gradients for all atoms from each of the fragments are computed, and only the gradients from each cluster are combined to create the total gradients. A quantum-based refinement is carried out using the total gradients as chemical restraints. In order to validate this interaction graph-based fragmentation approach in Q|R, the entire atomic model of an amyloid cross-β spine crystal structure (PDB entry 2oNA) was refined.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zheng</LastName>
+                    <ForeName>Min</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Center for Quantum and Molecular Structures, Shanghai University, Shanghai 200444, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moriarty</LastName>
+                    <ForeName>Nigel W</ForeName>
+                    <Initials>NW</Initials>
+                    <Identifier Source="ORCID">0000-0001-8857-9464</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Biosciences and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Yanting</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Center for Quantum and Molecular Structures, Shanghai University, Shanghai 200444, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reimers</LastName>
+                    <ForeName>Jeffrey R</ForeName>
+                    <Initials>JR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Center for Quantum and Molecular Structures, Shanghai University, Shanghai 200444, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Afonine</LastName>
+                    <ForeName>Pavel V</ForeName>
+                    <Initials>PV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Center for Quantum and Molecular Structures, Shanghai University, Shanghai 200444, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Waller</LastName>
+                    <ForeName>Mark P</ForeName>
+                    <Initials>MP</Initials>
+                    <Identifier Source="ORCID">0000-0003-1650-5161</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>International Center for Quantum and Molecular Structures, Shanghai University, Shanghai 200444, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>SFB858</GrantID>
+                    <Agency>Deutsche Forschungsgemeinschaft</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Shanghai Eastern Scholar Program</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>GM063210</GrantID>
+                    <Agency>National Institutes of Health</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Phenix Industrial Consortium</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Acta Crystallogr D Struct Biol</MedlineTA>
+            <NlmUniqueID>101676043</NlmUniqueID>
+            <ISSNLinking>2059-7983</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2015 Sep 10;525(7568):172-4</RefSource>
+                <PMID Version="1">26354465</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem A. 2007 Aug 2;111(30):6904-14</RefSource>
+                <PMID Version="1">17511437</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Crystallogr D Biol Crystallogr. 2014 May;70(Pt 5):1233-47</RefSource>
+                <PMID Version="1">24816093</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2003 Nov 26;125(47):14232-3</RefSource>
+                <PMID Version="1">14624544</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 2004 Nov;87(5):3437-47</RefSource>
+                <PMID Version="1">15339813</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Crystallogr D Biol Crystallogr. 2010 Jan;66(Pt 1):12-21</RefSource>
+                <PMID Version="1">20057044</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2010 May 12;132(18):6498-506</RefSource>
+                <PMID Version="1">20394428</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chem Rev. 2012 Jan 11;112(1):632-72</RefSource>
+                <PMID Version="1">21866983</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 2006 Dec;15(12):2773-84</RefSource>
+                <PMID Version="1">17132861</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acc Chem Res. 2014 Sep 16;47(9):2748-57</RefSource>
+                <PMID Version="1">24851673</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Enzymol. 1997;277:319-43</RefSource>
+                <PMID Version="1">18488315</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2013 Jan 8;9(1):213-21</RefSource>
+                <PMID Version="1">26589024</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2011 Mar 8;7(3):625-632</RefSource>
+                <PMID Version="1">21516178</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2011 Oct 12;19(10):1395-412</RefSource>
+                <PMID Version="1">22000512</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2007 May 24;447(7143):453-7</RefSource>
+                <PMID Version="1">17468747</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2014 Mar 28;343(6178):1443-4</RefSource>
+                <PMID Version="1">24675944</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2010 Apr 21;132(15):154104</RefSource>
+                <PMID Version="1">20423165</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2002 Jun 11;99(12):7821-6</RefSource>
+                <PMID Version="1">12060727</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 2016 Mar 8;110(5):1008-12</RefSource>
+                <PMID Version="1">26958874</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2012 Jan 30;33(3):301-10</RefSource>
+                <PMID Version="1">22108894</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2009 Oct 13;5(10):2619-28</RefSource>
+                <PMID Version="1">26631777</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2014 Sep 9;10(9):3745-3756</RefSource>
+                <PMID Version="1">25221443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Biochem Biophys. 1978 Jan 30;185(2):584-91</RefSource>
+                <PMID Version="1">626512</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2006;2(4):1057-1069</RefSource>
+                <PMID Version="1">19079786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2016 Sep;84(9):1177-89</RefSource>
+                <PMID Version="1">27018641</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2013 Dec 3;9(3):1686-1693</RefSource>
+                <PMID Version="1">23526889</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2006 Jan 14;124(2):024301</RefSource>
+                <PMID Version="1">16422577</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Crystallogr D Biol Crystallogr. 2004 Dec;60(Pt 12 Pt 1):2184-95</RefSource>
+                <PMID Version="1">15572771</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Angew Chem Int Ed Engl. 2009;48(7):1198-229</RefSource>
+                <PMID Version="1">19173328</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Crystallogr D Biol Crystallogr. 2005 Mar;61(Pt 3):322-32</RefSource>
+                <PMID Version="1">15735343</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Chem Biol. 2003 Feb;7(1):136-42</RefSource>
+                <PMID Version="1">12547438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2013 Jul 9;9(7):3240-51</RefSource>
+                <PMID Version="1">26583999</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1999 Jan 29;285(4):1735-47</RefSource>
+                <PMID Version="1">9917408</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Q|R#1</Keyword>
+            <Keyword MajorTopicYN="N">fragmentation</Keyword>
+            <Keyword MajorTopicYN="N">graph clustering</Keyword>
+            <Keyword MajorTopicYN="N">quantum refinement</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29199981</ArticleId>
+            <ArticleId IdType="pii">S2059798317016746</ArticleId>
+            <ArticleId IdType="doi">10.1107/S2059798317016746</ArticleId>
+            <ArticleId IdType="pmc">PMC5713877</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

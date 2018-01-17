@@ -1,0 +1,289 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29191167</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using variant databases for variant prioritization and to detect erroneous genotype-phenotype associations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>535</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1951-y</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">In the search for novel causal mutations, public and/or private variant databases are nearly always used to facilitate the search as they result in a massive reduction of putative variants in one step. Practically, variant filtering is often done by either using all variants from the variant database (called the absence-approach, i.e. it is assumed that disease-causing variants do not reside in variant databases) or by using the subset of variants with an allelic frequency &gt; 1% (called the 1%-approach). We investigate the validity of these two approaches in terms of false negatives (the true disease-causing variant does not pass all filters) and false positives (a harmless mutation passes all filters and is erroneously retained in the list of putative disease-causing variants) and compare it with an novel approach which we named the quantile-based approach. This approach applies variable instead of static frequency thresholds and the calculation of these thresholds is based on prior knowledge of disease prevalence, inheritance models, database size and database characteristics.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Based on real-life data, we demonstrate that the quantile-based approach outperforms the absence-approach in terms of false negatives. At the same time, this quantile-based approach deals more appropriately with the variable allele frequencies of disease-causing alleles in variant databases relative to the 1%-approach and as such allows a better control of the number of false positives. We also introduce an alternative application for variant database usage and the quantile-based approach. If disease-causing variants in variant databases deviate substantially from theoretical expectancies calculated with the quantile-based approach, their association between genotype and phenotype had to be reconsidered in 12 out of 13 cases.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We developed a novel method and demonstrated that this so-called quantile-based approach is a highly suitable method for variant filtering. In addition, the quantile-based approach can also be used for variant flagging. For user friendliness, lookup tables and easy-to-use R calculators are provided.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Broeckx</LastName>
+                    <ForeName>Bart J G</ForeName>
+                    <Initials>BJG</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6742-3911</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Animal Genetics, Faculty of Veterinary Medicine, Ghent University, Heidestraat 19, B-9820, Merelbeke, Belgium. bart.broeckx@ugent.be.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peelman</LastName>
+                    <ForeName>Luc</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Animal Genetics, Faculty of Veterinary Medicine, Ghent University, Heidestraat 19, B-9820, Merelbeke, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saunders</LastName>
+                    <ForeName>Jimmy H</ForeName>
+                    <Initials>JH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Imaging and Orthopedics, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Deforce</LastName>
+                    <ForeName>Dieter</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Pharmaceutical Biotechnology, Faculty of Pharmaceutical Sciences, Ghent University, Ghent, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clement</LastName>
+                    <ForeName>Lieven</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Applied Mathematics, Computer Science and Statistics, Faculty of Sciences, Ghent University, Ghent, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>12G9217N</GrantID>
+                    <Agency>Fonds Wetenschappelijk Onderzoek</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2012 Dec 7;91(6):1022-32</RefSource>
+                <PMID Version="1">23217326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Inherit Metab Dis. 2010 Dec;33 Suppl 3:S175-80</RefSource>
+                <PMID Version="1">20224900</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2008 Jun;40(6):695-701</RefSource>
+                <PMID Version="1">18509313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 1998 Jun;7(6):975-80</RefSource>
+                <PMID Version="1">9580661</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2001 Jan 1;29(1):308-11</RefSource>
+                <PMID Version="1">11125122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pediatr Int. 2011 Aug;53(4):587-91</RefSource>
+                <PMID Version="1">21851494</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Inherit Metab Dis. 2009 Dec;32 Suppl 1:S169-73</RefSource>
+                <PMID Version="1">19757147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2011 Sep 14;12(9):227</RefSource>
+                <PMID Version="1">21920052</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Genet. 2009 Apr;46(4):249-53</RefSource>
+                <PMID Version="1">19028728</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Autism Dev Disord. 2008 Jan;38(1):14-9</RefSource>
+                <PMID Version="1">17340203</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Genet. 2014 Sep 01;15:96</RefSource>
+                <PMID Version="1">25174816</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cardiology. 2007;108(4):275-81</RefSource>
+                <PMID Version="1">17287605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anim Genet. 2016 Apr;47(2):200-7</RefSource>
+                <PMID Version="1">26689130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Mol Med. 1997 Jun;61(1):22-7</RefSource>
+                <PMID Version="1">9232193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Sep 2;467(7311):52-8</RefSource>
+                <PMID Version="1">20811451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2011 Sep 27;12(11):745-55</RefSource>
+                <PMID Version="1">21946919</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mutat. 2005 Apr;25(4):413</RefSource>
+                <PMID Version="1">15776412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2016 Jan 4;44(D1):D862-8</RefSource>
+                <PMID Version="1">26582918</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 1996 Jun;13(2):183-8</RefSource>
+                <PMID Version="1">8640224</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D493-6</RefSource>
+                <PMID Version="1">14681465</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Genet Metab. 2015 Dec;116(4):298-304</RefSource>
+                <PMID Version="1">26643207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Genet. 1991 Oct;28(10):695-700</RefSource>
+                <PMID Version="1">1941965</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2009 Oct 8;461(7265):747-53</RefSource>
+                <PMID Version="1">19812666</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2003 May;72(5):1187-99</RefSource>
+                <PMID Version="1">12677556</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mutat. 2008 Jan;29(1):6-13</RefSource>
+                <PMID Version="1">18000842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Nov 19;16:391</RefSource>
+                <PMID Version="1">26597515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Oct 28;467(7319):1061-73</RefSource>
+                <PMID Version="1">20981092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Med Genet. 1993 Oct 1;47(5):660-78</RefSource>
+                <PMID Version="1">8266994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurogenetics. 2006 May;7(2):105-10</RefSource>
+                <PMID Version="1">16673149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 1999 Aug;9(8):677-9</RefSource>
+                <PMID Version="1">10447503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Jan;42(1):30-5</RefSource>
+                <PMID Version="1">19915526</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurogenetics. 2007 Jan;8(1):45-9</RefSource>
+                <PMID Version="1">17096168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Lipid Res. 1996 Mar;37(3):631-9</RefSource>
+                <PMID Version="1">8728324</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Genet Metab. 2016 Mar;117(3):369-72</RefSource>
+                <PMID Version="1">26810761</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">1000 Genomes project variant database</Keyword>
+            <Keyword MajorTopicYN="N">Allele frequency</Keyword>
+            <Keyword MajorTopicYN="N">HapMap</Keyword>
+            <Keyword MajorTopicYN="N">Variant database</Keyword>
+            <Keyword MajorTopicYN="N">Variant filtering</Keyword>
+            <Keyword MajorTopicYN="N">dbSNP</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29191167</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1951-y</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1951-y</ArticleId>
+            <ArticleId IdType="pmc">PMC5710091</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

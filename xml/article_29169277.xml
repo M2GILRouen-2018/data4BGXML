@@ -1,0 +1,111 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29169277</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1757-6334</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of bioinformatics and computational biology</Title>
+                <ISOAbbreviation>J Bioinform Comput Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Reconstructing protein and gene phylogenies using reconciliation and soft-clustering.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1740007</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1142/S0219720017400078</ELocationID>
+            <Abstract>
+                <AbstractText>The architecture of eukaryotic coding genes allows the production of several different protein isoforms by genes. Current gene phylogeny reconstruction methods make use of a single protein product per gene, ignoring information on alternative protein isoforms. These methods often lead to inaccurate gene tree reconstructions that require to be corrected before phylogenetic analyses. Here, we propose a new approach for the reconstruction of gene trees and protein trees accounting for alternative protein isoforms. We extend the concept of reconciliation to protein trees, and we define a new reconciliation problem called MinDRGT that consists in finding a gene tree that minimizes a double reconciliation cost with a given protein tree and a given species tree. We define a second problem called MinDRPGT that consists in finding a protein supertree and a gene tree minimizing a double reconciliation cost, given a species tree and a set of protein subtrees. We propose a shift from the traditional view of protein ortholog groups as hard-clusters to soft-clusters and we study the MinDRPGT problem under this assumption. We provide algorithmic exact and heuristic solutions for versions of the problems, and we present the results of applications on protein and gene trees from the Ensembl database. The implementations of the methods are available at https://github.com/UdeS-CoBIUS/Protein2GeneTree and https://github.com/UdeS-CoBIUS/SuperProteinTree .</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kuitche</LastName>
+                    <ForeName>Esaie</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 Department of Computer Science, Université de Sherbrooke, Sherbrooke, QC J1K2R1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lafond</LastName>
+                    <ForeName>Manuel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Mathematics and Statistics, University of Ottawa, Ottawa, ON K1N6N5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ouangraoua</LastName>
+                    <ForeName>Aïda</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 Department of Computer Science, Université de Sherbrooke, Sherbrooke, QC J1K2R1, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Bioinform Comput Biol</MedlineTA>
+            <NlmUniqueID>101187344</NlmUniqueID>
+            <ISSNLinking>0219-7200</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Protein tree</Keyword>
+            <Keyword MajorTopicYN="N">gene tree</Keyword>
+            <Keyword MajorTopicYN="N">orthology</Keyword>
+            <Keyword MajorTopicYN="N">reconciliation</Keyword>
+            <Keyword MajorTopicYN="N">soft-clustering</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29169277</ArticleId>
+            <ArticleId IdType="doi">10.1142/S0219720017400078</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

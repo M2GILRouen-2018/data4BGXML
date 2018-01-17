@@ -1,0 +1,162 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NASA">
+        <PMID Version="1">12085933</PMID>
+        <DateCreated>
+            <Year>2002</Year>
+            <Month>06</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2002</Year>
+            <Month>08</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2007</Year>
+            <Month>11</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0276-6574</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>27</Volume>
+                    <PubDate>
+                        <Year>2000</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computers in cardiology</Title>
+                <ISOAbbreviation>Comput Cardiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Numerical analysis of blood flow through a stenosed artery using a coupled, multiscale simulation method.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>219-22</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>A global system model of the systemic circulation is combined with a local finite element solution to simulate blood flow in a stenosed coronary artery. Local fluid dynamic issues arise in connection with the detailed flow patterns within the stenosed coronary artery while the global system model is used to simulate the response of the rest of the circulation to the local perturbation. A PISO type finite element technique is employed to compute the local blood flow. The Navier-Stokes equations are solved with the assumption of viscous incompressible flow across the stenosed coronary artery. A detailed lumped parameter model simulates the characteristics of the coronary circulation and is imbedded in a coarse-grained lumped parameter model of the entire cardiovascular system. These two methods are coupled in that the lumped parameter calculations provide the time-dependent boundary conditions for the local finite element calculation. In turn, the local fluid dynamical computation provides estimates for the pressure drop across the stenosis, which is subsequently used to refine the lumped parameter calculation. Results are obtained for an axisymmetric coronary artery model with a stenosis of 90% area reduction over one cardiac cycle. Numerical results show that the flow rate and resistance are strongly coupled. Compared with the flow rate distribution computed from the global simulation with constant resistance, the coupled solution predicts a flow rate with only slight changes. The high flow rate during diastole increases the stenosis pressure drop and resistance. In turn, this increased resistance of the stenosis slightly reduces the flow rate computed in the lumped parameter simulation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shim</LastName>
+                    <ForeName>E B</ForeName>
+                    <Initials>EB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Kumoh National University of Technology, Kumi, Republic of Korea. simeb@knut.kumoh.ac.kr</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kamm</LastName>
+                    <ForeName>R D</ForeName>
+                    <Initials>RD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heldt</LastName>
+                    <ForeName>T</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mark</LastName>
+                    <ForeName>R G</ForeName>
+                    <Initials>RG</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Comput Cardiol</MedlineTA>
+            <NlmUniqueID>7504430</NlmUniqueID>
+            <ISSNLinking>0276-6574</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>S</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001158" MajorTopicYN="N">Arteries</DescriptorName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001783" MajorTopicYN="N">Blood Flow Velocity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="Y">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000503" MajorTopicYN="Y">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003326" MajorTopicYN="N">Coronary Circulation</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023921" MajorTopicYN="N">Coronary Stenosis</DescriptorName>
+                <QualifierName UI="Q000503" MajorTopicYN="Y">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003331" MajorTopicYN="N">Coronary Vessels</DescriptorName>
+                <QualifierName UI="Q000503" MajorTopicYN="Y">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020342" MajorTopicYN="N">Finite Element Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008955" MajorTopicYN="Y">Models, Cardiovascular</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011673" MajorTopicYN="N">Pulsatile Flow</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NASA">00027952</OtherID>
+        <KeywordList Owner="NASA">
+            <Keyword MajorTopicYN="N">NASA Discipline Cardiopulmonary</Keyword>
+            <Keyword MajorTopicYN="N">Non-NASA Center</Keyword>
+        </KeywordList>
+        <InvestigatorList>
+            <Investigator ValidYN="Y">
+                <LastName>Kamm</LastName>
+                <ForeName>R D</ForeName>
+                <Initials>RD</Initials>
+                <AffiliationInfo>
+                    <Affiliation>MA Inst Technol, Cambridge</Affiliation>
+                </AffiliationInfo>
+            </Investigator>
+        </InvestigatorList>
+        <GeneralNote Owner="NASA">Grant numbers: NCC 9-58.</GeneralNote>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2002</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+                <Hour>10</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2002</Year>
+                <Month>8</Month>
+                <Day>13</Day>
+                <Hour>10</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2002</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+                <Hour>10</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">12085933</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

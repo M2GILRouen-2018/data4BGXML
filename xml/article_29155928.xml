@@ -1,0 +1,129 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29155928</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Modeling positional effects of regulatory sequences with spline transformations increases prediction accuracy of deep neural networks.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx727</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Regulatory sequences are not solely defined by their nucleic acid sequence but also by their relative distances to genomic landmarks such as transcription start site, exon boundaries, or polyadenylation site. Deep learning has become the approach of choice for modeling regulatory sequences because of its strength to learn complex sequence features. However, modeling relative distances to genomic landmarks in deep neural networks has not been addressed.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">Here we developed spline transformation, a neural network module based on splines to flexibly and robustly model distances. Modeling distances to various genomic landmarks with spline transformations significantly increased state-of-the-art prediction accuracy of in vivo RNA-binding protein binding sites for 120 out of 123 proteins. We also developed a deep neural network for human splice branchpoint based on spline transformations that outperformed the current best, already distance-based, machine learning model. Compared to piecewise linear transformation, as obtained by composition of rectified linear units, spline transformation yields higher prediction accuracy as well as faster and more robust training. As spline transformation can be applied to further quantities beyond distances, such as methylation or conservation, we foresee it as a versatile component in the genomics deep learning toolbox.</AbstractText>
+                <AbstractText Label="Availability" NlmCategory="UNASSIGNED">Spline transformation is implemented as a Keras layer in the CONCISE python package: https://github.com/gagneurlab/concise. Analysis code is available at goo.gl/3yMY5w.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">avsec@in.tum.de; gagneur@in.tum.de.</AbstractText>
+                <AbstractText Label="Supplementary Information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Avsec</LastName>
+                    <ForeName>Žiga</ForeName>
+                    <Initials>Ž</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Informatics, Technical University of Munich, Boltzmannstraße, 85748 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School of Quantitative Biosciences (QBM), Ludwig-Maximilians-Universität München, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barekatain</LastName>
+                    <ForeName>Mohammadamin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Informatics, Technical University of Munich, Boltzmannstraße, 85748 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheng</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Informatics, Technical University of Munich, Boltzmannstraße, 85748 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School of Quantitative Biosciences (QBM), Ludwig-Maximilians-Universität München, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gagneur</LastName>
+                    <ForeName>Julien</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Informatics, Technical University of Munich, Boltzmannstraße, 85748 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29155928</ArticleId>
+            <ArticleId IdType="pii">4636216</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx727</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

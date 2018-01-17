@@ -1,0 +1,412 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25889930</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>04</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>29</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1472-6947</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Feb</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medical informatics and decision making</Title>
+                <ISOAbbreviation>BMC Med Inform Decis Mak</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Stratification of coronary artery disease patients for revascularization procedure based on estimating adverse effects.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12911-015-0131-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Percutaneous coronary intervention (PCI) is the most commonly performed treatment for coronary atherosclerosis. It is associated with a higher incidence of repeat revascularization procedures compared to coronary artery bypass grafting surgery. Recent results indicate that PCI is only cost-effective for a subset of patients. Estimating risks of treatment options would be an effort toward personalized treatment strategy for coronary atherosclerosis.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this paper, we propose to model clinical knowledge about the treatment of coronary atherosclerosis to identify patient-subgroup-specific classifiers to predict the risk of adverse events of different treatment options. We constructed one model for each patient subgroup to account for subgroup-specific interpretation and availability of features and hierarchically aggregated these models to cover the entire data. In addition, we deviated from the current clinical workflow only for patients with high probability of benefiting from an alternative treatment, as suggested by this model. Consequently, we devised a two-stage test with optimized negative and positive predictive values as the main indicators of performance. Our analysis was based on 2,377 patients that underwent PCI. Performance was compared with a conventional classification model and the existing clinical practice by estimating effectiveness, safety, and costs for different endpoints (6 month angiographic restenosis, 12 and 36 month hazardous events).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Compared to the current clinical practice, the proposed method achieved an estimated reduction in adverse effects by 25.0% (95% CI, 17.8 to 30.2) for hazardous events at 36 months and 31.2% (95% CI, 25.4 to 39.0) for hazardous events at 12 months. Estimated total savings per patient amounted to $693 and $794 at 12 and 36 months, respectively. The proposed subgroup-specific method outperformed conventional population wide regression: The median area under the receiver operating characteristic curve increased from 0.57 to 0.61 for prediction of angiographic restenosis and from 0.76 to 0.85 for prediction of hazardous events.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The results of this study demonstrated the efficacy of deployment of bare-metal stents and coronary artery bypass grafting surgery for subsets of patients. This is one effort towards development of personalized treatment strategies for patients with coronary atherosclerosis that could significantly impact associated treatment costs.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pölsterl</LastName>
+                    <ForeName>Sebastian</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Aided Medical Procedures, Technische Universität München, Boltzmannstr. 3, 85748, Garching b. München, Germany. sebastian.poelsterl@tum.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Singh</LastName>
+                    <ForeName>Maneesh</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Siemens Corporation, Corporate Technology, Imaging and Computer Vision, 755 College Rd E, Princeton, NJ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Katouzian</LastName>
+                    <ForeName>Amin</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Aided Medical Procedures, Technische Universität München, Boltzmannstr. 3, 85748, Garching b. München, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Navab</LastName>
+                    <ForeName>Nassir</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Aided Medical Procedures, Technische Universität München, Boltzmannstr. 3, 85748, Garching b. München, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kastrati</LastName>
+                    <ForeName>Adnan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deutsches Herzzentrum and 1. Medizinische Klinik rechts der Isar, Technische Universität München, Lazarettstr. 36, 80636, München, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ladic</LastName>
+                    <ForeName>Lance</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Siemens Healthcare Diagnostics, Strategic Innovation Group, 511 Benedict Ave, Tarrytown, NY, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kamen</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Siemens Corporation, Corporate Technology, Imaging and Computer Vision, 755 College Rd E, Princeton, NJ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>02</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med Inform Decis Mak</MedlineTA>
+            <NlmUniqueID>101088682</NlmUniqueID>
+            <ISSNLinking>1472-6947</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2005 Aug 16;46(4):575-81</RefSource>
+                <PMID Version="1">16098418</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2013 Feb 23;381(9867):629-38</RefSource>
+                <PMID Version="1">23439102</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Med. 2006 Dec;119(12):1056-61</RefSource>
+                <PMID Version="1">17145250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2010 Mar 16;55(11):1093-101</RefSource>
+                <PMID Version="1">20171036</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Catheter Cardiovasc Interv. 2005 Jan;64(1):75-81</RefSource>
+                <PMID Version="1">15619278</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Decis Making. 2013 Oct;33(7):891-905</RefSource>
+                <PMID Version="1">23886676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2005 Jun 21;45(12):2088-92</RefSource>
+                <PMID Version="1">15963413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2013 Feb 19;127(7):820-31</RefSource>
+                <PMID Version="1">23277307</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Catheter Cardiovasc Interv. 2012 Feb 1;79(2):198-209</RefSource>
+                <PMID Version="1">21542113</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Heart J. 2007 Nov;28(22):2706-13</RefSource>
+                <PMID Version="1">17901079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2010 Nov 30;56(23):1897-907</RefSource>
+                <PMID Version="1">21109112</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Can J Cardiol. 2007 Dec;23(14):1139-45</RefSource>
+                <PMID Version="1">18060100</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Technol Assess Health Care. 2005 Summer;21(3):326-33</RefSource>
+                <PMID Version="1">16110712</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2009 Mar 5;360(10):961-72</RefSource>
+                <PMID Version="1">19228612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acute Card Care. 2007;9(2):111-9</RefSource>
+                <PMID Version="1">17573586</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2011 May 4;305(17):1769-76</RefSource>
+                <PMID Version="1">21540420</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1999 Jan 5-12;99(1):44-52</RefSource>
+                <PMID Version="1">9884378</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2001 Jan;37(1):51-8</RefSource>
+                <PMID Version="1">11153772</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 2012 Aug 13;172(15):1145-52</RefSource>
+                <PMID Version="1">22777536</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cardiol. 2012 Oct;9(10):559-60</RefSource>
+                <PMID Version="1">22922596</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2003 Dec 9;108(23):2870-6</RefSource>
+                <PMID Version="1">14656913</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2001 Jul;38(1):143-9</RefSource>
+                <PMID Version="1">11451264</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Thorac Surg. 2014 Feb;97(2):522-8</RefSource>
+                <PMID Version="1">24021771</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2006 Dec 19;48(12):2584-91</RefSource>
+                <PMID Version="1">17174201</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Catheter Cardiovasc Interv. 2004 Jul;62(3):323-30</RefSource>
+                <PMID Version="1">15224298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Cardiol. 2007 Aug 15;100(4):575-8</RefSource>
+                <PMID Version="1">17697808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Thorac Surg. 2002 Oct;74(4):S1334-9</RefSource>
+                <PMID Version="1">12400812</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1999 Nov 2;100(18):1872-8</RefSource>
+                <PMID Version="1">10545431</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2004 May 19;43(10):1743-51</RefSource>
+                <PMID Version="1">15145093</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2002 Sep 28;360(9338):965-70</RefSource>
+                <PMID Version="1">12383664</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Technol Assess. 2004 Apr;8(16):1-43</RefSource>
+                <PMID Version="1">15080865</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2003 Oct 2;349(14):1315-23</RefSource>
+                <PMID Version="1">14523139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ J. 2006 Aug;70(8):1026-9</RefSource>
+                <PMID Version="1">16864936</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2002 Jun 6;346(23):1773-80</RefSource>
+                <PMID Version="1">12050336</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EuroIntervention. 2005 Aug;1(2):219-27</RefSource>
+                <PMID Version="1">19758907</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Invasive Cardiol. 2007 Nov;19(11):469-75</RefSource>
+                <PMID Version="1">17986722</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2009 May 5;53(18):1677-89</RefSource>
+                <PMID Version="1">19406344</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Technol Assess. 2007 Nov;11(46):iii, xi-221</RefSource>
+                <PMID Version="1">17999841</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2010 Nov 2;56(19):1597-604</RefSource>
+                <PMID Version="1">20888162</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2013 Feb 23;381(9867):639-50</RefSource>
+                <PMID Version="1">23439103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Cardiol. 2005 Mar 30;99(3):437-41</RefSource>
+                <PMID Version="1">15771925</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2006 Jun 20;113(24):2803-9</RefSource>
+                <PMID Version="1">16769908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2004 Apr;27(4):990-4</RefSource>
+                <PMID Version="1">15047662</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2012 Sep 11;126(11 Suppl 1):S145-50</RefSource>
+                <PMID Version="1">22965975</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Heart J. 2011 Sep;32(17):2125-34</RefSource>
+                <PMID Version="1">21697170</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2004 Feb 10;109(5):580-6</RefSource>
+                <PMID Version="1">14769678</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2004 Dec 21;110(25):e554-9</RefSource>
+                <PMID Version="1">15611381</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2009 Apr 28;53(17):1488-97</RefSource>
+                <PMID Version="1">19389558</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am Heart J. 2011 Jan;161(1):68-75</RefSource>
+                <PMID Version="1">21167336</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D050197" MajorTopicYN="N">Atherosclerosis</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000066491" MajorTopicYN="N">Clinical Decision-Making</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001026" MajorTopicYN="N">Coronary Artery Bypass</DescriptorName>
+                <QualifierName UI="Q000009" MajorTopicYN="N">adverse effects</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020000" MajorTopicYN="Y">Decision Support Systems, Clinical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D062645" MajorTopicYN="N">Percutaneous Coronary Intervention</DescriptorName>
+                <QualifierName UI="Q000009" MajorTopicYN="N">adverse effects</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011183" MajorTopicYN="N">Postoperative Complications</DescriptorName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015607" MajorTopicYN="N">Stents</DescriptorName>
+                <QualifierName UI="Q000009" MajorTopicYN="N">adverse effects</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4336731</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>04</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>01</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>4</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>4</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25889930</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12911-015-0131-0</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12911-015-0131-0</ArticleId>
+            <ArticleId IdType="pmc">PMC4336731</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

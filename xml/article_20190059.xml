@@ -1,0 +1,207 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28148277</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2041-1480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>8</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical semantics</Title>
+                <ISOAbbreviation>J Biomed Semantics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>SAFE: SPARQL Federation over RDF Data Cubes with Access Control.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13326-017-0112-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Several query federation engines have been proposed for accessing public Linked Open Data sources. However, in many domains, resources are sensitive and access to these resources is tightly controlled by stakeholders; consequently, privacy is a major concern when federating queries over such datasets. In the Healthcare and Life Sciences (HCLS) domain real-world datasets contain sensitive statistical information: strict ownership is granted to individuals working in hospitals, research labs, clinical trial organisers, etc. Therefore, the legal and ethical concerns on (i) preserving the anonymity of patients (or clinical subjects); and (ii) respecting data ownership through access control; are key challenges faced by the data analytics community working within the HCLS domain. Likewise statistical data play a key role in the domain, where the RDF Data Cube Vocabulary has been proposed as a standard format to enable the exchange of such data. However, to the best of our knowledge, no existing approach has looked to optimise federated queries over such statistical data.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We present SAFE: a query federation engine that enables policy-aware access to sensitive statistical datasets represented as RDF data cubes. SAFE is designed specifically to query statistical RDF data cubes in a distributed setting, where access control is coupled with source selection, user profiles and their access rights. SAFE proposes a join-aware source selection method that avoids wasteful requests to irrelevant and unauthorised data sources. In order to preserve anonymity and enforce stricter access control, SAFE's indexing system does not hold any data instances-it stores only predicates and endpoints. The resulting data summary has a significantly lower index generation time and size compared to existing engines, which allows for faster updates when sources change.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We validate the performance of the system with experiments over real-world datasets provided by three clinical organisations as well as legacy linked datasets. We show that SAFE enables granular graph-level access control over distributed clinical RDF data cubes and efficiently reduces the source selection and overall query execution time when compared with general-purpose SPARQL query federation engines in the targeted setting.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Khan</LastName>
+                    <ForeName>Yasar</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Insight Centre for Data Analytics, NUIG, Galway, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saleem</LastName>
+                    <ForeName>Muhammad</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>AKSW, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mehdi</LastName>
+                    <ForeName>Muntazir</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Insight Centre for Data Analytics, NUIG, Galway, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hogan</LastName>
+                    <ForeName>Aidan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Semantic Web Research, DCC, University of Chile, Santiago, Chile.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mehmood</LastName>
+                    <ForeName>Qaiser</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Insight Centre for Data Analytics, NUIG, Galway, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rebholz-Schuhmann</LastName>
+                    <ForeName>Dietrich</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Insight Centre for Data Analytics, NUIG, Galway, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sahay</LastName>
+                    <ForeName>Ratnesh</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Insight Centre for Data Analytics, NUIG, Galway, Ireland. ratnesh.sahay@insight-centre.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Biomed Semantics</MedlineTA>
+            <NlmUniqueID>101531992</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2008 Nov 6;456(7218):32-3</RefSource>
+                <PMID Version="1">18987719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2013 Jun;46(3):541-62</RefSource>
+                <PMID Version="1">23305810</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2013 Jan 1;20(1):7-15</RefSource>
+                <PMID Version="1">23184192</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Aug;50:213-25</RefSource>
+                <PMID Version="1">24632296</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2010 Mar-Apr;17(2):169-77</RefSource>
+                <PMID Version="1">20190059</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D064229" MajorTopicYN="Y">Biological Ontologies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003219" MajorTopicYN="N">Confidentiality</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016208" MajorTopicYN="N">Databases, Factual</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016247" MajorTopicYN="Y">Information Storage and Retrieval</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Data access policy</Keyword>
+            <Keyword MajorTopicYN="N">Healthcare and life sciences</Keyword>
+            <Keyword MajorTopicYN="N">Linked Data</Keyword>
+            <Keyword MajorTopicYN="N">SPARQL query federation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28148277</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13326-017-0112-6</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13326-017-0112-6</ArticleId>
+            <ArticleId IdType="pmc">PMC5288952</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

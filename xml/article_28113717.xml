@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113717</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>11</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fast Single Image Super-resolution using a New Analytical Solution for &lt;i&gt;l&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt;-&lt;i&gt;l&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; Problems.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2567075</ELocationID>
+            <Abstract>
+                <AbstractText>This paper addresses the problem of single image super-resolution (SR), which consists of recovering a high resolution image from its blurred, decimated and noisy version. The existing algorithms for single image SR use different strategies to handle the decimation and blurring operators. In addition to the traditional first-order gradient methods, recent techniques investigate splitting-based methods dividing the SR problem into up-sampling and deconvolution steps that can be easily solved. Instead of following this splitting strategy, we propose to deal with the decimation and blurring operators simultaneously by taking advantage of their particular properties in the frequency domain, leading to a new fast SR approach. Specifically, an analytical solution can be obtained and implemented efficiently for the Gaussian prior or any other regularization that can be formulated into an `2-regularized quadratic model, i.e., an `2-`2 optimization problem. Furthermore, the flexibility of the proposed SR scheme is shown through the use of various priors/regularizations, ranging from generic image priors to learning-based approaches. In the case of non-Gaussian priors, we show how the analytical solution derived from the Gaussian case can be embedded into traditional splitting frameworks, allowing the computation cost of existing algorithms to be decreased significantly. Simulation results conducted on several images with different priors illustrate the effectiveness of our fast SR approach compared with the existing techniques.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Ningning</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wei</LastName>
+                    <ForeName>Qi</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Basarab</LastName>
+                    <ForeName>Adrian</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dobigeon</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kouame</LastName>
+                    <ForeName>Denis</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tourneret</LastName>
+                    <ForeName>Jean-Yves</ForeName>
+                    <Initials>JY</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113717</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2567075</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

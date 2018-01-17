@@ -1,0 +1,109 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28128838</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1744-6848</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Soft matter</Title>
+                <ISOAbbreviation>Soft Matter</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Combining cell-based hydrodynamics with hybrid particle-field simulations: efficient and realistic simulation of structuring dynamics.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1594-1623</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1039/c6sm02252a</ELocationID>
+            <Abstract>
+                <AbstractText>We have extended an existing hybrid MD-SCF simulation technique that employs a coarsening step to enhance the computational efficiency of evaluating non-bonded particle interactions. This technique is conceptually equivalent to the single chain in mean-field (SCMF) method in polymer physics, in the sense that non-bonded interactions are derived from the non-ideal chemical potential in self-consistent field (SCF) theory, after a particle-to-field projection. In contrast to SCMF, however, MD-SCF evolves particle coordinates by the usual Newton's equation of motion. Since collisions are seriously affected by the softening of non-bonded interactions that originates from their evaluation at the coarser continuum level, we have devised a way to reinsert the effect of collisions on the structural evolution. Merging MD-SCF with multi-particle collision dynamics (MPCD), we mimic particle collisions at the level of computational cells and at the same time properly account for the momentum transfer that is important for a realistic system evolution. The resulting hybrid MD-SCF/MPCD method was validated for a particular coarse-grained model of phospholipids in aqueous solution, against reference full-particle simulations and the original MD-SCF model. We additionally implemented and tested an alternative and more isotropic finite difference gradient. Our results show that efficiency is improved by merging MD-SCF with MPCD, as properly accounting for hydrodynamic interactions considerably speeds up the phase separation dynamics, with negligible additional computational costs compared to efficient MD-SCF. This new method enables realistic simulations of large-scale systems that are needed to investigate the applications of self-assembled structures of lipids in nanotechnologies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sevink</LastName>
+                    <ForeName>G J A</ForeName>
+                    <Initials>GJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8005-0697</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Leiden Institute of Chemistry, Leiden University, P.O. Box 9502, 2300 RA Leiden, The Netherlands. a.sevink@chem.leidenuniv.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schmid</LastName>
+                    <ForeName>F</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut for Physik, Johannes Gutenberg Univeristat Mainz, Staudingerweg 7-9, 55128 Mainz, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kawakatsu</LastName>
+                    <ForeName>T</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics, Tohoku University, Aoba, Aoba-ku, Sendai 980-8578, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Milano</LastName>
+                    <ForeName>G</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Dipartimento di Chimica e Biologia, Universit degli Studi di Salerno, via Ponte don Melillo, Fisciano, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Soft Matter</MedlineTA>
+            <NlmUniqueID>101295070</NlmUniqueID>
+            <ISSNLinking>1744-683X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28128838</ArticleId>
+            <ArticleId IdType="doi">10.1039/c6sm02252a</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

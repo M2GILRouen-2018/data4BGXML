@@ -1,0 +1,191 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29163406</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1664-302X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>8</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in microbiology</Title>
+                <ISOAbbreviation>Front Microbiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Analysis of Microbiome Data in the Presence of Excess Zeros.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2114</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fmicb.2017.02114</ELocationID>
+            <Abstract>
+                <AbstractText>Motivation: An important feature of microbiome count data is the presence of a large number of zeros. A common strategy to handle these excess zeros is to add a small number called pseudo-count (e.g., 1). Other strategies include using various probability models to model the excess zero counts. Although adding a pseudo-count is simple and widely used, as demonstrated in this paper, it is not ideal. On the other hand, methods that model excess zeros using a probability model often make an implicit assumption that all zeros can be explained by a common probability models. As described in this article, this is not always recommended as there are potentially three types/sources of zeros in a microbiome data. The purpose of this paper is to develop a simple methodology to identify and accomodate three different types of zeros and to test hypotheses regarding the relative abundance of taxa in two or more experimental groups. Another major contribution of this paper is to perform constrained (directional or ordered) inference when there are more than two ordered experimental groups (e.g., subjects ordered by diet or age groups or environmental exposure groups). As far as we know this is the first paper that addresses such problems in the analysis of microbiome data. Results: Using extensive simulation studies, we demonstrate that the proposed methodology not only controls the false discovery rate at a desired level of significance while competing well in terms of power with DESeq2, a popular procedure derived from RNASeq literature. As expected, the method using pseudo-counts tends to be very conservative and the classical t-test that ignores the underlying simplex structure in the data has an inflated FDR.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kaul</LastName>
+                    <ForeName>Abhishek</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biostatistics and Computational Biology Branch, National Institute of Environmental Health Sciences (NIH), Durham, NC, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mandal</LastName>
+                    <ForeName>Siddhartha</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Public Health Foundation of India, Gurgaon, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Davidov</LastName>
+                    <ForeName>Ori</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, University of Haifa, Haifa, Israel.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peddada</LastName>
+                    <ForeName>Shyamal D</ForeName>
+                    <Initials>SD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biostatistics and Computational Biology Branch, National Institute of Environmental Health Sciences (NIH), Durham, NC, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>Z01 ES101744</GrantID>
+                    <Acronym>ES</Acronym>
+                    <Agency>NIEHS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Microbiol</MedlineTA>
+            <NlmUniqueID>101548977</NlmUniqueID>
+            <ISSNLinking>1664-302X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Sep 1;32(17 ):2611-7</RefSource>
+                <PMID Version="1">27187200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>ISME J. 2009 Aug;3(8):944-54</RefSource>
+                <PMID Version="1">19369970</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2016 Feb 25;17 :104</RefSource>
+                <PMID Version="1">26917217</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 May 09;486(7402):222-7</RefSource>
+                <PMID Version="1">22699611</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Lipid Res. 2013 Sep;54(9):2325-40</RefSource>
+                <PMID Version="1">23821742</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 2010 Jun;66(2):485-92</RefSource>
+                <PMID Version="1">19645703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Jan 21;9(1):e84778</RefSource>
+                <PMID Version="1">24465432</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microb Ecol Health Dis. 2015 May 29;26:27663</RefSource>
+                <PMID Version="1">26028277</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(6):e20647</RefSource>
+                <PMID Version="1">21674011</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 2013 Dec;69(4):1053-63</RefSource>
+                <PMID Version="1">24128059</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2012 Mar 16;148(6):1258-70</RefSource>
+                <PMID Version="1">22424233</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2013 Dec;10(12):1200-2</RefSource>
+                <PMID Version="1">24076764</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003 May 1;19(7):834-41</RefSource>
+                <PMID Version="1">12724293</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Aitchisons log-ratio</Keyword>
+            <Keyword MajorTopicYN="N">Microbiome data</Keyword>
+            <Keyword MajorTopicYN="N">bootstrap</Keyword>
+            <Keyword MajorTopicYN="N">covariates</Keyword>
+            <Keyword MajorTopicYN="N">cross-sectional data</Keyword>
+            <Keyword MajorTopicYN="N">false discovery rate (FDR)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29163406</ArticleId>
+            <ArticleId IdType="doi">10.3389/fmicb.2017.02114</ArticleId>
+            <ArticleId IdType="pmc">PMC5682008</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

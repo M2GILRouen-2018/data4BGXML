@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113952</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Nov</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Enumerating Substituted Benzene Isomers of Tree-Like Chemical Graphs.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2628888</ELocationID>
+            <Abstract>
+                <AbstractText>Enumeration of chemical structures is useful for drug design, which is one of the main targets of computational biology and bioinformatics. A chemical graph G with no other cycles than benzene rings is called tree-like, and becomes a tree T possibly with multiple edges if we contract each benzene ring into a single virtual atom of valence 6. All tree-like chemical graphs with a given tree representation T are called the substituted benzene isomers of T. When we replace each virtual atom in T with a benzene ring to obtain a substituted benzene isomer, distinct isomers of T are caused by the difference in arrangements of atom groups around a benzene ring. In this paper, we propose an efficient algorithm that enumerates all substituted benzene isomers of a given tree representation T. Our algorithm first counts the number f of all the isomers of the tree representation by a dynamic programming method. To enumerate all the isomers, for each k = 1, 2, . . . , f , our algorithm then generates the k isomer by backtracking the counting phase of the dynamic programming. We also implemented our algorithm for computational experiments.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jinghui</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nagamochi</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Akutsu</LastName>
+                    <ForeName>Tatsuya</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113952</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2628888</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

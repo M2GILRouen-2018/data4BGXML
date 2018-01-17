@@ -1,0 +1,200 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29158729</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">1687-4188</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2017</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of biomedical imaging</Title>
+                <ISOAbbreviation>Int J Biomed Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluation of Deformable Image Registration for Three-Dimensional Temporal Subtraction of Chest Computed Tomography Images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3457189</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1155/2017/3457189</ELocationID>
+            <Abstract>
+                <AbstractText Label="Purpose" NlmCategory="UNASSIGNED">To perform lung image registration for reducing misregistration artifacts on three-dimensional (3D) temporal subtraction of chest computed tomography (CT) images, in order to enhance temporal changes in lung lesions and evaluate these changes after deformable image registration (DIR).</AbstractText>
+                <AbstractText Label="Methods" NlmCategory="UNASSIGNED">In 10 cases, mutual information (MI) lung mask affine mapping combined with cross-correlation (CC) lung diffeomorphic mapping was used to implement lung volume registration. With advanced normalization tools (ANTs), we used greedy symmetric normalization (greedy SyN) as a transformation model, which involved MI-CC-SyN implementation. The resulting displacement fields were applied to warp the previous (moving) image, which was subsequently subtracted from the current (fixed) image to obtain the lung subtraction image.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">The average minimum and maximum log-Jacobians were 0.31 and 3.74, respectively. When considering 3D landmark distance, the root-mean-square error changed from an average of 20.82 mm for Pfixed to Pmoving to 0.5 mm for Pwarped to Pfixed. Clear shadows were observed as enhanced lung nodules and lesions in subtraction images. The lesion shadows showed lesion shrinkage changes over time. Lesion tissue morphology was maintained after DIR.</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">DIR (greedy SyN) effectively and accurately enhanced temporal changes in chest CT images and decreased misregistration artifacts in temporal subtraction images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Ping</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">0000-0001-7467-636X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiological and Medical Laboratory Sciences, Graduate School of Medicine, Nagoya University, 1-1-20 Daiko-Minami, Higashi-ku, Nagoya 461-8673, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kodera</LastName>
+                    <ForeName>Yoshie</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiological and Medical Laboratory Sciences, Graduate School of Medicine, Nagoya University, 1-1-20 Daiko-Minami, Higashi-ku, Nagoya 461-8673, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shimamoto</LastName>
+                    <ForeName>Kazuhiro</ForeName>
+                    <Initials>K</Initials>
+                    <Identifier Source="ORCID">0000-0002-6863-4451</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiological and Medical Laboratory Sciences, Graduate School of Medicine, Nagoya University, 1-1-20 Daiko-Minami, Higashi-ku, Nagoya 461-8673, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Int J Biomed Imaging</MedlineTA>
+            <NlmUniqueID>101250756</NlmUniqueID>
+            <ISSNLinking>1687-4188</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2006 Jan;13(1):14-23</RefSource>
+                <PMID Version="1">16399029</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2009 Mar;45(1 Suppl):S61-72</RefSource>
+                <PMID Version="1">19041946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Digit Imaging. 2010 Feb;23(1):31-8</RefSource>
+                <PMID Version="1">19020936</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2003 Mar;10 (3):249-54</RefSource>
+                <PMID Version="1">12643551</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2006 Jun;10(3):397-412</RefSource>
+                <PMID Version="1">15948659</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 1998 Mar;2(1):1-36</RefSource>
+                <PMID Version="1">10638851</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2011 Nov;30(11):1901-20</RefSource>
+                <PMID Version="1">21632295</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Assist Tomogr. 2006 Mar-Apr;30(2):283-6</RefSource>
+                <PMID Version="1">16628049</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2002 Jul;122(1):15-20</RefSource>
+                <PMID Version="1">12114333</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2007 Oct 15;38(1):95-113</RefSource>
+                <PMID Version="1">17761438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2013 Jul;32(7):1153-90</RefSource>
+                <PMID Version="1">23739795</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2008 Feb;12(1):26-41</RefSource>
+                <PMID Version="1">17659998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2002 Jun;6(2):163-79</RefSource>
+                <PMID Version="1">12045002</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2001 Mar;46(3):R1-45</RefSource>
+                <PMID Version="1">11277237</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Feb 1;54(3):2033-44</RefSource>
+                <PMID Version="1">20851191</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2001 Jul;20(7):568-82</RefSource>
+                <PMID Version="1">11465464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2007 Dec 7;52(23):6879-92</RefSource>
+                <PMID Version="1">18029981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2003 Aug;22(8):986-1004</RefSource>
+                <PMID Version="1">12906253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2014 Apr;271(1):255-61</RefSource>
+                <PMID Version="1">24475812</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2016 Oct;33:140-144</RefSource>
+                <PMID Version="1">27427472</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29158729</ArticleId>
+            <ArticleId IdType="doi">10.1155/2017/3457189</ArticleId>
+            <ArticleId IdType="pmc">PMC5660793</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

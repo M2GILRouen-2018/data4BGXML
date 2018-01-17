@@ -1,0 +1,92 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113357</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic Trimap Generation and Consistent Matting for Light-Field Images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1504-1517</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2606397</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, we introduce an automatic approach to generate trimaps and consistent alpha mattes of foreground objects in a light-field image. Our method first performs binary segmentation to roughly segment a light-field image into foreground and background based on depth and color. Next, we estimate accurate trimaps through analyzing color distribution along the boundary of the segmentation using guided image filter and KL-divergence. In order to estimate consistent alpha mattes across sub-images, we utilize the epipolar plane image (EPI) where colors and alphas along the same epipolar line must be consistent. Since EPI of foreground and background are mixed in the matting area, we propagate the EPI from definite foreground/background regions to unknown regions by assuming depth variations within unknown regions are spatially smooth. Using the EPI constraint, we derive two solutions to estimate alpha when color samples along epipolar line are known, and unknown. To further enhance consistency, we refine the estimated alpha mattes by using the multi-image matting Laplacian with an additional EPI smoothness constraint. In experimental evaluations, we have created a dataset where the ground truth alpha mattes of light-field images were obtained by using the blue screen technique. A variety of experiments show that our proposed algorithm produces both visually and quantitatively high-quality alpha mattes for light-field images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Donghyeon Cho</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sunyeong Kim</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu-Wing Tai</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>In So Kweon</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113357</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2606397</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

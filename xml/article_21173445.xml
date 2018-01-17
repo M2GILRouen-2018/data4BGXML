@@ -1,0 +1,145 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28946643</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Improving Night Time Driving Safety Using Vision-Based Classification Techniques.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2199</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17102199</ELocationID>
+            <Abstract>
+                <AbstractText>The risks involved in nighttime driving include drowsy drivers and dangerous vehicles. Prominent among the more dangerous vehicles around at night are the larger vehicles which are usually moving faster at night on a highway. In addition, the risk level of driving around larger vehicles rises significantly when the driver's attention becomes distracted, even for a short period of time. For the purpose of alerting the driver and elevating his or her safety, in this paper we propose two components for any modern vision-based Advanced Drivers Assistance System (ADAS). These two components work separately for the single purpose of alerting the driver in dangerous situations. The purpose of the first component is to ascertain that the driver would be in a sufficiently wakeful state to receive and process warnings; this is the driver drowsiness detection component. The driver drowsiness detection component uses infrared images of the driver to analyze his eyes' movements using a MSR plus a simple heuristic. This component issues alerts to the driver when the driver's eyes show distraction and are closed for a longer than usual duration. Experimental results show that this component can detect closed eyes with an accuracy of 94.26% on average, which is comparable to previous results using more sophisticated methods. The purpose of the second component is to alert the driver when the driver's vehicle is moving around larger vehicles at dusk or night time. The large vehicle detection component accepts images from a regular video driving recorder as input. A bi-level system of classifiers, which included a novel MSR-enhanced KAZE-base Bag-of-Features classifier, is proposed to avoid false negatives. In both components, we propose an improved version of the Multi-Scale Retinex (MSR) algorithm to augment the contrast of the input. Several experiments were performed to test the effects of the MSR and each classifier, and the results are presented in experimental results section of this paper.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chien</LastName>
+                    <ForeName>Jong-Chih</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Degree Program of Digital Space and Product Design, Kainan University, Taoyuan City 338, Taiwan. jcchien@knu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yong-Sheng</ForeName>
+                    <Initials>YS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Chang-Gung University, Taoyuan City 333, Taiwan. KK770102@hotmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Jiann-Der</ForeName>
+                    <Initials>JD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Chang-Gung University, Taoyuan City 333, Taiwan. jdlee@mail.cgu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurosurgery, Chang Gung Memorial Hospital, LinKou, Taoyuan City 333, Taiwan. jdlee@mail.cgu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Ming Chi University of Technology, New Taipei City 24301, Taiwan. jdlee@mail.cgu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2010 Jul;32(7):1239-58</RefSource>
+                <PMID Version="1">20489227</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2011 Aug;33(8):1619-32</RefSource>
+                <PMID Version="1">21173445</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">BoF</Keyword>
+            <Keyword MajorTopicYN="N">CNN</Keyword>
+            <Keyword MajorTopicYN="N">KAZE</Keyword>
+            <Keyword MajorTopicYN="N">MSR</Keyword>
+            <Keyword MajorTopicYN="N">advanced driver assistant</Keyword>
+            <Keyword MajorTopicYN="N">driver safety</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28946643</ArticleId>
+            <ArticleId IdType="pii">s17102199</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17102199</ArticleId>
+            <ArticleId IdType="pmc">PMC5677414</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

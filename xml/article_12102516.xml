@@ -1,0 +1,185 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29151841</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1746-4811</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>13</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Plant methods</Title>
+                <ISOAbbreviation>Plant Methods</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Microscope image based fully automated stomata detection and pore measurement method for grapevines.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>94</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13007-017-0244-9</ELocationID>
+            <Abstract>
+                <AbstractText Label="Background" NlmCategory="UNASSIGNED">Stomatal behavior in grapevines has been identified as a good indicator of the water stress level and overall health of the plant. Microscope images are often used to analyze stomatal behavior in plants. However, most of the current approaches involve manual measurement of stomatal features. The main aim of this research is to develop a fully automated stomata detection and pore measurement method for grapevines, taking microscope images as the input. The proposed approach, which employs machine learning and image processing techniques, can outperform available manual and semi-automatic methods used to identify and estimate stomatal morphological features.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">First, a cascade object detection learning algorithm is developed to correctly identify multiple stomata in a large microscopic image. Once the regions of interest which contain stomata are identified and extracted, a combination of image processing techniques are applied to estimate the pore dimensions of the stomata. The stomata detection approach was compared with an existing fully automated template matching technique and a semi-automatic maximum stable extremal regions approach, with the proposed method clearly surpassing the performance of the existing techniques with a precision of 91.68% and an F1-score of 0.85. Next, the morphological features of the detected stomata were measured. Contrary to existing approaches, the proposed image segmentation and skeletonization method allows us to estimate the pore dimensions even in cases where the stomatal pore boundary is only partially visible in the microscope image. A test conducted using 1267 images of stomata showed that the segmentation and skeletonization approach was able to correctly identify the stoma opening 86.27% of the time. Further comparisons made with manually traced stoma openings indicated that the proposed method is able to estimate stomata morphological features with accuracies of 89.03% for area, 94.06% for major axis length, 93.31% for minor axis length and 99.43% for eccentricity.</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">The proposed fully automated solution for stomata detection and measurement is able to produce results far superior to existing automatic and semi-automatic methods. This method not only produces a low number of false positives in the stomata detection stage, it can also accurately estimate the pore dimensions of partially incomplete stomata images. In addition, it can process thousands of stomata in minutes, eliminating the need for researchers to manually measure stomata, thereby accelerating the process of analysing plant health.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jayakody</LastName>
+                    <ForeName>Hiranya</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Mechanical and Manufacturing Engineering, UNSW, Sydney, Australia.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 4902 0432</Identifier>
+                        <Identifier Source="GRID">grid.1005.4</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Scarlett</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Mechanical and Manufacturing Engineering, UNSW, Sydney, Australia.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 4902 0432</Identifier>
+                        <Identifier Source="GRID">grid.1005.4</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Whitty</LastName>
+                    <ForeName>Mark</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Mechanical and Manufacturing Engineering, UNSW, Sydney, Australia.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 4902 0432</Identifier>
+                        <Identifier Source="GRID">grid.1005.4</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Petrie</LastName>
+                    <ForeName>Paul</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Australian Wine Research Institute (AWRI), Adelaide, Australia.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0405 222X</Identifier>
+                        <Identifier Source="GRID">grid.452839.1</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>South Australian Research and Development Institute (SARDI), Adelaide, Australia.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 1520 1671</Identifier>
+                        <Identifier Source="GRID">grid.464686.e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Plant Methods</MedlineTA>
+            <NlmUniqueID>101245798</NlmUniqueID>
+            <ISSNLinking>1746-4811</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Plant Sci. 2014 Mar 13;5:86</RefSource>
+                <PMID Version="1">24659993</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hortic Res. 2014 Jan 22;1:2</RefSource>
+                <PMID Version="1">26504528</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Vis Exp. 2013 Jan 21;(71):null</RefSource>
+                <PMID Version="1">23380664</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jul;9(7):671-5</RefSource>
+                <PMID Version="1">22930834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2016 Nov 15;113(46):E7222-E7230</RefSource>
+                <PMID Version="1">27799540</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2014 Apr;164(4):1556-70</RefSource>
+                <PMID Version="1">24578506</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Bot. 2002 Jun;89 Spec No:871-85</RefSource>
+                <PMID Version="1">12102513</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Plant Biol. 2012;63:591-614</RefSource>
+                <PMID Version="1">22404473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Bot. 2002 Jun;89 Spec No:907-16</RefSource>
+                <PMID Version="1">12102516</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Automatic stomata detection</Keyword>
+            <Keyword MajorTopicYN="N">Cascade object detection</Keyword>
+            <Keyword MajorTopicYN="N">Grapevines</Keyword>
+            <Keyword MajorTopicYN="N">Image processing</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Skeletonization</Keyword>
+            <Keyword MajorTopicYN="N">Stomata</Keyword>
+            <Keyword MajorTopicYN="N">Stomatal morphology</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29151841</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13007-017-0244-9</ArticleId>
+            <ArticleId IdType="pii">244</ArticleId>
+            <ArticleId IdType="pmc">PMC5678568</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

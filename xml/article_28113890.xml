@@ -1,0 +1,111 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113890</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Speckle Reduction in 3D Optical Coherence Tomography of Retina by A-Scan Reconstruction.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2016.2556080</ELocationID>
+            <Abstract>
+                <AbstractText>Optical coherence tomography (OCT) is a micrometer-scale, cross-sectional imaging modality for biological tissue. It has been widely used for retinal imaging in ophthalmology. Speckle noise is problematic in OCT. A raw OCT image/volume usually has very poor image quality due to speckle noise, which often obscures the retinal structures. Overlapping scan is often used for speckle reduction in a 2D line-scan. However, it leads to an increase of the data acquisition time. Therefore, it is unpractical in 3D scan as it requires a much longer data acquisition time. In this paper, we propose a new method for speckle reduction in 3D OCT. The proposed method models each A-scan as the sum of underlying clean A-scan and noise. Based on the assumption that neighboring A-scans are highly similar in the retina, the method reconstructs each A-scan from its neighboring scans. In the method, the neighboring Ascans are aligned/registered to the A-scan to be reconstructed and form a matrix together. Then low rank matrix completion using bilateral random projection is utilized to iteratively estimate the noise and recover the underlying clean A-scan. The proposed method is evaluated through the mean square error, peak signal to noise ratio and the mean structure similarity index using high quality line-scan images as reference. Experimental results show that the proposed method performs better than other methods. In addition, the subsequent retinal layer segmentation also shows that the proposed method makes the automatic retinal layer segmentation more accurate. The technology can be embedded into current OCT machines to enhance the image quality for visualization and subsequent analysis such as retinal layer segmentation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cheng</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tao</LastName>
+                    <ForeName>Dacheng</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Quan</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wong</LastName>
+                    <ForeName>Damon Wing Kee</ForeName>
+                    <Initials>DW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheung</LastName>
+                    <ForeName>Gemmy Chui Ming</ForeName>
+                    <Initials>GC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Akiba</LastName>
+                    <ForeName>Masahiro</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Jiang</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113890</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2016.2556080</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

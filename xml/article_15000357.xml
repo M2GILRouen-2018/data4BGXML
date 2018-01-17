@@ -1,0 +1,207 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">20727131</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>09</Month>
+            <Day>07</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>21</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1475-925X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>9</Volume>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Aug</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biomedical engineering online</Title>
+                <ISOAbbreviation>Biomed Eng Online</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic segmentation of coronary angiograms based on fuzzy inferring and probabilistic tracking.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>40</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1475-925X-9-40</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Segmentation of the coronary angiogram is important in computer-assisted artery motion analysis or reconstruction of 3D vascular structures from a single-plan or biplane angiographic system. Developing fully automated and accurate vessel segmentation algorithms is highly challenging, especially when extracting vascular structures with large variations in image intensities and noise, as well as with variable cross-sections or vascular lesions.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">This paper presents a novel tracking method for automatic segmentation of the coronary artery tree in X-ray angiographic images, based on probabilistic vessel tracking and fuzzy structure pattern inferring. The method is composed of two main steps: preprocessing and tracking. In preprocessing, multiscale Gabor filtering and Hessian matrix analysis were used to enhance and extract vessel features from the original angiographic image, leading to a vessel feature map as well as a vessel direction map. In tracking, a seed point was first automatically detected by analyzing the vessel feature map. Subsequently, two operators [e.g., a probabilistic tracking operator (PTO) and a vessel structure pattern detector (SPD)] worked together based on the detected seed point to extract vessel segments or branches one at a time. The local structure pattern was inferred by a multi-feature based fuzzy inferring function employed in the SPD. The identified structure pattern, such as crossing or bifurcation, was used to control the tracking process, for example, to keep tracking the current segment or start tracking a new one, depending on the detected pattern.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">By appropriate integration of these advanced preprocessing and tracking steps, our tracking algorithm is able to extract both vessel axis lines and edge points, as well as measure the arterial diameters in various complicated cases. For example, it can walk across gaps along the longitudinal vessel direction, manage varying vessel curvatures, and adapt to varying vessel widths in situations with arterial stenoses and aneurysms.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our algorithm performs well in terms of robustness, automation, adaptability, and applicability. In particular, the successful development of two novel operators, namely, PTO and SPD, ensures the performance of our algorithm in vessel tracking.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shoujun</LastName>
+                    <ForeName>Zhou</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Southern Medical University, Guangzhou, 510515, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jian</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yongtian</LastName>
+                    <ForeName>Wang</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wufan</LastName>
+                    <ForeName>Chen</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>08</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Biomed Eng Online</MedlineTA>
+            <NlmUniqueID>101147518</NlmUniqueID>
+            <ISSNLinking>1475-925X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Syst Man Cybern B Cybern. 2003;33(4):554-61</RefSource>
+                <PMID Version="1">18238205</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1998 Apr;17(2):263-73</RefSource>
+                <PMID Version="1">9688158</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1998 Feb;17(1):121-37</RefSource>
+                <PMID Version="1">9617913</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1975 Apr;51(4 Suppl):5-40</RefSource>
+                <PMID Version="1">1116248</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2009 Jul;18(7):1563-72</RefSource>
+                <PMID Version="1">19414289</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ J. 2003 Dec;67(12):1003-6</RefSource>
+                <PMID Version="1">14639014</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1999 Oct;18(10):1003-15</RefSource>
+                <PMID Version="1">10628959</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 1998 Jun;2(2):143-68</RefSource>
+                <PMID Version="1">10646760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2004 Jan;23(1):130-3</RefSource>
+                <PMID Version="1">14719694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2003 Dec;7(4):302-17</RefSource>
+                <PMID Version="1">15000357</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="N">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017023" MajorTopicYN="N">Coronary Angiography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023921" MajorTopicYN="N">Coronary Stenosis</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003331" MajorTopicYN="N">Coronary Vessels</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="N">anatomy &amp; histology</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017143" MajorTopicYN="Y">Fuzzy Logic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011336" MajorTopicYN="N">Probability</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC2936371</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>02</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2010</Year>
+                <Month>08</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>8</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>8</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">20727131</ArticleId>
+            <ArticleId IdType="pii">1475-925X-9-40</ArticleId>
+            <ArticleId IdType="doi">10.1186/1475-925X-9-40</ArticleId>
+            <ArticleId IdType="pmc">PMC2936371</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

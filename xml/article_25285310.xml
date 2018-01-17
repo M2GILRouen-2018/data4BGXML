@@ -1,0 +1,179 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28919661</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0277-786X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2017</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Proceedings of SPIE--the International Society for Optical Engineering</Title>
+                <ISOAbbreviation>Proc SPIE Int Soc Opt Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>DAX - The Next Generation: Towards One Million Processes on Commodity Hardware.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">101380C</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1117/12.2254371</ELocationID>
+            <Abstract>
+                <AbstractText>Large scale image processing demands a standardized way of not only storage but also a method for job distribution and scheduling. The eXtensible Neuroimaging Archive Toolkit (XNAT) is one of several platforms that seeks to solve the storage issues. Distributed Automation for XNAT (DAX) is a job control and distribution manager. Recent massive data projects have revealed several bottlenecks for projects with &gt;100,000 assessors (i.e., data processing pipelines in XNAT). In order to address these concerns, we have developed a new API, which exposes a direct connection to the database rather than REST API calls to accomplish the generation of assessors. This method, consistent with XNAT, keeps a full history for auditing purposes. Additionally, we have optimized DAX to keep track of processing status on disk (called DISKQ) rather than on XNAT, which greatly reduces load on XNAT by vastly dropping the number of API calls. Finally, we have integrated DAX into a Docker container with the idea of using it as a Docker controller to launch Docker containers of image processing pipelines. Using our new API, we reduced the time to create 1,000 assessors (a sub-cohort of our case project) from 65040 seconds to 229 seconds (a decrease of over 270 fold). DISKQ, using pyXnat, allows launching of 400 jobs in under 10 seconds which previously took 2,000 seconds. Together these updates position DAX to support projects with hundreds of thousands of scans and to run them in a time-efficient manner.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Damon</LastName>
+                    <ForeName>Stephen M</ForeName>
+                    <Initials>SM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electrical Engineering, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boyd</LastName>
+                    <ForeName>Brian D</ForeName>
+                    <Initials>BD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Psychiatry, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Plassard</LastName>
+                    <ForeName>Andrew J</ForeName>
+                    <Initials>AJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electrical Engineering, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Taylor</LastName>
+                    <ForeName>Warren</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Psychiatry, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Landman</LastName>
+                    <ForeName>Bennett A</ForeName>
+                    <Initials>BA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electrical Engineering, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Psychiatry, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 EB017230</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R21 EY024036</GrantID>
+                    <Acronym>EY</Acronym>
+                    <Agency>NEI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 LM012412</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1 TR000445</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Proc SPIE Int Soc Opt Eng</MedlineTA>
+            <NlmUniqueID>101524122</NlmUniqueID>
+            <ISSNLinking>0277-786X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 Aug 15;62(2):791-800</RefSource>
+                <PMID Version="1">22023741</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2010 Mar;8(1):5-17</RefSource>
+                <PMID Version="1">20077162</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 Aug 15;62(2):774-81</RefSource>
+                <PMID Version="1">22248573</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2016 Jan 1;124(Pt B):1097-101</RefSource>
+                <PMID Version="1">25988229</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc SPIE Int Soc Opt Eng. 2016 Feb 27;9789:null</RefSource>
+                <PMID Version="1">27127335</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Insight J. 2012 Aug 15;2012:1-16</RefSource>
+                <PMID Version="1">25285310</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">High Performance Computing</Keyword>
+            <Keyword MajorTopicYN="N">Pipelines</Keyword>
+            <Keyword MajorTopicYN="N">XNAT</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28919661</ArticleId>
+            <ArticleId IdType="doi">10.1117/12.2254371</ArticleId>
+            <ArticleId IdType="pmc">PMC5596878</ArticleId>
+            <ArticleId IdType="mid">NIHMS842790</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

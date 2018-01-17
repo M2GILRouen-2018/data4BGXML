@@ -1,0 +1,238 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">19477989</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>05</Month>
+            <Day>29</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2009</Year>
+            <Month>07</Month>
+            <Day>21</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>25</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Jun</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A multivariate regression approach to association analysis of a quantitative trait network.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>i204-12</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btp218</ELocationID>
+            <Abstract>
+                <AbstractText Label="MOTIVATION" NlmCategory="BACKGROUND">Many complex disease syndromes such as asthma consist of a large number of highly related, rather than independent, clinical phenotypes, raising a new technical challenge in identifying genetic variations associated simultaneously with correlated traits. Although a causal genetic variation may influence a group of highly correlated traits jointly, most of the previous association analyses considered each phenotype separately, or combined results from a set of single-phenotype analyses.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We propose a new statistical framework called graph-guided fused lasso to address this issue in a principled way. Our approach represents the dependency structure among the quantitative traits explicitly as a network, and leverages this trait network to encode structured regularizations in a multivariate regression model over the genotypes and traits, so that the genetic markers that jointly influence subgroups of highly correlated traits can be detected with high sensitivity and specificity. While most of the traditional methods examined each phenotype independently, our approach analyzes all of the traits jointly in a single statistical method to discover the genetic markers that perturb a subset of correlated traits jointly rather than a single trait. Using simulated datasets based on the HapMap consortium data and an asthma dataset, we compare the performance of our method with the single-marker analysis, and other sparse regression methods that do not use any structural information in the traits. Our results show that there is a significant advantage in detecting the true causal single nucleotide polymorphisms when we incorporate the correlation pattern in traits using our proposed methods.</AbstractText>
+                <AbstractText Label="AVAILABILITY" NlmCategory="BACKGROUND">Software for GFlasso is available at http://www.sailing.cs.cmu.edu/gflasso.html.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Seyoung</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, Carnegie Mellon University, Pittsburgh, USA. sssykim@cs.cmu.edu</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sohn</LastName>
+                    <ForeName>Kyung-Ah</ForeName>
+                    <Initials>KA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xing</LastName>
+                    <ForeName>Eric P</ForeName>
+                    <Initials>EP</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2009 Aug;16(8):1023-34</RefSource>
+                <PMID Version="1">19630539</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genetics. 2003 Dec;165(4):2213-33</RefSource>
+                <PMID Version="1">14704198</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2008 Feb;82(2):375-85</RefSource>
+                <PMID Version="1">18252218</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2005 Oct 27;437(7063):1299-320</RefSource>
+                <PMID Version="1">16255080</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2008 Mar 27;452(7186):423-8</RefSource>
+                <PMID Version="1">18344981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2008 Jul;40(7):854-61</RefSource>
+                <PMID Version="1">18552845</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Jun;21 Suppl 1:i213-21</RefSource>
+                <PMID Version="1">15961460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2000 Oct 24;97(22):12182-6</RefSource>
+                <PMID Version="1">11027309</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2008 Mar 27;452(7186):429-35</RefSource>
+                <PMID Version="1">18344982</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genetics. 2005 Feb;169(2):1045-59</RefSource>
+                <PMID Version="1">15489509</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2005 Oct 27;437(7063):1365-9</RefSource>
+                <PMID Version="1">16251966</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2007 Jun 7;447(7145):661-78</RefSource>
+                <PMID Version="1">17554300</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2008 Jul;9(3):432-41</RefSource>
+                <PMID Version="1">18079126</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genetics. 2000 Oct;156(2):899-911</RefSource>
+                <PMID Version="1">11014835</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2007 Aug;81(2):304-20</RefSource>
+                <PMID Version="1">17668380</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2004 Sep 22;20(14):2242-50</RefSource>
+                <PMID Version="1">15130938</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2003 Jun;34(2):166-76</RefSource>
+                <PMID Version="1">12740579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Appl Genet Mol Biol. 2005;4:Article17</RefSource>
+                <PMID Version="1">16646834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2007 Apr;80(4):705-15</RefSource>
+                <PMID Version="1">17357076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Theor Appl Genet. 1996 Jun;92(8):998-1002</RefSource>
+                <PMID Version="1">24166627</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 2007 Mar 15;175(6):570-6</RefSource>
+                <PMID Version="1">17170387</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2007 Feb;119(2):405-13</RefSource>
+                <PMID Version="1">17291857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2004 Feb 6;303(5659):799-805</RefSource>
+                <PMID Version="1">14764868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2006 Sep 19;103(38):14062-7</RefSource>
+                <PMID Version="1">16968785</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D053263" MajorTopicYN="N">Gene Regulatory Networks</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055106" MajorTopicYN="Y">Genome-Wide Association Study</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008957" MajorTopicYN="N">Models, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010641" MajorTopicYN="N">Phenotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020641" MajorTopicYN="N">Polymorphism, Single Nucleotide</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D040641" MajorTopicYN="Y">Quantitative Trait Loci</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012044" MajorTopicYN="N">Regression Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC2687972</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>5</Month>
+                <Day>30</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>5</Month>
+                <Day>30</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2009</Year>
+                <Month>7</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">19477989</ArticleId>
+            <ArticleId IdType="pii">btp218</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btp218</ArticleId>
+            <ArticleId IdType="pmc">PMC2687972</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

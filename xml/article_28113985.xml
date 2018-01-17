@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113985</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel approach to identify the miRNA-mRNA causal regulatory modules in Cancer.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2612199</ELocationID>
+            <Abstract>
+                <AbstractText>MicroRNAs (miRNAs) play an essential role in many biological processes by regulating the target genes, especially in the initiation and development of cancers. Therefore, the identification of the miRNA-mRNA regulatory modules is important for understanding the regulatory mechanisms. Most computational methods only used statistical correlations in predicting miRNA-mRNA modules, and neglected the fact there are causal relationships between miRNAs and their target genes. In this paper, we propose a novel approach called CALM(the causal regulatory modules) to identify the miRNA-mRNA regulatory modules through integrating the causal interactions and statistical correlations between the miRNAs and their target genes. Our algorithm largely consists of three steps: it first forms the causal regulatory relationships of miRNAs and genes from gene expression profiles and detects the miRNA clusters according to the GO function information of their target genes, then expands each miRNA cluster by greedy adding(discarding) the target genes to maximize the modularity score. To show the performance of our method, we apply CALM on four datasets including EMT, breast, ovarian, thyroid cancer and validate our results. The experiment results show that our method can not only outperform the compared method, but also achieve ideal overall performance in terms of the functional enrichment.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Jiawei</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Buwen</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113985</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2612199</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

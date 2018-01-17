@@ -1,0 +1,105 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29158074</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-928X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>71</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computational biology and chemistry</Title>
+                <ISOAbbreviation>Comput Biol Chem</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel feature selection for RNA-seq analysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>245-257</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1476-9271(17)30743-0</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.compbiolchem.2017.10.010</ELocationID>
+            <Abstract>
+                <AbstractText>RNA-seq data are challenging existing omics data analytics for its volume and complexity. Although quite a few computational models were proposed from different standing points to conduct differential expression (D.E.) analysis, almost all these methods do not provide a rigorous feature selection for high-dimensional RNA-seq count data. Instead, most or even all genes are invited into differential calls no matter they have real contributions to data variations or not. Thus, it would inevitably affect the robustness of D.E. analysis and lead to the increase of false positive ratios. In this study, we presented a novel feature selection method: nonnegative singular value approximation (NSVA) to enhance RNA-seq differential expression analysis by taking advantage of RNA-seq count data's non-negativity. As a variance-based feature selection method, it selects genes according to its contribution to the first singular value direction of input data in a data-driven approach. It demonstrates robustness to depth bias and gene length bias in feature selection in comparison with its five peer methods. Combining with state-of-the-art RNA-seq differential expression analysis, it contributes to enhancing differential expression analysis by lowering false discovery rates caused by the biases. Furthermore, we demonstrated the effectiveness of the proposed feature selection by proposing a data-driven differential expression analysis: NSVA-seq, besides conducting network marker discovery.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Henry</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer and Information Science, Fordham University, Lincon Center, New York, NY 10023, United States. Electronic address: xhan9@fordham.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Comput Biol Chem</MedlineTA>
+            <NlmUniqueID>101157394</NlmUniqueID>
+            <ISSNLinking>1476-9271</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Differential expression analysis</Keyword>
+            <Keyword MajorTopicYN="N">Feature selection</Keyword>
+            <Keyword MajorTopicYN="N">RNA-seq</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29158074</ArticleId>
+            <ArticleId IdType="pii">S1476-9271(17)30743-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.compbiolchem.2017.10.010</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

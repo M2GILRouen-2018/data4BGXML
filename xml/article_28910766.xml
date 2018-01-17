@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28910766</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>08</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Light Field Compression with Disparity Guided Sparse Coding based on Structural Key Views.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2750413</ELocationID>
+            <Abstract>
+                <AbstractText>Recent imaging technologies are rapidly evolving for sampling richer and more immersive representations of the 3D world. One of the emerging technologies is light field (LF) cameras based on micro-lens arrays. To record the directional information of the light rays, a much larger storage space and transmission bandwidth are required by a LF image as compared with a conventional 2D image of similar spatial dimension. Hence, the compression of LF data becomes a vital part of its application. In this paper, we propose a LF codec with disparity guided Sparse Coding over a learned perspective-shifted LF dictionary based on selected Structural Key Views (SC-SKV). The sparse coding is based on a limited number of optimally selected SKVs; yet the entire LF can be recovered from the coding coefficients. By keeping the approximation identical between encoder and decoder, only the residuals of the non-key views, disparity map and the SKVs need to be compressed into the bit stream. An optimized SKV selection method is proposed such that most LF spatial information can be preserved. To achieve optimum dictionary efficiency, the LF is divided into several coding regions, over which the reconstruction works individually. Experiments and comparisons have been carried out over benchmark LF dataset, which show that the proposed SC-SKV codec produces convincing compression results in terms of both rate-distortion performance and visual quality compared with JEM (Joint Exploration Model): with 37.9% BD-rate reduction and 1.17 dB BD-PSNR improvement achieved on average, especially with up to 6 dB improvement for low bit rate scenarios.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Jie</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hou</LastName>
+                    <ForeName>Junhui</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chau</LastName>
+                    <ForeName>Lap-Pui</ForeName>
+                    <Initials>LP</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910766</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2750413</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

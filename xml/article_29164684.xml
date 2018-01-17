@@ -1,0 +1,118 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29164684</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1439-0388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of animal breeding and genetics = Zeitschrift fur Tierzuchtung und Zuchtungsbiologie</Title>
+                <ISOAbbreviation>J. Anim. Breed. Genet.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>BIBI: Bayesian inference of breed composition.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/jbg.12305</ELocationID>
+            <Abstract>
+                <AbstractText>The aim of this paper was to develop statistical models to estimate individual breed composition based on the previously proposed idea of regressing discrete random variables corresponding to counts of reference alleles of biallelic molecular markers located across the genome on the allele frequencies of each marker in the pure (base) breeds. Some of the existing regression-based methods do not guarantee that estimators of breed composition will lie in the appropriate parameter space, and none of them account for uncertainty about allele frequencies in the pure breeds, that is, uncertainty about the design matrix. To overcome these limitations, we proposed two Bayesian generalized linear models. For each individual, both models assume that the counts of the reference allele at each marker locus follow independent Binomial distributions, use the logit link and pose a Dirichlet prior over the vector of regression coefficients (which corresponds to breed composition). This prior guarantees that point estimators of breed composition such as the posterior mean pertain to the appropriate space. The difference between these models is that model termed BIBI does not account for uncertainty about the design matrix, while model termed BIBI2 accounts for such an uncertainty by assigning independent Beta priors to the entries of this matrix. We implemented these models in a data set from the University of Florida's multibreed Angus-Brahman population. Posterior means were used as point estimators of breed composition. In addition, the ordinary least squares estimator proposed by Kuehn et al. () (OLSK) was also computed. BIBI and BIBI2 estimated breed composition more accurately than OLSK, and BIBI2 had a 7.69% improvement in accuracy as compared to BIBI.</AbstractText>
+                <CopyrightInformation>© 2017 Blackwell Verlag GmbH.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Martínez</LastName>
+                    <ForeName>C A</ForeName>
+                    <Initials>CA</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2842-5580</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Animal Sciences, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Khare</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Elzo</LastName>
+                    <ForeName>M A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Animal Sciences, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>J Anim Breed Genet</MedlineTA>
+            <NlmUniqueID>100955807</NlmUniqueID>
+            <ISSNLinking>0931-2668</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bayes estimators</Keyword>
+            <Keyword MajorTopicYN="N">generalized linear models</Keyword>
+            <Keyword MajorTopicYN="N">genomic data</Keyword>
+            <Keyword MajorTopicYN="N">individual breed composition</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29164684</ArticleId>
+            <ArticleId IdType="doi">10.1111/jbg.12305</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

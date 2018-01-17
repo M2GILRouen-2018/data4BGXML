@@ -1,0 +1,191 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29159957</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluating performance of a user-trained MR lung tumor autocontouring algorithm in the context of intra- and interobserver variations.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12687</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Real-time tracking of lung tumors using magnetic resonance imaging (MRI) has been proposed as a potential strategy to mitigate the ill-effects of breathing motion in radiation therapy. Several autocontouring methods have been evaluated against a &quot;gold standard&quot; of a single human expert user. However, contours drawn by experts have inherent intra- and interobserver variations. In this study, we aim to evaluate our user-trained autocontouring algorithm with manually drawn contours from multiple expert users, and to contextualize the accuracy of these autocontours within intra- and interobserver variations.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Six nonsmall cell lung cancer patients were recruited, with institutional ethics approval. Patients were imaged with a clinical 3 T Philips MR scanner using a dynamic 2D balanced SSFP sequence under free breathing. Three radiation oncology experts, each in two separate sessions, contoured 130 dynamic images for each patient. For autocontouring, the first 30 images were used for algorithm training, and the remaining 100 images were autocontoured and evaluated. Autocontours were compared against manual contours in terms of Dice's coefficient (DC) and Hausdorff distances (dH ). Intra- and interobserver variations of the manual contours were also evaluated.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">When compared with the manual contours of the expert user who trained it, the algorithm generates autocontours whose evaluation metrics (same session: DC = 0.90(0.03), dH  = 3.8(1.6) mm; different session DC = 0.88(0.04), dH  = 4.3(1.5) mm) are similar to or better than intraobserver variations (DC = 0.88(0.04), and dH  = 4.3(1.7) mm) between two sessions. The algorithm's autocontours are also compared to the manual contours from different expert users with evaluation metrics (DC = 0.87(0.04), dH  = 4.8(1.7) mm) similar to interobserver variations (DC = 0.87(0.04), dH  = 4.7(1.6) mm).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our autocontouring algorithm delineates tumor contours (&lt;20 ms per contour), in dynamic MRI of lung, that are comparable to multiple human experts (several seconds per contour), but at a much faster speed. At the same time, the agreement between autocontours and manual contours is comparable to the intra- and interobserver variations. This algorithm may be a key component of the real time tumor tracking workflow for our hybrid Linac-MR device in the future.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yip</LastName>
+                    <ForeName>Eugene</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yun</LastName>
+                    <ForeName>Jihyun</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gabos</LastName>
+                    <ForeName>Zsolt</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Radiation Oncology Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baker</LastName>
+                    <ForeName>Sarah</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Radiation Oncology Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yee</LastName>
+                    <ForeName>Don</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Radiation Oncology Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wachowicz</LastName>
+                    <ForeName>Keith</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rathee</LastName>
+                    <ForeName>Satyapal</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fallone</LastName>
+                    <ForeName>B Gino</ForeName>
+                    <Initials>BG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">MRI guidance</Keyword>
+            <Keyword MajorTopicYN="N">autocontouring</Keyword>
+            <Keyword MajorTopicYN="N">linac-MRI hybrid</Keyword>
+            <Keyword MajorTopicYN="N">observer variability</Keyword>
+            <Keyword MajorTopicYN="N">respiratory motion management</Keyword>
+            <Keyword MajorTopicYN="N">tumor tracking</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29159957</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12687</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113763</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Oct</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Elastic Net Hypergraph Learning for Image Clustering and Semi-supervised Classification.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2621671</ELocationID>
+            <Abstract>
+                <AbstractText>Graph model is emerging as a very effective tool for learning the complex structures and relationships hidden in data. Generally, the critical purpose of graph-oriented learning algorithms is to construct an informative graph for image clustering and classification tasks. In addition to the classical K-nearestneighbor and r-neighborhood methods for graph construction, l1-graph and its variants are emerging methods for finding the neighboring samples of a center datum, where the corresponding ingoing edge weights are simultaneously derived by the sparse reconstruction coefficients of the remaining samples. However, the pair-wise links of l1-graph are not capable of capturing the high order relationships between the center datum and its prominent data in sparse reconstruction. Meanwhile, from the perspective of variable selection, the l1 norm sparse constraint, regarded as a LASSO model, tends to select only one datum from a group of data that are highly correlated and ignore the others. To simultaneously cope with these drawbacks, we propose a new elastic net hypergraph learning model, which consists of two steps. In the first step, the Robust Matrix Elastic Net model is constructed to find the canonically related samples in a somewhat greedy way, achieving the grouping effect by adding the l2 penalty to the l1 constraint. In the second step, hypergraph is used to represent the high order relationships between each datum and its prominent samples by regarding them as a hyperedge. Subsequently, hypergraph Laplacian matrix is constructed for further analysis. New hypergraph learning algorithms, including unsupervised clustering and multi-class semisupervised classification, are then derived. Extensive experiments on face and handwriting databases demonstrate the effectiveness of the proposed method.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Qingshan</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Yubao</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Cantian</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Tongliang</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tao</LastName>
+                    <ForeName>Dacheng</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113763</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2621671</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

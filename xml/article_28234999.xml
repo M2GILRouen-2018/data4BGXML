@@ -1,0 +1,165 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29151843</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1746-4811</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>13</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Plant methods</Title>
+                <ISOAbbreviation>Plant Methods</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Acquiring and preprocessing leaf images for automated plant identification: understanding the tradeoff between effort and information gain.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>97</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13007-017-0245-8</ELocationID>
+            <Abstract>
+                <AbstractText Label="Background" NlmCategory="UNASSIGNED">Automated species identification is a long term research subject. Contrary to flowers and fruits, leaves are available throughout most of the year. Offering margin and texture to characterize a species, they are the most studied organ for automated identification. Substantially matured machine learning techniques generate the need for more training data (aka leaf images). Researchers as well as enthusiasts miss guidance on how to acquire suitable training images in an efficient way.</AbstractText>
+                <AbstractText Label="Methods" NlmCategory="UNASSIGNED">In this paper, we systematically study nine image types and three preprocessing strategies. Image types vary in terms of in-situ image recording conditions: perspective, illumination, and background, while the preprocessing strategies compare non-preprocessed, cropped, and segmented images to each other. Per image type-preprocessing combination, we also quantify the manual effort required for their implementation. We extract image features using a convolutional neural network, classify species using the resulting feature vectors and discuss classification accuracy in relation to the required effort per combination.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">The most effective, non-destructive way to record herbaceous leaves is to take an image of the leaf's top side. We yield the highest classification accuracy using destructive back light images, i.e., holding the plucked leaf against the sky for image acquisition. Cropping the image to the leaf's boundary substantially improves accuracy, while precise segmentation yields similar accuracy at a substantially higher effort. The permanent use or disuse of a flash light has negligible effects. Imaging the typically stronger textured backside of a leaf does not result in higher accuracy, but notably increases the acquisition cost.</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">In conclusion, the way in which leaf images are acquired and preprocessed does have a substantial effect on the accuracy of the classifier trained on them. For the first time, this study provides a systematic guideline allowing researchers to spend available acquisition resources wisely while yielding the optimal classification accuracy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rzanny</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department Biogeochemical Integration, Max-Planck-Institute for Biogeochemistry, Hans-Knöll-Str. 10, 07745 Jena, Germany.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0491 7318</Identifier>
+                        <Identifier Source="GRID">grid.419500.9</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Seeland</LastName>
+                    <ForeName>Marco</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Computer and Systems Engineering, Technische Universität Ilmenau, Helmholtzplatz 5, 98693 Ilmenau, Germany.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 1087 7453</Identifier>
+                        <Identifier Source="GRID">grid.6553.5</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wäldchen</LastName>
+                    <ForeName>Jana</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0002-2631-1531</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department Biogeochemical Integration, Max-Planck-Institute for Biogeochemistry, Hans-Knöll-Str. 10, 07745 Jena, Germany.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0491 7318</Identifier>
+                        <Identifier Source="GRID">grid.419500.9</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mäder</LastName>
+                    <ForeName>Patrick</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Computer and Systems Engineering, Technische Universität Ilmenau, Helmholtzplatz 5, 98693 Ilmenau, Germany.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 1087 7453</Identifier>
+                        <Identifier Source="GRID">grid.6553.5</Identifier>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Plant Methods</MedlineTA>
+            <NlmUniqueID>101245798</NlmUniqueID>
+            <ISSNLinking>1746-4811</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Philos Trans R Soc Lond B Biol Sci. 2004 Apr 29;359(1444):655-67</RefSource>
+                <PMID Version="1">15253351</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Adv. 2015 Jun 19;1(5):e1400253</RefSource>
+                <PMID Version="1">26601195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Sep 20;6:33634</RefSource>
+                <PMID Version="1">27644140</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2017 Feb 24;12 (2):e0170629</RefSource>
+                <PMID Version="1">28234999</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Back light</Keyword>
+            <Keyword MajorTopicYN="N">Background</Keyword>
+            <Keyword MajorTopicYN="N">CNN</Keyword>
+            <Keyword MajorTopicYN="N">Computer vision</Keyword>
+            <Keyword MajorTopicYN="N">Cropping</Keyword>
+            <Keyword MajorTopicYN="N">Effort</Keyword>
+            <Keyword MajorTopicYN="N">Image acquisition</Keyword>
+            <Keyword MajorTopicYN="N">Leaf image</Keyword>
+            <Keyword MajorTopicYN="N">Leaf side</Keyword>
+            <Keyword MajorTopicYN="N">Preprocessing</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29151843</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13007-017-0245-8</ArticleId>
+            <ArticleId IdType="pii">245</ArticleId>
+            <ArticleId IdType="pmc">PMC5678587</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

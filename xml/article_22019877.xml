@@ -1,0 +1,148 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28944347</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>10433</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention</Title>
+                <ISOAbbreviation>Med Image Comput Comput Assist Interv</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fiber Orientation Estimation Guided by a Deep Network.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>575-583</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/978-3-319-66182-7_66</ELocationID>
+            <Abstract>
+                <AbstractText>Diffusion magnetic resonance imaging (dMRI) is currently the only tool for noninvasively imaging the brain's white matter tracts. The fiber orientation (FO) is a key feature computed from dMRI for tract reconstruction. Because the number of FOs in a voxel is usually small, dictionary-based sparse reconstruction has been used to estimate FOs. However, accurate estimation of complex FO configurations in the presence of noise can still be challenging. In this work we explore the use of a deep network for FO estimation in a dictionary-based framework and propose an algorithm named Fiber Orientation Reconstruction guided by a Deep Network (FORDN). FORDN consists of two steps. First, we use a smaller dictionary encoding coarse basis FOs to represent diffusion signals. To estimate the mixture fractions of the dictionary atoms, a deep network is designed to solve the sparse reconstruction problem. Second, the coarse FOs inform the final FO estimation, where a larger dictionary encoding a dense basis of FOs is used and a weighted ℓ1-norm regularized least squares problem is solved to encourage FOs that are consistent with the network output. FORDN was evaluated and compared with state-of-the-art algorithms that estimate FOs using sparse reconstruction on simulated and typical clinical dMRI data. The results demonstrate the benefit of using a deep network for FO estimation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ye</LastName>
+                    <ForeName>Chuyang</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Laboratory of Pattern Recognition &amp; Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Prince</LastName>
+                    <ForeName>Jerry L</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 NS056307</GrantID>
+                    <Acronym>NS</Acronym>
+                    <Agency>NINDS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Med Image Comput Comput Assist Interv</MedlineTA>
+            <NlmUniqueID>101249582</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2016 Aug;32:243-56</RefSource>
+                <PMID Version="1">27209007</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Feb 14;54(4):2854-66</RefSource>
+                <PMID Version="1">21094686</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2009 Jun;46(2):486-99</RefSource>
+                <PMID Version="1">19385016</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 2015 Oct;45:63-74</RefSource>
+                <PMID Version="1">26296155</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Nov 28;6:37847</RefSource>
+                <PMID Version="1">27892534</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2014 Aug;18(6):820-33</RefSource>
+                <PMID Version="1">24593935</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2010 Sep;29(9):1626-35</RefSource>
+                <PMID Version="1">20304721</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2008 Feb;12(1):26-41</RefSource>
+                <PMID Version="1">17659998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 Feb 1;59(3):2175-86</RefSource>
+                <PMID Version="1">22019877</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">deep network</Keyword>
+            <Keyword MajorTopicYN="N">diffusion MRI</Keyword>
+            <Keyword MajorTopicYN="N">fiber orientation estimation</Keyword>
+            <Keyword MajorTopicYN="N">sparse reconstruction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28944347</ArticleId>
+            <ArticleId IdType="doi">10.1007/978-3-319-66182-7_66</ArticleId>
+            <ArticleId IdType="pmc">PMC5607063</ArticleId>
+            <ArticleId IdType="mid">NIHMS898019</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

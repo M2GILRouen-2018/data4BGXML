@@ -1,0 +1,105 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113979</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Functional Thin Films on Surfaces.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1179-1192</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2016.2605083</ELocationID>
+            <Abstract>
+                <AbstractText>The motion of a thin viscous film of fluid on a curved surface exhibits many intricate visual phenomena, which are challenging to simulate using existing techniques. A possible alternative is to use a reduced model, involving only the temporal evolution of the mass density of the film on the surface. However, in this model, the motion is governed by a fourth-order nonlinear PDE, which involves geometric quantities such as the curvature of the underlying surface, and is therefore difficult to discretize. Inspired by a recent variational formulation for this problem on smooth surfaces, we present a corresponding model for triangle meshes. We provide a discretization for the curvature and advection operators which leads to an efficient and stable numerical scheme, requires a single sparse linear solve per time step, and exactly preserves the total volume of the fluid. We validate our method by qualitatively comparing to known results from the literature, and demonstrate various intricate effects achievable by our method, such as droplet formation, evaporation, droplets interaction and viscous fingering. Finally, we extend our method to incorporate non-linear van der Waals forcing terms which stabilize the motion of the film and allow additional effects such as pearling.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vantzos</LastName>
+                    <ForeName>Orestis</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Azencot</LastName>
+                    <ForeName>Omri</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wardeztky</LastName>
+                    <ForeName>Max</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rumpf</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ben-Chen</LastName>
+                    <ForeName>Mirela</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113979</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2016.2605083</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

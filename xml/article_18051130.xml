@@ -1,0 +1,314 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23070299</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>03</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>08</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>32</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Optimal graph search based segmentation of airway tree double surfaces across bifurcations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>493-510</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2012.2223760</ELocationID>
+            <Abstract>
+                <AbstractText>Identification of both the luminal and the wall areas of the bronchial tree structure from volumetric X-ray computed tomography (CT) data sets is of critical importance in distinguishing important phenotypes within numerous major lung diseases including chronic obstructive pulmonary diseases (COPD) and asthma. However, accurate assessment of the inner and outer airway wall surfaces of a complete 3-D tree structure is difficult due to their complex nature, particularly around the branch areas. In this paper, we extend a graph search based technique (LOGISMOS) to simultaneously identify multiple inter-related surfaces of branching airway trees. We first perform a presegmentation of the input 3-D image to obtain basic information about the tree topology. The presegmented image is resampled along judiciously determined paths to produce a set of vectors of voxels (called voxel columns). The resampling process utilizes medial axes to ensure that voxel columns of appropriate lengths and directions are used to capture the object surfaces without interference. A geometric graph is constructed whose edges connect voxels in the resampled voxel columns and enforce validity of the smoothness and separation constraints on the sought surfaces. Cost functions with directional information are employed to distinguish inner and outer walls. The assessment of wall thickness measurement on a CT-scanned double-wall physical phantom (patterned after an in vivo imaged human airway tree) achieved highly accurate results on the entire 3-D tree. The observed mean signed error of wall thickness ranged from -0.09 ±0.24 mm to 0.07 ±0.23 mm in bifurcating/nonbifurcating areas. The mean unsigned errors were 0.16±0.12 mm to 0.20±0.11 mm. When the airway wall surface was partitioned into meaningful subregions, the airway wall thickness accuracy was the same in most tested bifurcation/nonbifurcation and carina/noncarina regions (p=NS). Once validated on phantoms, our method was applied to human in vivo volumetric CT data to demonstrate relationships of airway wall thickness as a function of luminal dimension and airway tree generation. Wall thickness differences between the bifurcation/nonbifurcation regions were statistically significant (p &lt; 0.05) for tree generations 6, 7, 8, and 9. In carina/noncarina regions, the wall thickness was statistically different in generations 1, 4, 5, 6, 7, and 8.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Xiaomin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN 46556, USA. xliu9@nd.edu</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Danny Z</ForeName>
+                    <Initials>DZ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tawhai</LastName>
+                    <ForeName>Merryn H</ForeName>
+                    <Initials>MH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Xiaodong</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hoffman</LastName>
+                    <ForeName>Eric A</ForeName>
+                    <Initials>EA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sonka</LastName>
+                    <ForeName>Milan</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>K25 CA123112</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P30 ES005605</GrantID>
+                    <Acronym>ES</Acronym>
+                    <Agency>NIEHS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 EB004640</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01-HL64368</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>K25-CA123112</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01-EB004640</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 HL064368</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2010 Dec;29(12):2023-37</RefSource>
+                <PMID Version="1">20643602</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 May;39(5):2603-16</RefSource>
+                <PMID Version="1">22559631</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2006 Jan;28(1):119-34</RefSource>
+                <PMID Version="1">16402624</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Am Thorac Soc. 2006 Aug;3(6):519-32</RefSource>
+                <PMID Version="1">16921136</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Appl Physiol (1985). 2003 May;94(5):1719-25</RefSource>
+                <PMID Version="1">12533493</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2010 Jul;17(7):830-40</RefSource>
+                <PMID Version="1">20540908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2003 Aug;22(8):940-50</RefSource>
+                <PMID Version="1">12906248</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Appl Physiol (1985). 1993 Nov;75(5):2239-50</RefSource>
+                <PMID Version="1">8307884</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2006;9(Pt 2):125-34</RefSource>
+                <PMID Version="1">17354764</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2005 Dec;24(12):1529-39</RefSource>
+                <PMID Version="1">16353370</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Appl Physiol (1985). 1985 Aug;59(2):468-80</RefSource>
+                <PMID Version="1">4030599</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2004 Nov;23(11):1353-64</RefSource>
+                <PMID Version="1">15554124</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Appl Physiol (1985). 2003 Sep;95(3):1063-75</RefSource>
+                <PMID Version="1">12754180</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Environ Res. 1978 Jun;15(3):424-31</RefSource>
+                <PMID Version="1">679903</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2008 Dec;134(6):1183-91</RefSource>
+                <PMID Version="1">18641116</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Inf Process Med Imaging. 2011;22:49-60</RefSource>
+                <PMID Version="1">21761645</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Biomed Eng. 2010 May;38(5):1836-53</RefSource>
+                <PMID Version="1">20162357</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1997 Feb;16(1):87-95</RefSource>
+                <PMID Version="1">9050411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Am Thorac Soc. 2008 Dec 15;5(9):940-5</RefSource>
+                <PMID Version="1">19056721</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2005 Nov;12(11):1457-63</RefSource>
+                <PMID Version="1">16253858</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1998 Aug;17(4):489-97</RefSource>
+                <PMID Version="1">9845305</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1996;15(3):314-26</RefSource>
+                <PMID Version="1">18215912</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2002 Dec;122(6 Suppl):271S-275S</RefSource>
+                <PMID Version="1">12475796</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2007;10(Pt 1):784-91</RefSource>
+                <PMID Version="1">18051130</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001980" MajorTopicYN="N">Bronchi</DescriptorName>
+                <QualifierName UI="Q000033" MajorTopicYN="Y">anatomy &amp; histology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019047" MajorTopicYN="N">Phantoms, Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">NIHMS585961</OtherID>
+        <OtherID Source="NLM">PMC4086865</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23070299</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2012.2223760</ArticleId>
+            <ArticleId IdType="pmc">PMC4086865</ArticleId>
+            <ArticleId IdType="mid">NIHMS585961</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,128 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29151019</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>bcROCsurface: an R package for correcting verification bias in estimation of the ROC surface and its volume for continuous diagnostic tests.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>503</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1914-3</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Receiver operating characteristic (ROC) surface analysis is usually employed to assess the accuracy of a medical diagnostic test when there are three ordered disease status (e.g. non-diseased, intermediate, diseased). In practice, verification bias can occur due to missingness of the true disease status and can lead to a distorted conclusion on diagnostic accuracy. In such situations, bias-corrected inference tools are required.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">This paper introduce an R package, named bcROCsurface, which provides utility functions for verification bias-corrected ROC surface analysis. The shiny web application of the correction for verification bias in estimation of the ROC surface analysis is also developed.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">bcROCsurface may become an important tool for the statistical evaluation of three-class diagnostic markers in presence of verification bias. The R package, readme and example data are available on CRAN. The web interface enables users less familiar with R to evaluate the accuracy of diagnostic tests, and can be found at http://khanhtoduc.shinyapps.io/bcROCsurface_shiny/ .</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>To Duc</LastName>
+                    <ForeName>Khanh</ForeName>
+                    <Initials>K</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-4641-0764</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistical Sciences, University of Padova, via C. Battisti, 241, Padova, 35121, Italy. toduc@stat.unipd.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2004 Nov 30;23(22):3437-49</RefSource>
+                <PMID Version="1">15505886</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(7):e40598</RefSource>
+                <PMID Version="1">22792381</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Stat Softw. 2012 Oct;51(3):1-24</RefSource>
+                <PMID Version="1">23504300</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Jun 1;30(11):1635-6</RefSource>
+                <PMID Version="1">24519383</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Missing at random</Keyword>
+            <Keyword MajorTopicYN="N">R package</Keyword>
+            <Keyword MajorTopicYN="N">ROC surface analysis</Keyword>
+            <Keyword MajorTopicYN="N">Software</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29151019</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1914-3</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1914-3</ArticleId>
+            <ArticleId IdType="pmc">PMC5694622</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

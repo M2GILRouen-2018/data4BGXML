@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29193971</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-9626</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical theory and computation</Title>
+                <ISOAbbreviation>J Chem Theory Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>On-the-Fly Computation of Frontal Orbitals in Density Matrix Expansions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>139-153</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jctc.7b00968</ELocationID>
+            <Abstract>
+                <AbstractText>We propose a method for computation of frontal (homo and lumo) orbitals in recursive polynomial expansion algorithms for the density matrix. Such algorithms give a computational cost that increases only linearly with system size for sufficiently sparse systems, but a drawback compared to the traditional diagonalization approach is that molecular orbitals are not readily available. Our method is based on the idea to use the polynomial of the density matrix expansion as an eigenvalue filter giving large separation between eigenvalues around homo and lumo [ Rubensson et al. J. Chem. Phys. 2008 , 128 , 176101 ]. This filter is combined with a shift-and-square (folded spectrum) method to move the desired eigenvalue to the end of the spectrum. In this work we propose a transparent way to select recursive expansion iteration and shift for the eigenvector computation that results in a sharp eigenvalue filter. The filter is obtained as a byproduct of the density matrix expansion, and there is no significant additional cost associated either with its construction or with its application. This gives a clear-cut and efficient eigenvalue solver that can be used to compute homo and lumo orbitals with sufficient accuracy in a small fraction of the total recursive expansion time. Our algorithms make use of recent homo and lumo eigenvalue estimates that can be obtained at negligible cost [ Rubensson et al. SIAM J. Sci. Comput . 2014 , 36 , B147 ]. We illustrate our method by performing self-consistent field calculations for large scale systems.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kruchinina</LastName>
+                    <ForeName>Anastasia</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2019-1452</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Scientific Computing, Department of Information Technology, Uppsala University , Uppsala 751 05, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rudberg</LastName>
+                    <ForeName>Elias</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Scientific Computing, Department of Information Technology, Uppsala University , Uppsala 751 05, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rubensson</LastName>
+                    <ForeName>Emanuel H</ForeName>
+                    <Initials>EH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Scientific Computing, Department of Information Technology, Uppsala University , Uppsala 751 05, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Theory Comput</MedlineTA>
+            <NlmUniqueID>101232704</NlmUniqueID>
+            <ISSNLinking>1549-9618</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29193971</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jctc.7b00968</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

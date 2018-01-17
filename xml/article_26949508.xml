@@ -1,0 +1,200 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28927443</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2041-1480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>8</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical semantics</Title>
+                <ISOAbbreviation>J Biomed Semantics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Towards achieving semantic interoperability of clinical study data with FHIR.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>41</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13326-017-0148-7</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Observational clinical studies play a pivotal role in advancing medical knowledge and patient healthcare. To lessen the prohibitive costs of conducting these studies and support evidence-based medicine, results emanating from these studies need to be shared and compared to one another. Current approaches for clinical study management have limitations that prohibit the effective sharing of clinical research data.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The objective of this paper is to present a proposal for a clinical study architecture to not only facilitate the communication of clinical study data but also its context so that the data that is being communicated can be unambiguously understood at the receiving end. Our approach is two-fold. First we outline our methodology to map clinical data from Clinical Data Interchange Standards Consortium Operational Data Model (ODM) to the Fast Healthcare Interoperable Resource (FHIR) and outline the strengths and weaknesses of this approach. Next, we propose two FHIR-based models, to capture the metadata and data from the clinical study, that not only facilitate the syntactic but also semantic interoperability of clinical study data.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This work shows that our proposed FHIR resources provide a good fit to semantically enrich the ODM data. By exploiting the rich information model in FHIR, we can organise clinical data in a manner that preserves its organisation but captures its context. Our implementations demonstrate that FHIR can natively manage clinical data. Furthermore, by providing links at several levels, it improves the traversal and querying of the data. The intended benefits of this approach is more efficient and effective data exchange that ultimately will allow clinicians to switch their focus back to decision-making and evidence-based medicines.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Leroux</LastName>
+                    <ForeName>Hugo</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2033-8178</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>The Australian E-Health Research Centre, CSIRO Health and Biosecurity, Level 5, Health Sciences Building 901/16, Royal Brisbane and Women's Hospital, Herston, 4029, Queensland, Australia. hugo.leroux@csiro.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Metke-Jimenez</LastName>
+                    <ForeName>Alejandro</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Australian E-Health Research Centre, CSIRO Health and Biosecurity, Level 5, Health Sciences Building 901/16, Royal Brisbane and Women's Hospital, Herston, 4029, Queensland, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lawley</LastName>
+                    <ForeName>Michael J</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Australian E-Health Research Centre, CSIRO Health and Biosecurity, Level 5, Health Sciences Building 901/16, Royal Brisbane and Women's Hospital, Herston, 4029, Queensland, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Biomed Semantics</MedlineTA>
+            <NlmUniqueID>101531992</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Perm J. 2009 Summer;13(3):51-4</RefSource>
+                <PMID Version="1">20740091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2012 Sep 04;12:95</RefSource>
+                <PMID Version="1">22947211</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Inf Med. 2015 ;54(1):24-31</RefSource>
+                <PMID Version="1">25487120</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Med Inform. 2009 Apr;78 Suppl 1:S77-85</RefSource>
+                <PMID Version="1">18789876</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2011 May 1;18(3):341-6</RefSource>
+                <PMID Version="1">21486890</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2012;178:111-6</RefSource>
+                <PMID Version="1">22797028</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Oct;57:88-99</RefSource>
+                <PMID Version="1">26188274</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2011;168:89-95</RefSource>
+                <PMID Version="1">21893916</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2013 May 1;20(3):554-62</RefSource>
+                <PMID Version="1">23268487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2015 May 26;15:40</RefSource>
+                <PMID Version="1">26004011</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2010;160(Pt 1):161-5</RefSource>
+                <PMID Version="1">20841670</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Semantics. 2015 Apr 09;6:16</RefSource>
+                <PMID Version="1">25973166</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Jun;55:132-42</RefSource>
+                <PMID Version="1">25817919</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Semantics. 2013 Sep 13;4(1):17</RefSource>
+                <PMID Version="1">24034867</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE J Biomed Health Inform. 2013 Mar;17(2):356-69</RefSource>
+                <PMID Version="1">23008263</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2016 Apr;60:352-62</RefSource>
+                <PMID Version="1">26944737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2012;180:564-8</RefSource>
+                <PMID Version="1">22874254</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Semantics. 2016 Mar 03;7:10</RefSource>
+                <PMID Version="1">26949508</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CDISC ODM</Keyword>
+            <Keyword MajorTopicYN="N">Clinical research data</Keyword>
+            <Keyword MajorTopicYN="N">FHIR</Keyword>
+            <Keyword MajorTopicYN="N">Interoperability</Keyword>
+            <Keyword MajorTopicYN="N">Longitudinal clinical study</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28927443</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13326-017-0148-7</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13326-017-0148-7</ArticleId>
+            <ArticleId IdType="pmc">PMC5606031</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

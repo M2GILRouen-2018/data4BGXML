@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29156140</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-9626</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical theory and computation</Title>
+                <ISOAbbreviation>J Chem Theory Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automated Training of ReaxFF Reactive Force Fields for Energetics of Enzymatic Reactions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>291-302</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jctc.7b00870</ELocationID>
+            <Abstract>
+                <AbstractText>Computational studies of the reaction mechanisms of various enzymes are nowadays based almost exclusively on hybrid QM/MM models. Unfortunately, the success of this approach strongly depends on the selection of the QM region, and computational cost is a crucial limiting factor. An interesting alternative is offered by empirical reactive molecular force fields, especially the ReaxFF potential developed by van Duin and co-workers. However, even though an initial parametrization of ReaxFF for biomolecules already exists, it does not provide the desired level of accuracy. We have conducted a thorough refitting of the ReaxFF force field to improve the description of reaction energetics. To minimize the human effort required, we propose a fully automated approach to generate an extensive training set comprised of thousands of different geometries and molecular fragments starting from a few model molecules. Electrostatic parameters were optimized with QM electrostatic potentials as the main target quantity, avoiding excessive dependence on the choice of reference atomic charges and improving robustness and transferability. The remaining force field parameters were optimized using the VD-CMA-ES variant of the CMA-ES optimization algorithm. This method is able to optimize hundreds of parameters simultaneously with unprecedented speed and reliability. The resulting force field was validated on a real enzymatic system, ppGalNAcT2 glycosyltransferase. The new force field offers excellent qualitative agreement with the reference QM/MM reaction energy profile, matches the relative energies of intermediate and product minima almost exactly, and reduces the overestimation of transition state energies by 27-48% compared with the previous parametrization.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Trnka</LastName>
+                    <ForeName>Tomáš</ForeName>
+                    <Initials>T</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-9273-3820</Identifier>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tvaroška</LastName>
+                    <ForeName>Igor</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Chemistry, Slovak Academy of Sciences , 845 38 Bratislava, Slovak Republic.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koča</LastName>
+                    <ForeName>Jaroslav</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2780-4901</Identifier>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Theory Comput</MedlineTA>
+            <NlmUniqueID>101232704</NlmUniqueID>
+            <ISSNLinking>1549-9618</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29156140</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jctc.7b00870</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

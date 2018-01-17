@@ -1,0 +1,356 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29166896</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1752-0509</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC systems biology</Title>
+                <ISOAbbreviation>BMC Syst Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Graph-theoretical comparison of normal and tumor networks in identifying BRCA genes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>110</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12918-017-0495-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Identification of driver genes related to certain types of cancer is an important research topic. Several systems biology approaches have been suggested, in particular for the identification of breast cancer (BRCA) related genes. Such approaches usually rely on differential gene expression and/or mutational landscape data. In some cases interaction network data is also integrated to identify cancer-related modules computationally.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We provide a framework for the comparative graph-theoretical analysis of networks integrating the relevant gene expression, mutations, and potein-protein interaction network data. The comparisons involve a graph-theoretical analysis of normal and tumor network pairs across all instances of a given set of breast cancer samples. The network measures under consideration are based on appropriate formulations of various centrality measures: betweenness, clustering coefficients, degree centrality, random walk distances, graph-theoretical distances, and Jaccard index centrality.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Among all the studied centrality-based graph-theoretical properties, we show that a betweenness-based measure differentiates BRCA genes across all normal versus tumor network pairs, than the rest of the popular centrality-based measures. The AUROC and AUPR values of the gene lists ordered with respect to the measures under study as compared to NCBI BioSystems pathway and the COSMIC database of cancer genes are the largest with the betweenness-based differentiation, followed by the measure based on degree centrality. In order to test the robustness of the suggested measures in prioritizing cancer genes, we further tested the two most promising measures, those based on betweenness and degree centralities, on randomly rewired networks. We show that both measures are quite resilient to noise in the input interaction network. We also compared the same measures against a state-of-the-art alternative disease gene prioritization method, MUFFFINN. We show that both our graph-theoretical measures outperform MUFFINN prioritizations in terms of ROC and precions/recall analysis. Finally, we filter the ordered list of the best measure, the betweenness-based differentiation, via a maximum-weight independent set formulation and investigate the top 50 genes in regards to literature verification. We show that almost all genes in the list are verified by the breast cancer literature and three genes are presented as novel genes that may potentialy be BRCA-related but missing in literature.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dopazo</LastName>
+                    <ForeName>Joaquin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Bioinformatics Research Area, Fundación Progreso y Salud, Hospital Virgen del Rocío, Sevilla, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Erten</LastName>
+                    <ForeName>Cesim</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-8149-7113</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Engineering, Antalya Bilim University, Antalya, Turkey. cesim.erten@antalya.edu.tr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>1059B191501053</GrantID>
+                    <Agency>Türkiye Bilimsel ve Teknolojik Araştirma Kurumu</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BIO2014-57291-R</GrantID>
+                    <Agency>Ministerio de Economía y Competitividad</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>PT13/0001/0007</GrantID>
+                    <Agency>Instituto de Salud Carlos III</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Syst Biol</MedlineTA>
+            <NlmUniqueID>101301827</NlmUniqueID>
+            <ISSNLinking>1752-0509</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2016 Jun 23;17 (1):129</RefSource>
+                <PMID Version="1">27333808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Jan 1;30(1):81-93</RefSource>
+                <PMID Version="1">24085567</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Cancer. 2011 Oct 20;11:454</RefSource>
+                <PMID Version="1">22014037</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2016 Oct 10;7:13041</RefSource>
+                <PMID Version="1">27721378</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2003 Nov;3(11):869-76</RefSource>
+                <PMID Version="1">14668817</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2014;2014:536591</RefSource>
+                <PMID Version="1">24982892</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Wiley Interdiscip Rev Syst Biol Med. 2017 Jan;9(1):</RefSource>
+                <PMID Version="1">27863091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2014 Sep 26;10:752</RefSource>
+                <PMID Version="1">25261458</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2010 Jan;38(Database issue):D492-6</RefSource>
+                <PMID Version="1">19854944</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2015 Oct 20;11(10):e1004518</RefSource>
+                <PMID Version="1">26485003</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Nov 10;10(11):e0142618</RefSource>
+                <PMID Version="1">26555223</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2017 Mar 24;13(3):e1005455</RefSource>
+                <PMID Version="1">28339468</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2013;9(5):e1003054</RefSource>
+                <PMID Version="1">23717195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Breast Cancer Res Treat. 1994;31(2-3):309-14</RefSource>
+                <PMID Version="1">7533562</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 Jun 15;31(12):i284-92</RefSource>
+                <PMID Version="1">26072494</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2015 Feb 26;16:45</RefSource>
+                <PMID Version="1">25887147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2017 Jan 4;45(D1):D777-D783</RefSource>
+                <PMID Version="1">27899578</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2016 Jul 25;17 Suppl 7:274</RefSource>
+                <PMID Version="1">27454166</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Jun 10;486(7403):353-60</RefSource>
+                <PMID Version="1">22722193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jun 15;25(12):i253-8</RefSource>
+                <PMID Version="1">19477996</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2013 Jul 4;499(7456):43-9</RefSource>
+                <PMID Version="1">23792563</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Genomics Proteomics. 2015 May-Jun;12(3):153-66</RefSource>
+                <PMID Version="1">25977174</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pathol. 2014 Jan;232(1):75-86</RefSource>
+                <PMID Version="1">24122835</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Res. 2015 Jun;25(6):707-25</RefSource>
+                <PMID Version="1">25952668</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2008 Sep 2;105(35):12763-8</RefSource>
+                <PMID Version="1">18725631</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 2015 Apr;125(4):1648-64</RefSource>
+                <PMID Version="1">25774502</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2014 Mar 03;5:3388</RefSource>
+                <PMID Version="1">24584437</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2012 Feb;22(2):375-85</RefSource>
+                <PMID Version="1">21653252</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2007 Jun 15;129(6):1065-79</RefSource>
+                <PMID Version="1">17574021</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2015 Dec 18;11(12):e1004595</RefSource>
+                <PMID Version="1">26683094</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Cancer. 2014 Nov 15;135(10):2317-28</RefSource>
+                <PMID Version="1">24706481</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2015 Jul 13;5:10244</RefSource>
+                <PMID Version="1">26165253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2011 Mar;18(3):507-22</RefSource>
+                <PMID Version="1">21385051</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Feb 27;43(4):1997-2007</RefSource>
+                <PMID Version="1">25653168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Med Res. 2016 Apr;47(3):186-95</RefSource>
+                <PMID Version="1">27393961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Jul 1;29(13):i145-53</RefSource>
+                <PMID Version="1">23812978</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2015 Feb;47(2):106-14</RefSource>
+                <PMID Version="1">25501392</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Breast Cancer Res Treat. 2015 Aug;152(3):519-31</RefSource>
+                <PMID Version="1">26160249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2015 Jan 2;589(1):3-14</RefSource>
+                <PMID Version="1">25479087</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Jun 15;30(12):i219-27</RefSource>
+                <PMID Version="1">24931987</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2016 Oct 4;7(40):65257-65269</RefSource>
+                <PMID Version="1">27533456</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Pathol. 2016 Dec;186(12 ):3297-3315</RefSource>
+                <PMID Version="1">27746184</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Stress Chaperones. 2013 Mar;18(2):243-9</RefSource>
+                <PMID Version="1">22907762</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Apr 1;29(7):917-24</RefSource>
+                <PMID Version="1">23413436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Genomics Proteomics. 2015 Sep-Oct;12(5):251-61</RefSource>
+                <PMID Version="1">26417028</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2016 Sep 6;7(36):57919-57931</RefSource>
+                <PMID Version="1">27517318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Genomics. 2011 Apr 14;4:34</RefSource>
+                <PMID Version="1">21489305</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2000 May;25(1):25-9</RefSource>
+                <PMID Version="1">10802651</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1997 Feb 4;94(3):952-5</RefSource>
+                <PMID Version="1">9023363</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2011;5 Suppl 3:S10</RefSource>
+                <PMID Version="1">22784616</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2017 Jul 1;18(4):558-576</RefSource>
+                <PMID Version="1">27345524</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncogene. 2005 Jul 28;24(32):5079-88</RefSource>
+                <PMID Version="1">15897887</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jan;42(Database issue):D358-63</RefSource>
+                <PMID Version="1">24234451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2015 Nov 18;5:16840</RefSource>
+                <PMID Version="1">26577439</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Virology. 2015 Dec;486:219-27</RefSource>
+                <PMID Version="1">26469549</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">BRCA</Keyword>
+            <Keyword MajorTopicYN="N">Interactome</Keyword>
+            <Keyword MajorTopicYN="N">Network centrality</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29166896</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12918-017-0495-0</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12918-017-0495-0</ArticleId>
+            <ArticleId IdType="pmc">PMC5700672</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

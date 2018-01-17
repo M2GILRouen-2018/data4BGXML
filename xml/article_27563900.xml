@@ -1,0 +1,153 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28946679</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>DISPAQ: Distributed Profitable-Area Query from Big Taxi Trip Data.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2201</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17102201</ELocationID>
+            <Abstract>
+                <AbstractText>One of the crucial problems for taxi drivers is to efficiently locate passengers in order to increase profits. The rapid advancement and ubiquitous penetration of Internet of Things (IoT) technology into transportation industries enables us to provide taxi drivers with locations that have more potential passengers (more profitable areas) by analyzing and querying taxi trip data. In this paper, we propose a query processing system, called Distributed Profitable-Area Query (DISPAQ) which efficiently identifies profitable areas by exploiting the Apache Software Foundation's Spark framework and a MongoDB database. DISPAQ first maintains a profitable-area query index (PQ-index) by extracting area summaries and route summaries from raw taxi trip data. It then identifies candidate profitable areas by searching the PQ-index during query processing. Then, it exploits a Z-Skyline algorithm, which is an extension of skyline processing with a Z-order space filling curve, to quickly refine the candidate profitable areas. To improve the performance of distributed query processing, we also propose local Z-Skyline optimization, which reduces the number of dominant tests by distributing killer profitable areas to each cluster node. Through extensive evaluation with real datasets, we demonstrate that our DISPAQ system provides a scalable and efficient solution for processing profitable-area queries from huge amounts of big taxi trip data.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Putri</LastName>
+                    <ForeName>Fadhilah Kurnia</ForeName>
+                    <Initials>FK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Big Data, Pusan National University, Busan 46241, Korea. fadhilahkp@pusan.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>Giltae</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Engineering, Pusan National University; Busan 46241, Korea. gsong@pusan.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kwon</LastName>
+                    <ForeName>Joonho</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0002-8207-9415</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Engineering, Pusan National University; Busan 46241, Korea. jhkwon@pusan.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rao</LastName>
+                    <ForeName>Praveen</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science &amp; Electrical Engineering, University of Missouri-Kansas City, Kansas City, MO 64110, USA. raopr@umkc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Vis Comput Graph. 2013 Dec;19(12):2149-58</RefSource>
+                <PMID Version="1">24051781</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Vis Comput Graph. 2013 Dec;19(12):2456-65</RefSource>
+                <PMID Version="1">24051812</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2016 Aug 23;16(9):null</RefSource>
+                <PMID Version="1">27563900</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">GPS sensors</Keyword>
+            <Keyword MajorTopicYN="N">PQ-index</Keyword>
+            <Keyword MajorTopicYN="N">Z-skyline</Keyword>
+            <Keyword MajorTopicYN="N">big data</Keyword>
+            <Keyword MajorTopicYN="N">distributed processing</Keyword>
+            <Keyword MajorTopicYN="N">profitable areas</Keyword>
+            <Keyword MajorTopicYN="N">taxi trip data</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28946679</ArticleId>
+            <ArticleId IdType="pii">s17102201</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17102201</ArticleId>
+            <ArticleId IdType="pmc">PMC5677113</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

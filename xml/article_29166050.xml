@@ -1,0 +1,92 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29166050</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1089-7690</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>146</Volume>
+                    <Issue>22</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of chemical physics</Title>
+                <ISOAbbreviation>J Chem Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Plane-wave pseudopotential implementation and performance of SCAN meta-GGA exchange-correlation functional for extended systems.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>224105</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1063/1.4984939</ELocationID>
+            <Abstract>
+                <AbstractText>We present the implementation and performance of the strongly constrained and appropriately normed, SCAN, meta-GGA exchange-correlation (XC) approximation in the planewave-pseudopotential (PW-PP) formalism using the Troullier-Martins pseudopotential scheme. We studied its performance by applying the PW-PP implementation to several practical applications of interest in condensed matter sciences: (a) crystalline silicon and germanium, (b) martensitic phase transition energetics of phosphorene, and (c) a single water molecule physisorption on a graphene sheet. Given the much-improved accuracy over the GGA functionals and its relatively low computational cost compared to hybrid XC functionals, the SCAN functional is highly promising for various practical applications of density functional theory calculations for condensed matter systems. At same time, the SCAN meta-GGA functional appears to require more careful attention to numerical details. The meta-GGA functional shows more significant dependence on the fast Fourier transform grid, which is used for evaluating the XC potential in real space in the PW-PP formalism, than other more conventional GGA functionals do. Additionally, using pseudopotentials that are generated at a different/lower level of XC approximation could introduce noticeable errors in calculating some properties such as phase transition energetics.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yao</LastName>
+                    <ForeName>Yi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kanai</LastName>
+                    <ForeName>Yosuke</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Phys</MedlineTA>
+            <NlmUniqueID>0375360</NlmUniqueID>
+            <ISSNLinking>0021-9606</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29166050</ArticleId>
+            <ArticleId IdType="doi">10.1063/1.4984939</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

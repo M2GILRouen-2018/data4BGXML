@@ -1,0 +1,88 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113697</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Efficient Activity Detection in Untrimmed Video with Max-Subgraph Search.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>908-921</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2564404</ELocationID>
+            <Abstract>
+                <AbstractText>We propose an efficient approach for activity detection in video that unifies activity categorization with space-time localization. The main idea is to pose activity detection as a maximum-weight connected subgraph problem. Offline, we learn a binary classifier for an activity category using positive video exemplars that are &quot;trimmed&quot; in time to the activity of interest. Then, given a novel untrimmed video sequence, we decompose it into a 3D array of space-time nodes, which are weighted based on the extent to which their component features support the learned activity model. To perform detection, we then directly localize instances of the activity by solving for the maximum-weight connected subgraph in the test video's space-time graph. We show that this detection strategy permits an efficient branch-and-cut solution for the best-scoring-and possibly non-cubically shaped-portion of the video for a given activity classifier. The upshot is a fast method that can search a broader space of space-time region candidates than was previously practical, which we find often leads to more accurate detection. We demonstrate the proposed algorithm on four datasets, and we show its speed and accuracy advantages over multiple existing search strategies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chao Yeh Chen</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grauman</LastName>
+                    <ForeName>Kristen</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113697</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2564404</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

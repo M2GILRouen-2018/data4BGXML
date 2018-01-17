@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28920900</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fundamental Principles on Learning New Features for Effective Dense Matching.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2752370</ELocationID>
+            <Abstract>
+                <AbstractText>In dense matching (including stereo matching and optical flow), nearly all existing approaches are based on simple features, such as gray or RGB color, gradient or simple transformations like census, to calculate matching costs. These features do not perform well in complex scenes that may involve radiometric changes, noises, overexposure and/or textureless regions. Various problems may appear, such as wrong matching at the pixel or region level, flattening/breaking of edges and/or even entire structural collapse. In this paper, we propose two fundamental principles based on the consistency and the distinctiveness of features. We show that almost all existing problems in dense matching are caused by features that violate one or both of these principles. To systematically learn good features for dense matching, we develop a general multi-objective optimization based on these two principles and apply convolutional neural networks (CNNs) to find new features that lie on the Pareto frontier. By using two-frame optical flow and stereo matching as applications, our experimental results show that the features learned can significantly improve the performance of state-of-the-art approaches. Based on the KITTI benchmarks, our method ranks first on the two stereo benchmarks and is the best among existing two-frame optical-flow algorithms on flow benchmarks.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Feihu</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wah</LastName>
+                    <ForeName>Benjamin W</ForeName>
+                    <Initials>BW</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28920900</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2752370</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,164 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28113191</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-2531</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>64</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>02</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on bio-medical engineering</Title>
+                <ISOAbbreviation>IEEE Trans Biomed Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>S1 and S2 Heart Sound Recognition Using Deep Neural Networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>372-380</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TBME.2016.2559800</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE">This study focuses on the first (S1) and second (S2) heart sound recognition based only on acoustic characteristics; the assumptions of the individual durations of S1 and S2 and time intervals of S1-S2 and S2-S1 are not involved in the recognition process. The main objective is to investigate whether reliable S1 and S2 recognition performance can still be attained under situations where the duration and interval information might not be accessible.</AbstractText>
+                <AbstractText Label="METHODS">A deep neural network (DNN) method is proposed for recognizing S1 and S2 heart sounds. In the proposed method, heart sound signals are first converted into a sequence of Mel-frequency cepstral coefficients (MFCCs). The K-means algorithm is applied to cluster MFCC features into two groups to refine their representation and discriminative capability. The refined features are then fed to a DNN classifier to perform S1 and S2 recognition. We conducted experiments using actual heart sound signals recorded using an electronic stethoscope. Precision, recall, F-measure, and accuracy are used as the evaluation metrics.</AbstractText>
+                <AbstractText Label="RESULTS">The proposed DNN-based method can achieve high precision, recall, and F-measure scores with more than 91% accuracy rate.</AbstractText>
+                <AbstractText Label="CONCLUSION">The DNN classifier provides higher evaluation scores compared with other well-known pattern classification methods.</AbstractText>
+                <AbstractText Label="SIGNIFICANCE">The proposed DNN-based method can achieve reliable S1 and S2 recognition performance based on acoustic characteristics without using an ECG reference or incorporating the assumptions of the individual durations of S1 and S2 and time intervals of S1-S2 and S2-S1.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Tien-En</ForeName>
+                    <Initials>TE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Shih-I</ForeName>
+                    <Initials>SI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ho</LastName>
+                    <ForeName>Li-Ting</ForeName>
+                    <Initials>LT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsai</LastName>
+                    <ForeName>Kun-Hsi</ForeName>
+                    <Initials>KH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yu-Hsuan</ForeName>
+                    <Initials>YH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chang</LastName>
+                    <ForeName>Yun-Fan</ForeName>
+                    <Initials>YF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lai</LastName>
+                    <ForeName>Ying-Hui</ForeName>
+                    <Initials>YH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Syu-Siang</ForeName>
+                    <Initials>SS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsao</LastName>
+                    <ForeName>Yu</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Chau-Chung</ForeName>
+                    <Initials>CC</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Biomed Eng</MedlineTA>
+            <NlmUniqueID>0012737</NlmUniqueID>
+            <ISSNLinking>0018-9294</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006326" MajorTopicYN="N">Heart Auscultation</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006347" MajorTopicYN="N">Heart Sounds</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="Y">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012815" MajorTopicYN="Y">Signal Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019023" MajorTopicYN="N">Stethoscopes</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113191</ArticleId>
+            <ArticleId IdType="doi">10.1109/TBME.2016.2559800</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

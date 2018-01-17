@@ -1,0 +1,170 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29166129</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1748-880X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The British journal of radiology</Title>
+                <ISOAbbreviation>Br J Radiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Initial observations of intra- and inter- fractional motion variation in MR guided lung SBRT.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>20170522</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1259/bjr.20170522</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To evaluate variations in intra- and inter-fractional tumor motion, and the effect on ITV contour accuracy, using deformable image registration of real-time 2D-sagital cine-mode MRI acquired during lung SBRT treatments.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Five lung tumor patients underwent free breathing SBRT treatments on the ViewRay system, with dose prescribed to a planning target volume (PTV; defined as a 3-6 mm expansion of the 4DCT-ITV). Sagittal slice cine-MR images (3.5x3.5mm2 pixels) were acquired through the center of the tumor at 4 frames per second throughout the treatments (3-4 fractions of 21-32 minutes). Tumor GTVs were contoured on the first frame of the MR cine and tracked for the first 20 minutes of each treatment using off-line optical-flow based deformable registration implemented on a GPU cluster. A ground truth ITV (MR-ITV20mins) was formed by taking the union of tracked GTV contours. Pseudo-ITVs were generated from unions of the GTV contours tracked over 10 second segments of image data (MR-ITV10s).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Differences were observed in median motion amplitude between days of treatments. MR-ITV10s areas were as small as 46% of the MR-ITV20mins.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">An ITV offers a 'snap-shot' of breathing motion for the brief period of time the tumor is imaged on a specific day. Real-time MRI over prolonged periods of time and over multiple treatment fractions shows that ITV size varies. Further work is required to investigate the dosimetric effect of these results. Advances in Knowledge: Five lung tumor patients underwent free breathing MRI-guided SBRT treatments, and their tumors tracked using deformable registration of cine-mode MRI. The results indicate that variability of both intra- and inter-fractional breathing amplitude should be taken into account during planning of lung radiotherapy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Thomas</LastName>
+                    <ForeName>David H</ForeName>
+                    <Initials>DH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1 Department of Radiation Oncology, University of Colorado School of Medicine, Aurora, CO, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Santhanam</LastName>
+                    <ForeName>Anand</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kishan</LastName>
+                    <ForeName>Amar U</ForeName>
+                    <Initials>AU</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Minsong</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lamb</LastName>
+                    <ForeName>James</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Min</LastName>
+                    <ForeName>Yugang</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O'Connell</LastName>
+                    <ForeName>Dylan</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Yingli</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Agazaryan</LastName>
+                    <ForeName>Nzhde</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Percy</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Low</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2 Department of Radiation Oncology, University of California, Los Angeles, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Br J Radiol</MedlineTA>
+            <NlmUniqueID>0373125</NlmUniqueID>
+            <ISSNLinking>0007-1285</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29166129</ArticleId>
+            <ArticleId IdType="doi">10.1259/bjr.20170522</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

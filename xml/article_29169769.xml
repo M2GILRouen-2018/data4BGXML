@@ -1,0 +1,170 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29169769</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1769-7131</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>47</Volume>
+                    <Issue>5-6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Neurophysiologie clinique = Clinical neurophysiology</Title>
+                <ISOAbbreviation>Neurophysiol Clin</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Online denoising of eye-blinks in electroencephalography.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>371-391</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0987-7053(17)30051-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.neucli.2017.10.059</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Due to its high temporal resolution, electroencephalography (EEG) has become a broadly-used technology for real-time brain monitoring applications such as neurofeedback (NFB) and brain-computer interfaces (BCI). However, since EEG signals are prone to artifacts, denoising is a crucial step that enables adequate subsequent data processing and interpretation. The aim of this study is to compare manual denoising to unsupervised online denoising, which is essential to real-time applications.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Denoising EEG for real-time applications requires the implementation of unsupervised and online methods. In order to permit genericity, these methods should not rely on electrooculography (EOG) traces nor on temporal/spatial templates of the artifacts. Two blind source separation (BSS) methods are analyzed in this paper with the aim of automatically correcting online eye-blink artifacts: the algorithm for multiple unknown signals extraction (AMUSE) and the approximate joint diagonalization of Fourier cospectra (AJDC). The chosen gold standard is a manual review of the EEG database carried out retrospectively by a human operator. Comparison is carried out using the spectral properties of the continuous EEG and event-related potentials (ERP).</AbstractText>
+                <AbstractText Label="RESULTS AND CONCLUSION" NlmCategory="CONCLUSIONS">The AJDC algorithm addresses limitations observed in AMUSE and outperforms it. No statistical difference is found between the manual and automatic approaches on a database composed of 15 healthy individuals, paving the way for an automated, operator-independent, and real-time eye-blink correction technique.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Masson SAS. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Barthélemy</LastName>
+                    <ForeName>Quentin</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mensia Technologies, 130, rue de Lourmel, 75015 Paris, France. Electronic address: qb@mensiatech.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mayaud</LastName>
+                    <ForeName>Louis</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mensia Technologies, 130, rue de Lourmel, 75015 Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Renard</LastName>
+                    <ForeName>Yann</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mensia Technologies, 130, rue de Lourmel, 75015 Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Daekeun</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Seoul National University, Seoul, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kang</LastName>
+                    <ForeName>Seung-Wan</ForeName>
+                    <Initials>SW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Seoul National University, Seoul, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gunkelman</LastName>
+                    <ForeName>Jay</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Brain Science International, Pleasanton, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Congedo</LastName>
+                    <ForeName>Marco</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GIPSA-Lab, CNRS, Grenoble-Alpes University, Grenoble Institute of Technology, 38402 Saint Martin d'Hères, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>France</Country>
+            <MedlineTA>Neurophysiol Clin</MedlineTA>
+            <NlmUniqueID>8804532</NlmUniqueID>
+            <ISSNLinking>0987-7053</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Blind source separation</Keyword>
+            <Keyword MajorTopicYN="N">Clignement des yeux</Keyword>
+            <Keyword MajorTopicYN="N">Denoising</Keyword>
+            <Keyword MajorTopicYN="N">Débruitage</Keyword>
+            <Keyword MajorTopicYN="N">Electroencephalography</Keyword>
+            <Keyword MajorTopicYN="N">En ligne</Keyword>
+            <Keyword MajorTopicYN="N">Eye blink</Keyword>
+            <Keyword MajorTopicYN="N">Non supervisé</Keyword>
+            <Keyword MajorTopicYN="N">Online</Keyword>
+            <Keyword MajorTopicYN="N">Séparation aveugle de sources</Keyword>
+            <Keyword MajorTopicYN="N">Unsupervised</Keyword>
+            <Keyword MajorTopicYN="N">Électroencéphalographie</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29169769</ArticleId>
+            <ArticleId IdType="pii">S0987-7053(17)30051-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.neucli.2017.10.059</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

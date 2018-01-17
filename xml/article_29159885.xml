@@ -1,0 +1,141 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29159885</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Two-stage ionoacoustic range verification leveraging Monte Carlo and acoustic simulations to stably account for tissue inhomogeneity and accelerator-specific time structure - A simulation study.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12681</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Range errors constrain treatment planning by limiting choice of ion beam angles and requiring large margins. Ionoacoustic range verification requires recovering the location of an acoustic source from low frequency signals. A priori information is applied to stably overcome resolution limits of inverse acoustic source imaging in this simulation study. In particular, the accuracy and robustness of ionoacoustic range verification for lateral and oblique delivery of high-energy protons to the prostate is examined.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Dose maps were computed using GEANT4 Monte Carlo simulations via the TOPAS user interface. Thermoacoustic pulses were propagated using k-Wave software, with initial pressures corresponding to instantaneous dose deposition and piecewise constant maps of tissue properties derived from the planning CT. A database of dose maps with corresponding thermoacoustic emissions and Bragg peak locations, referred to as &quot;control points,&quot; were precomputed. Corresponding thermoacoustic emissions were also precomputed. Pulses were recorded at four coplanar locations corresponding to the outer surface of a virtual transrectal array. To model experimental beam delivery, k-Wave results were convolved in time with a Gaussian envelope to account for noninstantaneous proton delivery by a synchrocyclotron. Thermoacoustic pulses were bandlimited below 150 kHz, and amplitudes were directly proportional to charge delivered. To test robustness of our method, white noise was added. Range was estimated in a two-step process. The first step obtained a preliminary range estimate by one-way beamforming. The second step was taken using data corresponding to the &quot;control point&quot; nearest to the preliminary range estimate. For each receiver, the time of flight difference, ∆t, between the measured and control thermoacoustic signals were accurately estimated by applying the Fourier shift theorem. Receiver-Bragg peak distance was then estimated by adding vs ∆t to the known distance of the control point, where vs is soundspeed. A linear system of equations based upon all receiver locations and distances was solved to recover the Bragg peak location. All simulations were performed relative to the planning CT. Because ultrasound (US) images were not available, results were overlaid onto the planning CT.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Beamformed estimates from noise-free data tracked all beam locations within 1 cm. Final estimates for oblique and lateral beams were accurate to within 1.0 and 1.6 mm respectively. Average errors of final range estimates for oblique beams from data with SNR = 0 dB were no greater than 2.0 mm.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Ionoacoustic range verification may improve current practice. Ionoacoustic range estimates can be inherently co-registered to ultrasound images of underlying anatomy. To ensure estimates are robust in clinical practice, dose maps based upon the planning CT should be overlaid onto ultrasound volumes acquired at time of treatment and acoustic simulations re-computed to provide a database of control points and corresponding thermoacoustic emissions. Computation times for beamformed estimates are already fast enough for online range verification, but are not accurate enough for a measurement aperture limited to the surface of a transrectal ultrasound probe. Accelerated acoustic simulations will be required to enable online two-stage correction, but offline calculation is already suitable for adaptive planning.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Patch</LastName>
+                    <ForeName>Sarah K</ForeName>
+                    <Initials>SK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics, University of Wisconsin-Milwaukee, Milwaukee, WI, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hoff</LastName>
+                    <ForeName>Daniel E M</ForeName>
+                    <Initials>DEM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Chemistry and Physics, Washington University, St. Louis, MO, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Webb</LastName>
+                    <ForeName>Tyler B</ForeName>
+                    <Initials>TB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Chemistry and Physics, Washington University, St. Louis, MO, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sobotka</LastName>
+                    <ForeName>Lee G</ForeName>
+                    <Initials>LG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Chemistry and Physics, Washington University, St. Louis, MO, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Tianyu</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Washington University, St. Louis, MO, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">IGRT</Keyword>
+            <Keyword MajorTopicYN="N">ion therapy</Keyword>
+            <Keyword MajorTopicYN="N">proton therapy</Keyword>
+            <Keyword MajorTopicYN="N">range verification</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29159885</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12681</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

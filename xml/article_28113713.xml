@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113713</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>11</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Wishart Deep Stacking Network for Fast POLSAR Image Classification.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2567069</ELocationID>
+            <Abstract>
+                <AbstractText>Inspired by the popular deep learning architecture - Deep Stacking Network (DSN), a specific deep model for polarimetric synthetic aperture radar (POLSAR) image classification is proposed in this paper, which is named as Wishart Deep Stacking Network (W-DSN). First of all, a fast implementation of Wishart distance is achieved by a special linear transformation, which speeds up the classification of POLSAR image and makes it possible to use this polarimetric information in the following Neural Network (NN). Then a single-hidden-layer neural network based on the fast Wishart distance is defined for POLSAR image classification, which is named as Wishart Network (WN) and improves the classification accuracy. Finally, a multi-layer neural network is formed by stacking WNs, which is in fact the proposed deep learning architecture W-DSN for POLSAR image classification and improves the classification accuracy further. In addition, the structure of WN can be expanded in a straightforward way by adding hidden units if necessary, as well as the structure of the W-DSN. As a preliminary exploration on formulating specific deep learning architecture for POLSAR image classification, the proposed methods may establish a simple but clever connection between POLSAR image interpretation and deep learning. The experiment results tested on real POLSAR image show that the fast implementation of Wishart distance is very efficient (a POLSAR image with 768000 pixels can be classified in 0.53s), and both the single-hidden-layer architecture WN and the deep learning architecture W-DSN for POLSAR image classification perform well and work efficiently.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jiao</LastName>
+                    <ForeName>Licheng</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Fang</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113713</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2567069</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

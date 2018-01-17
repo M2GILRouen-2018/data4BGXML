@@ -1,0 +1,130 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28905409</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-0258</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>29</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Statistics in medicine</Title>
+                <ISOAbbreviation>Stat Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Generalized survival models for correlated time-to-event data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>4743-4762</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/sim.7451</ELocationID>
+            <Abstract>
+                <AbstractText>Our aim is to develop a rich and coherent framework for modeling correlated time-to-event data, including (1) survival regression models with different links and (2) flexible modeling for time-dependent and nonlinear effects with rich postestimation. We extend the class of generalized survival models, which expresses a transformed survival in terms of a linear predictor, by incorporating a shared frailty or random effects for correlated survival data. The proposed approach can include parametric or penalized smooth functions for time, time-dependent effects, nonlinear effects, and their interactions. The maximum (penalized) marginal likelihood method is used to estimate the regression coefficients and the variance for the frailty or random effects. The optimal smoothing parameters for the penalized marginal likelihood estimation can be automatically selected by a likelihood-based cross-validation criterion. For models with normal random effects, Gauss-Hermite quadrature can be used to obtain the cluster-level marginal likelihoods. The Akaike Information Criterion can be used to compare models and select the link function. We have implemented these methods in the R package rstpm2. Simulating for both small and larger clusters, we find that this approach performs well. Through 2 applications, we demonstrate (1) a comparison of proportional hazards and proportional odds models with random effects for clustered survival data and (2) the estimation of time-varying effects on the log-time scale, age-varying effects for a specific treatment, and two-dimensional splines for time and age.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Xing-Rong</ForeName>
+                    <Initials>XR</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0199-0221</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Nobels väg 12A, S-171 77 Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pawitan</LastName>
+                    <ForeName>Yudi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Nobels väg 12A, S-171 77 Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clements</LastName>
+                    <ForeName>Mark S</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Nobels väg 12A, S-171 77 Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Stat Med</MedlineTA>
+            <NlmUniqueID>8215016</NlmUniqueID>
+            <ISSNLinking>0277-6715</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">adaptive Gauss-Hermite quadrature</Keyword>
+            <Keyword MajorTopicYN="N">correlated survival data</Keyword>
+            <Keyword MajorTopicYN="N">generalized survival models</Keyword>
+            <Keyword MajorTopicYN="N">link functions</Keyword>
+            <Keyword MajorTopicYN="N">random effects</Keyword>
+            <Keyword MajorTopicYN="N">tensor product</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28905409</ArticleId>
+            <ArticleId IdType="doi">10.1002/sim.7451</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

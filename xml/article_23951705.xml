@@ -1,0 +1,215 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29190296</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluating Bayesian spatial methods for modelling species distributions with clumped and restricted occurrence data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0187602</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0187602</ELocationID>
+            <Abstract>
+                <AbstractText>Statistical approaches for inferring the spatial distribution of taxa (Species Distribution Models, SDMs) commonly rely on available occurrence data, which is often clumped and geographically restricted. Although available SDM methods address some of these factors, they could be more directly and accurately modelled using a spatially-explicit approach. Software to fit models with spatial autocorrelation parameters in SDMs are now widely available, but whether such approaches for inferring SDMs aid predictions compared to other methodologies is unknown. Here, within a simulated environment using 1000 generated species' ranges, we compared the performance of two commonly used non-spatial SDM methods (Maximum Entropy Modelling, MAXENT and boosted regression trees, BRT), to a spatial Bayesian SDM method (fitted using R-INLA), when the underlying data exhibit varying combinations of clumping and geographic restriction. Finally, we tested how any recommended methodological settings designed to account for spatially non-random patterns in the data impact inference. Spatial Bayesian SDM method was the most consistently accurate method, being in the top 2 most accurate methods in 7 out of 8 data sampling scenarios. Within high-coverage sample datasets, all methods performed fairly similarly. When sampling points were randomly spread, BRT had a 1-3% greater accuracy over the other methods and when samples were clumped, the spatial Bayesian SDM method had a 4%-8% better AUC score. Alternatively, when sampling points were restricted to a small section of the true range all methods were on average 10-12% less accurate, with greater variation among the methods. Model inference under the recommended settings to account for autocorrelation was not impacted by clumping or restriction of data, except for the complexity of the spatial regression term in the spatial Bayesian model. Methods, such as those made available by R-INLA, can be successfully used to account for spatial autocorrelation in an SDM context and, by taking account of random effects, produce outputs that can better elucidate the role of covariates in predicting species occurrence. Given that it is often unclear what the drivers are behind data clumping in an empirical occurrence dataset, or indeed how geographically restricted these data are, spatially-explicit Bayesian SDMs may be the better choice when modelling the spatial distribution of target species.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Redding</LastName>
+                    <ForeName>David W</ForeName>
+                    <Initials>DW</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8615-1798</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lucas</LastName>
+                    <ForeName>Tim C D</ForeName>
+                    <Initials>TCD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Big Data Institute, University of Oxford, Oxford, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blackburn</LastName>
+                    <ForeName>Tim M</ForeName>
+                    <Initials>TM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Zoology, Zoological Society of London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>Kate E</ForeName>
+                    <Initials>KE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Zoology, Zoological Society of London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Emerg Infect Dis. 2006 Dec;12(12):1822-6</RefSource>
+                <PMID Version="1">17326931</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Nov 18;8(11):e79168</RefSource>
+                <PMID Version="1">24260167</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Negl Trop Dis. 2008;2(10):e313</RefSource>
+                <PMID Version="1">18958165</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecol Lett. 2015 Dec;18(12):1321-8</RefSource>
+                <PMID Version="1">26439311</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Glob Chang Biol. 2014 Aug;20(8):2566-79</RefSource>
+                <PMID Version="1">24845950</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 May 12;9(5):e97122</RefSource>
+                <PMID Version="1">24818607</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013;8(2):e55158</RefSource>
+                <PMID Version="1">23457462</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J R Soc Interface. 2015 Jun 6;12(107):null</RefSource>
+                <PMID Version="1">25948612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2010 Jun 01;8(6):e1000385</RefSource>
+                <PMID Version="1">20532234</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Ecol Evol. 2015 Dec;30(12 ):766-79</RefSource>
+                <PMID Version="1">26519235</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecol Appl. 2009 Jan;19(1):181-97</RefSource>
+                <PMID Version="1">19323182</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2017 Mar;98 (3):632-646</RefSource>
+                <PMID Version="1">27935640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 2013 Mar;69(1):274-81</RefSource>
+                <PMID Version="1">23379623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecol Lett. 2013 Dec;16(12):1424-35</RefSource>
+                <PMID Version="1">24134332</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2013 Jul;94(7):1456-63</RefSource>
+                <PMID Version="1">23951705</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001499" MajorTopicYN="Y">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058974" MajorTopicYN="Y">Phylogeography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013045" MajorTopicYN="Y">Species Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29190296</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0187602</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-09661</ArticleId>
+            <ArticleId IdType="pmc">PMC5708625</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

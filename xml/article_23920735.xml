@@ -1,0 +1,363 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28935617</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Print">1929-0748</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>6</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>JMIR research protocols</Title>
+                <ISOAbbreviation>JMIR Res Protoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The Adverse Drug Reactions from Patient Reports in Social Media Project: Five Major Challenges to Overcome to Operationalize Analysis and Efficiently Support Pharmacovigilance Process.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e179</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2196/resprot.6463</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Adverse drug reactions (ADRs) are an important cause of morbidity and mortality. Classical Pharmacovigilance process is limited by underreporting which justifies the current interest in new knowledge sources such as social media. The Adverse Drug Reactions from Patient Reports in Social Media (ADR-PRISM) project aims to extract ADRs reported by patients in these media. We identified 5 major challenges to overcome to operationalize the analysis of patient posts: (1) variable quality of information on social media, (2) guarantee of data privacy, (3) response to pharmacovigilance expert expectations, (4) identification of relevant information within Web pages, and (5) robust and evolutive architecture.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">This article aims to describe the current state of advancement of the ADR-PRISM project by focusing on the solutions we have chosen to address these 5 major challenges.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this article, we propose methods and describe the advancement of this project on several aspects: (1) a quality driven approach for selecting relevant social media for the extraction of knowledge on potential ADRs, (2) an assessment of ethical issues and French regulation for the analysis of data on social media, (3) an analysis of pharmacovigilance expert requirements when reviewing patient posts on the Internet, (4) an extraction method based on natural language processing, pattern based matching, and selection of relevant medical concepts in reference terminologies, and (5) specifications of a component-based architecture for the monitoring system.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Considering the 5 major challenges, we (1) selected a set of 21 validated criteria for selecting social media to support the extraction of potential ADRs, (2) proposed solutions to guarantee data privacy of patients posting on Internet, (3) took into account pharmacovigilance expert requirements with use case diagrams and scenarios, (4) built domain-specific knowledge resources embeding a lexicon, morphological rules, context rules, semantic rules, syntactic rules, and post-analysis processing, and (5) proposed a component-based architecture that allows storage of big data and accessibility to third-party applications through Web services.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We demonstrated the feasibility of implementing a component-based architecture that allows collection of patient posts on the Internet, near real-time processing of those posts including annotation, and storage in big data structures. In the next steps, we will evaluate the posts identified by the system in social media to clarify the interest and relevance of such approach to improve conventional pharmacovigilance processes based on spontaneous reporting.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bousquet</LastName>
+                    <ForeName>Cedric</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9775-2476</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé, U1142, Institut National de la Santé et de la Recherche Médicale, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Service de Santé Publique et de l'Information Médicale, Centre Hospitalier Universitaire de Saint Etienne, Saint-Etienne, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dahamna</LastName>
+                    <ForeName>Badisse</ForeName>
+                    <Initials>B</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0762-2518</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics, Rouen University Hospital, Rouen, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guillemin-Lanne</LastName>
+                    <ForeName>Sylvie</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-3528-2514</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Expert System, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Darmoni</LastName>
+                    <ForeName>Stefan J</ForeName>
+                    <Initials>SJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7162-318X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé, U1142, Institut National de la Santé et de la Recherche Médicale, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics, Rouen University Hospital, Rouen, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Faviez</LastName>
+                    <ForeName>Carole</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-1500-0236</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Kappa Santé, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huot</LastName>
+                    <ForeName>Charles</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9822-232X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Expert System, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Katsahian</LastName>
+                    <ForeName>Sandrine</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7261-0671</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Unité mixte de recherche 1138, équipe 22, Institut National de la Santé et de la Recherche Médicale, Centre de Recherche des Cordeliers, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leroux</LastName>
+                    <ForeName>Vincent</ForeName>
+                    <Initials>V</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-3337-1129</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institut de Santé Urbaine, Saint Maurice, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pereira</LastName>
+                    <ForeName>Suzanne</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5569-990X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Vidal, Issy Les Moulineaux, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Richard</LastName>
+                    <ForeName>Christophe</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9817-7821</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Santeos, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schück</LastName>
+                    <ForeName>Stéphane</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2642-7726</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Kappa Santé, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Souvignet</LastName>
+                    <ForeName>Julien</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-7278-4148</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé, U1142, Institut National de la Santé et de la Recherche Médicale, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lillo-Le Louët</LastName>
+                    <ForeName>Agnès</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8135-7340</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Assistance Publique-Hôpitaux de Paris, Hôpital Européen Georges Pompidou, Centre Régional de Pharmacovigilance, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Texier</LastName>
+                    <ForeName>Nathalie</ForeName>
+                    <Initials>N</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-3749-254X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Kappa Santé, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Canada</Country>
+            <MedlineTA>JMIR Res Protoc</MedlineTA>
+            <NlmUniqueID>101599504</NlmUniqueID>
+            <ISSNLinking>1929-0748</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Expert Opin Drug Saf. 2015;14(12):1845-53</RefSource>
+                <PMID Version="1">26436834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>SHB12 (2012). 2012 Oct 29;2012:25-32</RefSource>
+                <PMID Version="1">28967001</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2015 Jun 19;17(6):e154</RefSource>
+                <PMID Version="1">26091775</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2015 Jul 10;17(7):e171</RefSource>
+                <PMID Version="1">26163365</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2011 Dec;44(6):989-96</RefSource>
+                <PMID Version="1">21820083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JMIR Public Health Surveill. 2017 Feb 24;3(1):e10</RefSource>
+                <PMID Version="1">28235749</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Apr;54:202-12</RefSource>
+                <PMID Version="1">25720841</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Inf Med. 2013;52(2):152-9</RefSource>
+                <PMID Version="1">23450374</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2014;205:895-9</RefSource>
+                <PMID Version="1">25160317</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Presse Med. 2011 Sep;40(9 Pt 1):790-2</RefSource>
+                <PMID Version="1">21802246</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Clin Pharmacol. 2015 Oct;80(4):910-20</RefSource>
+                <PMID Version="1">26147850</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2014 Oct 23;14:91</RefSource>
+                <PMID Version="1">25341686</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Saf. 2006;29(2):161-8</RefSource>
+                <PMID Version="1">16454543</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2002 Oct 2;288(13):1588</RefSource>
+                <PMID Version="1">12350188</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2014 Feb 24;14:13</RefSource>
+                <PMID Version="1">24559132</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Feb;53:196-207</RefSource>
+                <PMID Version="1">25451103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2011;2011:1019-26</RefSource>
+                <PMID Version="1">22195162</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2017 Jun 06;19(6):e195</RefSource>
+                <PMID Version="1">28588006</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2015;15 Suppl 2:S6</RefSource>
+                <PMID Version="1">26100267</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:417-26</RefSource>
+                <PMID Version="1">23304312</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JMIR Public Health Surveill. 2017 Jun 22;3(2):e36</RefSource>
+                <PMID Version="1">28642212</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Clin Pharmacol. 2007 Feb;63(2):148-56</RefSource>
+                <PMID Version="1">17274788</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JMIR Public Health Surveill. 2015 Jul 27;1(2):e7</RefSource>
+                <PMID Version="1">27227141</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Inf Med. 2000 Mar;39(1):30-5</RefSource>
+                <PMID Version="1">10786067</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2015 ;210:526-30</RefSource>
+                <PMID Version="1">25991203</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Policy. 2013 May;110(2-3):298-301</RefSource>
+                <PMID Version="1">23477806</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2015 May;22(3):671-81</RefSource>
+                <PMID Version="1">25755127</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JMIR Public Health Surveill. 2017 Feb 1;3(1):e6</RefSource>
+                <PMID Version="1">28148472</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 1998 Apr 15;279(15):1200-5</RefSource>
+                <PMID Version="1">9555760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2013;192:961</RefSource>
+                <PMID Version="1">23920735</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">big data</Keyword>
+            <Keyword MajorTopicYN="N">medical terminology</Keyword>
+            <Keyword MajorTopicYN="N">natural language processing</Keyword>
+            <Keyword MajorTopicYN="N">pharmacovigilance</Keyword>
+            <Keyword MajorTopicYN="N">social media</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28935617</ArticleId>
+            <ArticleId IdType="pii">v6i9e179</ArticleId>
+            <ArticleId IdType="doi">10.2196/resprot.6463</ArticleId>
+            <ArticleId IdType="pmc">PMC5629348</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

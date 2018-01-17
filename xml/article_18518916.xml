@@ -1,0 +1,305 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29176999</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1746-4811</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>13</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Plant methods</Title>
+                <ISOAbbreviation>Plant Methods</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A robot-assisted imaging pipeline for tracking the growths of maize ear and silks in a high-throughput phenotyping platform.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>96</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13007-017-0246-7</ELocationID>
+            <Abstract>
+                <AbstractText Label="Background" NlmCategory="UNASSIGNED">In maize, silks are hundreds of filaments that simultaneously emerge from the ear for collecting pollen over a period of 1-7 days, which largely determines grain number especially under water deficit. Silk growth is a major trait for drought tolerance in maize, but its phenotyping is difficult at throughputs needed for genetic analyses.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We have developed a reproducible pipeline that follows ear and silk growths every day for hundreds of plants, based on an ear detection algorithm that drives a robotized camera for obtaining detailed images of ears and silks. We first select, among 12 whole-plant side views, those best suited for detecting ear position. Images are segmented, the stem pixels are labelled and the ear position is identified based on changes in width along the stem. A mobile camera is then automatically positioned in real time at 30 cm from the ear, for a detailed picture in which silks are identified based on texture and colour. This allows analysis of the time course of ear and silk growths of thousands of plants. The pipeline was tested on a panel of 60 maize hybrids in the PHENOARCH phenotyping platform. Over 360 plants, ear position was correctly estimated in 86% of cases, before it could be visually assessed. Silk growth rate, estimated on all plants, decreased with time consistent with literature. The pipeline allowed clear identification of the effects of genotypes and water deficit on the rate and duration of silk growth.</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">The pipeline presented here, which combines computer vision, machine learning and robotics, provides a powerful tool for large-scale genetic analyses of the control of reproductive growth to changes in environmental conditions in a non-invasive and automatized way. It is available as Open Source software in the OpenAlea platform.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Brichet</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fournier</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Inria, Virtual Plants, Montpellier, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Turc</LastName>
+                    <ForeName>Olivier</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Strauss</LastName>
+                    <ForeName>Olivier</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LIRMM, Department of Robotics, Univ Montpellier, 34392 Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Artzet</LastName>
+                    <ForeName>Simon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Inria, Virtual Plants, Montpellier, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pradal</LastName>
+                    <ForeName>Christophe</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">0000-0002-2555-761X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Inria, Virtual Plants, Montpellier, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CIRAD, UMR AGAP, 34398 Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2153 9871</Identifier>
+                        <Identifier Source="GRID">grid.8183.2</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>AGAP, Univ Montpellier, CIRAD, INRA, Inria, Montpellier SupAgro, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2172 5332</Identifier>
+                        <Identifier Source="GRID">grid.434209.8</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Welcker</LastName>
+                    <ForeName>Claude</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tardieu</LastName>
+                    <ForeName>François</ForeName>
+                    <Initials>F</Initials>
+                    <Identifier Source="ORCID">0000-0002-7287-0094</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cabrera-Bosquet</LastName>
+                    <ForeName>Llorenç</ForeName>
+                    <Initials>L</Initials>
+                    <Identifier Source="ORCID">0000-0002-2147-2846</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2097 0141</Identifier>
+                        <Identifier Source="GRID">grid.121334.6</Identifier>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Plant Methods</MedlineTA>
+            <NlmUniqueID>101245798</NlmUniqueID>
+            <ISSNLinking>1746-4811</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2016 Aug 9;113(32):8963-8</RefSource>
+                <PMID Version="1">27457942</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2002 Nov;130(3):1181-9</RefSource>
+                <PMID Version="1">12427985</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Methods. 2017 Mar 31;13:21</RefSource>
+                <PMID Version="1">28373892</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PeerJ. 2014 Jun 19;2:e453</RefSource>
+                <PMID Version="1">25024921</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Methods. 2011 Feb 01;7:2</RefSource>
+                <PMID Version="1">21284859</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2017 Nov;175(3):1121-1134</RefSource>
+                <PMID Version="1">28899961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2016 Oct;172(2):823-834</RefSource>
+                <PMID Version="1">27528244</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Biol. 2017 Aug 7;27(15):R770-R783</RefSource>
+                <PMID Version="1">28787611</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Bot. 2014 Nov;65(21):6205-18</RefSource>
+                <PMID Version="1">25381432</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2016 Nov;172(3):1358-1370</RefSource>
+                <PMID Version="1">27663410</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Plant Sci. 2017 Jun 09;8:900</RefSource>
+                <PMID Version="1">28659934</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Bot. 2017 Mar 1;119(4):517-532</RefSource>
+                <PMID Version="1">28065926</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Bot. 2016 May;67(11):3587-99</RefSource>
+                <PMID Version="1">27141917</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2014 Apr 23;165(2):506-518</RefSource>
+                <PMID Version="1">24760818</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>New Phytol. 2016 Oct;212(2):377-88</RefSource>
+                <PMID Version="1">27400762</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2013 Jul 27;14:238</RefSource>
+                <PMID Version="1">23890277</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 May 12;12:148</RefSource>
+                <PMID Version="1">21569390</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>New Phytol. 2016 Oct;212(1):269-81</RefSource>
+                <PMID Version="1">27258481</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Bot. 2015 Sep;66(18):5581-93</RefSource>
+                <PMID Version="1">26034130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Physiol. 2016 Jun;171(2):986-96</RefSource>
+                <PMID Version="1">26598464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Dec 30;10(12):e0145540</RefSource>
+                <PMID Version="1">26717192</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Bot. 2016 Aug;67(15):4523-34</RefSource>
+                <PMID Version="1">27312669</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Integr Plant Biol. 2012 May;54(5):312-20</RefSource>
+                <PMID Version="1">22420640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Plant Cell Environ. 2008 Sep;31(9):1349-60</RefSource>
+                <PMID Version="1">18518916</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Computer vision</Keyword>
+            <Keyword MajorTopicYN="N">Image-assisted phenotyping</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Maize</Keyword>
+            <Keyword MajorTopicYN="N">Robot-assisted imaging</Keyword>
+            <Keyword MajorTopicYN="N">Water deficit</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29176999</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13007-017-0246-7</ArticleId>
+            <ArticleId IdType="pii">246</ArticleId>
+            <ArticleId IdType="pmc">PMC5688816</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

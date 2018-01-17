@@ -1,0 +1,442 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29186229</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1463-9084</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>19</Volume>
+                    <Issue>48</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physical chemistry chemical physics : PCCP</Title>
+                <ISOAbbreviation>Phys Chem Chem Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>HyRes: a coarse-grained model for multi-scale enhanced sampling of disordered protein conformations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>32421-32432</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1039/c7cp06736d</ELocationID>
+            <Abstract>
+                <AbstractText>Efficient coarse-grained (CG) models can be coupled with atomistic force fields to accelerate the sampling of atomistic energy landscapes in the multi-scale enhanced sampling (MSES) framework. This approach may be particularly suitable for generating atomistic conformational ensembles of intrinsically disordered proteins (IDPs). While MSES is relatively robust to inherent CG artifacts, achieving optimal sampling efficiency requires CG modeling to generate the local and long-range fluctuations that are largely consistent with those at the atomistic level. Here, we describe a new hybrid resolution CG model (HyRes) for MSES simulations of disordered protein states, which is specifically designed to provide semi-quantitative secondary structure propensities together with a qualitative description of long-range nonspecific interactions. The HyRes model contains an atomistic description of the backbone with intermediate resolution side chains. The secondary structure propensities are tuned by adjusting the backbone hydrogen-bonding strength and the ϕ/ψ torsion profile. The sizes and covalent geometries of the side chains are parameterized to reproduce distributions derived from atomistic simulations. Lennard-Jones parameters for sidechain beads are assigned to reproduce statistical potentials derived from the protein structural database, and then globally parameterized with nonspecific electrostatic interactions to reproduce the free energy profiles of pair wise interactions and the key conformational properties of model peptides. Application of HyRes to MSES simulations of small IDPs suggests that it is capable of driving faster structural transitions at the atomistic level and increasing the convergence rate compared to the Cα-only Gō-like models previously utilized. With further optimization, we believe that the new CG model could greatly improve the efficiency of MSES simulations of the larger and more complex IDPs frequently involved in cellular signalling and regulation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Xiaorong</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, University of Massachusetts Amherst, Amherst, MA 01003, USA. jianhanc@umass.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Jianhan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 GM114300</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Phys Chem Chem Phys</MedlineTA>
+            <NlmUniqueID>100888160</NlmUniqueID>
+            <ISSNLinking>1463-9076</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 2004 Jan;13(1):203-10</RefSource>
+                <PMID Version="1">14691235</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chem Soc Rev. 2013 Aug 21;42(16):6801-22</RefSource>
+                <PMID Version="1">23708257</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2010 Jun;78(8):1950-8</RefSource>
+                <PMID Version="1">20408171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2006 Feb 15;128(6):1890-901</RefSource>
+                <PMID Version="1">16464090</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2004 Jun 16;126(23):7238-43</RefSource>
+                <PMID Version="1">15186161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Wiley Interdiscip Rev Comput Mol Sci. 2014 May;4(3):225-248</RefSource>
+                <PMID Version="1">25309628</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Nov 16;101(46):16180-5</RefSource>
+                <PMID Version="1">15534217</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2013 Jan 8;9(1):687-97</RefSource>
+                <PMID Version="1">26589065</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2014 Nov 19;136(46):16201-9</RefSource>
+                <PMID Version="1">25331250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem B. 2004 Sep 30;108(39):null</RefSource>
+                <PMID Version="1">24307864</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 1997 Dec 12;91(6):741-52</RefSource>
+                <PMID Version="1">9413984</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chem Rev. 2014 Jul 9;114(13):6844-79</RefSource>
+                <PMID Version="1">24830552</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2012 Jan;8(1):e1002353</RefSource>
+                <PMID Version="1">22253588</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2005 May 24;102(21):7547-52</RefSource>
+                <PMID Version="1">15894609</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2002 Jan 31;415(6871):549-53</RefSource>
+                <PMID Version="1">11823864</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2015 Apr 14;11(4):1843-53</RefSource>
+                <PMID Version="1">26574390</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2005 Nov 15;123(19):194904</RefSource>
+                <PMID Version="1">16321110</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chem Soc Rev. 2014 Jul 7;43(13):4871-93</RefSource>
+                <PMID Version="1">24759934</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Mol Biosci. 2015 Aug 12;2:47</RefSource>
+                <PMID Version="1">26322316</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2012 Nov 13;8(11):4413-4424</RefSource>
+                <PMID Version="1">23204949</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Biochem Biophys. 2012 Aug 15;524(2):123-31</RefSource>
+                <PMID Version="1">22579883</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 1994 May;3(5):843-52</RefSource>
+                <PMID Version="1">8061613</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2008 Feb 1;375(5):1416-33</RefSource>
+                <PMID Version="1">18083189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2013 Aug 13;9(8):3769-3788</RefSource>
+                <PMID Version="1">23997693</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 1998 Jul 3;430(3):317-22</RefSource>
+                <PMID Version="1">9688563</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Jul 13;107(28):12535-40</RefSource>
+                <PMID Version="1">20616042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2009 Jul 30;30(10):1545-614</RefSource>
+                <PMID Version="1">19444816</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2013 Apr 17;587(8):1081-8</RefSource>
+                <PMID Version="1">23454209</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Mol Cell Biol. 2015 Jan;16(1):18-29</RefSource>
+                <PMID Version="1">25531225</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2016 Jul 5;37(18):1725-33</RefSource>
+                <PMID Version="1">27130454</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 May 4;107(18):8183-8</RefSource>
+                <PMID Version="1">20404210</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2004 Jan 28;126(3):698-9</RefSource>
+                <PMID Version="1">14733527</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Biophys. 2016 Apr 21;9:4</RefSource>
+                <PMID Version="1">27103992</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem B. 2012 Aug 2;116(30):8741-52</RefSource>
+                <PMID Version="1">22742737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochemistry. 2008 Feb 5;47(5):1299-308</RefSource>
+                <PMID Version="1">18177052</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2008 Sep 21;129(11):114103</RefSource>
+                <PMID Version="1">19044946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2013 Dec 3;21(12):2162-74</RefSource>
+                <PMID Version="1">24183573</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2010 Dec 14;133(22):224105</RefSource>
+                <PMID Version="1">21171681</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2003 Feb 21;326(3):933-54</RefSource>
+                <PMID Version="1">12581651</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2001 Jan 1;42(1):38-48</RefSource>
+                <PMID Version="1">11093259</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2015 Nov 10;11(11):5513-24</RefSource>
+                <PMID Version="1">26574339</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2362-7</RefSource>
+                <PMID Version="1">15677316</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Recognit. 2005 Sep-Oct;18(5):343-84</RefSource>
+                <PMID Version="1">16094605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Mol Sci. 2010;11(12):5292-309</RefSource>
+                <PMID Version="1">21614208</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2002 Oct 25;323(3):573-84</RefSource>
+                <PMID Version="1">12381310</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem A. 2010 Apr 8;114(13):4471-85</RefSource>
+                <PMID Version="1">20166738</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2009 May 1;75(2):442-52</RefSource>
+                <PMID Version="1">18837034</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2011 Jun;21(3):432-40</RefSource>
+                <PMID Version="1">21514144</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2009 Apr 10;324(5924):198-203</RefSource>
+                <PMID Version="1">19359576</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem B. 1998 Apr 30;102(18):3586-616</RefSource>
+                <PMID Version="1">24889800</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2017 Jun 15;38(16):1332-1341</RefSource>
+                <PMID Version="1">28397268</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2006 Mar 22;128(11):3728-36</RefSource>
+                <PMID Version="1">16536547</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2016 Jul 21;145(3):035102</RefSource>
+                <PMID Version="1">27448906</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2006 May;2(3):656-66</RefSource>
+                <PMID Version="1">26626672</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2015 Jun 30;36(17):1275-85</RefSource>
+                <PMID Version="1">25952623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2008 Feb;18(1):16-26</RefSource>
+                <PMID Version="1">18221865</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2009 Apr 15;30(5):673-99</RefSource>
+                <PMID Version="1">18506808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2008 Nov 28;322(5906):1365-8</RefSource>
+                <PMID Version="1">19039133</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2015 Jun;32:102-12</RefSource>
+                <PMID Version="1">25863585</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2009 Apr 15;131(14):5214-23</RefSource>
+                <PMID Version="1">19278259</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2013 Aug 13;110(33):13392-7</RefSource>
+                <PMID Version="1">23901099</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Graph Model. 2004 May;22(5):377-95</RefSource>
+                <PMID Version="1">15099834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2007 Nov 1;69(2):394-408</RefSource>
+                <PMID Version="1">17600832</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 2010 Aug;19(8):1555-64</RefSource>
+                <PMID Version="1">20556825</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2009 Jun 21;130(23):235106</RefSource>
+                <PMID Version="1">19548767</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2011 Jun;21(3):426-31</RefSource>
+                <PMID Version="1">21530234</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2010 Nov 1;78(14):2950-60</RefSource>
+                <PMID Version="1">20740494</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2013 Feb 27;135(8):3186-92</RefSource>
+                <PMID Version="1">23373819</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2010 Sep 14;6(9):2790-803</RefSource>
+                <PMID Version="1">26616080</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2012 Feb;22(1):52-61</RefSource>
+                <PMID Version="1">22257762</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chem Rev. 2016 Jul 27;116(14 ):7898-936</RefSource>
+                <PMID Version="1">27333362</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 1998 Jul;75(1):422-7</RefSource>
+                <PMID Version="1">9649402</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2004 Aug;25(11):1400-15</RefSource>
+                <PMID Version="1">15185334</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2001 Aug 15;44(3):344-60</RefSource>
+                <PMID Version="1">11455608</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2012;8(10):e1002709</RefSource>
+                <PMID Version="1">23055912</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2014 Mar 11;10(3):918-23</RefSource>
+                <PMID Version="1">26580171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Mol Cell Biol. 2005 Mar;6(3):197-208</RefSource>
+                <PMID Version="1">15738986</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biosyst. 2009 Dec;5(12):1606-16</RefSource>
+                <PMID Version="1">20023721</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2008 May;4(5):819-34</RefSource>
+                <PMID Version="1">26621095</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem B. 2007 Jan 11;111(1):260-85</RefSource>
+                <PMID Version="1">17201450</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Chem Biol. 2009 Nov;5(11):789-96</RefSource>
+                <PMID Version="1">19841628</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1996 Mar 1;256(3):623-44</RefSource>
+                <PMID Version="1">8604144</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Rev E Stat Nonlin Soft Matter Phys. 2008 Mar;77(3 Pt 1):031908</RefSource>
+                <PMID Version="1">18517423</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2017 Jan;14 (1):71-73</RefSource>
+                <PMID Version="1">27819658</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>12</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186229</ArticleId>
+            <ArticleId IdType="doi">10.1039/c7cp06736d</ArticleId>
+            <ArticleId IdType="pmc">PMC5729119</ArticleId>
+            <ArticleId IdType="mid">NIHMS923774</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

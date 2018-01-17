@@ -1,0 +1,195 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29163110</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1662-5161</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>11</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in human neuroscience</Title>
+                <ISOAbbreviation>Front Hum Neurosci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Modeling Uncertainties in EEG Microstates: Analysis of Real and Imagined Motor Movements Using Probabilistic Clustering-Driven Training of Probabilistic Neural Networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>534</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fnhum.2017.00534</ELocationID>
+            <Abstract>
+                <AbstractText>Part of the process of EEG microstate estimation involves clustering EEG channel data at the global field power (GFP) maxima, very commonly using a modified K-means approach. Clustering has also been done deterministically, despite there being uncertainties in multiple stages of the microstate analysis, including the GFP peak definition, the clustering itself and in the post-clustering assignment of microstates back onto the EEG timecourse of interest. We perform a fully probabilistic microstate clustering and labeling, to account for these sources of uncertainty using the closest probabilistic analog to KM called Fuzzy C-means (FCM). We train softmax multi-layer perceptrons (MLPs) using the KM and FCM-inferred cluster assignments as target labels, to then allow for probabilistic labeling of the full EEG data instead of the usual correlation-based deterministic microstate label assignment typically used. We assess the merits of the probabilistic analysis vs. the deterministic approaches in EEG data recorded while participants perform real or imagined motor movements from a publicly available data set of 109 subjects. Though FCM group template maps that are almost topographically identical to KM were found, there is considerable uncertainty in the subsequent assignment of microstate labels. In general, imagined motor movements are less predictable on a time point-by-time point basis, possibly reflecting the more exploratory nature of the brain state during imagined, compared to during real motor movements. We find that some relationships may be more evident using FCM than using KM and propose that future microstate analysis should preferably be performed probabilistically rather than deterministically, especially in situations such as with brain computer interfaces, where both training and applying models of microstates need to account for uncertainty. Probabilistic neural network-driven microstate assignment has a number of advantages that we have discussed, which are likely to be further developed and exploited in future studies. In conclusion, probabilistic clustering and a probabilistic neural network-driven approach to microstate analysis is likely to better model and reveal details and the variability hidden in current deterministic and binarized microstate assignment and analyses.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dinov</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences, The Centre for Restorative Neuroscience, Imperial College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leech</LastName>
+                    <ForeName>Robert</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences, The Centre for Restorative Neuroscience, Imperial College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Hum Neurosci</MedlineTA>
+            <NlmUniqueID>101477954</NlmUniqueID>
+            <ISSNLinking>1662-5161</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Eng Med Biol Mag. 2010 May-Jun;29(3):44-56</RefSource>
+                <PMID Version="1">20659857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 May 1;60(4):2062-72</RefSource>
+                <PMID Version="1">22381593</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Electroencephalogr Clin Neurophysiol. 1987 Sep;67(3):271-88</RefSource>
+                <PMID Version="1">2441961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2000 Jun 13;101(23):E215-20</RefSource>
+                <PMID Version="1">10851218</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Oct 1;52(4):1149-61</RefSource>
+                <PMID Version="1">20139014</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Neurophysiol. 2010 Dec;27(6):458-64</RefSource>
+                <PMID Version="1">21076326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Oct 19;107(42):18179-84</RefSource>
+                <PMID Version="1">20921381</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Jan 1;49(1):1073-9</RefSource>
+                <PMID Version="1">19646538</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2015 Mar 18;35(11):4626-34</RefSource>
+                <PMID Version="1">25788679</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Hum Neurosci. 2016 Aug 03;10:369</RefSource>
+                <PMID Version="1">27536225</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1995 Jul;42(7):658-65</RefSource>
+                <PMID Version="1">7622149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2004 Jun;51(6):1034-43</RefSource>
+                <PMID Version="1">15188875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Comput Neurosci. 2016 May 12;10:46</RefSource>
+                <PMID Version="1">27242502</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2013 Feb 26;110(9):3585-90</RefSource>
+                <PMID Version="1">23401536</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2016 Jan 15;125:643-656</RefSource>
+                <PMID Version="1">26285079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Dec 05;9(12):e114163</RefSource>
+                <PMID Version="1">25479614</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Oct 1;52(4):1162-70</RefSource>
+                <PMID Version="1">20188188</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2009 Dec 9;29(49):15595-600</RefSource>
+                <PMID Version="1">20007483</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurosci Biobehav Rev. 2015 Feb;49:105-13</RefSource>
+                <PMID Version="1">25526823</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Psychophysiol. 2015 Sep;97(3):210-20</RefSource>
+                <PMID Version="1">25979156</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">EEG</Keyword>
+            <Keyword MajorTopicYN="N">Fuzzy C-Means</Keyword>
+            <Keyword MajorTopicYN="N">K-Means</Keyword>
+            <Keyword MajorTopicYN="N">motor imagery</Keyword>
+            <Keyword MajorTopicYN="N">multi-layer perceptrons</Keyword>
+            <Keyword MajorTopicYN="N">probabilistic microstates</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29163110</ArticleId>
+            <ArticleId IdType="doi">10.3389/fnhum.2017.00534</ArticleId>
+            <ArticleId IdType="pmc">PMC5671986</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

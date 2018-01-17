@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113369</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1525-8955</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on ultrasonics, ferroelectrics, and frequency control</Title>
+                <ISOAbbreviation>IEEE Trans Ultrason Ferroelectr Freq Control</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A GPU-Parallelized Eigen-Based Clutter Filter Framework for Ultrasound Color Flow Imaging.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TUFFC.2016.2606598</ELocationID>
+            <Abstract>
+                <AbstractText>Eigen-filters with attenuation response adapted to clutter statistics in color flow imaging (CFI) have shown improved flow detection sensitivity in the presence of tissue motion. Nevertheless, its practical adoption in clinical use is not straightforward due to the high computational cost for solving eigen-decompositions. Here, we provide a pedagogical description of how a real-time computing framework for eigen-based clutter filtering can be developed through a single-instruction, multiple data (SIMD) computing approach that can be implemented on a graphical processing unit (GPU). Emphasis is placed on the single-ensemble-based eigen-filtering approach (Hankel-SVD) since it is algorithmically compatible with GPU-based SIMD computing. The key algebraic principles and the corresponding SIMD algorithm are explained, and annotations on how such algorithm can be rationally implemented on the GPU are presented. Real-time efficacy of our framework was experimentally investigated on a single GPU device (GTX Titan X), and the computing throughput for varying scan depths and slow-time ensemble lengths were studied. Using our eigenprocessing framework, real-time video-range throughput (24 fps) can be attained for CFI frames with full-view in azimuth direction (128 scanlines), up to a scan depth of 5 cm (λ pixel axial spacing) for slow-time ensemble length of 16 samples. The corresponding CFI image frames, with respect to the ones derived from non-adaptive polynomial regression clutter filtering, yielded enhanced flow detection sensitivity in vivo, as demonstrated in a carotid imaging case example. These findings indicate that GPU-enabled eigen-based clutter filtering can improve CFI flow detection performance in real time.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chee</LastName>
+                    <ForeName>Adrian</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yiu</LastName>
+                    <ForeName>Billy</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Alfred</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Ultrason Ferroelectr Freq Control</MedlineTA>
+            <NlmUniqueID>9882735</NlmUniqueID>
+            <ISSNLinking>0885-3010</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113369</ArticleId>
+            <ArticleId IdType="doi">10.1109/TUFFC.2016.2606598</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

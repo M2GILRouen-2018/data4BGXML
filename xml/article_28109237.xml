@@ -1,0 +1,98 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28109237</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1089-7690</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>146</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of chemical physics</Title>
+                <ISOAbbreviation>J Chem Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Atomic orbital-based SOS-MP2 with tensor hypercontraction. II. Local tensor hypercontraction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>034104</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1063/1.4973840</ELocationID>
+            <Abstract>
+                <AbstractText>In the first paper of the series [Paper I, C. Song and T. J. Martinez, J. Chem. Phys. 144, 174111 (2016)], we showed how tensor-hypercontracted (THC) SOS-MP2 could be accelerated by exploiting sparsity in the atomic orbitals and using graphical processing units (GPUs). This reduced the formal scaling of the SOS-MP2 energy calculation to cubic with respect to system size. The computational bottleneck then becomes the THC metric matrix inversion, which scales cubically with a large prefactor. In this work, the local THC approximation is proposed to reduce the computational cost of inverting the THC metric matrix to linear scaling with respect to molecular size. By doing so, we have removed the primary bottleneck to THC-SOS-MP2 calculations on large molecules with O(1000) atoms. The errors introduced by the local THC approximation are less than 0.6 kcal/mol for molecules with up to 200 atoms and 3300 basis functions. Together with the graphical processing unit techniques and locality-exploiting approaches introduced in previous work, the scaled opposite spin MP2 (SOS-MP2) calculations exhibit O(N2.5) scaling in practice up to 10 000 basis functions. The new algorithms make it feasible to carry out SOS-MP2 calculations on small proteins like ubiquitin (1231 atoms/10 294 atomic basis functions) on a single node in less than a day.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>Chenchen</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry and the PULSE Institute, Stanford University, Stanford, California 94305, USA and SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martínez</LastName>
+                    <ForeName>Todd J</ForeName>
+                    <Initials>TJ</Initials>
+                    <Identifier Source="ORCID">0000000247988947</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry and the PULSE Institute, Stanford University, Stanford, California 94305, USA and SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Phys</MedlineTA>
+            <NlmUniqueID>0375360</NlmUniqueID>
+            <ISSNLinking>0021-9606</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28109237</ArticleId>
+            <ArticleId IdType="doi">10.1063/1.4973840</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

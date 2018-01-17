@@ -1,0 +1,148 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28921931</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Technical Note: A simple algorithm to convert EPID gray values into absorbed dose to water without prior knowledge.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>6647-6653</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12587</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Full integration of EPID-based dosimetry in a global quality control workflow is still complicated. All the actual solutions are based on a relation between image gray-level signal and total linac-delivered dose. In this study, we propose a simple algorithm relying pixel gray-level of EPID image with average linac delivered dose per acquisition frame.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Calibration models are constructed for Varian and Elekta linacs including scattering conditions and EPID-arm backscatter-specific corrections. Only simple homogeneous fields are required to establish the EPID dose conversion model for each x-ray beam. Then, the model was evaluated by comparing calculated and converted dose distributions for homogeneous and modulated beams using gamma maps.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">To fit average dose per frame (Dfnorm ) vs pixel gray value (Ngnorm ) of each EPID image, a logarithmic curve Dfnorm=A+B∗lnNgnorm-C, has been chosen where A, B and C are constants depending on beam energy. Gamma comparison (2%, 2 mm, threshold 15%) between converted images and calculated dose distributions for linac control and pretreatment patient fields led to a gamma pass rate higher than 97% for all the analyzed fields.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Without a prior irradiation settings knowledge except the incident energy beam, we use EPID as a reliable dose to water detector for both homogeneous and modulated beams.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Boutry</LastName>
+                    <ForeName>Christine</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiotherapy, Oncorad Garonne, 330 Avenue Marcel UNAL, 82000, Montauban, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sors</LastName>
+                    <ForeName>Aurélie</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiotherapy, Oncorad Garonne, 330 Avenue Marcel UNAL, 82000, Montauban, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fontaine</LastName>
+                    <ForeName>Jimmy</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Institut de Cancérologie de l'Ouest Centre René Gauducheau, 44805, Saint-Herblain, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Delaby</LastName>
+                    <ForeName>Nolwenn</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Centre Eugène Marquis, 35000, Rennes, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Delpon</LastName>
+                    <ForeName>Gregory</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Physics, Institut de Cancérologie de l'Ouest Centre René Gauducheau, 44805, Saint-Herblain, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>INSERM UMR 1232, IRS UN, 8 quai Moncousu, 44007, Nantes, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">EPID</Keyword>
+            <Keyword MajorTopicYN="N">dose verification</Keyword>
+            <Keyword MajorTopicYN="N">portal dosimetry</Keyword>
+            <Keyword MajorTopicYN="N">radiotherapy QA</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28921931</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12587</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

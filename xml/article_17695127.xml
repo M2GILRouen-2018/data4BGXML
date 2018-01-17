@@ -1,0 +1,272 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28101760</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>30</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1861-6429</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of computer assisted radiology and surgery</Title>
+                <ISOAbbreviation>Int J Comput Assist Radiol Surg</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A CAD of fully automated colonic polyp detection for contrasted and non-contrasted CT scans.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>627-644</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s11548-017-1521-9</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Computer-aided detection (CAD) systems are developed to help radiologists detect colonic polyps over CT scans. It is possible to reduce the detection time and increase the detection accuracy rates by using CAD systems. In this paper, we aimed to develop a fully integrated CAD system for automated detection of polyps that yields a high polyp detection rate with a reasonable number of false positives.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed CAD system is a multistage implementation whose main components are: automatic colon segmentation, candidate detection, feature extraction and classification. The first element of the algorithm includes a discrete segmentation for both air and fluid regions. Colon-air regions were determined based on adaptive thresholding, and the volume/length measure was used to detect air regions. To extract the colon-fluid regions, a rule-based connectivity test was used to detect the regions belong to the colon. Potential polyp candidates were detected based on the 3D Laplacian of Gaussian filter. The geometrical features were used to reduce false-positive detections. A 2D projection image was generated to extract discriminative features as the inputs of an artificial neural network classifier.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Our CAD system performs at 100% sensitivity for polyps larger than 9 mm, 95.83% sensitivity for polyps 6-10 mm and 85.71% sensitivity for polyps smaller than 6 mm with 5.3 false positives per dataset. Also, clinically relevant polyps ([Formula: see text]6 mm) were identified with 96.67% sensitivity at 1.12 FP/dataset.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">To the best of our knowledge, the novel polyp candidate detection system which determines polyp candidates with LoG filters is one of the main contributions. We also propose a new 2D projection image calculation scheme to determine the distinctive features. We believe that our CAD system is highly effective for assisting radiologist interpreting CT.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Tulum</LastName>
+                    <ForeName>Gökalp</ForeName>
+                    <Initials>G</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2865-5781</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Electrical and Electronics Engineering, Istanbul Yeni Yuzyil University Istanbul, Istanbul, Turkey. gokalp.tulum@yeniyuzyil.edu.tr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bolat</LastName>
+                    <ForeName>Bülent</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electronics and Communication Engineering, Yildiz Technical University Istanbul, Istanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Osman</LastName>
+                    <ForeName>Onur</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electrical and Electronics Engineering, Istanbul Arel University, Istanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Int J Comput Assist Radiol Surg</MedlineTA>
+            <NlmUniqueID>101499225</NlmUniqueID>
+            <ISSNLinking>1861-6410</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE J Biomed Health Inform. 2014 Mar;18(2):585-93</RefSource>
+                <PMID Version="1">24608058</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2001 Dec;20(12 ):1251-60</RefSource>
+                <PMID Version="1">11811825</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Semin Gastrointest Dis. 2000 Oct;11(4):176-84</RefSource>
+                <PMID Version="1">11057945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2011 Apr;20(4):1000-10</RefSource>
+                <PMID Version="1">20840898</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Radiol. 2002 Jan;12 (1):77-81</RefSource>
+                <PMID Version="1">11868078</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2001 Apr;219(1):51-9</RefSource>
+                <PMID Version="1">11274534</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2008 Mar;55(3):888-901</RefSource>
+                <PMID Version="1">18334380</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2002 Dec;21(12 ):1461-7</RefSource>
+                <PMID Version="1">12588030</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2000 Jul;216(1):284-90</RefSource>
+                <PMID Version="1">10887263</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2002 Apr;9(4):386-97</RefSource>
+                <PMID Version="1">11942653</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2008 Aug;35(8):3527-38</RefSource>
+                <PMID Version="1">18777913</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2010 Nov;29(11):1907-17</RefSource>
+                <PMID Version="1">20570766</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2002 Feb;222(2):327-36</RefSource>
+                <PMID Version="1">11818596</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2003 Jul;30(7):1592-601</RefSource>
+                <PMID Version="1">12906177</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2003 Feb;10 (2):154-60</RefSource>
+                <PMID Version="1">12583566</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2009 Jan 6;150(1):50-2</RefSource>
+                <PMID Version="1">19075200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2004 Nov;23 (11):1344-52</RefSource>
+                <PMID Version="1">15554123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2004 Jun;23 (6):661-75</RefSource>
+                <PMID Version="1">15191141</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Neural Netw. 1994;5(6):989-93</RefSource>
+                <PMID Version="1">18267874</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Conf Proc IEEE Eng Med Biol Soc. 2007;2007:4433-6</RefSource>
+                <PMID Version="1">18002988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2004 Apr;31(4):860-72</RefSource>
+                <PMID Version="1">15125004</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiographics. 2002 Jul-Aug;22(4):963-79</RefSource>
+                <PMID Version="1">12110726</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>CA Cancer J Clin. 2014 Jan-Feb;64(1):9-29</RefSource>
+                <PMID Version="1">24399786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2007 Mar;14 (3):287-300</RefSource>
+                <PMID Version="1">17307661</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pattern Recognit. 2009;42(6):1029-1040</RefSource>
+                <PMID Version="1">19578483</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2007 Aug;26(8):1069-78</RefSource>
+                <PMID Version="1">17695127</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003106" MajorTopicYN="N">Colon</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003111" MajorTopicYN="N">Colonic Polyps</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023881" MajorTopicYN="N">Colonography, Computed Tomographic</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003936" MajorTopicYN="N">Diagnosis, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011857" MajorTopicYN="N">Radiographic Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Colon segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Computed tomography images</Keyword>
+            <Keyword MajorTopicYN="N">Computer-aided detection</Keyword>
+            <Keyword MajorTopicYN="N">Polyp detection</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>5</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28101760</ArticleId>
+            <ArticleId IdType="doi">10.1007/s11548-017-1521-9</ArticleId>
+            <ArticleId IdType="pii">10.1007/s11548-017-1521-9</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

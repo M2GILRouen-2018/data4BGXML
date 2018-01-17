@@ -1,0 +1,107 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29195422</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-8524</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>142</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of the Acoustical Society of America</Title>
+                <ISOAbbreviation>J. Acoust. Soc. Am.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A transfer learning approach to goodness of pronunciation based automatic mispronunciation detection.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3165</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1121/1.5011159</ELocationID>
+            <Abstract>
+                <AbstractText>Goodness of pronunciation (GOP) is the most widely used method for automatic mispronunciation detection. In this paper, a transfer learning approach to GOP based mispronunciation detection when applying maximum F1-score criterion (MFC) training to deep neural network (DNN)-hidden Markov model based acoustic models is proposed. Rather than train the whole network using MFC, a DNN is used, whose hidden layers are borrowed from native speech recognition with only the softmax layer trained according to the MFC objective function. As a result, significant mispronunciation detection improvement is obtained. In light of this, the two-stage transfer learning based GOP is investigated in depth. The first stage exploits the hidden layer(s) to extract phonetic-discriminating features. The second stage uses a trainable softmax layer to learn the human standard for judgment. The validation is carried out by experimenting with different mispronunciation detection architectures using acoustic models trained by different criteria. It is found that it is preferable to use frame-level cross-entropy to train the hidden layer parameters. Classifier based mispronunciation detection is further experimented with using features computed by transfer learning based GOP and it is shown that it also helps to achieve better results.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Hao</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Xinjiang University, Shangli Road, Urumqi 830046, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Haihua</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Temasek Laboratories, Nanyang Technological University, 50 Nanyang Drive, Singapore 637553, Singapore.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Xinjiang University, Shangli Road, Urumqi 830046, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Gang</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Xinjiang University, Shangli Road, Urumqi 830046, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Acoust Soc Am</MedlineTA>
+            <NlmUniqueID>7503051</NlmUniqueID>
+            <ISSNLinking>0001-4966</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29195422</ArticleId>
+            <ArticleId IdType="doi">10.1121/1.5011159</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

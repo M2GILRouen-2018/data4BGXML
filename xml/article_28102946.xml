@@ -1,0 +1,189 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28102946</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A portal dosimetry dose prediction method based on collapsed cone algorithm using the clinical beam model.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>333-341</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12018</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Amorphous silicon electronical portal imaging devices (EPIDs) are widely used for dosimetric measurements in Radiation Therapy. The purpose of this work was to determine if a portal dose prediction method can be utilized for dose map calculations based on the linear accelerator model within a commercial treatment planning system (Pinnacle3 v8.0 m).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The method was developed for a 6 MV photon beam on the Varian Clinac 21-EX, at a nominal dose rate of 400 MU/min. The Varian aS1000 EPID was unmounted from the linear accelerator and scanned to acquire CT images of the EPID. The CT images were imported into Pinnacle3 and were used as a quality assurance phantom to calculate dose on the EPID setup at a source to detector distance of 105 cm. The best match of the dose distributions was obtained considering the image plane located at 106 cm from the source to detector plane. The EPID was calibrated according to the manufacturer procedure and corrections were made for output factors. Arm-backscattering effect, based on profile correction curves, has been introduced. Five low-modulated and three high-modulated clinical planned treatments were predicted and measured with the method presented here and with MatriXX (IBA Dosimetry, Schwarzenbruck, Germany).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A portal dose prediction method based on Pinnacle3 was developed without modifying the commissioned parameters of the model in use in the clinic. CT images of the EPID were acquired and used as a quality assurance phantom. The CT images indicated a mean density of 1.16 g/cm3 for the sensitive area of the EPID. Output factor measured with the EPID were lower for small fields and larger for larger fields (beyond 10 × 10 cm2 ). Arm-backscatter correction showed a better agreement at the target side of the EPID. Analysis of Gamma index comparison (3%, 3 mm) indicated a minimum of 97.4% pass rate for low modulated and 98.3% for high modulated treatments. Pass rates were similar for MatriXX measurements.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The method developed here can be easily implemented into clinic, as neither additional modeling of the clinical energy nor an independent image prediction algorithm are necessary. The main advantage of this method is that portal dose prediction is calculated with the same algorithm and beam model used for patient dose distribution calculation. This method was independently validated with an ionization chamber matrix.</AbstractText>
+                <CopyrightInformation>© 2016 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Martínez Ortega</LastName>
+                    <ForeName>J</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Department, Hospital Universitario Puerta de Hierro. C/Manuel de Falla 1, 28222, Majadahonda, (Madrid), Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gómez González</LastName>
+                    <ForeName>N</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Department, Hospital Universitario Puerta de Hierro. C/Manuel de Falla 1, 28222, Majadahonda, (Madrid), Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Castro Tejero</LastName>
+                    <ForeName>P</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Radiation Physics, Radiation Oncology Department, Hospital Universitario de La Princesa. C/Diego de León 62, 28006, Madrid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pinto Monedero</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Department, Hospital Universitario Puerta de Hierro. C/Manuel de Falla 1, 28222, Majadahonda, (Madrid), Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tolani</LastName>
+                    <ForeName>N B</ForeName>
+                    <Initials>NB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Radiotherapy Department, ME DeBakey VA Medical Center. 2002 Holcombe Boulevard, 77030, Houston, Texas, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Núñez Martín</LastName>
+                    <ForeName>L</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Department, Hospital Universitario Puerta de Hierro. C/Manuel de Falla 1, 28222, Majadahonda, (Madrid), Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sánchez Montero</LastName>
+                    <ForeName>R</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Theory and Communications Department, University of Alcala. Campus Universitario, Ctra Madrid-Barcelona, km 33.600., 28805, Alcala de Henares (Madrid), Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002138" MajorTopicYN="N">Calibration</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055615" MajorTopicYN="Y">Electrical Equipment and Supplies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010315" MajorTopicYN="Y">Particle Accelerators</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011874" MajorTopicYN="N">Radiometry</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011880" MajorTopicYN="N">Radiotherapy Planning, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">EPID dosimetry</Keyword>
+            <Keyword MajorTopicYN="N">IMRT</Keyword>
+            <Keyword MajorTopicYN="N">amorphous silicon</Keyword>
+            <Keyword MajorTopicYN="N">portal image prediction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28102946</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12018</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

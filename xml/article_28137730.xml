@@ -1,0 +1,165 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28137730</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1945-2403</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>41</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of analytical toxicology</Title>
+                <ISOAbbreviation>J Anal Toxicol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Procedure for the Selection and Validation of a Calibration Model I-Description and Application.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>261-268</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/jat/bkx001</ELocationID>
+            <Abstract>
+                <AbstractText>Calibration model selection is required for all quantitative methods in toxicology and more broadly in bioanalysis. This typically involves selecting the equation order (quadratic or linear) and weighting factor correctly modelizing the data. A mis-selection of the calibration model will generate lower quality control (QC) accuracy, with an error up to 154%. Unfortunately, simple tools to perform this selection and tests to validate the resulting model are lacking. We present a stepwise, analyst-independent scheme for selection and validation of calibration models. The success rate of this scheme is on average 40% higher than a traditional &quot;fit and check the QCs accuracy&quot; method of selecting the calibration model. Moreover, the process was completely automated through a script (available in Supplemental Data 3) running in RStudio (free, open-source software). The need for weighting was assessed through an F-test using the variances of the upper limit of quantification and lower limit of quantification replicate measurements. When weighting was required, the choice between 1/x and 1/x2 was determined by calculating which option generated the smallest spread of weighted normalized variances. Finally, model order was selected through a partial F-test. The chosen calibration model was validated through Cramer-von Mises or Kolmogorov-Smirnov normality testing of the standardized residuals. Performance of the different tests was assessed using 50 simulated data sets per possible calibration model (e.g., linear-no weight, quadratic-no weight, linear-1/x, etc.). This first of two papers describes the tests, procedures and outcomes of the developed procedure using real LC-MS-MS results for the quantification of cocaine and naltrexone.</AbstractText>
+                <CopyrightInformation>© The Author 2017. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Desharnais</LastName>
+                    <ForeName>Brigitte</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Toxicology, Laboratoire de sciences judiciaires et de médecine légale, 1701 rue Parthenais, Montréal, Québec, Canada H2K 3S7.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry &amp; Biochemistry, Concordia University, 7141 Sherbrooke Street West, Montréal, Québec, Canada H4B 1R6.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Camirand-Lemyre</LastName>
+                    <ForeName>Félix</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mathematics, Université de Sherbrooke, 2500 boulevard de l'Université, Sherbrooke, Québec, CanadaJ1K 2R1.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mireault</LastName>
+                    <ForeName>Pascal</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Toxicology, Laboratoire de sciences judiciaires et de médecine légale, 1701 rue Parthenais, Montréal, Québec, CanadaH2K 3S7.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Skinner</LastName>
+                    <ForeName>Cameron D</ForeName>
+                    <Initials>CD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry &amp; Biochemistry,Concordia University, 7141 Sherbrooke Street West, Montréal, Québec, CanadaH4B 1R6.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D023361">Validation Studies</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Anal Toxicol</MedlineTA>
+            <NlmUniqueID>7705085</NlmUniqueID>
+            <ISSNLinking>0146-4760</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>5S6W795CQM</RegistryNumber>
+                <NameOfSubstance UI="D009271">Naltrexone</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>I5Y540LHVR</RegistryNumber>
+                <NameOfSubstance UI="D003042">Cocaine</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D002138" MajorTopicYN="N">Calibration</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002853" MajorTopicYN="N">Chromatography, Liquid</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003042" MajorTopicYN="N">Cocaine</DescriptorName>
+                <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="Y">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009271" MajorTopicYN="N">Naltrexone</DescriptorName>
+                <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011786" MajorTopicYN="N">Quality Control</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012015" MajorTopicYN="N">Reference Standards</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D053719" MajorTopicYN="N">Tandem Mass Spectrometry</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28137730</ArticleId>
+            <ArticleId IdType="pii">bkx001</ArticleId>
+            <ArticleId IdType="doi">10.1093/jat/bkx001</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

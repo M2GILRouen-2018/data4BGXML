@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28114065</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hyperspectral Image Recovery via Hybrid Regularization.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2614131</ELocationID>
+            <Abstract>
+                <AbstractText>Natural images tend to mostly consist of smooth regions with individual pixels having highly correlated spectra. This information can be exploited to recover hyperspectral images of natural scenes from their incomplete and noisy measurements. To perform the recovery while taking full advantage of the prior knowledge, we formulate a composite cost function containing a square-error data-fitting term and two distinct regularization terms pertaining to spatial and spectral domains. The regularization for the spatial domain is the sum of total-variation of the image frames corresponding to all spectral bands. The regularization for the spectral domain is the ��������-norm of the coefficient matrix obtained by applying a suitable sparsifying transform to the spectra of the pixels. We use an accelerated proximal-subgradient method to minimize the formulated cost function. We analyse the performance of the proposed algorithm and prove its convergence. Numerical simulations using real hyperspectral images exhibit that the proposed algorithm offers an excellent recovery performance with a number of measurements that is only a small fraction of the hyperspectral image data size. Simulation results also show that the proposed algorithm significantly outperforms an accelerated proximal-gradient algorithm that solves the classical basis-pursuit denoising problem to recover the hyperspectral image.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Arablouei</LastName>
+                    <ForeName>Reza</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de Hoog</LastName>
+                    <ForeName>Frank</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114065</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2614131</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

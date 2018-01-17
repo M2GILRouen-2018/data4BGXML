@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113711</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Layered Coding for Mobile Cloud Gaming using Scalable Blinn-Phong Lighting.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2565259</ELocationID>
+            <Abstract>
+                <AbstractText>In a mobile cloud gaming, high-quality, high-framerate game images of immense data-size need to be delivered to the clients over wireless networks under stringent delay requirement. For good gaming experience, reducing the transmission bit-rate of the game images is necessary. Most existing cloud gaming platforms simply employ standard, off-the-shelf video codecs for game image compression. In this work, we propose the layered coding scheme to reduce transmission bandwidth and latency. We leverage the rendering computation of modern mobile devices to render a low-quality local game image, or the base layer. Instead of sending a high quality game image, cloud servers can send enhancement layer information, which clients can utilize to improve the quality of the base layer. Central to the layered coding scheme is the design of a complexity-scalable base layer (BL) rendering pipeline that can be executed on a range of power-constrained mobile devices. In this work, we focus on the lighting stage in modern graphics rendering and propose a method to scale the popular Blinn-Phong lighting for use in BL rendering. We derive an information-theoretic model on the Blinn-Phong lighting to estimate the rendered image entropy. The analytic model informs the optimal BL rendering design that can lead to maximum bandwidth saving subject to the constraint on the computation capability of the client. We show that the information rate of the enhancement layer could be much less than that of the high quality game image; while the base layer can be generated with only a very small amount of computation. Experiment results suggest that our analytic model is accurate in estimating. For layered coding scheme, up to 84 percent reduction in bandwidth usage can be achieved by sending the enhancement layer information instead of the original high quality game images compressed by H.264/AVC.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chuah</LastName>
+                    <ForeName>Seong Ping</ForeName>
+                    <Initials>SP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheung</LastName>
+                    <ForeName>Ngai-Man</ForeName>
+                    <Initials>NM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yuen</LastName>
+                    <ForeName>Chau</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113711</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2565259</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

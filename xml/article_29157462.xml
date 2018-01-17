@@ -1,0 +1,125 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157462</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>153</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Recognition of pigment network pattern in dermoscopy images based on fuzzy classification of pixels.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>61-69</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(17)30800-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.10.005</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">One of the most relevant dermoscopic patterns is the pigment network. An innovative method of pattern recognition is presented for its detection in dermoscopy images.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">It consists of two steps. In the first one, by means of a supervised machine learning process and after performing the extraction of different colour and texture features, a fuzzy classification of pixels into the three categories present in the pattern's definition (&quot;net&quot;, &quot;hole&quot; and &quot;other&quot;) is carried out. This enables the three corresponding fuzzy sets to be created and, as a result, the three probability images that map them out are generated. In the second step, the pigment network pattern is characterised from a parameterisation process -derived from the system specification- and the subsequent extraction of different features calculated from the combinations of image masks extracted from the probability images, corresponding to the alpha-cuts obtained from the fuzzy sets.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The method was tested on a database of 875 images -by far the largest used in the state of the art to detect pigment network- extracted from a public Atlas of Dermoscopy, obtaining AUC results of 0.912 and 88%% accuracy, with 90.71%% sensitivity and 83.44%% specificity.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The main contribution of this method is the very design of the algorithm, highly innovative, which could also be used to deal with other pattern recognition problems of a similar nature. Other contributions are: 1. The good performance in discriminating between the pattern and the disturbing artefacts -which means that no prior preprocessing is required in this method- and between the pattern and other dermoscopic patterns; 2. It puts forward a new methodological approach for work of this kind, introducing the system specification as a required step prior to algorithm design and development, being this specification the basis for a required parameterisation -in the form of configurable parameters (with their value ranges) and set threshold values- of the algorithm and the subsequent conducting of the experiments.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 The Authors. Published by Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Garcia-Arroyo</LastName>
+                    <ForeName>Jose Luis</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deustotech-LIFE Unit (eVIDA Research Group), University of Deusto Avda. Universidades, 24, 48007 Bilbao, Spain. Electronic address: jlgarcia@deusto.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Garcia-Zapirain</LastName>
+                    <ForeName>Begonya</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deustotech-LIFE Unit (eVIDA Research Group), University of Deusto Avda. Universidades, 24, 48007 Bilbao, Spain. Electronic address: mbgarciazapi@deusto.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Alpha-cuts</Keyword>
+            <Keyword MajorTopicYN="N">Dermoscopic structure</Keyword>
+            <Keyword MajorTopicYN="N">Fuzzy classification</Keyword>
+            <Keyword MajorTopicYN="N">Image processing</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Pattern recognition</Keyword>
+            <Keyword MajorTopicYN="N">Reticular pattern</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157462</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(17)30800-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.10.005</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

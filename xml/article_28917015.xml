@@ -1,0 +1,109 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28917015</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1554-3528</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>49</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Behavior research methods</Title>
+                <ISOAbbreviation>Behav Res Methods</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Metronome LKM: An open source virtual keyboard driver to measure experiment software latencies.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1686-1695</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3758/s13428-017-0958-7</ELocationID>
+            <Abstract>
+                <AbstractText>Experiment software is often used to measure reaction times gathered with keyboards or other input devices. In previous studies, the accuracy and precision of time stamps has been assessed through several means: (a) generating accurate square wave signals from an external device connected to the parallel port of the computer running the experiment software, (b) triggering the typematic repeat feature of some keyboards to get an evenly separated series of keypress events, or (c) using a solenoid handled by a microcontroller to press the input device (keyboard, mouse button, touch screen) that will be used in the experimental setup. Despite the advantages of these approaches in some contexts, none of them can isolate the measurement error caused by the experiment software itself. Metronome LKM provides a virtual keyboard to assess an experiment's software. Using this open source driver, researchers can generate keypress events using high-resolution timers and compare the time stamps collected by the experiment software with those gathered by Metronome LKM (with nanosecond resolution). Our software is highly configurable (in terms of keys pressed, intervals, SysRq activation) and runs on 2.6-4.8 Linux kernels.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Garaizar</LastName>
+                    <ForeName>Pablo</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Engineering, University of Deusto, Avda. Universidades 24, 48007, Bilbao, Spain. garaizar@deusto.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vadillo</LastName>
+                    <ForeName>Miguel A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Universidad Autónoma de Madrid, Madrid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>IT1078-16</GrantID>
+                    <Agency>Departamento de Educación, Universidades e Investigación of the Basque Government</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2016-T1/SOC-1395</GrantID>
+                    <Agency>Programa de Atracción de Talento Investigador de la Comunidad de Madrid</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Behav Res Methods</MedlineTA>
+            <NlmUniqueID>101244316</NlmUniqueID>
+            <ISSNLinking>1554-351X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Experimental software</Keyword>
+            <Keyword MajorTopicYN="N">Open source software</Keyword>
+            <Keyword MajorTopicYN="N">Virtual keyboard</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28917015</ArticleId>
+            <ArticleId IdType="doi">10.3758/s13428-017-0958-7</ArticleId>
+            <ArticleId IdType="pii">10.3758/s13428-017-0958-7</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

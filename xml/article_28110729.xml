@@ -1,0 +1,152 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110729</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Epileptic seizure detection in EEG signals using tunable-Q factor wavelet transform and bootstrap aggregating.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>247-259</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30437-0</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.008</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Epileptic seizure detection is traditionally performed by expert clinicians based on visual observation of EEG signals. This process is time-consuming, burdensome, reliant on expensive human resources, and subject to error and bias. In epilepsy research, on the other hand, manual detection is unsuitable for handling large data-sets. A computerized seizure identification scheme can eradicate the aforementioned problems, aid clinicians, and benefit epilepsy research.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this work, a new automated epilepsy diagnosis scheme based on Tunable-Q factor wavelet transform (TQWT) and bootstrap aggregating (Bagging) using Electroencephalogram (EEG) signals is proposed. Until now, this is the first time spectral features in the TQWT domain in conjunction with Bagging are employed for epilepsy seizure identification to the best of the authors' knowledge. At first, we decompose the EEG signal segments into sub-bands using TQWT. We then extract various spectral features from the TQWT sub-bands. The suitability of spectral features in the TQWT domain is established through statistical measures and graphical analyses. Afterwards, Bagging is employed for epileptic seizure classification. The efficacy of Bagging in the proposed detection scheme is also studied in this research. The effects of various TQWT and Bagging parameters are investigated. The optimal choices of these parameters are also determined. The performance of the proposed scheme is studied using a publicly available benchmark EEG database for various classification cases that include inter-ictal (seizure-free interval), ictal (seizure) and healthy; seizure and non-seizure; ictal and inter-ictal; and seizure and healthy.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In comparison with the state-of-the-art algorithms, the performance of the proposed method is superior in terms of sensitivity, specificity, and accuracy.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The seizure detection method proposed herein therefore can alleviate the burden of medical professionals of analyzing a large bulk of data by visual inspection, speed-up epilepsy diagnosis and benefit epilepsy research.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hassan</LastName>
+                    <ForeName>Ahnaf Rashik</ForeName>
+                    <Initials>AR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Electronic Engineering, Bangladesh University of Engineering and Technology, Dhaka 1000, Bangladesh.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Siuly</LastName>
+                    <ForeName>Siuly</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Applied Informatics, Victoria University, Melbourne, VIC 8001, Australia. Electronic address: siuly.siuly@vu.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yanchun</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Applied Informatics, Victoria University, Melbourne, VIC 8001, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D004569" MajorTopicYN="Y">Electroencephalography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004827" MajorTopicYN="N">Epilepsy</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058067" MajorTopicYN="N">Wavelet Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bagging</Keyword>
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">EEG</Keyword>
+            <Keyword MajorTopicYN="N">Epilepsy seizure</Keyword>
+            <Keyword MajorTopicYN="N">TQWT</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110729</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30437-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.008</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113940</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Learning Inverse Rig Mappings by Nonlinear Regression.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1167-1178</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2016.2628036</ELocationID>
+            <Abstract>
+                <AbstractText>We present a framework to design inverse rig-functions-functions that map low level representations of a character's pose such as joint positions or surface geometry to the representation used by animators called the animation rig. Animators design scenes using an animation rig, a framework widely adopted in animation production which allows animators to design character poses and geometry via intuitive parameters and interfaces. Yet most state-of-the-art computer animation techniques control characters through raw, low level representations such as joint angles, joint positions, or vertex coordinates. This difference often stops the adoption of state-of-the-art techniques in animation production. Our framework solves this issue by learning a mapping between the low level representations of the pose and the animation rig. We use nonlinear regression techniques, learning from example animation sequences designed by the animators. When new motions are provided in the skeleton space, the learned mapping is used to estimate the rig controls that reproduce such a motion. We introduce two nonlinear functions for producing such a mapping: Gaussian process regression and feedforward neural networks. The appropriate solution depends on the nature of the rig and the amount of data available for training. We show our framework applied to various examples including articulated biped characters, quadruped characters, facial animation rigs, and deformable characters. With our system, animators have the freedom to apply any motion synthesis algorithm to arbitrary rigging and animation pipelines for immediate editing. This greatly improves the productivity of 3D animation, while retaining the flexibility and creativity of artistic input.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Holden</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saito</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Komura</LastName>
+                    <ForeName>Taku</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113940</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2016.2628036</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

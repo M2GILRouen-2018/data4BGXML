@@ -1,0 +1,364 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28589859</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>07</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1755-8794</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>Suppl 1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medical genomics</Title>
+                <ISOAbbreviation>BMC Med Genomics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Integrative information theoretic network analysis for genome-wide association study of aspirin exacerbated respiratory disease in Korean population.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>31</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12920-017-0266-1</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Aspirin Exacerbated Respiratory Disease (AERD) is a chronic medical condition that encompasses asthma, nasal polyposis, and hypersensitivity to aspirin and other non-steroidal anti-inflammatory drugs. Several previous studies have shown that part of the genetic effects of the disease may be induced by the interaction of multiple genetic variants. However, heavy computational cost as well as the complexity of the underlying biological mechanism has prevented a thorough investigation of epistatic interactions and thus most previous studies have typically considered only a small number of genetic variants at a time.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this study, we propose a gene network based analysis framework to identify genetic risk factors from a genome-wide association study dataset. We first derive multiple single nucleotide polymorphisms (SNP)-based epistasis networks that consider marginal and epistatic effects by using different information theoretic measures. Each SNP epistasis network is converted into a gene-gene interaction network, and the resulting gene networks are combined as one for downstream analysis. The integrated network is validated on existing knowledgebase of DisGeNET for known gene-disease associations and GeneMANIA for biological function prediction.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We demonstrated our proposed method on a Korean GWAS dataset, which has genotype information of 440,094 SNPs for 188 cases and 247 controls. The topological properties of the generated networks are examined for scale-freeness, and we further performed various statistical analyses in the Allergy and Asthma Portal (AAP) using the selected genes from our integrated network.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our result reveals that there are several gene modules in the network that are of biological significance and have evidence for controlling susceptibility and being related to the treatment of AERD.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Sehee</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Software and Computer Engineering, Ajou University, Suwon, 16499, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jeong</LastName>
+                    <ForeName>Hyun-Hwan</ForeName>
+                    <Initials>HH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Jan and Dan Duncan Neurological Research Institute at Texas Children's Hospital, Houston, Texas, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Human and Molecular Genetics, Baylor College of Medicine, Houston, Texas, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Dokyoon</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical &amp; Translational Informatics, Geisinger Health System, Danville, PA, 17822, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>The Huck Institutes of the Life Sciences, Pennsylvania State University, University Park, PA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wee</LastName>
+                    <ForeName>Kyubum</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Software and Computer Engineering, Ajou University, Suwon, 16499, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Park</LastName>
+                    <ForeName>Hae-Sim</ForeName>
+                    <Initials>HS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Allergy and Clinical Immunology, Ajou University School of Medicine, Suwon, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Seung-Hyun</ForeName>
+                    <Initials>SH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Allergy and Clinical Immunology, Ajou University School of Medicine, Suwon, South Korea. kimsh@ajou.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Translational Research Laboratory for Inflammatory Disease, Clinical Trial Center, Ajou University Medical Center, Suwon, South Korea. kimsh@ajou.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sohn</LastName>
+                    <ForeName>Kyung-Ah</ForeName>
+                    <Initials>KA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Software and Computer Engineering, Ajou University, Suwon, 16499, South Korea. kasohn@ajou.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med Genomics</MedlineTA>
+            <NlmUniqueID>101319628</NlmUniqueID>
+            <ISSNLinking>1755-8794</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Osteopath Assoc. 2011 Nov;111(11 Suppl 7):S11-7</RefSource>
+                <PMID Version="1">22162373</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Feb 15;25(4):504-11</RefSource>
+                <PMID Version="1">19098029</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Allergy Asthma Immunol. 2015 Mar;114(3):208-13</RefSource>
+                <PMID Version="1">25592153</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2015 Apr 15;2015:bav028</RefSource>
+                <PMID Version="1">25877637</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Dec 23;9(12):e111220</RefSource>
+                <PMID Version="1">25536158</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Basic Clin Pharmacol Toxicol. 2014 May;114(5):365-76</RefSource>
+                <PMID Version="1">24517491</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>DNA Cell Biol. 2012 Nov;31(11):1604-9</RefSource>
+                <PMID Version="1">22994212</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Genet Genomics. 2012 May;287(5):361-71</RefSource>
+                <PMID Version="1">22457146</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Genet. 2013 Mar;132(3):313-21</RefSource>
+                <PMID Version="1">23180272</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunol Allergy Clin North Am. 2013 May;33(2):177-94</RefSource>
+                <PMID Version="1">23639707</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2013 Oct;68(10):1219-32</RefSource>
+                <PMID Version="1">24117484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2003 Nov;13(11):2498-504</RefSource>
+                <PMID Version="1">14597658</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Postgrad Med. 2000 Sep 15;108(4 Suppl):40-4</RefSource>
+                <PMID Version="1">19667532</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Physiol Pharmacol. 2011 Jun;62(3):303-11</RefSource>
+                <PMID Version="1">21893690</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2010 Jan 7;362(1):36-44</RefSource>
+                <PMID Version="1">20032318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Jun 15;26(12):i217-27</RefSource>
+                <PMID Version="1">20529910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy (Cairo). 2012;2012:789232</RefSource>
+                <PMID Version="1">22654920</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Immunol. 2013 Sep;13(9):618-9</RefSource>
+                <PMID Version="1">23907447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Asian Pac J Cancer Prev. 2015;16(3):1139-43</RefSource>
+                <PMID Version="1">25735345</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Nov 05;9(11):e111887</RefSource>
+                <PMID Version="1">25372592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Chem. 2014 Jun;50:19-28</RefSource>
+                <PMID Version="1">24581733</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D1228-33</RefSource>
+                <PMID Version="1">23180781</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2010 Sep 10;87(3):325-40</RefSource>
+                <PMID Version="1">20817139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2010 Sep;126(3):631-7.e1-8</RefSource>
+                <PMID Version="1">20816195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Ovarian Res. 2015 Jul 03;8:42</RefSource>
+                <PMID Version="1">26138921</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2000;:418-29</RefSource>
+                <PMID Version="1">10902190</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Rev Allergy Immunol. 2003 Apr;24(2):169-88</RefSource>
+                <PMID Version="1">12668897</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Theor Biol. 2006 Jul 21;241(2):252-61</RefSource>
+                <PMID Version="1">16457852</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomics Inform. 2014 Dec;12(4):216-24</RefSource>
+                <PMID Version="1">25705161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2009 Mar;5(3):e1000432</RefSource>
+                <PMID Version="1">19300503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Biosci. 2006 May 01;11:1977-86</RefSource>
+                <PMID Version="1">16368572</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2007 Sep;39(9):1167-73</RefSource>
+                <PMID Version="1">17721534</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy Asthma Immunol Res. 2011 Apr;3(2):123-7</RefSource>
+                <PMID Version="1">21461252</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2010 Jul;38(Web Server issue):W214-20</RefSource>
+                <PMID Version="1">20576703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Transl Med. 2013 Jul 24;5(195):195ra94</RefSource>
+                <PMID Version="1">23884466</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Immunol. 2008 Jul;28(4):336-42</RefSource>
+                <PMID Version="1">18379861</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(7):e41088</RefSource>
+                <PMID Version="1">22815927</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Leukoc Biol. 2009 Mar;85(3):544-52</RefSource>
+                <PMID Version="1">19038786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 Sep 12;12:364</RefSource>
+                <PMID Version="1">21910885</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Biophys Res Commun. 2012 Jan 20;417(3):1024-9</RefSource>
+                <PMID Version="1">22222376</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2010 Feb;125(2):328-335.e11</RefSource>
+                <PMID Version="1">20159242</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Jan 1;28(1):5-12</RefSource>
+                <PMID Version="1">22053078</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003 Feb 12;19(3):376-82</RefSource>
+                <PMID Version="1">12584123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014 Apr 10;15:102</RefSource>
+                <PMID Version="1">24717145</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Epidemiol. 2013 Sep;37(6):614-21</RefSource>
+                <PMID Version="1">23740754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genes Immun. 2010 Dec;11(8):630-6</RefSource>
+                <PMID Version="1">20613780</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BioData Min. 2015 Dec 29;8:45</RefSource>
+                <PMID Version="1">26715945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pulm Pharmacol Ther. 2016 Aug;39:54-63</RefSource>
+                <PMID Version="1">27354118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2013;:397-408</RefSource>
+                <PMID Version="1">23424144</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Aspirin exacerbated respiratory disease (AERD)</Keyword>
+            <Keyword MajorTopicYN="N">Asthma</Keyword>
+            <Keyword MajorTopicYN="N">Epistasis</Keyword>
+            <Keyword MajorTopicYN="N">Genome-wide association study (GWAS)</Keyword>
+            <Keyword MajorTopicYN="N">Information gain (IG)</Keyword>
+            <Keyword MajorTopicYN="N">Integrated network</Keyword>
+            <Keyword MajorTopicYN="N">Mutual information (MI)</Keyword>
+            <Keyword MajorTopicYN="N">Single nucleotide polymorphisms (SNP)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28589859</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12920-017-0266-1</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12920-017-0266-1</ArticleId>
+            <ArticleId IdType="pmc">PMC5461529</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

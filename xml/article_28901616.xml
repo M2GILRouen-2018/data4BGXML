@@ -1,0 +1,141 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901616</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Regularization of nonlinear decomposition of spectral x-ray projection images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e174-e187</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12283</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Exploiting the x-ray measurements obtained in different energy bins, spectral computed tomography (CT) has the ability to recover the 3-D description of a patient in a material basis. This may be achieved solving two subproblems, namely the material decomposition and the tomographic reconstruction problems. In this work, we address the material decomposition of spectral x-ray projection images, which is a nonlinear ill-posed problem.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Our main contribution is to introduce a material-dependent spatial regularization in the projection domain. The decomposition problem is solved iteratively using a Gauss-Newton algorithm that can benefit from fast linear solvers. A Matlab implementation is available online. The proposed regularized weighted least squares Gauss-Newton algorithm (RWLS-GN) is validated on numerical simulations of a thorax phantom made of up to five materials (soft tissue, bone, lung, adipose tissue, and gadolinium), which is scanned with a 120 kV source and imaged by a 4-bin photon counting detector. To evaluate the method performance of our algorithm, different scenarios are created by varying the number of incident photons, the concentration of the marker and the configuration of the phantom. The RWLS-GN method is compared to the reference maximum likelihood Nelder-Mead algorithm (ML-NM). The convergence of the proposed method and its dependence on the regularization parameter are also studied.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We show that material decomposition is feasible with the proposed method and that it converges in few iterations. Material decomposition with ML-NM was very sensitive to noise, leading to decomposed images highly affected by noise, and artifacts even for the best case scenario. The proposed method was less sensitive to noise and improved contrast-to-noise ratio of the gadolinium image. Results were superior to those provided by ML-NM in terms of image quality and decomposition was 70 times faster. For the assessed experiments, material decomposition was possible with the proposed method when the number of incident photons was equal or larger than 105 and when the marker concentration was equal or larger than 0.03 g·cm-3 .</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The proposed method efficiently solves the nonlinear decomposition problem for spectral CT, which opens up new possibilities such as material-specific regularization in the projection domain and a parallelization framework, in which projections are solved in parallel.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ducros</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abascal</LastName>
+                    <ForeName>Juan Felipe Perez-Juste</ForeName>
+                    <Initials>JFP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sixou</LastName>
+                    <ForeName>Bruno</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rit</LastName>
+                    <ForeName>Simon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peyrin</LastName>
+                    <ForeName>Françoise</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Gauss-Newton algorithm</Keyword>
+            <Keyword MajorTopicYN="N">material decomposition</Keyword>
+            <Keyword MajorTopicYN="N">nonlinear inverse problem</Keyword>
+            <Keyword MajorTopicYN="N">regularization</Keyword>
+            <Keyword MajorTopicYN="N">spectral computed tomography</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901616</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12283</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,173 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25194873</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-8430</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>47</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <MedlineDate>2014 Nov-Dec</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of electrocardiology</Title>
+                <ISOAbbreviation>J Electrocardiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Detection of culprit coronary lesion location in pre-hospital 12-lead ECG.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>890-4</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jelectrocard.2014.07.014</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0022-0736(14)00288-X</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Pre-hospital 12-lead ECG interpretation is important because pre-hospital activation of the coronary catheterization laboratory reduces ST-segment elevation myocardial infarction (STEMI) discovery-to-treatment time. In addition, some ECG features indicate higher risk in STEMI such as proximal left anterior descending (LAD) culprit lesion location. The challenging nature of the pre-hospital environment can lead to noisier ECGs which make automated STEMI detection difficult. We describe an automated system to classify lesion location as proximal LAD, LAD, right coronary artery (RCA) and left circumflex (LCx) and test the performance on pre-hospital 12-lead ECG.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The overall classifier was designed from three linked classifiers to separate LAD from non-LAD (RCA or LCx) in the first step, RCA from LCx in a second classifier and proximal from non-proximal LAD in the third classifier. The proximal LAD classifier was designed for high specificity because the output may be used in the decision to modify treatment. The LCx classifier was designed for high specificity because RCA is dominant in most people. The system was trained on a set of emergency department ECGs (n=181) and tested on a set of pre-hospital ECGs (n=80). Both sets were based on a sequential sample starting with symptoms suggesting acute coronary syndromes. Culprit lesion location was determined from coronary catheterization laboratory reports. Inclusion criteria included STEMI interpretation by computer and culprit lesion with 70% or more narrowing. Algorithm accuracy was measured on the test set by sensitivity (SE), specificity (SP), and positive predictive value (PPV).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">SE, SP and PPV were 50, 100 and 100% respectively for proximal LAD lesion location; 90, 100 and 100% for all LAD; 98, 72 and 78% for RCA; and 50, 98 and 90% for LCx. Specificity and PPV were high for proximal LAD, LAD and LCx. Specificity and PPV are not as high for RCA by design since the RCA-LCx tradeoff favors high specificity in LCx.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Although our test database is not large, algorithm performance suggests culprit lesion location can be reliably determined from pre-hospital ECG. Further research is needed however to evaluate the impact of automated culprit lesion location on patient treatment and outcomes.</AbstractText>
+                <CopyrightInformation>Copyright © 2014 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gregg</LastName>
+                    <ForeName>Richard E</ForeName>
+                    <Initials>RE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Advanced Algorithm Research Center, Philips Healthcare, Andover, MA, USA. Electronic address: rich.gregg@philips.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Babaeizadeh</LastName>
+                    <ForeName>Saeed</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Advanced Algorithm Research Center, Philips Healthcare, Andover, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Electrocardiol</MedlineTA>
+            <NlmUniqueID>0153605</NlmUniqueID>
+            <ISSNLinking>0022-0736</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003936" MajorTopicYN="N">Diagnosis, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004562" MajorTopicYN="N">Electrocardiography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004632" MajorTopicYN="N">Emergency Medical Services</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009203" MajorTopicYN="N">Myocardial Infarction</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000209" MajorTopicYN="N">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">12-Lead ECG</Keyword>
+            <Keyword MajorTopicYN="N">Culprit artery</Keyword>
+            <Keyword MajorTopicYN="N">Infarct related artery</Keyword>
+            <Keyword MajorTopicYN="N">STEMI</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>05</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>9</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>9</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25194873</ArticleId>
+            <ArticleId IdType="pii">S0022-0736(14)00288-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jelectrocard.2014.07.014</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

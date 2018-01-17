@@ -1,0 +1,245 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26456569</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>08</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>30</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-8243</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>84</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of medical informatics</Title>
+                <ISOAbbreviation>Int J Med Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using natural language processing to identify problem usage of prescription opioids.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1057-64</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ijmedinf.2015.09.002</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S1386-5056(15)30037-X</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Accurate and scalable surveillance methods are critical to understand widespread problems associated with misuse and abuse of prescription opioids and for implementing effective prevention and control measures. Traditional diagnostic coding incompletely documents problem use. Relevant information for each patient is often obscured in vast amounts of clinical text.</AbstractText>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">We developed and evaluated a method that combines natural language processing (NLP) and computer-assisted manual review of clinical notes to identify evidence of problem opioid use in electronic health records (EHRs).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We used the EHR data and text of 22,142 patients receiving chronic opioid therapy (≥70 days' supply of opioids per calendar quarter) during 2006-2012 to develop and evaluate an NLP-based surveillance method and compare it to traditional methods based on International Classification of Disease, Ninth Edition (ICD-9) codes. We developed a 1288-term dictionary for clinician mentions of opioid addiction, abuse, misuse or overuse, and an NLP system to identify these mentions in unstructured text. The system distinguished affirmative mentions from those that were negated or otherwise qualified. We applied this system to 7336,445 electronic chart notes of the 22,142 patients. Trained abstractors using a custom computer-assisted software interface manually reviewed 7751 chart notes (from 3156 patients) selected by the NLP system and classified each note as to whether or not it contained textual evidence of problem opioid use.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Traditional diagnostic codes for problem opioid use were found for 2240 (10.1%) patients. NLP-assisted manual review identified an additional 728 (3.1%) patients with evidence of clinically diagnosed problem opioid use in clinical notes. Inter-rater reliability among pairs of abstractors reviewing notes was high, with kappa=0.86 and 97% agreement for one pair, and kappa=0.71 and 88% agreement for another pair.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Scalable, semi-automated NLP methods can efficiently and accurately identify evidence of problem opioid use in vast amounts of EHR text. Incorporating such methods into surveillance efforts may increase prevalence estimates by as much as one-third relative to traditional methods.</AbstractText>
+                <CopyrightInformation>Copyright © 2015. Published by Elsevier Ireland Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Carrell</LastName>
+                    <ForeName>David S</ForeName>
+                    <Initials>DS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Group Health Research Institute, 1700 Minor Ave., Suite 1500, Seattle, WA 98101, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cronkite</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Group Health Research Institute, 1700 Minor Ave., Suite 1500, Seattle, WA 98101, United States. Electronic address: carrell.d@ghc.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Palmer</LastName>
+                    <ForeName>Roy E</ForeName>
+                    <Initials>RE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>North America Medical Affairs, Global Innovative Pharma, Pfizer, Inc., New York, NY, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saunders</LastName>
+                    <ForeName>Kathleen</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Group Health Research Institute, 1700 Minor Ave., Suite 1500, Seattle, WA 98101, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gross</LastName>
+                    <ForeName>David E</ForeName>
+                    <Initials>DE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>North America Medical Affairs, Global Innovative Pharma, Pfizer, Inc., New York, NY, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Masters</LastName>
+                    <ForeName>Elizabeth T</ForeName>
+                    <Initials>ET</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Outcomes &amp; Evidence, Global Health &amp; Value, Pfizer Inc., New York, New York, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hylan</LastName>
+                    <ForeName>Timothy R</ForeName>
+                    <Initials>TR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>North America Medical Affairs, Global Innovative Pharma, Pfizer, Inc., New York, NY, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Von Korff</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Group Health Research Institute, 1700 Minor Ave., Suite 1500, Seattle, WA 98101, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Int J Med Inform</MedlineTA>
+            <NlmUniqueID>9711057</NlmUniqueID>
+            <ISSNLinking>1386-5056</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009292">Narcotic Antagonists</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D057225" MajorTopicYN="N">Data Mining</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011307" MajorTopicYN="N">Drug Prescriptions</DescriptorName>
+                <QualifierName UI="Q000706" MajorTopicYN="N">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057286" MajorTopicYN="N">Electronic Health Records</DescriptorName>
+                <QualifierName UI="Q000706" MajorTopicYN="Y">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057970" MajorTopicYN="N">Inappropriate Prescribing</DescriptorName>
+                <QualifierName UI="Q000706" MajorTopicYN="Y">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009292" MajorTopicYN="N">Narcotic Antagonists</DescriptorName>
+                <QualifierName UI="Q000627" MajorTopicYN="Y">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009323" MajorTopicYN="N">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009293" MajorTopicYN="N">Opioid-Related Disorders</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="N">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010146" MajorTopicYN="N">Pain</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015995" MajorTopicYN="N">Prevalence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018875" MajorTopicYN="N">Vocabulary, Controlled</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014861" MajorTopicYN="N" Type="Geographic">Washington</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Computer-assisted records review</Keyword>
+            <Keyword MajorTopicYN="N">Natural language processing</Keyword>
+            <Keyword MajorTopicYN="N">Opioid-related disorders</Keyword>
+            <Keyword MajorTopicYN="N">Surveillance</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>03</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>8</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26456569</ArticleId>
+            <ArticleId IdType="pii">S1386-5056(15)30037-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijmedinf.2015.09.002</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

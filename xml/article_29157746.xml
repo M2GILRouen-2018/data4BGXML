@@ -1,0 +1,177 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29157746</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-355X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of radiation oncology, biology, physics</Title>
+                <ISOAbbreviation>Int. J. Radiat. Oncol. Biol. Phys.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Particle Filter-Based Target Tracking Algorithm for Magnetic Resonance-Guided Respiratory Compensation: Robustness and Accuracy Assessment.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0360-3016(17)33965-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ijrobp.2017.10.004</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">To assess overall robustness and accuracy of a modified particle filter-based tracking algorithm for magnetic resonance (MR)-guided radiation therapy treatments.</AbstractText>
+                <AbstractText Label="METHODS AND MATERIALS" NlmCategory="METHODS">An improved particle filter-based tracking algorithm was implemented, which used a normalized cross-correlation function as the likelihood calculation. With a total of 5 healthy volunteers and 8 patients, the robustness of the algorithm was tested on 24 dynamic magnetic resonance imaging (MRI) time series with varying resolution, contrast, and signal-to-noise ratio. The complete data set included data acquired with different scan parameters on a number of MRI scanners with varying field strengths, including the 1.5T MR linear accelerator. Tracking errors were computed by comparing the results obtained by the particle filter algorithm with experts' delineations.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The ameliorated tracking algorithm was able to accurately track abdominal as well as thoracic tumors, whereas the previous Bhattacharyya distance-based implementation failed in more than 50% of the cases. The tracking error, combined over all MRI acquisitions, is 1.1 ± 0.4 mm, which demonstrated high robustness against variations in contrast, noise, and image resolution. Finally, the effect of the input/control parameters of the model was very similar across all cases, suggesting a class-based optimization is possible.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The modified particle filter tracking algorithm is highly accurate and robust against varying image quality. This makes the algorithm a promising candidate for automated tracking on the MR linear accelerator.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bourque</LastName>
+                    <ForeName>Alexandra E</ForeName>
+                    <Initials>AE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département de physique, Université de Montréal, Montréal, Québec, Canada; Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada. Electronic address: bourque.alexandra@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bedwani</LastName>
+                    <ForeName>Stéphane</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département de physique, Université de Montréal, Montréal, Québec, Canada; Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Carrier</LastName>
+                    <ForeName>Jean-François</ForeName>
+                    <Initials>JF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département de physique, Université de Montréal, Montréal, Québec, Canada; Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ménard</LastName>
+                    <ForeName>Cynthia</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borman</LastName>
+                    <ForeName>Pim</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bos</LastName>
+                    <ForeName>Clemens</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raaymakers</LastName>
+                    <ForeName>Bas W</ForeName>
+                    <Initials>BW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands; Department of Radiotherapy, University Medical Center Utrecht, Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mickevicius</LastName>
+                    <ForeName>Nikolai</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Radiology, and Biophysics, Medical College of Wisconsin, Milwaukee, Wisconsin, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Paulson</LastName>
+                    <ForeName>Eric</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Radiology, and Biophysics, Medical College of Wisconsin, Milwaukee, Wisconsin, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tijssen</LastName>
+                    <ForeName>Rob H N</ForeName>
+                    <Initials>RHN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands; Department of Radiotherapy, University Medical Center Utrecht, Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Int J Radiat Oncol Biol Phys</MedlineTA>
+            <NlmUniqueID>7603616</NlmUniqueID>
+            <ISSNLinking>0360-3016</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157746</ArticleId>
+            <ArticleId IdType="pii">S0360-3016(17)33965-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijrobp.2017.10.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,168 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29196114</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-0480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical informatics</Title>
+                <ISOAbbreviation>J Biomed Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Flexible, Cluster-Based Analysis of the Electronic Medical Record of Sepsis with Composite Mixture Models.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S1532-0464(17)30269-1</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jbi.2017.11.015</ELocationID>
+            <Abstract>
+                <AbstractText>The widespread adoption of electronic medical records (EMRs) in healthcare has provided vast new amounts of data for statistical machine learning researchers in their efforts to model and predict patient health status, potentially enabling novel advances in treatment. In the case of sepsis, a debilitating, dysregulated host response to infection, extracting subtle, uncataloged clinical phenotypes from the EMR with statistical machine learning methods has the potential to impact patient diagnosis and treatment early in the course of their hospitalization. However, there are significant barriers that must be overcome to extract these insights from EMR data. First, EMR datasets consist of both static and dynamic observations of discrete and continuous-valued variables, many of which may be missing, precluding the application of standard multivariate analysis techniques. Second, clinical populations observed via EMRs and relevant to the study and management of conditions like sepsis are often heterogeneous; properly accounting for this heterogeneity is critical. Here, we describe an unsupervised, probabilistic framework called a composite mixture model that can simultaneously accommodate the wide variety of observations frequently observed in EMR datasets, characterize heterogeneous clinical populations, and handle missing observations. We demonstrate the efficacy of our approach on a large-scale sepsis cohort, developing novel techniques built on our model-based clusters to track patient mortality risk over time and identify physiological trends and distinct subgroups of the dataset associated with elevated risk of mortality during hospitalization.</AbstractText>
+                <CopyrightInformation>Copyright © 2017. Published by Elsevier Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mayhew</LastName>
+                    <ForeName>Michael B</ForeName>
+                    <Initials>MB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: mmayhew@inflammatix.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Petersen</LastName>
+                    <ForeName>Brenden K</ForeName>
+                    <Initials>BK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: petersen33@llnl.gov.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sales</LastName>
+                    <ForeName>Ana Paula</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: apsales@llnl.gov.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Greene</LastName>
+                    <ForeName>John D</ForeName>
+                    <Initials>JD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Research, Kaiser Permanente Northern California, Oakland, California USA 94611. Electronic address: john.d.greene@kp.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Vincent X</ForeName>
+                    <Initials>VX</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Research, Kaiser Permanente Northern California, Oakland, California USA 94611. Electronic address: vincent.x.liu@kp.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wasson</LastName>
+                    <ForeName>Todd S</ForeName>
+                    <Initials>TS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: twasson@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Biomed Inform</MedlineTA>
+            <NlmUniqueID>100970413</NlmUniqueID>
+            <ISSNLinking>1532-0464</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AIC</Keyword>
+            <Keyword MajorTopicYN="N">Akaike information criterion</Keyword>
+            <Keyword MajorTopicYN="N">BIC</Keyword>
+            <Keyword MajorTopicYN="N">Bayesian information criterion</Keyword>
+            <Keyword MajorTopicYN="N">CMM</Keyword>
+            <Keyword MajorTopicYN="N">Cluster analysis</Keyword>
+            <Keyword MajorTopicYN="N">Composite mixture model</Keyword>
+            <Keyword MajorTopicYN="N">ED</Keyword>
+            <Keyword MajorTopicYN="N">EMR</Keyword>
+            <Keyword MajorTopicYN="N">Electronic health records</Keyword>
+            <Keyword MajorTopicYN="N">KPNC</Keyword>
+            <Keyword MajorTopicYN="N">Kaiser Permanente Northern California</Keyword>
+            <Keyword MajorTopicYN="N">MCAR</Keyword>
+            <Keyword MajorTopicYN="N">MICE</Keyword>
+            <Keyword MajorTopicYN="N">Mixture modeling</Keyword>
+            <Keyword MajorTopicYN="N">PAM</Keyword>
+            <Keyword MajorTopicYN="N">Risk stratification</Keyword>
+            <Keyword MajorTopicYN="N">Sepsis</Keyword>
+            <Keyword MajorTopicYN="N">composite mixture model</Keyword>
+            <Keyword MajorTopicYN="N">electronic medical record</Keyword>
+            <Keyword MajorTopicYN="N">emergency department</Keyword>
+            <Keyword MajorTopicYN="N">missing completely at random</Keyword>
+            <Keyword MajorTopicYN="N">multivariate imputation using chained equations</Keyword>
+            <Keyword MajorTopicYN="N">partitioning around medoids</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29196114</ArticleId>
+            <ArticleId IdType="pii">S1532-0464(17)30269-1</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jbi.2017.11.015</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,170 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">22420330</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>04</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>10</Month>
+            <Day>02</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2041-1480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>3</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Mar</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical semantics</Title>
+                <ISOAbbreviation>J Biomed Semantics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Discovering opinion leaders for medical topics using news articles.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/2041-1480-3-2</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Rapid identification of subject experts for medical topics helps in improving the implementation of discoveries by speeding the time to market drugs and aiding in clinical trial recruitment, etc. Identifying such people who influence opinion through social network analysis is gaining prominence. In this work, we explore how to combine named entity recognition from unstructured news articles with social network analysis to discover opinion leaders for a given medical topic.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We employed a Conditional Random Field algorithm to extract three categories of entities from health-related new articles: Person, Organization and Location. We used the latter two to disambiguate polysemy and synonymy for the person names, used simple rules to identify the subject experts, and then applied social network analysis techniques to discover the opinion leaders among them based on their media presence. A network was created by linking each pair of subject experts who are mentioned together in an article. The social network analysis metrics (including centrality metrics such as Betweenness, Closeness, Degree and Eigenvector) are used for ranking the subject experts based on their power in information flow.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We extracted 734,204 person mentions from 147,528 news articles related to obesity from January 1, 2007 through July 22, 2010. Of these, 147,879 mentions have been marked as subject experts. The F-score of extracting person names is 88.5%. More than 80% of the subject experts who rank among top 20 in at least one of the metrics could be considered as opinion leaders in obesity.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The analysis of the network of subject experts with media presence revealed that an opinion leader might have fewer mentions in the news articles, but a high network centrality measure and vice-versa. Betweenness, Closeness and Degree centrality measures were shown to supplement frequency counts in the task of finding subject experts. Further, opinion leaders missed in scientific publication network analysis could be retrieved from news articles.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jonnalagadda</LastName>
+                    <ForeName>Siddhartha</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lnx Research LLC, 750 The City Drive South #470, Orange, CA 92868, USA. sjonnalagadda@lnxresearch.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peeler</LastName>
+                    <ForeName>Ryan</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Topham</LastName>
+                    <ForeName>Philip</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>03</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Biomed Semantics</MedlineTA>
+            <NlmUniqueID>101531992</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2008;:652-63</RefSource>
+                <PMID Version="1">18229723</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Discov Collab. 2010 Oct 04;5:50-75</RefSource>
+                <PMID Version="1">20922666</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2008 Nov-Dec;15(6):780-2</RefSource>
+                <PMID Version="1">18756000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cochrane Database Syst Rev. 2000;(2):CD000125</RefSource>
+                <PMID Version="1">10796491</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2007 Jul 26;357(4):370-9</RefSource>
+                <PMID Version="1">17652652</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Epidemiol. 2003 Aug;32(4):634-6</RefSource>
+                <PMID Version="1">12913042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2009 Apr;42(2):390-405</RefSource>
+                <PMID Version="1">19232399</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2009 Mar-Apr;16(2):247-55</RefSource>
+                <PMID Version="1">19074302</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Educ Behav. 2007 Dec;34(6):881-96</RefSource>
+                <PMID Version="1">17602096</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2008 Nov 06;:870</RefSource>
+                <PMID Version="1">18999104</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2012 Feb;45(1):129-40</RefSource>
+                <PMID Version="1">22085698</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <OtherID Source="NLM">PMC3338075</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>03</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">22420330</ArticleId>
+            <ArticleId IdType="pii">2041-1480-3-2</ArticleId>
+            <ArticleId IdType="doi">10.1186/2041-1480-3-2</ArticleId>
+            <ArticleId IdType="pmc">PMC3338075</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

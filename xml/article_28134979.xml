@@ -1,0 +1,161 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28134979</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>28</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A multiresolution prostate representation for automatic segmentation in magnetic resonance images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1312-1323</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12141</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Accurate prostate delineation is necessary in radiotherapy processes for concentrating the dose onto the prostate and reducing side effects in neighboring organs. Currently, manual delineation is performed over magnetic resonance imaging (MRI) taking advantage of its high soft tissue contrast property. Nevertheless, as human intervention is a consuming task with high intra- and interobserver variability rates, (semi)-automatic organ delineation tools have emerged to cope with these challenges, reducing the time spent for these tasks. This work presents a multiresolution representation that defines a novel metric and allows to segment a new prostate by combining a set of most similar prostates in a dataset.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed method starts by selecting the set of most similar prostates with respect to a new one using the proposed multiresolution representation. This representation characterizes the prostate through a set of salient points, extracted from a region of interest (ROI) that encloses the organ and refined using structural information, allowing to capture main relevant features of the organ boundary. Afterward, the new prostate is automatically segmented by combining the nonrigidly registered expert delineations associated to the previous selected similar prostates using a weighted patch-based strategy. Finally, the prostate contour is smoothed based on morphological operations.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The proposed approach was evaluated with respect to the expert manual segmentation under a leave-one-out scheme using two public datasets, obtaining averaged Dice coefficients of 82% ± 0.07 and 83% ± 0.06, and demonstrating a competitive performance with respect to atlas-based state-of-the-art methods.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The proposed multiresolution representation provides a feature space that follows a local salient point criteria and a global rule of the spatial configuration among these points to find out the most similar prostates. This strategy suggests an easy adaptation in the clinical routine, as supporting tool for annotation.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Alvarez</LastName>
+                    <ForeName>Charlens</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Imaging and Medical Application Laboratory-CIM@LAB, Universidad Nacional de Colombia, Bogotá, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martínez</LastName>
+                    <ForeName>Fabio</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Imaging and Medical Application Laboratory-CIM@LAB, Universidad Nacional de Colombia, Bogotá, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Escuela de Ingeniería de Sistemas e Informática, Universidad Industrial de Santander UIS, Bucaramanga, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Romero</LastName>
+                    <ForeName>Eduardo</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Imaging and Medical Application Laboratory-CIM@LAB, Universidad Nacional de Colombia, Bogotá, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="N">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016014" MajorTopicYN="N">Linear Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="Y">Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011467" MajorTopicYN="N">Prostate</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">atlas-based approach</Keyword>
+            <Keyword MajorTopicYN="N">multiresolution representation</Keyword>
+            <Keyword MajorTopicYN="N">prostate MR images</Keyword>
+            <Keyword MajorTopicYN="N">segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28134979</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12141</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

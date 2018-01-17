@@ -1,0 +1,240 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28121374</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>20</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Lobe based image reconstruction in Electrical Impedance Tomography.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>426-436</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12038</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Electrical Impedance Tomography (EIT) is an imaging modality used to generate two-dimensional cross-sectional images representing impedance change in the thorax. The impedance of lung tissue changes with change in air content of the lungs; hence, EIT can be used to examine regional lung ventilation in patients with abnormal lungs. In lung EIT, electrodes are attached around the circumference of the thorax to inject small alternating currents and measure resulting voltages. In contrast to X-ray computed tomography (CT), EIT images do not depict a thorax slice of well defined thickness, but instead visualize a lens-shaped region around the electrode plane, which results from diffuse current propagation in the thorax. Usually, this is considered a drawback, since image interpretation is impeded if 'off-plane' conductivity changes are projected onto the reconstructed two-dimensional image. In this paper we describe an approach that takes advantage of current propagation below and above the electrode plane. The approach enables estimation of the individual conductivity change in each lung lobe from boundary voltage measurements. This could be used to monitor disease progression in patients with obstructive lung diseases, such as chronic obstructive pulmonary disease (COPD) or cystic fibrosis (CF) and to obtain a more comprehensive insight into the pathophysiology of the lung.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Electrode voltages resulting from different conductivities in each lung lobe were simulated utilizing a realistic 3D finite element model (FEM) of the human thorax and the lungs. Overall 200 different patterns of conductivity change were simulated. A 'lobe reconstruction' algorithm was developed, applying patient-specific anatomical information in the reconstruction process. A standard EIT image reconstruction algorithm and the proposed 'lobe reconstruction' algorithm were used to estimate conductivity change in the lobes. The agreement between simulated and reconstructed conductivity change in particular lobes were compared using Bland-Altman plots, correlation plots and linear regression. To test the applicability of the approach in a realistic scenario, EIT measurements of a patient suffering from cystic fibrosis (CF) were carried out.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Conductivity changes in each lobe generate specific patterns of voltage change. These can be used to estimate the conductivity change in lobes from measured boundary voltage. The correlation coefficient between simulated and reconstructed conductivity change in particular lobes is r &gt; 0.89 for all lobes. Unknown position of the electrode plane leads to over- or underestimation of reconstructed conductivity change. Slight mismatches (± 5% of the forward model height) between the actual position of the electrode plane and the position used in the reconstruction model lead to regression coefficients of 0.7 to 1.3 between simulated and reconstructed conductivity change in the lobes.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The presented approach enhances common reconstruction methods by providing information about anatomically assignable units and thus facilitates image interpretation, since impedance change and thus ventilation of each lobe is directly determined in the reconstructions.</AbstractText>
+                <CopyrightInformation>© 2016 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Schullcke</LastName>
+                    <ForeName>Benjamin</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Munich, 80336, Munich, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gong</LastName>
+                    <ForeName>Bo</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Munich, 80336, Munich, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Krueger-Ziolek</LastName>
+                    <ForeName>Sabine</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Munich, 80336, Munich, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tawhai</LastName>
+                    <ForeName>Merryn</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Auckland Bioengineering Institute, University of Auckland, Auckland, 1010, New Zealand.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Adler</LastName>
+                    <ForeName>Andy</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Systems and Computer Engineering, Carlton University, Ottawa, ON, K1S 5B6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mueller-Lisse</LastName>
+                    <ForeName>Ullrich</ForeName>
+                    <Initials>U</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Munich, 80336, Munich, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moeller</LastName>
+                    <ForeName>Knut</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D023361">Validation Studies</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="N">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003550" MajorTopicYN="N">Cystic Fibrosis</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017097" MajorTopicYN="N">Electric Impedance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004566" MajorTopicYN="N">Electrodes</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020342" MajorTopicYN="N">Finite Element Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016014" MajorTopicYN="N">Linear Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008168" MajorTopicYN="N">Lung</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008953" MajorTopicYN="N">Models, Anatomic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013909" MajorTopicYN="N">Thorax</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014054" MajorTopicYN="N">Tomography</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">electrical impedance tomography</Keyword>
+            <Keyword MajorTopicYN="Y">lobe ventilation</Keyword>
+            <Keyword MajorTopicYN="Y">patient-specific functional imaging</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28121374</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12038</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

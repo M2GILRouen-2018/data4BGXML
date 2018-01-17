@@ -1,0 +1,145 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110741</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fractional order integration and fuzzy logic based filter for denoising of echocardiographic image.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>65-75</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(15)30453-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.006</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Ultrasound is widely used for imaging due to its cost effectiveness and safety feature. However, ultrasound images are inherently corrupted with speckle noise which severely affects the quality of these images and create difficulty for physicians in diagnosis. To get maximum benefit from ultrasound imaging, image denoising is an essential requirement.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">To perform image denoising, a two stage methodology using fuzzy weighted mean and fractional integration filter has been proposed in this research work. In stage-1, image pixels are processed by applying a 3 × 3 window around each pixel and fuzzy logic is used to assign weights to the pixels in each window, replacing central pixel of the window with weighted mean of all neighboring pixels present in the same window. Noise suppression is achieved by assigning weights to the pixels while preserving edges and other important features of an image. In stage-2, the resultant image is further improved by fractional order integration filter.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Effectiveness of the proposed methodology has been analyzed for standard test images artificially corrupted with speckle noise and real ultrasound B-mode images. Results of the proposed technique have been compared with different state-of-the-art techniques including Lsmv, Wiener, Geometric filter, Bilateral, Non-local means, Wavelet, Perona et al., Total variation (TV), Global Adaptive Fractional Integral Algorithm (GAFIA) and Improved Fractional Order Differential (IFD) model. Comparison has been done on quantitative and qualitative basis. For quantitative analysis different metrics like Peak Signal to Noise Ratio (PSNR), Speckle Suppression Index (SSI), Structural Similarity (SSIM), Edge Preservation Index (β) and Correlation Coefficient (ρ) have been used. Simulations have been done using Matlab. Simulation results of artificially corrupted standard test images and two real Echocardiographic images reveal that the proposed method outperforms existing image denoising techniques reported in the literature.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The proposed method for denoising of Echocardiographic images is effective in noise suppression/removal. It not only removes noise from an image but also preserves edges and other important structure.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Saadia</LastName>
+                    <ForeName>Ayesha</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Software Engineering, Military College of Signals, National University of Sciences and Technology (NUST), Islamabad, Pakistan. Electronic address: ayesha.phd@mcs.edu.pk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rashdi</LastName>
+                    <ForeName>Adnan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Military College of Signals, National University of Sciences and Technology (NUST), Islamabad, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D004452" MajorTopicYN="Y">Echocardiography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017143" MajorTopicYN="Y">Fuzzy Logic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="N">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059629" MajorTopicYN="N">Signal-To-Noise Ratio</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Fractional calculus</Keyword>
+            <Keyword MajorTopicYN="N">Fuzzy sets</Keyword>
+            <Keyword MajorTopicYN="N">Image denoising</Keyword>
+            <Keyword MajorTopicYN="N">Image enhancement</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110741</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(15)30453-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.006</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,122 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29192609</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>01</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-2552</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of neural engineering</Title>
+                <ISOAbbreviation>J Neural Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Superior arm-movement decoding from cortex with a new, unsupervised-learning algorithm.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1741-2552/aa9e95</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The aim of this work is to improve the state of the art for motor-control with a brain-machine interface (BMI). BMIs use neurological recording devices and a decoding algorithms to transform brain activity directly into real-time control of a machine, archetypically a robotic arm or a cursor. The standard procedure treats neural activity--vectors of spike counts in small temporal windows--as noisy observations of the kinematic state (position, velocity, acceleration) of the fingertip. Inferring the state from the observations then takes the form of a \emph{dynamical filter}, typically some variant on Kalman's (KF). The KF, however, although fairly robust in practice, is optimal only when the relationships between variables are linear and the noise is Gaussian, conditions usually violated in practice.</AbstractText>
+                <AbstractText Label="APPROACH" NlmCategory="METHODS">To overcome these limitations we introduce a new filter, the &quot;recurrent exponential-family harmonium&quot; (rEFH), that models the spike counts explicitly as Poisson-distributed, and allows for arbitrary nonlinear dynamics and observation models. Furthermore, the model underlying the filter is acquired through unsupervised learning, which allows temporal correlations in spike counts to be explained by latent dynamics that do not necessarily correspond to the kinematic state of the fingertip.</AbstractText>
+                <AbstractText Label="MAIN RESULTS" NlmCategory="RESULTS">We test the rEFH on offline reconstruction of the kinematics of reaches in the plane. The rEFH outperforms the standard, as well as three other state-of-the-art, decoders, across three monkeys, two different tasks, most kinematic variables, and a range of bin widths, amounts of training data, and numbers of neurons.</AbstractText>
+                <AbstractText Label="SIGNIFICANCE" NlmCategory="CONCLUSIONS">Our algorithm establishes a new state of the art for offline decoding of reaches---in particular, for fingertip velocities, the variable used for control in most online decoders.&amp;#13.</AbstractText>
+                <CopyrightInformation>© 2017 IOP Publishing Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Makin</LastName>
+                    <ForeName>Joseph Gerard</ForeName>
+                    <Initials>JG</Initials>
+                    <Identifier Source="ORCID">0000-0002-0053-7006</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Integrative Neuroscience, UCSF, 675 Nelson Rising Lane (516), San Francisco, California, 94143-0444, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O'Doherty</LastName>
+                    <ForeName>Joseph</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0001-8175-5699</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physiology, University of California San Francisco, San Francisco, California, 94143-0444, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cardoso</LastName>
+                    <ForeName>Mariana M B</ForeName>
+                    <Initials>MMB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physiology, University of California San Francisco, San Francisco, California, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sabes</LastName>
+                    <ForeName>Philip N</ForeName>
+                    <Initials>PN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physiology and Center for Integrative Neuroscience, University of California San Francisco, San Francisco, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Neural Eng</MedlineTA>
+            <NlmUniqueID>101217933</NlmUniqueID>
+            <ISSNLinking>1741-2552</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">RBM</Keyword>
+            <Keyword MajorTopicYN="N">brain-machine interface</Keyword>
+            <Keyword MajorTopicYN="N">decoding</Keyword>
+            <Keyword MajorTopicYN="N">neural networks</Keyword>
+            <Keyword MajorTopicYN="N">neural prosthesis</Keyword>
+            <Keyword MajorTopicYN="N">unsupervised learning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29192609</ArticleId>
+            <ArticleId IdType="doi">10.1088/1741-2552/aa9e95</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

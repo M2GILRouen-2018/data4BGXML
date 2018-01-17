@@ -1,0 +1,94 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113990</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2329-4051</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <MedlineDate>2017 Apr-Jun</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on haptics</Title>
+                <ISOAbbreviation>IEEE Trans Haptics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>On the Transparency of Client/Server-Based Haptic Interaction with Deformable Objects.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>240-253</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TOH.2016.2612635</ELocationID>
+            <Abstract>
+                <AbstractText>This paper studies the transparency of client/server-based haptic interaction with simulated deformable objects. In the considered remote interaction scenario, the server simulates the computationally expensive finite-element-based object deformation at a low temporal update rate and transmits the result to the clients. There, the received deformation data is applied to the polygon mesh, which is used to locally render force feedback with a penalty-based force rendering algorithm at the required high rate. Based on a one-dimensional deformable object example, we analyze the transparency of this multi-rate architecture for a two-user interaction. Communication delay leads to increased force magnitudes and an increased impedance displayed to the clients that actively interact with the object. We propose a method that adjusts the stiffness used in the local force rendering at the clients to compensate for this effect. The conducted objective and subjective evaluations show that the proposed method successfully compensates for the effect of communication delay in the tested delay range of up to 100 ms.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Schuwerk</LastName>
+                    <ForeName>Clemens</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Xiao</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steinbach</LastName>
+                    <ForeName>Eckehard</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Haptics</MedlineTA>
+            <NlmUniqueID>101491191</NlmUniqueID>
+            <ISSNLinking>1939-1412</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113990</ArticleId>
+            <ArticleId IdType="doi">10.1109/TOH.2016.2612635</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

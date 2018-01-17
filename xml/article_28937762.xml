@@ -1,0 +1,110 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28937762</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-9626</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical theory and computation</Title>
+                <ISOAbbreviation>J Chem Theory Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Projected Commutator DIIS Method for Accelerating Hybrid Functional Electronic Structure Calculations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5458-5467</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jctc.7b00892</ELocationID>
+            <Abstract>
+                <AbstractText>The commutator direct inversion of the iterative subspace (commutator DIIS or C-DIIS) method developed by Pulay is an efficient and the most widely used scheme in quantum chemistry to accelerate the convergence of self-consistent field (SCF) iterations in Hartree-Fock theory and Kohn-Sham density functional theory. The C-DIIS method requires the explicit storage of the density matrix, the Fock matrix, and the commutator matrix. Hence, the method can only be used for systems with a relatively small basis set, such as the Gaussian basis set. We develop a new method that enables the C-DIIS method to be efficiently employed in electronic structure calculations with a large basis set such as planewaves for the first time. The key ingredient is the projection of both the density matrix and the commutator matrix to an auxiliary matrix called the gauge-fixing matrix. The resulting projected commutator-DIIS method (PC-DIIS) only operates on matrices of the same dimension as that consists of Kohn-Sham orbitals. The cost of the method is comparable to that of standard charge mixing schemes used in large basis set calculations. The PC-DIIS method is gauge-invariant, which guarantees that its performance is invariant with respect to any unitary transformation of the Kohn-Sham orbitals. We demonstrate that the PC-DIIS method can be viewed as an extension of an iterative eigensolver for nonlinear problems. We use the PC-DIIS method for accelerating Kohn-Sham density functional theory calculations with hybrid exchange-correlation functionals, and demonstrate its superior performance compared to the commonly used nested two-level SCF iteration procedure. Furthermore, we demonstrate that in the context of ab initio molecular dynamics (MD) simulation with hybrid functionals one can extrapolate the gauge-fixing matrix to achieve the goal of extrapolating the entire density matrix implicitly along the MD trajectory. Numerical results indicate that the new method significantly reduces the number of SCF iterations per MD step, compared to the commonly used strategy of extrapolating the electron density.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9629-2121</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Research Division, Lawrence Berkeley National Laboratory , Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Lin</ForeName>
+                    <Initials>L</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6860-9566</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Research Division, Lawrence Berkeley National Laboratory , Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mathematics, University of California , Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Chao</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Research Division, Lawrence Berkeley National Laboratory , Berkeley, California 94720, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Theory Comput</MedlineTA>
+            <NlmUniqueID>101232704</NlmUniqueID>
+            <ISSNLinking>1549-9618</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28937762</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jctc.7b00892</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

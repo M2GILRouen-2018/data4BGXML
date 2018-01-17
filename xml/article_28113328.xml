@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113328</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Network-regularized Sparse Logistic Regression Models for Clinical Risk Prediction and Biomarker Discovery.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2640303</ELocationID>
+            <Abstract>
+                <AbstractText>Molecular profiling data (e.g., gene expression) has been used for clinical risk prediction and biomarker discovery. However, it is necessary to integrate other prior knowledge like biological pathways or gene interaction networks to improve the predictive ability and biological interpretability of biomarkers. Here, we first introduce a general regularized Logistic Regression (LR) framework with regularized term kwk1 + wTMw, which can reduce to different penalties, including Lasso, elastic net, and network-regularized terms with differentM. This framework can be easily solved in a unified manner by a cyclic coordinate descent algorithm which can avoid inverse matrix operation and accelerate the computing speed. However, if those estimated wi and wj have opposite signs, then the traditional network-regularized penalty may not perform well. To address it, we introduce a novel network-regularized sparse LR model with a new penalty kwk1 + jwjTMjwj to consider the difference between the absolute values of the coefficients. And we develop two efficient algorithms to solve it. Finally, we test our methods and compare them with the related ones using simulated and real data to show their efficiency.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Min</LastName>
+                    <ForeName>Wenwen</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Juan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Shihua</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113328</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2640303</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

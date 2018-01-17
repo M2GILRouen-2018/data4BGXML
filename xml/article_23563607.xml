@@ -1,0 +1,3060 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">24762786</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>11</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1750-2799</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>9</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nature protocols</Title>
+                <ISOAbbreviation>Nat Protoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Quality control and conduct of genome-wide association meta-analyses.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1192-212</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/nprot.2014.071</ELocationID>
+            <Abstract>
+                <AbstractText>Rigorous organization and quality control (QC) are necessary to facilitate successful genome-wide association meta-analyses (GWAMAs) of statistics aggregated across multiple genome-wide association studies. This protocol provides guidelines for (i) organizational aspects of GWAMAs, and for (ii) QC at the study file level, the meta-level across studies and the meta-analysis output level. Real-world examples highlight issues experienced and solutions developed by the GIANT Consortium that has conducted meta-analyses including data from 125 studies comprising more than 330,000 individuals. We provide a general protocol for conducting GWAMAs and carrying out QC to minimize errors and to guarantee maximum use of the data. We also include details for the use of a powerful and flexible software package called EasyQC. Precise timings will be greatly influenced by consortium size. For consortia of comparable size to the GIANT Consortium, this protocol takes a minimum of about 10 months to complete.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Winkler</LastName>
+                    <ForeName>Thomas W</ForeName>
+                    <Initials>TW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genetic Epidemiology, Institute of Epidemiology and Preventive Medicine, University of Regensburg, Regensburg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Day</LastName>
+                    <ForeName>Felix R</ForeName>
+                    <Initials>FR</Initials>
+                    <Identifier Source="ORCID">0000000337897651</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council (MRC) Epidemiology Unit, Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Croteau-Chonka</LastName>
+                    <ForeName>Damien C</ForeName>
+                    <Initials>DC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Department of Genetics, University of North Carolina, Chapel Hill, North Carolina, USA. [2] Channing Division of Network Medicine, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wood</LastName>
+                    <ForeName>Andrew R</ForeName>
+                    <Initials>AR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Genetics of Complex Traits, University of Exeter Medical School, University of Exeter, Exeter, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Locke</LastName>
+                    <ForeName>Adam E</ForeName>
+                    <Initials>AE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics and Center for Statistical Genetics, University of Michigan, Ann Arbor, Michigan, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mägi</LastName>
+                    <ForeName>Reedik</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Estonian Genome Center, University of Tartu, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ferreira</LastName>
+                    <ForeName>Teresa</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fall</LastName>
+                    <ForeName>Tove</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Department of Medical Sciences, Molecular Epidemiology and Science for Life Laboratory, Uppsala University, Uppsala, Sweden. [2] Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Graff</LastName>
+                    <ForeName>Mariaelisa</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, University of North Carolina, Chapel Hill, North Carolina, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Justice</LastName>
+                    <ForeName>Anne E</ForeName>
+                    <Initials>AE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, University of North Carolina, Chapel Hill, North Carolina, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luan</LastName>
+                    <ForeName>Jian'an</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council (MRC) Epidemiology Unit, Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gustafsson</LastName>
+                    <ForeName>Stefan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Sciences, Molecular Epidemiology and Science for Life Laboratory, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Randall</LastName>
+                    <ForeName>Joshua C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wellcome Trust Sanger Institute, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vedantam</LastName>
+                    <ForeName>Sailaja</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Divisions of Endocrinology and Genetics and Center for Basic and Translational Obesity Research, Boston Children's Hospital, Boston, Massachusetts, USA. [2] Program in Medical and Population Genetics, Broad Institute, Cambridge, Massachusetts, USA. [3] Department of Genetics, Harvard Medical School, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Workalemahu</LastName>
+                    <ForeName>Tsegaselassie</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Nutrition, Harvard School of Public Health, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kilpeläinen</LastName>
+                    <ForeName>Tuomas O</ForeName>
+                    <Initials>TO</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Novo Nordisk Foundation Center for Basic Metabolic Research, Section of Metabolic Genetics, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scherag</LastName>
+                    <ForeName>André</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Institute for Medical Informatics, Biometry and Epidemiology (IMIBE), University Hospital of Essen, University of Duisburg-Essen, Essen, Germany. [2] Clinical Epidemiology, Integrated Research and Treatment Center, Center for Sepsis Control and Care (CSCC), Jena University Hospital, Jena, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Esko</LastName>
+                    <ForeName>Tonu</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Estonian Genome Center, University of Tartu, Tartu, Estonia. [2] Divisions of Endocrinology and Genetics and Center for Basic and Translational Obesity Research, Boston Children's Hospital, Boston, Massachusetts, USA. [3] Program in Medical and Population Genetics, Broad Institute, Cambridge, Massachusetts, USA. [4] Department of Genetics, Harvard Medical School, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kutalik</LastName>
+                    <ForeName>Zoltán</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Department of Medical Genetics, University of Lausanne, Lausanne, Switzerland. [2] Institute of Social and Preventive Medicine (IUMSP), Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland. [3] Swiss Institute of Bioinformatics, Lausanne, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heid</LastName>
+                    <ForeName>Iris M</ForeName>
+                    <Initials>IM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] Department of Genetic Epidemiology, Institute of Epidemiology and Preventive Medicine, University of Regensburg, Regensburg, Germany. [2].</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Loos</LastName>
+                    <ForeName>Ruth J F</ForeName>
+                    <Initials>RJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1] The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [2] The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [3] The Genetics of Obesity and Related Metabolic Traits Program, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [4].</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Genetic Investigation of Anthropometric Traits (GIANT) Consortium</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>DK078150</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>CZB/4/672</GrantID>
+                    <Agency>Chief Scientist Office</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01DK075787</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U106179472</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>G1000143</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MR/J012165/1</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 DK075787</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MC_UU_12015/1</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R37 HL066289</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MC_U106179471</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>097117</GrantID>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MC_UU_12015/2</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>14136</GrantID>
+                    <Agency>Cancer Research UK</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U106179471</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MC_U106179472</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>G0401527</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>MR/K013351/1</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 HL007055</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 DK078150</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 HL007427</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>04</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Nat Protoc</MedlineTA>
+            <NlmUniqueID>101284307</NlmUniqueID>
+            <ISSNLinking>1750-2799</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2011 Apr;43(4):333-8</RefSource>
+                <PMID Version="1">21378990</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Hum Genet. 2011 Jul;19(7):807-12</RefSource>
+                <PMID Version="1">21407268</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2011 Oct;43(10):969-76</RefSource>
+                <PMID Version="1">21926974</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arthritis Res Ther. 2011;13(1):101</RefSource>
+                <PMID Version="1">21345260</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2011 Oct;7(10):e1002333</RefSource>
+                <PMID Version="1">22028671</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2012 Jan 13;90(1):7-24</RefSource>
+                <PMID Version="1">22243964</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Feb 1;28(3):444-5</RefSource>
+                <PMID Version="1">22155946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2012 Jun;44(6):659-69</RefSource>
+                <PMID Version="1">22581228</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2012;8(8):e1002793</RefSource>
+                <PMID Version="1">22876189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2012 Sep;44(9):991-1005</RefSource>
+                <PMID Version="1">22885924</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2012 Sep 7;91(3):577-8; author reply 579</RefSource>
+                <PMID Version="1">22958905</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2013 Jan 18;339(6117):321-4</RefSource>
+                <PMID Version="1">23329047</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2013 Feb;45(2):145-54</RefSource>
+                <PMID Version="1">23263486</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2013 Feb;45(2):197-201</RefSource>
+                <PMID Version="1">23263489</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Nov;42(11):937-48</RefSource>
+                <PMID Version="1">20935630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2013 Jun;9(6):e1003500</RefSource>
+                <PMID Version="1">23754948</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 1999 Dec;55(4):997-1004</RefSource>
+                <PMID Version="1">11315092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2003 Sep 6;327(7414):557-60</RefSource>
+                <PMID Version="1">12958120</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Control Clin Trials. 1986 Sep;7(3):177-88</RefSource>
+                <PMID Version="1">3802833</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Evol Biol. 2005 Sep;18(5):1368-73</RefSource>
+                <PMID Version="1">16135132</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2008 Jun;40(6):768-75</RefSource>
+                <PMID Version="1">18454148</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2008 Oct 15;17(R2):R100-1</RefSource>
+                <PMID Version="1">18852196</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2008 Oct 15;17(R2):R122-8</RefSource>
+                <PMID Version="1">18852200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2009 Jan;41(1):25-34</RefSource>
+                <PMID Version="1">19079261</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2009 Jun 9;106(23):9362-7</RefSource>
+                <PMID Version="1">19474294</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2009 Jun;5(6):e1000508</RefSource>
+                <PMID Version="1">19557161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2009 Oct;5(10):e1000628</RefSource>
+                <PMID Version="1">19798439</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 May;42(5):376-84</RefSource>
+                <PMID Version="1">20383146</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Aug 5;466(7307):707-13</RefSource>
+                <PMID Version="1">20686565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Sep 1;26(17):2190-1</RefSource>
+                <PMID Version="1">20616382</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Sep 2;467(7311):52-8</RefSource>
+                <PMID Version="1">20811451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Oct 28;467(7319):1061-73</RefSource>
+                <PMID Version="1">20981092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Oct 14;467(7317):832-8</RefSource>
+                <PMID Version="1">20881960</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2010 Nov;42(11):949-60</RefSource>
+                <PMID Version="1">20935629</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Med. 2011;62:11-24</RefSource>
+                <PMID Version="1">21226609</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Epidemiol. 2011 Jan;35(1):11-8</RefSource>
+                <PMID Version="1">21181894</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2010 Sep;5(9):1564-73</RefSource>
+                <PMID Version="1">21085122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2013 May;45(5):501-12</RefSource>
+                <PMID Version="1">23563607</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D055106" MajorTopicYN="N">Genome-Wide Association Study</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015201" MajorTopicYN="Y">Meta-Analysis as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011786" MajorTopicYN="Y">Quality Control</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">EMS59293</OtherID>
+        <OtherID Source="NLM">PMC4083217</OtherID>
+        <InvestigatorList>
+            <Investigator ValidYN="Y">
+                <LastName>Abecasis</LastName>
+                <ForeName>Goncalo R</ForeName>
+                <Initials>GR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Absher</LastName>
+                <ForeName>Devin</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Alavere</LastName>
+                <ForeName>Helene</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Albrecht</LastName>
+                <ForeName>Eva</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Allen</LastName>
+                <ForeName>Hana Lango</ForeName>
+                <Initials>HL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Almgren</LastName>
+                <ForeName>Peter</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Amin</LastName>
+                <ForeName>Najaf</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Amouyel</LastName>
+                <ForeName>Philippe</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Anderson</LastName>
+                <ForeName>Denise</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Arnold</LastName>
+                <ForeName>Alice M</ForeName>
+                <Initials>AM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Arveiler</LastName>
+                <ForeName>Dominique</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Aspelund</LastName>
+                <ForeName>Thor</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Asselbergs</LastName>
+                <ForeName>Folkert W</ForeName>
+                <Initials>FW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Assimes</LastName>
+                <ForeName>Themistocles L</ForeName>
+                <Initials>TL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Atalay</LastName>
+                <ForeName>Mustafa</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Attwood</LastName>
+                <ForeName>Antony P</ForeName>
+                <Initials>AP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Atwood</LastName>
+                <ForeName>Larry D</ForeName>
+                <Initials>LD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bakker</LastName>
+                <ForeName>Stephan J L</ForeName>
+                <Initials>SJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Balkau</LastName>
+                <ForeName>Beverley</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Balmforth</LastName>
+                <ForeName>Anthony J</ForeName>
+                <Initials>AJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Barlassina</LastName>
+                <ForeName>Cristina</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Barroso</LastName>
+                <ForeName>Inês</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Basart</LastName>
+                <ForeName>Hanneke</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bauer</LastName>
+                <ForeName>Sabrina</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Beckmann</LastName>
+                <ForeName>Jacques S</ForeName>
+                <Initials>JS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Beilby</LastName>
+                <ForeName>John P</ForeName>
+                <Initials>JP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bennett</LastName>
+                <ForeName>Amanda J</ForeName>
+                <Initials>AJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ben-Shlomo</LastName>
+                <ForeName>Yoav</ForeName>
+                <Initials>Y</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bergman</LastName>
+                <ForeName>Richard N</ForeName>
+                <Initials>RN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bergmann</LastName>
+                <ForeName>Sven</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Berndt</LastName>
+                <ForeName>Sonja I</ForeName>
+                <Initials>SI</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Biffar</LastName>
+                <ForeName>Reiner</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Di Blasio</LastName>
+                <ForeName>Anna Maria</ForeName>
+                <Initials>AM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Boehm</LastName>
+                <ForeName>Bernhard O</ForeName>
+                <Initials>BO</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Boehnke</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Boeing</LastName>
+                <ForeName>Heiner</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Boerwinkle</LastName>
+                <ForeName>Eric</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bolton</LastName>
+                <ForeName>Jennifer L</ForeName>
+                <Initials>JL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bonnefond</LastName>
+                <ForeName>Amélie</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bonnycastle</LastName>
+                <ForeName>Lori L</ForeName>
+                <Initials>LL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Boomsma</LastName>
+                <ForeName>Dorret I</ForeName>
+                <Initials>DI</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Borecki</LastName>
+                <ForeName>Ingrid B</ForeName>
+                <Initials>IB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bornstein</LastName>
+                <ForeName>Stefan R</ForeName>
+                <Initials>SR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bouatia-Naji</LastName>
+                <ForeName>Nabila</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Boucher</LastName>
+                <ForeName>Gabrielle</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bragg-Gresham</LastName>
+                <ForeName>Jennifer L</ForeName>
+                <Initials>JL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Brambilla</LastName>
+                <ForeName>Paolo</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bruinenberg</LastName>
+                <ForeName>Marcel</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Buchanan</LastName>
+                <ForeName>Thomas A</ForeName>
+                <Initials>TA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Buechler</LastName>
+                <ForeName>Christa</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cadby</LastName>
+                <ForeName>Gemma</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Campbell</LastName>
+                <ForeName>Harry</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Caulfield</LastName>
+                <ForeName>Mark J</ForeName>
+                <Initials>MJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cavalcanti-Proença</LastName>
+                <ForeName>Christine</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cesana</LastName>
+                <ForeName>Giancarlo</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Chanock</LastName>
+                <ForeName>Stephen J</ForeName>
+                <Initials>SJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Chasman</LastName>
+                <ForeName>Daniel I</ForeName>
+                <Initials>DI</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Chen</LastName>
+                <ForeName>Yii-Der Ida</ForeName>
+                <Initials>YD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Chines</LastName>
+                <ForeName>Peter S</ForeName>
+                <Initials>PS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Clegg</LastName>
+                <ForeName>Deborah J</ForeName>
+                <Initials>DJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Coin</LastName>
+                <ForeName>Lachlan</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Collins</LastName>
+                <ForeName>Francis S</ForeName>
+                <Initials>FS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Connell</LastName>
+                <ForeName>John M</ForeName>
+                <Initials>JM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cookson</LastName>
+                <ForeName>William</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cooper</LastName>
+                <ForeName>Matthew N</ForeName>
+                <Initials>MN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Croteau-Chonka</LastName>
+                <ForeName>Damien C</ForeName>
+                <Initials>DC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cupples</LastName>
+                <ForeName>L Adrienne</ForeName>
+                <Initials>LA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Cusi</LastName>
+                <ForeName>Daniele</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Day</LastName>
+                <ForeName>Felix R</ForeName>
+                <Initials>FR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Day</LastName>
+                <ForeName>Ian N M</ForeName>
+                <Initials>IN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dedoussis</LastName>
+                <ForeName>George V</ForeName>
+                <Initials>GV</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dei</LastName>
+                <ForeName>Mariano</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Deloukas</LastName>
+                <ForeName>Panos</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dermitzakis</LastName>
+                <ForeName>Emmanouil T</ForeName>
+                <Initials>ET</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dimas</LastName>
+                <ForeName>Antigone S</ForeName>
+                <Initials>AS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dimitriou</LastName>
+                <ForeName>Maria</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dixon</LastName>
+                <ForeName>Anna L</ForeName>
+                <Initials>AL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dörr</LastName>
+                <ForeName>Marcus</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>van Duijn</LastName>
+                <ForeName>Cornelia M</ForeName>
+                <Initials>CM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ebrahim</LastName>
+                <ForeName>Shah</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Edkins</LastName>
+                <ForeName>Sarah</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Eiriksdottir</LastName>
+                <ForeName>Gudny</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Eisinger</LastName>
+                <ForeName>Kristina</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Eklund</LastName>
+                <ForeName>Niina</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Elliott</LastName>
+                <ForeName>Paul</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Erbel</LastName>
+                <ForeName>Raimund</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Erdmann</LastName>
+                <ForeName>Jeanette</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Erdos</LastName>
+                <ForeName>Michael R</ForeName>
+                <Initials>MR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Eriksson</LastName>
+                <ForeName>Johan G</ForeName>
+                <Initials>JG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Esko</LastName>
+                <ForeName>Tõnu</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Estrada</LastName>
+                <ForeName>Karol</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Evans</LastName>
+                <ForeName>David M</ForeName>
+                <Initials>DM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>de Faire</LastName>
+                <ForeName>Ulf</ForeName>
+                <Initials>U</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fall</LastName>
+                <ForeName>Tove</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Farrall</LastName>
+                <ForeName>Martin</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Feitosa</LastName>
+                <ForeName>Mary F</ForeName>
+                <Initials>MF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ferrario</LastName>
+                <ForeName>Marco M</ForeName>
+                <Initials>MM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ferreira</LastName>
+                <ForeName>Teresa</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ferrières</LastName>
+                <ForeName>Jean</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fischer</LastName>
+                <ForeName>Krista</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fisher</LastName>
+                <ForeName>Eva</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fowkes</LastName>
+                <ForeName>Gerry</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fox</LastName>
+                <ForeName>Caroline S</ForeName>
+                <Initials>CS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Franke</LastName>
+                <ForeName>Lude</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Franks</LastName>
+                <ForeName>Paul W</ForeName>
+                <Initials>PW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fraser</LastName>
+                <ForeName>Ross M</ForeName>
+                <Initials>RM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Frau</LastName>
+                <ForeName>Francesca</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Frayling</LastName>
+                <ForeName>Timothy</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Freimer</LastName>
+                <ForeName>Nelson B</ForeName>
+                <Initials>NB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Froguel</LastName>
+                <ForeName>Philippe</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Fu</LastName>
+                <ForeName>Mao</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gaget</LastName>
+                <ForeName>Stefan</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ganna</LastName>
+                <ForeName>Andrea</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gejman</LastName>
+                <ForeName>Pablo V</ForeName>
+                <Initials>PV</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gentilini</LastName>
+                <ForeName>Davide</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Geus</LastName>
+                <ForeName>Eco J C</ForeName>
+                <Initials>EJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gieger</LastName>
+                <ForeName>Christian</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gigante</LastName>
+                <ForeName>Bruna</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gjesing</LastName>
+                <ForeName>Anette P</ForeName>
+                <Initials>AP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Glazer</LastName>
+                <ForeName>Nicole L</ForeName>
+                <Initials>NL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Goddard</LastName>
+                <ForeName>Michael E</ForeName>
+                <Initials>ME</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Goel</LastName>
+                <ForeName>Anuj</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Grallert</LastName>
+                <ForeName>Harald</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gräßler</LastName>
+                <ForeName>Jürgen</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Grönberg</LastName>
+                <ForeName>Henrik</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Groop</LastName>
+                <ForeName>Leif C</ForeName>
+                <Initials>LC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Groves</LastName>
+                <ForeName>Christopher J</ForeName>
+                <Initials>CJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gudnason</LastName>
+                <ForeName>Vilmundur</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Guiducci</LastName>
+                <ForeName>Candace</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gustafsson</LastName>
+                <ForeName>Stefan</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gyllensten</LastName>
+                <ForeName>Ulf</ForeName>
+                <Initials>U</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hall</LastName>
+                <ForeName>Alistair S</ForeName>
+                <Initials>AS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hall</LastName>
+                <ForeName>Per</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hallmans</LastName>
+                <ForeName>Göran</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hamsten</LastName>
+                <ForeName>Anders</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hansen</LastName>
+                <ForeName>Torben</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Haritunians</LastName>
+                <ForeName>Talin</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Harris</LastName>
+                <ForeName>Tamara B</ForeName>
+                <Initials>TB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>van der Harst</LastName>
+                <ForeName>Pim</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hartikainen</LastName>
+                <ForeName>Anna-Liisa</ForeName>
+                <Initials>AL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hassanali</LastName>
+                <ForeName>Neelam</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hattersley</LastName>
+                <ForeName>Andrew T</ForeName>
+                <Initials>AT</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Havulinna</LastName>
+                <ForeName>Aki S</ForeName>
+                <Initials>AS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hayward</LastName>
+                <ForeName>Caroline</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Heard-Costa</LastName>
+                <ForeName>Nancy L</ForeName>
+                <Initials>NL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Heath</LastName>
+                <ForeName>Andrew C</ForeName>
+                <Initials>AC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hebebrand</LastName>
+                <ForeName>Johannes</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Heid</LastName>
+                <ForeName>Iris M</ForeName>
+                <Initials>IM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>den Heijer</LastName>
+                <ForeName>Martin</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hengstenberg</LastName>
+                <ForeName>Christian</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Herzig</LastName>
+                <ForeName>Karl-Heinz</ForeName>
+                <Initials>KH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hicks</LastName>
+                <ForeName>Andrew A</ForeName>
+                <Initials>AA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hingorani</LastName>
+                <ForeName>Aroon</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hinney</LastName>
+                <ForeName>Anke</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hirschhorn</LastName>
+                <ForeName>Joel N</ForeName>
+                <Initials>JN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hofman</LastName>
+                <ForeName>Albert</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Holmes</LastName>
+                <ForeName>Christopher C</ForeName>
+                <Initials>CC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Homuth</LastName>
+                <ForeName>Georg</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hottenga</LastName>
+                <ForeName>Jouke-Jan</ForeName>
+                <Initials>JJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hovingh</LastName>
+                <ForeName>Kees G</ForeName>
+                <Initials>KG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hu</LastName>
+                <ForeName>Frank B</ForeName>
+                <Initials>FB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hu</LastName>
+                <ForeName>Yi-Juan</ForeName>
+                <Initials>YJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Huffman</LastName>
+                <ForeName>Jennifer E</ForeName>
+                <Initials>JE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hui</LastName>
+                <ForeName>Jennie</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Huikuri</LastName>
+                <ForeName>Heikki</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Humphries</LastName>
+                <ForeName>Steve E</ForeName>
+                <Initials>SE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hung</LastName>
+                <ForeName>Joseph</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hunt</LastName>
+                <ForeName>Sarah E</ForeName>
+                <Initials>SE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hunter</LastName>
+                <ForeName>David</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hveem</LastName>
+                <ForeName>Kristian</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hyppönen</LastName>
+                <ForeName>Elina</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Igl</LastName>
+                <ForeName>Wilmar</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Illig</LastName>
+                <ForeName>Thomas</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ingelsson</LastName>
+                <ForeName>Erik</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Iribarren</LastName>
+                <ForeName>Carlos</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Isomaa</LastName>
+                <ForeName>Bo</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jackson</LastName>
+                <ForeName>Anne U</ForeName>
+                <Initials>AU</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jacobs</LastName>
+                <ForeName>Kevin B</ForeName>
+                <Initials>KB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>James</LastName>
+                <ForeName>Alan L</ForeName>
+                <Initials>AL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jansson</LastName>
+                <ForeName>John-Olov</ForeName>
+                <Initials>JO</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jarick</LastName>
+                <ForeName>Ivonne</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jarvelin</LastName>
+                <ForeName>Marjo-Riitta</ForeName>
+                <Initials>MR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jöckel</LastName>
+                <ForeName>Karl-Heinz</ForeName>
+                <Initials>KH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Johansson</LastName>
+                <ForeName>Åsa</ForeName>
+                <Initials>Å</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Johnson</LastName>
+                <ForeName>Toby</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jolley</LastName>
+                <ForeName>Jennifer</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jørgensen</LastName>
+                <ForeName>Torben</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jousilahti</LastName>
+                <ForeName>Pekka</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jula</LastName>
+                <ForeName>Antti</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Justice</LastName>
+                <ForeName>Anne E</ForeName>
+                <Initials>AE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kaakinen</LastName>
+                <ForeName>Marika</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kähönen</LastName>
+                <ForeName>Mika</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kajantie</LastName>
+                <ForeName>Eero</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kanoni</LastName>
+                <ForeName>Stavroula</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kao</LastName>
+                <ForeName>W H Linda</ForeName>
+                <Initials>WH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kaplan</LastName>
+                <ForeName>Lee M</ForeName>
+                <Initials>LM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kaplan</LastName>
+                <ForeName>Robert C</ForeName>
+                <Initials>RC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kaprio</LastName>
+                <ForeName>Jaakko</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kapur</LastName>
+                <ForeName>Karen</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Karpe</LastName>
+                <ForeName>Fredrik</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kathiresan</LastName>
+                <ForeName>Sekar</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kee</LastName>
+                <ForeName>Frank</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Keinanen-Kiukaanniemi</LastName>
+                <ForeName>Sirkka M</ForeName>
+                <Initials>SM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ketkar</LastName>
+                <ForeName>Shamika</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kettunen</LastName>
+                <ForeName>Johannes</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Khaw</LastName>
+                <ForeName>Kay-Tee</ForeName>
+                <Initials>KT</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kiemeney</LastName>
+                <ForeName>Lambertus A</ForeName>
+                <Initials>LA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kilpeläinen</LastName>
+                <ForeName>Tuomas O</ForeName>
+                <Initials>TO</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kinnunen</LastName>
+                <ForeName>Leena</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kivimaki</LastName>
+                <ForeName>Mika</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kivmaki</LastName>
+                <ForeName>Mika</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Van der Klauw</LastName>
+                <ForeName>Melanie M</ForeName>
+                <Initials>MM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kleber</LastName>
+                <ForeName>Marcus E</ForeName>
+                <Initials>ME</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Knowles</LastName>
+                <ForeName>Joshua W</ForeName>
+                <Initials>JW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Koenig</LastName>
+                <ForeName>Wolfgang</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kolcic</LastName>
+                <ForeName>Ivana</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kolovou</LastName>
+                <ForeName>Genovefa</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>König</LastName>
+                <ForeName>Inke R</ForeName>
+                <Initials>IR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Koskinen</LastName>
+                <ForeName>Seppo</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kovacs</LastName>
+                <ForeName>Peter</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kraft</LastName>
+                <ForeName>Peter</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kraja</LastName>
+                <ForeName>Aldi T</ForeName>
+                <Initials>AT</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kristiansson</LastName>
+                <ForeName>Kati</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>KrjutÅjkov</LastName>
+                <ForeName>Kaarel</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kroemer</LastName>
+                <ForeName>Heyo K</ForeName>
+                <Initials>HK</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Krohn</LastName>
+                <ForeName>Jon P</ForeName>
+                <Initials>JP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Krzelj</LastName>
+                <ForeName>Vjekoslav</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kuh</LastName>
+                <ForeName>Diana</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kulzer</LastName>
+                <ForeName>Jennifer R</ForeName>
+                <Initials>JR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kumari</LastName>
+                <ForeName>Meena</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kutalik</LastName>
+                <ForeName>Zoltán</ForeName>
+                <Initials>Z</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kuulasmaa</LastName>
+                <ForeName>Kari</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kuusisto</LastName>
+                <ForeName>Johanna</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kvaloy</LastName>
+                <ForeName>Kirsti</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Laakso</LastName>
+                <ForeName>Markku</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Laitinen</LastName>
+                <ForeName>Jaana H</ForeName>
+                <Initials>JH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lakka</LastName>
+                <ForeName>Timo A</ForeName>
+                <Initials>TA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lamina</LastName>
+                <ForeName>Claudia</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Langenberg</LastName>
+                <ForeName>Claudia</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lantieri</LastName>
+                <ForeName>Olivier</ForeName>
+                <Initials>O</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lathrop</LastName>
+                <ForeName>G Mark</ForeName>
+                <Initials>GM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Launer</LastName>
+                <ForeName>Lenore J</ForeName>
+                <Initials>LJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lawlor</LastName>
+                <ForeName>Debbie A</ForeName>
+                <Initials>DA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lawrence</LastName>
+                <ForeName>Robert W</ForeName>
+                <Initials>RW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Leach</LastName>
+                <ForeName>Irene M</ForeName>
+                <Initials>IM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lecoeur</LastName>
+                <ForeName>Cecile</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lee</LastName>
+                <ForeName>Sang Hong</ForeName>
+                <Initials>SH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lehtimäki</LastName>
+                <ForeName>Terho</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Leitzmann</LastName>
+                <ForeName>Michael F</ForeName>
+                <Initials>MF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lettre</LastName>
+                <ForeName>Guillaume</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Levinson</LastName>
+                <ForeName>Douglas F</ForeName>
+                <Initials>DF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Li</LastName>
+                <ForeName>Guo</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Li</LastName>
+                <ForeName>Shengxu</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Liang</LastName>
+                <ForeName>Liming</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lin</LastName>
+                <ForeName>Dan-Yu</ForeName>
+                <Initials>DY</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lind</LastName>
+                <ForeName>Lars</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lindgren</LastName>
+                <ForeName>Cecilia M</ForeName>
+                <Initials>CM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lindström</LastName>
+                <ForeName>Jaana</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Liu</LastName>
+                <ForeName>Jianjun</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Liuzzi</LastName>
+                <ForeName>Antonio</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Locke</LastName>
+                <ForeName>Adam E</ForeName>
+                <Initials>AE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lokki</LastName>
+                <ForeName>Marja-Liisa</ForeName>
+                <Initials>ML</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Loley</LastName>
+                <ForeName>Christina</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Loos</LastName>
+                <ForeName>Ruth J F</ForeName>
+                <Initials>RJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lorentzon</LastName>
+                <ForeName>Mattias</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Luan</LastName>
+                <ForeName>Jian'an</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Luben</LastName>
+                <ForeName>Robert N</ForeName>
+                <Initials>RN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ludwig</LastName>
+                <ForeName>Barbara</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Madden</LastName>
+                <ForeName>Pamela A</ForeName>
+                <Initials>PA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mägi</LastName>
+                <ForeName>Reedik</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Magnusson</LastName>
+                <ForeName>Patrik K E</ForeName>
+                <Initials>PK</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mangino</LastName>
+                <ForeName>Massimo</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Manunta</LastName>
+                <ForeName>Paolo</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Marek</LastName>
+                <ForeName>Diana</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Marre</LastName>
+                <ForeName>Michel</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Martin</LastName>
+                <ForeName>Nicholas G</ForeName>
+                <Initials>NG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>März</LastName>
+                <ForeName>Winfried</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Maschio</LastName>
+                <ForeName>Andrea</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mathieson</LastName>
+                <ForeName>Iain</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>McArdle</LastName>
+                <ForeName>Wendy L</ForeName>
+                <Initials>WL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>McCaroll</LastName>
+                <ForeName>Steven A</ForeName>
+                <Initials>SA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>McCarthy</LastName>
+                <ForeName>Anne</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>McCarthy</LastName>
+                <ForeName>Mark I</ForeName>
+                <Initials>MI</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>McKnight</LastName>
+                <ForeName>Barbara</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Medina-Gomez</LastName>
+                <ForeName>Carolina</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Medland</LastName>
+                <ForeName>Sarah E</ForeName>
+                <Initials>SE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Meitinger</LastName>
+                <ForeName>Thomas</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Metspalu</LastName>
+                <ForeName>Andres</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>van Meurs</LastName>
+                <ForeName>Joyce B J</ForeName>
+                <Initials>JB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Meyre</LastName>
+                <ForeName>David</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Midthjell</LastName>
+                <ForeName>Kristian</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mihailov</LastName>
+                <ForeName>Evelin</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Milani</LastName>
+                <ForeName>Lili</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Min</LastName>
+                <ForeName>Josine L</ForeName>
+                <Initials>JL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Moebus</LastName>
+                <ForeName>Susanne</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Moffatt</LastName>
+                <ForeName>Miriam F</ForeName>
+                <Initials>MF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mohlke</LastName>
+                <ForeName>Karen L</ForeName>
+                <Initials>KL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Molony</LastName>
+                <ForeName>Cliona</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Monda</LastName>
+                <ForeName>Keri L</ForeName>
+                <Initials>KL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Montgomery</LastName>
+                <ForeName>Grant W</ForeName>
+                <Initials>GW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mooser</LastName>
+                <ForeName>Vincent</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Morken</LastName>
+                <ForeName>Mario A</ForeName>
+                <Initials>MA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Morris</LastName>
+                <ForeName>Andrew D</ForeName>
+                <Initials>AD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Morris</LastName>
+                <ForeName>Andrew P</ForeName>
+                <Initials>AP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mühleisen</LastName>
+                <ForeName>Thomas W</ForeName>
+                <Initials>TW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Müller-Nurasyid</LastName>
+                <ForeName>Martina</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Munroe</LastName>
+                <ForeName>Patricia B</ForeName>
+                <Initials>PB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Musk</LastName>
+                <ForeName>Arthur W</ForeName>
+                <Initials>AW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Narisu</LastName>
+                <ForeName>Narisu</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Navis</LastName>
+                <ForeName>Gerjan</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Neale</LastName>
+                <ForeName>Benjamin M</ForeName>
+                <Initials>BM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nelis</LastName>
+                <ForeName>Mari</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nemesh</LastName>
+                <ForeName>James</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Neville</LastName>
+                <ForeName>Matt J</ForeName>
+                <Initials>MJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ngwa</LastName>
+                <ForeName>Julius S</ForeName>
+                <Initials>JS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nicholson</LastName>
+                <ForeName>George</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nieminen</LastName>
+                <ForeName>Markku S</ForeName>
+                <Initials>MS</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Njølstad</LastName>
+                <ForeName>Inger</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nohr</LastName>
+                <ForeName>Ellen A</ForeName>
+                <Initials>EA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nolte</LastName>
+                <ForeName>Ilja M</ForeName>
+                <Initials>IM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>North</LastName>
+                <ForeName>Kari E</ForeName>
+                <Initials>KE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nöthen</LastName>
+                <ForeName>Markus M</ForeName>
+                <Initials>MM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Nyholt</LastName>
+                <ForeName>Dale R</ForeName>
+                <Initials>DR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>O'Connell</LastName>
+                <ForeName>Jeffrey R</ForeName>
+                <Initials>JR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ohlsson</LastName>
+                <ForeName>Claes</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Oldehinkel</LastName>
+                <ForeName>Albertine J</ForeName>
+                <Initials>AJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>van Ommen</LastName>
+                <ForeName>Gert-Jan</ForeName>
+                <Initials>GJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ong</LastName>
+                <ForeName>Ken K</ForeName>
+                <Initials>KK</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Oostra</LastName>
+                <ForeName>Ben A</ForeName>
+                <Initials>BA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ouwehand</LastName>
+                <ForeName>Willem H</ForeName>
+                <Initials>WH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Palmer</LastName>
+                <ForeName>Colin N A</ForeName>
+                <Initials>CN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Palmer</LastName>
+                <ForeName>Lyle J</ForeName>
+                <Initials>LJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Palotie</LastName>
+                <ForeName>Aarno</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Paré</LastName>
+                <ForeName>Guillaume</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Parker</LastName>
+                <ForeName>Alex N</ForeName>
+                <Initials>AN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Paternoster</LastName>
+                <ForeName>Lavinia</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pawitan</LastName>
+                <ForeName>Yudi</ForeName>
+                <Initials>Y</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pechlivanis</LastName>
+                <ForeName>Sonali</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Peden</LastName>
+                <ForeName>John F</ForeName>
+                <Initials>JF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pedersen</LastName>
+                <ForeName>Nancy L</ForeName>
+                <Initials>NL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pedersen</LastName>
+                <ForeName>Oluf</ForeName>
+                <Initials>O</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pellikka</LastName>
+                <ForeName>Niina</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Peltonen</LastName>
+                <ForeName>Leena</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Penninx</LastName>
+                <ForeName>Brenda</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Perola</LastName>
+                <ForeName>Markus</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Perry</LastName>
+                <ForeName>John R B</ForeName>
+                <Initials>JR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Person</LastName>
+                <ForeName>Thomas</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Peters</LastName>
+                <ForeName>Annette</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Peters</LastName>
+                <ForeName>Marjolein J</ForeName>
+                <Initials>MJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pichler</LastName>
+                <ForeName>Irene</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pietiläinen</LastName>
+                <ForeName>Kirsi H</ForeName>
+                <Initials>KH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Platou</LastName>
+                <ForeName>Carl G P</ForeName>
+                <Initials>CG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Polasek</LastName>
+                <ForeName>Ozren</ForeName>
+                <Initials>O</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pouta</LastName>
+                <ForeName>Anneli</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Power</LastName>
+                <ForeName>Chris</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pramstaller</LastName>
+                <ForeName>Peter P</ForeName>
+                <Initials>PP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Preuss</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Price</LastName>
+                <ForeName>Jackie F</ForeName>
+                <Initials>JF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Prokopenko</LastName>
+                <ForeName>Inga</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Province</LastName>
+                <ForeName>Michael A</ForeName>
+                <Initials>MA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Psaty</LastName>
+                <ForeName>Bruce M</ForeName>
+                <Initials>BM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Purcell</LastName>
+                <ForeName>Shaun</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pütter</LastName>
+                <ForeName>Carolin</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Qi</LastName>
+                <ForeName>Lu</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Quertermous</LastName>
+                <ForeName>Thomas</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Radhakrishnan</LastName>
+                <ForeName>Aparna</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Raitakari</LastName>
+                <ForeName>Olli</ForeName>
+                <Initials>O</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Randall</LastName>
+                <ForeName>Joshua C</ForeName>
+                <Initials>JC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rauramaa</LastName>
+                <ForeName>Rainer</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rayner</LastName>
+                <ForeName>Nigel W</ForeName>
+                <Initials>NW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rehnberg</LastName>
+                <ForeName>Emil</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rendon</LastName>
+                <ForeName>Augusto</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ridderstråle</LastName>
+                <ForeName>Martin</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ridker</LastName>
+                <ForeName>Paul M</ForeName>
+                <Initials>PM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ripatti</LastName>
+                <ForeName>Samuli</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rissanen</LastName>
+                <ForeName>Aila</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rivadeneira</LastName>
+                <ForeName>Fernando</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rivolta</LastName>
+                <ForeName>Carlo</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Robertson</LastName>
+                <ForeName>Neil R</ForeName>
+                <Initials>NR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rose</LastName>
+                <ForeName>Lynda M</ForeName>
+                <Initials>LM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rudan</LastName>
+                <ForeName>Igor</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Saaristo</LastName>
+                <ForeName>Timo E</ForeName>
+                <Initials>TE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sager</LastName>
+                <ForeName>Hendrik</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Salomaa</LastName>
+                <ForeName>Veikko</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Samani</LastName>
+                <ForeName>Nilesh J</ForeName>
+                <Initials>NJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sambrook</LastName>
+                <ForeName>Jennifer G</ForeName>
+                <Initials>JG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sanders</LastName>
+                <ForeName>Alan R</ForeName>
+                <Initials>AR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sandholt</LastName>
+                <ForeName>Camilla</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sanna</LastName>
+                <ForeName>Serena</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Saramies</LastName>
+                <ForeName>Jouko</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schadt</LastName>
+                <ForeName>Eric E</ForeName>
+                <Initials>EE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Scherag</LastName>
+                <ForeName>Andre</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schipf</LastName>
+                <ForeName>Sabine</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schlessinger</LastName>
+                <ForeName>David</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schreiber</LastName>
+                <ForeName>Stefan</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schunkert</LastName>
+                <ForeName>Heribert</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schwarz</LastName>
+                <ForeName>Peter E H</ForeName>
+                <Initials>PE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Scott</LastName>
+                <ForeName>Laura J</ForeName>
+                <Initials>LJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Shi</LastName>
+                <ForeName>Jianxin</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Shin</LastName>
+                <ForeName>So-Youn</ForeName>
+                <Initials>SY</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Shuldiner</LastName>
+                <ForeName>Alan R</ForeName>
+                <Initials>AR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Shungin</LastName>
+                <ForeName>Dmitry</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Signorini</LastName>
+                <ForeName>Stefano</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Silander</LastName>
+                <ForeName>Kaisa</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sinisalo</LastName>
+                <ForeName>Juha</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Skrobek</LastName>
+                <ForeName>Boris</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Smit</LastName>
+                <ForeName>Jan H</ForeName>
+                <Initials>JH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Smith</LastName>
+                <ForeName>Albert Vernon</ForeName>
+                <Initials>AV</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Smith</LastName>
+                <ForeName>George Davey</ForeName>
+                <Initials>GD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Snieder</LastName>
+                <ForeName>Harold</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Soranzo</LastName>
+                <ForeName>Nicole</ForeName>
+                <Initials>N</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sørensen</LastName>
+                <ForeName>Thorkild I A</ForeName>
+                <Initials>TI</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sovio</LastName>
+                <ForeName>Ulla</ForeName>
+                <Initials>U</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Spector</LastName>
+                <ForeName>Timothy D</ForeName>
+                <Initials>TD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Speliotes</LastName>
+                <ForeName>Elizabeth K</ForeName>
+                <Initials>EK</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stančáková</LastName>
+                <ForeName>Alena</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stark</LastName>
+                <ForeName>Klaus</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stefansson</LastName>
+                <ForeName>Kari</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Steinthorsdottir</LastName>
+                <ForeName>Valgerdur</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stephens</LastName>
+                <ForeName>Jonathan C</ForeName>
+                <Initials>JC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stirrups</LastName>
+                <ForeName>Kathleen</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stolk</LastName>
+                <ForeName>Ronald P</ForeName>
+                <Initials>RP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Strachan</LastName>
+                <ForeName>David P</ForeName>
+                <Initials>DP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Strawbridge</LastName>
+                <ForeName>Rona J</ForeName>
+                <Initials>RJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stringham</LastName>
+                <ForeName>Heather M</ForeName>
+                <Initials>HM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stumvoll</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Surakka</LastName>
+                <ForeName>Ida</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Swift</LastName>
+                <ForeName>Amy J</ForeName>
+                <Initials>AJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Syvanen</LastName>
+                <ForeName>Ann-Christine</ForeName>
+                <Initials>AC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tammesoo</LastName>
+                <ForeName>Mari-Liis</ForeName>
+                <Initials>ML</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Teder-Laving</LastName>
+                <ForeName>Maris</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Teslovich</LastName>
+                <ForeName>Tanya M</ForeName>
+                <Initials>TM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Teumer</LastName>
+                <ForeName>Alexander</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Theodoraki</LastName>
+                <ForeName>Eirini V</ForeName>
+                <Initials>EV</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Thomson</LastName>
+                <ForeName>Brian</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Thorand</LastName>
+                <ForeName>Barbara</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Thorleifsson</LastName>
+                <ForeName>Gudmar</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Thorsteinsdottir</LastName>
+                <ForeName>Unnur</ForeName>
+                <Initials>U</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Timpson</LastName>
+                <ForeName>Nicholas John</ForeName>
+                <Initials>NJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tönjes</LastName>
+                <ForeName>Anke</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tregouet</LastName>
+                <ForeName>David-Alexandre</ForeName>
+                <Initials>DA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tremoli</LastName>
+                <ForeName>Elena</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Trip</LastName>
+                <ForeName>Mieke D</ForeName>
+                <Initials>MD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tuomi</LastName>
+                <ForeName>Tiinamaija</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tuomilehto</LastName>
+                <ForeName>Jaakko</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tyrer</LastName>
+                <ForeName>Jonathan</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Uda</LastName>
+                <ForeName>Manuela</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Uitterlinden</LastName>
+                <ForeName>André G</ForeName>
+                <Initials>AG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Usala</LastName>
+                <ForeName>Gianluca</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Uusitupa</LastName>
+                <ForeName>Matti</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Valle</LastName>
+                <ForeName>Timo T</ForeName>
+                <Initials>TT</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vandenput</LastName>
+                <ForeName>Liesbeth</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vatin</LastName>
+                <ForeName>Vincent</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vedantam</LastName>
+                <ForeName>Sailaja</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>de Vegt</LastName>
+                <ForeName>Femmie</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vermeulen</LastName>
+                <ForeName>Sita H</ForeName>
+                <Initials>SH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Viikari</LastName>
+                <ForeName>Jorma</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Virtamo</LastName>
+                <ForeName>Jarmo</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Visscher</LastName>
+                <ForeName>Peter M</ForeName>
+                <Initials>PM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vitart</LastName>
+                <ForeName>Veronique</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Van Vliet-Ostaptchouk</LastName>
+                <ForeName>Jana V</ForeName>
+                <Initials>JV</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Voight</LastName>
+                <ForeName>Benjamin F</ForeName>
+                <Initials>BF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vollenweider</LastName>
+                <ForeName>Peter</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Volpato</LastName>
+                <ForeName>Claudia B</ForeName>
+                <Initials>CB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Völzke</LastName>
+                <ForeName>Henry</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Waeber</LastName>
+                <ForeName>Gérard</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Waite</LastName>
+                <ForeName>Lindsay L</ForeName>
+                <Initials>LL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wallaschofski</LastName>
+                <ForeName>Henri</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Walters</LastName>
+                <ForeName>G Bragi</ForeName>
+                <Initials>GB</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wang</LastName>
+                <ForeName>Zhaoming</ForeName>
+                <Initials>Z</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wareham</LastName>
+                <ForeName>Nicholas J</ForeName>
+                <Initials>NJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Watanabe</LastName>
+                <ForeName>Richard M</ForeName>
+                <Initials>RM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Watkins</LastName>
+                <ForeName>Hugh</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Weedon</LastName>
+                <ForeName>Michael N</ForeName>
+                <Initials>MN</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Welch</LastName>
+                <ForeName>Ryan</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Weyant</LastName>
+                <ForeName>Robert J</ForeName>
+                <Initials>RJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wheeler</LastName>
+                <ForeName>Eleanor</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>White</LastName>
+                <ForeName>Charles C</ForeName>
+                <Initials>CC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wichmann</LastName>
+                <ForeName>H-Erich</ForeName>
+                <Initials>HE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Widen</LastName>
+                <ForeName>Elisabeth</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wild</LastName>
+                <ForeName>Sarah H</ForeName>
+                <Initials>SH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Willemsen</LastName>
+                <ForeName>Gonneke</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Willer</LastName>
+                <ForeName>Cristen J</ForeName>
+                <Initials>CJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wilsgaard</LastName>
+                <ForeName>Tom</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wilson</LastName>
+                <ForeName>James F</ForeName>
+                <Initials>JF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>van Wingerden</LastName>
+                <ForeName>Sophie</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Winkelmann</LastName>
+                <ForeName>Bernhard R</ForeName>
+                <Initials>BR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Winkler</LastName>
+                <ForeName>Thomas W</ForeName>
+                <Initials>TW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Witte</LastName>
+                <ForeName>Daniel R</ForeName>
+                <Initials>DR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Witteman</LastName>
+                <ForeName>Jacqueline C M</ForeName>
+                <Initials>JC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wolffenbuttel</LastName>
+                <ForeName>Bruce H R</ForeName>
+                <Initials>BH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wong</LastName>
+                <ForeName>Andrew</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wood</LastName>
+                <ForeName>Andrew R</ForeName>
+                <Initials>AR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Workalemahu</LastName>
+                <ForeName>Tsegaselassie</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wright</LastName>
+                <ForeName>Alan F</ForeName>
+                <Initials>AF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Yang</LastName>
+                <ForeName>Jian</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Yarnell</LastName>
+                <ForeName>John W G</ForeName>
+                <Initials>JW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Zgaga</LastName>
+                <ForeName>Lina</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Zhao</LastName>
+                <ForeName>Jing Hua</ForeName>
+                <Initials>JH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Zillikens</LastName>
+                <ForeName>M Carola</ForeName>
+                <Initials>MC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Zitting</LastName>
+                <ForeName>Paavo</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Zondervan</LastName>
+                <ForeName>Krina T</ForeName>
+                <Initials>KT</Initials>
+            </Investigator>
+        </InvestigatorList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24762786</ArticleId>
+            <ArticleId IdType="pii">nprot.2014.071</ArticleId>
+            <ArticleId IdType="doi">10.1038/nprot.2014.071</ArticleId>
+            <ArticleId IdType="pmc">PMC4083217</ArticleId>
+            <ArticleId IdType="mid">EMS59293</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,112 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28919667</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0885-6125</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>99</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Machine learning</Title>
+                <ISOAbbreviation>Mach Learn</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The Effect of Splitting on Random Forests.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>75-118</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s10994-014-5451-2</ELocationID>
+            <Abstract>
+                <AbstractText>The effect of a splitting rule on random forests (RF) is systematically studied for regression and classification problems. A class of weighted splitting rules, which includes as special cases CART weighted variance splitting and Gini index splitting, are studied in detail and shown to possess a unique adaptive property to signal and noise. We show for noisy variables that weighted splitting favors end-cut splits. While end-cut splits have traditionally been viewed as undesirable for single trees, we argue for deeply grown trees (a trademark of RF) end-cut splitting is useful because: (a) it maximizes the sample size making it possible for a tree to recover from a bad split, and (b) if a branch repeatedly splits on noise, the tree minimal node size will be reached which promotes termination of the bad branch. For strong variables, weighted variance splitting is shown to possess the desirable property of splitting at points of curvature of the underlying target function. This adaptivity to both noise and signal does not hold for unweighted and heavy weighted splitting rules. These latter rules are either too greedy, making them poor at recognizing noisy scenarios, or they are overly ECP aggressive, making them poor at recognizing signal. These results also shed light on pure random splitting and show that such rules are the least effective. On the other hand, because randomized rules are desirable because of their computational efficiency, we introduce a hybrid method employing random split-point selection which retains the adaptive property of weighted splitting rules while remaining computational efficient.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ishwaran</LastName>
+                    <ForeName>Hemant</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Miami.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 CA163739</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>07</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Mach Learn</MedlineTA>
+            <NlmUniqueID>9881780</NlmUniqueID>
+            <ISSNLinking>0885-6125</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Inf Med. 2012;51(1):74-81</RefSource>
+                <PMID Version="1">21915433</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CART</Keyword>
+            <Keyword MajorTopicYN="N">end-cut preference</Keyword>
+            <Keyword MajorTopicYN="N">law of the iterated logarithm</Keyword>
+            <Keyword MajorTopicYN="N">split-point</Keyword>
+            <Keyword MajorTopicYN="N">splitting rule</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>4</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>4</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28919667</ArticleId>
+            <ArticleId IdType="doi">10.1007/s10994-014-5451-2</ArticleId>
+            <ArticleId IdType="pmc">PMC5599182</ArticleId>
+            <ArticleId IdType="mid">NIHMS902500</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

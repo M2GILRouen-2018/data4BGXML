@@ -1,0 +1,272 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28127303</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1687-4145</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2017</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>EURASIP journal on bioinformatics &amp; systems biology</Title>
+                <ISOAbbreviation>EURASIP J Bioinform Syst Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Reverse engineering gene regulatory networks from measurement with missing values.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13637-016-0055-8</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Gene expression time series data are usually in the form of high-dimensional arrays. Unfortunately, the data may sometimes contain missing values: for either the expression values of some genes at some time points or the entire expression values of a single time point or some sets of consecutive time points. This significantly affects the performance of many algorithms for gene expression analysis that take as an input, the complete matrix of gene expression measurement. For instance, previous works have shown that gene regulatory interactions can be estimated from the complete matrix of gene expression measurement. Yet, till date, few algorithms have been proposed for the inference of gene regulatory network from gene expression data with missing values.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We describe a nonlinear dynamic stochastic model for the evolution of gene expression. The model captures the structural, dynamical, and the nonlinear natures of the underlying biomolecular systems. We present point-based Gaussian approximation (PBGA) filters for joint state and parameter estimation of the system with one-step or two-step missing measurements. The PBGA filters use Gaussian approximation and various quadrature rules, such as the unscented transform (UT), the third-degree cubature rule and the central difference rule for computing the related posteriors. The proposed algorithm is evaluated with satisfying results for synthetic networks, in silico networks released as a part of the DREAM project, and the real biological network, the in vivo reverse engineering and modeling assessment (IRMA) network of yeast Saccharomyces cerevisiae.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">PBGA filters are proposed to elucidate the underlying gene regulatory network (GRN) from time series gene expression data that contain missing values. In our state-space model, we proposed a measurement model that incorporates the effect of the missing data points into the sequential algorithm. This approach produces a better inference of the model parameters and hence, more accurate prediction of the underlying GRN compared to when using the conventional Gaussian approximation (GA) filters ignoring the missing data points.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ogundijo</LastName>
+                    <ForeName>Oyetunji E</ForeName>
+                    <Initials>OE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Columbia University, 500 W 120th Street, New York, 10027 NY USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Elmas</LastName>
+                    <ForeName>Abdulkadir</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Columbia University, 500 W 120th Street, New York, 10027 NY USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Xiaodong</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Columbia University, 500 W 120th Street, New York, 10027 NY USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>EURASIP J Bioinform Syst Biol</MedlineTA>
+            <NlmUniqueID>101263720</NlmUniqueID>
+            <ISSNLinking>1687-4145</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2012 Feb;19(2):175-87</RefSource>
+                <PMID Version="1">22300319</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Condens Matter. 2010 Oct 20;22(41):414105</RefSource>
+                <PMID Version="1">21386588</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Jul 23;8(7):e68358</RefSource>
+                <PMID Version="1">23935862</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann N Y Acad Sci. 2009 Mar;1158:159-95</RefSource>
+                <PMID Version="1">19348640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacogenomics. 2009 May;10(5):895-914</RefSource>
+                <PMID Version="1">19450135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EURASIP J Bioinform Syst Biol. 2009;:717136</RefSource>
+                <PMID Version="1">19223972</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Cell Dev Biol. 2014 Aug 19;2:38</RefSource>
+                <PMID Version="1">25364745</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2003 Dec 9;100(25):14796-9</RefSource>
+                <PMID Version="1">14657375</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biosystems. 2009 Apr;96(1):86-103</RefSource>
+                <PMID Version="1">19150482</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann N Y Acad Sci. 2007 Dec;1115:1-22</RefSource>
+                <PMID Version="1">17925349</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Feb 1;29(3):338-46</RefSource>
+                <PMID Version="1">23271269</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Apr 1;24(7):932-42</RefSource>
+                <PMID Version="1">18292116</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2011 Jan;12(1):56-68</RefSource>
+                <PMID Version="1">21164525</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biol. 1994 Jun;14(6):3834-41</RefSource>
+                <PMID Version="1">8196626</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2009 Nov 12;462(7270):182-8</RefSource>
+                <PMID Version="1">19907488</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Nov 15;25(22):2937-44</RefSource>
+                <PMID Version="1">19706742</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2014 May;48:55-65</RefSource>
+                <PMID Version="1">24637147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2010 Feb 23;5(2):e9202</RefSource>
+                <PMID Version="1">20186320</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Mol Biol. 2011 Jul;34(3):363-70</RefSource>
+                <PMID Version="1">21931505</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2004;11(4):660-82</RefSource>
+                <PMID Version="1">15579237</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EURASIP J Bioinform Syst Biol. 2008;:482090</RefSource>
+                <PMID Version="1">18437238</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE/ACM Trans Comput Biol Bioinform. 2008 Apr-Jun;5(2):262-74</RefSource>
+                <PMID Version="1">18451435</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Bioinformatics. 2013;2013:205763</RefSource>
+                <PMID Version="1">23737768</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2007 Feb 15;23(4):480-6</RefSource>
+                <PMID Version="1">17038344</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2008 Sep 4;455(7209):64-71</RefSource>
+                <PMID Version="1">18668037</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2009 Apr 3;137(1):172-81</RefSource>
+                <PMID Version="1">19327819</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2009 Feb;16(2):229-39</RefSource>
+                <PMID Version="1">19183003</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Apr 6;107(14):6286-91</RefSource>
+                <PMID Version="1">20308593</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FASEB J. 1995 Jun;9(9):777-87</RefSource>
+                <PMID Version="1">7601342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genetics. 2011 Nov;189(3):825-36</RefSource>
+                <PMID Version="1">21890741</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biol Evol. 2015 Jul;32(7):1767-73</RefSource>
+                <PMID Version="1">25750178</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Jan 16;9(1):e78644</RefSource>
+                <PMID Version="1">24454679</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Aug 15;27(16):2263-70</RefSource>
+                <PMID Version="1">21697125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE/ACM Trans Comput Biol Bioinform. 2009 Jul-Sep;6(3):410-9</RefSource>
+                <PMID Version="1">19644169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2012 Nov 15;13:629</RefSource>
+                <PMID Version="1">23153100</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbiol Mol Biol Rev. 2000 Mar;64(1):34-50</RefSource>
+                <PMID Version="1">10704473</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bayesian inference</Keyword>
+            <Keyword MajorTopicYN="N">Gaussian filters</Keyword>
+            <Keyword MajorTopicYN="N">Gene expression</Keyword>
+            <Keyword MajorTopicYN="N">Missing data</Keyword>
+            <Keyword MajorTopicYN="N">Network inference</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28127303</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13637-016-0055-8</ArticleId>
+            <ArticleId IdType="pii">55</ArticleId>
+            <ArticleId IdType="pmc">PMC5225239</ArticleId>
+        </ArticleIdList>
+        <?pmcsd?>
+    </PubmedData>
+</PubmedArticle>

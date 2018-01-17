@@ -1,0 +1,104 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113726</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <MedlineDate>2017 Nov-Dec</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Enhancing Protein Conformational Space Sampling Using Distance Profile-Guided Differential Evolution.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1288-1301</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2566617</ELocationID>
+            <Abstract>
+                <AbstractText>De novo protein structure prediction aims to search for low-energy conformations as it follows the thermodynamics hypothesis that places native conformations at the global minimum of the protein energy surface. However, the native conformation is not necessarily located in the lowest-energy regions owing to the inaccuracies of the energy model. This study presents a differential evolution algorithm using distance profile-based selection strategy to sample conformations with reasonable structure effectively. In the proposed algorithm, besides energy, the residue-residue distance is considered another measure of the conformation. The average distance errors of decoys between the distance of each residue pair and the corresponding distance in the distance profiles are first calculated when the trial conformation yields a larger energy value than that of the target. Then, the distance acceptance probability of the trial conformation is designed based on distance profiles if the trial conformation obtains a lower average distance error compared with that of the target conformation. The trial conformation is accepted to the next generation in accordance with its distance acceptance probability. By using the dual constraints of energy and distance in guiding sampling, the algorithm can sample conformations with lower energies and more reasonable structures. Experimental results of 28 benchmark proteins show that the proposed algorithm can effectively predict near-native protein structures.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Gui-Jun</ForeName>
+                    <Initials>GJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Xiao-Gen</ForeName>
+                    <Initials>XG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Xu-Feng</ForeName>
+                    <Initials>XF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hao</LastName>
+                    <ForeName>Xiao-Hu</ForeName>
+                    <Initials>XH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113726</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2566617</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

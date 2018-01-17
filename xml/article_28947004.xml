@@ -1,0 +1,155 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28947004</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>151</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Sparse registration of diffusion weighted images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>33-43</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30400-X</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.08.003</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Registration is a critical step in group analysis of diffusion weighted images (DWI). Image registration is also necessary for construction of white matter atlases that can be used to identify white matter changes. A challenge in the registration of DWI is that the orientation of the fiber bundles should be considered in the process, making their registration more challenging than that of the scalar images. Most of the current registration methods use a model of diffusion profile, limiting the method to the used model.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We propose a model-independent method for DWI registration. The proposed method uses a multi-level free-form deformation (FFD), a sparse similarity measure, and a dictionary. We also propose a synthesis K-SVD algorithm for sparse interpolation of images during the registration process. We utilize two dictionaries: analysis dictionary is learned based on diffusion signals while synthesis dictionary is generated based on image patches. The proposed multi-level approach registers anatomical structures at different scales. T-test is used to determine the significance of the differences between different methods.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We have shown the efficiency of the proposed approach using real data. The method results in smaller generalized fractional anisotropy (GFA) root mean square (RMS) error (0.05 improvements, p = 0.0237) and angular error (0.37 ° improvement, p = 0.0330) compared to the large deformation diffeomorphic metric mapping (LDDMM) method and advanced normalization tools (ANTs).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Sparse registration of diffusion signals enables registration of diffusion weighted images without using a diffusion model.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Afzali</LastName>
+                    <ForeName>Maryam</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Biomedical Signal and Image Processing Laboratory (BiSIPL), Sharif University of Technology, Tehran, Iran. Electronic address: afzali@ee.sharif.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fatemizadeh</LastName>
+                    <ForeName>Emad</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Biomedical Signal and Image Processing Laboratory (BiSIPL), Sharif University of Technology, Tehran, Iran. Electronic address: fatemizadeh@sharif.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Soltanian-Zadeh</LastName>
+                    <ForeName>Hamid</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Control and Intelligent Processing Center of Excellence (CIPCE), School of Electrical and Computer Engineering, University of Tehran, Tehran, Iran; School of Cognitive Sciences, Institute for Research in Fundamental Sciences (IPM), Tehran, Iran; Image Analysis Laboratory, Departments of Radiology and Research Administration, Henry Ford Health System, Detroit, Michigan, USA. Electronic address: hszadeh@ut.ac.ir.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001921" MajorTopicYN="N">Brain</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D038524" MajorTopicYN="Y">Diffusion Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007089" MajorTopicYN="Y">Image Enhancement</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Diffusion weighted imaging</Keyword>
+            <Keyword MajorTopicYN="N">Image interpolation</Keyword>
+            <Keyword MajorTopicYN="N">Image registration</Keyword>
+            <Keyword MajorTopicYN="N">K-SVD algorithm</Keyword>
+            <Keyword MajorTopicYN="N">Sparse representation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28947004</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30400-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.08.003</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

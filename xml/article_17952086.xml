@@ -1,0 +1,334 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28910336</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Application of unsupervised analysis techniques to lung cancer patient data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0184370</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0184370</ELocationID>
+            <Abstract>
+                <AbstractText>This study applies unsupervised machine learning techniques for classification and clustering to a collection of descriptive variables from 10,442 lung cancer patient records in the Surveillance, Epidemiology, and End Results (SEER) program database. The goal is to automatically classify lung cancer patients into groups based on clinically measurable disease-specific variables in order to estimate survival. Variables selected as inputs for machine learning include Number of Primaries, Age, Grade, Tumor Size, Stage, and TNM, which are numeric or can readily be converted to numeric type. Minimal up-front processing of the data enables exploring the out-of-the-box capabilities of established unsupervised learning techniques, with little human intervention through the entire process. The output of the techniques is used to predict survival time, with the efficacy of the prediction representing a proxy for the usefulness of the classification. A basic single variable linear regression against each unsupervised output is applied, and the associated Root Mean Squared Error (RMSE) value is calculated as a metric to compare between the outputs. The results show that self-ordering maps exhibit the best performance, while k-Means performs the best of the simpler classification techniques. Predicting against the full data set, it is found that their respective RMSE values (15.591 for self-ordering maps and 16.193 for k-Means) are comparable to supervised regression techniques, such as Gradient Boosting Machine (RMSE of 15.048). We conclude that unsupervised data analysis techniques may be of use to classify patients by defining the classes as effective proxies for survival prediction.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lynch</LastName>
+                    <ForeName>Chip M</ForeName>
+                    <Initials>CM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Engineering and Computer Science, University of Louisville, Louisville, KY, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Berkel</LastName>
+                    <ForeName>Victor H</ForeName>
+                    <Initials>VH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiovascular and Thoracic Surgery, University of Louisville, Louisville, KY, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Frieboes</LastName>
+                    <ForeName>Hermann B</ForeName>
+                    <Initials>HB</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-5959-4286</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioengineering, University of Louisville, Louisville, KY, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>James Graham Brown Cancer Center, University of Louisville, Louisville, KY, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Oct 04;6:34817</RefSource>
+                <PMID Version="1">27698459</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Surg Res. 2010 Jul;162(1):1-6</RefSource>
+                <PMID Version="1">20400118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformation. 2011;7(3):142-6</RefSource>
+                <PMID Version="1">22125385</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Exp Med Biol. 2010;680:11-8</RefSource>
+                <PMID Version="1">20865481</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE/ACM Trans Comput Biol Bioinform. 2017 Feb 08;:null</RefSource>
+                <PMID Version="1">28186907</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2017 Jan 4;45(D1):D135-D138</RefSource>
+                <PMID Version="1">27543076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lung Cancer. 2009 May;64(2):226-31</RefSource>
+                <PMID Version="1">18835059</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Feb 1;32(3):362-9</RefSource>
+                <PMID Version="1">26476782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2014 Apr;14(7-8):853-61</RefSource>
+                <PMID Version="1">24273065</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastrointest Cancer Res. 2007 May;1(3):84-9</RefSource>
+                <PMID Version="1">19262713</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2015 Apr;59:125-33</RefSource>
+                <PMID Version="1">25725446</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2006 Jan 06;7:3</RefSource>
+                <PMID Version="1">16398926</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Oncol. 1998 Feb;16(2):651-7</RefSource>
+                <PMID Version="1">9469354</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2017 Feb 21;8(8):13338-13343</RefSource>
+                <PMID Version="1">28076851</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2015 Jun;16(6):321-32</RefSource>
+                <PMID Version="1">25948244</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Med. 2008 Sep 30;5(9):e185</RefSource>
+                <PMID Version="1">18788891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 2004 Jul;13(7):1215-22</RefSource>
+                <PMID Version="1">15247133</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncologist. 2007 Jan;12(1):20-37</RefSource>
+                <PMID Version="1">17227898</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Sep 03;9(9):e106691</RefSource>
+                <PMID Version="1">25184541</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomol Struct Dyn. 2017 Feb;35(3):683-687</RefSource>
+                <PMID Version="1">26912125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE/ACM Trans Comput Biol Bioinform. 2017 Feb 16;:null</RefSource>
+                <PMID Version="1">28222000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2017;2017:3267325</RefSource>
+                <PMID Version="1">28303250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biosyst. 2016 Apr;12 (4):1269-75</RefSource>
+                <PMID Version="1">26883492</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2005 Mar;127(3):768-77</RefSource>
+                <PMID Version="1">15764756</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2001 Oct;17(10):977-87</RefSource>
+                <PMID Version="1">11673243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomics. 2012 Jun;99(6):323-9</RefSource>
+                <PMID Version="1">22546560</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Jul 1;43(W1):W65-71</RefSource>
+                <PMID Version="1">25958395</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Oncol. 2007 Dec 10;25(35):5570-7</RefSource>
+                <PMID Version="1">18065729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Jul 02;11:367</RefSource>
+                <PMID Version="1">20598126</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microbiol Methods. 2011 Jan;84(1):67-70</RefSource>
+                <PMID Version="1">21044646</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2002;:564-75</RefSource>
+                <PMID Version="1">11928508</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Biotechnol. 2009;2009:632786</RefSource>
+                <PMID Version="1">19584918</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>OMICS. 2013 Dec;17(12):595-610</RefSource>
+                <PMID Version="1">24116388</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Dec;58:49-59</RefSource>
+                <PMID Version="1">26423562</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2016 Oct 25;7(43):69783-69793</RefSource>
+                <PMID Version="1">27626500</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2017 Feb 1;33(3):467-469</RefSource>
+                <PMID Version="1">28171531</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Surg Oncol. 2015 May;111(6):657-62</RefSource>
+                <PMID Version="1">25690414</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2007 Nov;4(11):923-5</RefSource>
+                <PMID Version="1">17952086</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016000" MajorTopicYN="N">Cluster Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016208" MajorTopicYN="N">Databases, Factual</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008175" MajorTopicYN="N">Lung Neoplasms</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+                <QualifierName UI="Q000401" MajorTopicYN="Y">mortality</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060787" MajorTopicYN="N">Neoplasm Grading</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009367" MajorTopicYN="N">Neoplasm Staging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018426" MajorTopicYN="N">SEER Program</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016019" MajorTopicYN="N">Survival Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D047368" MajorTopicYN="N">Tumor Burden</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069558" MajorTopicYN="N">Unsupervised Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910336</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0184370</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-20898</ArticleId>
+            <ArticleId IdType="pmc">PMC5598970</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

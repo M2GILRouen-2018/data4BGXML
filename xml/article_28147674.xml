@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28147674</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1089-7623</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>88</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Review of scientific instruments</Title>
+                <ISOAbbreviation>Rev Sci Instrum</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Real-space post-processing correction of thermal drift and piezoelectric actuator nonlinearities in scanning tunneling microscope images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>013708</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1063/1.4974271</ELocationID>
+            <Abstract>
+                <AbstractText>We have developed a real-space method to correct distortion due to thermal drift and piezoelectric actuator nonlinearities on scanning tunneling microscope images using Matlab. The method uses the known structures typically present in high-resolution atomic and molecularly resolved images as an internal standard. Each image feature (atom or molecule) is first identified in the image. The locations of each feature's nearest neighbors are used to measure the local distortion at that location. The local distortion map across the image is simultaneously fit to our distortion model, which includes thermal drift in addition to piezoelectric actuator hysteresis and creep. The image coordinates of the features and image pixels are corrected using an inverse transform from the distortion model. We call this technique the thermal-drift, hysteresis, and creep transform. Performing the correction in real space allows defects, domain boundaries, and step edges to be excluded with a spatial mask. Additional real-space image analyses are now possible with these corrected images. Using graphite(0001) as a model system, we show lattice fitting to the corrected image, averaged unit cell images, and symmetry-averaged unit cell images. Statistical analysis of the distribution of the image features around their best-fit lattice sites measures the aggregate noise in the image, which can be expressed as feature confidence ellipsoids.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yothers</LastName>
+                    <ForeName>Mitchell P</ForeName>
+                    <Initials>MP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Homer L. Dodge Department of Physics and Astronomy, University of Oklahoma, Norman, Oklahoma 73019, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Browder</LastName>
+                    <ForeName>Aaron E</ForeName>
+                    <Initials>AE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Homer L. Dodge Department of Physics and Astronomy, University of Oklahoma, Norman, Oklahoma 73019, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bumm</LastName>
+                    <ForeName>Lloyd A</ForeName>
+                    <Initials>LA</Initials>
+                    <Identifier Source="ORCID">0000000323018193</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Homer L. Dodge Department of Physics and Astronomy, University of Oklahoma, Norman, Oklahoma 73019, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Rev Sci Instrum</MedlineTA>
+            <NlmUniqueID>0405571</NlmUniqueID>
+            <ISSNLinking>0034-6748</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28147674</ArticleId>
+            <ArticleId IdType="doi">10.1063/1.4974271</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

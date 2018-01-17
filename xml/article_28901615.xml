@@ -1,0 +1,123 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901615</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Model-based dose reconstruction for CT dose estimation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e255-e263</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12409</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Our goal is to develop a model-based approach for CT dose estimation. We previously presented a CT dose estimation method that offered good accuracy in soft tissue regions but lower accuracy in bone regions. In this work, we propose an improved physic-based approach to achieve high accuracy for any materials and realistic clinical anatomies.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Like Monte Carlo techniques, we start from a model or image of the patient and we model all relevant x-ray interaction processes. Unlike Monte Carlo techniques, we do not track each individual photon, but we compute the average behavior of the x-ray interactions, combining pencil-beam calculations for the first-order interactions and kernels for the higher order interactions. The new algorithm more accurately models the variation of materials in the human body, especially for higher attenuation materials such as bone, as well as the various x-ray attenuation processes. We performed validation experiments with analytic phantoms and a polychromatic x-ray spectrum, comparing to Monte Carlo simulation (GEANT4) as the ground truth.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The results show that the proposed method has improved accuracy in both soft tissue region and bone region: less than 6% voxel-wise errors and less than 3.2% ROI-based errors in an anthropomorphic phantom. The computational cost is on the order of a low-resolution filtered backprojection reconstruction.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We introduced improved physics-based models in a fast CT dose reconstruction approach. The improved approach demonstrated quantitatively good correspondence to a Monte Carlo gold standard in both soft tissue and bone regions in a chest phantom with a realistic polychromatic spectrum and could potentially be used for real-time applications such as patient- and organ-specific scan planning and organ dose reporting.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Mingye</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging, GE Global Research, 1 Research Circle, Niskayuna, NY, 12309, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yin</LastName>
+                    <ForeName>Zhye</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging, GE Global Research, 1 Research Circle, Niskayuna, NY, 12309, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De Man</LastName>
+                    <ForeName>Bruno</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imaging, GE Global Research, 1 Research Circle, Niskayuna, NY, 12309, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Monte Carlo</Keyword>
+            <Keyword MajorTopicYN="N">computed tomography</Keyword>
+            <Keyword MajorTopicYN="N">dosimetry</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901615</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12409</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

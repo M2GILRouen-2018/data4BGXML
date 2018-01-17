@@ -1,0 +1,229 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28114896</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Processing tracking in jMRUI software for magnetic resonance spectra quantitation reproducibility assurance.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>56</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1459-5</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Proton magnetic resonance spectroscopy is a non-invasive measurement technique which provides information about concentrations of up to 20 metabolites participating in intracellular biochemical processes. In order to obtain any metabolic information from measured spectra a processing should be done in specialized software, like jMRUI. The processing is interactive and complex and often requires many trials before obtaining a correct result. This paper proposes a jMRUI enhancement for efficient and unambiguous history tracking and file identification.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A database storing all processing steps, parameters and files used in processing was developed for jMRUI. The solution was developed in Java, authors used a SQL database for robust storage of parameters and SHA-256 hash code for unambiguous file identification. The developed system was integrated directly in jMRUI and it will be publically available. A graphical user interface was implemented in order to make the user experience more comfortable. The database operation is invisible from the point of view of the common user, all tracking operations are performed in the background.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The implemented jMRUI database is a tool that can significantly help the user to track the processing history performed on data in jMRUI. The created tool is oriented to be user-friendly, robust and easy to use. The database GUI allows the user to browse the whole processing history of a selected file and learn e.g. what processing lead to the results, where the original data are stored, to obtain the list of all processing actions performed on spectra.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jabłoński</LastName>
+                    <ForeName>Michał</ForeName>
+                    <Initials>M</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-8448-2312</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Scientific Instruments of the CAS, Královopolská 147, 612 64, Brno, Czech Republic. jmj@isibrno.cz.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Science, Masaryk University, Kotlářská 267/2, 611 37, Brno, Czech Republic. jmj@isibrno.cz.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Starčuková</LastName>
+                    <ForeName>Jana</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Scientific Instruments of the CAS, Královopolská 147, 612 64, Brno, Czech Republic.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Starčuk</LastName>
+                    <ForeName>Zenon</ForeName>
+                    <Initials>Z</Initials>
+                    <Suffix>Jr</Suffix>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Scientific Instruments of the CAS, Královopolská 147, 612 64, Brno, Czech Republic.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Nov 09;16:378</RefSource>
+                <PMID Version="1">26552737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson. 1997 Nov;129(1):35-43</RefSource>
+                <PMID Version="1">9405214</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>NMR Biomed. 2001 Jun;14(4):224-32</RefSource>
+                <PMID Version="1">11410940</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>MAGMA. 2014 Apr;27(2):113-30</RefSource>
+                <PMID Version="1">23892473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>NMR Biomed. 2007 Aug;20(5):493-504</RefSource>
+                <PMID Version="1">17167819</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2014 Mar;270(3):658-79</RefSource>
+                <PMID Version="1">24568703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>NMR Biomed. 1998 Oct;11(6):266-72</RefSource>
+                <PMID Version="1">9802468</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2011 Jan;65(1):1-12</RefSource>
+                <PMID Version="1">20878762</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 1993 Dec;30(6):672-9</RefSource>
+                <PMID Version="1">8139448</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann N Y Acad Sci. 1987;508:333-48</RefSource>
+                <PMID Version="1">3326459</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson. 2001 Dec;153(2):155-77</RefSource>
+                <PMID Version="1">11740891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2006 Nov;56(5):965-70</RefSource>
+                <PMID Version="1">16991116</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2008 Jan;59(1):1-6</RefSource>
+                <PMID Version="1">17969076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Rev Neurol (Paris). 2002 May;158(5 Pt 1):527-40</RefSource>
+                <PMID Version="1">12072821</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>NMR Biomed. 2000 May;13(3):129-53</RefSource>
+                <PMID Version="1">10861994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>NMR Biomed. 2004 Oct;17(6):361-81</RefSource>
+                <PMID Version="1">15468083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>NMR Biomed. 2005 Feb;18(1):1-13</RefSource>
+                <PMID Version="1">15660450</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001330" MajorTopicYN="Y">Automatic Data Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016208" MajorTopicYN="N">Databases, Factual</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="Y">Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009682" MajorTopicYN="Y">Magnetic Resonance Spectroscopy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Magnetic Resonance Spectroscopy</Keyword>
+            <Keyword MajorTopicYN="N">SQL database</Keyword>
+            <Keyword MajorTopicYN="N">Signal Processing</Keyword>
+            <Keyword MajorTopicYN="N">jMRUI</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114896</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1459-5</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1459-5</ArticleId>
+            <ArticleId IdType="pmc">PMC5260066</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

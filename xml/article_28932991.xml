@@ -1,0 +1,180 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28932991</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1352-8661</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Magma (New York, N.Y.)</Title>
+                <ISOAbbreviation>MAGMA</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automated reference-free detection of motion artifacts in magnetic resonance images.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s10334-017-0650-z</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Our objectives were to provide an automated method for spatially resolved detection and quantification of motion artifacts in MR images of the head and abdomen as well as a quality control of the trained architecture.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">T1-weighted MR images of the head and the upper abdomen were acquired in 16 healthy volunteers under rest and under motion. Images were divided into overlapping patches of different sizes achieving spatial separation. Using these patches as input data, a convolutional neural network (CNN) was trained to derive probability maps for the presence of motion artifacts. A deep visualization offers a human-interpretable quality control of the trained CNN. Results were visually assessed on probability maps and as classification accuracy on a per-patch, per-slice and per-volunteer basis.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">On visual assessment, a clear difference of probability maps was observed between data sets with and without motion. The overall accuracy of motion detection on a per-patch/per-volunteer basis reached 97%/100% in the head and 75%/100% in the abdomen, respectively.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Automated detection of motion artifacts in MRI is feasible with good accuracy in the head and abdomen. The proposed method provides quantification and localization of artifacts as well as a visualization of the learned content. It may be extended to other anatomic areas and used for quality assurance of MR images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Küstner</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-0353-4898</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>University of Stuttgart, Institute of Signal Processing and System Theory, Stuttgart, Germany. thomas.kuestner@med.uni-tuebingen.de.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany. thomas.kuestner@med.uni-tuebingen.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liebgott</LastName>
+                    <ForeName>Annika</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Stuttgart, Institute of Signal Processing and System Theory, Stuttgart, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mauch</LastName>
+                    <ForeName>Lukas</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Stuttgart, Institute of Signal Processing and System Theory, Stuttgart, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martirosian</LastName>
+                    <ForeName>Petros</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bamberg</LastName>
+                    <ForeName>Fabian</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nikolaou</LastName>
+                    <ForeName>Konstantin</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Bin</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Stuttgart, Institute of Signal Processing and System Theory, Stuttgart, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schick</LastName>
+                    <ForeName>Fritz</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gatidis</LastName>
+                    <ForeName>Sergios</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Tübingen, Hoppe-Seyler-Str. 3, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>MAGMA</MedlineTA>
+            <NlmUniqueID>9310752</NlmUniqueID>
+            <ISSNLinking>0968-5243</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Artifacts</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Neural networks</Keyword>
+            <Keyword MajorTopicYN="N">Quality assurance</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28932991</ArticleId>
+            <ArticleId IdType="doi">10.1007/s10334-017-0650-z</ArticleId>
+            <ArticleId IdType="pii">10.1007/s10334-017-0650-z</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

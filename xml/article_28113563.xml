@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113563</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2329-4051</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on haptics</Title>
+                <ISOAbbreviation>IEEE Trans Haptics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Adaptive 6-DoF Haptic Contact Stiffness Using the Gauss Map.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TOH.2016.2558185</ELocationID>
+            <Abstract>
+                <AbstractText>The penalty method is a popular approach to resolving contact in haptic rendering. In simulations involving complex distributed contact, there are, however, many simultaneous individual contacts. These contacts have normals pointing in several directions, many of which may be parallel, causing the stiffness effectively to add up in a temporally highly-varying and unpredictable way. Consequently, penalty-based simulation suffers from stability problems. Previous methods tackled this problem using implicit integration, or simply by scaling the stiffness down globally by the number of contacts. Although this provides some control over the net stiffness, it leads to large penetrations, as small contacts are effectively ignored when compared to larger contacts. We propose an adaptive stiffness method that employs the Gauss map of the normal distribution to ensure a spatially uniform and controllable stiffness in all the contact directions. Combined with virtual coupling saturation, the penetration can be kept shallow all the while haptic simulation remains stable, even for large-scale complex geometry with complex distributed 6-DoF contact scenarios. Our method is fast and can be applied to any penalty-based formulation between rigid objects. While used primarily for rigid objects, we also apply our method to reduced deformable objects. We demonstrate the effectiveness of our approach on several challenging 6-DoF haptic rendering scenarios, such as car engine and landing gear virtual assembly.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Hongyi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barbic</LastName>
+                    <ForeName>Jernej</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Haptics</MedlineTA>
+            <NlmUniqueID>101491191</NlmUniqueID>
+            <ISSNLinking>1939-1412</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113563</ArticleId>
+            <ArticleId IdType="doi">10.1109/TOH.2016.2558185</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

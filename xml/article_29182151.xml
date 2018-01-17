@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29182151</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-6560</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physics in medicine and biology</Title>
+                <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using convolutional neural networks to estimate time-of-flight from PET detector waveforms.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/aa9dc5</ELocationID>
+            <Abstract>
+                <AbstractText>Although there have been impressive strides in detector development for time-of-flight positron emission tomography (PET), most detectors still make use of simple signal processing methods to extract the time-of-flight information from the detector signals. In most cases, the timing pick-off for each waveform is computed using leading edge discrimination or constant fraction discrimination, as these were historically easily implemented with analog pulse processing electronics. However, now with the availability of fast waveform digitizers, there is opportunity to make use of more of the timing information contained in the coincident detector waveforms with advanced signal processing techniques. Here we describe the application of deep convolutional neural networks (CNNs), a type of machine learning, to estimate time-of-flight directly from the pair of digitized detector waveforms for a coincident event. One of the key features of this approach is the simplicity in obtaining ground-truth-labeled data needed to train the CNN: the true time-of-flight is determined from the difference in path length between the positron emission and each of the coincident detectors, which can be easily controlled experimentally. The experimental setup used here made use of two photomultiplier tube-based scintillation detectors, and a point source, stepped in 5 mm increments over a 15 cm range between the two detectors. The detector waveforms were digitized at 10 GS/s using a bench-top oscilloscope. The results shown here demonstrate that CNN-based time-of-flight estimation improves timing resolution by 20% compared to leading edge discrimination (231 ps vs. 185 ps), and 23% compared to constant fraction discrimination (242 ps vs 185 ps). By comparing several different CNN architectures, we also showed that CNN depth (number of convolutional and fully connected layers) had the largest impact on timing resolution, while the exact network parameters, such as convolutional filter size and number of feature maps, had only a minor influence.</AbstractText>
+                <CopyrightInformation>© 2017 Institute of Physics and Engineering in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Berg</LastName>
+                    <ForeName>Eric</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering, University of California Davis, Davis, California, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cherry</LastName>
+                    <ForeName>Simon R</ForeName>
+                    <Initials>SR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, University of California - Davis, One Shields Avenue, Davis, California, 95616, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Phys Med Biol</MedlineTA>
+            <NlmUniqueID>0401220</NlmUniqueID>
+            <ISSNLinking>0031-9155</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">convolutional neural network</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+            <Keyword MajorTopicYN="N">positron emission tomography (PET)</Keyword>
+            <Keyword MajorTopicYN="N">scintillation detector</Keyword>
+            <Keyword MajorTopicYN="N">time-of-flight (TOF)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29182151</ArticleId>
+            <ArticleId IdType="doi">10.1088/1361-6560/aa9dc5</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

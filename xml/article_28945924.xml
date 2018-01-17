@@ -1,0 +1,139 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28945924</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>PEAR: PEriodic And fixed Rank separation for fast fMRI.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>6166-6182</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12599</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">In functional MRI (fMRI), faster acquisition via undersampling of data can improve the spatial-temporal resolution trade-off and increase statistical robustness through increased degrees-of-freedom. High-quality reconstruction of fMRI data from undersampled measurements requires proper modeling of the data. We present an fMRI reconstruction approach based on modeling the fMRI signal as a sum of periodic and fixed rank components, for improved reconstruction from undersampled measurements.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed approach decomposes the fMRI signal into a component which has a fixed rank and a component consisting of a sum of periodic signals which is sparse in the temporal Fourier domain. Data reconstruction is performed by solving a constrained problem that enforces a fixed, moderate rank on one of the components, and a limited number of temporal frequencies on the other. Our approach is coined PEAR - PEriodic And fixed Rank separation for fast fMRI.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Experimental results include purely synthetic simulation, a simulation with real timecourses and retrospective undersampling of a real fMRI dataset. Evaluation was performed both quantitatively and visually versus ground truth, comparing PEAR to two additional recent methods for fMRI reconstruction from undersampled measurements. Results demonstrate PEAR's improvement in estimating the timecourses and activation maps versus the methods compared against at acceleration ratios of R = 8,10.66 (for simulated data) and R = 6.66,10 (for real data).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This paper presents PEAR, an undersampled fMRI reconstruction approach based on decomposing the fMRI signal to periodic and fixed rank components. PEAR results in reconstruction with higher fidelity than when using a fixed-rank based model or a conventional Low-rank + Sparse algorithm. We have shown that splitting the functional information between the components leads to better modeling of fMRI, over state-of-the-art methods.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Weizman</LastName>
+                    <ForeName>Lior</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Technion - Israel Institue of Technology, Haifa, Israel.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>FMRIB Centre, University of Oxford, Oxford, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miller</LastName>
+                    <ForeName>Karla L</ForeName>
+                    <Initials>KL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>FMRIB Centre, University of Oxford, Oxford, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eldar</LastName>
+                    <ForeName>Yonina C</ForeName>
+                    <Initials>YC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Technion - Israel Institue of Technology, Haifa, Israel.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chiew</LastName>
+                    <ForeName>Mark</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>FMRIB Centre, University of Oxford, Oxford, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">compressed sensing</Keyword>
+            <Keyword MajorTopicYN="N">fMRI</Keyword>
+            <Keyword MajorTopicYN="N">low rank</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28945924</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12599</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,235 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27842233</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>14</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-1271</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>41</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Clinical biomechanics (Bristol, Avon)</Title>
+                <ISOAbbreviation>Clin Biomech (Bristol, Avon)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Optimizing finite element predictions of local subchondral bone structural stiffness using neural network-derived density-modulus relationships for proximal tibial subchondral cortical and trabecular bone.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0268-0033(16)30187-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.clinbiomech.2016.10.012</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Quantitative computed tomography based subject-specific finite element modeling has potential to clarify the role of subchondral bone alterations in knee osteoarthritis initiation, progression, and pain. However, it is unclear what density-modulus equation(s) should be applied with subchondral cortical and subchondral trabecular bone when constructing finite element models of the tibia. Using a novel approach applying neural networks, optimization, and back-calculation against in situ experimental testing results, the objective of this study was to identify subchondral-specific equations that optimized finite element predictions of local structural stiffness at the proximal tibial subchondral surface.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Thirteen proximal tibial compartments were imaged via quantitative computed tomography. Imaged bone mineral density was converted to elastic moduli using multiple density-modulus equations (93 total variations) then mapped to corresponding finite element models. For each variation, root mean squared error was calculated between finite element prediction and in situ measured stiffness at 47 indentation sites. Resulting errors were used to train an artificial neural network, which provided an unlimited number of model variations, with corresponding error, for predicting stiffness at the subchondral bone surface. Nelder-Mead optimization was used to identify optimum density-modulus equations for predicting stiffness.</AbstractText>
+                <AbstractText Label="FINDINGS" NlmCategory="RESULTS">Finite element modeling predicted 81% of experimental stiffness variance (with 10.5% error) using optimized equations for subchondral cortical and trabecular bone differentiated with a 0.5g/cm(3) density.</AbstractText>
+                <AbstractText Label="INTERPRETATION" NlmCategory="CONCLUSIONS">In comparison with published density-modulus relationships, optimized equations offered improved predictions of local subchondral structural stiffness. Further research is needed with anisotropy inclusion, a smaller voxel size and de-blurring algorithms to improve predictions.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nazemi</LastName>
+                    <ForeName>S Majid</ForeName>
+                    <Initials>SM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical Engineering, University of Saskatchewan, Saskatoon, Canada. Electronic address: majid.nazemi@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Amini</LastName>
+                    <ForeName>Morteza</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Lightweight Design and Structural Biomechanics, Vienna University of Technology, Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kontulainen</LastName>
+                    <ForeName>Saija A</ForeName>
+                    <Initials>SA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Kinesiology, University of Saskatchewan, Saskatoon, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Milner</LastName>
+                    <ForeName>Jaques S</ForeName>
+                    <Initials>JS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, Western University, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Holdsworth</LastName>
+                    <ForeName>David W</ForeName>
+                    <Initials>DW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, Western University, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Masri</LastName>
+                    <ForeName>Bassam A</ForeName>
+                    <Initials>BA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Orthopaedics, University of British Columbia, Centre for Hip Health and Mobility, Vancouver, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wilson</LastName>
+                    <ForeName>David R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Orthopaedics, University of British Columbia, Centre for Hip Health and Mobility, Vancouver, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Johnston</LastName>
+                    <ForeName>James D</ForeName>
+                    <Initials>JD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical Engineering, University of Saskatchewan, Saskatoon, Canada. Electronic address: jd.johnston@usask.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Clin Biomech (Bristol, Avon)</MedlineTA>
+            <NlmUniqueID>8611877</NlmUniqueID>
+            <ISSNLinking>0268-0033</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015519" MajorTopicYN="N">Bone Density</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000071556" MajorTopicYN="N">Cancellous Bone</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000071538" MajorTopicYN="N">Cortical Bone</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055119" MajorTopicYN="N">Elastic Modulus</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020342" MajorTopicYN="Y">Finite Element Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="N">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020370" MajorTopicYN="N">Osteoarthritis, Knee</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013977" MajorTopicYN="N">Tibia</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Density-modulus relationships for bone</Keyword>
+            <Keyword MajorTopicYN="N">Finite element modeling</Keyword>
+            <Keyword MajorTopicYN="N">Neural network</Keyword>
+            <Keyword MajorTopicYN="N">Proximal tibia</Keyword>
+            <Keyword MajorTopicYN="N">Subchondral bone</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27842233</ArticleId>
+            <ArticleId IdType="pii">S0268-0033(16)30187-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.clinbiomech.2016.10.012</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

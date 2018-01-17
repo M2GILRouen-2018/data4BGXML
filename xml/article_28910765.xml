@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28910765</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>08</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Multiple Semantic Matching on Augmented N-partite Graph for Object Co-segmentation.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2750410</ELocationID>
+            <Abstract>
+                <AbstractText>Recent methods for object co-segmentation focus on discovering single co-occurring relation of candidate regions representing the foreground of multiple images. However, region extraction based only on low and middle level information often occupies a large area of background without the help of semantic context. In addition, seeking single matching solution very likely leads to discover local parts of common objects. To cope with these deficiencies, we present a new object cosegmentation framework, which takes advantages of semantic information and globally explores multiple co-occurring matching cliques based on an N-partite graph structure. To this end, we first propose to incorporate candidate generation with semantic context. Based on the regions extracted from semantic segmentation of each image, we design a merging mechanism to hierarchically generate candidates with high semantic responses. Secondly, all candidates are taken into consideration to globally formulate multiple maximum weighted matching cliques, which complements the discovery of part of the common objects induced by a single clique. To facilitate the discovery of multiple matching cliques, an N-partite graph, which inherently excludes intralinks between candidates from the same image, is constructed to separate multiple cliques without additional constraints. Further, we augment the graph with an additional virtual node in each part to handle irrelevant matches when the similarity between two candidates is too small. Finally, with the explored multiple cliques, we statistically compute pixel-wise co-occurrence map for each image. Experimental results on two benchmark datasets, i.e., iCoseg and MSRC datasets, achieve desirable performance and demonstrate the effectiveness of our proposed framework.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Chuan</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Hua</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Liang</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Xiaochun</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiong</LastName>
+                    <ForeName>Hongkai</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910765</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2750410</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

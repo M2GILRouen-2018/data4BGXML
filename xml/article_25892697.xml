@@ -1,0 +1,305 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28934948</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1297-9686</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>49</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Genetics, selection, evolution : GSE</Title>
+                <ISOAbbreviation>Genet. Sel. Evol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Multi-breed genomic prediction using Bayes R with sequence data and dropping variants with a small effect.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>70</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12711-017-0347-9</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The increasing availability of whole-genome sequence data is expected to increase the accuracy of genomic prediction. However, results from simulation studies and analysis of real data do not always show an increase in accuracy from sequence data compared to high-density (HD) single nucleotide polymorphism (SNP) chip genotypes. In addition, the sheer number of variants makes analysis of all variants and accurate estimation of all effects computationally challenging. Our objective was to find a strategy to approximate the analysis of whole-sequence data with a Bayesian variable selection model. Using a simulated dataset, we applied a Bayes R hybrid model to analyse whole-sequence data, test the effect of dropping a proportion of variants during the analysis, and test how the analysis can be split into separate analyses per chromosome to reduce the elapsed computing time. We also investigated the effect of imputation errors on prediction accuracy. Subsequently, we applied the approach to a dataset that contained imputed sequences and records for production and fertility traits for 38,492 Holstein, Jersey, Australian Red and crossbred bulls and cows.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">With the simulated dataset, we found that prediction accuracy was highly increased for a breed that was not represented in the training population for sequence data compared to HD SNP data. Either dropping part of the variants during the analysis or splitting the analysis into separate analyses per chromosome decreased accuracy compared to analysing whole-sequence data. First, dropping variants from each chromosome and reanalysing the retained variants together resulted in an accuracy similar to that obtained when analysing whole-sequence data. Adding imputation errors decreased prediction accuracy, especially for errors in the validation population. With real data, using sequence variants resulted in accuracies that were similar to those obtained with the HD SNPs.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We present an efficient approach to approximate analysis of whole-sequence data with a Bayesian variable selection model. The lack of increase in prediction accuracy when applied to real data could be due to imputation errors, which demonstrates the importance of developing more accurate methods of imputation or directly genotyping sequence variants that have a major effect in the prediction equation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>van den Berg</LastName>
+                    <ForeName>Irene</ForeName>
+                    <Initials>I</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-9292-8636</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Veterinary and Agricultural Science, University of Melbourne, Parkville, VIC, Australia. irene.vandenberg@unimelb.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bowman</LastName>
+                    <ForeName>Phil J</ForeName>
+                    <Initials>PJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Applied Systems Biology, La Trobe University, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>MacLeod</LastName>
+                    <ForeName>Iona M</ForeName>
+                    <Initials>IM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayes</LastName>
+                    <ForeName>Ben J</ForeName>
+                    <Initials>BJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Queensland Alliance for Agriculture and Food Innovation, Centre for Animal Science, University of Queensland, St Lucia, QLD, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Tingting</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bolormaa</LastName>
+                    <ForeName>Sunduimijid</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goddard</LastName>
+                    <ForeName>Mike E</ForeName>
+                    <Initials>ME</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Veterinary and Agricultural Science, University of Melbourne, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>France</Country>
+            <MedlineTA>Genet Sel Evol</MedlineTA>
+            <NlmUniqueID>9114088</NlmUniqueID>
+            <ISSNLinking>0999-193X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>G3 (Bethesda). 2016 Aug 09;6(8):2553-61</RefSource>
+                <PMID Version="1">27317779</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2016 Jun 29;48(1):49</RefSource>
+                <PMID Version="1">27357580</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2014 Aug;46(8):858-65</RefSource>
+                <PMID Version="1">25017103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(4):e5350</RefSource>
+                <PMID Version="1">19390634</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2016 Feb 27;17:144</RefSource>
+                <PMID Version="1">26920147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2014 Jun 17;15:478</RefSource>
+                <PMID Version="1">24935670</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genetics. 2008 Jul;179(3):1503-12</RefSource>
+                <PMID Version="1">18622038</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 May 07;10(5):e0126880</RefSource>
+                <PMID Version="1">25950439</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Aug 15;27(16):2300-1</RefSource>
+                <PMID Version="1">21697123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2015 Sep 17;47:71</RefSource>
+                <PMID Version="1">26381777</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Animal. 2016 Jun;10 (6):1042-9</RefSource>
+                <PMID Version="1">26781646</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Anim Breed Genet. 2016 Jun;133(3):167-79</RefSource>
+                <PMID Version="1">26776363</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2017 Jan 16;49(1):8</RefSource>
+                <PMID Version="1">28093063</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2015 Apr 30;47:34</RefSource>
+                <PMID Version="1">25926276</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2014 Aug 27;15:728</RefSource>
+                <PMID Version="1">25164068</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2015 May 09;47:43</RefSource>
+                <PMID Version="1">25956961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2016 Nov 4;48(1):83</RefSource>
+                <PMID Version="1">27809758</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2007 Sep;81(3):559-75</RefSource>
+                <PMID Version="1">17701901</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2015 Apr 17;47:29</RefSource>
+                <PMID Version="1">25887988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genetics. 2014 Dec;198(4):1671-84</RefSource>
+                <PMID Version="1">25233989</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2016 Sep 21;17(1):744</RefSource>
+                <PMID Version="1">27654580</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2016 Dec 1;48(1):95</RefSource>
+                <PMID Version="1">27905878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Sel Evol. 2009 Dec 31;41:55</RefSource>
+                <PMID Version="1">20043827</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Dairy Sci. 2015 Jun;98(6):4107-16</RefSource>
+                <PMID Version="1">25892697</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001315" MajorTopicYN="N">Australia</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001499" MajorTopicYN="N">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001947" MajorTopicYN="Y">Breeding</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002417" MajorTopicYN="N">Cattle</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="N">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023281" MajorTopicYN="N">Genomics</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005838" MajorTopicYN="N">Genotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008957" MajorTopicYN="Y">Models, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020641" MajorTopicYN="N">Polymorphism, Single Nucleotide</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28934948</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12711-017-0347-9</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12711-017-0347-9</ArticleId>
+            <ArticleId IdType="pmc">PMC5609075</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

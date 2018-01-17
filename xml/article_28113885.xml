@@ -1,0 +1,98 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113885</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Learning from Weak and Noisy Labels for Semantic Segmentation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>486-500</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2552172</ELocationID>
+            <Abstract>
+                <AbstractText>A weakly supervised semantic segmentation (WSSS) method aims to learn a segmentation model from weak (image-level) as opposed to strong (pixel-level) labels. By avoiding the tedious pixel-level annotation process, it can exploit the unlimited supply of user-tagged images from media-sharing sites such as Flickr for large scale applications. However, these `free' tags/labels are often noisy and few existing works address the problem of learning with both weak and noisy labels. In this work, we cast the WSSS problem into a label noise reduction problem. Specifically, after segmenting each image into a set of superpixels, the weak and potentially noisy image-level labels are propagated to the superpixel level resulting in highly noisy labels; the key to semantic segmentation is thus to identify and correct the superpixel noisy labels. To this end, a novel L1-optimisation based sparse learning model is formulated to directly and explicitly detect noisy labels. To solve the L1-optimisation problem, we further develop an efficient learning algorithm by introducing an intermediate labelling variable. Extensive experiments on three benchmark datasets show that our method yields state-of-the-art results given noise-free labels, whilst significantly outperforming the existing methods when the weak labels are also noisy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhiwu Lu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhenyong Fu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tao Xiang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peng Han</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liwei Wang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xin Gao</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113885</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2552172</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

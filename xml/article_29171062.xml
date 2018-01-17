@@ -1,0 +1,241 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29171062</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-0258</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Statistics in medicine</Title>
+                <ISOAbbreviation>Stat Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mixture drug-count response model for the high-dimensional drug combinatory effect on myopathy.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/sim.7545</ELocationID>
+            <Abstract>
+                <AbstractText>Drug-drug interactions (DDIs) are a common cause of adverse drug events (ADEs). The electronic medical record (EMR) database and the FDA's adverse event reporting system (FAERS) database are the major data sources for mining and testing the ADE associated DDI signals. Most DDI data mining methods focus on pair-wise drug interactions, and methods to detect high-dimensional DDIs in medical databases are lacking. In this paper, we propose 2 novel mixture drug-count response models for detecting high-dimensional drug combinations that induce myopathy. The &quot;count&quot; indicates the number of drugs in a combination. One model is called fixed probability mixture drug-count response model with a maximum risk threshold (FMDRM-MRT). The other model is called count-dependent probability mixture drug-count response model with a maximum risk threshold (CMDRM-MRT), in which the mixture probability is count dependent. Compared with the previous mixture drug-count response model (MDRM) developed by our group, these 2 new models show a better likelihood in detecting high-dimensional drug combinatory effects on myopathy. CMDRM-MRT identified and validated (54; 374; 637; 442; 131) 2-way to 6-way drug interactions, respectively, which induce myopathy in both EMR and FAERS databases. We further demonstrate FAERS data capture much higher maximum myopathy risk than EMR data do. The consistency of 2 mixture models' parameters and local false discovery rate estimates are evaluated through statistical simulation studies.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Xueying</ForeName>
+                    <Initials>X</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6350-7998</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Intelligent System and Bioinformatics, College of Automation, Harbin Engineering University, NO.145-1, Nantong Street, Nangang District, Harbin, 150001, Heilongjiang, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Pengyue</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chiang</LastName>
+                    <ForeName>Chien-Wei</ForeName>
+                    <Initials>CW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Hengyi</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, School of Medicine, Indiana University, 355 W. 16th Street, Suite 4100, Room 4099, Indianapolis, 46202, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ning</LastName>
+                    <ForeName>Xia</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Computer and Information Science, IUPUI, 723 W Michigan St, SL 265, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zeng</LastName>
+                    <ForeName>Donglin</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of North Carolina at Chapel Hill, 3103B McGavran-Greenberg Hall, CB #7420, Chapel Hill, NC, 27599, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Intelligent System and Bioinformatics, College of Automation, Harbin Engineering University, NO.145-1, Nantong Street, Nangang District, Harbin, 150001, Heilongjiang, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical and Molecular Genetics, School of Medicine, Indiana University, 975 West Walnut Street, Medical Research and Library Building, IB 130, Indianapolis, 46202, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Quinney</LastName>
+                    <ForeName>Sara K</ForeName>
+                    <Initials>SK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, School of Medicine, Indiana University, 550 University Blvd, Indianapolis, 46202, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Clinical Pharmacology, School of Medicine, Indiana University, Research Institute (R2), Room 402, 950 West Walnut Street, Indianapolis, 46202, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Feng</LastName>
+                    <ForeName>Weixing</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Intelligent System and Bioinformatics, College of Automation, Harbin Engineering University, NO.145-1, Nantong Street, Nangang District, Harbin, 150001, Heilongjiang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Lang</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Computational Biology and Bioinformatics, School of Medicine, Indiana University, 410 W. 10th St., Suite 5000, Indianapolis, IN, 46202, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical and Molecular Genetics, School of Medicine, Indiana University, 975 West Walnut Street, Medical Research and Library Building, IB 130, Indianapolis, 46202, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Indiana Institute of Personalized Medicine, School of Medicine, Indiana University, Research Institute (R2), Room 402, 950 West Walnut Street, Indianapolis, 46202, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 DK102694</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM104483</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM117206</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 LM011945</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Stat Med</MedlineTA>
+            <NlmUniqueID>8215016</NlmUniqueID>
+            <ISSNLinking>0277-6715</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">FDA's adverse event reporting system</Keyword>
+            <Keyword MajorTopicYN="N">drug-count response model</Keyword>
+            <Keyword MajorTopicYN="N">electronic medical record</Keyword>
+            <Keyword MajorTopicYN="N">high-dimensional drug interactions</Keyword>
+            <Keyword MajorTopicYN="N">myopathy</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29171062</ArticleId>
+            <ArticleId IdType="doi">10.1002/sim.7545</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,105 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113786</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>29</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>In Defense of Locality-Sensitive Hashing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>87-103</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2615085</ELocationID>
+            <Abstract>
+                <AbstractText>Hashing-based semantic similarity search is becoming increasingly important for building large-scale content-based retrieval system. The state-of-the-art supervised hashing techniques use flexible two-step strategy to learn hash functions. The first step learns binary codes for training data by solving binary optimization problems with millions of variables, thus usually requiring intensive computations. Despite simplicity and efficiency, locality-sensitive hashing (LSH) has never been recognized as a good way to generate such codes due to its poor performance in traditional approximate neighbor search. We claim in this paper that the true merit of LSH lies in transforming the semantic labels to obtain the binary codes, resulting in an effective and efficient two-step hashing framework. Specifically, we developed the locality-sensitive two-step hashing (LS-TSH) that generates the binary codes through LSH rather than any complex optimization technique. Theoretically, with proper assumption, LS-TSH is actually a useful LSH scheme, so that it preserves the label-based semantic similarity and possesses sublinear query complexity for hash lookup. Experimentally, LS-TSH could obtain comparable retrieval accuracy with state of the arts with two to three orders of magnitudes faster training speed.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ding</LastName>
+                    <ForeName>Kun</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huo</LastName>
+                    <ForeName>Chunlei</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fan</LastName>
+                    <ForeName>Bin</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiang</LastName>
+                    <ForeName>Shiming</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Chunhong</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113786</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2615085</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

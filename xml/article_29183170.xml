@@ -1,0 +1,168 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29183170</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1563-5279</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The International journal of neuroscience</Title>
+                <ISOAbbreviation>Int. J. Neurosci.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Primary central nervous system lymphoma and glioblastoma differentiation based on conventional magnetic resonance imaging by high-throughput SIFT features.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-11</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1080/00207454.2017.1408613</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE OF THE STUDY" NlmCategory="OBJECTIVE">Due to the totally different therapeutic regimens needed for primary central nervous system lymphoma (PCNSL) and glioblastoma (GBM), accurate differentiation of the two diseases by noninvasive imaging techniques is important for clinical decision-making.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Thirty cases of PCNSL and 66 cases of GBM with conventional T1-contrast magnetic resonance imaging (MRI) were analyzed in this study. Convolutional neural networks was used to segment tumor automatically. A modified scale invariant feature transform (SIFT) method was utilized to extract three-dimensional local voxel arrangement information from segmented tumors. Fisher vector was proposed to normalize the dimension of SIFT features. An improved genetic algorithm (GA) was used to extract SIFT features with PCNSL and GBM discrimination ability. The data-set was divided into a cross-validation cohort and an independent validation cohort by the ratio of 2:1. Support vector machine with the leave-one-out cross-validation based on 20 cases of PCNSL and 44 cases of GBM was employed to build and validate the differentiation model.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Among 16,384 high-throughput features, 1356 features show significant differences between PCNSL and GBM with p &lt; 0.05 and 420 features with p &lt; 0.001. A total of 496 features were finally chosen by improved GA algorithm. The proposed method produces PCNSL vs. GBM differentiation with an area under the curve (AUC) curve of 99.1% (98.2%), accuracy 95.3% (90.6%), sensitivity 85.0% (80.0%) and specificity 100% (95.5%) on the cross-validation cohort (and independent validation cohort).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Since the local voxel arrangement characterization provided by SIFT features, proposed method produced more competitive PCNSL and GBM differentiation performance by using conventional MRI than methods based on advanced MRI.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yinsheng</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>c State Key Laboratory of Oncology in South China , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Zeju</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>b Department of Electronic Engineering , Fudan University , Shanghai , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Guoqing</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>b Department of Electronic Engineering , Fudan University , Shanghai , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Jinhua</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>b Department of Electronic Engineering , Fudan University , Shanghai , China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>d The Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention of Shanghai , Shanghai , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yuanyuan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>b Department of Electronic Engineering , Fudan University , Shanghai , China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>d The Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention of Shanghai , Shanghai , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lv</LastName>
+                    <ForeName>Xiaofei</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ju</LastName>
+                    <ForeName>Xue</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>c State Key Laboratory of Oncology in South China , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Zhongping</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>c State Key Laboratory of Oncology in South China , Guangzhou , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Int J Neurosci</MedlineTA>
+            <NlmUniqueID>0270707</NlmUniqueID>
+            <ISSNLinking>0020-7454</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Primary central nervous system lymphoma (PCNSL)</Keyword>
+            <Keyword MajorTopicYN="N">SIFT features</Keyword>
+            <Keyword MajorTopicYN="N">glioblastoma (GBM)</Keyword>
+            <Keyword MajorTopicYN="N">magnetic resonance imaging</Keyword>
+            <Keyword MajorTopicYN="N">radiomics</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29183170</ArticleId>
+            <ArticleId IdType="doi">10.1080/00207454.2017.1408613</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,118 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28339644</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>03</Month>
+            <Day>24</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-974X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>24</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the American Medical Informatics Association : JAMIA</Title>
+                <ISOAbbreviation>J Am Med Inform Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Development and validation of a structured query language implementation of the Elixhauser comorbidity index.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>845-850</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/jamia/ocw181</ELocationID>
+            <Abstract>
+                <AbstractText Label="Objective" NlmCategory="UNASSIGNED">Comorbidity adjustment is often performed during outcomes and health care resource utilization research. Our goal was to develop an efficient algorithm in structured query language (SQL) to determine the Elixhauser comorbidity index.</AbstractText>
+                <AbstractText Label="Materials and Methods" NlmCategory="UNASSIGNED">We wrote an SQL algorithm to calculate the Elixhauser comorbidities from Diagnosis Related Group and International Classification of Diseases (ICD) codes. Validation was by comparison to expected comorbidities from combinations of these codes and to the 2013 Nationwide Readmissions Database (NRD).</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">The SQL algorithm matched perfectly with expected comorbidities for all combinations of ICD-9 or ICD-10, and Diagnosis Related Groups. Of 13 585 859 evaluable NRD records, the algorithm matched 100% of the listed comorbidities. Processing time was ∼0.05 ms/record.</AbstractText>
+                <AbstractText Label="Discussion" NlmCategory="UNASSIGNED">The SQL Elixhauser code was efficient and computationally identical to the SAS algorithm used for the NRD.</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">This algorithm may be useful where preprocessing of large datasets in a relational database environment and comorbidity determination is desired before statistical analysis. A validated SQL procedure to calculate Elixhauser comorbidities and the van Walraven index from ICD-9 or ICD-10 discharge diagnosis codes has been published.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Epstein</LastName>
+                    <ForeName>Richard H</ForeName>
+                    <Initials>RH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Anesthesiology, Perioperative Medicine and Pain Management, University of Miami, Miami, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dexter</LastName>
+                    <ForeName>Franklin</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Management Consulting, Department of Anesthesia, University of Iowa, Iowa City, IA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Am Med Inform Assoc</MedlineTA>
+            <NlmUniqueID>9430800</NlmUniqueID>
+            <ISSNLinking>1067-5027</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">algorithms</Keyword>
+            <Keyword MajorTopicYN="N">comorbidity</Keyword>
+            <Keyword MajorTopicYN="N">computing methodologies</Keyword>
+            <Keyword MajorTopicYN="N">software validation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28339644</ArticleId>
+            <ArticleId IdType="pii">3001935</ArticleId>
+            <ArticleId IdType="doi">10.1093/jamia/ocw181</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

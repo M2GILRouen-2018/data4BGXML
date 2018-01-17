@@ -1,0 +1,271 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28219348</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>21</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>114</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1547-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">High throughput metabolomics makes it possible to measure the relative abundances of numerous metabolites in biological samples, which is useful to many areas of biomedical research. However, missing values (MVs) in metabolomics datasets are common and can arise due to both technical and biological reasons. Typically, such MVs are substituted by a minimum value, which may lead to different results in downstream analyses.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here we present a modified version of the K-nearest neighbor (KNN) approach which accounts for truncation at the minimum value, i.e., KNN truncation (KNN-TN). We compare imputation results based on KNN-TN with results from other KNN approaches such as KNN based on correlation (KNN-CR) and KNN based on Euclidean distance (KNN-EU). Our approach assumes that the data follow a truncated normal distribution with the truncation point at the detection limit (LOD). The effectiveness of each approach was analyzed by the root mean square error (RMSE) measure as well as the metabolite list concordance index (MLCI) for influence on downstream statistical testing. Through extensive simulation studies and application to three real data sets, we show that KNN-TN has lower RMSE values compared to the other two KNN procedures as well as simpler imputation methods based on substituting missing values with the metabolite mean, zero values, or the LOD. MLCI values between KNN-TN and KNN-EU were roughly equivalent, and superior to the other four methods in most cases.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Our findings demonstrate that KNN-TN generally has improved performance in imputing the missing values of the different datasets compared to KNN-CR and KNN-EU when there is missingness due to missing at random combined with an LOD. The results shown in this study are in the field of metabolomics but this method could be applicable with any high throughput technology which has missing due to LOD.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Jasmit S</ForeName>
+                    <Initials>JS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioinformatics and Biostatistics, University of Louisville, Louisville, KY, 40202, USA. jasmit.shah@louisville.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA. jasmit.shah@louisville.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rai</LastName>
+                    <ForeName>Shesh N</ForeName>
+                    <Initials>SN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioinformatics and Biostatistics, University of Louisville, Louisville, KY, 40202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>DeFilippis</LastName>
+                    <ForeName>Andrew P</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hill</LastName>
+                    <ForeName>Bradford G</ForeName>
+                    <Initials>BG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bhatnagar</LastName>
+                    <ForeName>Aruni</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brock</LastName>
+                    <ForeName>Guy N</ForeName>
+                    <Initials>GN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Bioinformatics and Biostatistics, University of Louisville, Louisville, KY, 40202, USA. Guy.Brock@osumc.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Present Affiliation: Department of Biomedical Informatics, The Ohio State University, Columbus, OH, 43210, USA. Guy.Brock@osumc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P20 GM103492</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Jan 1;27(1):78-86</RefSource>
+                <PMID Version="1">21045072</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2008 Apr;8(7):1371-83</RefSource>
+                <PMID Version="1">18383008</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Jan 1;26(1):139-40</RefSource>
+                <PMID Version="1">19910308</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2008 Jan 10;9:12</RefSource>
+                <PMID Version="1">18186917</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Thromb Thrombolysis. 2016 Jul;42(1):61-76</RefSource>
+                <PMID Version="1">26510751</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>MethodsX. 2016 Jul 20;3:490-6</RefSource>
+                <PMID Version="1">27504267</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Heart Fail. 2014 Jul;7(4):634-42</RefSource>
+                <PMID Version="1">24762972</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Stat Assoc. 1949 Dec;44(248):518-25</RefSource>
+                <PMID Version="1">15395359</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Appl Genet Mol Biol. 2013 Dec;12(6):703-22</RefSource>
+                <PMID Version="1">24246290</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Aug 15;25(16):2028-34</RefSource>
+                <PMID Version="1">19535538</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Appl Genet Mol Biol. 2004;3:Article3</RefSource>
+                <PMID Version="1">16646809</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2010 Mar;10(6):1202-11</RefSource>
+                <PMID Version="1">20077407</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Growth Differ. 2014 Aug;56(6):434-47</RefSource>
+                <PMID Version="1">24849136</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Mol Biol. 2011;708:277-98</RefSource>
+                <PMID Version="1">21207297</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2012;13 Suppl 16:S5</RefSource>
+                <PMID Version="1">23176322</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Metabolites. 2014 Jun 16;4(2):433-52</RefSource>
+                <PMID Version="1">24957035</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2016 Feb 19;:null</RefSource>
+                <PMID Version="1">26896791</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Chem. 1994 Jul;40(7 Pt 1):1233-8</RefSource>
+                <PMID Version="1">8013092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2001 Jun;17(6):520-5</RefSource>
+                <PMID Version="1">11395428</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D035843" MajorTopicYN="Y">Biomedical Research</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055432" MajorTopicYN="Y">Metabolomics</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">High dimensional data</Keyword>
+            <Keyword MajorTopicYN="N">Imputation</Keyword>
+            <Keyword MajorTopicYN="N">K-nearest neighbors</Keyword>
+            <Keyword MajorTopicYN="N">Metabolomics</Keyword>
+            <Keyword MajorTopicYN="N">Missing value</Keyword>
+            <Keyword MajorTopicYN="N">Truncated normal</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28219348</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1547-6</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1547-6</ArticleId>
+            <ArticleId IdType="pmc">PMC5319174</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

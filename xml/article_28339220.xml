@@ -1,0 +1,177 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28905916</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-4687</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>549</Volume>
+                    <Issue>7671</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nature</Title>
+                <ISOAbbreviation>Nature</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>242-246</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/nature23879</ELocationID>
+            <Abstract>
+                <AbstractText>Quantum computers can be used to address electronic-structure problems and problems in materials science and condensed matter physics that can be formulated as interacting fermionic problems, problems which stretch the limits of existing high-performance computers. Finding exact solutions to such problems numerically has a computational cost that scales exponentially with the size of the system, and Monte Carlo methods are unsuitable owing to the fermionic sign problem. These limitations of classical computational methods have made solving even few-atom electronic-structure problems interesting for implementation using medium-sized quantum computers. Yet experimental implementations have so far been restricted to molecules involving only hydrogen and helium. Here we demonstrate the experimental optimization of Hamiltonian problems with up to six qubits and more than one hundred Pauli terms, determining the ground-state energy for molecules of increasing size, up to BeH2. We achieve this result by using a variational quantum eigenvalue solver (eigensolver) with efficiently prepared trial states that are tailored specifically to the interactions that are available in our quantum processor, combined with a compact encoding of fermionic Hamiltonians and a robust stochastic optimization routine. We demonstrate the flexibility of our approach by applying it to a problem of quantum magnetism, an antiferromagnetic Heisenberg model in an external magnetic field. In all cases, we find agreement between our experiments and numerical simulations using a model of the device with noise. Our results help to elucidate the requirements for scaling the method to larger systems and for bridging the gap between key problems in high-performance computing and their implementation on quantum hardware.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kandala</LastName>
+                    <ForeName>Abhinav</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mezzacapo</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Temme</LastName>
+                    <ForeName>Kristan</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Takita</LastName>
+                    <ForeName>Maika</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brink</LastName>
+                    <ForeName>Markus</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chow</LastName>
+                    <ForeName>Jerry M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gambetta</LastName>
+                    <ForeName>Jay M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Nature</MedlineTA>
+            <NlmUniqueID>0410462</NlmUniqueID>
+            <ISSNLinking>0028-0836</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Sep 9;309(5741):1704-7</RefSource>
+                <PMID Version="1">16151006</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Rev Lett. 2010 Jan 22;104(3):030502</RefSource>
+                <PMID Version="1">20366636</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Chem. 2010 Feb;2(2):106-11</RefSource>
+                <PMID Version="1">21124400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>ACS Nano. 2015 Aug 25;9(8):7769-74</RefSource>
+                <PMID Version="1">25905564</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2014 Jan 07;4:3589</RefSource>
+                <PMID Version="1">24395054</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2014 Jul 23;5:4213</RefSource>
+                <PMID Version="1">25055053</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2011 Oct 7;334(6052):57-61</RefSource>
+                <PMID Version="1">21885735</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Rev Lett. 2017 Mar 10;118(10 ):100503</RefSource>
+                <PMID Version="1">28339220</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28905916</ArticleId>
+            <ArticleId IdType="pii">nature23879</ArticleId>
+            <ArticleId IdType="doi">10.1038/nature23879</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

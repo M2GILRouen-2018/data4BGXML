@@ -1,0 +1,93 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29190087</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-960X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical information and modeling</Title>
+                <ISOAbbreviation>J Chem Inf Model</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Task-Specific Scoring Functions for Predicting Ligand Binding Poses and Affinity and for Screening Enrichment.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jcim.7b00309</ELocationID>
+            <Abstract>
+                <AbstractText>Molecular docking, scoring, and virtual screening play an increasingly important role in computer-aided drug discovery. Scoring functions (SFs) are typically employed to predict the binding conformation (docking task), binding affinity (scoring task), and binary activity level (screening task) of ligands against a critical protein target in a disease's pathway. In most molecular docking software packages available today, a generic binding affinity-based (BA-based) SF is invoked for all three tasks to solve three different, but related, prediction problems. The limited predictive accuracies of such SFs in these three tasks has been a major roadblock toward cost-effective drug discovery. Therefore, in this work, we develop BT-Score, an ensemble machine-learning (ML) SF of boosted decision trees and thousands of predictive descriptors to estimate BA. BT-Score reproduced BA of out-of-sample test complexes with correlation of 0.825. Even with this high accuracy in the scoring task, we demonstrate that the docking and screening performance of BT-Score and other BA-based SFs is far from ideal. This has motivated us to build two task-specific ML SFs for the docking and screening problems. We propose BT-Dock, a boosted-tree ensemble model trained on a large number of native and computer-generated ligand conformations and optimized to predict binding poses explicitly. This model has shown an average improvement of 25% over its BA-based counterparts in different ligand pose prediction scenarios. Similar improvement has also been obtained by our screening-based SF, BT-Screen, which directly models the ligand activity labeling task as a classification problem. BT-Screen is trained on thousands of active and inactive protein-ligand complexes to optimize it for finding real actives from databases of ligands not seen in its training set. In addition to the three task-specific SFs, we propose a novel multi-task deep neural network (MT-Net) that is trained on data from the three tasks to simultaneously predict binding poses, affinities, and activity levels. We show that the performance of MT-Net is superior to conventional SFs and on a par with or better than models based on single-task neural networks.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ashtawy</LastName>
+                    <ForeName>Hossam M</ForeName>
+                    <Initials>HM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5589-9274</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, Michigan State University , East Lansing, Michigan 48824-1226, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mahapatra</LastName>
+                    <ForeName>Nihar R</ForeName>
+                    <Initials>NR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, Michigan State University , East Lansing, Michigan 48824-1226, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Inf Model</MedlineTA>
+            <NlmUniqueID>101230060</NlmUniqueID>
+            <ISSNLinking>1549-9596</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29190087</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jcim.7b00309</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

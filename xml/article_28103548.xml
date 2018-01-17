@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28103548</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dimensionality Reduction on SPD Manifolds: The Emergence of Geometry-Aware Methods.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>48-62</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2017.2655048</ELocationID>
+            <Abstract>
+                <AbstractText>Representing images and videos with Symmetric Positive Definite (SPD) matrices, and considering the Riemannian geometry of the resulting space, has been shown to yield high discriminative power in many visual recognition tasks. Unfortunately, computation on the Riemannian manifold of SPD matrices -especially of high-dimensional ones- comes at a high cost that limits the applicability of existing techniques. In this paper, we introduce algorithms able to handle high-dimensional SPD matrices by constructing a lower-dimensional SPD manifold. To this end, we propose to model the mapping from the high-dimensional SPD manifold to the low-dimensional one with an orthonormal projection. This lets us formulate dimensionality reduction as the problem of finding a projection that yields a low-dimensional manifold either with maximum discriminative power in the supervised scenario, or with maximum variance of the data in the unsupervised one. We show that learning can be expressed as an optimization problem on a Grassmann manifold and discuss fast solutions for special cases. Our evaluation on several classification tasks evidences that our approach leads to a significant accuracy gain over state-of-the-art methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Harandi</LastName>
+                    <ForeName>Mehrtash</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Salzmann</LastName>
+                    <ForeName>Mathieu</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hartley</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103548</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2017.2655048</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,145 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29194981</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1755-0998</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Molecular ecology resources</Title>
+                <ISOAbbreviation>Mol Ecol Resour</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ddrage: A data set generator to evaluate ddRADseq analysis software.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/1755-0998.12743</ELocationID>
+            <Abstract>
+                <AbstractText>High-throughput sequencing makes it possible to evaluate thousands of genetic markers across genomes and populations. Reduced-representation sequencing approaches, like double-digest restriction site-associated DNA sequencing (ddRADseq), are frequently applied to screen for genetic variation. In particular in nonmodel organisms where whole-genome sequencing is not yet feasible, ddRADseq has become popular as it allows genomewide assessment of variation patterns even in the absence of other genomic resources. However, while many tools are available for the analysis of ddRADseq data, few options exist to simulate ddRADseq data in order to evaluate the accuracy of downstream tools. The available tools either focus on the optimization of ddRAD experiment design or do not provide the information necessary for a detailed evaluation of different ddRAD analysis tools. For this task, a ground truth, that is, the underlying information of all effects in the data set, is required. Therefore, we here present ddrage, the ddRAD Data Set Generator, that allows both developers and users to evaluate their ddRAD analysis software. ddrage allows the user to adjust many parameters such as coverage and rates of mutations, sequencing errors or allelic dropouts, in order to generate a realistic simulated ddRADseq data set for given experimental scenarios and organisms. The simulated reads can be easily processed with available analysis software such as stacks or pyrad and evaluated against the underlying parameters used to generate the data to gauge the impact of different parameter values used during downstream data processing.</AbstractText>
+                <CopyrightInformation>© 2017 John Wiley &amp; Sons Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Timm</LastName>
+                    <ForeName>Henning</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5345-7122</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Genome Informatics, Institute of Human Genetics, University of Duisburg-Essen, University Hospital Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Weigand</LastName>
+                    <ForeName>Hannah</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-7533-8063</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Aquatic Ecosystem Research, Faculty of Biology, University of Duisburg-Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Weiss</LastName>
+                    <ForeName>Martina</ForeName>
+                    <Initials>M</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7088-4644</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Aquatic Ecosystem Research, Faculty of Biology, University of Duisburg-Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leese</LastName>
+                    <ForeName>Florian</ForeName>
+                    <Initials>F</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5465-913X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Aquatic Ecosystem Research, Faculty of Biology, University of Duisburg-Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rahmann</LastName>
+                    <ForeName>Sven</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-8536-6065</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Genome Informatics, Institute of Human Genetics, University of Duisburg-Essen, University Hospital Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Mol Ecol Resour</MedlineTA>
+            <NlmUniqueID>101465604</NlmUniqueID>
+            <ISSNLinking>1755-098X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">RAD</Keyword>
+            <Keyword MajorTopicYN="N">coverage</Keyword>
+            <Keyword MajorTopicYN="N">dropout</Keyword>
+            <Keyword MajorTopicYN="N">evaluation</Keyword>
+            <Keyword MajorTopicYN="N">in silico simulation</Keyword>
+            <Keyword MajorTopicYN="N">mathematical modelling</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29194981</ArticleId>
+            <ArticleId IdType="doi">10.1111/1755-0998.12743</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

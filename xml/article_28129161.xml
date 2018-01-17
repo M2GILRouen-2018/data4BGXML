@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28129161</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Analytic Approximations for Real-Time Area Light Shading.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1428-1441</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2017.2656889</ELocationID>
+            <Abstract>
+                <AbstractText>We introduce analytic approximations for accurate real-time rendering of surfaces lit by non-occluded area light sources. Our solution leverages the Irradiance Tensors developed by Arvo for the shading of Phong surfaces lit by a polygonal light source. Using a reformulation of the 1D boundary edge integral, we develop a general framework for approximating and evaluating the integral in constant time using simple peak shape functions. To overcome the Phong restriction, we propose a low cost edge splitting strategy that accounts for the spherical warp introduced by the half vector parametrization. Thanks to this novel extension, we accurately approximate common microfacet BRDFs, providing a practical method producing specular stretches that closely match the ground truth in real-time. Finally, using the same approximation framework, we introduce support for spherical and disc area light sources, based on an original polygon spinning method supporting non-uniform scaling operations and horizon clipping. Implemented on a GPU, our method achieves real-time performances without any assumption on area light shape nor surface roughness.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lecocq</LastName>
+                    <ForeName>Pascal</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dufay</LastName>
+                    <ForeName>Arthur</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sourimant</LastName>
+                    <ForeName>Gael</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marvie</LastName>
+                    <ForeName>Jean-Eudes</ForeName>
+                    <Initials>JE</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28129161</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2017.2656889</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

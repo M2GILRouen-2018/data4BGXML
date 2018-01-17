@@ -1,0 +1,372 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29187165</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ImageJ2: ImageJ for the next generation of scientific image data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>529</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1934-z</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">ImageJ is an image analysis program extensively used in the biological sciences and beyond. Due to its ease of use, recordable macro language, and extensible plug-in architecture, ImageJ enjoys contributions from non-programmers, amateur programmers, and professional developers alike. Enabling such a diversity of contributors has resulted in a large community that spans the biological and physical sciences. However, a rapidly growing user base, diverging plugin suites, and technical limitations have revealed a clear need for a concerted software engineering effort to support emerging imaging paradigms, to ensure the software's ability to handle the requirements of modern science.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We rewrote the entire ImageJ codebase, engineering a redesigned plugin mechanism intended to facilitate extensibility at every level, with the goal of creating a more powerful tool that continues to serve the existing community while addressing a wider range of scientific requirements. This next-generation ImageJ, called &quot;ImageJ2&quot; in places where the distinction matters, provides a host of new functionality. It separates concerns, fully decoupling the data model from the user interface. It emphasizes integration with external applications to maximize interoperability. Its robust new plugin framework allows everything from image formats, to scripting languages, to visualization to be extended by the community. The redesigned data model supports arbitrarily large, N-dimensional datasets, which are increasingly common in modern image acquisition. Despite the scope of these changes, backwards compatibility is maintained such that this new functionality can be seamlessly integrated with the classic ImageJ interface, allowing users and developers to migrate to these new methods at their own pace.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Scientific imaging benefits from open-source programs that advance new method development and deployment to a diverse audience. ImageJ has continuously evolved with this idea in mind; however, new and emerging scientific requirements have posed corresponding challenges for ImageJ's development. The described improvements provide a framework engineered for flexibility, intended to support these requirements as well as accommodate future needs. Future efforts will focus on implementing new algorithms in this framework and expanding collaborations with other popular scientific software suites.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rueden</LastName>
+                    <ForeName>Curtis T</ForeName>
+                    <Initials>CT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schindelin</LastName>
+                    <ForeName>Johannes</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Morgridge Institute for Research, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hiner</LastName>
+                    <ForeName>Mark C</ForeName>
+                    <Initials>MC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>DeZonia</LastName>
+                    <ForeName>Barry E</ForeName>
+                    <Initials>BE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Walter</LastName>
+                    <ForeName>Alison E</ForeName>
+                    <Initials>AE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Morgridge Institute for Research, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arena</LastName>
+                    <ForeName>Ellen T</ForeName>
+                    <Initials>ET</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Morgridge Institute for Research, Madison, Wisconsin, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eliceiri</LastName>
+                    <ForeName>Kevin W</ForeName>
+                    <Initials>KW</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8678-670X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA. eliceiri@wisc.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Morgridge Institute for Research, Madison, Wisconsin, USA. eliceiri@wisc.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>095931</GrantID>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>RC2 GM092519</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>1148362</GrantID>
+                    <Agency>National Science Foundation</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>RC2 GM092519-01</GrantID>
+                    <Agency>National Institute of General Medical Sciences</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 28;9(7):666-70</RefSource>
+                <PMID Version="1">22743771</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Sep 1;24(17):1827-36</RefSource>
+                <PMID Version="1">18603566</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Neurosci. 2016 Nov;44(9):2654-2666</RefSource>
+                <PMID Version="1">27256072</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Feb 15;26(4):544-52</RefSource>
+                <PMID Version="1">20031971</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Sep 1;27(17):2453-4</RefSource>
+                <PMID Version="1">21727141</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2002;85:586-92</RefSource>
+                <PMID Version="1">15458157</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Feb 28;9(3):245-53</RefSource>
+                <PMID Version="1">22373911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2014 Oct;11(10):982-4</RefSource>
+                <PMID Version="1">25264773</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Vis Exp. 2016 Apr 10;(110):e53966</RefSource>
+                <PMID Version="1">27167079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jun 1;25(11):1463-5</RefSource>
+                <PMID Version="1">19346324</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2006;7(10):R100</RefSource>
+                <PMID Version="1">17076895</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2017 Feb 15;33(4):629-630</RefSource>
+                <PMID Version="1">27797782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2014 Jan;9(1):193-208</RefSource>
+                <PMID Version="1">24385149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Reprod Dev. 2015 Jul-Aug;82(7-8):518-29</RefSource>
+                <PMID Version="1">26153368</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jul;9(7):671-5</RefSource>
+                <PMID Version="1">22930834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2017 May 1;84:189-194</RefSource>
+                <PMID Version="1">28390286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2010 Jun;7(6):418-9</RefSource>
+                <PMID Version="1">20508634</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Fluids Barriers CNS. 2016 Jun 21;13(1):11</RefSource>
+                <PMID Version="1">27329482</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Wiley Interdiscip Rev Dev Biol. 2017 Mar;6(2):</RefSource>
+                <PMID Version="1">27911038</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2017 Aug 1;33(15):2424-2426</RefSource>
+                <PMID Version="1">28369169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 28;9(7):683-9</RefSource>
+                <PMID Version="1">22743773</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 28;9(7):676-82</RefSource>
+                <PMID Version="1">22743772</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Nov 15;32(22):3532-3534</RefSource>
+                <PMID Version="1">27412086</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biol. 2010 May 31;189(5):777-82</RefSource>
+                <PMID Version="1">20513764</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2005;6(5):R47</RefSource>
+                <PMID Version="1">15892875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2015 Jun;12(6):481-3</RefSource>
+                <PMID Version="1">26020499</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microsc Res Tech. 2006 Apr;69(4):260-6</RefSource>
+                <PMID Version="1">16586486</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2016 Dec 7;17 (1):521</RefSource>
+                <PMID Version="1">27927161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 28;9(7):697-710</RefSource>
+                <PMID Version="1">22743775</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Biomater. 2017 May;54:117-127</RefSource>
+                <PMID Version="1">28216299</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods. 2017 Feb 15;115:80-90</RefSource>
+                <PMID Version="1">27713081</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Nov 15;28(22):3009-11</RefSource>
+                <PMID Version="1">22962343</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Methods. 2014;1(2):null</RefSource>
+                <PMID Version="1">25606571</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2014 Jun;11(6):645-8</RefSource>
+                <PMID Version="1">24747812</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Protoc Mol Biol. 2010 Oct;Chapter 14:Unit14.20</RefSource>
+                <PMID Version="1">20890901</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Cell Biol. 2009 Nov;19(11):656-60</RefSource>
+                <PMID Version="1">19833518</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Pac Vis Symp. 2012;:201-208</RefSource>
+                <PMID Version="1">23584131</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Apr 15;27(8):1179-80</RefSource>
+                <PMID Version="1">21349861</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 28;9(7):690-6</RefSource>
+                <PMID Version="1">22743774</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods. 2017 Feb 1;114:54-59</RefSource>
+                <PMID Version="1">27491801</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Neurosci. 2016 Sep;75:14-26</RefSource>
+                <PMID Version="1">27297944</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Aided Mol Des. 2012 Jul;26(7):801-4</RefSource>
+                <PMID Version="1">22644661</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Extensibility</Keyword>
+            <Keyword MajorTopicYN="N">Image processing</Keyword>
+            <Keyword MajorTopicYN="N">ImageJ</Keyword>
+            <Keyword MajorTopicYN="N">ImageJ2</Keyword>
+            <Keyword MajorTopicYN="N">Interoperability</Keyword>
+            <Keyword MajorTopicYN="N">N-dimensional</Keyword>
+            <Keyword MajorTopicYN="N">Open development</Keyword>
+            <Keyword MajorTopicYN="N">Open source</Keyword>
+            <Keyword MajorTopicYN="N">Reproducibility</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29187165</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1934-z</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1934-z</ArticleId>
+            <ArticleId IdType="pmc">PMC5708080</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

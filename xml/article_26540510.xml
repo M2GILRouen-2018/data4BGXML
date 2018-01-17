@@ -1,0 +1,442 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157240</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1475-925X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biomedical engineering online</Title>
+                <ISOAbbreviation>Biomed Eng Online</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic diagnosis of imbalanced ophthalmic images using a cost-sensitive deep convolutional neural network.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>132</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12938-017-0420-1</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Ocular images play an essential role in ophthalmological diagnoses. Having an imbalanced dataset is an inevitable issue in automated ocular diseases diagnosis; the scarcity of positive samples always tends to result in the misdiagnosis of severe patients during the classification task. Exploring an effective computer-aided diagnostic method to deal with imbalanced ophthalmological dataset is crucial.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this paper, we develop an effective cost-sensitive deep residual convolutional neural network (CS-ResCNN) classifier to diagnose ophthalmic diseases using retro-illumination images. First, the regions of interest (crystalline lens) are automatically identified via twice-applied Canny detection and Hough transformation. Then, the localized zones are fed into the CS-ResCNN to extract high-level features for subsequent use in automatic diagnosis. Second, the impacts of cost factors on the CS-ResCNN are further analyzed using a grid-search procedure to verify that our proposed system is robust and efficient.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Qualitative analyses and quantitative experimental results demonstrate that our proposed method outperforms other conventional approaches and offers exceptional mean accuracy (92.24%), specificity (93.19%), sensitivity (89.66%) and AUC (97.11%) results. Moreover, the sensitivity of the CS-ResCNN is enhanced by over 13.6% compared to the native CNN method.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Our study provides a practical strategy for addressing imbalanced ophthalmological datasets and has the potential to be applied to other medical images. The developed and deployed CS-ResCNN could serve as computer-aided diagnosis software for ophthalmologists in clinical application.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jiang</LastName>
+                    <ForeName>Jiewei</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Xiyang</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China. xyliu@xidian.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Software, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China. xyliu@xidian.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Kai</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Long</LastName>
+                    <ForeName>Erping</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Liming</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Software, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Wangting</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Lin</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Shuai</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Software, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhu</LastName>
+                    <ForeName>Mingmin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Mathematics and Statistics, Xidian University, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cui</LastName>
+                    <ForeName>Jiangtao</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Zhenzhen</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Zhuoling</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Xiaoyan</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Jingjing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Qianzhong</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Xiaohang</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Dongni</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jinghui</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Haotian</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China. haot.lin@hotmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>91546101</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>61472311</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>11401454</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>61502371</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>jcky2016110c006</GrantID>
+                    <Agency>National Defense Basic Research Project of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>YQ2015006</GrantID>
+                    <Agency>Natural Science Foundation of Guangdong Province</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2014A030306030</GrantID>
+                    <Agency>Natural Science Foundation of Guangdong Province</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2014TQ01R573</GrantID>
+                    <Agency>Natural Science Foundation of Guangdong Province</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2013B020400003</GrantID>
+                    <Agency>Natural Science Foundation of Guangdong Province</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2014J2200060</GrantID>
+                    <Agency>Natural Science Foundation of Guangzhou City</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2015ykzd11</GrantID>
+                    <Agency>State Key Laboratory of Ophthalmology</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2015QN01</GrantID>
+                    <Agency>State Key Laboratory of Ophthalmology</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>JB151005</GrantID>
+                    <Agency>Fundamental Research Funds for the Central Universities</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Biomed Eng Online</MedlineTA>
+            <NlmUniqueID>101147518</NlmUniqueID>
+            <ISSNLinking>1475-925X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Ophthalmol. 2012 May;96(5):614-8</RefSource>
+                <PMID Version="1">22133988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2017 Jan 31;7:41545</RefSource>
+                <PMID Version="1">28139688</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2016 Dec 13;316(22):2402-2410</RefSource>
+                <PMID Version="1">27898976</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurocomputing. 2016 May 26;191:214-223</RefSource>
+                <PMID Version="1">28154470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Artif Intell Med. 2015 Nov;65(3):219-27</RefSource>
+                <PMID Version="1">26319694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Syst Man Cybern B Cybern. 2007 Oct;37(5):1167-75</RefSource>
+                <PMID Version="1">17926700</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Telemed J E Health. 2016 Mar;22(3):198-208</RefSource>
+                <PMID Version="1">26308281</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2015 Mar 19;519(7543):276-8</RefSource>
+                <PMID Version="1">25788077</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eye (Lond). 2016 Jul;30(7):901-16</RefSource>
+                <PMID Version="1">27055674</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 2017 May;55(5):769-779</RefSource>
+                <PMID Version="1">27491802</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Tissue Cell. 2016 Oct;48(5):461-74</RefSource>
+                <PMID Version="1">27528421</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2015 Sep 4;349(6252):1064</RefSource>
+                <PMID Version="1">26339020</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 May;35(5):1299-1312</RefSource>
+                <PMID Version="1">26978662</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2014 Aug 31;14:80</RefSource>
+                <PMID Version="1">25175552</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Aug 03;6:31307</RefSource>
+                <PMID Version="1">27485055</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Diabetes Sci Technol. 2016 Feb 01;10 (2):282-94</RefSource>
+                <PMID Version="1">26830491</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2017 Mar 17;12 (3):e0168606</RefSource>
+                <PMID Version="1">28306716</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2016 Jul 1;74:18-29</RefSource>
+                <PMID Version="1">27160638</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2016 Jun 1;73:38-46</RefSource>
+                <PMID Version="1">27061661</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2016 Jan;38(1):142-58</RefSource>
+                <PMID Version="1">26656583</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Ophthalmol. 2016 Nov 3;16(1):192</RefSource>
+                <PMID Version="1">27809833</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Feb 11;6:20410</RefSource>
+                <PMID Version="1">26864172</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Syst Man Cybern B Cybern. 2009 Feb;39(1):281-8</RefSource>
+                <PMID Version="1">19068445</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Conf Proc IEEE Eng Med Biol Soc. 2010;2010:5359-62</RefSource>
+                <PMID Version="1">21096260</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ophthalmologica. 2011;226(4):161-81</RefSource>
+                <PMID Version="1">21952522</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Nov 05;10(11):e0142298</RefSource>
+                <PMID Version="1">26540510</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cost-sensitive</Keyword>
+            <Keyword MajorTopicYN="N">Deep convolutional neural network</Keyword>
+            <Keyword MajorTopicYN="N">Imbalanced ophthalmic images</Keyword>
+            <Keyword MajorTopicYN="N">Lens automatic localization</Keyword>
+            <Keyword MajorTopicYN="N">Pediatric cataracts</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157240</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12938-017-0420-1</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12938-017-0420-1</ArticleId>
+            <ArticleId IdType="pmc">PMC5697161</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

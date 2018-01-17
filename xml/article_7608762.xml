@@ -1,0 +1,281 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27412029</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>07</Month>
+            <Day>14</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>07</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1559-0089</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Neuroinformatics</Title>
+                <ISOAbbreviation>Neuroinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>N3DFix: an Algorithm for Automatic Removal of Swelling Artifacts in Neuronal Reconstructions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5-12</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s12021-016-9308-7</ELocationID>
+            <Abstract>
+                <AbstractText>It is well established that not only electrophysiology but also morphology plays an important role in shaping the functional properties of neurons. In order to properly quantify morphological features it is first necessary to translate observational histological data into 3-dimensional geometric reconstructions of the neuronal structures. This reconstruction process, independently of being manual or (semi-)automatic, requires several preparation steps (e.g. histological processing) before data acquisition using specialized software. Unfortunately these processing steps likely produce artifacts which are then carried to the reconstruction, such as tissue shrinkage and formation of swellings. If not accounted for and corrected, these artifacts can change significantly the results from morphometric analysis and computer simulations. Here we present N3DFix, an open-source software which uses a correction algorithm to automatically find and fix swelling artifacts in neuronal reconstructions. N3DFix works as a post-processing tool and therefore can be used in either manual or (semi-)automatic reconstructions. The algorithm's internal parameters have been defined using a &quot;ground truth&quot; dataset produced by a neuroanatomist, involving two complementary manual reconstruction procedures: in the first, neuronal topology was faithfully reconstructed, including all swelling artifacts; in the second procedure a meticulous correction of the artifacts was manually performed directly during neuronal tracing. The internal parameters of N3DFix were set to minimize the differences between manual amendments and the algorithm's corrections. It is shown that the performance of N3DFix is comparable to careful manual correction of the swelling artifacts. To promote easy access and wide adoption, N3DFix is available in NEURON, Vaa3D and Py3DN.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Conde-Sousa</LastName>
+                    <ForeName>Eduardo</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CBMA - Centre of Molecular and Environmental Biology, Department of Biology, University of Minho, Braga, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CIBIO-InBIO - Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto, Vairão, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CMUP - Centro de Matemática, Universidade do Porto, Porto, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Szücs</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>MTA-DE-NAP B-Pain Control Research Group, Debrecen, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physiology, University of Debrecen, Debrecen, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peng</LastName>
+                    <ForeName>Hanchuan</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Allen Institute for Brain Science, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aguiar</LastName>
+                    <ForeName>Paulo</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CMUP - Centro de Matemática, Universidade do Porto, Porto, Portugal. pauloaguiar@ineb.up.pt.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>i3S - Instituto de Investigação e Inovação em Saúde, Universidade do Porto, Porto, Portugal. pauloaguiar@ineb.up.pt.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>INEB - Instituto de Engenharia Biomédica, Universidade do Porto, Porto, Portugal. pauloaguiar@ineb.up.pt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Neuroinformatics</MedlineTA>
+            <NlmUniqueID>101142069</NlmUniqueID>
+            <ISSNLinking>1539-2791</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Physiol. 2002 Apr 1;540(Pt 1):189-207</RefSource>
+                <PMID Version="1">11927679</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2011 Sep;9(2-3):193-217</RefSource>
+                <PMID Version="1">21399937</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Neurosci. 2004 Jul-Aug;17(1):7-11</RefSource>
+                <PMID Version="1">15218350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2015 Jul 15;87(2):252-6</RefSource>
+                <PMID Version="1">26182412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2015 Jan;24(1):374-89</RefSource>
+                <PMID Version="1">25494506</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2013 Oct;11(4):393-403</RefSource>
+                <PMID Version="1">23765606</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Am. 2012 Jun;306(6):50-5</RefSource>
+                <PMID Version="1">22649994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Physiol. 2010 Nov 15;588(Pt 22):4489-505</RefSource>
+                <PMID Version="1">20876196</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neuroanat. 2014 Jul 11;8:65</RefSource>
+                <PMID Version="1">25071470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2014 Jan;9(1):193-208</RefSource>
+                <PMID Version="1">24385149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2012 Feb 02;7(2):394-407</RefSource>
+                <PMID Version="1">22301777</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2010 Apr;28(4):348-53</RefSource>
+                <PMID Version="1">20231818</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neurosci. 2012 Apr 23;6:49</RefSource>
+                <PMID Version="1">22536169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Philos Trans R Soc Lond B Biol Sci. 2015 May 19;370(1668):null</RefSource>
+                <PMID Version="1">25823863</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 1998 Oct 1;84(1-2):49-54</RefSource>
+                <PMID Version="1">9821633</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 1990 Sep-Oct;14(5):307-17</RefSource>
+                <PMID Version="1">2224829</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Physiol. 2005 Oct 1;568(Pt 1):69-82</RefSource>
+                <PMID Version="1">16002454</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cytometry A. 2009 Apr;75(4):371-6</RefSource>
+                <PMID Version="1">18937344</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2007 Aug 29;27(35):9247-51</RefSource>
+                <PMID Version="1">17728438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain Res. 2002 Jun 21;941(1-2):11-28</RefSource>
+                <PMID Version="1">12031543</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2008;3(5):866-76</RefSource>
+                <PMID Version="1">18451794</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 1997 Aug 15;9(6):1179-209</RefSource>
+                <PMID Version="1">9248061</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2014 Oct;12(4):619-22</RefSource>
+                <PMID Version="1">24924300</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 1995 Mar;15(3 Pt 1):1669-82</RefSource>
+                <PMID Version="1">7891127</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neuroinform. 2012 Mar 16;6:4</RefSource>
+                <PMID Version="1">22438842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurophysiol. 1995 Mar;73(3):1157-68</RefSource>
+                <PMID Version="1">7608762</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016477" MajorTopicYN="Y">Artifacts</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="N">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="Y">Imaging, Three-Dimensional</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009474" MajorTopicYN="N">Neurons</DescriptorName>
+                <QualifierName UI="Q000166" MajorTopicYN="Y">cytology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051381" MajorTopicYN="N">Rats</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017208" MajorTopicYN="N">Rats, Wistar</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D066148" MajorTopicYN="N">Spinal Cord Dorsal Horn</DescriptorName>
+                <QualifierName UI="Q000166" MajorTopicYN="Y">cytology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Artifact removal algorithm</Keyword>
+            <Keyword MajorTopicYN="N">Morphometric analysis</Keyword>
+            <Keyword MajorTopicYN="N">Neuronal reconstruction</Keyword>
+            <Keyword MajorTopicYN="N">Neuronal simulations</Keyword>
+            <Keyword MajorTopicYN="N">Swelling artifacts</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27412029</ArticleId>
+            <ArticleId IdType="doi">10.1007/s12021-016-9308-7</ArticleId>
+            <ArticleId IdType="pii">10.1007/s12021-016-9308-7</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

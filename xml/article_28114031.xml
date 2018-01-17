@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28114031</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                        <Day>02</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Classification of Alzheimer's Disease Using Whole Brain Hierarchical Network.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2635144</ELocationID>
+            <Abstract>
+                <AbstractText>Regions of interest (ROIs) based classification has been widely investigated for analysis of brain magnetic resonance imaging (MRI) images to assist the diagnosis of Alzheimer's disease (AD) including its early warning and developing stages, e.g., mild cognitive impairment (MCI) including MCI converted to AD (MCIc) and MCI not converted to AD (MCInc). Since an ROI representation of brain structures is obtained either by pre-definition or by adaptive parcellation, the corresponding ROI in different brains can be measured. However, due to noise and small sample size of MRI images, representations generated from single or multiple ROIs may not be sufficient to reveal the underlying anatomical differences between the groups of disease-affected patients and health controls (HC). In this paper, we employ a whole brain hierarchical network (WBHN) to represent each subject. The whole brain of each subject is divided into 90, 54, 14 and 1 regions based on Automated Anatomical Labeling (AAL) atlas. The connectivity between each pair of regions is computed in terms of Pearsons correlation coefficient and used as classification feature. Then, to reduce the dimensionality of features, we select the features with higher F􀀀scores. Finally, we use multiple kernel boosting (MKBoost) algorithm to perform the classification. Our proposed method is evaluated on MRI images of 710 subjects (200 AD, 120 MCIc, 160 MCInc, and 230 HC) from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. The experimental results show that our proposed method achieves an accuracy of 94.65% and an area under the receiver operating characteristic (ROC) curve (AUC) of 0.954 for AD/HC classification, an accuracy of 89.63% and an AUC of 0.907 for AD/MCI classification, an accuracy of 85.79% and an AUC of 0.826 for MCI/HC classification, and an accuracy of 72.08% and an AUC of 0.716 for MCIc/MCInc classification, respectively. Our results demonstrate that our proposed method is efficient and promising for clinical applications for the diagnosis of AD via MRI images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Jin</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Min</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lan</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Fang-Xiang</ForeName>
+                    <Initials>FX</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Yi</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jianxin</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114031</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2635144</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

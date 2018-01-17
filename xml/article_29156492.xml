@@ -1,0 +1,117 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29156492</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-0258</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Statistics in medicine</Title>
+                <ISOAbbreviation>Stat Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Bayesian monotonic errors-in-variables models with applications to pathogen susceptibility testing.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/sim.7533</ELocationID>
+            <Abstract>
+                <AbstractText>Drug dilution (MIC) and disk diffusion (DIA) are the 2 most common antimicrobial susceptibility assays used by hospitals and clinics to determine an unknown pathogen's susceptibility to various antibiotics. Since only one assay is commonly used, it is important that the 2 assays give similar results. Calibration of the DIA assay to the MIC assay is typically done using the error-rate bounded method, which selects DIA breakpoints that minimize the observed discrepancies between the 2 assays. In 2000, Craig proposed a model-based approach that specifically models the measurement error and rounding processes of each assay, the underlying pathogen distribution, and the true monotonic relationship between the 2 assays. The 2 assays are then calibrated by focusing on matching the probabilities of correct classification (susceptible, indeterminant, and resistant). This approach results in greater precision and accuracy for estimating DIA breakpoints. In this paper, we expand the flexibility of the model-based method by introducing a Bayesian 4-parameter logistic model (extending Craig's original 3-parameter model) as well as a Bayesian nonparametric spline model to describe the relationship between the 2 assays. We propose 2 ways to handle spline knot selection, considering many equally spaced knots but restricting overfitting via a random walk prior and treating the number and location of knots as additional unknown parameters. We demonstrate the 2 approaches via a series of simulation studies and apply the methods to 2 real data sets.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>DePalma</LastName>
+                    <ForeName>Glen</ForeName>
+                    <Initials>G</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0594-5815</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, Purdue University, 250 N. University Street, West Lafayette, 47907, IN, U.S.A.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Craig</LastName>
+                    <ForeName>Bruce A</ForeName>
+                    <Initials>BA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, Purdue University, 250 N. University Street, West Lafayette, 47907, IN, U.S.A.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Stat Med</MedlineTA>
+            <NlmUniqueID>8215016</NlmUniqueID>
+            <ISSNLinking>0277-6715</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bayesian inference</Keyword>
+            <Keyword MajorTopicYN="N">measurement error</Keyword>
+            <Keyword MajorTopicYN="N">monotonicity</Keyword>
+            <Keyword MajorTopicYN="N">nonparametric</Keyword>
+            <Keyword MajorTopicYN="N">reversible jump Markov chain Monte Carlo</Keyword>
+            <Keyword MajorTopicYN="N">susceptibility testing</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29156492</ArticleId>
+            <ArticleId IdType="doi">10.1002/sim.7533</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,93 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186950</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-960X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical information and modeling</Title>
+                <ISOAbbreviation>J Chem Inf Model</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Descriptor Data Bank (DDB): A Cloud Platform for Multiperspective Modeling of Protein-Ligand Interactions.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jcim.7b00310</ELocationID>
+            <Abstract>
+                <AbstractText>Protein-ligand (PL) interactions play a key role in many life processes such as molecular recognition, molecular binding, signal transmission, and cell metabolism. Examples of interaction forces include hydrogen bonding, hydrophobic effects, steric clashes, electrostatic contacts, and van der Waals attractions. Currently, a large number of hypotheses and perspectives to model these interaction forces are scattered throughout the literature and largely forgotten. Instead, had they been assembled and utilized collectively, they would have substantially improved the accuracy of predicting binding affinity of protein-ligand complexes. In this work, we present Descriptor Data Bank (DDB), a data-driven platform on the cloud for facilitating multiperspective modeling of PL interactions. DDB is an open-access hub for depositing, hosting, executing, and sharing descriptor extraction tools and data for a large number of interaction modeling hypotheses. The platform also implements a machine-learning (ML) toolbox for automatic descriptor filtering and analysis and scoring function (SF) fitting and prediction. The descriptor filtering module is used to filter out irrelevant and/or noisy descriptors and to produce a compact subset from all available features. We seed DDB with 16 diverse descriptor extraction tools developed in-house and collected from the literature. The tools altogether generate over 2700 descriptors that characterize (i) proteins, (ii) ligands, and (iii) protein-ligand complexes. The in-house descriptors we extract are protein-specific which are based on pairwise primary and tertiary alignment of protein structures followed by clustering and trilateration. We built and used DDB's ML library to fit SFs to the in-house descriptors and those collected from the literature. We then evaluated them on several data sets that were constructed to reflect real-world drug screening scenarios. We found that multiperspective SFs that were constructed using a large number of diverse DDB descriptors capturing various PL interactions in different ways outperformed their single-perspective counterparts in all evaluation scenarios, with an average improvement of more than 15%. We also found that our proposed protein-specific descriptors improve the accuracy of SFs.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ashtawy</LastName>
+                    <ForeName>Hossam M</ForeName>
+                    <Initials>HM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5589-9274</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, Michigan State University , East Lansing, Michigan 48824-1226, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mahapatra</LastName>
+                    <ForeName>Nihar R</ForeName>
+                    <Initials>NR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, Michigan State University , East Lansing, Michigan 48824-1226, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Inf Model</MedlineTA>
+            <NlmUniqueID>101230060</NlmUniqueID>
+            <ISSNLinking>1549-9596</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186950</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jcim.7b00310</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29185777</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-9626</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical theory and computation</Title>
+                <ISOAbbreviation>J Chem Theory Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Systematic Testing of Belief-Propagation Estimates for Absolute Free Energies in Atomistic Peptides and Proteins.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>426-443</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jctc.7b00775</ELocationID>
+            <Abstract>
+                <AbstractText>Motivated by the extremely high computing costs associated with estimates of free energies for biological systems using molecular simulations, we further the exploration of existing &quot;belief propagation&quot; (BP) algorithms for fixed-backbone peptide and protein systems. The precalculation of pairwise interactions among discretized libraries of side-chain conformations, along with representation of protein side chains as nodes in a graphical model, enables direct application of the BP approach, which requires only ∼1 s of single-processor run time after the precalculation stage. We use a &quot;loopy BP&quot; algorithm, which can be seen as an approximate generalization of the transfer-matrix approach to highly connected (i.e., loopy) graphs, and it has previously been applied to protein calculations. We examine the application of loopy BP to several peptides as well as the binding site of the T4 lysozyme L99A mutant. The present study reports on (i) the comparison of the approximate BP results with estimates from unbiased estimators based on the Amber99SB force field; (ii) investigation of the effects of varying library size on BP predictions; and (iii) a theoretical discussion of the discretization effects that can arise in BP calculations. The data suggest that, despite their approximate nature, BP free-energy estimates are highly accurate-indeed, they never fall outside confidence intervals from unbiased estimators for the systems where independent results could be obtained. Furthermore, we find that libraries of sufficiently fine discretization (which diminish library-size sensitivity) can be obtained with standard computing resources in most cases. Altogether, the extremely low computing times and accurate results suggest the BP approach warrants further study.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Donovan-Maiye</LastName>
+                    <ForeName>Rory M</ForeName>
+                    <Initials>RM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8080-9771</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Allen Institute for Cell Science, Seattle, Washington 98109, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Langmead</LastName>
+                    <ForeName>Christopher J</ForeName>
+                    <Initials>CJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Biology Department, Carnegie Mellon University , Pittsburgh, Pennsylvania 15213, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zuckerman</LastName>
+                    <ForeName>Daniel M</ForeName>
+                    <Initials>DM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Oregon Health and Science University , Portland, Oregon 97239, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Theory Comput</MedlineTA>
+            <NlmUniqueID>101232704</NlmUniqueID>
+            <ISSNLinking>1549-9618</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29185777</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jctc.7b00775</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

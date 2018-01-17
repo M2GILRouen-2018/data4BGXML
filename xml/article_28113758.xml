@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113758</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Oct</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Graph-Driven Diffusion and Random Walk Schemes for Image Segmentation.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2621663</ELocationID>
+            <Abstract>
+                <AbstractText>We propose graph-driven approaches to image segmentation by developing diffusion processes defined on arbitrary graphs. We formulate a solution to the image segmentation problem modeled as the result of infectious wavefronts propagating on an image-driven graph where pixels correspond to nodes of an arbitrary graph. By relating the popular Susceptible - Infected - Recovered epidemic propagation model to the Random Walker algorithm, we develop the Normalized Random Walker and a lazy random walker variant. The underlying iterative solutions of these methods are derived as the result of infections transmitted on this arbitrary graph. The main idea is to incorporate a degree-aware term into the original Random Walker algorithm in order to account for the node centrality of every neighboring node and to weigh the contribution of every neighbor to the underlying diffusion process. Our lazy random walk variant models the tendency of patients or nodes to resist changes in their infection status. We also show how previous work can be naturally extended to take advantage of this degreeaware term which enables the design of other novel methods. Through an extensive experimental analysis, we demonstrate the reliability of our approach, its small computational burden and the dimensionality reduction capabilities of graph-driven approaches. Without applying any regular grid constraint, the proposed graph clustering scheme allows us to consider pixellevel, node-level approaches and multidimensional input data by naturally integrating the importance of each node to the final clustering or segmentation solution. A software release containing implementations of this work and supplementary material can be found at: http://cvsp.cs.ntua.gr/research/GraphClustering/.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bampis</LastName>
+                    <ForeName>Christos G</ForeName>
+                    <Initials>CG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Maragos</LastName>
+                    <ForeName>Petros</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bovik</LastName>
+                    <ForeName>Alan C</ForeName>
+                    <Initials>AC</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113758</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2621663</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

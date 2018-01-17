@@ -1,0 +1,191 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26748040</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-0771</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>48</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society</Title>
+                <ISOAbbreviation>Comput Med Imaging Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A coronary artery segmentation method based on multiscale analysis and region growing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>49-61</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.compmedimag.2015.12.004</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0895-6111(15)00191-3</ELocationID>
+            <Abstract>
+                <AbstractText>Accurate coronary artery segmentation is a fundamental step in various medical imaging applications such as stenosis detection, 3D reconstruction and cardiac dynamics assessing. In this paper, a multiscale region growing (MSRG) method for coronary artery segmentation in 2D X-ray angiograms is proposed. First, a region growing rule incorporating both vesselness and direction information in a unique way is introduced. Then an iterative multiscale search based on this criterion is performed. Selected points in each step are considered as seeds for the following step. By combining vesselness and direction information in the growing rule, this method is able to avoid blockage caused by low vesselness values in vascular regions, which in turn, yields continuous vessel tree. Performing the process in a multiscale fashion helps to extract thin and peripheral vessels often missed by other segmentation methods. Quantitative evaluation performed on real angiography images shows that the proposed segmentation method identifies about 80% of the total coronary artery tree in relatively easy images and 70% in challenging cases with a mean precision of 82% and outperforms others segmentation methods in terms of sensitivity. The MSRG segmentation method was also implemented with different enhancement filters and it has been shown that the Frangi filter gives better results. The proposed segmentation method has proven to be tailored for coronary artery segmentation. It keeps an acceptable performance when dealing with challenging situations such as noise, stenosis and poor contrast.</AbstractText>
+                <CopyrightInformation>Copyright © 2015 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kerkeni</LastName>
+                    <ForeName>Asma</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire Technologie et Imagerie Médicale, Faculté de Médecine, Université de Monastir, Tunisia. Electronic address: asma.kerkeni@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Benabdallah</LastName>
+                    <ForeName>Asma</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire Technologie et Imagerie Médicale, Faculté de Médecine, Université de Monastir, Tunisia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manzanera</LastName>
+                    <ForeName>Antoine</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Unité d'Informatique et d'Ingénierie des Systèmes, ENSTA-ParisTech, Université de Paris-Saclay, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bedoui</LastName>
+                    <ForeName>Mohamed Hedi</ForeName>
+                    <Initials>MH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire Technologie et Imagerie Médicale, Faculté de Médecine, Université de Monastir, Tunisia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Comput Med Imaging Graph</MedlineTA>
+            <NlmUniqueID>8806104</NlmUniqueID>
+            <ISSNLinking>0895-6111</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017023" MajorTopicYN="N">Coronary Angiography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003331" MajorTopicYN="N">Coronary Vessels</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="N">Imaging, Three-Dimensional</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010363" MajorTopicYN="N">Pattern Recognition, Automated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011856" MajorTopicYN="N">Radiographic Image Enhancement</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011857" MajorTopicYN="N">Radiographic Image Interpretation, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Coronary artery</Keyword>
+            <Keyword MajorTopicYN="N">Direction</Keyword>
+            <Keyword MajorTopicYN="N">Hessian</Keyword>
+            <Keyword MajorTopicYN="N">Multiscale</Keyword>
+            <Keyword MajorTopicYN="N">Region growing</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Vesselness</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>01</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26748040</ArticleId>
+            <ArticleId IdType="pii">S0895-6111(15)00191-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.compmedimag.2015.12.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

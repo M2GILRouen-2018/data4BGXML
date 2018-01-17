@@ -1,0 +1,332 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29168051</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Print">1758-2946</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>9</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of cheminformatics</Title>
+                <ISOAbbreviation>J Cheminform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Efficient conformational ensemble generation of protein-bound peptides.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>59</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13321-017-0246-7</ELocationID>
+            <Abstract>
+                <AbstractText>Conformation generation of protein-bound peptides is critical for the determination of protein-peptide complex structures. Despite significant progress in conformer generation of small molecules, few methods have been developed for modeling protein-bound peptide conformations. Here, we have developed a fast de novo peptide modeling algorithm, referred to as MODPEP, for conformational sampling of protein-bound peptides. Given a sequence, MODPEP builds the peptide 3D structure from scratch by assembling amino acids or helix fragments based on constructed rotamer and helix libraries. The MODPEP algorithm was tested on a diverse set of 910 experimentally determined protein-bound peptides with 3-30 amino acids from the PDB and obtained an average accuracy of 1.90 Å when 200 conformations were sampled for each peptide. On average, MODPEP obtained a success rate of 74.3% for all the 910 peptides and ≥ 90% for short peptides with 3-10 amino acids in reproducing experimental protein-bound structures. Comparative evaluations of MODPEP with three other conformer generation methods, PEP-FOLD3, RDKit, and Balloon, have also been performed in both accuracy and success rate. MODPEP is fast and can generate 100 conformations for less than one second. The fast MODPEP will be beneficial for large-scale de novo modeling and docking of peptides. The MODPEP program and libraries are available for download at http://huanglab.phys.hust.edu.cn/ .</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Yumeng</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Physics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Di</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Physics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Sheng-You</ForeName>
+                    <Initials>SY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Physics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei, People's Republic of China. huangsy@hust.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>2016YFC1305800</GrantID>
+                    <Agency>National Key Research and Development Program of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>2016YFC1305805</GrantID>
+                    <Agency>National Key Research and Development Program of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>31670724</GrantID>
+                    <Agency>National Natural Science Foundation of China</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>3004012104</GrantID>
+                    <Agency>Huazhong University of Science and Technology</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Cheminform</MedlineTA>
+            <NlmUniqueID>101516718</NlmUniqueID>
+            <ISSNLinking>1758-2946</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2012 Nov 26;52(11):2919-36</RefSource>
+                <PMID Version="1">23082786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2013 Dec;23(6):894-902</RefSource>
+                <PMID Version="1">24138780</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2010 Feb 10;18(2):188-99</RefSource>
+                <PMID Version="1">20159464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009 Mar 31;10:101</RefSource>
+                <PMID Version="1">19335906</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2016 Jul 8;44(W1):W449-54</RefSource>
+                <PMID Version="1">27131374</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2012 Jun 25;52(6):1499-512</RefSource>
+                <PMID Version="1">22670896</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2015 Aug 4;23(8):1373-4</RefSource>
+                <PMID Version="1">26244840</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2000 Jan 1;28(1):235-42</RefSource>
+                <PMID Version="1">10592235</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cheminform. 2011 Mar 16;3:8</RefSource>
+                <PMID Version="1">21410983</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013;8(3):e58769</RefSource>
+                <PMID Version="1">23516555</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2013 Jul 22;53(7):1689-99</RefSource>
+                <PMID Version="1">23800267</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2017 Mar 27;57(3):529-539</RefSource>
+                <PMID Version="1">28206754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2011 Sep 26;51(9):2107-14</RefSource>
+                <PMID Version="1">21755952</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1999 Sep 17;292(2):195-202</RefSource>
+                <PMID Version="1">10493868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2007 Feb 1;66(2):399-421</RefSource>
+                <PMID Version="1">17096427</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2014 Nov 06;2014:null</RefSource>
+                <PMID Version="1">25377257</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Discov Today. 2015 Jan;20(1):122-8</RefSource>
+                <PMID Version="1">25450771</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2015 Nov;16(6):1045-56</RefSource>
+                <PMID Version="1">25900849</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2006 Jul 1;22(13):1658-9</RefSource>
+                <PMID Version="1">16731699</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Discov Today. 2014 Aug;19(8):1081-96</RefSource>
+                <PMID Version="1">24594385</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cheminform. 2013 Jan 07;5(1):1</RefSource>
+                <PMID Version="1">23289532</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biopolymers. 1983 Dec;22(12):2577-637</RefSource>
+                <PMID Version="1">6667333</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 2007 Jan;16(1):43-51</RefSource>
+                <PMID Version="1">17123961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chem Biol Drug Des. 2013 Jan;81(1):136-47</RefSource>
+                <PMID Version="1">23253135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2016 Jan 25;56(1):188-200</RefSource>
+                <PMID Version="1">26651532</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acc Chem Res. 2017 Feb 21;50(2):302-309</RefSource>
+                <PMID Version="1">28182403</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Theory Comput. 2015 Aug 11;11(8):3696-713</RefSource>
+                <PMID Version="1">26574453</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Amino Acids. 2011 Jan;40(1):15-28</RefSource>
+                <PMID Version="1">20177945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2015 Dec 28;55(12 ):2562-74</RefSource>
+                <PMID Version="1">26575315</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2017 Mar 14;:null</RefSource>
+                <PMID Version="1">28334282</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Angew Chem Int Ed Engl. 2013 Oct 11;52(42):11059-62</RefSource>
+                <PMID Version="1">24038781</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cheminform. 2015 Sep 30;7:47</RefSource>
+                <PMID Version="1">26473018</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Protein Sci. 2001 Jul;10(7):1470-3</RefSource>
+                <PMID Version="1">11420449</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Mol Sci. 2010 Aug 18;11(8):3016-34</RefSource>
+                <PMID Version="1">21152288</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2009 Nov 13;393(5):1118-28</RefSource>
+                <PMID Version="1">19733177</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cheminform. 2017 May 15;9(1):29</RefSource>
+                <PMID Version="1">29086109</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2016 Oct 4;24(10 ):1842-1853</RefSource>
+                <PMID Version="1">27642160</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2007 Nov-Dec;47(6):2462-74</RefSource>
+                <PMID Version="1">17892278</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Discov Today. 2015 Aug;20(8):969-77</RefSource>
+                <PMID Version="1">25801181</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2017 Mar;85(3):497-512</RefSource>
+                <PMID Version="1">28026062</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2015 Aug 4;23(8):1507-15</RefSource>
+                <PMID Version="1">26146186</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Chem. 2010 Mar;31(4):726-38</RefSource>
+                <PMID Version="1">19569182</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Aided Mol Des. 2001 May;15(5):411-28</RefSource>
+                <PMID Version="1">11394736</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Biotechnol. 2008 Aug;19(4):344-50</RefSource>
+                <PMID Version="1">18602004</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Chem Chem Phys. 2010 Oct 28;12(40):12899-908</RefSource>
+                <PMID Version="1">20730182</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Inf Model. 2009 Aug;49(8):1889-900</RefSource>
+                <PMID Version="1">19618919</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Conformational sampling</Keyword>
+            <Keyword MajorTopicYN="N">Conformer generation</Keyword>
+            <Keyword MajorTopicYN="N">Molecular docking</Keyword>
+            <Keyword MajorTopicYN="N">Peptide</Keyword>
+            <Keyword MajorTopicYN="N">Protein–peptide interactions</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29168051</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13321-017-0246-7</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13321-017-0246-7</ArticleId>
+            <ArticleId IdType="pmc">PMC5700017</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

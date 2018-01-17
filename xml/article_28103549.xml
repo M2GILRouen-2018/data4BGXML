@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28103549</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cardiac Image Reconstruction via Nonlinear Motion Correction Based on Partial Angle Reconstructed Images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1151-1161</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2017.2654508</ELocationID>
+            <Abstract>
+                <AbstractText>Even though the X-ray Computed Tomography (CT) scan is considered suitable for fast imaging, motion-artifact-free cardiac imaging is still an important issue, because the gantry rotation speed is not fast enough compared with the heart motion. To obtain a heart image with less motion artifacts, a motion estimation (ME) and motion compensation (MC) approach is usually adopted. In this paper, we propose an ME/MC algorithm that can estimate a nonlinear heart motion model from a sinogram with a rotation angle of less than 360°. In this algorithm, we first assume the heart motion to be nonrigid but linear, and thereby estimate an initial 4-D motion vector field (MVF) during a half rotation by using conjugate partial angle reconstructed images, as in our previous ME/MC algorithm. We then refine the MVF to determine a more accurate nonlinear MVF by maximizing the information potential of a motion-compensated image. Finally, MC is performed by incorporating the determined MVF into the image reconstruction process, and a time-resolved heart image is obtained. By using a numerical phantom, a physical cardiac phantom, and an animal data set, we demonstrate that the proposed algorithm can noticeably improve the image quality by reducing motion artifacts throughout the image.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Seungeon</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chang</LastName>
+                    <ForeName>Yongjin</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ra</LastName>
+                    <ForeName>Jong Beom</ForeName>
+                    <Initials>JB</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103549</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2017.2654508</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

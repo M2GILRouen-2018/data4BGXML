@@ -1,0 +1,245 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28916254</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-9995</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>110</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Urology</Title>
+                <ISOAbbreviation>Urology</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Development of a Natural Language Processing Engine to Generate Bladder Cancer Pathology Data for Health Services Research.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>84-91</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0090-4295(17)30966-4</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.urology.2017.07.056</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To take the first step toward assembling population-based cohorts of patients with bladder cancer with longitudinal pathology data, we developed and validated a natural language processing (NLP) engine that abstracts pathology data from full-text pathology reports.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Using 600 bladder pathology reports randomly selected from the Department of Veterans Affairs, we developed and validated an NLP engine to abstract data on histology, invasion (presence vs absence and depth), grade, the presence of muscularis propria, and the presence of carcinoma in situ. Our gold standard was based on an independent review of reports by 2 urologists, followed by adjudication. We assessed the NLP performance by calculating the accuracy, the positive predictive value, and the sensitivity. We subsequently applied the NLP engine to pathology reports from 10,725 patients with bladder cancer.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">When comparing the NLP output to the gold standard, NLP achieved the highest accuracy (0.98) for the presence vs the absence of carcinoma in situ. Accuracy for histology, invasion (presence vs absence), grade, and the presence of muscularis propria ranged from 0.83 to 0.96. The most challenging variable was depth of invasion (accuracy 0.68), with an acceptable positive predictive value for lamina propria (0.82) and for muscularis propria (0.87) invasion. The validated engine was capable of abstracting pathologic characteristics for 99% of the patients with bladder cancer.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">NLP had high accuracy for 5 of 6 variables and abstracted data for the vast majority of the patients. This now allows for the assembly of population-based cohorts with longitudinal pathology data.</AbstractText>
+                <CopyrightInformation>Published by Elsevier Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Schroeck</LastName>
+                    <ForeName>Florian R</ForeName>
+                    <Initials>FR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>VA Outcomes Group, White River Junction VA Medical Center, White River Junction, VT; Section of Urology, Dartmouth Hitchcock Medical Center, Lebanon, NH; Norris Cotton Cancer Center, Dartmouth Hitchcock Medical Center, Lebanon, NH; The Dartmouth Institute for Health Policy and Clinical Practice, Geisel School of Medicine at Dartmouth College, Hanover, NH. Electronic address: florian.r.schroeck@dartmouth.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Patterson</LastName>
+                    <ForeName>Olga V</ForeName>
+                    <Initials>OV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Internal Medicine, VA Salt Lake City Health Care System and University of Utah, Salt Lake City, UT.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alba</LastName>
+                    <ForeName>Patrick R</ForeName>
+                    <Initials>PR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Internal Medicine, VA Salt Lake City Health Care System and University of Utah, Salt Lake City, UT.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pattison</LastName>
+                    <ForeName>Erik A</ForeName>
+                    <Initials>EA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>VA Outcomes Group, White River Junction VA Medical Center, White River Junction, VT; Section of Urology, Dartmouth Hitchcock Medical Center, Lebanon, NH.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Seigne</LastName>
+                    <ForeName>John D</ForeName>
+                    <Initials>JD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Section of Urology, Dartmouth Hitchcock Medical Center, Lebanon, NH; Norris Cotton Cancer Center, Dartmouth Hitchcock Medical Center, Lebanon, NH.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>DuVall</LastName>
+                    <ForeName>Scott L</ForeName>
+                    <Initials>SL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Internal Medicine, VA Salt Lake City Health Care System and University of Utah, Salt Lake City, UT.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Robertson</LastName>
+                    <ForeName>Douglas J</ForeName>
+                    <Initials>DJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>VA Outcomes Group, White River Junction VA Medical Center, White River Junction, VT; The Dartmouth Institute for Health Policy and Clinical Practice, Geisel School of Medicine at Dartmouth College, Hanover, NH.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sirovich</LastName>
+                    <ForeName>Brenda</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>VA Outcomes Group, White River Junction VA Medical Center, White River Junction, VT; The Dartmouth Institute for Health Policy and Clinical Practice, Geisel School of Medicine at Dartmouth College, Hanover, NH.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodney</LastName>
+                    <ForeName>Philip P</ForeName>
+                    <Initials>PP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>VA Outcomes Group, White River Junction VA Medical Center, White River Junction, VT; The Dartmouth Institute for Health Policy and Clinical Practice, Geisel School of Medicine at Dartmouth College, Hanover, NH.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>U01 FD005478</GrantID>
+                    <Acronym>FD</Acronym>
+                    <Agency>FDA HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Urology</MedlineTA>
+            <NlmUniqueID>0366151</NlmUniqueID>
+            <ISSNLinking>0090-4295</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Urol. 2009 Nov;182(5):2195-203</RefSource>
+                <PMID Version="1">19758621</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Urol. 2013 Feb;63(2):234-41</RefSource>
+                <PMID Version="1">22877502</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer. 2013 Sep 1;119(17):3219-27</RefSource>
+                <PMID Version="1">23737352</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2011 Dec;18 Suppl 1:i150-6</RefSource>
+                <PMID Version="1">21946240</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Urology. 2016 Dec;98 :58-63</RefSource>
+                <PMID Version="1">27590253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Urol. 2017 Mar;71(3):447-461</RefSource>
+                <PMID Version="1">27324428</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Urol. 2006 Mar;49(3):466-5; discussion 475-7</RefSource>
+                <PMID Version="1">16442208</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Gastroenterol Hepatol. 2013 Jun;11(6):689-94</RefSource>
+                <PMID Version="1">23313839</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2010 Jul-Aug;17(4):440-5</RefSource>
+                <PMID Version="1">20595312</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Semin Urol Oncol. 2000 Nov;18(4):273-9</RefSource>
+                <PMID Version="1">11101090</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pathol Inform. 2012;3:23</RefSource>
+                <PMID Version="1">22934236</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Urol. 2012 Aug;62(2):290-302</RefSource>
+                <PMID Version="1">22609313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Urol. 2016 Jan;69(1):60-9</RefSource>
+                <PMID Version="1">26210894</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Endourol. 2014 Dec;28(12):1474-8</RefSource>
+                <PMID Version="1">25211697</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28916254</ArticleId>
+            <ArticleId IdType="pii">S0090-4295(17)30966-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.urology.2017.07.056</ArticleId>
+            <ArticleId IdType="pmc">PMC5696035</ArticleId>
+            <ArticleId IdType="mid">HHSPA905699</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

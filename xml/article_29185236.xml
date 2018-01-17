@@ -1,0 +1,156 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29185236</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1179-1942</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Drug safety</Title>
+                <ISOAbbreviation>Drug Saf</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An Automated System Combining Safety Signal Detection and Prioritization from Healthcare Databases: A Pilot Study.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s40264-017-0618-y</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">Signal detection from healthcare databases is possible, but is not yet used for routine surveillance of drug safety. One challenge is to develop methods for selecting signals that should be assessed with priority.</AbstractText>
+                <AbstractText Label="AIM" NlmCategory="OBJECTIVE">The aim of this study was to develop an automated system combining safety signal detection and prioritization from healthcare databases and applicable to drugs used in chronic diseases.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Patients present in the French EGB healthcare database for at least 1 year between 2005 and 2015 were considered. Noninsulin glucose-lowering drugs (NIGLDs) were selected as a case study, and hospitalization data were used to select important medical events (IME). Signal detection was performed quarterly from 2008 to 2015 using sequence symmetry analysis. NIGLD/IME associations were screened if one or more exposed case was identified in the quarter, and three or more exposed cases were identified in the population at the date of screening. Detected signals were prioritized using the Longitudinal-SNIP (L-SNIP) algorithm based on strength (S), novelty (N), and potential impact of signal (I), and pattern of drug use (P). Signals scored in the top 10% were identified as of high priority. A reference set was built based on NIGLD summaries of product characteristics (SPCs) to compute the performance of the developed system.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A total of 815 associations were screened and 241 (29.6%) were detected as signals; among these, 58 (24.1%) were prioritized. The performance for signal detection was sensitivity = 47%; specificity = 80%; positive predictive value (PPV) 33%; negative predictive value = 82%. The use of the L-SNIP algorithm increased the early identification of positive controls, restricted to those mentioned in the SPCs after 2008: PPV = 100% versus PPV = 14% with its non-use. The system revealed a strong new signal with dipeptidylpeptidase-4 inhibitors and venous thromboembolism.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The developed system seems promising for the routine use of healthcare data for safety surveillance of drugs used in chronic diseases.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Arnaud</LastName>
+                    <ForeName>Mickael</ForeName>
+                    <Initials>M</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-9584-7911</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, Pharmacoepidemiology Team, UMR 1219, 146 Rue Léo Saignat, BP 36, 33000, Bordeaux Cedex, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bégaud</LastName>
+                    <ForeName>Bernard</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, Pharmacoepidemiology Team, UMR 1219, 146 Rue Léo Saignat, BP 36, 33000, Bordeaux Cedex, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CHU de Bordeaux, Pôle de santé publique, Service de pharmacologie médicale, 33000, Bordeaux, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thiessard</LastName>
+                    <ForeName>Frantz</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, ERIAS Team, UMR 1219, 33000, Bordeaux, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CHU de Bordeaux, Pôle de santé publique, Service d'Information médicale, 33000, Bordeaux, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jarrion</LastName>
+                    <ForeName>Quentin</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, Pharmacoepidemiology Team, UMR 1219, 146 Rue Léo Saignat, BP 36, 33000, Bordeaux Cedex, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CHU de Bordeaux, Pôle de santé publique, Service de pharmacologie médicale, 33000, Bordeaux, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bezin</LastName>
+                    <ForeName>Julien</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, Pharmacoepidemiology Team, UMR 1219, 146 Rue Léo Saignat, BP 36, 33000, Bordeaux Cedex, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CHU de Bordeaux, Pôle de santé publique, Service de pharmacologie médicale, 33000, Bordeaux, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pariente</LastName>
+                    <ForeName>Antoine</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, Pharmacoepidemiology Team, UMR 1219, 146 Rue Léo Saignat, BP 36, 33000, Bordeaux Cedex, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CHU de Bordeaux, Pôle de santé publique, Service de pharmacologie médicale, 33000, Bordeaux, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Salvo</LastName>
+                    <ForeName>Francesco</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bordeaux, Inserm, Bordeaux Population Health Research Center, Pharmacoepidemiology Team, UMR 1219, 146 Rue Léo Saignat, BP 36, 33000, Bordeaux Cedex, France. francesco.salvo@u-bordeaux.fr.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CHU de Bordeaux, Pôle de santé publique, Service de pharmacologie médicale, 33000, Bordeaux, France. francesco.salvo@u-bordeaux.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>New Zealand</Country>
+            <MedlineTA>Drug Saf</MedlineTA>
+            <NlmUniqueID>9002928</NlmUniqueID>
+            <ISSNLinking>0114-5916</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29185236</ArticleId>
+            <ArticleId IdType="doi">10.1007/s40264-017-0618-y</ArticleId>
+            <ArticleId IdType="pii">10.1007/s40264-017-0618-y</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

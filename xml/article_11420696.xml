@@ -1,0 +1,224 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">22168374</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>04</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>01</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12 Suppl 12</Volume>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Nov</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>FEPI-MB: identifying SNPs-disease association using a Markov Blanket-based approach.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>S3</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1471-2105-12-S12-S3</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The interactions among genetic factors related to diseases are called epistasis. With the availability of genotyped data from genome-wide association studies, it is now possible to computationally unravel epistasis related to the susceptibility to common complex human diseases such as asthma, diabetes, and hypertension. However, the difficulties of detecting epistatic interaction arose from the large number of genetic factors and the enormous size of possible combinations of genetic factors. Most computational methods to detect epistatic interactions are predictor-based methods and can not find true causal factor elements. Moreover, they are both time-consuming and sample-consuming.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We propose a new and fast Markov Blanket-based method, FEPI-MB (Fast EPistatic Interactions detection using Markov Blanket), for epistatic interactions detection. The Markov Blanket is a minimal set of variables that can completely shield the target variable from all other variables. Learning of Markov blankets can be used to detect epistatic interactions by a heuristic search for a minimal set of SNPs, which may cause the disease. Experimental results on both simulated data sets and a real data set demonstrate that FEPI-MB significantly outperforms other existing methods and is capable of finding SNPs that have a strong association with common diseases.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">FEPI-MB algorithm outperforms other computational methods for detection of epistatic interactions in terms of both the power and sample-efficiency. Moreover, compared to other Markov Blanket learning methods, FEPI-MB is more time-efficient and achieves a better performance.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Bing</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bioinformatics and Computational Life Sciences Laboratory, Information and Telecommunication Technology Center, Department of Electrical Engineering and Computer Science, The University of Kansas, 1520 West 15th Street, Lawrence, KS 66045, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Xue-Wen</ForeName>
+                    <Initials>XW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Talebizadeh</LastName>
+                    <ForeName>Zohreh</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2001 Jul;69(1):138-47</RefSource>
+                <PMID Version="1">11404819</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010;11 Suppl 3:S5</RefSource>
+                <PMID Version="1">20438652</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2002 Jan 1;30(1):52-5</RefSource>
+                <PMID Version="1">11752252</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2002 Mar 1;11(5):559-68</RefSource>
+                <PMID Version="1">11875050</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2002 Oct 1;11(20):2463-8</RefSource>
+                <PMID Version="1">12351582</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Epidemiol. 2003 Feb;24(2):150-7</RefSource>
+                <PMID Version="1">12548676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2003;:21-5</RefSource>
+                <PMID Version="1">14728126</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pediatr Ophthalmol Strabismus. 1984 Jan-Feb;21(1):28-32</RefSource>
+                <PMID Version="1">6423801</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Genet. 1995 Jan;95(1):71-4</RefSource>
+                <PMID Version="1">7814030</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2005 Feb;6(2):95-108</RefSource>
+                <PMID Version="1">15716906</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2005 Apr;37(4):413-7</RefSource>
+                <PMID Version="1">15793588</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 15;308(5720):385-9</RefSource>
+                <PMID Version="1">15761122</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Appl Bioinformatics. 2006;5(2):77-88</RefSource>
+                <PMID Version="1">16722772</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Hered. 2007;63(2):67-84</RefSource>
+                <PMID Version="1">17283436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2007 Sep;39(9):1167-73</RefSource>
+                <PMID Version="1">17721534</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2008 Jan;9(1):30-50</RefSource>
+                <PMID Version="1">17429103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Epidemiol. 2008 Feb;32(2):152-67</RefSource>
+                <PMID Version="1">17968988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009;10 Suppl 1:S65</RefSource>
+                <PMID Version="1">19208169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2010 Feb 12;86(2):240-7</RefSource>
+                <PMID Version="1">20159111</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncogene. 2001 May 17;20(22):2844-53</RefSource>
+                <PMID Version="1">11420696</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001185" MajorTopicYN="N">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004194" MajorTopicYN="N">Disease</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004843" MajorTopicYN="Y">Epistasis, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055106" MajorTopicYN="N">Genome-Wide Association Study</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008390" MajorTopicYN="N">Markov Chains</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020641" MajorTopicYN="N">Polymorphism, Single Nucleotide</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3247084</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>4</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">22168374</ArticleId>
+            <ArticleId IdType="pii">1471-2105-12-S12-S3</ArticleId>
+            <ArticleId IdType="doi">10.1186/1471-2105-12-S12-S3</ArticleId>
+            <ArticleId IdType="pmc">PMC3247084</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

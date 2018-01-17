@@ -1,0 +1,93 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28938073</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-5207</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                        <Day>03</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The journal of physical chemistry. B</Title>
+                <ISOAbbreviation>J Phys Chem B</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Transfer Learning from Markov Models Leads to Efficient Sampling of Related Systems.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jpcb.7b06896</ELocationID>
+            <Abstract>
+                <AbstractText>We recently showed that the time-structure-based independent component analysis method from Markov state model literature provided a set of variationally optimal slow collective variables for metadynamics (tICA-metadynamics). In this paper, we extend the methodology toward efficient sampling of related mutants by borrowing ideas from transfer learning methods in machine learning. Our method explicitly assumes that a similar set of slow modes and metastable states is found in both the wild type (baseline) and its mutants. Under this assumption, we describe a few simple techniques using sequence mapping for transferring the slow modes and structural information contained in the wild type simulation to a mutant model for performing enhanced sampling. The resulting simulations can then be reweighted onto the full-phase space using the multistate Bennett acceptance ratio, allowing for thermodynamic comparison against the wild type. We first benchmark our methodology by recapturing alanine dipeptide dynamics across a range of different atomistic force fields, including the polarizable Amoeba force field, after learning a set of slow modes using Amber ff99sb-ILDN. We next extend the method by including structural data from the wild type simulation and apply the technique to recapturing the effects of the GTT mutation on the FIP35 WW domain.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sultan</LastName>
+                    <ForeName>Mohammad M</ForeName>
+                    <Initials>MM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-5578-6328</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Stanford University , 318 Campus Drive, Stanford, California 94305, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pande</LastName>
+                    <ForeName>Vijay S</ForeName>
+                    <Initials>VS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Stanford University , 318 Campus Drive, Stanford, California 94305, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Phys Chem B</MedlineTA>
+            <NlmUniqueID>101157530</NlmUniqueID>
+            <ISSNLinking>1520-5207</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28938073</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jpcb.7b06896</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

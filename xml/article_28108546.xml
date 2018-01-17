@@ -1,0 +1,122 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28108546</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-974X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>24</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the American Medical Informatics Association : JAMIA</Title>
+                <ISOAbbreviation>J Am Med Inform Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic health record review to help prioritize gravely ill Social Security disability applicants.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>709-716</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/jamia/ocw159</ELocationID>
+            <Abstract>
+                <AbstractText Label="Objective" NlmCategory="UNASSIGNED">Every year, thousands of patients die waiting for disability benefits from the Social Security Administration. Some qualify for expedited service under the Compassionate Allowance (CAL) initiative, but CAL software focuses exclusively on information from a single form field. This paper describes the development of a supplemental process for identifying some overlooked but gravely ill applicants, through automatic annotation of health records accompanying new claims. We explore improved prioritization instead of fully autonomous claims approval.</AbstractText>
+                <AbstractText Label="Materials and Methods" NlmCategory="UNASSIGNED">We developed a sample of claims containing medical records at the moment of arrival in a single office. A series of tools annotated both patient records and public Web page descriptions of CAL medical conditions. We trained random forests to identify CAL patients and validated each model with 10-fold cross validation.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">Our main model, a general CAL classifier, had an area under the receiver operating characteristic curve of 0.915. Combining this classifier with existing software improved sensitivity from 0.960 to 0.994, detecting every deceased patient, but reducing positive predictive value to 0.216.</AbstractText>
+                <AbstractText Label="Discussion" NlmCategory="UNASSIGNED">True positive CAL identification is a priority, given CAL patient mortality. Mere prioritization of the false positives would not create a meaningful burden in terms of manual review. Death certificate data suggest the presence of truly ill patients among putative false positives.</AbstractText>
+                <AbstractText Label="Conclusion" NlmCategory="UNASSIGNED">To a limited extent, it is possible to identify gravely ill Social Security disability applicants by analyzing annotations of unstructured electronic health records, and the level of identification is sufficient to be useful in prioritizing case reviews.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Abbott</LastName>
+                    <ForeName>Kenneth</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Minnesota Disability Determination Services, Saint Paul, Minnesota, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ho</LastName>
+                    <ForeName>Yen-Yi</ForeName>
+                    <Initials>YY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, College of Arts and Sciences, University of South Carolina, Columbia, SC, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Erickson</LastName>
+                    <ForeName>Jennifer</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Minnesota Disability Determination Services, Saint Paul, Minnesota, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Am Med Inform Assoc</MedlineTA>
+            <NlmUniqueID>9430800</NlmUniqueID>
+            <ISSNLinking>1067-5027</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Social Security</Keyword>
+            <Keyword MajorTopicYN="N">disability</Keyword>
+            <Keyword MajorTopicYN="N">government</Keyword>
+            <Keyword MajorTopicYN="N">health records</Keyword>
+            <Keyword MajorTopicYN="N">natural language processing</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28108546</ArticleId>
+            <ArticleId IdType="pii">ocw159</ArticleId>
+            <ArticleId IdType="doi">10.1093/jamia/ocw159</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

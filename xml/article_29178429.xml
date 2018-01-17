@@ -1,0 +1,127 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29178429</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Technical Note: Defining cyclotron-based clinical scanning proton machines in a FLUKA Monte Carlo system.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12701</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Cyclotron-based pencil beam scanning (PBS) proton machines represent nowadays the majority and most affordable choice for proton therapy facilities, however, their representation in Monte Carlo (MC) codes is more complex than passively scattered proton system- or synchrotron-based PBS machines. This is because degraders are used to decrease the energy from the cyclotron maximum energy to the desired energy, resulting in a unique spot size, divergence, and energy spread depending on the amount of degradation. This manuscript outlines a generalized methodology to characterize a cyclotron-based PBS machine in a general-purpose MC code. The code can then be used to generate clinically relevant plans starting from commercial TPS plans.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The described beam is produced at the Provision Proton Therapy Center (Knoxville, TN, USA) using a cyclotron-based IBA Proteus Plus equipment. We characterized the Provision beam in the MC FLUKA using the experimental commissioning data. The code was then validated using experimental data in water phantoms for single pencil beams and larger irregular fields. Comparisons with RayStation TPS plans are also presented.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Comparisons of experimental, simulated, and planned dose depositions in water plans show that same doses are calculated by both programs inside the target areas, while penumbrae differences are found at the field edges. These differences are lower for the MC, with a γ(3%-3 mm) index never below 95%.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Extensive explanations on how MC codes can be adapted to simulate cyclotron-based scanning proton machines are given with the aim of using the MC as a TPS verification tool to check and improve clinical plans. For all the tested cases, we showed that dose differences with experimental data are lower for the MC than TPS, implying that the created FLUKA beam model is better able to describe the experimental beam.</AbstractText>
+                <CopyrightInformation>© 2017 The Authors. Medical Physics published by Wiley Periodicals, Inc. on behalf of American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Fiorini</LastName>
+                    <ForeName>Francesca</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CRUK - MRC Oxford Institute for Radiation Oncology University of Oxford, Oxford, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schreuder</LastName>
+                    <ForeName>Niek</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Provision Proton Therapy Center, Knoxville, TN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Van den Heuvel</LastName>
+                    <ForeName>Frank</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CRUK - MRC Oxford Institute for Radiation Oncology University of Oxford, Oxford, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">FLUKA simulations</Keyword>
+            <Keyword MajorTopicYN="N">Monte Carlo treatment verification</Keyword>
+            <Keyword MajorTopicYN="N">RayStation TPS</Keyword>
+            <Keyword MajorTopicYN="N">cyclotron accelerated beams</Keyword>
+            <Keyword MajorTopicYN="N">proton therapy</Keyword>
+            <Keyword MajorTopicYN="N">treatment planning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29178429</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12701</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

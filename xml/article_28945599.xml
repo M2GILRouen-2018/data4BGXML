@@ -1,0 +1,96 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28945599</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-2639</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on nanobioscience</Title>
+                <ISOAbbreviation>IEEE Trans Nanobioscience</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ABI Base Recall: Automatic correction and ends trimming of DNA sequences.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNB.2017.2755004</ELocationID>
+            <Abstract>
+                <AbstractText>Automated DNA sequencers produce chromatogram files in ABI Format. When viewing chromatograms, some ambiguities are shown at various sites along the DNA sequences, because the program implemented in the sequencing machine and used to call bases cannot always precisely determine the right nucleotide, especially when it is represented by either a broad peak or a set of overlaying peaks. In such cases, a letter other than A, C, G, or T is recorded, most commonly N. Thus, DNA sequencing chromatograms needs manual examination: checking for mis-calls and truncate the sequence when errors become too frequent. The purpose of the present work is to develop a program allowing the automatic correction of these ambiguities. This application is a web based program powered by Shiny and runs under R platform for an easy exploitation. As a part of the interface, we added automatic ends clipping option, alignment against reference sequences, and BLAST. To develop and test our tool, we collected several bacterial DNA sequences from different laboratories within Institut Pasteur du Maroc and performed both manual and automatic correction. The comparison between the two methods was carried out. As results, we note that our program, ABI Base Recall, accomplishes a good correction with a high accuracy. Indeed, it increases the rate of identity and coverage and minimizes the number of mis-matches and gaps, hence it provides solution to sequencing ambiguities and save biologist's time and labor.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Elyazghi</LastName>
+                    <ForeName>Zakaria</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>El Yazouli</LastName>
+                    <ForeName>Loubna</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sadki</LastName>
+                    <ForeName>Khalid</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Radouani</LastName>
+                    <ForeName>Fouzia</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Nanobioscience</MedlineTA>
+            <NlmUniqueID>101152869</NlmUniqueID>
+            <ISSNLinking>1536-1241</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28945599</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNB.2017.2755004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

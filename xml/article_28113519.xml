@@ -1,0 +1,87 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113519</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2329-4051</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <MedlineDate>2017 Apr-Jun</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on haptics</Title>
+                <ISOAbbreviation>IEEE Trans Haptics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>6-DoF Haptic Rendering Using Continuous Collision Detection between Points and Signed Distance Fields.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>151-161</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TOH.2016.2613872</ELocationID>
+            <Abstract>
+                <AbstractText>We present an algorithm for fast continuous collision detection between points and signed distance fields, and demonstrate how to robustly use it for 6-DoF haptic rendering of contact between objects with complex geometry. Continuous collision detection is often needed in computer animation, haptics, and virtual reality applications, but has so far only been investigated for polygon (triangular) geometry representations. We demonstrate how to robustly and continuously detect intersections between points and level sets of the signed distance field. We suggest using an octree subdivision of the distance field for fast traversal of distance field cells. We also give a method to resolve continuous collisions between point clouds organized into a tree hierarchy and a signed distance field, enabling rendering of contact between rigid objects with complex geometry. We investigate and compare two 6-DoF haptic rendering methods now applicable to point-versus-distance field contact for the first time: continuous integration of penalty forces, and a constraint-based method. An experimental comparison to discrete collision detection demonstrates that the continuous method is more robust and can correctly resolve collisions even under high velocities and during complex contact.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hongyi Xu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barbic</LastName>
+                    <ForeName>Jernej</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Haptics</MedlineTA>
+            <NlmUniqueID>101491191</NlmUniqueID>
+            <ISSNLinking>1939-1412</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113519</ArticleId>
+            <ArticleId IdType="doi">10.1109/TOH.2016.2613872</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

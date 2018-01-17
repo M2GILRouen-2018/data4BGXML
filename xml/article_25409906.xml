@@ -1,0 +1,337 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28135292</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Prediction of Poly(A) Sites by Poly(A) Read Mapping.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0170914</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0170914</ELocationID>
+            <Abstract>
+                <AbstractText>RNA-seq reads containing part of the poly(A) tail of transcripts (denoted as poly(A) reads) provide the most direct evidence for the position of poly(A) sites in the genome. However, due to reduced coverage of poly(A) tails by reads, poly(A) reads are not routinely identified during RNA-seq mapping. Nevertheless, recent studies for several herpesviruses successfully employed mapping of poly(A) reads to identify herpesvirus poly(A) sites using different strategies and customized programs. To more easily allow such analyses without requiring additional programs, we integrated poly(A) read mapping and prediction of poly(A) sites into our RNA-seq mapping program ContextMap 2. The implemented approach essentially generalizes previously used poly(A) read mapping approaches and combines them with the context-based approach of ContextMap 2 to take into account information provided by other reads aligned to the same location. Poly(A) read mapping using ContextMap 2 was evaluated on real-life data from the ENCODE project and compared against a competing approach based on transcriptome assembly (KLEAT). This showed high positive predictive value for our approach, evidenced also by the presence of poly(A) signals, and considerably lower runtime than KLEAT. Although sensitivity is low for both methods, we show that this is in part due to a high extent of spurious results in the gold standard set derived from RNA-PET data. Sensitivity improves for poly(A) sites of known transcripts or determined with a more specific poly(A) sequencing protocol and increases with read coverage on transcript ends. Finally, we illustrate the usefulness of the approach in a high read coverage scenario by a re-analysis of published data for herpes simplex virus 1. Thus, with current trends towards increasing sequencing depth and read length, poly(A) read mapping will prove to be increasingly useful and can now be performed automatically during RNA-seq mapping with ContextMap 2.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bonfert</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Informatics, LMU Munich, Munich, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Friedel</LastName>
+                    <ForeName>Caroline C</ForeName>
+                    <Initials>CC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Informatics, LMU Munich, Munich, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D012333">RNA, Messenger</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>24937-83-5</RegistryNumber>
+                <NameOfSubstance UI="D011061">Poly A</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2011 May;21(5):741-7</RefSource>
+                <PMID Version="1">21474764</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2008 Jun 20;320(5883):1643-7</RefSource>
+                <PMID Version="1">18566288</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2000 Jul;10(7):1001-10</RefSource>
+                <PMID Version="1">10899149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2010 Nov;7(11):909-12</RefSource>
+                <PMID Version="1">20935650</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>MBio. 2014 Mar 11;5(2):e01033-13</RefSource>
+                <PMID Version="1">24618256</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Mar 04;9(4):357-9</RefSource>
+                <PMID Version="1">22388286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2016 Jan 4;44(D1):D710-6</RefSource>
+                <PMID Version="1">26687719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2001 Apr 15;29(8):1690-4</RefSource>
+                <PMID Version="1">11292841</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2008 Sep;18(9):1509-17</RefSource>
+                <PMID Version="1">18550803</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell. 2011 Sep 16;43(6):853-66</RefSource>
+                <PMID Version="1">21925375</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2008 Jul;5(7):621-8</RefSource>
+                <PMID Version="1">18516045</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2010;11(10):R106</RefSource>
+                <PMID Version="1">20979621</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(12):e52403</RefSource>
+                <PMID Version="1">23300661</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Mar 1;41(5):e65</RefSource>
+                <PMID Version="1">23295673</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Pathog. 2014 Jan;10(1):e1003847</RefSource>
+                <PMID Version="1">24453964</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>RNA. 2012 Dec;18(12):2105-17</RefSource>
+                <PMID Version="1">23097429</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Nov 23;338(6110):1088-93</RefSource>
+                <PMID Version="1">23180859</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2010 May;28(5):511-5</RefSource>
+                <PMID Version="1">20436464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>RNA. 2011 Apr;17(4):761-72</RefSource>
+                <PMID Version="1">21343387</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2008 Jun 6;320(5881):1344-9</RefSource>
+                <PMID Version="1">18451266</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Apr 17;16:122</RefSource>
+                <PMID Version="1">25928589</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Sep 6;489(7414):57-74</RefSource>
+                <PMID Version="1">22955616</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2012 Oct;22(10):2054-66</RefSource>
+                <PMID Version="1">22722342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jul;40(13):6304-18</RefSource>
+                <PMID Version="1">22467213</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Sep 6;489(7414):101-8</RefSource>
+                <PMID Version="1">22955620</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2013 Feb;10(2):133-9</RefSource>
+                <PMID Version="1">23241633</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2009 Aug 21;138(4):673-84</RefSource>
+                <PMID Version="1">19703394</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Rep. 2012 Mar 29;1(3):277-89</RefSource>
+                <PMID Version="1">22685694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2013 Jul;14(7):496-506</RefSource>
+                <PMID Version="1">23774734</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Biochem. 1997;66:347-84</RefSource>
+                <PMID Version="1">9242911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2009 Apr 28;106(17):7028-33</RefSource>
+                <PMID Version="1">19372383</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2010 Dec 10;143(6):1018-29</RefSource>
+                <PMID Version="1">21145465</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2009;10(3):R25</RefSource>
+                <PMID Version="1">19261174</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1999 Nov 23;96(24):14055-60</RefSource>
+                <PMID Version="1">10570197</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Apr 1;464(7289):768-72</RefSource>
+                <PMID Version="1">20220758</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Apr 1;30(7):923-30</RefSource>
+                <PMID Version="1">24227677</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2012 Jun;22(6):1173-83</RefSource>
+                <PMID Version="1">22454233</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jul 15;25(14):1754-60</RefSource>
+                <PMID Version="1">19451168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2005 Feb;2(2):105-11</RefSource>
+                <PMID Version="1">15782207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 2015;:347-58</RefSource>
+                <PMID Version="1">25592595</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2015 May 20;6:7126</RefSource>
+                <PMID Version="1">25989971</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2005;6(12):R100</RefSource>
+                <PMID Version="1">16356263</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2011 Sep 20;108(38):15864-9</RefSource>
+                <PMID Version="1">21896737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genes Dev. 2011 Sep 1;25(17):1770-82</RefSource>
+                <PMID Version="1">21896654</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2005 Nov 1;102(44):16055-9</RefSource>
+                <PMID Version="1">16247011</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2014 Nov 20;5:5274</RefSource>
+                <PMID Version="1">25409906</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011061" MajorTopicYN="N">Poly A</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012333" MajorTopicYN="N">RNA, Messenger</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017423" MajorTopicYN="N">Sequence Analysis, RNA</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059467" MajorTopicYN="N">Transcriptome</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <CoiStatement>The authors have declared that no competing interests exist.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28135292</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0170914</ArticleId>
+            <ArticleId IdType="pii">PONE-D-16-33916</ArticleId>
+            <ArticleId IdType="pmc">PMC5279776</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

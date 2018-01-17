@@ -1,0 +1,136 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28034788</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-0480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>66</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical informatics</Title>
+                <ISOAbbreviation>J Biomed Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An unsupervised machine learning model for discovering latent infectious diseases using social media data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>82-94</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1532-0464(16)30181-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jbi.2016.12.007</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">The authors of this work propose an unsupervised machine learning model that has the ability to identify real-world latent infectious diseases by mining social media data. In this study, a latent infectious disease is defined as a communicable disease that has not yet been formalized by national public health institutes and explicitly communicated to the general public. Most existing approaches to modeling infectious-disease-related knowledge discovery through social media networks are top-down approaches that are based on already known information, such as the names of diseases and their symptoms. In existing top-down approaches, necessary but unknown information, such as disease names and symptoms, is mostly unidentified in social media data until national public health institutes have formalized that disease. Most of the formalizing processes for latent infectious diseases are time consuming. Therefore, this study presents a bottom-up approach for latent infectious disease discovery in a given location without prior information, such as disease names and related symptoms.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Social media messages with user and temporal information are extracted during the data preprocessing stage. An unsupervised sentiment analysis model is then presented. Users' expressions about symptoms, body parts, and pain locations are also identified from social media data. Then, symptom weighting vectors for each individual and time period are created, based on their sentiment and social media expressions. Finally, latent-infectious-disease-related information is retrieved from individuals' symptom weighting vectors.</AbstractText>
+                <AbstractText Label="DATASETS AND RESULTS" NlmCategory="UNASSIGNED">Twitter data from August 2012 to May 2013 are used to validate this study. Real electronic medical records for 104 individuals, who were diagnosed with influenza in the same period, are used to serve as ground truth validation. The results are promising, with the highest precision, recall, and F1 score values of 0.773, 0.680, and 0.724, respectively.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This work uses individuals' social media messages to identify latent infectious diseases, without prior information, quicker than when the disease(s) is formalized by national public health institutes. In particular, the unsupervised machine learning model using user, textual, and temporal information in social media data, along with sentiment analysis, identifies latent infectious diseases in a given location.</AbstractText>
+                <CopyrightInformation>Copyright Â© 2016 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lim</LastName>
+                    <ForeName>Sunghoon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, PA 16802, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tucker</LastName>
+                    <ForeName>Conrad S</ForeName>
+                    <Initials>CS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Engineering Design, Technology, and Professional Programs, The Pennsylvania State University, University Park, PA 16802, USA; Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, PA 16802, USA. Electronic address: ctucker4@psu.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kumara</LastName>
+                    <ForeName>Soundar</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, PA 16802, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Biomed Inform</MedlineTA>
+            <NlmUniqueID>100970413</NlmUniqueID>
+            <ISSNLinking>1532-0464</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Information retrieval</Keyword>
+            <Keyword MajorTopicYN="N">Latent infectious diseases</Keyword>
+            <Keyword MajorTopicYN="N">Sentiment analysis</Keyword>
+            <Keyword MajorTopicYN="N">Social media</Keyword>
+            <Keyword MajorTopicYN="N">Unsupervised machine learning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28034788</ArticleId>
+            <ArticleId IdType="pii">S1532-0464(16)30181-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jbi.2016.12.007</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

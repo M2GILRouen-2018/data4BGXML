@@ -1,0 +1,89 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113618</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Uniform Projection for Multi-View Learning.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1675-1689</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2601608</ELocationID>
+            <Abstract>
+                <AbstractText>Multi-view learning aims to integrate multiple data information from different views to improve the learning performance. The key problem is to handle the unconformities or distortions among view-specific samples or measurements of similarity or dissimilarity. This paper models the view-specific samples as a nonlinear mapping of uniform but latent intact samples for all the views, and the view-specific dissimilarity matrices or similarity matrices are estimated in terms of the uniform latent one. Two methods are then developed for multi-view clustering. One makes use of uniform multidimensional scaling (UMDS) on multi-view dissimilarities or kernels. The other one uses a uniform class assignment (UCA) procedure that optimally extracts the cluster components contained in the view-specific similarity matrices. These two methods result in the same optimization model, subjected to some slightly different constraints. A first-order condition of solutions is given as a nonlinear eigenvalue problem, and a second order condition guarantees local optimality. The nonlinear eigenvalue problem is solved by an iterative algorithm via eigen-space updating, and its convergence is proven. Furthermore, a fast implementation of the algorithm is discussed, which adopts the strategy of restarting subspace extension. Numerical experiments on some real-world data sets provide good support to the proposed methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhenyue Zhang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zheng Zhai</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Limin Li</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113618</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2601608</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

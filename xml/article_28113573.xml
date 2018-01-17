@@ -1,0 +1,92 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113573</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Blind Image Denoising via Dependent Dirichlet Process Tree.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1518-1531</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2604816</ELocationID>
+            <Abstract>
+                <AbstractText>Most existing image denoising approaches assumed the noise to be homogeneous white Gaussian distributed with known intensity. However, in real noisy images, the noise models are usually unknown beforehand and can be much more complex. This paper addresses this problem and proposes a novel blind image denoising algorithm to recover the clean image from noisy one with the unknown noise model. To model the empirical noise of an image, our method introduces the mixture of Gaussian distribution, which is flexible enough to approximate different continuous distributions. The problem of blind image denoising is reformulated as a learning problem. The procedure is to first build a two-layer structural model for noisy patches and consider the clean ones as latent variable. To control the complexity of the noisy patch model, this work proposes a novel Bayesian nonparametric prior called &quot;Dependent Dirichlet Process Tree&quot; to build the model. Then, this study derives a variational inference algorithm to estimate model parameters and recover clean patches. We apply our method on synthesis and real noisy images with different noise models. Comparing with previous approaches, ours achieves better performance. The experimental results indicate the efficiency of the proposed algorithm to cope with practical image denoising tasks.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Fengyuan Zhu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guangyong Chen</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jianye Hao</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pheng-Ann Heng</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113573</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2604816</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

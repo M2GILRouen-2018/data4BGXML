@@ -1,0 +1,138 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">22181969</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>03</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>09</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>03</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1530-9304</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Season>Spring</Season>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Evolutionary computation</Title>
+                <ISOAbbreviation>Evol Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evolving fisher kernels for biological sequence classification.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>83-105</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1162/EVCO_a_00065</ELocationID>
+            <Abstract>
+                <AbstractText>Fisher kernels have been successfully applied to many problems in bioinformatics. However, their success depends on the quality of the generative model upon which they are built. For Fisher kernel techniques to be used on novel problems, a mechanism for creating accurate generative models is required. A novel framework is presented for automatically creating domain-specific generative models that can be used to produce Fisher kernels for support vector machines (SVMs) and other kernel methods. The framework enables the capture of prior knowledge and addresses the issue of domain-specific kernels, both of which are current areas that are lacking in many kernel-based methods. To obtain the generative model, genetic algorithms are used to evolve the structure of hidden Markov models (HMMs). A Fisher kernel is subsequently created from the HMM, and used in conjunction with an SVM, to improve the discriminative power. This paper investigates the effectiveness of the proposed method, named GA-SVM. We show that its performance is comparable if not better than other state of the art methods in classifying secretory protein sequences of malaria. More interestingly, it showed better results than the sequence-similarity-based approach, without the need for additional homologous sequence information in protein enzyme family classification. The experiments clearly demonstrate that the GA-SVM is a novel way to find features with good performance from biological sequences, that does not require extensive tuning of a complex model.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Won</LastName>
+                    <ForeName>K-J</ForeName>
+                    <Initials>KJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genetics, Institute for Diabetes, Obesity and Metabolism, University of Pennsylvania, Translational Research Center, 12-111, 3400 Civic Center Blvd., Philadelphia, PA 19104, USA. wonk@mail.med.upenn.edu</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saunders</LastName>
+                    <ForeName>C</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Prügel-Bennett</LastName>
+                    <ForeName>A</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>02</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Evol Comput</MedlineTA>
+            <NlmUniqueID>9513581</NlmUniqueID>
+            <ISSNLinking>1063-6560</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015800">Protozoan Proteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000595" MajorTopicYN="Y">Amino Acid Sequence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008390" MajorTopicYN="Y">Markov Chains</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010961" MajorTopicYN="N">Plasmodium</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015800" MajorTopicYN="N">Protozoan Proteins</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="N">classification</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">22181969</ArticleId>
+            <ArticleId IdType="doi">10.1162/EVCO_a_00065</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

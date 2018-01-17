@@ -1,0 +1,203 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28910313</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A detailed comparison of analysis processes for MCC-IMS data in disease classification-Automated methods can replace manual peak annotations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0184321</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0184321</ELocationID>
+            <Abstract>
+                <AbstractText Label="MOTIVATION" NlmCategory="BACKGROUND">Disease classification from molecular measurements typically requires an analysis pipeline from raw noisy measurements to final classification results. Multi capillary column-ion mobility spectrometry (MCC-IMS) is a promising technology for the detection of volatile organic compounds in the air of exhaled breath. From raw measurements, the peak regions representing the compounds have to be identified, quantified, and clustered across different experiments. Currently, several steps of this analysis process require manual intervention of human experts. Our goal is to identify a fully automatic pipeline that yields competitive disease classification results compared to an established but subjective and tedious semi-manual process.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">We combine a large number of modern methods for peak detection, peak clustering, and multivariate classification into analysis pipelines for raw MCC-IMS data. We evaluate all combinations on three different real datasets in an unbiased cross-validation setting. We determine which specific algorithmic combinations lead to high AUC values in disease classifications across the different medical application scenarios.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The best fully automated analysis process achieves even better classification results than the established manual process. The best algorithms for the three analysis steps are (i) SGLTR (Savitzky-Golay Laplace-operator filter thresholding regions) and LM (Local Maxima) for automated peak identification, (ii) EM clustering (Expectation Maximization) and DBSCAN (Density-Based Spatial Clustering of Applications with Noise) for the clustering step and (iii) RF (Random Forest) for multivariate classification. Thus, automated methods can replace the manual steps in the analysis process to enable an unbiased high throughput use of the technology.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Horsch</LastName>
+                    <ForeName>Salome</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, TU Dortmund University, Dortmund, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kopczynski</LastName>
+                    <ForeName>Dominik</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bioinformatics, Computer Science XI, TU Dortmund University, Dortmund, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuthe</LastName>
+                    <ForeName>Elias</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Genome Informatics, Institute of Human Genetics, University of Duisburg-Essen, University Hospital Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baumbach</LastName>
+                    <ForeName>Jörg Ingo</ForeName>
+                    <Initials>JI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Applied Chemistry, Reutlingen University, Reutlingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rahmann</LastName>
+                    <ForeName>Sven</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bioinformatics, Computer Science XI, TU Dortmund University, Dortmund, Germany.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Genome Informatics, Institute of Human Genetics, University of Duisburg-Essen, University Hospital Essen, Essen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rahnenführer</LastName>
+                    <ForeName>Jörg</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-8947-440X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, TU Dortmund University, Dortmund, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Metabolites. 2013 Apr 16;3(2):277-93</RefSource>
+                <PMID Version="1">24957992</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Algorithms Mol Biol. 2015 May 13;10:17</RefSource>
+                <PMID Version="1">26157473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Breath Res. 2014 Jun;8(2):027104</RefSource>
+                <PMID Version="1">24682214</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014 Jan 22;15:25</RefSource>
+                <PMID Version="1">24450533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Syst Bioinformatics Conf. 2007;6:391-401</RefSource>
+                <PMID Version="1">17951842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Chem. 2006 May;52(5):800-11</RefSource>
+                <PMID Version="1">16513771</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D057205" MajorTopicYN="N">Automation, Laboratory</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001944" MajorTopicYN="N">Breath Tests</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D066289" MajorTopicYN="Y">Data Curation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013057" MajorTopicYN="Y">Spectrum Analysis</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="N">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910313</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0184321</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-12936</ArticleId>
+            <ArticleId IdType="pmc">PMC5598980</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,372 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25652458</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>02</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>09</Month>
+            <Day>30</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1742-5662</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>104</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Mar</Month>
+                        <Day>06</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the Royal Society, Interface</Title>
+                <ISOAbbreviation>J R Soc Interface</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Enhancing physiologic simulations using supervised learning on coarse mesh solutions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>20141073</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1098/rsif.2014.1073</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">20141073</ELocationID>
+            <Abstract>
+                <AbstractText>Computational modelling of physical and biochemical processes has emerged as a means of evaluating medical devices, offering new insights that explain current performance, inform future designs and even enable personalized use. Yet resource limitations force one to compromise with reduced order computational models and idealized assumptions that yield either qualitative descriptions or approximate, quantitative solutions to problems of interest. Considering endovascular drug delivery as an exemplary scenario, we used a supervised machine learning framework to process data generated from low fidelity coarse meshes and predict high fidelity solutions on refined mesh configurations. We considered two models simulating drug delivery to the arterial wall: (i) two-dimensional drug-coated balloons and (ii) three-dimensional drug-eluting stents. Simulations were performed on computational mesh configurations of increasing density. Supervised learners based on Gaussian process modelling were constructed from combinations of coarse mesh setting solutions of drug concentrations and nearest neighbourhood distance information as inputs, and higher fidelity mesh solutions as outputs. These learners were then used as computationally inexpensive surrogates to extend predictions using low fidelity information to higher levels of mesh refinement. The cross-validated, supervised learner-based predictions improved fidelity as compared with computational simulations performed at coarse level meshes--a result consistent across all outputs and computational models considered. Supervised learning on coarse mesh solutions can augment traditional physics-based modelling of complex physiologic phenomena. By obtaining efficient solutions at a fraction of the computational cost, this framework has the potential to transform how modelling approaches can be applied in the evaluation of medical technologies and their real-time administration in an increasingly personalized fashion.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kolandaivelu</LastName>
+                    <ForeName>Kumaran</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA Cardiovascular Division, Brigham and Women's Hospital, 75 Francis Street, Boston, MA 02115, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O'Brien</LastName>
+                    <ForeName>Caroline C</ForeName>
+                    <Initials>CC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shazly</LastName>
+                    <ForeName>Tarek</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Engineering and Computing, University of South Carolina, Columbia, SC 29208, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Edelman</LastName>
+                    <ForeName>Elazer R</ForeName>
+                    <Initials>ER</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA David H. Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA Cardiovascular Division, Brigham and Women's Hospital, 75 Francis Street, Boston, MA 02115, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kolachalama</LastName>
+                    <ForeName>Vijaya B</ForeName>
+                    <Initials>VB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA Charles Stark Draper Laboratory, 555 Technology Square, Cambridge, MA 02139, USA vkolachalama@draper.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P20RR016461</GrantID>
+                    <Acronym>RR</Acronym>
+                    <Agency>NCRR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J R Soc Interface</MedlineTA>
+            <NlmUniqueID>101217269</NlmUniqueID>
+            <ISSNLinking>1742-5662</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2013 May 21;127(20):2047-55</RefSource>
+                <PMID Version="1">23584359</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2011 Feb 22;123(7):779-97</RefSource>
+                <PMID Version="1">21343594</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2010 Jun 22;121(24):2672-80</RefSource>
+                <PMID Version="1">20566965</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Control Release. 2009 Jan 5;133(1):24-30</RefSource>
+                <PMID Version="1">18926864</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2011 Nov;32(31):7755-73</RefSource>
+                <PMID Version="1">21821283</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Control Release. 2013 Jun 10;168(2):115-24</RefSource>
+                <PMID Version="1">23541929</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2014 May 13;63(18):1913-5</RefSource>
+                <PMID Version="1">24657698</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2013;16(Pt 3):323-30</RefSource>
+                <PMID Version="1">24505777</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2012 Sep 26;308(12):1237-45</RefSource>
+                <PMID Version="1">22922562</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Biomed Eng. 2012 Apr;40(4):955-65</RefSource>
+                <PMID Version="1">22042625</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2006 Feb 21;47(4):708-14</RefSource>
+                <PMID Version="1">16487832</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cardiol. 2014 Jan;11(1):13-23</RefSource>
+                <PMID Version="1">24189405</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2001 Apr 3;103(13):1740-5</RefSource>
+                <PMID Version="1">11282904</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2008 Mar;55(3):1176-84</RefSource>
+                <PMID Version="1">18334411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomech. 2014 Aug 22;47(11):2547-55</RefSource>
+                <PMID Version="1">24998989</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 2007 May;45(5):505-13</RefSource>
+                <PMID Version="1">17375345</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Cardiovasc Interv. 2009 Aug;2(4):352-8</RefSource>
+                <PMID Version="1">20031739</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomech. 2014 Mar 3;47(4):908-21</RefSource>
+                <PMID Version="1">24495755</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomech Model Mechanobiol. 2012 Jan;11(1-2):61-82</RefSource>
+                <PMID Version="1">21373889</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J R Soc Interface. 2013 Jul 6;10(84):20130193</RefSource>
+                <PMID Version="1">23676893</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Biomed Eng. 2010 Jan;38(1):88-99</RefSource>
+                <PMID Version="1">19898936</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pharm Sci. 2001 Sep;90(9):1324-35</RefSource>
+                <PMID Version="1">11745785</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Eng Online. 2007;6:47</RefSource>
+                <PMID Version="1">18078522</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Eng Phys. 2014 Apr;36(4):467-76</RefSource>
+                <PMID Version="1">24613503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Control Release. 2010 Mar 19;142(3):332-8</RefSource>
+                <PMID Version="1">19925836</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Med. 2004;55:169-78</RefSource>
+                <PMID Version="1">14746515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2012 Apr 10;59(15):1337-49</RefSource>
+                <PMID Version="1">22480478</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Biomater. 2013 Apr;9(4):6052-61</RefSource>
+                <PMID Version="1">23261926</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomech. 2012 Jul 26;45(11):1952-8</RefSource>
+                <PMID Version="1">22704609</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Jun 22;101(25):9463-7</RefSource>
+                <PMID Version="1">15197278</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomech Eng. 2012 Jan;134(1):011002</RefSource>
+                <PMID Version="1">22482657</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2010;13(Pt 3):375-82</RefSource>
+                <PMID Version="1">20879422</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Eng Online. 2008;7:23</RefSource>
+                <PMID Version="1">18684321</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(12):e8105</RefSource>
+                <PMID Version="1">19956555</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EuroIntervention. 2005 Aug;1(2):219-27</RefSource>
+                <PMID Version="1">19758907</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2011 Apr 5;123(13):1400-9</RefSource>
+                <PMID Version="1">21422389</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JACC Cardiovasc Interv. 2014 Jan;7(1):72-8</RefSource>
+                <PMID Version="1">24332418</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Eng Phys. 2013 Sep;35(9):1272-81</RefSource>
+                <PMID Version="1">23428836</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Eng Online. 2011;10:33</RefSource>
+                <PMID Version="1">21521508</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2001 Jul 31;104(5):600-5</RefSource>
+                <PMID Version="1">11479260</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Eng Phys. 2011 Dec;33(10):1183-92</RefSource>
+                <PMID Version="1">21658986</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2013 Jan 17;368(3):254-65</RefSource>
+                <PMID Version="1">23323902</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JACC Cardiovasc Interv. 2014 Aug;7(8):827-39</RefSource>
+                <PMID Version="1">25147028</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2013 Jun 4;61(22):2233-41</RefSource>
+                <PMID Version="1">23562923</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001158" MajorTopicYN="N">Arteries</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001185" MajorTopicYN="N">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003198" MajorTopicYN="N">Computer Simulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003331" MajorTopicYN="N">Coronary Vessels</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016503" MajorTopicYN="Y">Drug Delivery Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D054855" MajorTopicYN="Y">Drug-Eluting Stents</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020342" MajorTopicYN="N">Finite Element Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="N">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016011" MajorTopicYN="N">Normal Distribution</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4345474</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Gaussian process</Keyword>
+            <Keyword MajorTopicYN="N">computational modelling</Keyword>
+            <Keyword MajorTopicYN="N">drug-coated balloons</Keyword>
+            <Keyword MajorTopicYN="N">drug-eluting stents</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+            <Keyword MajorTopicYN="N">nearest neighbours</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25652458</ArticleId>
+            <ArticleId IdType="pii">rsif.2014.1073</ArticleId>
+            <ArticleId IdType="doi">10.1098/rsif.2014.1073</ArticleId>
+            <ArticleId IdType="pmc">PMC4345474</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

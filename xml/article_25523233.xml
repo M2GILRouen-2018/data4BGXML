@@ -1,0 +1,461 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26643081</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>08</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>09</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1573-689X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of medical systems</Title>
+                <ISOAbbreviation>J Med Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Reliable and Accurate Calcium Volume Measurement in Coronary Artery Using Intravascular Ultrasound Videos.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>51</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s10916-015-0407-z</ELocationID>
+            <Abstract>
+                <AbstractText>Quantitative assessment of calcified atherosclerotic volume within the coronary artery wall is vital for cardiac interventional procedures. The goal of this study is to automatically measure the calcium volume, given the borders of coronary vessel wall for all the frames of the intravascular ultrasound (IVUS) video. Three soft computing fuzzy classification techniques were adapted namely Fuzzy c-Means (FCM), K-means, and Hidden Markov Random Field (HMRF) for automated segmentation of calcium regions and volume computation. These methods were benchmarked against previously developed threshold-based method. IVUS image data sets (around 30,600 IVUS frames) from 15 patients were collected using 40 MHz IVUS catheter (Atlantis® SR Pro, Boston Scientific®, pullback speed of 0.5 mm/s). Calcium mean volume for FCM, K-means, HMRF and threshold-based method were 37.84 ± 17.38 mm(3), 27.79 ± 10.94 mm(3), 46.44 ± 19.13 mm(3) and 35.92 ± 16.44 mm(3) respectively. Cross-correlation, Jaccard Index and Dice Similarity were highest between FCM and threshold-based method: 0.99, 0.92 ± 0.02 and 0.95 + 0.02 respectively. Student's t-test, z-test and Wilcoxon-test are also performed to demonstrate consistency, reliability and accuracy of the results. Given the vessel wall region, the system reliably and automatically measures the calcium volume in IVUS videos. Further, we validated our system against a trained expert using scoring: K-means showed the best performance with an accuracy of 92.80%. Out procedure and protocol is along the line with method previously published clinically.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Araki</LastName>
+                    <ForeName>Tadashi</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiovascular Medicine, Toho University Ohashi Medical Center, Tokyo, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Banchhor</LastName>
+                    <ForeName>Sumit K</ForeName>
+                    <Initials>SK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Londhe</LastName>
+                    <ForeName>Narendra D</ForeName>
+                    <Initials>ND</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ikeda</LastName>
+                    <ForeName>Nobutaka</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cardiovascular Medicine, National Center for Global Health and Medicine, Tokyo, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Radeva</LastName>
+                    <ForeName>Petia</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department MAIA, Computer Vision Centre, Cerdanyola del Vallés, University of Barcelona, Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shukla</LastName>
+                    <ForeName>Devarshi</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saba</LastName>
+                    <ForeName>Luca</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Cagliari, Cagliari, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Balestrieri</LastName>
+                    <ForeName>Antonella</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Cagliari, Cagliari, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nicolaides</LastName>
+                    <ForeName>Andrew</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Vascular Screening and Diagnostic Centre, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Vascular Diagnostic Centre, University of Cyprus, Nicosia, Cyprus.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shafique</LastName>
+                    <ForeName>Shoaib</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CorVasc Vascular Laboratory, 8433 Harcourt Rd #100, Indianapolis, IN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Laird</LastName>
+                    <ForeName>John R</ForeName>
+                    <Initials>JR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UC Davis Vascular Centre, University of California, Davis, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suri</LastName>
+                    <ForeName>Jasjit S</ForeName>
+                    <Initials>JS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA. Jasjit.Suri@atheropoint.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Point-of-Care Devices, Global Biomedical Technologies, Inc., Roseville, CA, USA. Jasjit.Suri@atheropoint.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, University of Idaho (Affl.), Moscow, ID, USA. Jasjit.Suri@atheropoint.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Med Syst</MedlineTA>
+            <NlmUniqueID>7806056</NlmUniqueID>
+            <ISSNLinking>0148-5598</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>SY7Q814VUP</RegistryNumber>
+                <NameOfSubstance UI="D002118">Calcium</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cleve Clin J Med. 2003 Aug;70(8):713-9</RefSource>
+                <PMID Version="1">12959398</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2003 Apr 29;107(16):2072-5</RefSource>
+                <PMID Version="1">12719287</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2001 Jun 19;103(24):3019-41</RefSource>
+                <PMID Version="1">11413094</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Heart J. 2015 Oct 21;36(40):2696-705</RefSource>
+                <PMID Version="1">26306399</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ultrasound Med Biol. 2008 Jan;34(1):160-5</RefSource>
+                <PMID Version="1">17761383</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2000 Oct;19(10 ):996-1011</RefSource>
+                <PMID Version="1">11131497</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2006 May;25(5):590-601</RefSource>
+                <PMID Version="1">16689263</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Syst. 2011 Oct;35(5):905-19</RefSource>
+                <PMID Version="1">20703689</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Heart. 2002 Jul;88(1):91-6</RefSource>
+                <PMID Version="1">12067962</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2009 Nov;18(11):2385-401</RefSource>
+                <PMID Version="1">19556195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Catheter Cardiovasc Interv. 2013 Feb;81(3):471-80</RefSource>
+                <PMID Version="1">22422630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Mol Sci. 2015 May 05;16(5):10121-33</RefSource>
+                <PMID Version="1">25950760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Cardiovasc Genet. 2012 Feb 1;5(1):113-21</RefSource>
+                <PMID Version="1">22235037</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ultrasound Med Biol. 2015 May;41(5):1247-62</RefSource>
+                <PMID Version="1">25638311</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1998 May 12;97(18):1837-47</RefSource>
+                <PMID Version="1">9603539</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Biomed Eng. 2000;2:315-37</RefSource>
+                <PMID Version="1">11701515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1998 Dec 15;98 (24):2687-94</RefSource>
+                <PMID Version="1">9851954</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Indian J Med Res. 2010 Nov;132:561-6</RefSource>
+                <PMID Version="1">21150008</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am Heart J. 1995 Sep;130(3 Pt 1):413-9</RefSource>
+                <PMID Version="1">7661054</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stud Health Technol Inform. 2005;113:321-59</RefSource>
+                <PMID Version="1">15923747</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2005 May 26;352(21):2174-83</RefSource>
+                <PMID Version="1">15917382</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2008 Jan 24;358(4):331-41</RefSource>
+                <PMID Version="1">18216353</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Syst. 2011 Apr;35(2):203-13</RefSource>
+                <PMID Version="1">20703569</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Coron Artery Dis. 2014 May;25(3):236-41</RefSource>
+                <PMID Version="1">24441109</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int Angiol. 2014 Aug;33(4):392-403</RefSource>
+                <PMID Version="1">25056172</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 2007 Mar;31(2):71-80</RefSource>
+                <PMID Version="1">17215103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2002 Mar 5;105(9):1135-43</RefSource>
+                <PMID Version="1">11877368</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ultrasound Med Biol. 2010 Jan;36(1):111-29</RefSource>
+                <PMID Version="1">19900745</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Nov 05;9(11):e109997</RefSource>
+                <PMID Version="1">25372784</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Transcult Nurs. 2015 Jan;26(1):57-63</RefSource>
+                <PMID Version="1">24692337</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Heart J. 2007 Feb;28(4):398-406</RefSource>
+                <PMID Version="1">17277033</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Methods Programs Biomed. 2016 Feb;124:161-79</RefSource>
+                <PMID Version="1">26707374</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Res. 2012 Jul 6;111(2):245-59</RefSource>
+                <PMID Version="1">22773427</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ultrasound Med Biol. 2000 May;26(4):527-37</RefSource>
+                <PMID Version="1">10856615</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2015 Jan 27;131(4):e29-322</RefSource>
+                <PMID Version="1">25520374</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2014;2014:621437</RefSource>
+                <PMID Version="1">25170513</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arterioscler Thromb Vasc Biol. 2014 May;34(5):1069-77</RefSource>
+                <PMID Version="1">24558110</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2001 Apr 12;344(15):1117-24</RefSource>
+                <PMID Version="1">11297702</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Ultrasound Med. 2015 Mar;34(3):469-82</RefSource>
+                <PMID Version="1">25715368</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Cardiol. 2000 Jan 1;85(1):37-40</RefSource>
+                <PMID Version="1">11078233</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2012 Sep;16(5):823-34</RefSource>
+                <PMID Version="1">22389156</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2006 Feb 7;113(5):657-63</RefSource>
+                <PMID Version="1">16461838</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Methods Programs Biomed. 2015 Feb;118(2):158-72</RefSource>
+                <PMID Version="1">25523233</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002118" MajorTopicYN="N">Calcium</DescriptorName>
+                <QualifierName UI="Q000032" MajorTopicYN="Y">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003331" MajorTopicYN="N">Coronary Vessels</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017143" MajorTopicYN="N">Fuzzy Logic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014463" MajorTopicYN="N">Ultrasonography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061205" MajorTopicYN="N">Vascular Calcification</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Accuracy</Keyword>
+            <Keyword MajorTopicYN="N">Atherosclerosis</Keyword>
+            <Keyword MajorTopicYN="N">Coronary arteries</Keyword>
+            <Keyword MajorTopicYN="N">IVUS</Keyword>
+            <Keyword MajorTopicYN="N">Interventional cardiology</Keyword>
+            <Keyword MajorTopicYN="N">Performance</Keyword>
+            <Keyword MajorTopicYN="N">Reliability</Keyword>
+            <Keyword MajorTopicYN="N">Soft computing</Keyword>
+            <Keyword MajorTopicYN="N">calcium volume</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26643081</ArticleId>
+            <ArticleId IdType="doi">10.1007/s10916-015-0407-z</ArticleId>
+            <ArticleId IdType="pii">10.1007/s10916-015-0407-z</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

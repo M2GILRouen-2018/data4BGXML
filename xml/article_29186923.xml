@@ -1,0 +1,154 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29186923</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Adapting Local Features for Face Detection in Thermal Image.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2741</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17122741</ELocationID>
+            <Abstract>
+                <AbstractText>A thermal camera captures the temperature distribution of a scene as a thermal image. In thermal images, facial appearances of different people under different lighting conditions are similar. This is because facial temperature distribution is generally constant and not affected by lighting condition. This similarity in face appearances is advantageous for face detection. To detect faces in thermal images, cascade classifiers with Haar-like features are generally used. However, there are few studies exploring the local features for face detection in thermal images. In this paper, we introduce two approaches relying on local features for face detection in thermal images. First, we create new feature types by extending Multi-Block LBP. We consider a margin around the reference and the generally constant distribution of facial temperature. In this way, we make the features more robust to image noise and more effective for face detection in thermal images. Second, we propose an AdaBoost-based training method to get cascade classifiers with multiple types of local features. These feature types have different advantages. In this way we enhance the description power of local features. We did a hold-out validation experiment and a field experiment. In the hold-out validation experiment, we captured a dataset from 20 participants, comprising 14 males and 6 females. For each participant, we captured 420 images with 10 variations in camera distance, 21 poses, and 2 appearances (participant with/without glasses). We compared the performance of cascade classifiers trained by different sets of the features. The experiment results showed that the proposed approaches effectively improve the performance of face detection in thermal images. In the field experiment, we compared the face detection performance in realistic scenes using thermal and RGB images, and gave discussion based on the results.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Chao</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School of Information Science and Electrical Engineering, Kyushu University, 744, Motooka, Nishi-ku, Fukuoka 819-0395, Japan. ma@limu.ait.kyushu-u.ac.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trung</LastName>
+                    <ForeName>Ngo Thanh</ForeName>
+                    <Initials>NT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Institute of Scientific and Industrial Research, Osaka University, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan. trung@am.sanken.osaka-u.ac.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Uchiyama</LastName>
+                    <ForeName>Hideaki</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School of Information Science and Electrical Engineering, Kyushu University, 744, Motooka, Nishi-ku, Fukuoka 819-0395, Japan. uchiyama@limu.ait.kyushu-u.ac.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nagahara</LastName>
+                    <ForeName>Hajime</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Datability Science, Osaka University, 2-8, Yamadaoka, Suita, Osaka 565-0871, Japan. nagahara@ids.osaka-u.ac.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shimada</LastName>
+                    <ForeName>Atsushi</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School of Information Science and Electrical Engineering, Kyushu University, 744, Motooka, Nishi-ku, Fukuoka 819-0395, Japan. atsushi@limu.ait.kyushu-u.ac.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Taniguchi</LastName>
+                    <ForeName>Rin-Ichiro</ForeName>
+                    <Initials>RI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate School of Information Science and Electrical Engineering, Kyushu University, 744, Motooka, Nishi-ku, Fukuoka 819-0395, Japan. rin@kyudai.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AdaBoost</Keyword>
+            <Keyword MajorTopicYN="N">face detection</Keyword>
+            <Keyword MajorTopicYN="N">haar-like</Keyword>
+            <Keyword MajorTopicYN="N">histogram of oriented gradient</Keyword>
+            <Keyword MajorTopicYN="N">local binary pattern</Keyword>
+            <Keyword MajorTopicYN="N">local ternary pattern</Keyword>
+            <Keyword MajorTopicYN="N">mixed features</Keyword>
+            <Keyword MajorTopicYN="N">thermal image</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186923</ArticleId>
+            <ArticleId IdType="pii">s17122741</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17122741</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

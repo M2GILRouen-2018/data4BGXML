@@ -1,0 +1,169 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110733</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Simulation of MR angiography imaging for validation of cerebral arteries segmentation algorithms.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>293-309</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(15)30401-6</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.020</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Accurate vessel segmentation of magnetic resonance angiography (MRA) images is essential for computer-aided diagnosis of cerebrovascular diseases such as stenosis or aneurysm. The ability of a segmentation algorithm to correctly reproduce the geometry of the arterial system should be expressed quantitatively and observer-independently to ensure objectivism of the evaluation.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">This paper introduces a methodology for validating vessel segmentation algorithms using a custom-designed MRA simulation framework. For this purpose, a realistic reference model of an intracranial arterial tree was developed based on a real Time-of-Flight (TOF) MRA data set. With this specific geometry blood flow was simulated and a series of TOF images was synthesized using various acquisition protocol parameters and signal-to-noise ratios. The synthesized arterial tree was then reconstructed using a level-set segmentation algorithm available in the Vascular Modeling Toolkit (VMTK). Moreover, to present versatile application of the proposed methodology, validation was also performed for two alternative techniques: a multi-scale vessel enhancement filter and the Chan-Vese variant of the level-set-based approach, as implemented in the Insight Segmentation and Registration Toolkit (ITK). The segmentation results were compared against the reference model.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The accuracy in determining the vessels centerline courses was very high for each tested segmentation algorithm (mean error rate = 5.6% if using VMTK). However, the estimated radii exhibited deviations from ground truth values with mean error rates ranging from 7% up to 79%, depending on the vessel size, image acquisition and segmentation method.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We demonstrated the practical application of the designed MRA simulator as a reliable tool for quantitative validation of MRA image processing algorithms that provides objective, reproducible results and is observer independent.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Klepaczko</LastName>
+                    <ForeName>Artur</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Electronics, Lodz University of Technology, Lodz, Poland. Electronic address: aklepaczko@p.lodz.pl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Szczypiński</LastName>
+                    <ForeName>Piotr</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Electronics, Lodz University of Technology, Lodz, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Deistung</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Group, Institute of Diagnostic and Interventional Radiology, Jena University Hospital, Friedrich Schiller University, Jena, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reichenbach</LastName>
+                    <ForeName>Jürgen R</ForeName>
+                    <Initials>JR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Group, Institute of Diagnostic and Interventional Radiology, Jena University Hospital, Friedrich Schiller University, Jena, Germany; Michael Stifel Center for Data-driven and Simulation Science Jena, Friedrich Schiller University, Jena, Germany; Abbe School of Photonics, Friedrich Schiller University, Jena, Germany; Center of Medical Optics and Photonics, Friedrich Schiller University, Jena, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Materka</LastName>
+                    <ForeName>Andrzej</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Electronics, Lodz University of Technology, Lodz, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D023361">Validation Studies</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002536" MajorTopicYN="N">Cerebral Arteries</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018810" MajorTopicYN="Y">Magnetic Resonance Angiography</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Cerebral vasculature modeling</Keyword>
+            <Keyword MajorTopicYN="Y">MR angiography</Keyword>
+            <Keyword MajorTopicYN="Y">MRI simulation</Keyword>
+            <Keyword MajorTopicYN="Y">Quantitative validation</Keyword>
+            <Keyword MajorTopicYN="Y">Vessel segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110733</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(15)30401-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.020</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

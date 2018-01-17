@@ -1,0 +1,156 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28946991</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>151</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Deep learning ensemble with asymptotic techniques for oscillometric blood pressure estimation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-13</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(17)30327-9</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.08.005</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">This paper proposes a deep learning based ensemble regression estimator with asymptotic techniques, and offers a method that can decrease uncertainty for oscillometric blood pressure (BP) measurements using the bootstrap and Monte-Carlo approach. While the former is used to estimate SBP and DBP, the latter attempts to determine confidence intervals (CIs) for SBP and DBP based on oscillometric BP measurements.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">This work originally employs deep belief networks (DBN)-deep neural networks (DNN) to effectively estimate BPs based on oscillometric measurements. However, there are some inherent problems with these methods. First, it is not easy to determine the best DBN-DNN estimator, and worthy information might be omitted when selecting one DBN-DNN estimator and discarding the others. Additionally, our input feature vectors, obtained from only five measurements per subject, represent a very small sample size; this is a critical weakness when using the DBN-DNN technique and can cause overfitting or underfitting, depending on the structure of the algorithm. To address these problems, an ensemble with an asymptotic approach (based on combining the bootstrap with the DBN-DNN technique) is utilized to generate the pseudo features needed to estimate the SBP and DBP. In the first stage, the bootstrap-aggregation technique is used to create ensemble parameters. Afterward, the AdaBoost approach is employed for the second-stage SBP and DBP estimation. We then use the bootstrap and Monte-Carlo techniques in order to determine the CIs based on the target BP estimated using the DBN-DNN ensemble regression estimator with the asymptotic technique in the third stage.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The proposed method can mitigate the estimation uncertainty such as large the standard deviation of error (SDE) on comparing the proposed DBN-DNN ensemble regression estimator with the DBN-DNN single regression estimator, we identify that the SDEs of the SBP and DBP are reduced by 0.58 and 0.57  mmHg, respectively. These indicate that the proposed method actually enhances the performance by 9.18% and 10.88% compared with the DBN-DNN single estimator.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The proposed methodology improves the accuracy of BP estimation and reduces the uncertainty for BP estimation.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Soojeong</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic Engineering, Hanyang University, 222 Wangsimni-ro, Seongdong, Seoul 133-791, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chang</LastName>
+                    <ForeName>Joon-Hyuk</ForeName>
+                    <Initials>JH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic Engineering, Hanyang University, 222 Wangsimni-ro, Seongdong, Seoul 133-791, Republic of Korea. Electronic address: jchang@hanyang.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001794" MajorTopicYN="N">Blood Pressure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001795" MajorTopicYN="N">Blood Pressure Determination</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="Y">Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009010" MajorTopicYN="N">Monte Carlo Method</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="Y">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009991" MajorTopicYN="Y">Oscillometry</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Blood pressure</Keyword>
+            <Keyword MajorTopicYN="N">Bootstrap</Keyword>
+            <Keyword MajorTopicYN="N">Confidence interval</Keyword>
+            <Keyword MajorTopicYN="N">Deep neural networks</Keyword>
+            <Keyword MajorTopicYN="N">Oscillometric measurement</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28946991</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(17)30327-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.08.005</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

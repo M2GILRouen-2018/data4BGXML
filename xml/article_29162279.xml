@@ -1,0 +1,171 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29162279</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-0887</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>125</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology</Title>
+                <ISOAbbreviation>Radiother Oncol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Clinical decision support of radiotherapy treatment planning: A data-driven machine learning strategy for patient-specific dosimetric decision making.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>392-397</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0167-8140(17)32654-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.radonc.2017.10.014</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND PURPOSE" NlmCategory="OBJECTIVE">Clinical decision support systems are a growing class of tools with the potential to impact healthcare. This study investigates the construction of a decision support system through which clinicians can efficiently identify which previously approved historical treatment plans are achievable for a new patient to aid in selection of therapy.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS" NlmCategory="METHODS">Treatment data were collected for early-stage lung and postoperative oropharyngeal cancers treated using photon (lung and head and neck) and proton (head and neck) radiotherapy. Machine-learning classifiers were constructed using patient-specific feature-sets and a library of historical plans. Model accuracy was analyzed using learning curves, and historical treatment plan matching was investigated.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Learning curves demonstrate that for these datasets, approximately 45, 60, and 30 patients are needed for a sufficiently accurate classification model for radiotherapy for early-stage lung, postoperative oropharyngeal photon, and postoperative oropharyngeal proton, respectively. The resulting classification model provides a database of previously approved treatment plans that are achievable for a new patient. An exemplary case, highlighting tradeoffs between the heart and chest wall dose while holding target dose constant in two historical plans is provided.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We report on the first artificial-intelligence based clinical decision support system that connects patients to past discrete treatment plans in radiation oncology and demonstrate for the first time how this tool can enable clinicians to use past decisions to help inform current assessments. Clinicians can be informed of dose tradeoffs between critical structures early in the treatment process, enabling more time spent on finding the optimal course of treatment for individual patients.</AbstractText>
+                <CopyrightInformation>Copyright © 2017. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Valdes</LastName>
+                    <ForeName>Gilmer</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of California, San Francisco, United States. Electronic address: gilmer.valdes@ucsf.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Simone</LastName>
+                    <ForeName>Charles B</ForeName>
+                    <Initials>CB</Initials>
+                    <Suffix>2nd</Suffix>
+                    <AffiliationInfo>
+                        <Affiliation>University of Maryland Medical Center, Baltimore, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Josephine</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of California, San Francisco, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Alexander</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Pennsylvania, Philadelphia, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yom</LastName>
+                    <ForeName>Sue S</ForeName>
+                    <Initials>SS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of California, San Francisco, United States; Department of Otolaryngology-Head and Neck Surgery, San Francisco, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pattison</LastName>
+                    <ForeName>Adam J</ForeName>
+                    <Initials>AJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Siris Medical, Redwood City, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Carpenter</LastName>
+                    <ForeName>Colin M</ForeName>
+                    <Initials>CM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Siris Medical, Redwood City, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Solberg</LastName>
+                    <ForeName>Timothy D</ForeName>
+                    <Initials>TD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of California, San Francisco, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Radiother Oncol</MedlineTA>
+            <NlmUniqueID>8407192</NlmUniqueID>
+            <ISSNLinking>0167-8140</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Decision support system</Keyword>
+            <Keyword MajorTopicYN="N">Dosimetric tradeoffs</Keyword>
+            <Keyword MajorTopicYN="N">Knowledge-based planning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29162279</ArticleId>
+            <ArticleId IdType="pii">S0167-8140(17)32654-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.radonc.2017.10.014</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,351 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27842498</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>31</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2288</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medical research methodology</Title>
+                <ISOAbbreviation>BMC Med Res Methodol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Least absolute shrinkage and selection operator type methods for the identification of serum biomarkers of overweight and obesity: simulation and application.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>154</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The study of circulating biomarkers and their association with disease outcomes has become progressively complex due to advances in the measurement of these biomarkers through multiplex technologies. The Least Absolute Shrinkage and Selection Operator (LASSO) is a data analysis method that may be utilized for biomarker selection in these high dimensional data. However, it is unclear which LASSO-type method is preferable when considering data scenarios that may be present in serum biomarker research, such as high correlation between biomarkers, weak associations with the outcome, and sparse number of true signals. The goal of this study was to compare the LASSO to five LASSO-type methods given these scenarios.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A simulation study was performed to compare the LASSO, Adaptive LASSO, Elastic Net, Iterated LASSO, Bootstrap-Enhanced LASSO, and Weighted Fusion for the binary logistic regression model. The simulation study was designed to reflect the data structure of the population-based Tucson Epidemiological Study of Airway Obstructive Disease (TESAOD), specifically the sample size (N = 1000 for total population, 500 for sub-analyses), correlation of biomarkers (0.20, 0.50, 0.80), prevalence of overweight (40%) and obese (12%) outcomes, and the association of outcomes with standardized serum biomarker concentrations (log-odds ratio = 0.05-1.75). Each LASSO-type method was then applied to the TESAOD data of 306 overweight, 66 obese, and 463 normal-weight subjects with a panel of 86 serum biomarkers.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Based on the simulation study, no method had an overall superior performance. The Weighted Fusion correctly identified more true signals, but incorrectly included more noise variables. The LASSO and Elastic Net correctly identified many true signals and excluded more noise variables. In the application study, biomarkers of overweight and obesity selected by all methods were Adiponectin, Apolipoprotein H, Calcitonin, CD14, Complement 3, C-reactive protein, Ferritin, Growth Hormone, Immunoglobulin M, Interleukin-18, Leptin, Monocyte Chemotactic Protein-1, Myoglobin, Sex Hormone Binding Globulin, Surfactant Protein D, and YKL-40.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">For the data scenarios examined, choice of optimal LASSO-type method was data structure dependent and should be guided by the research objective. The LASSO-type methods identified biomarkers that have known associations with obesity and obesity related conditions.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vasquez</LastName>
+                    <ForeName>Monica M</ForeName>
+                    <Initials>MM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA. mmv@email.arizona.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Asthma and Airway Disease Research Center, The University of Arizona, 1501 North Campbell Avenue, P.O. Box 245030, Tucson, AZ, 85724, USA. mmv@email.arizona.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Chengcheng</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roe</LastName>
+                    <ForeName>Denise J</ForeName>
+                    <Initials>DJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Zhao</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Halonen</LastName>
+                    <ForeName>Marilyn</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asthma and Airway Disease Research Center, The University of Arizona, 1501 North Campbell Avenue, P.O. Box 245030, Tucson, AZ, 85724, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guerra</LastName>
+                    <ForeName>Stefano</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asthma and Airway Disease Research Center, The University of Arizona, 1501 North Campbell Avenue, P.O. Box 245030, Tucson, AZ, 85724, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>ISGlobal CREAL Centre, University Pompeu Fabra, Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P50 HL107188</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 HL095021</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med Res Methodol</MedlineTA>
+            <NlmUniqueID>100968545</NlmUniqueID>
+            <ISSNLinking>1471-2288</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015415">Biomarkers</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Clin Biochem. 2004 Jul;41(Pt 4):330-4</RefSource>
+                <PMID Version="1">15298746</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Endocrinol Metab. 2005 Mar;90(3):1550-6</RefSource>
+                <PMID Version="1">15613437</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Endocrinol Metab. 2002 Aug;87(8):3864-6</RefSource>
+                <PMID Version="1">12161523</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2006 Jun;95(6):991-6</RefSource>
+                <PMID Version="1">16732378</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetol Metab Syndr. 2014 Oct 26;6(1):114</RefSource>
+                <PMID Version="1">25371712</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Haematol. 1999 Apr;105(1):110-6</RefSource>
+                <PMID Version="1">10233372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Endocrinol (Oxf). 2013 Mar;78(3):321-9</RefSource>
+                <PMID Version="1">23121642</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Stat Softw. 2010;33(1):1-22</RefSource>
+                <PMID Version="1">20808728</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arterioscler Thromb. 1993 Dec;13(12 ):1829-36</RefSource>
+                <PMID Version="1">8241104</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2010 Apr;33(4):847-53</RefSource>
+                <PMID Version="1">20086254</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2004 May;27(5):1036-41</RefSource>
+                <PMID Version="1">15111517</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mach Learn Res. 2009;10:2013-2038</RefSource>
+                <PMID Version="1">21603590</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 1975 Aug;102(2):137-52</RefSource>
+                <PMID Version="1">1155443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Oct 15;21(20):3940-1</RefSource>
+                <PMID Version="1">16096348</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013;8(2):e55175</RefSource>
+                <PMID Version="1">23408959</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacoepidemiol Drug Saf. 2014 Feb;23(2):140-51</RefSource>
+                <PMID Version="1">24136855</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Endocr Metab Immune Disord Drug Targets. 2013 Dec;13(4):301-5</RefSource>
+                <PMID Version="1">24428680</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2007 Apr 24;115(16):2119-27</RefSource>
+                <PMID Version="1">17404162</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Obes Surg. 2009 Nov;19(11):1557-63</RefSource>
+                <PMID Version="1">19633900</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Obes (Lond). 2013 Dec;37(12):1532-8</RefSource>
+                <PMID Version="1">23478426</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Reprod Immunol. 2013 Apr;97(2):232-9</RefSource>
+                <PMID Version="1">23218400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2007 Jan;8(1):118-27</RefSource>
+                <PMID Version="1">16632515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J R Stat Soc Series B Stat Methodol. 2008;70(5):849-911</RefSource>
+                <PMID Version="1">19603084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Endocrinol Metab. 2012 Jan;23(1):32-40</RefSource>
+                <PMID Version="1">22047952</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2004 Apr;91(4):683-9</RefSource>
+                <PMID Version="1">15045128</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2015 Mar;113(3):577-84</RefSource>
+                <PMID Version="1">25472874</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Endocrinol Metab. 1977 Dec;45(6):1211-9</RefSource>
+                <PMID Version="1">338622</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Endocrinol (Oxf). 1980 Apr;12(4):363-9</RefSource>
+                <PMID Version="1">6769612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1999 Aug 17;100(7):736-42</RefSource>
+                <PMID Version="1">10449696</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Stat. 2008;36(6):2605-2637</RefSource>
+                <PMID Version="1">19169416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Scand J Immunol. 2006 Dec;64(6):633-8</RefSource>
+                <PMID Version="1">17083619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Obes Relat Metab Disord. 1999 Mar;23(3):260-71</RefSource>
+                <PMID Version="1">10193871</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019540" MajorTopicYN="N">Area Under Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015415" MajorTopicYN="N">Biomarkers</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016015" MajorTopicYN="N">Logistic Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008954" MajorTopicYN="N">Models, Biological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009765" MajorTopicYN="N">Obesity</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D050177" MajorTopicYN="N">Overweight</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012372" MajorTopicYN="N">ROC Curve</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Biomarkers</Keyword>
+            <Keyword MajorTopicYN="N">High-Dimensional</Keyword>
+            <Keyword MajorTopicYN="N">LASSO</Keyword>
+            <Keyword MajorTopicYN="N">Obesity</Keyword>
+            <Keyword MajorTopicYN="N">Overweight</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27842498</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12874-016-0254-8</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12874-016-0254-8</ArticleId>
+            <ArticleId IdType="pmc">PMC5109787</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

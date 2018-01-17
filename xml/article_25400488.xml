@@ -1,0 +1,231 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28934163</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Parameter Communication Optimization Strategy for Distributed Machine Learning in Sensors.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2172</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17102172</ELocationID>
+            <Abstract>
+                <AbstractText>In order to utilize the distributed characteristic of sensors, distributed machine learning has become the mainstream approach, but the different computing capability of sensors and network delays greatly influence the accuracy and the convergence rate of the machine learning model. Our paper describes a reasonable parameter communication optimization strategy to balance the training overhead and the communication overhead. We extend the fault tolerance of iterative-convergent machine learning algorithms and propose the Dynamic Finite Fault Tolerance (DFFT). Based on the DFFT, we implement a parameter communication optimization strategy for distributed machine learning, named Dynamic Synchronous Parallel Strategy (DSP), which uses the performance monitoring model to dynamically adjust the parameter synchronization strategy between worker nodes and the Parameter Server (PS). This strategy makes full use of the computing power of each sensor, ensures the accuracy of the machine learning model, and avoids the situation that the model training is disturbed by any tasks unrelated to the sensors.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Jilin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. jilin.zhang@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. jilin.zhang@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>College of Electrical Engineering, Zhejiang University, Hangzhou 310058, China. jilin.zhang@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information and Electronic engineering, Zhejiang University of Science &amp; Technology, Hangzhou 310023, China. jilin.zhang@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Zhejiang Provincial Engineering Center on Media Data Cloud Processing and Analysis, Hangzhou 310018, China. jilin.zhang@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tu</LastName>
+                    <ForeName>Hangdi</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. 152050103@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. 152050103@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Yongjian</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. yongjian.ren@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. yongjian.ren@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wan</LastName>
+                    <ForeName>Jian</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. wanjian@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. wanjian@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information and Electronic engineering, Zhejiang University of Science &amp; Technology, Hangzhou 310023, China. wanjian@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Zhejiang Provincial Engineering Center on Media Data Cloud Processing and Analysis, Hangzhou 310018, China. wanjian@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. juliy26@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. juliy26@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Mingwei</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. 161050009@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. 161050009@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jue</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Supercomputing Center of Computer Network Information Center, Chinese Academy of Sciences, Beijing 100190, China. 151050064@hdu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Lifeng</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hithink RoyalFlush Information Network Co., Ltd., Hangzhou 310023, Zhejiang, China. wangjue@sccas.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Financial Information Engineering Technology Research Center of Zhejiang Province, Hangzhou 310023, China. wangjue@sccas.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Chang</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou 310018, China. yulifeng@myhexin.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Complex Systems Modeling and Simulation, Ministry of Education, Hangzhou 310018, China. yulifeng@myhexin.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Science Department, Beijing University of Civil Engineering and Architecture, Beijing 100044, China. lei.zhang@bucea.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2012 Sep 26;12(10):13088-108</RefSource>
+                <PMID Version="1">23201987</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Neural Inf Process Syst. 2013;2013:1223-1231</RefSource>
+                <PMID Version="1">25400488</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">disturbed machine learning</Keyword>
+            <Keyword MajorTopicYN="N">dynamic synchronous parallel strategy (DSP)</Keyword>
+            <Keyword MajorTopicYN="N">parameter server (PS)</Keyword>
+            <Keyword MajorTopicYN="N">sensors</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28934163</ArticleId>
+            <ArticleId IdType="pii">s17102172</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17102172</ArticleId>
+            <ArticleId IdType="pmc">PMC5677357</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

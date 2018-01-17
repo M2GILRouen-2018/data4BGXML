@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113432</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Merge Frame Design for Video Stream Switching using Piecewise Constant Functions.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2571564</ELocationID>
+            <Abstract>
+                <AbstractText>The ability to efficiently switch from one preencoded video stream to another (e.g., for bitrate adaptation or view switching) is important for many interactive streaming applications. Recently, stream-switching mechanisms based on distributed source coding (DSC) have been proposed. In order to reduce the overall transmission rate, these approaches provide a &quot;merge&quot; mechanism, where information is sent to the decoder such that the exact same frame can be reconstructed given that any one of a known set of side information (SI) frames is available at the decoder (e.g., each SI frame may correspond to a different stream from which we are switching). However, the use of bitplane coding and channel coding in many DSC approaches leads to complex coding and decoding. In this paper, we propose an alternative approach for merging multiple SI frames, using a piecewise constant (PWC) function as the merge operator. In our approach, for each block to be reconstructed, a series of parameters of these PWC merge functions are transmitted in order to guarantee identical reconstruction given the known side information blocks. We consider two different scenarios. In the first case, a target frame is first given, and then merge parameters are chosen so that this frame can be reconstructed exactly at the decoder. In contrast, in the second scenario, the reconstructed frame and merge parameters are jointly optimized to meet a rate-distortion criteria. Experiments show that for both scenarios, our proposed merge techniques can outperform both a recent approach based on DSC and the SP-frame approach in H.264, in terms of compression efficiency and decoder complexity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dai</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheung</LastName>
+                    <ForeName>Gene</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheung</LastName>
+                    <ForeName>Ngai-Man</ForeName>
+                    <Initials>NM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ortega</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Au</LastName>
+                    <ForeName>Oscar</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113432</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2571564</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

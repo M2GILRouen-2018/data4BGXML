@@ -1,0 +1,123 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157451</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>153</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An integrated method for atherosclerotic carotid plaque segmentation in ultrasound image.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>19-32</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(17)30307-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.10.002</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Carotid artery atherosclerosis is an important cause of stroke. Ultrasound imaging has been widely used in the diagnosis of atherosclerosis. Therefore, segmenting atherosclerotic carotid plaque in ultrasound image is an important task. Accurate plaque segmentation is helpful for the measurement of carotid plaque burden. In this paper, we propose and evaluate a novel learning-based integrated framework for plaque segmentation.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In our study, four different classification algorithms, along with the auto-context iterative algorithm, were employed to effectively integrate features from ultrasound images and later also the iteratively estimated and refined probability maps together for pixel-wise classification. The four classification algorithms were support vector machine with linear kernel, support vector machine with radial basis function kernel, AdaBoost and random forest. The plaque segmentation was implemented in the generated probability map. The performance of the four different learning-based plaque segmentation methods was tested on 29 B-mode ultrasound images. The evaluation indices for our proposed methods were consisted of sensitivity, specificity, Dice similarity coefficient, overlap index, error of area, absolute error of area, point-to-point distance, and Hausdorff point-to-point distance, along with the area under the ROC curve.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The segmentation method integrated the random forest and an auto-context model obtained the best results (sensitivity 80.4 ± 8.4%, specificity 96.5 ± 2.0%, Dice similarity coefficient 81.0 ± 4.1%, overlap index 68.3 ± 5.8%, error of area -1.02 ± 18.3%, absolute error of area 14.7 ± 10.9%, point-to-point distance 0.34 ± 0.10 mm, Hausdorff point-to-point distance 1.75 ± 1.02 mm, and area under the ROC curve 0.897), which were almost the best, compared with that from the existed methods.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our proposed learning-based integrated framework investigated in this study could be useful for atherosclerotic carotid plaque segmentation, which will be helpful for the measurement of carotid plaque burden.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Qian</LastName>
+                    <ForeName>Chunjun</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Science, Nanjing University of Science and Technology, Jiangsu, China. Electronic address: qianchunjun@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Xiaoping</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Science, Nanjing University of Science and Technology, Jiangsu, China; Department of Mathematics, Nanjing University, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Atherosclerotic carotid plaque</Keyword>
+            <Keyword MajorTopicYN="N">Auto-context model</Keyword>
+            <Keyword MajorTopicYN="N">Random forest</Keyword>
+            <Keyword MajorTopicYN="N">Semi-automatic plaque segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Ultrasound Image</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157451</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(17)30307-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.10.002</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

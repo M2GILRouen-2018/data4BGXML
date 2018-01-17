@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28910776</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>11</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>FastEtch: A Fast Sketch-based Assembler for Genomes.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2017.2737999</ELocationID>
+            <Abstract>
+                <AbstractText>De novo genome assembly describes the process of reconstructing an unknown genome from a large collection of short (or long) reads sequenced from the genome. A single run of a Next-Generation Sequencing (NGS) technology can produce billions of short reads, making genome assembly computationally demanding (both in terms of memory and time). One of the major computational steps in modern day short read assemblers involves the construction and use of a string data structure called the de Bruijn graph. In fact, a majority of short read assemblers build the complete de Bruijn graph for the set of input reads, and subsequently traverse and prune low-quality edges, in order to generate genomic &quot;contigs&quot;-the output of assembly. These steps of graph construction and traversal, contribute to well over 90% of the runtime and memory. In this paper, we present a fast algorithm, FastEtch, that uses sketching to build an approximate version of the de Bruijn graph for the purpose of generating an assembly. The algorithm uses Count-Min sketch, which is a probabilistic data structure for streaming data sets. The result is an approximate de Bruijn graph that stores information pertaining only to a selected subset of nodes that are most likely to contribute to the contig generation step. In addition, edges are not stored; instead that fraction which contribute to our contig generation are detected on-the-fly. This approximate approach is intended to significantly improve performance (both execution time and memory footprint) whilst possibly compromising on the output assembly quality. We present two main versions of the assembler-one that generates an assembly, where each contig represents a contiguous genomic region from one strand of the DNA, and another that generates an assembly, where the contigs can straddle either of the two strands of the DNA. For further scalability, we have implemented a multi-threaded parallel code. Experimental results using our algorithm conducted on E. coli, Yeast, C. elegans and Human (Chr2 and Chr2+3) genomes show that our method yields one of the best time-memory-quality tradeoffs, when compared against many state-of-the-art genome assemblers.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ghosh</LastName>
+                    <ForeName>Priyanka</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kalyanaraman</LastName>
+                    <ForeName>Ananth</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910776</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2017.2737999</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

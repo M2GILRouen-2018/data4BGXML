@@ -1,0 +1,124 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29173907</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1724-191X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>42</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)</Title>
+                <ISOAbbreviation>Phys Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A software platform for statistical evaluation of patient respiratory patterns in radiation therapy.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>135-140</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1120-1797(17)30451-9</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ejmp.2017.09.128</ELocationID>
+            <Abstract>
+                <AbstractText Label="AIM" NlmCategory="OBJECTIVE">The aim of this work was to design and evaluate a software tool for analysis of a patient's respiration, with the goal of optimizing the effectiveness of motion management techniques during radiotherapy imaging and treatment.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">A software tool which analyses patient respiratory data files (.vxp files) created by the Varian Real-Time Position Management System (RPM) was developed to analyse patient respiratory data. The software, called RespAnalysis, was created in MATLAB and provides four modules, one each for determining respiration characteristics, providing breathing coaching (biofeedback training), comparing pre and post-training characteristics and performing a fraction-by-fraction assessment. The modules analyse respiratory traces to determine signal characteristics and specifically use a Sample Entropy algorithm as the key means to quantify breathing irregularity. Simulated respiratory signals, as well as 91 patient RPM traces were analysed with RespAnalysis to test the viability of using the Sample Entropy for predicting breathing regularity.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Retrospective assessment of patient data demonstrated that the Sample Entropy metric was a predictor of periodic irregularity in respiration data, however, it was found to be insensitive to amplitude variation. Additional waveform statistics assessing the distribution of signal amplitudes over time coupled with Sample Entropy method were found to be useful in assessing breathing regularity.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The RespAnalysis software tool presented in this work uses the Sample Entropy method to analyse patient respiratory data recorded for motion management purposes in radiation therapy. This is applicable during treatment simulation and during subsequent treatment fractions, providing a way to quantify breathing irregularity, as well as assess the need for breathing coaching. It was demonstrated that the Sample Entropy metric was correlated to the irregularity of the patient's respiratory motion in terms of periodicity, whilst other metrics, such as percentage deviation of inhale/exhale peak positions provided insight into respiratory amplitude regularity.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Associazione Italiana di Fisica Medica. Published by Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dunn</LastName>
+                    <ForeName>Leon</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Epworth Radiation Oncology, Epworth HealthCare, Australia. Electronic address: leon.dunn@epworth.org.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kenny</LastName>
+                    <ForeName>John</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Epworth Radiation Oncology, Epworth HealthCare, Australia. Electronic address: john.kenny@epworth.org.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Italy</Country>
+            <MedlineTA>Phys Med</MedlineTA>
+            <NlmUniqueID>9302888</NlmUniqueID>
+            <ISSNLinking>1120-1797</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Algorithm</Keyword>
+            <Keyword MajorTopicYN="N">Biofeedback</Keyword>
+            <Keyword MajorTopicYN="N">Motion management</Keyword>
+            <Keyword MajorTopicYN="N">Radiotherapy</Keyword>
+            <Keyword MajorTopicYN="N">Respiratory motion</Keyword>
+            <Keyword MajorTopicYN="N">Sample entropy</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29173907</ArticleId>
+            <ArticleId IdType="pii">S1120-1797(17)30451-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ejmp.2017.09.128</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

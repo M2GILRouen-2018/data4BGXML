@@ -1,0 +1,156 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28943333</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2860</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>82</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Artificial intelligence in medicine</Title>
+                <ISOAbbreviation>Artif Intell Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Finding discriminative and interpretable patterns in sequences of surgical activities.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>11-19</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0933-3657(16)30596-6</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.artmed.2017.09.002</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Surgery is one of the riskiest and most important medical acts that is performed today. Understanding the ways in which surgeries are similar or different from each other is of major interest to understand and analyze surgical behaviors. This article addresses the issue of identifying discriminative patterns of surgical practice from recordings of surgeries. These recordings are sequences of low-level surgical activities representing the actions performed by surgeons during surgeries.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHOD" NlmCategory="METHODS">To discover patterns that are specific to a group of surgeries, we use the vector space model (VSM) which is originally an algebraic model for representing text documents. We split long sequences of surgical activities into subsequences of consecutive activities. We then compute the relative frequencies of these subsequences using the tf*idf framework and we use the Cosine similarity to classify the sequences. This process makes it possible to discover which patterns discriminate one set of surgeries recordings from another set.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Experiments were performed on 40 neurosurgeries of anterior cervical discectomy (ACD). The results demonstrate that our method accurately identifies patterns that can discriminate between (1) locations where the surgery took place, (2) levels of expertise of surgeons (i.e., expert vs. intermediate) and even (3) individual surgeons who performed the intervention. We also show how the tf*idf weight vector can be used to both visualize the most interesting patterns and to highlight the parts of a given surgery that are the most interesting.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Identifying patterns that discriminate groups of surgeon is a very important step in improving the understanding of surgical processes. The proposed method finds discriminative and interpretable patterns in sequences of surgical activities. Our approach provides intuitive results, as it identifies automatically the set of patterns explaining the differences between the groups.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Forestier</LastName>
+                    <ForeName>Germain</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>MIPS EA 2332, University of Haute-Alsace, Mulhouse, France; Faculty of Information Technology, Monash University, Melbourne, Australia. Electronic address: germain.forestier@uha.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Petitjean</LastName>
+                    <ForeName>François</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Information Technology, Monash University, Melbourne, Australia. Electronic address: francois.petitjean@monash.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Senin</LastName>
+                    <ForeName>Pavel</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Los Alamos National Laboratory, Los Alamos, NM 87544, United States. Electronic address: psenin@lanl.gov.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Riffaud</LastName>
+                    <ForeName>Laurent</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INSERM MediCIS, Unit U1099 LTSI, University of Rennes 1, Rennes, France; Department of Neurosurgery, Pontchaillou University Hospital, Rennes, France. Electronic address: laurent.riffaud@chu-rennes.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Henaux</LastName>
+                    <ForeName>Pierre-Louis</ForeName>
+                    <Initials>PL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INSERM MediCIS, Unit U1099 LTSI, University of Rennes 1, Rennes, France; Department of Neurosurgery, Pontchaillou University Hospital, Rennes, France. Electronic address: pierrelouis.henaux@chu-rennes.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jannin</LastName>
+                    <ForeName>Pierre</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INSERM MediCIS, Unit U1099 LTSI, University of Rennes 1, Rennes, France. Electronic address: pierre.jannin@univ-rennes1.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Artif Intell Med</MedlineTA>
+            <NlmUniqueID>8915031</NlmUniqueID>
+            <ISSNLinking>0933-3657</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bag of words</Keyword>
+            <Keyword MajorTopicYN="N">Surgery</Keyword>
+            <Keyword MajorTopicYN="N">Surgical process modelling</Keyword>
+            <Keyword MajorTopicYN="N">Surgical technical skills</Keyword>
+            <Keyword MajorTopicYN="N">Temporal analysis</Keyword>
+            <Keyword MajorTopicYN="N">Vector space model</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28943333</ArticleId>
+            <ArticleId IdType="pii">S0933-3657(16)30596-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.artmed.2017.09.002</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,152 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110722</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Log-normal frailty models fitted as Poisson generalized linear mixed models.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>167-175</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30527-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.009</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVES" NlmCategory="OBJECTIVE">The equivalence of a survival model with a piecewise constant baseline hazard function and a Poisson regression model has been known since decades. As shown in recent studies, this equivalence carries over to clustered survival data: A frailty model with a log-normal frailty term can be interpreted and estimated as a generalized linear mixed model with a binary response, a Poisson likelihood, and a specific offset. Proceeding this way, statistical theory and software for generalized linear mixed models are readily available for fitting frailty models. This gain in flexibility comes at the small price of (1) having to fix the number of pieces for the baseline hazard in advance and (2) having to &quot;explode&quot; the data set by the number of pieces.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this paper we extend the simulations of former studies by using a more realistic baseline hazard (Gompertz) and by comparing the model under consideration with competing models. Furthermore, the SAS macro %PCFrailty is introduced to apply the Poisson generalized linear mixed approach to frailty models.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The simulations show good results for the shared frailty model. Our new %PCFrailty macro provides proper estimates, especially in case of 4 events per piece.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The suggested Poisson generalized linear mixed approach for log-normal frailty models based on the %PCFrailty macro provides several advantages in the analysis of clustered survival data with respect to more flexible modelling of fixed and random effects, exact (in the sense of non-approximate) maximum likelihood estimation, and standard errors and different types of confidence intervals for all variance parameters.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hirsch</LastName>
+                    <ForeName>Katharina</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Medical Epidemiology, Biostatistics, and Informatics, Faculty of Medicine, Martin-Luther-University Halle-Wittenberg, D-06097 Halle (Saale), Germany. Electronic address: katharina.hirsch@medizin.uni-halle.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wienke</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Medical Epidemiology, Biostatistics, and Informatics, Faculty of Medicine, Martin-Luther-University Halle-Wittenberg, D-06097 Halle (Saale), Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuss</LastName>
+                    <ForeName>Oliver</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Biometry and Epidemiology, Leibniz Institute for Diabetes Research, Heinrich Heine University Düsseldorf, D-40225 Duesseldorf, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016014" MajorTopicYN="Y">Linear Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016012" MajorTopicYN="Y">Poisson Distribution</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Frailty</Keyword>
+            <Keyword MajorTopicYN="N">GLMM</Keyword>
+            <Keyword MajorTopicYN="N">Piecewise constant baseline hazard</Keyword>
+            <Keyword MajorTopicYN="N">Poisson</Keyword>
+            <Keyword MajorTopicYN="N">SAS</Keyword>
+            <Keyword MajorTopicYN="N">Survival</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110722</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30527-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.009</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,89 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113587</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Graph Regularized Auto-Encoders for Image Representation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2839-2852</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2605010</ELocationID>
+            <Abstract>
+                <AbstractText>Image representation has been intensively explored in the domain of computer vision for its significant influence on the relative tasks such as image clustering and classification. It is valuable to learn a low-dimensional representation of an image which preserves its inherent information from the original image space. At the perspective of manifold learning, this is implemented with the local invariant idea to capture the intrinsic low-dimensional manifold embedded in the high-dimensional input space. Inspired by the recent successes of deep architectures, we propose a local invariant deep nonlinear mapping algorithm, called graph regularized auto-encoder (GAE). With the graph regularization, the proposed method preserves the local connectivity from the original image space to the representation space, while the stacked auto-encoders provide explicit encoding model for fast inference and powerful expressive capacity for complex modeling. Theoretical analysis shows that the graph regularizer penalizes the weighted Frobenius norm of the Jacobian matrix of the encoder mapping, where the weight matrix captures the local property in the input space. Furthermore, the underlying effects on the hidden representation space are revealed, providing insightful explanation to the advantage of the proposed method. Finally, the experimental results on both clustering and classification tasks demonstrate the effectiveness of our GAE as well as the correctness of the proposed theoretical analysis, and it also suggests that GAE is a superior solution to the current deep representation learning techniques comparing with variant auto-encoders and existing local invariant methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yiyi Liao</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yue Wang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yong Liu</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113587</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2605010</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

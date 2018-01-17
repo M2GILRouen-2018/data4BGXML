@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28103189</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dynamic Programming for Instance Annotation in Multi-Instance Multi-Label Learning.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2381-2394</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2017.2647944</ELocationID>
+            <Abstract>
+                <AbstractText>Labeling data for classification requires significant human effort. To reduce labeling cost, instead of labeling every instance, a group of instances (bag) is labeled by a single bag label. Computer algorithms are then used to infer the label for each instance in a bag, a process referred to as instance annotation. This task is challenging due to the ambiguity regarding the instance labels. We propose a discriminative probabilistic model for the instance annotation problem and introduce an expectation maximization framework for inference, based on the maximum likelihood approach. For many probabilistic approaches, brute-force computation of the instance label posterior probability given its bag label is exponential in the number of instances in the bag. Our contribution is a dynamic programming method for computing the posterior that is linear in the number of instances. We evaluate our method using both benchmark and real world data sets, in the domain of bird song, image annotation, and activity recognition. In many cases, the proposed framework outperforms, sometimes significantly, the current state-of-the-art MIML learning methods, both in instance label prediction and bag label prediction.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pham</LastName>
+                    <ForeName>Anh T</ForeName>
+                    <Initials>AT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raich</LastName>
+                    <ForeName>Raviv</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fern</LastName>
+                    <ForeName>Xiaoli Z</ForeName>
+                    <Initials>XZ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103189</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2017.2647944</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

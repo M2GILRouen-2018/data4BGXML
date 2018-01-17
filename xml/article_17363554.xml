@@ -1,0 +1,455 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26450611</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>06</Month>
+            <Day>07</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1745-6150</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Oct</Month>
+                        <Day>08</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biology direct</Title>
+                <ISOAbbreviation>Biol. Direct</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The human disease network in terms of dysfunctional regulatory mechanisms.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>60</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13062-015-0088-z</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Elucidation of human disease similarities has emerged as an active research area, which is highly relevant to etiology, disease classification, and drug repositioning. In pioneer studies, disease similarity was commonly estimated according to clinical manifestation. Subsequently, scientists started to investigate disease similarity based on gene-phenotype knowledge, which were inevitably biased to well-studied diseases. In recent years, estimating disease similarity according to transcriptomic behavior significantly enhances the probability of finding novel disease relationships, while the currently available studies usually mine expression data through differential expression analysis that has been considered to have little chance of unraveling dysfunctional regulatory relationships, the causal pathogenesis of diseases.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We developed a computational approach to measure human disease similarity based on expression data. Differential coexpression analysis, instead of differential expression analysis, was employed to calculate differential coexpression level of every gene for each disease, which was then summarized to the pathway level. Disease similarity was eventually calculated as the partial correlation coefficients of pathways' differential coexpression values between any two diseases. The significance of disease relationships were evaluated by permutation test.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Based on mRNA expression data and a differential coexpression analysis based method, we built a human disease network involving 1326 significant Disease-Disease links among 108 diseases. Compared with disease relationships captured by differential expression analysis based method, our disease links shared known disease genes and drugs more significantly. Some novel disease relationships were discovered, for example, Obesity and cancer, Obesity and Psoriasis, lung adenocarcinoma and S. pneumonia, which had been commonly regarded as unrelated to each other, but recently found to share similar molecular mechanisms. Additionally, it was found that both the type of disease and the type of affected tissue influenced the degree of disease similarity. A sub-network including Allergic asthma, Type 2 diabetes and Chronic kidney disease was extracted to demonstrate the exploration of their common pathogenesis.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The present study produces a global view of human diseasome for the first time from the viewpoint of regulation mechanisms, which therefore could provide insightful clues to etiology and pathogenesis, and help to perform drug repositioning and design novel therapeutic interventions.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biotechnology, East China University of Science and Technology, Shanghai, 200237, P.R. China. yangjing@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yangjing@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Systems Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, 200031, P.R. China. yangjing@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Su-Juan</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biotechnology, East China University of Science and Technology, Shanghai, 200237, P.R. China. wsjwuxiaoqi@163.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wsjwuxiaoqi@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dai</LastName>
+                    <ForeName>Wen-Tao</ForeName>
+                    <Initials>WT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wtdai@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Industrial Technology Institute, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wtdai@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Engineering Research Center of Pharmaceutical Translation, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wtdai@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Yi-Xue</ForeName>
+                    <Initials>YX</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biotechnology, East China University of Science and Technology, Shanghai, 200237, P.R. China. yxli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yxli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Industrial Technology Institute, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yxli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Systems Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, 200031, P.R. China. yxli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Engineering Research Center of Pharmaceutical Translation, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yxli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Yuan-Yuan</ForeName>
+                    <Initials>YY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yyli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Industrial Technology Institute, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yyli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Shanghai Engineering Research Center of Pharmaceutical Translation, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yyli@scbit.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Biol Direct</MedlineTA>
+            <NlmUniqueID>101258412</NlmUniqueID>
+            <ISSNLinking>1745-6150</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2005 Oct 25;102(43):15545-50</RefSource>
+                <PMID Version="1">16199517</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Oct 15;26(20):2637-8</RefSource>
+                <PMID Version="1">20801914</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gut. 2008 Dec;57(12):1639-41</RefSource>
+                <PMID Version="1">18667489</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Apr 1;464(7289):679</RefSource>
+                <PMID Version="1">20360719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2000 Feb 17;403(6771):781-5</RefSource>
+                <PMID Version="1">10693808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Med. 2009 Jan 22;1(1):13</RefSource>
+                <PMID Version="1">19348700</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013;8(11):e79729</RefSource>
+                <PMID Version="1">24278165</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 2010 Feb 15;181(4):328-36</RefSource>
+                <PMID Version="1">19926868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 May 22;104(21):8685-90</RefSource>
+                <PMID Version="1">17502601</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurol Sci. 2002 Nov 15;203-204:29-34</RefSource>
+                <PMID Version="1">12417353</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011;12:315</RefSource>
+                <PMID Version="1">21806838</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2006 May 15;176(10):6286-93</RefSource>
+                <PMID Version="1">16670340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neuropsychiatry Clin Neurosci. 1998 Fall;10(4):440-7</RefSource>
+                <PMID Version="1">9813790</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pediatr Gastroenterol Nutr. 2007 Feb;44(2):265-7</RefSource>
+                <PMID Version="1">17255842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(2):e4346</RefSource>
+                <PMID Version="1">19194489</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jan 1;25(1):98-104</RefSource>
+                <PMID Version="1">19010805</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Genet. 2010 Jul;26(7):326-33</RefSource>
+                <PMID Version="1">20570387</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pediatr Gastroenterol Nutr. 2009 Mar;48(3):386-8</RefSource>
+                <PMID Version="1">19274799</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2014;2014:324713</RefSource>
+                <PMID Version="1">24995284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2013;2013:bat018</RefSource>
+                <PMID Version="1">23584832</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Endocrinol. 2008 Nov;22(11):2383-92</RefSource>
+                <PMID Version="1">18599616</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Dermatol. 2007 Oct;157(4):649-55</RefSource>
+                <PMID Version="1">17627791</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2008 Nov;83(5):610-5</RefSource>
+                <PMID Version="1">18950739</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2012 Apr;45(2):363-71</RefSource>
+                <PMID Version="1">22166490</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2007 Mar;25(3):309-16</RefSource>
+                <PMID Version="1">17344885</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Growth Horm IGF Res. 2007 Oct;17(5):392-8</RefSource>
+                <PMID Version="1">17537658</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2005 Dec 8;353(23):2462-76</RefSource>
+                <PMID Version="1">16339095</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2008 Jan;36(Database issue):D901-6</RefSource>
+                <PMID Version="1">18048412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet Oncol. 2015 Jan;16(1):36-46</RefSource>
+                <PMID Version="1">25467404</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2004 Feb 12;20(3):307-15</RefSource>
+                <PMID Version="1">14960456</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann N Y Acad Sci. 2012 Oct;1271:37-43</RefSource>
+                <PMID Version="1">23050962</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 Jul 10;104(28):11694-9</RefSource>
+                <PMID Version="1">17609372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biologics. 2009;3:183-91</RefSource>
+                <PMID Version="1">19707407</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2014;5:4022</RefSource>
+                <PMID Version="1">24959948</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Hum Genet. 2006 May;14(5):535-42</RefSource>
+                <PMID Version="1">16493445</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2004 May;36(5):431-2</RefSource>
+                <PMID Version="1">15118671</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2009 Apr;5(4):e1000353</RefSource>
+                <PMID Version="1">19360091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2013;3:3202</RefSource>
+                <PMID Version="1">24232732</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(7):e22670</RefSource>
+                <PMID Version="1">21829475</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jul;42(Web Server issue):W137-46</RefSource>
+                <PMID Version="1">24895436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2013 Sep 26;155(1):70-80</RefSource>
+                <PMID Version="1">24074861</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2008;3(10):e3420</RefSource>
+                <PMID Version="1">18923704</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(8):e6536</RefSource>
+                <PMID Version="1">19657382</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FASEB J. 2013 Apr;27(4):1631-43</RefSource>
+                <PMID Version="1">23254341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011;12:266</RefSource>
+                <PMID Version="1">21714896</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2010 Feb;6(2):e1000662</RefSource>
+                <PMID Version="1">20140234</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2006 Dec;79(6):1130-4</RefSource>
+                <PMID Version="1">17186473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2009 Jan;37(Database issue):D793-6</RefSource>
+                <PMID Version="1">18842627</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Gastroenterol Hepatol. 2011 Jan;9(1):36-41.e1</RefSource>
+                <PMID Version="1">20888436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2013 Oct;45(10):1113-20</RefSource>
+                <PMID Version="1">24071849</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Cancer Drug Targets. 2006 Nov;6(7):603-12</RefSource>
+                <PMID Version="1">17100566</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastroenterology. 2005 Jun;128(7):1805-11</RefSource>
+                <PMID Version="1">15940615</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Expert Rev Anticancer Ther. 2008 Apr;8(4):605-15</RefSource>
+                <PMID Version="1">18402527</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Protoc Bioinformatics. 2014;47:1.24.1-19</RefSource>
+                <PMID Version="1">25199789</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastroenterology. 2012 Aug;143(2):390-399.e1</RefSource>
+                <PMID Version="1">22584081</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Pathol. 2013 Feb;182(2):485-504</RefSource>
+                <PMID Version="1">23332367</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2014 Aug 14;158(4):929-44</RefSource>
+                <PMID Version="1">25109877</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009;10 Suppl 2:S14</RefSource>
+                <PMID Version="1">19208189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mol Genet. 2014 Sep 1;23(17):4597-611</RefSource>
+                <PMID Version="1">24728038</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Physiol Renal Physiol. 2007 Aug;293(2):F494-500</RefSource>
+                <PMID Version="1">17494089</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 2007 Mar 15;67(6):2391-3</RefSource>
+                <PMID Version="1">17363554</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="N">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004194" MajorTopicYN="N">Disease</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020869" MajorTopicYN="N">Gene Expression Profiling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D053263" MajorTopicYN="Y">Gene Regulatory Networks</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="N">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4599653</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26450611</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13062-015-0088-z</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13062-015-0088-z</ArticleId>
+            <ArticleId IdType="pmc">PMC4599653</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

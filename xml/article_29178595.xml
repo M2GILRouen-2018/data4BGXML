@@ -1,0 +1,133 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29178595</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1526-9914</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of applied clinical medical physics</Title>
+                <ISOAbbreviation>J Appl Clin Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A simplified Monte Carlo algorithm considering large-angle scattering for fast and accurate calculation of proton dose.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/acm2.12221</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">The purpose of this study is to improve dose calculation accuracy of the simplified Monte Carlo (SMC) algorithm in the low-dose region. Because conventional SMC algorithms calculate particle scattering in consideration of multiple Coulomb scattering (MCS) only, they approximate lateral dose profiles by a single Gaussian function. However, it is well known that the low-dose region spreads away from the beam axis, and it has been pointed out that modeling of the low-dose region is important to calculated dose accurately.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A SMC algorithm, which is named modified SMC and considers not only MCS but also large angle scattering resembling hadron elastic scattering, was developed. In the modified SMC algorithm, the particle fluence varies in the longitudinal direction because the large-angle scattering decreases residual range of particles in accordance with their scattering angle and tracking of the particles with large scattering angle is terminated at a short distance downstream from the scattering. Therefore, modified integrated depth dose (m-IDD) tables, which are converted from measured IDD in consideration of the fluence loss, are used to calculate dose.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In the case of a 1-liter cubic target, the calculation accuracy was improved in comparison with that of a conventional algorithm, and the modified algorithm results agreed well with Geant4-based simulation results; namely, 98.8% of the points satisfied the 2% dose/2 mm distance-to-agreement (DTA) criterion. The calculation time of the modified SMC algorithm was 1972 s in the case of 4.4 × 108 particles and 16-threading operation of an Intel Xeon E5-2643 (3.3-GHz clock).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">An SMC algorithm that can reproduce a laterally widespread low-dose region was developed. According to the comparison with a Geant4-based simulation, it was concluded that the modified SMC algorithm is useful for calculating dose of proton radiotherapy.</AbstractText>
+                <CopyrightInformation>© 2017 The Authors. Journal of Applied Clinical Medical Physics published by Wiley Periodicals, Inc. on behalf of American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Takayanagi</LastName>
+                    <ForeName>Taisuke</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hitachi, Ltd., Research &amp; Development Group, Center for Technology Innovation - Energy, Hitachi, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hirayama</LastName>
+                    <ForeName>Shusuke</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hitachi, Ltd., Research &amp; Development Group, Center for Technology Innovation - Energy, Hitachi, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujitaka</LastName>
+                    <ForeName>Shinichiro</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hitachi, Ltd., Research &amp; Development Group, Center for Technology Innovation - Energy, Hitachi, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujimoto</LastName>
+                    <ForeName>Rintaro</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hitachi, Ltd., Research &amp; Development Group, Center for Technology Innovation - Energy, Hitachi, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Appl Clin Med Phys</MedlineTA>
+            <NlmUniqueID>101089176</NlmUniqueID>
+            <ISSNLinking>1526-9914</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">dose calculation</Keyword>
+            <Keyword MajorTopicYN="N">low dose halo</Keyword>
+            <Keyword MajorTopicYN="N">proton beam therapy</Keyword>
+            <Keyword MajorTopicYN="N">simplified Monte Carlo</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29178595</ArticleId>
+            <ArticleId IdType="doi">10.1002/acm2.12221</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

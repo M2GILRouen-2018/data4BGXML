@@ -1,0 +1,167 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29155963</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1096-0929</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Toxicological sciences : an official journal of the Society of Toxicology</Title>
+                <ISOAbbreviation>Toxicol. Sci.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Generating modelling data from repeat-dose toxicity reports.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/toxsci/kfx254</ELocationID>
+            <Abstract>
+                <AbstractText>Over the past decades, pharmaceutical companies have conducted a large number of high quality in vivo repeat-dose toxicity (RDT) studies for regulatory purposes. As part of the eTOX project, a high number of these studies have been compiled and integrated into a database. This valuable resource can be queried directly, but it can be further exploited to build predictive models. As the studies were originally conducted to investigate the properties of individual compounds, the experimental conditions across the studies are highly heterogeneous. Consequently, the original data required normalization/standardization, filtering, categorization and integration to make possible any data analysis (such as building predictive models). Additionally, the primary objectives of the RDT studies were to identify toxicological findings, most of which do not directly translate to in vivo endpoints. This article describes a method to extract datasets containing comparable toxicological properties for a series of compounds amenable for building predictive models. The proposed strategy starts with the normalization of the terms used within the original reports. Then, comparable datasets are extracted from the database by applying filters based on the experimental conditions. Finally, carefully selected profiles of toxicological findings are mapped to endpoints of interest, generating QSAR-like tables. In this work, we describe in detail the strategy and tools used for carrying out these transformations and illustrate its application in a data sample extracted from the eTOX database. The suitability of the resulting tables for developing hazard-predicting models was investigated by building proof-of-concept models for in vivo liver endpoints.</AbstractText>
+                <CopyrightInformation>© The Author 2017. Published by Oxford University Press on behalf of the Society of Toxicology.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>López-Massaguer</LastName>
+                    <ForeName>Oriol</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programme on Biomedical Informatics (GRIB), Institut Hospital del Mar d'Investigacions Mèdiques (IMIM), Dept. of Experimental and Health Sciences, Universitat Pompeu Fabra, C/. Dr. Aiguader 88, 08003 Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pinto-Gil</LastName>
+                    <ForeName>Kevin</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programme on Biomedical Informatics (GRIB), Institut Hospital del Mar d'Investigacions Mèdiques (IMIM), Dept. of Experimental and Health Sciences, Universitat Pompeu Fabra, C/. Dr. Aiguader 88, 08003 Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sanz</LastName>
+                    <ForeName>Ferran</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programme on Biomedical Informatics (GRIB), Institut Hospital del Mar d'Investigacions Mèdiques (IMIM), Dept. of Experimental and Health Sciences, Universitat Pompeu Fabra, C/. Dr. Aiguader 88, 08003 Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Amberg</LastName>
+                    <ForeName>Alexander</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sanofi, Preclinical Safety, 65926 Frankfurt am Main, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Anger</LastName>
+                    <ForeName>Lennart T</ForeName>
+                    <Initials>LT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sanofi, Preclinical Safety, 65926 Frankfurt am Main, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stolte</LastName>
+                    <ForeName>Manuela</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sanofi, Preclinical Safety, 65926 Frankfurt am Main, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ravagli</LastName>
+                    <ForeName>Carlo</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Translational Medicine, Novartis Institute for Biomedical Research, CH-4002 Basel, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marc</LastName>
+                    <ForeName>Philippe</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Translational Medicine, Novartis Institute for Biomedical Research, CH-4002 Basel, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pastor</LastName>
+                    <ForeName>Manuel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programme on Biomedical Informatics (GRIB), Institut Hospital del Mar d'Investigacions Mèdiques (IMIM), Dept. of Experimental and Health Sciences, Universitat Pompeu Fabra, C/. Dr. Aiguader 88, 08003 Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Toxicol Sci</MedlineTA>
+            <NlmUniqueID>9805461</NlmUniqueID>
+            <ISSNLinking>1096-0929</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">RDT</Keyword>
+            <Keyword MajorTopicYN="N">in silico modelling</Keyword>
+            <Keyword MajorTopicYN="N">in vivo data</Keyword>
+            <Keyword MajorTopicYN="N">ontologies</Keyword>
+            <Keyword MajorTopicYN="N">toxicology databases</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29155963</ArticleId>
+            <ArticleId IdType="pii">4636544</ArticleId>
+            <ArticleId IdType="doi">10.1093/toxsci/kfx254</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

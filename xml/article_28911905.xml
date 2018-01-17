@@ -1,0 +1,154 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28911905</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2860</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>82</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Artificial intelligence in medicine</Title>
+                <ISOAbbreviation>Artif Intell Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Gaussian process classification of superparamagnetic relaxometry data: Phantom study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>47-59</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0933-3657(17)30130-6</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.artmed.2017.07.001</ELocationID>
+            <Abstract>
+                <AbstractText Label="MOTIVATION" NlmCategory="BACKGROUND">Superparamagnetic relaxometry (SPMR) is an emerging technology that holds potential for use in early cancer detection. Measurement of the magnetic field after the excitation of cancer-bound superparamagnetic iron oxide nanoparticles (SPIONs) enables the reconstruction of SPIONs spatial distribution and hence tumor detection. However, image reconstruction often requires solving an ill-posed inverse problem that is computationally challenging and sensitive to measurement uncertainty. Moreover, an additional image processing module is required to automatically detect and localize the tumor in the reconstructed image.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Our goal is to examine the use of data-driven machine learning technique to detect a weak signal induced by a small cluster of SPIONs (surrogate tumor) in presence of background signal and measurement uncertainty. We aim to investigate the performance of both data-driven and image reconstruction models to characterize situations that one can replace the computationally-challenging reconstruction technique by the data-driven model.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We utilize Gaussian process (GP) classification model and a physics-based image reconstruction method, tailored to SPMR datasets that are obtained from (i) in silico simulations designed based on mouse cancer models and (ii) phantom experiments using MagSense system (Imagion Biosystems, Inc.). We investigate the performance of the GP classifier against the reconstruction technique, for different levels of measurement noise, different scenarios of SPIONs distribution, and different concentrations of SPIONs at the surrogate tumor.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In our in silico source detection analysis, we were able to achieve high sensitivity results using GP model that outperformed the image reconstruction model for various choices of SPIONs concentration at the surrogate tumor and measurement noise levels. Moreover, in our phantom studies we were able to detect the surrogate tumor phantoms with 5% and 7.3% of the total used SPIONs, surrounded by 9 low-concentration phantoms with accuracies of 87.5% and 96.4%, respectively.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The GP framework provides acceptable classification accuracies when dealing with in silico and phantom SPMR datasets and can outperform an image reconstruction method for binary classification of SPMR data.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sovizi</LastName>
+                    <ForeName>Javad</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States. Electronic address: jsovizi@mdanderson.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mathieu</LastName>
+                    <ForeName>Kelsey B</ForeName>
+                    <Initials>KB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thrower</LastName>
+                    <ForeName>Sara L</ForeName>
+                    <Initials>SL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stefan</LastName>
+                    <ForeName>Wolfgang</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hazle</LastName>
+                    <ForeName>John D</ForeName>
+                    <Initials>JD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fuentes</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Artif Intell Med</MedlineTA>
+            <NlmUniqueID>8915031</NlmUniqueID>
+            <ISSNLinking>0933-3657</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Gaussian process</Keyword>
+            <Keyword MajorTopicYN="N">Superparamagnetic relaxometry</Keyword>
+            <Keyword MajorTopicYN="N">Weak source detection</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28911905</ArticleId>
+            <ArticleId IdType="pii">S0933-3657(17)30130-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.artmed.2017.07.001</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

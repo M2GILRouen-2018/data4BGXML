@@ -1,0 +1,287 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28122610</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>27</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2049-2618</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>5</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>01</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Microbiome</Title>
+                <ISOAbbreviation>Microbiome</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fast and simple protein-alignment-guided assembly of orthologous gene families from microbiome sequencing reads.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>11</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s40168-017-0233-2</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND">Microbiome sequencing projects typically collect tens of millions of short reads per sample. Depending on the goals of the project, the short reads can either be subjected to direct sequence analysis or be assembled into longer contigs. The assembly of whole genomes from metagenomic sequencing reads is a very difficult problem. However, for some questions, only specific genes of interest need to be assembled. This is then a gene-centric assembly where the goal is to assemble reads into contigs for a family of orthologous genes.</AbstractText>
+                <AbstractText Label="METHODS">We present a new method for performing gene-centric assembly, called protein-alignment-guided assembly, and provide an implementation in our metagenome analysis tool MEGAN. Genes are assembled on the fly, based on the alignment of all reads against a protein reference database such as NCBI-nr. Specifically, the user selects a gene family based on a classification such as KEGG and all reads binned to that gene family are assembled.</AbstractText>
+                <AbstractText Label="RESULTS">Using published synthetic community metagenome sequencing reads and a set of 41 gene families, we show that the performance of this approach compares favorably with that of full-featured assemblers and that of a recently published HMM-based gene-centric assembler, both in terms of the number of reference genes detected and of the percentage of reference sequence covered.</AbstractText>
+                <AbstractText Label="CONCLUSIONS">Protein-alignment-guided assembly of orthologous gene families complements whole-metagenome assembly in a new and very useful way.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Huson</LastName>
+                    <ForeName>Daniel H</ForeName>
+                    <Initials>DH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Bioinformatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany. Daniel.Huson@uni-tuebingen.de.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Life Sciences Institute, National University of Singapore, 28 Medical Drive, Singapore, 117456, Singapore. Daniel.Huson@uni-tuebingen.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tappu</LastName>
+                    <ForeName>Rewati</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Bioinformatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bazinet</LastName>
+                    <ForeName>Adam L</ForeName>
+                    <Initials>AL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Bioinformatics and Computational Biology, University of Maryland, 8314 Paint Branch Drive, College Park, MD, 20742, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Biodefense Analysis and Countermeasures Center, 8300 Research Plaza, Fort Detrick, Frederick, MD, 21702, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Chao</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Human Longevity Inc., Singapore, Singapore.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cummings</LastName>
+                    <ForeName>Michael P</ForeName>
+                    <Initials>MP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Bioinformatics and Computational Biology, University of Maryland, 8314 Paint Branch Drive, College Park, MD, 20742, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nieselt</LastName>
+                    <ForeName>Kay</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Bioinformatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Williams</LastName>
+                    <ForeName>Rohan</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Life Sciences Institute, National University of Singapore, 28 Medical Drive, Singapore, 117456, Singapore.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Microbiome</MedlineTA>
+            <NlmUniqueID>101615147</NlmUniqueID>
+            <ISSNLinking>2049-2618</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2013 Jan 15;14(1):R2</RefSource>
+                <PMID Version="1">23320958</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gigascience. 2012 Dec 27;1(1):18</RefSource>
+                <PMID Version="1">23587118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2000 Jan 1;28(1):27-30</RefSource>
+                <PMID Version="1">10592173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Oct 17;8(10):e77033</RefSource>
+                <PMID Version="1">24146954</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Jan;43(Database issue):D213-21</RefSource>
+                <PMID Version="1">25428371</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biol Evol. 2013 Apr;30(4):772-80</RefSource>
+                <PMID Version="1">23329690</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jan;42(Database issue):D206-14</RefSource>
+                <PMID Version="1">24293654</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Environ Microbiol. 2013 Jun;15(6):1882-99</RefSource>
+                <PMID Version="1">23387867</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Sep 1;21 Suppl 2:ii79-85</RefSource>
+                <PMID Version="1">16204131</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Jun 1;28(11):1420-8</RefSource>
+                <PMID Version="1">22495754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2002 Jul 15;30(14):3059-66</RefSource>
+                <PMID Version="1">12136088</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2000 Mar 24;287(5461):2196-204</RefSource>
+                <PMID Version="1">10731133</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2010 Nov;17(11):1519-33</RefSource>
+                <PMID Version="1">20958248</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2016 Jun 21;12(6):e1004957</RefSource>
+                <PMID Version="1">27327495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2015 Jan;12(1):59-60</RefSource>
+                <PMID Version="1">25402007</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D284-9</RefSource>
+                <PMID Version="1">22096231</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2008 Jan;36(Database issue):D13-21</RefSource>
+                <PMID Version="1">18045790</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2014 Apr 1;111(13):4904-9</RefSource>
+                <PMID Version="1">24632729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbiome. 2015 Aug 05;3:32</RefSource>
+                <PMID Version="1">26246894</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000595" MajorTopicYN="N">Amino Acid Sequence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059014" MajorTopicYN="N">High-Throughput Nucleotide Sequencing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D054892" MajorTopicYN="N">Metagenome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056186" MajorTopicYN="N">Metagenomics</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D064307" MajorTopicYN="Y">Microbiota</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016415" MajorTopicYN="Y">Sequence Alignment</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017422" MajorTopicYN="N">Sequence Analysis, DNA</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Functional analysis</Keyword>
+            <Keyword MajorTopicYN="Y">Sequence assembly</Keyword>
+            <Keyword MajorTopicYN="Y">Software</Keyword>
+            <Keyword MajorTopicYN="Y">String graph</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28122610</ArticleId>
+            <ArticleId IdType="doi">10.1186/s40168-017-0233-2</ArticleId>
+            <ArticleId IdType="pii">10.1186/s40168-017-0233-2</ArticleId>
+            <ArticleId IdType="pmc">PMC5267372</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

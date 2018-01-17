@@ -1,0 +1,233 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28943743</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1049-3301</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>27</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>ACM transactions on modeling and computer simulation : a publication of the Association for Computing Machinery</Title>
+                <ISOAbbreviation>ACM Trans Model Comput Simul</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Multithreaded Stochastic PDES for Reactions and Diffusions in Neurons.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">7</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1145/2987373</ELocationID>
+            <Abstract>
+                <AbstractText>Cells exhibit stochastic behavior when the number of molecules is small. Hence a stochastic reaction-diffusion simulator capable of working at scale can provide a more accurate view of molecular dynamics within the cell. This paper describes a parallel discrete event simulator, Neuron Time Warp-Multi Thread (NTW-MT), developed for the simulation of reaction diffusion models of neurons. To the best of our knowledge, this is the first parallel discrete event simulator oriented towards stochastic simulation of chemical reactions in a neuron. The simulator was developed as part of the NEURON project. NTW-MT is optimistic and thread-based, which attempts to capitalize on multi-core architectures used in high performance machines. It makes use of a multi-level queue for the pending event set and a single roll-back message in place of individual anti-messages to disperse contention and decrease the overhead of processing rollbacks. Global Virtual Time is computed asynchronously both within and among processes to get rid of the overhead for synchronizing threads. Memory usage is managed in order to avoid locking and unlocking when allocating and de-allocating memory and to maximize cache locality. We verified our simulator on a calcium buffer model. We examined its performance on a calcium wave model, comparing it to the performance of a process based optimistic simulator and a threaded simulator which uses a single priority queue for each thread. Our multi-threaded simulator is shown to achieve superior performance to these simulators. Finally, we demonstrated the scalability of our simulator on a larger CICR model and a more detailed CICR model.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Zhongwei</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of High Performance Computing and College of Information System and Management, National University of Defense Technology, Changsha, Hunan, China; zwlin@nudt.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tropper</LastName>
+                    <ForeName>Carl</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, McGill University, Montreal, Quebec, Canada; carltropper@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mcdougal</LastName>
+                    <ForeName>Robert A</ForeName>
+                    <Initials>RA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurobiology, Yale University, New Haven, Connecticut, USA; robert.mcdougal@yale.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Patoary</LastName>
+                    <ForeName>Mohammand Nazrul Ishlam</ForeName>
+                    <Initials>MNI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, McGill University, Montreal, Quebec, Canada; mohammad.patoary@mail.mcgill.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lytton</LastName>
+                    <ForeName>William W</ForeName>
+                    <Initials>WW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>SUNY Downstate Medical Center, Brooklyn, NY, 11203, USA; blytton@downstate.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yao</LastName>
+                    <ForeName>Yiping</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Information System and Management, National University of Defense Technology, Changsha, Hunan, China; yipingyao@qq.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hines</LastName>
+                    <ForeName>Michael L</ForeName>
+                    <Initials>ML</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurobiology, Yale University, New Haven, Connecticut, USA; michael.hines@yale.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 MH086638</GrantID>
+                    <Acronym>MH</Acronym>
+                    <Agency>NIMH NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T15 LM007056</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>ACM Trans Model Comput Simul</MedlineTA>
+            <NlmUniqueID>101613245</NlmUniqueID>
+            <ISSNLinking>1049-3301</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 1998 Jul;21(1):13-26</RefSource>
+                <PMID Version="1">9697848</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Neurosci. 2012 Feb 08;13(3):157-68</RefSource>
+                <PMID Version="1">22314443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Theor Biol. 1994 Feb 21;166(4):461-73</RefSource>
+                <PMID Version="1">8176949</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci Methods. 2013 Nov 15;220(2):131-40</RefSource>
+                <PMID Version="1">23743449</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1990 Nov 16;250(4983):977-9</RefSource>
+                <PMID Version="1">2237441</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Physiol Rev. 2007 Apr;87(2):593-658</RefSource>
+                <PMID Version="1">17429043</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2010 Mar 12;6(3):e1000705</RefSource>
+                <PMID Version="1">20300644</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2012 May 10;6:36</RefSource>
+                <PMID Version="1">22574658</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Chem. 2011 Jun;35(3):193-8</RefSource>
+                <PMID Version="1">21704266</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Syst Biol (Stevenage). 2004 Dec;1(2):230-6</RefSource>
+                <PMID Version="1">17051695</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Jun 15;21(12):2923-4</RefSource>
+                <PMID Version="1">15817692</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comp Neurol. 1995 Nov 6;362(1):17-45</RefSource>
+                <PMID Version="1">8576427</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurosci. 2007 Aug 29;27(35):9247-51</RefSource>
+                <PMID Version="1">17728438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1993 Oct 29;262(5134):740-4</RefSource>
+                <PMID Version="1">8235594</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Biol. 2003 May 27;13(11):R425</RefSource>
+                <PMID Version="1">12781146</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1992 Oct 15;89(20):9895-9</RefSource>
+                <PMID Version="1">1329108</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 1991 Jun;59(6):1290-307</RefSource>
+                <PMID Version="1">1873466</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2010 Jun;8(2):63-82</RefSource>
+                <PMID Version="1">20361275</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neuroinform. 2013 Nov 15;7:28</RefSource>
+                <PMID Version="1">24298253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neural Comput. 2015 Apr;27(4):898-924</RefSource>
+                <PMID Version="1">25734493</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>07</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28943743</ArticleId>
+            <ArticleId IdType="doi">10.1145/2987373</ArticleId>
+            <ArticleId IdType="pmc">PMC5604336</ArticleId>
+            <ArticleId IdType="mid">NIHMS844060</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,153 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28117689</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Synthetic Aperture Radar Target Recognition with Feature Fusion Based on a Stacked Autoencoder.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E192</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17010192</ELocationID>
+            <Abstract>
+                <AbstractText>Feature extraction is a crucial step for any automatic target recognition process, especially in the interpretation of synthetic aperture radar (SAR) imagery. In order to obtain distinctive features, this paper proposes a feature fusion algorithm for SAR target recognition based on a stacked autoencoder (SAE). The detailed procedure presented in this paper can be summarized as follows: firstly, 23 baseline features and Three-Patch Local Binary Pattern (TPLBP) features are extracted. These features can describe the global and local aspects of the image with less redundancy and more complementarity, providing richer information for feature fusion. Secondly, an effective feature fusion network is designed. Baseline and TPLBP features are cascaded and fed into a SAE. Then, with an unsupervised learning algorithm, the SAE is pre-trained by greedy layer-wise training method. Capable of feature expression, SAE makes the fused features more distinguishable. Finally, the model is fine-tuned by a softmax classifier and applied to the classification of targets. 10-class SAR targets based on Moving and Stationary Target Acquisition and Recognition (MSTAR) dataset got a classification accuracy up to 95.43%, which verifies the effectiveness of the presented algorithm.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kang</LastName>
+                    <ForeName>Miao</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic Science and Engineering, National University of Defense Technology, Sanyi Avenue, Changsha 410073, China. kangmiao15@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ji</LastName>
+                    <ForeName>Kefeng</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic Science and Engineering, National University of Defense Technology, Sanyi Avenue, Changsha 410073, China. jikefeng@nudt.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leng</LastName>
+                    <ForeName>Xiangguang</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic Science and Engineering, National University of Defense Technology, Sanyi Avenue, Changsha 410073, China. luckight@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xing</LastName>
+                    <ForeName>Xiangwei</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Institute of Remote Sensing Information, Beijing 100192, China. xingxiangwei@nudt.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zou</LastName>
+                    <ForeName>Huanxin</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic Science and Engineering, National University of Defense Technology, Sanyi Avenue, Changsha 410073, China. hxzou2008@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2006 Jul 28;313(5786):504-7</RefSource>
+                <PMID Version="1">16873662</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2016 Jul 19;16(7):null</RefSource>
+                <PMID Version="1">27447635</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">MSTAR</Keyword>
+            <Keyword MajorTopicYN="N">SAR target recognition</Keyword>
+            <Keyword MajorTopicYN="N">feature fusion</Keyword>
+            <Keyword MajorTopicYN="N">stacked autoencoder</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28117689</ArticleId>
+            <ArticleId IdType="pii">s17010192</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17010192</ArticleId>
+            <ArticleId IdType="pmc">PMC5298765</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

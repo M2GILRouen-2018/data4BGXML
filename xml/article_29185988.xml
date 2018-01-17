@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29185988</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>27</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Saliency Detection Based on Multiscale Extrema of Local Perceptual Color Differences.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>703-717</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2767288</ELocationID>
+            <Abstract>
+                <AbstractText>Visual saliency detection is a useful technique for predicting, which regions humans will tend to gaze upon in any given image. Over the last several decades, numerous algorithms for automatic saliency detection have been proposed and shown to work well on both synthetic and natural images. However, two key challenges remain largely unaddressed: 1) How to improve the relatively low predictive performance for images that contain large objects and 2) how to perform saliency detection on a wider variety of images from various categories without training. In this paper, we propose a new saliency detection algorithm that addresses these challenges. Our model first detects potentially salient regions based on multiscale extrema of local perceived color differences measured in the CIELAB color space. These extrema are highly effective for estimating the locations, sizes, and saliency levels of candidate regions. The local saliency candidates are further refined via two global extrema-based features, and then a Gaussian mixture is used to generate the final saliency map. Experimental validation on the extensive CAT2000 data set demonstrates that our proposed method either outperforms or is highly competitive with prior approaches, and can perform well across different categories and object sizes, while remaining training-free.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ishikura</LastName>
+                    <ForeName>Keigo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kurita</LastName>
+                    <ForeName>Naoto</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chandler</LastName>
+                    <ForeName>Damon M</ForeName>
+                    <Initials>DM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ohashi</LastName>
+                    <ForeName>Gosuke</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29185988</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2767288</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

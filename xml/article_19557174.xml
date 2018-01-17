@@ -1,0 +1,324 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28122525</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2407</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC cancer</Title>
+                <ISOAbbreviation>BMC Cancer</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An approach to forecast human cancer by profiling microRNA expressions from NGS data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>77</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12885-016-3042-2</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">microRNAs are single-stranded non-coding RNA sequences of 18 - 24 nucleotides in length. They play an important role in post-transcriptional regulation of gene expression. Evidences of microRNA acting as promoter/suppressor of several diseases including cancer are being unveiled. Recent studies have shown that microRNAs are differentially expressed in disease states when compared with that of normal states. Profiling of microRNA is a good measure to estimate the differences in expression levels, which can be further utilized to understand the progression of any associated disease.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Machine learning techniques, when applied to microRNA expression values obtained from NGS data, could be utilized for the development of effective disease prediction system. This paper discusses an approach for microRNA expression profiling, its normalization and a Support Vector based machine learning technique to develop a Cancer Prediction System. Presently, the system has been trained with data samples of hepatocellular carcinoma, carcinomas of the bladder and lung cancer. microRNAs related to specific types of cancer were used to build the classifier.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">When the system is trained and tested with 10 fold cross validation, the prediction accuracy obtained is 97.56% for lung cancer, 97.82% for hepatocellular carcinoma and 95.0% for carcinomas of the bladder. The system is further validated with separate test sets, which show accuracies higher than 90%. A ranking based on differential expression marks the relative significance of each microRNA in the prediction process.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Results from experiments proved that microRNA expression profiling is an effective mechanism for disease identification, provided sufficiently large database is available.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Salim</LastName>
+                    <ForeName>A</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2953-0972</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, College of Engineering Trivandrum, Sreekaryam, Thiruvananthapuram, India. salim.mangad@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Amjesh</LastName>
+                    <ForeName>R</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computational Biology and BioInformatics, University of Kerala, Karyavattom, Thiruvananthapuram, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chandra</LastName>
+                    <ForeName>S S Vinod</ForeName>
+                    <Initials>SS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computational Biology and BioInformatics, University of Kerala, Karyavattom, Thiruvananthapuram, India.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Center, University of Kerala, Thiruvananthapuram, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Cancer</MedlineTA>
+            <NlmUniqueID>100967800</NlmUniqueID>
+            <ISSNLinking>1471-2407</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Chem. 2013 Jun;44:15-21</RefSource>
+                <PMID Version="1">23499870</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2010 Sep;38(17):5919-28</RefSource>
+                <PMID Version="1">20466808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Cancer. 2013 Oct 10;13:469</RefSource>
+                <PMID Version="1">24112539</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Cell. 2006 Mar;9(3):189-98</RefSource>
+                <PMID Version="1">16530703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Aug 1;25(15):1966-7</RefSource>
+                <PMID Version="1">19497933</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomics. 2013 Nov-Dec;102(5-6):500-6</RefSource>
+                <PMID Version="1">23912058</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Jan 18;11 Suppl 1:S2</RefSource>
+                <PMID Version="1">20122191</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Liver Int. 2012 May;32(5):752-60</RefSource>
+                <PMID Version="1">22276989</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lab Invest. 2014 Mar;94(3):350-8</RefSource>
+                <PMID Version="1">24445778</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods. 2015 Jul 15;83:3-17</RefSource>
+                <PMID Version="1">25980368</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Jun 23;11:341</RefSource>
+                <PMID Version="1">20573248</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D109-11</RefSource>
+                <PMID Version="1">14681370</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jan;42(Database issue):D68-73</RefSource>
+                <PMID Version="1">24275495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2004 Sep 16;431(7006):350-5</RefSource>
+                <PMID Version="1">15372042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Cancer Res. 2010 Jan 15;16(2):430-41</RefSource>
+                <PMID Version="1">20068076</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jul;42(Web Server issue):W494-500</RefSource>
+                <PMID Version="1">24810850</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Aug 1;30(15):2114-20</RefSource>
+                <PMID Version="1">24695404</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Med Rep. 2015 May;11(5):3647-51</RefSource>
+                <PMID Version="1">25544258</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Aug 15;25(16):2078-9</RefSource>
+                <PMID Version="1">19505943</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2002 Nov 26;99(24):15524-9</RefSource>
+                <PMID Version="1">12434020</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomics. 2011 Aug;98(2):152-3</RefSource>
+                <PMID Version="1">21651976</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Cancer. 2014 Jun 1;134(11):2646-55</RefSource>
+                <PMID Version="1">24615168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Res Notes. 2012 Jul 02;5:337</RefSource>
+                <PMID Version="1">22748135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Jan 20;11:38</RefSource>
+                <PMID Version="1">20089148</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2012;13 Suppl 7:S18</RefSource>
+                <PMID Version="1">23281739</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2012 Apr 18;13(5):358-69</RefSource>
+                <PMID Version="1">22510765</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Biol. 2003 May 13;13(10):807-18</RefSource>
+                <PMID Version="1">12747828</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Mar 1;29(5):638-44</RefSource>
+                <PMID Version="1">23325619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2009;10(3):R25</RefSource>
+                <PMID Version="1">19261174</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2013 Jun 07;14:184</RefSource>
+                <PMID Version="1">23758764</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2006 Nov;6(11):857-66</RefSource>
+                <PMID Version="1">17060945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2010 Jan 20;11(1):R6</RefSource>
+                <PMID Version="1">20089154</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2015 Jun 08;5:10775</RefSource>
+                <PMID Version="1">26053859</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Cancer. 2014 Sep 24;14 :703</RefSource>
+                <PMID Version="1">25249344</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Mol Med. 2008 Dec;12(6A):2189-204</RefSource>
+                <PMID Version="1">19120703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jul 15;25(14):1754-60</RefSource>
+                <PMID Version="1">19451168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2009 Jan 23;136(2):215-33</RefSource>
+                <PMID Version="1">19167326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Mar 1;24(5):713-4</RefSource>
+                <PMID Version="1">18227114</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomark Res. 2014 Oct 22;2:19</RefSource>
+                <PMID Version="1">25356314</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Cancer. 2013 Oct 29;109(9):2404-11</RefSource>
+                <PMID Version="1">24113142</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Jun 18;8(6):e66165</RefSource>
+                <PMID Version="1">23824282</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Ther Med. 2011 Sep;2(5):963-967</RefSource>
+                <PMID Version="1">22977606</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomics. 2011 Jun;97(6):333-40</RefSource>
+                <PMID Version="1">21377523</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Carcinogenesis. 2015 May;36(5):528-37</RefSource>
+                <PMID Version="1">25804644</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014 Jun 12;15:182</RefSource>
+                <PMID Version="1">24925680</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 Oct 15;31(20):3330-8</RefSource>
+                <PMID Version="1">26092859</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Med (Lausanne). 2015 Jul 22;2:47</RefSource>
+                <PMID Version="1">26258125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009 Jun 25;4(6):e6045</RefSource>
+                <PMID Version="1">19557174</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Expression profiling</Keyword>
+            <Keyword MajorTopicYN="N">MicroRNA</Keyword>
+            <Keyword MajorTopicYN="N">SVM classifiers</Keyword>
+            <Keyword MajorTopicYN="N">Sequence mapping</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28122525</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12885-016-3042-2</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12885-016-3042-2</ArticleId>
+            <ArticleId IdType="pmc">PMC5267436</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

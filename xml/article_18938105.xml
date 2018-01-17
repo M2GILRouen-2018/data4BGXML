@@ -1,0 +1,265 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">24578357</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>08</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>10</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-974X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <MedlineDate>2014 Sep-Oct</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the American Medical Informatics Association : JAMIA</Title>
+                <ISOAbbreviation>J Am Med Inform Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Learning regular expressions for clinical text classification.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>850-7</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1136/amiajnl-2013-002411</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Natural language processing (NLP) applications typically use regular expressions that have been developed manually by human experts. Our goal is to automate both the creation and utilization of regular expressions in text classification.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We designed a novel regular expression discovery (RED) algorithm and implemented two text classifiers based on RED. The RED+ALIGN classifier combines RED with an alignment algorithm, and RED+SVM combines RED with a support vector machine (SVM) classifier. Two clinical datasets were used for testing and evaluation: the SMOKE dataset, containing 1091 text snippets describing smoking status; and the PAIN dataset, containing 702 snippets describing pain status. We performed 10-fold cross-validation to calculate accuracy, precision, recall, and F-measure metrics. In the evaluation, an SVM classifier was trained as the control.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The two RED classifiers achieved 80.9-83.0% in overall accuracy on the two datasets, which is 1.3-3% higher than SVM's accuracy (p&lt;0.001). Similarly, small but consistent improvements have been observed in precision, recall, and F-measure when RED classifiers are compared with SVM alone. More significantly, RED+ALIGN correctly classified many instances that were misclassified by the SVM classifier (8.1-10.3% of the total instances and 43.8-53.0% of SVM's misclassifications).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Machine-generated regular expressions can be effectively used in clinical text classification. The regular expression-based classifier can be combined with other classifiers, like SVM, to improve classification performance.</AbstractText>
+                <CopyrightInformation>Published by the BMJ Publishing Group Limited. For permission to use (where not already granted under a licence) please go to http://group.bmj.com/group/rights-licensing/permissions.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bui</LastName>
+                    <ForeName>Duy Duc An</ForeName>
+                    <Initials>DD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics, University of Utah, Salt Lake City, Utah, USA VA Salt Lake City Health Care System, Salt Lake City, Utah, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zeng-Treitler</LastName>
+                    <ForeName>Qing</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics, University of Utah, Salt Lake City, Utah, USA VA Salt Lake City Health Care System, Salt Lake City, Utah, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>HIR 08-374</GrantID>
+                    <Agency>Canadian Institutes of Health Research</Agency>
+                    <Country>Canada</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>02</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Am Med Inform Assoc</MedlineTA>
+            <NlmUniqueID>9430800</NlmUniqueID>
+            <ISSNLinking>1067-5027</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Springerplus. 2013 Jul 10;2:309</RefSource>
+                <PMID Version="1">23961389</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2006;6:30</RefSource>
+                <PMID Version="1">16872495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2008;:450-4</RefSource>
+                <PMID Version="1">18998969</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2008 Jan-Feb;15(1):14-24</RefSource>
+                <PMID Version="1">17947624</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2011 Jul-Aug;18(4):387-91</RefSource>
+                <PMID Version="1">21672908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 Sep-Oct;19(5):809-16</RefSource>
+                <PMID Version="1">22707743</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2008;:141-5</RefSource>
+                <PMID Version="1">18999067</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 Sep-Oct;19(5):833-9</RefSource>
+                <PMID Version="1">22542812</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Inform Insights. 2012;5(Suppl. 1):43-50</RefSource>
+                <PMID Version="1">22879759</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Qual Saf Health Care. 2010 Dec;19(6):e55</RefSource>
+                <PMID Version="1">20724392</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 May-Jun;19(3):368-74</RefSource>
+                <PMID Version="1">21984605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 Sep-Oct;19(5):913-6</RefSource>
+                <PMID Version="1">22291166</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Inf Med. 2006;45(3):246-52</RefSource>
+                <PMID Version="1">16685332</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Healthc Inform Res. 2011 Dec;17(4):224-31</RefSource>
+                <PMID Version="1">22259724</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Jan-Feb;21(1):27-30</RefSource>
+                <PMID Version="1">23921192</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2011;2011:934-43</RefSource>
+                <PMID Version="1">22195152</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2008;:596-600</RefSource>
+                <PMID Version="1">18998887</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2009;2009:411-5</RefSource>
+                <PMID Version="1">20351890</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Inform Decis Mak. 2007;7:32</RefSource>
+                <PMID Version="1">17961241</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2007 May-Jun;14(3):304-11</RefSource>
+                <PMID Version="1">17329723</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Inform Insights. 2012;5(Suppl. 1):77-85</RefSource>
+                <PMID Version="1">22879763</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2001 Oct;34(5):301-10</RefSource>
+                <PMID Version="1">12123149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Inform Insights. 2012;5(Suppl. 1):125-8</RefSource>
+                <PMID Version="1">22879768</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Inform Insights. 2013 Jul 22;6:35-45</RefSource>
+                <PMID Version="1">23926434</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2013 Dec;46(6):998-1005</RefSource>
+                <PMID Version="1">24025513</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Med Inform. 2009 Apr;78 Suppl 1:S34-42</RefSource>
+                <PMID Version="1">18938105</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001185" MajorTopicYN="N">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001330" MajorTopicYN="N">Automatic Data Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016347" MajorTopicYN="N">Medical Records Systems, Computerized</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009323" MajorTopicYN="Y">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010146" MajorTopicYN="N">Pain</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="N">classification</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012907" MajorTopicYN="N">Smoking</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="N">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4147608</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Machine Learning</Keyword>
+            <Keyword MajorTopicYN="N">Natural Language Processing</Keyword>
+            <Keyword MajorTopicYN="N">Regular Expressions</Keyword>
+            <Keyword MajorTopicYN="N">Support Vector Machines</Keyword>
+            <Keyword MajorTopicYN="N">Text Classification</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>3</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>3</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24578357</ArticleId>
+            <ArticleId IdType="pii">amiajnl-2013-002411</ArticleId>
+            <ArticleId IdType="doi">10.1136/amiajnl-2013-002411</ArticleId>
+            <ArticleId IdType="pmc">PMC4147608</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

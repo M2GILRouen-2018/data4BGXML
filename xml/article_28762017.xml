@@ -1,0 +1,171 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28762017</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>01</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-0444</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical &amp; biological engineering &amp; computing</Title>
+                <ISOAbbreviation>Med Biol Eng Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A GPU-based symmetric non-rigid image registration method in human lung.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s11517-017-1690-2</ELocationID>
+            <Abstract>
+                <AbstractText>Quantitative computed tomography (QCT) of the lungs plays an increasing role in identifying sub-phenotypes of pathologies previously lumped into broad categories such as chronic obstructive pulmonary disease and asthma. Methods for image matching and linking multiple lung volumes have proven useful in linking structure to function and in the identification of regional longitudinal changes. Here, we seek to improve the accuracy of image matching via the use of a symmetric multi-level non-rigid registration employing an inverse consistent (IC) transformation whereby images are registered both in the forward and reverse directions. To develop the symmetric method, two similarity measures, the sum of squared intensity difference (SSD) and the sum of squared tissue volume difference (SSTVD), were used. The method is based on a novel generic mathematical framework to include forward and backward transformations, simultaneously, eliminating the need to compute the inverse transformation. Two implementations were used to assess the proposed method: a two-dimensional (2-D) implementation using synthetic examples with SSD, and a multi-core CPU and graphics processing unit (GPU) implementation with SSTVD for three-dimensional (3-D) human lung datasets (six normal adults studied at total lung capacity (TLC) and functional residual capacity (FRC)). Success was evaluated in terms of the IC transformation consistency serving to link TLC to FRC. 2-D registration on synthetic images, using both symmetric and non-symmetric SSD methods, and comparison of displacement fields showed that the symmetric method gave a symmetrical grid shape and reduced IC errors, with the mean values of IC errors decreased by 37%. Results for both symmetric and non-symmetric transformations of human datasets showed that the symmetric method gave better results for IC errors in all cases, with mean values of IC errors for the symmetric method lower than the non-symmetric methods using both SSD and SSTVD. The GPU version demonstrated an average of 43 times speedup and ~5.2 times speedup over the single-threaded and 12-threaded CPU versions, respectively. Run times with the GPU were as fast as 2 min. The symmetric method improved the inverse consistency, aiding the use of image registration in the QCT-based evaluation of the lung.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Haghighi</LastName>
+                    <ForeName>Babak</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical and Industrial Engineering, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>IIHR-Hydroscience &amp; Engineering, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>D Ellingwood</LastName>
+                    <ForeName>Nathan</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IIHR-Hydroscience &amp; Engineering, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yin</LastName>
+                    <ForeName>Youbing</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical and Industrial Engineering, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hoffman</LastName>
+                    <ForeName>Eric A</ForeName>
+                    <Initials>EA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Internal Medicine, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, The University of Iowa, Iowa City, IO, 52242, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Ching-Long</ForeName>
+                    <Initials>CL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical and Industrial Engineering, The University of Iowa, Iowa City, IO, 52242, USA. ching-long-lin@uiowa.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>IIHR-Hydroscience &amp; Engineering, The University of Iowa, Iowa City, IO, 52242, USA. ching-long-lin@uiowa.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 HL094315</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>S10 RR022421</GrantID>
+                    <Acronym>RR</Acronym>
+                    <Agency>NCRR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U01 HL114494</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Biol Eng Comput</MedlineTA>
+            <NlmUniqueID>7704869</NlmUniqueID>
+            <ISSNLinking>0140-0118</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">GPU</Keyword>
+            <Keyword MajorTopicYN="N">Inverse consistency error</Keyword>
+            <Keyword MajorTopicYN="N">Lung</Keyword>
+            <Keyword MajorTopicYN="N">Non-rigid registration</Keyword>
+            <Keyword MajorTopicYN="N">Symmetric similarity measure</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28762017</ArticleId>
+            <ArticleId IdType="doi">10.1007/s11517-017-1690-2</ArticleId>
+            <ArticleId IdType="pii">10.1007/s11517-017-1690-2</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

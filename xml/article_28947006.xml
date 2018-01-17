@@ -1,0 +1,174 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28947006</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>151</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel overlapped nuclei splitting algorithm for histopathological images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>57-70</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(17)30227-4</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.08.010</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Nuclei segmentation is a common process for quantitative analysis of histopathological images. However, this process generally results in overlapping of nuclei due to the nature of images, the sample preparation and staining, and image acquisition processes as well as insufficiency of 2D histopathological images to represent 3D characteristics of tissues. We present a novel algorithm to split overlapped nuclei.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The histopathological images are initially segmented by K-Means segmentation algorithm. Then, nuclei cluster are converted to binary image. The overlapping is detected by applying threshold area value to nuclei in the binary image. The splitting algorithm is applied to the overlapped nuclei. In first stage of splitting, circles are drawn on overlapped nuclei. The radius of the circles is calculated by using circle area formula, and each pixel's coordinates of overlapped nuclei are selected as center coordinates for each circle. The pixels in the circle that contains maximum number of intersected pixels in both the circle and the overlapped nuclei are removed from the overlapped nuclei, and the filled circle labeled as a nucleus.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The algorithm has been tested on histopathological images of healthy and damaged kidney tissues and compared with the results provided by an expert and three related studies. The results demonstrated that the proposed splitting algorithm can segment the overlapping nuclei with accuracy of 84%.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The study presents a novel algorithm splitting the overlapped nuclei in histopathological images and provides more accurate cell counting in histopathological analysis. Furthermore, the proposed splitting algorithm has the potential to be used in different fields to split any overlapped circular patterns.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Serin</LastName>
+                    <ForeName>Faruk</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Engineering, Faculty of Engineering, Munzur University, Tunceli, Turkey. Electronic address: bmfarukserin@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Erturkler</LastName>
+                    <ForeName>Metin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Engineering, Faculty of Engineering, Inonu University, Malatya, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gul</LastName>
+                    <ForeName>Mehmet</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Embryology and Histology, Faculty of Medicine, Inonu University, Malatya, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002467" MajorTopicYN="Y">Cell Nucleus</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006653" MajorTopicYN="N">Histology</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="Y">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007668" MajorTopicYN="N">Kidney</DescriptorName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010336" MajorTopicYN="N">Pathology</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017207" MajorTopicYN="N">Rats, Sprague-Dawley</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013194" MajorTopicYN="N">Staining and Labeling</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CAD</Keyword>
+            <Keyword MajorTopicYN="N">Cell nuclei counting</Keyword>
+            <Keyword MajorTopicYN="N">Histopathological analysis</Keyword>
+            <Keyword MajorTopicYN="N">Nuclei detection</Keyword>
+            <Keyword MajorTopicYN="N">Nuclei splitting</Keyword>
+            <Keyword MajorTopicYN="N">Overlapped nuclei</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28947006</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(17)30227-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.08.010</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

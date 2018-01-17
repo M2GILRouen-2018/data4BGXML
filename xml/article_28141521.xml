@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28141521</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>7</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Robust ImageGraph: Rank-Level Feature Fusion for Image Search.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3128-3141</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2017.2660244</ELocationID>
+            <Abstract>
+                <AbstractText>Recently, feature fusion has demonstrated its effectiveness in image search. However, bad features and inappropriate parameters usually bring about false positive images, i.e., outliers, leading to inferior performance. Therefore, a major challenge of fusion scheme is how to be robust to outliers. Towards this goal, this paper proposes a rank-level framework for robust feature fusion. First, we define Rank Distance to measure the relevance of images at rank level. Based on it, Bayes similarity is introduced to evaluate the retrieval quality of individual features, through which true matches tend to obtain higher weight than outliers. Then, we construct the directed ImageGraph to encode the relationship of images. Each image is connected to its K nearest neighbors with an edge, and the edge is weighted by Bayes similarity. Multiple rank lists resulted from different methods are merged via ImageGraph. Furthermore, on the fused ImageGraph, local ranking is performed to re-order the initial rank lists. It aims at local optimization, and thus is more robust to global outliers. Extensive experiments on four benchmark data sets validate the effectiveness of our method. Besides, the proposed method outperforms two popular fusion schemes, and the results are competitive to the state-of-the-art.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Ziqiong</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Shengjin</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zheng</LastName>
+                    <ForeName>Liang</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tian</LastName>
+                    <ForeName>Qi</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28141521</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2017.2660244</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

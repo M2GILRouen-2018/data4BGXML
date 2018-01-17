@@ -1,0 +1,178 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110716</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automated diagnosis of macular edema and central serous retinopathy through robust reconstruction of 3D retinal surfaces.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-10</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30435-7</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.004</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVES" NlmCategory="OBJECTIVE">Macular diseases tend to damage macula within human retina due to which the central vision of a person is affected. Macular edema (ME) and central serous retinopathy (CSR) are two of the most common macular diseases. Many researchers worked on automated detection of ME from optical coherence tomography (OCT) and fundus images, whereas few researchers have worked on diagnosing central serous retinopathy. But this paper proposes a fully automated method for the classification of ME and CSR through robust reconstruction of 3D OCT retinal surfaces.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed system uses structure tensors to extract retinal layers from OCT images. The 3D retinal surface is then reconstructed by extracting the brightness scan (B-scan) thickness profile from each coherent tensor. The proposed system extracts 8 distinct features (3 based on retinal thickness profile of right side, 3 based on thickness profile of left side and 2 based on top surface and cyst spaces within retinal layers) from 30 labeled volumes (10 healthy, 10 CSR and 10 ME) which are used to train the supervised support vector machines (SVM) classifier.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In this research we have considered 90 OCT volumes (30 Healthy, 30 CSR and 30 ME) of 73 patients to test the proposed system where our proposed system correctly classified 89 out of 90 cases and has promising receiver operator characteristics (ROC) ratings with accuracy, sensitivity and specificity of 98.88%, 100%, and 96.66% respectively.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The proposed system is quite fast and robust in detecting all the three types of retinal pathologies from volumetric OCT scans. The proposed system is fully automated and provides an early and on fly diagnosis of ME and CSR syndromes. 3D macular thickness surfaces can further be used as decision support parameter in clinical studies to check the volume of cyst.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Syed</LastName>
+                    <ForeName>Adeel M</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Software Engineering, Bahria University, Islamabad, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hassan</LastName>
+                    <ForeName>Taimur</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering, Bahria University, Islamabad, Pakistan. Electronic address: engr.taimoor@bui.edu.pk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Akram</LastName>
+                    <ForeName>M Usman</ForeName>
+                    <Initials>MU</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Engineering, National University of Sciences and Technology, Islamabad, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Naz</LastName>
+                    <ForeName>Samra</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Engineering, National University of Sciences and Technology, Islamabad, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Khalid</LastName>
+                    <ForeName>Shehzad</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Engineering, Bahria University, Islamabad, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="Y">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056833" MajorTopicYN="N">Central Serous Chorioretinopathy</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="N">Imaging, Three-Dimensional</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008269" MajorTopicYN="N">Macular Edema</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012160" MajorTopicYN="N">Retina</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060388" MajorTopicYN="N">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D041623" MajorTopicYN="N">Tomography, Optical Coherence</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Central serous retinopathy (CSR)</Keyword>
+            <Keyword MajorTopicYN="N">Macular edema (ME)</Keyword>
+            <Keyword MajorTopicYN="N">Medical image analysis</Keyword>
+            <Keyword MajorTopicYN="N">Optical coherence tomography</Keyword>
+            <Keyword MajorTopicYN="N">Retinal surfaces</Keyword>
+            <Keyword MajorTopicYN="N">Structure tensor</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110716</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30435-7</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

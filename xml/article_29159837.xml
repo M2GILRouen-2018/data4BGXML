@@ -1,0 +1,233 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29159837</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-0134</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Proteins</Title>
+                <ISOAbbreviation>Proteins</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Protein structure modeling and refinement by global optimization in CASP12.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/prot.25426</ELocationID>
+            <Abstract>
+                <AbstractText>For protein structure modeling in the CASP12 experiment, we have developed a new protocol based on our previous CASP11 approach. The global optimization method of conformational space annealing (CSA) was applied to 3 stages of modeling: multiple sequence-structure alignment, three-dimensional (3D) chain building, and side-chain re-modeling. For better template selection and model selection, we updated our model quality assessment (QA) method with the newly developed SVMQA (support vector machine for quality assessment). For 3D chain building, we updated our energy function by including restraints generated from predicted residue-residue contacts. New energy terms for the predicted secondary structure and predicted solvent accessible surface area were also introduced. For difficult targets, we proposed a new method, LEEab, where the template term played a less significant role than it did in LEE, complemented by increased contributions from other terms such as the predicted contact term. For TBM (template-based modeling) targets, LEE performed better than LEEab, but for FM targets, LEEab was better. For model refinement, we modified our CASP11 molecular dynamics (MD) based protocol by using explicit solvents and tuning down restraint weights. Refinement results from MD simulations that used a new augmented statistical energy term in the force field were quite promising. Finally, when using inaccurate information (such as the predicted contacts), it was important to use the Lorentzian function for which the maximal penalty arising from wrong information is always bounded.</AbstractText>
+                <CopyrightInformation>© 2017 Wiley Periodicals, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hong</LastName>
+                    <ForeName>Seung Hwan</ForeName>
+                    <Initials>SH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Joung</LastName>
+                    <ForeName>InSuk</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Flores-Canales</LastName>
+                    <ForeName>Jose C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manavalan</LastName>
+                    <ForeName>Balachandran</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheng</LastName>
+                    <ForeName>Qianyi</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heo</LastName>
+                    <ForeName>Seungryong</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Jong Yun</ForeName>
+                    <Initials>JY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Sun Young</ForeName>
+                    <Initials>SY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nam</LastName>
+                    <ForeName>Mikyung</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Joo</LastName>
+                    <ForeName>Keehyoung</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Advanced Computation, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>In-Ho</ForeName>
+                    <Initials>IH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Korea Research Institute of Standards and Science (KRISS), Daejeon, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Sung Jong</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>The Research Institute for Basic Sciences, Changwon National University, Changwon-Si, Gyeongsangnam-do, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Jooyoung</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Advanced Computation, Korea Institute for Advanced Study, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Proteins</MedlineTA>
+            <NlmUniqueID>8700181</NlmUniqueID>
+            <ISSNLinking>0887-3585</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CASP</Keyword>
+            <Keyword MajorTopicYN="N">global optimization</Keyword>
+            <Keyword MajorTopicYN="N">homology modeling</Keyword>
+            <Keyword MajorTopicYN="N">protein structure modeling</Keyword>
+            <Keyword MajorTopicYN="N">protein structure refinement</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29159837</ArticleId>
+            <ArticleId IdType="doi">10.1002/prot.25426</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

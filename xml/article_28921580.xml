@@ -1,0 +1,138 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28921580</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Integrating prior information into microwave tomography Part 1: Impact of detail on image quality.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>6461-6481</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12585</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">The authors investigate the impact that incremental increases in the level of detail of patient-specific prior information have on image quality and the convergence behavior of an inversion algorithm in the context of near-field microwave breast imaging. A methodology is presented that uses image quality measures to characterize the ability of the algorithm to reconstruct both internal structures and lesions embedded in fibroglandular tissue. The approach permits key aspects that impact the quality of reconstruction of these structures to be identified and quantified. This provides insight into opportunities to improve image reconstruction performance.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Patient-specific information is acquired using radar-based methods that form a regional map of the breast. This map is then incorporated into a microwave tomography algorithm. Previous investigations have demonstrated the effectiveness of this approach to improve image quality when applied to data generated with two-dimensional (2D) numerical models. The present study extends this work by generating prior information that is customized to vary the degree of structural detail to facilitate the investigation of the role of prior information in image formation. Numerical 2D breast models constructed from magnetic resonance (MR) scans, and reconstructions formed with a three-dimensional (3D) numerical breast model are used to assess if trends observed for the 2D results can be extended to 3D scenarios.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">For the blind reconstruction scenario (i.e., no prior information), the breast surface is not accurately identified and internal structures are not clearly resolved. A substantial improvement in image quality is achieved by incorporating the skin surface map and constraining the imaging domain to the breast. Internal features within the breast appear in the reconstructed image. However, it is challenging to discriminate between adipose and glandular regions and there are inaccuracies in both the structural properties of the glandular region and the dielectric properties reconstructed within this structure. Using a regional map with a skin layer only marginally improves this situation. Increasing the structural detail in the prior information to include internal features leads to reconstructions for which the interface that delineates the fat and gland regions can be inferred. Different features within the glandular region corresponding to tissues with varying relative permittivity values, such as a lesion embedded within glandular structure, emerge in the reconstructed images.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Including knowledge of the breast surface and skin layer leads to a substantial improvement in image quality compared to the blind case, but the images have limited diagnostic utility for applications such as tumor response tracking. The diagnostic utility of the reconstruction technique is improved considerably when patient-specific structural information is used. This qualitative observation is supported quantitatively with image metrics.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kurrant</LastName>
+                    <ForeName>Douglas</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Schulich School of Engineering, Department of Electrical and Computer Engineering, University of Calgary, Calgary, Alberta, T2N 1N4, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baran</LastName>
+                    <ForeName>Anastasia</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, University of Manitoba, Winnipeg, MB, R3T 5V6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>LoVetri</LastName>
+                    <ForeName>Joe</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, University of Manitoba, Winnipeg, MB, R3T 5V6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fear</LastName>
+                    <ForeName>Elise</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Schulich School of Engineering, Department of Electrical and Computer Engineering, University of Calgary, Calgary, Alberta, T2N 1N4, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">convergence</Keyword>
+            <Keyword MajorTopicYN="N">microwave tomography</Keyword>
+            <Keyword MajorTopicYN="N">performance metrics</Keyword>
+            <Keyword MajorTopicYN="N">prior information</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28921580</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12585</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,116 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28140332</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>04</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-6579</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>38</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physiological measurement</Title>
+                <ISOAbbreviation>Physiol Meas</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Robust electroencephalogram phase estimation with applications in brain-computer interface systems.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>501-523</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6579/aa5bba</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">In this study, a robust method is developed for frequency-specific electroencephalogram (EEG) phase extraction using the analytic representation of the EEG. Based on recent theoretical findings in this area, it is shown that some of the phase variations-previously associated to the brain response-are systematic side-effects of the methods used for EEG phase calculation, especially during low analytical amplitude segments of the EEG.</AbstractText>
+                <AbstractText Label="APPROACH" NlmCategory="METHODS">With this insight, the proposed method generates randomized ensembles of the EEG phase using minor perturbations in the zero-pole loci of narrow-band filters, followed by phase estimation using the signal's analytical form and ensemble averaging over the randomized ensembles to obtain a robust EEG phase and frequency. This Monte Carlo estimation method is shown to be very robust to noise and minor changes of the filter parameters and reduces the effect of fake EEG phase jumps, which do not have a cerebral origin.</AbstractText>
+                <AbstractText Label="MAIN RESULTS" NlmCategory="RESULTS">As proof of concept, the proposed method is used for extracting EEG phase features for a brain computer interface (BCI) application. The results show significant improvement in classification rates using rather simple phase-related features and a standard K-nearest neighbors and random forest classifiers, over a standard BCI dataset.</AbstractText>
+                <AbstractText Label="SIGNIFICANCE" NlmCategory="CONCLUSIONS">The average performance was improved between 4-7% (in absence of additive noise) and 8-12% (in presence of additive noise). The significance of these improvements was statistically confirmed by a paired sample t-test, with 0.01 and 0.03 p-values, respectively. The proposed method for EEG phase calculation is very generic and may be applied to other EEG phase-based studies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Seraj</LastName>
+                    <ForeName>Esmaeil</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sameni</LastName>
+                    <ForeName>Reza</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Physiol Meas</MedlineTA>
+            <NlmUniqueID>9306921</NlmUniqueID>
+            <ISSNLinking>0967-3334</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D062207" MajorTopicYN="Y">Brain-Computer Interfaces</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004569" MajorTopicYN="Y">Electroencephalography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012815" MajorTopicYN="Y">Signal Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059629" MajorTopicYN="N">Signal-To-Noise Ratio</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28140332</ArticleId>
+            <ArticleId IdType="doi">10.1088/1361-6579/aa5bba</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

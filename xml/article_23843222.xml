@@ -1,0 +1,404 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28103917</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2049-2618</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>5</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>01</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Microbiome</Title>
+                <ISOAbbreviation>Microbiome</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A fast and robust protocol for metataxonomic analysis using RNAseq data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>7</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s40168-016-0219-5</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND">Metagenomics is a rapidly emerging field aimed to analyze microbial diversity and dynamics by studying the genomic content of the microbiota. Metataxonomics tools analyze high-throughput sequencing data, primarily from 16S rRNA gene sequencing and DNAseq, to identify microorganisms and viruses within a complex mixture. With the growing demand for analysis of the functional microbiome, metatranscriptome studies attract more interest. To make metatranscriptomic data sufficient for metataxonomics, new analytical workflows are needed to deal with sparse and taxonomically less informative sequencing data.</AbstractText>
+                <AbstractText Label="RESULTS">We present a new protocol, IMSA+A, for accurate taxonomy classification based on metatranscriptome data of any read length that can efficiently and robustly identify bacteria, fungi, and viruses in the same sample. The new protocol improves accuracy by using a conservative reference database, employing a new counting scheme, and by assembling shotgun reads. Assembly also reduces analysis runtime. Simulated data were utilized to evaluate the protocol by permuting common experimental variables. When applied to the real metatranscriptome data for mouse intestines colonized by ASF, the protocol showed superior performance in detection of the microorganisms compared to the existing metataxonomics tools. IMSA+A is available at https://github.com/JeremyCoxBMI/IMSA-A .</AbstractText>
+                <AbstractText Label="CONCLUSIONS">The developed protocol addresses the need for taxonomy classification from RNAseq data. Previously not utilized, i.e., unmapped to a reference genome, RNAseq reads can now be used to gather taxonomic information about the microbiota present in a biological sample without conducting additional sequencing. Any metatranscriptome pipeline that includes assembly of reads can add this analysis with minimal additional cost of compute time. The new protocol also creates an opportunity to revisit old metatranscriptome data, where taxonomic content may be important but was not analyzed.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cox</LastName>
+                    <ForeName>Jeremy W</ForeName>
+                    <Initials>JW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical Engineering and Computing Systems, University of Cincinnati, 2901 Woodside Drive, Cincinnati, OH, 45221, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>The Center for Autoimmune Genomics and Etiology, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, MLC 15012, Cincinnati, OH, 45229-3039, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ballweg</LastName>
+                    <ForeName>Richard A</ForeName>
+                    <Initials>RA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Center for Autoimmune Genomics and Etiology, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, MLC 15012, Cincinnati, OH, 45229-3039, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Taft</LastName>
+                    <ForeName>Diana H</ForeName>
+                    <Initials>DH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Center for Autoimmune Genomics and Etiology, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, MLC 15012, Cincinnati, OH, 45229-3039, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Velayutham</LastName>
+                    <ForeName>Prakash</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, Cincinnati, OH, 45229, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Haslam</LastName>
+                    <ForeName>David B</ForeName>
+                    <Initials>DB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Infectious Diseases, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, Cincinnati, OH, 45229, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Porollo</LastName>
+                    <ForeName>Aleksey</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">0000-0002-3202-5099</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>The Center for Autoimmune Genomics and Etiology, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, MLC 15012, Cincinnati, OH, 45229-3039, USA. Alexey.Porollo@cchmc.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, Cincinnati, OH, 45229, USA. Alexey.Porollo@cchmc.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>figshare</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>https://figshare.com/s/9e62995bf520e1ac0fc8</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 HL119190</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Microbiome</MedlineTA>
+            <NlmUniqueID>101615147</NlmUniqueID>
+            <ISSNLinking>2049-2618</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D012336">RNA, Ribosomal, 16S</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Enzymol. 2013;531:371-444</RefSource>
+                <PMID Version="1">24060131</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 10;9(8):811-4</RefSource>
+                <PMID Version="1">22688413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2010 Nov;7(11):909-12</RefSource>
+                <PMID Version="1">20935650</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2011 Sep;21(9):1552-60</RefSource>
+                <PMID Version="1">21690186</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Environ Microbiol. 2013 Oct;15(10):2631-41</RefSource>
+                <PMID Version="1">23834245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Oct 30;8(10):e76935</RefSource>
+                <PMID Version="1">24204709</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Apr 15;28(8):1086-92</RefSource>
+                <PMID Version="1">22368243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbiome. 2014 Oct 28;2:39</RefSource>
+                <PMID Version="1">25411636</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Feb 25;9(2):e89445</RefSource>
+                <PMID Version="1">24586784</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microb Ecol. 2011 Apr;61(3):473-85</RefSource>
+                <PMID Version="1">21222211</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2000 Feb-Apr;7(1-2):203-14</RefSource>
+                <PMID Version="1">10890397</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Pathog. 2010 Jan 08;6(1):e1000713</RefSource>
+                <PMID Version="1">20072605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>ILAR J. 2015;56(2):169-78</RefSource>
+                <PMID Version="1">26323627</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2013 Aug 02;14:530</RefSource>
+                <PMID Version="1">23915218</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Jan 15;29(2):266-7</RefSource>
+                <PMID Version="1">23162058</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 May 24;8(5):e64465</RefSource>
+                <PMID Version="1">23717618</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2011 May 15;29(7):644-52</RefSource>
+                <PMID Version="1">21572440</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2011 May;29(5):393-6</RefSource>
+                <PMID Version="1">21552235</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Bacteriol. 2009 May;191(10):3203-11</RefSource>
+                <PMID Version="1">19304856</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Apr 15;28(8):1174-5</RefSource>
+                <PMID Version="1">22377895</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 May 26;43(10):e69</RefSource>
+                <PMID Version="1">25765641</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(4):e36009</RefSource>
+                <PMID Version="1">22558305</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2007 Mar;17(3):377-86</RefSource>
+                <PMID Version="1">17255551</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2010 Jan;11(1):9-16</RefSource>
+                <PMID Version="1">19935729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D675-81</RefSource>
+                <PMID Version="1">22064857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2010 Oct;20(10):1432-40</RefSource>
+                <PMID Version="1">20693479</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 May 23;8(5):e64546</RefSource>
+                <PMID Version="1">23717627</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Microbiol. 2013 Jul;21(7):334-41</RefSource>
+                <PMID Version="1">23685069</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2014 Jul;24(7):1180-92</RefSource>
+                <PMID Version="1">24899342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2009 Sep;6(9):673-6</RefSource>
+                <PMID Version="1">19648916</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Nov 1;40(20):10073-83</RefSource>
+                <PMID Version="1">22962361</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2015 Oct;12(10):902-3</RefSource>
+                <PMID Version="1">26418763</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2016 Jun 21;12(6):e1004957</RefSource>
+                <PMID Version="1">27327495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Nov 03;9(11):e110915</RefSource>
+                <PMID Version="1">25365329</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014 Aug 04;15:262</RefSource>
+                <PMID Version="1">25091138</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2014 Mar 03;15(3):R46</RefSource>
+                <PMID Version="1">24580807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2015 Jan;12(1):59-60</RefSource>
+                <PMID Version="1">25402007</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Microbiol. 2013 Feb;11(2):129-33</RefSource>
+                <PMID Version="1">23288349</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 10;9(8):793-4</RefSource>
+                <PMID Version="1">22688412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jul;40(12):e94</RefSource>
+                <PMID Version="1">22434876</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2013 Oct;23(10):1721-9</RefSource>
+                <PMID Version="1">23843222</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001419" MajorTopicYN="N">Bacteria</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001483" MajorTopicYN="N">Base Sequence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="N">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005658" MajorTopicYN="N">Fungi</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059014" MajorTopicYN="N">High-Throughput Nucleotide Sequencing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056186" MajorTopicYN="N">Metagenomics</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051379" MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D064307" MajorTopicYN="N">Microbiota</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012336" MajorTopicYN="N">RNA, Ribosomal, 16S</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017423" MajorTopicYN="N">Sequence Analysis, RNA</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014780" MajorTopicYN="N">Viruses</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="Y">classification</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Altered Schaedler flora</Keyword>
+            <Keyword MajorTopicYN="Y">Assembly of shotgun reads</Keyword>
+            <Keyword MajorTopicYN="Y">Metagenome</Keyword>
+            <Keyword MajorTopicYN="Y">Metataxonomics</Keyword>
+            <Keyword MajorTopicYN="Y">Metatranscriptome</Keyword>
+            <Keyword MajorTopicYN="Y">Microbiome</Keyword>
+            <Keyword MajorTopicYN="Y">RNAseq</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103917</ArticleId>
+            <ArticleId IdType="doi">10.1186/s40168-016-0219-5</ArticleId>
+            <ArticleId IdType="pii">10.1186/s40168-016-0219-5</ArticleId>
+            <ArticleId IdType="pmc">PMC5244565</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

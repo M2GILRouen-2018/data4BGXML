@@ -1,0 +1,299 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29169408</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2041-1480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>8</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical semantics</Title>
+                <ISOAbbreviation>J Biomed Semantics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The bacterial interlocked process ONtology (BiPON): a systemic multi-scale unified representation of biological processes in prokaryotes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>53</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13326-017-0165-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">High-throughput technologies produce huge amounts of heterogeneous biological data at all cellular levels. Structuring these data together with biological knowledge is a critical issue in biology and requires integrative tools and methods such as bio-ontologies to extract and share valuable information. In parallel, the development of recent whole-cell models using a systemic cell description opened alternatives for data integration. Integrating a systemic cell description within a bio-ontology would help to progress in whole-cell data integration and modeling synergistically.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We present BiPON, an ontology integrating a multi-scale systemic representation of bacterial cellular processes. BiPON consists in of two sub-ontologies, bioBiPON and modelBiPON. bioBiPON organizes the systemic description of biological information while modelBiPON describes the mathematical models (including parameters) associated with biological processes. bioBiPON and modelBiPON are related using bridge rules on classes during automatic reasoning. Biological processes are thus automatically related to mathematical models. 37% of BiPON classes stem from different well-established bio-ontologies, while the others have been manually defined and curated. Currently, BiPON integrates the main processes involved in bacterial gene expression processes.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">BiPON is a proof of concept of the way to combine formally systems biology and bio-ontology. The knowledge formalization is highly flexible and generic. Most of the known cellular processes, new participants or new mathematical models could be inserted in BiPON. Altogether, BiPON opens up promising perspectives for knowledge integration and sharing and can be used by biologists, systems and computational biologists, and the emerging community of whole-cell modeling.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Henry</LastName>
+                    <ForeName>Vincent J</ForeName>
+                    <Initials>VJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire de Recherche en Informatique (LRI), UMR 8623, CNRS, Université Paris-Sud/Université Paris-Saclay, Orsay, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>INRA, UR1404, MaIAGE, Université Paris-Saclay, Jouy-en-Josas, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goelzer</LastName>
+                    <ForeName>Anne</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2222-6142</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>INRA, UR1404, MaIAGE, Université Paris-Saclay, Jouy-en-Josas, France. Anne.Goelzer@inra.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ferré</LastName>
+                    <ForeName>Arnaud</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire de Recherche en Informatique (LRI), UMR 8623, CNRS, Université Paris-Sud/Université Paris-Saclay, Orsay, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fischer</LastName>
+                    <ForeName>Stephan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INRA, UR1404, MaIAGE, Université Paris-Saclay, Jouy-en-Josas, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dinh</LastName>
+                    <ForeName>Marc</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INRA, UR1404, MaIAGE, Université Paris-Saclay, Jouy-en-Josas, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Loux</LastName>
+                    <ForeName>Valentin</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INRA, UR1404, MaIAGE, Université Paris-Saclay, Jouy-en-Josas, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Froidevaux</LastName>
+                    <ForeName>Christine</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire de Recherche en Informatique (LRI), UMR 8623, CNRS, Université Paris-Sud/Université Paris-Saclay, Orsay, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fromion</LastName>
+                    <ForeName>Vincent</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INRA, UR1404, MaIAGE, Université Paris-Saclay, Jouy-en-Josas, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Biomed Semantics</MedlineTA>
+            <NlmUniqueID>101531992</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2006 Aug 15;22(16):2020-7</RefSource>
+                <PMID Version="1">16787968</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2011 Aug 11;5:124</RefSource>
+                <PMID Version="1">21835028</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2008 Feb 26;2:20</RefSource>
+                <PMID Version="1">18302748</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Mar 2;335(6072):1103-6</RefSource>
+                <PMID Version="1">22383849</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2012 Jul 20;150(2):389-401</RefSource>
+                <PMID Version="1">22817898</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2016 May 17;12 (5):870</RefSource>
+                <PMID Version="1">27193784</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2017 Jan 4;45(D1):D331-D338</RefSource>
+                <PMID Version="1">27899567</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D258-61</RefSource>
+                <PMID Version="1">14681407</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2012 Sep;13(9):667-72</RefSource>
+                <PMID Version="1">22898652</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2006 Jun;39(3):314-20</RefSource>
+                <PMID Version="1">16564748</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Mar 2;335(6072):1099-103</RefSource>
+                <PMID Version="1">22383848</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2010 Jan;11(1):31-46</RefSource>
+                <PMID Version="1">19997069</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Semantics. 2014 Feb 05;5(1):7</RefSource>
+                <PMID Version="1">24499703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2014 Jul 14;2014:null</RefSource>
+                <PMID Version="1">25024350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>CPT Pharmacometrics Syst Pharmacol. 2015 Feb;4(2):e3</RefSource>
+                <PMID Version="1">26225232</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Database (Oxford). 2013 Jul 09;2013:bat054</RefSource>
+                <PMID Version="1">23842463</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Microbiol. 2014 Nov 30;14:294</RefSource>
+                <PMID Version="1">25433798</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003 Mar 1;19(4):524-31</RefSource>
+                <PMID Version="1">12611808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochim Biophys Acta. 2011 Oct;1810(10):978-88</RefSource>
+                <PMID Version="1">21689729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2006 Sep;7(3):256-74</RefSource>
+                <PMID Version="1">16899495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2016 Jan 4;44(D1):D515-22</RefSource>
+                <PMID Version="1">26476456</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2015 Nov;16(6):1069-80</RefSource>
+                <PMID Version="1">25863278</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2013 Jul 29;14:513</RefSource>
+                <PMID Version="1">23895341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2005;6(5):R46</RefSource>
+                <PMID Version="1">15892874</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D456-63</RefSource>
+                <PMID Version="1">23180789</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbiology. 2010 Feb;156(Pt 2):287-301</RefSource>
+                <PMID Version="1">19910409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2005;6(5):R44</RefSource>
+                <PMID Version="1">15892872</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Metab Eng. 2015 Nov;32:232-43</RefSource>
+                <PMID Version="1">26498510</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D109-14</RefSource>
+                <PMID Version="1">22080510</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1999 Dec 2;402(6761 Suppl):C47-52</RefSource>
+                <PMID Version="1">10591225</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Jan;43(Database issue):D1049-56</RefSource>
+                <PMID Version="1">25428369</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2011 Oct 25;7:543</RefSource>
+                <PMID Version="1">22027554</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Biological ontology</Keyword>
+            <Keyword MajorTopicYN="N">Mathematical models</Keyword>
+            <Keyword MajorTopicYN="N">Multi-scale systemic description</Keyword>
+            <Keyword MajorTopicYN="N">Prokaryotic biological processes</Keyword>
+            <Keyword MajorTopicYN="N">Systems biology</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29169408</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13326-017-0165-6</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13326-017-0165-6</ArticleId>
+            <ArticleId IdType="pmc">PMC5701433</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

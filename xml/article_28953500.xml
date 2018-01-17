@@ -1,0 +1,107 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28953500</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1528-1175</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Anesthesiology</Title>
+                <ISOAbbreviation>Anesthesiology</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Prediction of Bispectral Index during Target-controlled Infusion of Propofol and Remifentanil: A Deep Learning Approach.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/ALN.0000000000001892</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The discrepancy between predicted effect-site concentration and measured bispectral index is problematic during intravenous anesthesia with target-controlled infusion of propofol and remifentanil. We hypothesized that bispectral index during total intravenous anesthesia would be more accurately predicted by a deep learning approach.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Long short-term memory and the feed-forward neural network were sequenced to simulate the pharmacokinetic and pharmacodynamic parts of an empirical model, respectively, to predict intraoperative bispectral index during combined use of propofol and remifentanil. Inputs of long short-term memory were infusion histories of propofol and remifentanil, which were retrieved from target-controlled infusion pumps for 1,800 s at 10-s intervals. Inputs of the feed-forward network were the outputs of long short-term memory and demographic data such as age, sex, weight, and height. The final output of the feed-forward network was the bispectral index. The performance of bispectral index prediction was compared between the deep learning model and previously reported response surface model.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The model hyperparameters comprised 8 memory cells in the long short-term memory layer and 16 nodes in the hidden layer of the feed-forward network. The model training and testing were performed with separate data sets of 131 and 100 cases. The concordance correlation coefficient (95% CI) were 0.561 (0.560 to 0.562) in the deep learning model, which was significantly larger than that in the response surface model (0.265 [0.263 to 0.266], P &lt; 0.001).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The deep learning model-predicted bispectral index during target-controlled infusion of propofol and remifentanil more accurately compared to the traditional model. The deep learning approach in anesthetic pharmacology seems promising because of its excellent performance and extensibility.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Hyung-Chul</ForeName>
+                    <Initials>HC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>From the Department of Anesthesiology and Pain Medicine, Seoul National University College of Medicine, Seoul National University Hospital, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ryu</LastName>
+                    <ForeName>Ho-Geol</ForeName>
+                    <Initials>HG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chung</LastName>
+                    <ForeName>Eun-Jin</ForeName>
+                    <Initials>EJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jung</LastName>
+                    <ForeName>Chul-Woo</ForeName>
+                    <Initials>CW</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Anesthesiology</MedlineTA>
+            <NlmUniqueID>1300217</NlmUniqueID>
+            <ISSNLinking>0003-3022</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28953500</ArticleId>
+            <ArticleId IdType="doi">10.1097/ALN.0000000000001892</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

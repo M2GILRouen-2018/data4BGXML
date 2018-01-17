@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113769</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>07</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Combined Eulerian-Lagrangian Data Representation for Large-Scale Applications.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2248-2261</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2016.2620975</ELocationID>
+            <Abstract>
+                <AbstractText>The Eulerian and Lagrangian reference frames each provide a unique perspective when studying and visualizing results from scientific systems. As a result, many large-scale simulations produce data in both formats, and analysis tasks that simultaneously utilize information from both representations are becoming increasingly popular. However, due to their fundamentally different nature, drawing correlations between these data formats is a computationally difficult task, especially in a large-scale setting. In this work, we present a new data representation which combines both reference frames into a joint Eulerian-Lagrangian format. By reorganizing Lagrangian information according to the Eulerian simulation grid into a &quot;unit cell&quot; based approach, we can provide an efficient out-of-core means of sampling, querying, and operating with both representations simultaneously. We also extend this design to generate multi-resolution subsets of the full data to suit the viewer's needs and provide a fast flow-aware trajectory construction scheme. We demonstrate the effectiveness of our method using three large-scale real world scientific datasets and provide insight into the types of performance gains that can be achieved.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sauer</LastName>
+                    <ForeName>Franz</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Jinrong</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Kwan-Liu</ForeName>
+                    <Initials>KL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113769</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2016.2620975</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

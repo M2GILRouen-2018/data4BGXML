@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113845</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1525-8955</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on ultrasonics, ferroelectrics, and frequency control</Title>
+                <ISOAbbreviation>IEEE Trans Ultrason Ferroelectr Freq Control</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Numerical Simulation of Transit-Time Ultrasonic Flowmeters by a Direct Approach.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TUFFC.2016.2545714</ELocationID>
+            <Abstract>
+                <AbstractText>This paper deals with the development of a computational code for the numerical simulation of wave propagation through domains with a complex geometry consisting in both solids and moving fluids. The emphasis is on the numerical simulation of ultrasonic flowmeters (UFMs) by modeling the wave propagation in solids with the equations of linear elasticity and in fluids with the linearized Euler equations. This approach requires high performance computing because of the high number of degrees of freedom and the long propagation distances. Therefore, the numerical method should be chosen with care. In order to minimize the numerical dissipation which may occur in this kind of configurations, the numerical method employed here is the nodal discontinuous Galerkin method. Also, this method is well suited for parallel computing. To speed up the code, almost all the computational stages have been implemented to run on GPU by using the CUDA programming model from NVIDIA. This approach has been validated and then used for the two-dimensional simulation of gas UFMs. The large contrast of acoustic impedance characteristic to gas UFMs makes their simulation a real challenge.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Luca</LastName>
+                    <ForeName>Adrian</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marchiano</LastName>
+                    <ForeName>Regis</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chassaing</LastName>
+                    <ForeName>Jean-Camille</ForeName>
+                    <Initials>JC</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Ultrason Ferroelectr Freq Control</MedlineTA>
+            <NlmUniqueID>9882735</NlmUniqueID>
+            <ISSNLinking>0885-3010</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113845</ArticleId>
+            <ArticleId IdType="doi">10.1109/TUFFC.2016.2545714</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

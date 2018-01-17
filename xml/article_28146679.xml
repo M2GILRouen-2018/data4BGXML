@@ -1,0 +1,144 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28146679</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1547-8181</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>59</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Human factors</Title>
+                <ISOAbbreviation>Hum Factors</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Assessing Continuous Operator Workload With a Hybrid Scaffolded Neuroergonomic Modeling Approach.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>134-146</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1177/0018720816672308</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">We aimed to predict operator workload from neurological data using statistical learning methods to fit neurological-to-state-assessment models.</AbstractText>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Adaptive systems require real-time mental workload assessment to perform dynamic task allocations or operator augmentation as workload issues arise. Neuroergonomic measures have great potential for informing adaptive systems, and we combine these measures with models of task demand as well as information about critical events and performance to clarify the inherent ambiguity of interpretation.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">We use machine learning algorithms on electroencephalogram (EEG) input to infer operator workload based upon Improved Performance Research Integration Tool workload model estimates.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Cross-participant models predict workload of other participants, statistically distinguishing between 62% of the workload changes. Machine learning models trained from Monte Carlo resampled workload profiles can be used in place of deterministic workload profiles for cross-participant modeling without incurring a significant decrease in machine learning model performance, suggesting that stochastic models can be used when limited training data are available.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">We employed a novel temporary scaffold of simulation-generated workload profile truth data during the model-fitting process. A continuous workload profile serves as the target to train our statistical machine learning models. Once trained, the workload profile scaffolding is removed and the trained model is used directly on neurophysiological data in future operator state assessments.</AbstractText>
+                <AbstractText Label="APPLICATION" NlmCategory="CONCLUSIONS">These modeling techniques demonstrate how to use neuroergonomic methods to develop operator state assessments, which can be employed in adaptive systems.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Borghetti</LastName>
+                    <ForeName>Brett J</ForeName>
+                    <Initials>BJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Air Force Institute of Technology, Dayton, Ohio.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Giametta</LastName>
+                    <ForeName>Joseph J</ForeName>
+                    <Initials>JJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Air Force Institute of Technology, Dayton, Ohio.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rusnock</LastName>
+                    <ForeName>Christina F</ForeName>
+                    <Initials>CF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Air Force Institute of Technology, Dayton, Ohio.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Hum Factors</MedlineTA>
+            <NlmUniqueID>0374660</NlmUniqueID>
+            <ISSNLinking>0018-7208</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CitationSubset>S</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D004569" MajorTopicYN="Y">Electroencephalography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006804" MajorTopicYN="Y">Ergonomics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="Y">Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008570" MajorTopicYN="N">Memory, Short-Term</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011597" MajorTopicYN="N">Psychomotor Performance</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">discrete-event simulation</Keyword>
+            <Keyword MajorTopicYN="N">human performance modeling</Keyword>
+            <Keyword MajorTopicYN="N">mental workload</Keyword>
+            <Keyword MajorTopicYN="N">neuroergonomics</Keyword>
+            <Keyword MajorTopicYN="N">operator state assessment</Keyword>
+            <Keyword MajorTopicYN="N">physiological measurement</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28146679</ArticleId>
+            <ArticleId IdType="doi">10.1177/0018720816672308</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

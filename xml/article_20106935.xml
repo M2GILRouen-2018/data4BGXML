@@ -1,0 +1,310 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28743256</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2288</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jul</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medical research methodology</Title>
+                <ISOAbbreviation>BMC Med Res Methodol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A comparison of multiple imputation methods for handling missing values in longitudinal data in the presence of a time-varying covariate with a non-linear association with time: a simulation study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>114</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12874-017-0372-y</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Missing data is a common problem in epidemiological studies, and is particularly prominent in longitudinal data, which involve multiple waves of data collection. Traditional multiple imputation (MI) methods (fully conditional specification (FCS) and multivariate normal imputation (MVNI)) treat repeated measurements of the same time-dependent variable as just another 'distinct' variable for imputation and therefore do not make the most of the longitudinal structure of the data. Only a few studies have explored extensions to the standard approaches to account for the temporal structure of longitudinal data. One suggestion is the two-fold fully conditional specification (two-fold FCS) algorithm, which restricts the imputation of a time-dependent variable to time blocks where the imputation model includes measurements taken at the specified and adjacent times. To date, no study has investigated the performance of two-fold FCS and standard MI methods for handling missing data in a time-varying covariate with a non-linear trajectory over time - a commonly encountered scenario in epidemiological studies.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We simulated 1000 datasets of 5000 individuals based on the Longitudinal Study of Australian Children (LSAC). Three missing data mechanisms: missing completely at random (MCAR), and a weak and a strong missing at random (MAR) scenarios were used to impose missingness on body mass index (BMI) for age z-scores; a continuous time-varying exposure variable with a non-linear trajectory over time. We evaluated the performance of FCS, MVNI, and two-fold FCS for handling up to 50% of missing data when assessing the association between childhood obesity and sleep problems.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The standard two-fold FCS produced slightly more biased and less precise estimates than FCS and MVNI. We observed slight improvements in bias and precision when using a time window width of two for the two-fold FCS algorithm compared to the standard width of one.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">We recommend the use of FCS or MVNI in a similar longitudinal setting, and when encountering convergence issues due to a large number of time points or variables with missing values, the two-fold FCS with exploration of a suitable time window.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>De Silva</LastName>
+                    <ForeName>Anurika Priyanjali</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moreno-Betancur</LastName>
+                    <ForeName>Margarita</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Epidemiology and Biostatistics Unit, Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De Livera</LastName>
+                    <ForeName>Alysha Madhu</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Katherine Jane</ForeName>
+                    <Initials>KJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Epidemiology and Biostatistics Unit, Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Paediatrics, University of Melbourne, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Simpson</LastName>
+                    <ForeName>Julie Anne</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC, Australia. julieas@unimelb.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med Res Methodol</MedlineTA>
+            <NlmUniqueID>100968545</NlmUniqueID>
+            <ISSNLinking>1471-2288</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Child Dev. 2007 Jan-Feb;78(1):309-23</RefSource>
+                <PMID Version="1">17328707</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Epidemiol. 2005 Feb;34(1):89-99</RefSource>
+                <PMID Version="1">15333619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2006 Jan 1;163(1):84-96</RefSource>
+                <PMID Version="1">16306313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methods Med Res. 2007 Jun;16(3):243-58</RefSource>
+                <PMID Version="1">17621470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methods Med Res. 2016 Aug;25(4):1471-89</RefSource>
+                <PMID Version="1">23698867</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methods Med Res. 2015 Aug;24(4):462-87</RefSource>
+                <PMID Version="1">24525487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Res Methodol. 2015 Apr 07;15:30</RefSource>
+                <PMID Version="1">25880850</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2011 Dec 10;30(28):3328-40</RefSource>
+                <PMID Version="1">21965165</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Res Methodol. 2010 Jan 19;10:7</RefSource>
+                <PMID Version="1">20085642</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Methods Psychiatr Res. 2011 Mar;20(1):50-61</RefSource>
+                <PMID Version="1">21556290</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Methods Med Res. 2007 Jun;16(3):219-42</RefSource>
+                <PMID Version="1">17621469</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Commun. 2012;27(4):380-8</RefSource>
+                <PMID Version="1">21932985</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Obesity (Silver Spring). 2008 Feb;16(2):265-74</RefSource>
+                <PMID Version="1">18239632</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stata J. 2014 Apr 1;14(2):418-431</RefSource>
+                <PMID Version="1">25420071</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Obes Relat Metab Disord. 2001 May;25 Suppl 1:S75-9</RefSource>
+                <PMID Version="1">11466594</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Youth Adolesc. 2010 Jul;39(7):816-35</RefSource>
+                <PMID Version="1">20446025</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Matern Child Health J. 2014 Feb;18(2):344-65</RefSource>
+                <PMID Version="1">23975451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Otolaryngol Head Neck Surg. 2004 Jul;131(1):104-8</RefSource>
+                <PMID Version="1">15243565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2004 Jul;5(3):445-64</RefSource>
+                <PMID Version="1">15208205</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Respirology. 2014 Feb;19(2):162-7</RefSource>
+                <PMID Version="1">24372814</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Emerg Themes Epidemiol. 2013 Aug 19;10(1):6</RefSource>
+                <PMID Version="1">23947681</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Epidemiol. 2010 Jul;63(7):721-7</RefSource>
+                <PMID Version="1">20338724</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Respirology. 2014 Apr;19(3):303-11</RefSource>
+                <PMID Version="1">24447391</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biopharm Stat. 2005;15(6):993-1007</RefSource>
+                <PMID Version="1">16279357</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Epidemiol. 2006 Oct;59(10):1092-101</RefSource>
+                <PMID Version="1">16980150</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Cancer. 2011 Sep 26;11:409</RefSource>
+                <PMID Version="1">21943022</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2009 Jun 29;338:b2393</RefSource>
+                <PMID Version="1">19564179</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2007 Dec 15;166(12):1368-73</RefSource>
+                <PMID Version="1">17855389</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Trials. 2005;2(5):379-86</RefSource>
+                <PMID Version="1">16315646</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2002 Aug 10;360(9331):473-82</RefSource>
+                <PMID Version="1">12241736</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 2012 Mar;107(3):567-77</RefSource>
+                <PMID Version="1">21939461</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2006 Dec 30;25(24):4279-92</RefSource>
+                <PMID Version="1">16947139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2014 Sep 20;33(21):3725-37</RefSource>
+                <PMID Version="1">24782349</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2009 Dec 20;28(29):3657-69</RefSource>
+                <PMID Version="1">19757484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2003 Feb 28;22(4):545-57</RefSource>
+                <PMID Version="1">12590413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Res Methodol. 2012 Jul 11;12:96</RefSource>
+                <PMID Version="1">22784200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Dis Child. 2011 Aug;96(8):735-9</RefSource>
+                <PMID Version="1">21622998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2010 Mar 1;171(5):624-32</RefSource>
+                <PMID Version="1">20106935</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Fully conditional specification</Keyword>
+            <Keyword MajorTopicYN="N">Longitudinal data</Keyword>
+            <Keyword MajorTopicYN="N">Missing data</Keyword>
+            <Keyword MajorTopicYN="N">Multiple imputation</Keyword>
+            <Keyword MajorTopicYN="N">Multivariate normal imputation</Keyword>
+            <Keyword MajorTopicYN="N">Non-linear trajectory</Keyword>
+            <Keyword MajorTopicYN="N">Time-dependent covariate</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28743256</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12874-017-0372-y</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12874-017-0372-y</ArticleId>
+            <ArticleId IdType="pmc">PMC5526258</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

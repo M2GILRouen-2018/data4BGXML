@@ -1,0 +1,99 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28147570</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-8524</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>141</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of the Acoustical Society of America</Title>
+                <ISOAbbreviation>J. Acoust. Soc. Am.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Adaptive and compressive matched field processing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>92</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1121/1.4973528</ELocationID>
+            <Abstract>
+                <AbstractText>Matched field processing is a generalized beamforming method that matches received array data to a dictionary of replica vectors in order to locate one or more sources. Its solution set is sparse since there are considerably fewer sources than replicas. Using compressive sensing (CS) implemented using basis pursuit, the matched field problem is reformulated as an underdetermined, convex optimization problem. CS estimates the unknown source amplitudes using the replica dictionary to best explain the data, subject to a row-sparsity constraint. This constraint selects the best matching replicas within the dictionary when using multiple observations and/or frequencies. For a single source, theory and simulations show that the performance of CS and the Bartlett processor are equivalent for any number of snapshots. Contrary to most adaptive processors, CS also can accommodate coherent sources. For a single and multiple incoherent sources, simulations indicate that CS offers modest localization performance improvement over the adaptive white noise constraint processor. SWellEx-96 experiment data results show comparable performance for both processors when localizing a weaker source in the presence of a stronger source. Moreover, CS often displays less ambiguity, demonstrating it is robust to data-replica mismatch.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gemba</LastName>
+                    <ForeName>Kay L</ForeName>
+                    <Initials>KL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Marine Physical Laboratory of the Scripps Institution of Oceanography, University of California at San Diego, La Jolla, California 92093-0238, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hodgkiss</LastName>
+                    <ForeName>William S</ForeName>
+                    <Initials>WS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Marine Physical Laboratory of the Scripps Institution of Oceanography, University of California at San Diego, La Jolla, California 92093-0238, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gerstoft</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Marine Physical Laboratory of the Scripps Institution of Oceanography, University of California at San Diego, La Jolla, California 92093-0238, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Acoust Soc Am</MedlineTA>
+            <NlmUniqueID>7503051</NlmUniqueID>
+            <ISSNLinking>0001-4966</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28147570</ArticleId>
+            <ArticleId IdType="doi">10.1121/1.4973528</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

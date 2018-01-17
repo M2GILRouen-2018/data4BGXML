@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28114033</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                        <Day>06</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Integrating Multiple Data Sources for Combinatorial Marker Discovery: A Study in Tumorigenesis.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCBB.2016.2636207</ELocationID>
+            <Abstract>
+                <AbstractText>Identification of combinatorial markers from multiple data sources is a challenging task in bioinformatics. Here we propose a novel computational framework for identifying significant combinatorial markers (SCMs) using both gene expression and methylation data. The gene expression and methylation data are integrated into a single continuous data as well as a (post-discretized) boolean data based on their intrinsic (i.e., inverse) relationship. A novel combined score of methylation and expression data (viz., CoMEx) is introduced which is computed on the integrated continuous data for identifying initial non-redundant set of genes. Thereafter, (maximal) frequent closed homogeneous genesets are identified using a well-known biclustering algorithm applied on the integrated boolean data of the determined non-redundant set of genes. A novel sample-based weighted support (WS) is then proposed that is consecutively calculated on the integrated boolean data of the determined non-redundant set of genes in order to identify the non-redundant significant genesets. The top few resulting genesets are identified as potential SCMs. Since our proposed method generates smaller number of significant non-redundant genesets than those by other popular methods, the method is much faster than the others. Application of the proposed technique on an expression and a methylation data for Uterine tumor or Prostate Carcinoma produces a set of significant combination of markers. We expect that such a combination of markers will produce lower false positives than individual markers.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bandyopadhyay</LastName>
+                    <ForeName>Sanghamitra</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mallik</LastName>
+                    <ForeName>Saurav</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114033</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2636207</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

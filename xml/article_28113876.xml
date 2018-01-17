@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113876</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2208</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE journal of biomedical and health informatics</Title>
+                <ISOAbbreviation>IEEE J Biomed Health Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic Nuclei Detection Based on Generalized Laplacian of Gaussian Filters.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>826-837</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/JBHI.2016.2544245</ELocationID>
+            <Abstract>
+                <AbstractText>Efficient and accurate detection of cell nuclei is an important step toward automatic analysis in histopathology. In this work, we present an automatic technique based on generalized Laplacian of Gaussian (gLoG) filter for nuclei detection in digitized histological images. The proposed technique first generates a bank of gLoG kernels with different scales and orientations and then performs convolution between directional gLoG kernels and the candidate image to obtain a set of response maps. The local maxima of response maps are detected and clustered into different groups by mean-shift algorithm based on their geometrical closeness. The point which has the maximum response in each group is finally selected as the nucleus seed. Experimental results on two datasets show that the proposed technique provides a superior performance in nuclei detection compared to existing techniques.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hongming Xu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cheng Lu</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berendt</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jha</LastName>
+                    <ForeName>Naresh</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mandal</LastName>
+                    <ForeName>Mrinal</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE J Biomed Health Inform</MedlineTA>
+            <NlmUniqueID>101604520</NlmUniqueID>
+            <ISSNLinking>2168-2194</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113876</ArticleId>
+            <ArticleId IdType="doi">10.1109/JBHI.2016.2544245</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

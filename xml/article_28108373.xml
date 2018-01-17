@@ -1,0 +1,181 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28108373</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-5894</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>38</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Magnetic resonance imaging</Title>
+                <ISOAbbreviation>Magn Reson Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Left ventricle segmentation via two-layer level sets with circular shape constraint.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>202-213</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0730-725X(17)30011-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.mri.2017.01.011</ELocationID>
+            <Abstract>
+                <AbstractText>This paper proposes a circular shape constraint and a novel two-layer level set method for the segmentation of the left ventricle (LV) from short-axis magnetic resonance images without training any shape models. Since the shape of LV throughout the apex-base axis is close to a ring shape, we propose a circle fitting term in the level set framework to detect the endocardium. The circle fitting term imposes a penalty on the evolving contour from its fitting circle, and thereby handles quite well with issues in LV segmentation, especially the presence of outflow track in basal slices and the intensity overlap between TPM and the myocardium. To extract the whole myocardium, the circle fitting term is incorporated into two-layer level set method. The endocardium and epicardium are respectively represented by two specified level contours of the level set function, which are evolved by an edge-based and a region-based active contour model. The proposed method has been quantitatively validated on the public data set from MICCAI 2009 challenge on the LV segmentation. Experimental results and comparisons with state-of-the-art demonstrate the accuracy and robustness of our method.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Cong</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, PR China. Electronic address: wangyuanyc@stu.xjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Weiguo</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, PR China. Electronic address: wgwu@xjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Su</LastName>
+                    <ForeName>Yuanqi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, PR China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Shaoxiang</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Digital Medicine Institute, Biomedical Engineering College, Third Military Medical University, Chongqing, PR China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Magn Reson Imaging</MedlineTA>
+            <NlmUniqueID>8214883</NlmUniqueID>
+            <ISSNLinking>0730-725X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006332" MajorTopicYN="N">Cardiomegaly</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004699" MajorTopicYN="N">Endocardium</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006333" MajorTopicYN="N">Heart Failure</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006352" MajorTopicYN="N">Heart Ventricles</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="N">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009203" MajorTopicYN="N">Myocardial Infarction</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009206" MajorTopicYN="N">Myocardium</DescriptorName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010496" MajorTopicYN="N">Pericardium</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Active contour model</Keyword>
+            <Keyword MajorTopicYN="N">Cardiac MRI</Keyword>
+            <Keyword MajorTopicYN="N">Image segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Left ventricle segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Level set method</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28108373</ArticleId>
+            <ArticleId IdType="pii">S0730-725X(17)30011-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.mri.2017.01.011</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

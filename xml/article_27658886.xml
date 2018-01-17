@@ -1,0 +1,313 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29180800</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2045-2322</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>7</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scientific reports</Title>
+                <ISOAbbreviation>Sci Rep</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Electronic Health Record Driven Prediction for Gestational Diabetes Mellitus in Early Pregnancy.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>16417</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41598-017-16665-y</ELocationID>
+            <Abstract>
+                <AbstractText>Gestational diabetes mellitus (GDM) is conventionally confirmed with oral glucose tolerance test (OGTT) in 24 to 28 weeks of gestation, but it is still uncertain whether it can be predicted with secondary use of electronic health records (EHRs) in early pregnancy. To this purpose, the cost-sensitive hybrid model (CSHM) and five conventional machine learning methods are used to construct the predictive models, capturing the future risks of GDM in the temporally aggregated EHRs. The experimental data sources from a nested case-control study cohort, containing 33,935 gestational women in West China Second Hospital. After data cleaning, 4,378 cases and 50 attributes are stored and collected for the data set. Through selecting the most feasible method, the cost parameter of CSHM is adapted to deal with imbalance of the dataset. In the experiment, 3940 samples are used for training and the rest 438 samples for testing. Although the accuracy of positive samples is barely acceptable (62.16%), the results suggest that the vast majority (98.4%) of those predicted positive instances are real positives. To our knowledge, this is the first study to apply machine learning models with EHRs to predict GDM, which will facilitate personalized medicine in maternal health management in the future.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Qiu</LastName>
+                    <ForeName>Hang</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Hai-Yan</ForeName>
+                    <Initials>HY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China. yhy188@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China. yhy188@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Economics and Management, Chongqing University of Posts and Telecommunications, Chongqing, 400065, Chongqing, China. yhy188@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, The Pennsylvania State University, University Park, PA, 16802-2111, United States. yhy188@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Li-Ya</ForeName>
+                    <Initials>LY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yao</LastName>
+                    <ForeName>Qiang</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Obstetrics, West China Second University Hospital, Sichuan University, Chengdu, 610041, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Si-Nan</ForeName>
+                    <Initials>SN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Information Management, West China Second University Hospital, Sichuan University, Chengdu, 610041, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yin</LastName>
+                    <ForeName>Can</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fu</LastName>
+                    <ForeName>Bo</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhu</LastName>
+                    <ForeName>Xiao-Juan</ForeName>
+                    <Initials>XJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yan-Long</ForeName>
+                    <Initials>YL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xing</LastName>
+                    <ForeName>Yong</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Deng</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Hao</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, Sichuan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lei</LastName>
+                    <ForeName>Shun-Dong</ForeName>
+                    <Initials>SD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Information Management, West China Second University Hospital, Sichuan University, Chengdu, 610041, Sichuan, China. tomlsd@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Sci Rep</MedlineTA>
+            <NlmUniqueID>101563288</NlmUniqueID>
+            <ISSNLinking>2045-2322</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes. 2010 Dec;59(12):3017-22</RefSource>
+                <PMID Version="1">20876721</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Environ Int. 2017 Jan;98 :89-95</RefSource>
+                <PMID Version="1">27743729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2017 Feb 08;7:42192</RefSource>
+                <PMID Version="1">28176850</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Med Inform. 2017 Mar;99:45-52</RefSource>
+                <PMID Version="1">28118921</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Endocrinol Metab. 2002 Mar;87(3):1189-93</RefSource>
+                <PMID Version="1">11889186</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Jun 14;6:27855</RefSource>
+                <PMID Version="1">27297679</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2009 May 23;373(9677):1743-4</RefSource>
+                <PMID Version="1">19465216</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Prenat Diagn. 2016 Feb;36(2):192-3</RefSource>
+                <PMID Version="1">26547816</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Diabetes. 2016 May;8(3):300-2</RefSource>
+                <PMID Version="1">26778343</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Med Inform. 2017 Jan;97:120-127</RefSource>
+                <PMID Version="1">27919371</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2016 Jan 12;352:h6898</RefSource>
+                <PMID Version="1">26759275</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 Jun 06;6:27291</RefSource>
+                <PMID Version="1">27264612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2016 May 17;6:26094</RefSource>
+                <PMID Version="1">27185194</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Appl Clin Inform. 2015 Nov 11;6(4):669-76</RefSource>
+                <PMID Version="1">26767062</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 Mar 17;12:77</RefSource>
+                <PMID Version="1">21414208</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2015 Jun 02;5:10702</RefSource>
+                <PMID Version="1">26031755</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biometrics. 1988 Sep;44(3):837-45</RefSource>
+                <PMID Version="1">3203132</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2017 Feb;40(2):210-217</RefSource>
+                <PMID Version="1">27920019</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2013 Jun;36(6):e76</RefSource>
+                <PMID Version="1">23704684</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2017 Mar 08;7:43620</RefSource>
+                <PMID Version="1">28272552</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 1998 Aug;21 Suppl 2:B161-7</RefSource>
+                <PMID Version="1">9704245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Med. 2014 Sep 28;33(22):3946-59</RefSource>
+                <PMID Version="1">24825728</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Epidemiol. 2016 Feb;45(1):160-9</RefSource>
+                <PMID Version="1">26748845</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2016 Dec;64:20-24</RefSource>
+                <PMID Version="1">27658886</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29180800</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41598-017-16665-y</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41598-017-16665-y</ArticleId>
+            <ArticleId IdType="pmc">PMC5703904</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

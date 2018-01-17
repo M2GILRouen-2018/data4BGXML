@@ -1,0 +1,153 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29154499</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1755-0998</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Molecular ecology resources</Title>
+                <ISOAbbreviation>Mol Ecol Resour</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>FuzzyID2: A software package for large data set species identification via barcoding and metabarcoding using hidden Markov models and fuzzy set methods.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/1755-0998.12738</ELocationID>
+            <Abstract>
+                <AbstractText>Species identification through DNA barcoding or metabarcoding has become a key approach for biodiversity evaluation and ecological studies. However, the rapid accumulation of barcoding data has created some difficulties: for instance, global enquiries to a large reference library can take a very long time. We here devise a two-step searching strategy to speed identification procedures of such queries. This firstly uses a Hidden Markov Model (HMM) algorithm to narrow the searching scope to genus level and then determines the corresponding species using minimum genetic distance. Moreover, using a fuzzy membership function, our approach also estimates the credibility of assignment results for each query. To perform this task, we developed a new software pipeline, FuzzyID2, using Python and C++. Performance of the new method was assessed using eight empirical data sets ranging from 70 to 234,535 barcodes. Five data sets (four animal, one plant) deployed the conventional barcode approach, one used metabarcodes, and two were eDNA-based. The results showed mean accuracies of generic and species identification of 98.60% (with a minimum of 95.00% and a maximum of 100.00%) and 94.17% (with a range of 84.40%-100.00%), respectively. Tests with simulated NGS sequences based on realistic eDNA and metabarcode data demonstrated that FuzzyID2 achieved a significantly higher identification success rate than the commonly used Blast method, and the TIPP method tends to find many fewer species than either FuzztID2 or Blast. Furthermore, data sets with tens of thousands of barcodes need only a few seconds for each query assignment using FuzzyID2. Our approach provides an efficient and accurate species identification protocol for biodiversity-related projects with large DNA sequence data sets.</AbstractText>
+                <CopyrightInformation>© 2017 John Wiley &amp; Sons Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Zhi-Yong</ForeName>
+                    <Initials>ZY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Sciences, Capital Normal University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Cai-Qing</ForeName>
+                    <Initials>CQ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Sciences, Capital Normal University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hao</LastName>
+                    <ForeName>Meng-di</ForeName>
+                    <Initials>MD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Sciences, Capital Normal University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Xiao-Yang</ForeName>
+                    <Initials>XY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences, Kunming, Yunnan, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Kunming College of Life Sciences, University of Chinese Academy of Sciences, Kunming, Yunnan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ward</LastName>
+                    <ForeName>Robert D</ForeName>
+                    <Initials>RD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CSIRO National Research Collections Australia, Hobart, TAS, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Ai-Bing</ForeName>
+                    <Initials>AB</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6580-5462</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Sciences, Capital Normal University, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Mol Ecol Resour</MedlineTA>
+            <NlmUniqueID>101465604</NlmUniqueID>
+            <ISSNLinking>1755-098X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">DNA barcoding</Keyword>
+            <Keyword MajorTopicYN="N">eDNA</Keyword>
+            <Keyword MajorTopicYN="N">fuzzy membership function</Keyword>
+            <Keyword MajorTopicYN="N">hidden Markov models</Keyword>
+            <Keyword MajorTopicYN="N">high-throughput sequencing (HTS)</Keyword>
+            <Keyword MajorTopicYN="N">metabarcoding</Keyword>
+            <Keyword MajorTopicYN="N">plant barcodes</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29154499</ArticleId>
+            <ArticleId IdType="doi">10.1111/1755-0998.12738</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

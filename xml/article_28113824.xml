@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113824</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>28</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Efficient Training of Supervised Spiking Neural Network via Accurate Synaptic-Efficiency Adjustment Method.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1411-1424</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2541339</ELocationID>
+            <Abstract>
+                <AbstractText>The spiking neural network (SNN) is the third generation of neural networks and performs remarkably well in cognitive tasks, such as pattern recognition. The temporal neural encode mechanism found in biological hippocampus enables SNN to possess more powerful computation capability than networks with other encoding schemes. However, this temporal encoding approach requires neurons to process information serially on time, which reduces learning efficiency significantly. To keep the powerful computation capability of the temporal encoding mechanism and to overcome its low efficiency in the training of SNNs, a new training algorithm, the accurate synaptic-efficiency adjustment method is proposed in this paper. Inspired by the selective attention mechanism of the primate visual system, our algorithm selects only the target spike time as attention areas, and ignores voltage states of the untarget ones, resulting in a significant reduction of training time. Besides, our algorithm employs a cost function based on the voltage difference between the potential of the output neuron and the firing threshold of the SNN, instead of the traditional precise firing time distance. A normalized spike-timing-dependent-plasticity learning window is applied to assigning this error to different synapses for instructing their training. Comprehensive simulations are conducted to investigate the learning properties of our algorithm, with input neurons emitting both single spike and multiple spikes. Simulation results indicate that our algorithm possesses higher learning performance than the existing other methods and achieves the state-of-the-art efficiency in the training of SNN.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Xiurui</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qu</LastName>
+                    <ForeName>Hong</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yi</LastName>
+                    <ForeName>Zhang</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kurths</LastName>
+                    <ForeName>Jurgen</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113824</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2541339</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

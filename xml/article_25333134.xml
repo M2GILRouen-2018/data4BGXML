@@ -1,0 +1,325 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29159042</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">2213-1582</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>NeuroImage. Clinical</Title>
+                <ISOAbbreviation>Neuroimage Clin</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluation of a deep learning approach for the segmentation of brain tissues and white matter hyperintensities of presumed vascular origin in MRI.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>251-262</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.nicl.2017.10.007</ELocationID>
+            <Abstract>
+                <AbstractText>Automatic segmentation of brain tissues and white matter hyperintensities of presumed vascular origin (WMH) in MRI of older patients is widely described in the literature. Although brain abnormalities and motion artefacts are common in this age group, most segmentation methods are not evaluated in a setting that includes these items. In the present study, our tissue segmentation method for brain MRI was extended and evaluated for additional WMH segmentation. Furthermore, our method was evaluated in two large cohorts with a realistic variation in brain abnormalities and motion artefacts. The method uses a multi-scale convolutional neural network with a T1-weighted image, a T2-weighted fluid attenuated inversion recovery (FLAIR) image and a T1-weighted inversion recovery (IR) image as input. The method automatically segments white matter (WM), cortical grey matter (cGM), basal ganglia and thalami (BGT), cerebellum (CB), brain stem (BS), lateral ventricular cerebrospinal fluid (lvCSF), peripheral cerebrospinal fluid (pCSF), and WMH. Our method was evaluated quantitatively with images publicly available from the MRBrainS13 challenge (n = 20), quantitatively and qualitatively in relatively healthy older subjects (n = 96), and qualitatively in patients from a memory clinic (n = 110). The method can accurately segment WMH (Overall Dice coefficient in the MRBrainS13 data of 0.67) without compromising performance for tissue segmentations (Overall Dice coefficients in the MRBrainS13 data of 0.87 for WM, 0.85 for cGM, 0.82 for BGT, 0.93 for CB, 0.92 for BS, 0.93 for lvCSF, 0.76 for pCSF). Furthermore, the automatic WMH volumes showed a high correlation with manual WMH volumes (Spearman's ρ = 0.83 for relatively healthy older subjects). In both cohorts, our method produced reliable segmentations (as determined by a human observer) in most images (relatively healthy/memory clinic: tissues 88%/77% reliable, WMH 85%/84% reliable) despite various degrees of brain abnormalities and motion artefacts. In conclusion, this study shows that a convolutional neural network-based segmentation method can accurately segment brain tissues and WMH in MR images of older patients with varying degrees of brain abnormalities and motion artefacts.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Moeskops</LastName>
+                    <ForeName>Pim</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Image Analysis, Department of Biomedical Engineering, Eindhoven University of Technology, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de Bresser</LastName>
+                    <ForeName>Jeroen</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University Medical Center Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuijf</LastName>
+                    <ForeName>Hugo J</ForeName>
+                    <Initials>HJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mendrik</LastName>
+                    <ForeName>Adriënne M</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Biessels</LastName>
+                    <ForeName>Geert Jan</ForeName>
+                    <Initials>GJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurology, University Medical Center Utrecht, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pluim</LastName>
+                    <ForeName>Josien P W</ForeName>
+                    <Initials>JPW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Image Analysis, Department of Biomedical Engineering, Eindhoven University of Technology, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Išgum</LastName>
+                    <ForeName>Ivana</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Image Sciences Institute, University Medical Center Utrecht and Utrecht University, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Neuroimage Clin</MedlineTA>
+            <NlmUniqueID>101597070</NlmUniqueID>
+            <ISSNLinking>2213-1582</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2010 Jun;33(6):1309-14</RefSource>
+                <PMID Version="1">20299484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2017 Jul 11;7(1):5110</RefSource>
+                <PMID Version="1">28698556</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 May;35(5):1252-1261</RefSource>
+                <PMID Version="1">27046893</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Neurol. 1996;36(5):268-72</RefSource>
+                <PMID Version="1">8864706</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2017 Feb;36:61-78</RefSource>
+                <PMID Version="1">27865153</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage Clin. 2017 Feb 04;14 :391-399</RefSource>
+                <PMID Version="1">28271039</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2009 May 1;45(4):1151-61</RefSource>
+                <PMID Version="1">19344687</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage Clin. 2015 May 16;8:367-75</RefSource>
+                <PMID Version="1">26106562</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2017 Jan;35:18-31</RefSource>
+                <PMID Version="1">27310171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2015 Oct;34(10):2079-102</RefSource>
+                <PMID Version="1">25850086</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2015 Mar;108:214-24</RefSource>
+                <PMID Version="1">25562829</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2001 Aug;20(8):677-88</RefSource>
+                <PMID Version="1">11513020</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage Clin. 2013 Oct 14;3:462-9</RefSource>
+                <PMID Version="1">24273728</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Intell Neurosci. 2015;2015:813696</RefSource>
+                <PMID Version="1">26759553</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 May;35(5):1229-1239</RefSource>
+                <PMID Version="1">26886978</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes. 2014 Oct;63(10):3523-9</RefSource>
+                <PMID Version="1">24760137</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurobiol Aging. 2008 Jun;29(6):882-90</RefSource>
+                <PMID Version="1">17239994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 Feb 15;59(4):3774-83</RefSource>
+                <PMID Version="1">22119648</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2010 Jan;29(1):196-205</RefSource>
+                <PMID Version="1">19923044</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 May;35(5):1240-1251</RefSource>
+                <PMID Version="1">26960222</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neurology. 2009 Jun 2;72(22):1906-13</RefSource>
+                <PMID Version="1">19487648</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Imaging. 2012 Jul 19;12:17</RefSource>
+                <PMID Version="1">22812697</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Jan 15;54(2):760-8</RefSource>
+                <PMID Version="1">20888923</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroradiology. 2015 Oct;57(10):1031-43</RefSource>
+                <PMID Version="1">26227167</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2010 Jul 1;51(3):1047-56</RefSource>
+                <PMID Version="1">20226258</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2013 Jan;36(1):137-44</RefSource>
+                <PMID Version="1">22961577</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Neurol. 2014 Dec 31;14 :254</RefSource>
+                <PMID Version="1">25551191</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2016 Dec;43(12 ):6246</RefSource>
+                <PMID Version="1">27908171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2017 Jul 15;155:159-168</RefSource>
+                <PMID Version="1">28435096</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson Imaging. 2013 Jan;37(1):1-14</RefSource>
+                <PMID Version="1">23255412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Neurol. 2000 Feb;47(2):145-51</RefSource>
+                <PMID Version="1">10665484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet Neurol. 2013 Aug;12(8):822-38</RefSource>
+                <PMID Version="1">23867200</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2016 Oct 31;11(10 ):e0165719</RefSource>
+                <PMID Version="1">27798694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2005 Jul 1;26(3):839-51</RefSource>
+                <PMID Version="1">15955494</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2011 Jul 15;57(2):416-22</RefSource>
+                <PMID Version="1">21569857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dement Geriatr Cogn Disord. 2010;30(5):381-6</RefSource>
+                <PMID Version="1">20962529</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2015 Sep;34(9):1867-78</RefSource>
+                <PMID Version="1">25794387</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Anal. 2004 Sep;8(3):205-15</RefSource>
+                <PMID Version="1">15450216</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2015 Jul;13(3):261-76</RefSource>
+                <PMID Version="1">25649877</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Image Comput Comput Assist Interv. 2014;17(Pt 1):323-30</RefSource>
+                <PMID Version="1">25333134</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Brain MRI</Keyword>
+            <Keyword MajorTopicYN="N">Brain atrophy</Keyword>
+            <Keyword MajorTopicYN="N">Convolutional neural networks</Keyword>
+            <Keyword MajorTopicYN="N">Deep learning</Keyword>
+            <Keyword MajorTopicYN="N">Motion artefacts</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation</Keyword>
+            <Keyword MajorTopicYN="N">White matter hyperintensities</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29159042</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.nicl.2017.10.007</ArticleId>
+            <ArticleId IdType="pii">S2213-1582(17)30248-6</ArticleId>
+            <ArticleId IdType="pmc">PMC5683197</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

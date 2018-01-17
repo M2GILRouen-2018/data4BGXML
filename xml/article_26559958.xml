@@ -1,0 +1,310 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157215</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Integration of RNA-Seq data with heterogeneous microarray data for breast cancer profiling.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>506</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1925-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Nowadays, many public repositories containing large microarray gene expression datasets are available. However, the problem lies in the fact that microarray technology are less powerful and accurate than more recent Next Generation Sequencing technologies, such as RNA-Seq. In any case, information from microarrays is truthful and robust, thus it can be exploited through the integration of microarray data with RNA-Seq data. Additionally, information extraction and acquisition of large number of samples in RNA-Seq still entails very high costs in terms of time and computational resources.This paper proposes a new model to find the gene signature of breast cancer cell lines through the integration of heterogeneous data from different breast cancer datasets, obtained from microarray and RNA-Seq technologies. Consequently, data integration is expected to provide a more robust statistical significance to the results obtained. Finally, a classification method is proposed in order to test the robustness of the Differentially Expressed Genes when unseen data is presented for diagnosis.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The proposed data integration allows analyzing gene expression samples coming from different technologies. The most significant genes of the whole integrated data were obtained through the intersection of the three gene sets, corresponding to the identified expressed genes within the microarray data itself, within the RNA-Seq data itself, and within the integrated data from both technologies. This intersection reveals 98 possible technology-independent biomarkers. Two different heterogeneous datasets were distinguished for the classification tasks: a training dataset for gene expression identification and classifier validation, and a test dataset with unseen data for testing the classifier. Both of them achieved great classification accuracies, therefore confirming the validity of the obtained set of genes as possible biomarkers for breast cancer. Through a feature selection process, a final small subset made up by six genes was considered for breast cancer diagnosis.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This work proposes a novel data integration stage in the traditional gene expression analysis pipeline through the combination of heterogeneous data from microarrays and RNA-Seq technologies. Available samples have been successfully classified using a subset of six genes obtained by a feature selection method. Consequently, a new classification and diagnosis tool was built and its performance was validated using previously unseen samples.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Castillo</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7380-1023</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Architecture and Technology, University of Granada, Periodista Rafael Gómez Montero, 2, Granada, 18014, Spain. cased@ugr.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gálvez</LastName>
+                    <ForeName>Juan Manuel</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Architecture and Technology, University of Granada, Periodista Rafael Gómez Montero, 2, Granada, 18014, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Herrera</LastName>
+                    <ForeName>Luis Javier</ForeName>
+                    <Initials>LJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Architecture and Technology, University of Granada, Periodista Rafael Gómez Montero, 2, Granada, 18014, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Román</LastName>
+                    <ForeName>Belén San</ForeName>
+                    <Initials>BS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Architecture and Technology, University of Granada, Periodista Rafael Gómez Montero, 2, Granada, 18014, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rojas</LastName>
+                    <ForeName>Fernando</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Architecture and Technology, University of Granada, Periodista Rafael Gómez Montero, 2, Granada, 18014, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rojas</LastName>
+                    <ForeName>Ignacio</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Architecture and Technology, University of Granada, Periodista Rafael Gómez Montero, 2, Granada, 18014, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 Jan 15;31(2):166-9</RefSource>
+                <PMID Version="1">25260700</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2009 Jan;10(1):57-63</RefSource>
+                <PMID Version="1">19015660</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Sci. 2012 Jun;103(6):1000-9</RefSource>
+                <PMID Version="1">22380844</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genet Res. 2001 Apr;77(2):123-8</RefSource>
+                <PMID Version="1">11355567</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2005 Jul 26;6:191</RefSource>
+                <PMID Version="1">16045803</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2011 Dec 16;286(50):43417-28</RefSource>
+                <PMID Version="1">21930697</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Mar 04;9(4):357-9</RefSource>
+                <PMID Version="1">22388286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2017 Feb 28;8(9):15507-15519</RefSource>
+                <PMID Version="1">28099945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Natl Cancer Inst. 1977 Jun;58(6):1795-806</RefSource>
+                <PMID Version="1">864756</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1995 Oct 20;270(5235):467-70</RefSource>
+                <PMID Version="1">7569999</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2007 Oct 11;:686-90</RefSource>
+                <PMID Version="1">18693924</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2017 Feb 8;12 (2):e0171771</RefSource>
+                <PMID Version="1">28178355</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2013 Apr 25;14(4):R36</RefSource>
+                <PMID Version="1">23618408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Aug 15;21(16):3439-40</RefSource>
+                <PMID Version="1">16082012</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2012 Apr;13(2):204-16</RefSource>
+                <PMID Version="1">22285995</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 Oct 07;12:390</RefSource>
+                <PMID Version="1">21982277</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 2005 May;14(5):1090-5</RefSource>
+                <PMID Version="1">15894657</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Nov 1;40(20):10084-97</RefSource>
+                <PMID Version="1">22965124</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2013 Sep;8(9):1765-86</RefSource>
+                <PMID Version="1">23975260</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Aug 15;25(16):2078-9</RefSource>
+                <PMID Version="1">19505943</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 2014 Sep 1;74(17 ):4875-87</RefSource>
+                <PMID Version="1">24950909</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2006 Jan 06;7:3</RefSource>
+                <PMID Version="1">16398926</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Mol Biol. 2007;362:349-62</RefSource>
+                <PMID Version="1">17417022</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2002 Jan;18(1):207-8</RefSource>
+                <PMID Version="1">11836235</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2007 May 01;8:142</RefSource>
+                <PMID Version="1">17472750</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 1990 Sep 15;50(18):6075-86</RefSource>
+                <PMID Version="1">1975513</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2011 Jan;39(Database issue):D19-21</RefSource>
+                <PMID Version="1">21062823</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2007 Jan;35(Database issue):D760-5</RefSource>
+                <PMID Version="1">17099226</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacogenomics J. 2010 Aug;10(4):292-309</RefSource>
+                <PMID Version="1">20676068</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2006 Nov 15;22(22):2825-7</RefSource>
+                <PMID Version="1">16982708</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Natl Cancer Inst. 1973 Nov;51(5):1409-16</RefSource>
+                <PMID Version="1">4357757</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Feb 1;25(3):415-6</RefSource>
+                <PMID Version="1">19106121</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med Genomics. 2011 Apr 08;4:31</RefSource>
+                <PMID Version="1">21477282</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Pathol. 2009 Jul;175(1):201-6</RefSource>
+                <PMID Version="1">19541931</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2006 Dec;24(12):1565-7</RefSource>
+                <PMID Version="1">17160063</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 2001 Mar;10(3):229-36</RefSource>
+                <PMID Version="1">11303592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2008 Jul 22;9:319</RefSource>
+                <PMID Version="1">18647401</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Nov 11;10(11):e0142662</RefSource>
+                <PMID Version="1">26559958</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">Cancer</Keyword>
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">Gene expression</Keyword>
+            <Keyword MajorTopicYN="N">Integration</Keyword>
+            <Keyword MajorTopicYN="N">Microarray</Keyword>
+            <Keyword MajorTopicYN="N">RNA-Seq</Keyword>
+            <Keyword MajorTopicYN="N">Random Forest</Keyword>
+            <Keyword MajorTopicYN="N">SVM</Keyword>
+            <Keyword MajorTopicYN="N">k-NN</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157215</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1925-0</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1925-0</ArticleId>
+            <ArticleId IdType="pmc">PMC5697344</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

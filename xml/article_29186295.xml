@@ -1,0 +1,161 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186295</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1477-4054</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Briefings in bioinformatics</Title>
+                <ISOAbbreviation>Brief. Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Systematic analysis and prediction of type IV secreted effector proteins by machine learning approaches.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bib/bbx164</ELocationID>
+            <Abstract>
+                <AbstractText>In the course of infecting their hosts, pathogenic bacteria secrete numerous effectors, namely, bacterial proteins that pervert host cell biology. Many Gram-negative bacteria, including context-dependent human pathogens, use a type IV secretion system (T4SS) to translocate effectors directly into the cytosol of host cells. Various type IV secreted effectors (T4SEs) have been experimentally validated to play crucial roles in virulence by manipulating host cell gene expression and other processes. Consequently, the identification of novel effector proteins is an important step in increasing our understanding of host-pathogen interactions and bacterial pathogenesis. Here, we train and compare six machine learning models, namely, Naïve Bayes (NB), K-nearest neighbor (KNN), logistic regression (LR), random forest (RF), support vector machines (SVMs) and multilayer perceptron (MLP), for the identification of T4SEs using 10 types of selected features and 5-fold cross-validation. Our study shows that: (1) including different but complementary features generally enhance the predictive performance of T4SEs; (2) ensemble models, obtained by integrating individual single-feature models, exhibit a significantly improved predictive performance and (3) the 'majority voting strategy' led to a more stable and accurate classification performance when applied to predicting an ensemble learning model with distinct single features. We further developed a new method to effectively predict T4SEs, Bastion4 (Bacterial secretion effector predictor for T4SS), and we show our ensemble classifier clearly outperforms two recent prediction tools. In summary, we developed a state-of-the-art T4SE predictor by conducting a comprehensive performance evaluation of different machine learning algorithms along with a detailed analysis of single- and multi-feature selections.</AbstractText>
+                <CopyrightInformation>© The Author 2017. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jiawei</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Bingjiao</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>An</LastName>
+                    <ForeName>Yi</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marquez-Lago</LastName>
+                    <ForeName>Tatiana</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leier</LastName>
+                    <ForeName>André</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wilksch</LastName>
+                    <ForeName>Jonathan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hong</LastName>
+                    <ForeName>Qingyang</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayashida</LastName>
+                    <ForeName>Morihiro</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Akutsu</LastName>
+                    <ForeName>Tatsuya</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Webb</LastName>
+                    <ForeName>Geoffrey I</ForeName>
+                    <Initials>GI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Strugnell</LastName>
+                    <ForeName>Richard A</ForeName>
+                    <Initials>RA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>Jiangning</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lithgow</LastName>
+                    <ForeName>Trevor</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Brief Bioinform</MedlineTA>
+            <NlmUniqueID>100912837</NlmUniqueID>
+            <ISSNLinking>1467-5463</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">bioinformatics</Keyword>
+            <Keyword MajorTopicYN="N">comprehensive performance evaluation</Keyword>
+            <Keyword MajorTopicYN="N">feature analysis</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+            <Keyword MajorTopicYN="N">sequence analysis</Keyword>
+            <Keyword MajorTopicYN="N">type IV secreted effector</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186295</ArticleId>
+            <ArticleId IdType="pii">4665693</ArticleId>
+            <ArticleId IdType="doi">10.1093/bib/bbx164</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

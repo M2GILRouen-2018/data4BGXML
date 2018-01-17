@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28922113</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Force-based Representation for Non-Rigid Shape and Elastic Model Estimation.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2017.2752710</ELocationID>
+            <Abstract>
+                <AbstractText>This paper addresses the problem of simultaneously recovering 3D shape, pose and the elastic model of a deformable object from only 2D point tracks in a monocular video. This is a severely under-constrained problem that has been typically addressed by enforcing the shape or the point trajectories to lie on low-rank dimensional spaces. We show that formulating the problem in terms of a low-rank force space that induces the deformation and introducing the elastic model as an additional unknown, allows for a better physical interpretation of the resulting priors and a more accurate representation of the actual object's behavior. In order to simultaneously estimate force, pose, and the elastic model of the object we use an expectation maximization strategy, where each of these parameters are successively learned by partial M-steps. Once the elastic model is learned, it can be transfered to similar objects to code its 3D deformation. Moreover, our approach can robustly deal with missing data, and encode both rigid and non-rigid points under the same formalism. We thoroughly validate the approach on Mocap and real sequences, showing more accurate 3D reconstructions than state-of-the-art, and additionally providing an estimate of the full elastic model with no a priori information.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Agudo</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moreno-Noguer</LastName>
+                    <ForeName>Francesc</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28922113</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2017.2752710</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

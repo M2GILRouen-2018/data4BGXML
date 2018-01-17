@@ -1,0 +1,396 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901608</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>30</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Optimization of the geometry and speed of a moving blocker system for cone-beam computed tomography scatter correction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e215-e229</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12326</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">X-ray scatter is a significant barrier to image quality improvements in cone-beam computed tomography (CBCT). A moving blocker-based strategy was previously proposed to simultaneously estimate scatter and reconstruct the complete volume within the field of view (FOV) from a single CBCT scan. A blocker consisting of lead stripes is inserted between the X-ray source and the imaging object, and moves back and forth along the rotation axis during gantry rotation. While promising results were obtained in our previous studies, the geometric design and moving speed of the blocker were set empirically. The goal of this work is to optimize the geometry and speed of the moving block system.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Performance of the blocker was examined through Monte Carlo (MC) simulation and experimental studies with various geometry designs and moving speeds. All hypothetical designs employed an anthropomorphic pelvic phantom. The scatter estimation accuracy was quantified by using lead stripes ranging from 5 to 100 pixels on the detector plane. An iterative reconstruction based on total variation minimization was used to reconstruct CBCT images from unblocked projection data after scatter correction. The reconstructed image was evaluated under various combinations of lead strip width and interspace (ranging from 10 to 60 pixels) and different moving speed (ranging from 1 to 30 pixels per projection).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">MC simulation showed that the scatter estimation error varied from 0.8% to 5.8%. Phantom experiment showed that CT number error in the reconstructed CBCT images varied from 13 to 35. Highest reconstruction accuracy was achieved when the strip width was 20 pixels and interspace was 60 pixels and the moving speed was 15 pixels per projection.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Scatter estimation can be achieved in a large range of lead strip width and interspace combinations. The moving speed does not have a very strong effect on reconstruction result if it is above 5 pixels per projection. Geometry design of the blocker affected image reconstruction accuracy more. The optimal geometry of the blocker has a strip width of 20 pixels and an interspace three times the strip width, which means 25% detector is covered by the blocker, while the optimal moving speed is 15 pixels per projection.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Xi</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Image Processing and Pattern Recognition, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Center for Mathematics and Information Interdisciplinary Sciences, Beijing 10048, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ouyang</LastName>
+                    <ForeName>Luo</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Hao</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cyber Medical Corporation, Xi'an, Shaanxi 710018, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jia</LastName>
+                    <ForeName>Xun</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Bin</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong 510515, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lyu</LastName>
+                    <ForeName>Qingwen</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>You</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 EB020366</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Dec;39(12):7650-61</RefSource>
+                <PMID Version="1">23231313</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2001 Feb;28(2):220-31</RefSource>
+                <PMID Version="1">11243347</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2016 Mar;43(3):1057-64</RefSource>
+                <PMID Version="1">26936693</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Feb;37(2):934-46</RefSource>
+                <PMID Version="1">20229902</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2009 Jun;36(6):2258-68</RefSource>
+                <PMID Version="1">19610315</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2005 Jun;32(6):1676-83</RefSource>
+                <PMID Version="1">16013726</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Radiol. 1999;9(3):563-9</RefSource>
+                <PMID Version="1">10087134</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2015 Jan;42(1):469-78</RefSource>
+                <PMID Version="1">25563286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 May;39(5):2386-95</RefSource>
+                <PMID Version="1">22559608</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 1988 Sep-Oct;15(5):713-20</RefSource>
+                <PMID Version="1">3185407</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2007 Feb 7;52(3):685-705</RefSource>
+                <PMID Version="1">17228114</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2010 Nov 7;55(21):6353-75</RefSource>
+                <PMID Version="1">20938067</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2000 Mar;27(3):462-71</RefSource>
+                <PMID Version="1">10757598</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2016 Nov;43(11):6199</RefSource>
+                <PMID Version="1">27806607</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2000 Mar;27(3):485-98</RefSource>
+                <PMID Version="1">10757601</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2010 Nov 21;55(22):6695-720</RefSource>
+                <PMID Version="1">21030750</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2007 Oct;85(1):116-25</RefSource>
+                <PMID Version="1">17707938</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2015 Jan;42(1):54-68</RefSource>
+                <PMID Version="1">25563247</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2012 Nov 7;57(21):6849-67</RefSource>
+                <PMID Version="1">23038048</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Aug;37(8):4029-37</RefSource>
+                <PMID Version="1">20879564</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2011 Apr;38(4):2233-40</RefSource>
+                <PMID Version="1">21626957</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2014 Mar 7;59(5):1239-53</RefSource>
+                <PMID Version="1">24556699</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2009 Mar;36(3):741-52</RefSource>
+                <PMID Version="1">19378735</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc SPIE Int Soc Opt Eng. 2006 Feb 28;6142:6142341-6142347</RefSource>
+                <PMID Version="1">18509508</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2009 May 7;54(9):2791-805</RefSource>
+                <PMID Version="1">19369711</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2002 Aug 1;53(5):1337-49</RefSource>
+                <PMID Version="1">12128137</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2006 Oct;25(10):1272-83</RefSource>
+                <PMID Version="1">17024831</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2013 Jan;40(1):011907</RefSource>
+                <PMID Version="1">23298098</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2011 Nov;38(11):6027-38</RefSource>
+                <PMID Version="1">22047367</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 1999 Dec;26(12):2635-47</RefSource>
+                <PMID Version="1">10619249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Nov;37(11):5792-800</RefSource>
+                <PMID Version="1">21158291</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2004 May;31(5):1195-202</RefSource>
+                <PMID Version="1">15191309</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Dec;39(12):7368-78</RefSource>
+                <PMID Version="1">23231286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Dosim. 2006 Summer;31(2):91-112</RefSource>
+                <PMID Version="1">16690451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2013 Dec;40(12 ):121701</RefSource>
+                <PMID Version="1">24320487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2008 Sep 7;53(17):4777-807</RefSource>
+                <PMID Version="1">18701771</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 1988 Jul-Aug;15(4):567-75</RefSource>
+                <PMID Version="1">3211049</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 1988 Sep-Oct;15(5):721-5</RefSource>
+                <PMID Version="1">3185408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2008 Dec 7;53(23):6729-48</RefSource>
+                <PMID Version="1">18997269</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2006 Nov;33(11):4320-9</RefSource>
+                <PMID Version="1">17153411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2015 May 7;60(9):3567-87</RefSource>
+                <PMID Version="1">25860299</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Aug;39(8):5099-110</RefSource>
+                <PMID Version="1">22894435</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2005 Jun;75(3):279-86</RefSource>
+                <PMID Version="1">15890424</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2007 Mar 21;52(6):1595-615</RefSource>
+                <PMID Version="1">17327651</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2013 Jul;40(7):071903</RefSource>
+                <PMID Version="1">23822440</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 1985 Mar-Apr;12(2):252-5</RefSource>
+                <PMID Version="1">4000088</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2006 Jan;33(1):187-97</RefSource>
+                <PMID Version="1">16485425</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Nov;37(11):5634-44</RefSource>
+                <PMID Version="1">21158275</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2006 Jul;25(7):817-27</RefSource>
+                <PMID Version="1">16827483</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2007 Aug 7;52(15):4633-52</RefSource>
+                <PMID Version="1">17634655</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2016 Sep;43(9):5084</RefSource>
+                <PMID Version="1">27587039</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2006 Dec;25(12):1573-87</RefSource>
+                <PMID Version="1">17167993</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">cone-beam CT</Keyword>
+            <Keyword MajorTopicYN="N">imaging artifacts</Keyword>
+            <Keyword MajorTopicYN="N">moving blocker</Keyword>
+            <Keyword MajorTopicYN="N">optimization</Keyword>
+            <Keyword MajorTopicYN="N">scatter correction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901608</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12326</ArticleId>
+            <ArticleId IdType="pmc">PMC5619659</ArticleId>
+            <ArticleId IdType="mid">NIHMS875341</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

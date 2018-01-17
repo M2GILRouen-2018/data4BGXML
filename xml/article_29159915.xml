@@ -1,0 +1,143 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29159915</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Performance of a hybrid Monte Carlo-Pencil Beam dose algorithm for proton therapy inverse planning.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12688</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Analytical algorithms have a limited accuracy when modeling very heterogeneous tumor sites. This work addresses the performance of a hybrid dose optimizer that combines both Monte Carlo (MC) and pencil beam (PB) dose engines to get the best trade-off between speed and accuracy for proton therapy plans.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The hybrid algorithm calculates the optimal spot weights (w) by means of an iterative optimization process where the dose at each iteration is computed by using a precomputed dose influence matrix based on the conventional PB plus a correction term c obtained from a MC simulation. Updates of c can be triggered as often as necessary by calling the MC dose engine with the last corrected values of w as input. In order to analyze the performance of the hybrid algorithm against dose calculation errors, it was applied to a simplistic water phantom for which several test cases with different errors were simulated, including proton range uncertainties. Afterwards, the algorithm was used in three clinical cases (prostate, lung, and brain) and benchmarked against full MC-based optimization. The influence of different stopping criteria in the final results was also investigated.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The hybrid algorithm achieved excellent results provided that the estimated range in a homogeneous material is the same for the two dose engines involved, i.e., PB and MC. For the three patient cases, the hybrid plans were clinically equivalent to those obtained with full MC-based optimization. Only a single update of c was needed in the hybrid algorithm to fulfill the clinical dose constraints, which represents an extra computation time to obtain c that ranged from 1 (brain) to 4 min (lung) with respect to the conventional PB-based optimization, and an estimated average gain factor of 14 with respect to full MC-based optimization.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The hybrid algorithm provides an improved trade-off between accuracy and speed. This algorithm can be immediately considered as an option for improving dose calculation accuracy of commercial analytical treatment planning systems, without a significant increase in the computation time (≪5 min) with respect to current PB-based optimization.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Barragán Montero</LastName>
+                    <ForeName>Ana María</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Souris</LastName>
+                    <ForeName>Kevin</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sanchez-Parcerisa</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Facultad de Ciencias Físicas, Departamento de Física Atómica, UCM - Universidad Complutense de Madrid, Grupo de Física Nuclear, Molecular y Nuclear, CEI Moncloa, Madrid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sterpin</LastName>
+                    <ForeName>Edmond</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>KU Leuven, Department of Oncology, Laboratory of Experimental Radiotherapy, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>John Aldo</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">dose engine</Keyword>
+            <Keyword MajorTopicYN="N">inverse planning</Keyword>
+            <Keyword MajorTopicYN="N">proton therapy</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29159915</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12688</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

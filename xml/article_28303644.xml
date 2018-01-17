@@ -1,0 +1,342 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901622</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Assessment of prior image induced nonlocal means regularization for low-dose CT reconstruction: Change in anatomy.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e264-e278</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12378</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Repeated computed tomography (CT) scans are prescribed for some clinical applications such as lung nodule surveillance. Several studies have demonstrated that incorporating a high-quality prior image into the reconstruction of subsequent low-dose CT (LDCT) acquisitions can either improve image quality or reduce data fidelity requirements. Our proposed previous normal-dose image induced nonlocal means (ndiNLM) regularization method for LDCT is an example of such a method. However, one major concern with prior image based methods is that they might produce false information when the prior image and the current LDCT image show different structures (for example, if a lung nodule emerges, grows, shrinks, or disappears over time). This study aims to assess the performance of the ndiNLM regularization method in situations with change in anatomy.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">We incorporated the ndiNLM regularization into the statistical image reconstruction (SIR) framework for reconstruction of subsequent LDCT images. Because of its patch-based search mechanism, a rough registration between the prior image and the current LDCT image is adequate for the SIR-ndiNLM method. We assessed the performance of the SIR-ndiNLM method in lung nodule surveillance for two different scenarios: (a) the nodule was not found in a baseline exam but appears in a follow-up LDCT scan; (b) the nodule was present in a baseline exam but disappears in a follow-up LDCT scan. We further investigated the effect of nodule size on the performance of the SIR-ndiNLM method.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We found that a relatively large search-window (e.g., 33 × 33) should be used for the SIR-ndiNLM method to account for misalignment between the prior image and the current LDCT image, and to ensure that enough similar patches can be found in the prior image. With proper selection of other parameters, experimental results with two patient datasets demonstrated that the SIR-ndiNLM method did not miss true nodules nor introduce false nodules in the lung nodule surveillance scenarios described above. We also found that the SIR-ndiNLM reconstruction shows improved image quality when the prior image is similar to the current LDCT image in anatomy. These gains in image quality might appear small upon visual inspection, but they can be detected using quantitative measures. Finally, the SIR-ndiNLM method also performed well in ultra-low-dose conditions and with different nodule sizes.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This study assessed the performance of the SIR-ndiNLM method in situations in which the prior image and the current LDCT image show substantial anatomical differences, specifically, changes in lung nodules. The experimental results demonstrate that the SIR-ndiNLM method does not introduce false lung nodules nor miss true nodules, which relieves the concern that this method might produce false information. However, there is insufficient evidence that these findings will hold true for all kinds of anatomical changes.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Hao</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Stony Brook University, NY, 11794, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Stony Brook University, NY, 11794, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Jianhua</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Southern Medical University, Guangdong, 510515, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Texas Southwestern Medical Center, TX, 75390, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moore</LastName>
+                    <ForeName>William</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Stony Brook University, NY, 11794, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liang</LastName>
+                    <ForeName>Zhengrong</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Stony Brook University, NY, 11794, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Stony Brook University, NY, 11794, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 CA143111</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA206171</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 EB020366</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2012 Sep;31(9):1682-97</RefSource>
+                <PMID Version="1">22542666</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Conf Proc Int Conf Image Form Xray Comput Tomogr. 2012;2012:334-338</RefSource>
+                <PMID Version="1">27275018</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Radiol. 2011 Nov;80(2):e42-9</RefSource>
+                <PMID Version="1">20709478</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2001 Sep 1;51(1):56-61</RefSource>
+                <PMID Version="1">11516851</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Jul;39(7):4588-98</RefSource>
+                <PMID Version="1">22830790</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2007 Nov 29;357(22):2277-84</RefSource>
+                <PMID Version="1">18046031</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 2014 Sep;38(6):423-35</RefSource>
+                <PMID Version="1">24881498</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2011 Oct;38(10 ):5713-31</RefSource>
+                <PMID Version="1">21992386</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Nucl Sci. 2015 Oct;62(5):2226-2233</RefSource>
+                <PMID Version="1">26543245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2015 Dec 21;60(24):9515-36</RefSource>
+                <PMID Version="1">26606653</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Radiol. 2000 Dec;73(876):1252-9</RefSource>
+                <PMID Version="1">11205667</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2013 Nov 7;58(21):7563-82</RefSource>
+                <PMID Version="1">24107545</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2014 Sep 7;59(17):4799-826</RefSource>
+                <PMID Version="1">25097144</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2007 Nov;34(11):4526-44</RefSource>
+                <PMID Version="1">18072519</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 2014 Sep;61(9):2367-2378</RefSource>
+                <PMID Version="1">24235272</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2009 Oct 7;54(19):5781-804</RefSource>
+                <PMID Version="1">19741274</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiology. 2004 Jun;231(3):632-44</RefSource>
+                <PMID Version="1">15118110</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2002 Aug 1;53(5):1337-49</RefSource>
+                <PMID Version="1">12128137</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2015 Sep;42(9):5377-90</RefSource>
+                <PMID Version="1">26328987</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2006 Oct;25(10):1272-83</RefSource>
+                <PMID Version="1">17024831</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2009 Mar;16(3):363-73</RefSource>
+                <PMID Version="1">19201366</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2013 Jun 21;58(12 ):R63-96</RefSource>
+                <PMID Version="1">23739261</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2009 Dec 3;361(23 ):2221-9</RefSource>
+                <PMID Version="1">19955524</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Dosim. 2006 Summer;31(2):91-112</RefSource>
+                <PMID Version="1">16690451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2001 Dec;20(12 ):1242-50</RefSource>
+                <PMID Version="1">11811824</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2012 Apr 21;57(8):2287-307</RefSource>
+                <PMID Version="1">22460008</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Apr;37(4):1757-60</RefSource>
+                <PMID Version="1">20443497</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 2015 Jul;43:26-35</RefSource>
+                <PMID Version="1">25795593</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2014 Mar;33(3):749-63</RefSource>
+                <PMID Version="1">24595347</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2008 Feb;35(2):660-3</RefSource>
+                <PMID Version="1">18383687</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Aug;39(8):4748-60</RefSource>
+                <PMID Version="1">22894400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2012 Nov 21;57(22):7519-42</RefSource>
+                <PMID Version="1">23104003</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2014 Apr;41(4):041916</RefSource>
+                <PMID Version="1">24694147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Biomed Eng. 2010 Aug 15;12:119-42</RefSource>
+                <PMID Version="1">20415592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2017 Jan;36(1):277-287</RefSource>
+                <PMID Version="1">27623572</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2012 May 7;57(9):2667-88</RefSource>
+                <PMID Version="1">22504130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Sep;37(9):5113-25</RefSource>
+                <PMID Version="1">20964231</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiol Clin North Am. 2009 Jan;47(1):161-78</RefSource>
+                <PMID Version="1">19195541</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Oncol. 2001 Jan 1;19(1):253-9</RefSource>
+                <PMID Version="1">11134220</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2016 Mar;35(3):860-70</RefSource>
+                <PMID Version="1">26561284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2016 Mar 7;61(5):1986-2002</RefSource>
+                <PMID Version="1">26894795</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Jul;39(7):4051-65</RefSource>
+                <PMID Version="1">22830738</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2017 Mar;44(3):1168-1185</RefSource>
+                <PMID Version="1">28303644</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">anatomical change</Keyword>
+            <Keyword MajorTopicYN="N">low-dose CT</Keyword>
+            <Keyword MajorTopicYN="N">nonlocal means</Keyword>
+            <Keyword MajorTopicYN="N">prior image</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901622</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12378</ArticleId>
+            <ArticleId IdType="pmc">PMC5613294</ArticleId>
+            <ArticleId IdType="mid">NIHMS878717</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

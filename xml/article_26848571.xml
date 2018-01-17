@@ -1,0 +1,436 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27935995</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Into the Bowels of Depression: Unravelling Medical Symptoms Associated with Depression by Applying Machine-Learning Techniques to a Community Based Population Sample.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0167055</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0167055</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Depression is commonly comorbid with many other somatic diseases and symptoms. Identification of individuals in clusters with comorbid symptoms may reveal new pathophysiological mechanisms and treatment targets. The aim of this research was to combine machine-learning (ML) algorithms with traditional regression techniques by utilising self-reported medical symptoms to identify and describe clusters of individuals with increased rates of depression from a large cross-sectional community based population epidemiological study.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A multi-staged methodology utilising ML and traditional statistical techniques was performed using the community based population National Health and Nutrition Examination Study (2009-2010) (N = 3,922). A Self-organised Mapping (SOM) ML algorithm, combined with hierarchical clustering, was performed to create participant clusters based on 68 medical symptoms. Binary logistic regression, controlling for sociodemographic confounders, was used to then identify the key clusters of participants with higher levels of depression (PHQ-9≥10, n = 377). Finally, a Multiple Additive Regression Tree boosted ML algorithm was run to identify the important medical symptoms for each key cluster within 17 broad categories: heart, liver, thyroid, respiratory, diabetes, arthritis, fractures and osteoporosis, skeletal pain, blood pressure, blood transfusion, cholesterol, vision, hearing, psoriasis, weight, bowels and urinary.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Five clusters of participants, based on medical symptoms, were identified to have significantly increased rates of depression compared to the cluster with the lowest rate: odds ratios ranged from 2.24 (95% CI 1.56, 3.24) to 6.33 (95% CI 1.67, 24.02). The ML boosted regression algorithm identified three key medical condition categories as being significantly more common in these clusters: bowel, pain and urinary symptoms. Bowel-related symptoms was found to dominate the relative importance of symptoms within the five key clusters.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This methodology shows promise for the identification of conditions in general populations and supports the current focus on the potential importance of bowel symptoms and the gut in mental health research.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dipnall</LastName>
+                    <ForeName>Joanna F</ForeName>
+                    <Initials>JF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, Data Science and Epidemiology, Swinburne University of Technology, Melbourne, Victoria, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pasco</LastName>
+                    <ForeName>Julie A</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Melbourne Clinical School-Western Campus, The University of Melbourne, St Albans, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University Hospital Geelong, Geelong VIC Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berk</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University Hospital Geelong, Geelong VIC Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychiatry, The University of Melbourne, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Florey Institute of Neuroscience and Mental Health, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Orygen, the National Centre of Excellence in Youth Mental Health, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Williams</LastName>
+                    <ForeName>Lana J</ForeName>
+                    <Initials>LJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University Hospital Geelong, Geelong VIC Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dodd</LastName>
+                    <ForeName>Seetal</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University Hospital Geelong, Geelong VIC Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychiatry, The University of Melbourne, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Orygen, the National Centre of Excellence in Youth Mental Health, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jacka</LastName>
+                    <ForeName>Felice N</ForeName>
+                    <Initials>FN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychiatry, The University of Melbourne, Parkville, VIC, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Adolescent Health, Murdoch Children's Research Institute, Melbourne, Australia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Black Dog Institute, Sydney, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meyer</LastName>
+                    <ForeName>Denny</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, Data Science and Epidemiology, Swinburne University of Technology, Melbourne, Victoria, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2011 Oct 7;334(6052):105-8</RefSource>
+                <PMID Version="1">21885731</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gen Intern Med. 2001 Sep;16(9):606-13</RefSource>
+                <PMID Version="1">11556941</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Gen Psychiatry. 2010 Mar;67(3):220-9</RefSource>
+                <PMID Version="1">20194822</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Arch Psychiatry Clin Neurosci. 2014 Dec;264(8):651-60</RefSource>
+                <PMID Version="1">24705634</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Neurosci. 2012 Oct;13(10):701-12</RefSource>
+                <PMID Version="1">22968153</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Psychiatry. 2015 Jan;28(1):1-6</RefSource>
+                <PMID Version="1">25415497</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Aliment Pharmacol Ther. 2005 Jul 15;22(2):101-10</RefSource>
+                <PMID Version="1">16011668</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med J Aust. 2013 Sep 16;199(6 Suppl):S9-12</RefSource>
+                <PMID Version="1">25370291</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dialogues Clin Neurosci. 2006;8(2):227-39</RefSource>
+                <PMID Version="1">16889108</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Electroencephalogr Clin Neurophysiol. 1996 Sep;99(3):257-66</RefSource>
+                <PMID Version="1">8862115</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Affect Disord. 2012 Dec 1;141(1):55-62</RefSource>
+                <PMID Version="1">22410503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Jan 29;9(1):e87657</RefSource>
+                <PMID Version="1">24489946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2008 Dec;31(12):2383-90</RefSource>
+                <PMID Version="1">19033418</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet Psychiatry. 2016 Jan;3(1):13-5</RefSource>
+                <PMID Version="1">26772057</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med. 2013 May 15;11:129</RefSource>
+                <PMID Version="1">23672628</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet Psychiatry. 2016 Mar;3(3):243-50</RefSource>
+                <PMID Version="1">26803397</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods. 2014 Oct 1;69(3):237-46</RefSource>
+                <PMID Version="1">25025851</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastroenterology. 2002 Apr;122(4):1140-56</RefSource>
+                <PMID Version="1">11910364</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Natl Cancer Inst Monogr. 2004;(32):57-71</RefSource>
+                <PMID Version="1">15263042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastroenterology. 2014 May;146(6):1564-72</RefSource>
+                <PMID Version="1">24503132</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Paediatr. 1999 Sep;88(9):969-74</RefSource>
+                <PMID Version="1">10519339</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Psychiatry. 2013 Jul 24;13:194</RefSource>
+                <PMID Version="1">23883104</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Neural Netw. 2000;11(3):586-600</RefSource>
+                <PMID Version="1">18249787</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 1999 Oct 28;341(18):1329-35</RefSource>
+                <PMID Version="1">10536124</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2014 Jan 23;505(7484):559-63</RefSource>
+                <PMID Version="1">24336217</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Jan 28;9(1):e85733</RefSource>
+                <PMID Version="1">24489669</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Scand J Gastroenterol. 2013 Mar;48(3):295-301</RefSource>
+                <PMID Version="1">23320464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 1992 Jul 18;305(6846):152-6</RefSource>
+                <PMID Version="1">1515829</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Psychiatry. 2017 Jan;39:40-50</RefSource>
+                <PMID Version="1">27810617</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Gastroenterol. 2010 Aug 05;10:88</RefSource>
+                <PMID Version="1">20687933</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Board Fam Med. 2011 Jan-Feb;24(1):33-8</RefSource>
+                <PMID Version="1">21209342</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(10 ):e47713</RefSource>
+                <PMID Version="1">23091640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pediatrics. 2004 Jul;114(1):169-76</RefSource>
+                <PMID Version="1">15231924</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Med. 2013 Apr 24;11:110</RefSource>
+                <PMID Version="1">23618390</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Affect Disord. 2014 Feb;155:261-5</RefSource>
+                <PMID Version="1">24308896</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Affect Disord. 2015 Mar 15;174:215-24</RefSource>
+                <PMID Version="1">25527991</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Bipolar Disord. 2015 Dec;3(1):21</RefSource>
+                <PMID Version="1">26440506</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(12):e52771</RefSource>
+                <PMID Version="1">23300767</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Front Neurorobot. 2013 Dec 04;7:21</RefSource>
+                <PMID Version="1">24409142</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drugs Aging. 2016 Jan;33(1):21-5</RefSource>
+                <PMID Version="1">26547857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2016 Feb 05;11(2):e0148195</RefSource>
+                <PMID Version="1">26848571</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016000" MajorTopicYN="N">Cluster Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019058" MajorTopicYN="N">Community Networks</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015897" MajorTopicYN="N">Comorbidity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003430" MajorTopicYN="N">Cross-Sectional Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003863" MajorTopicYN="N">Depression</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003866" MajorTopicYN="N">Depressive Disorder</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="N">classification</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005767" MajorTopicYN="N">Gastrointestinal Diseases</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016015" MajorTopicYN="Y">Logistic Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="Y">Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009749" MajorTopicYN="N">Nutrition Surveys</DescriptorName>
+                <QualifierName UI="Q000706" MajorTopicYN="N">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011159" MajorTopicYN="N">Population Surveillance</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057566" MajorTopicYN="N">Self Report</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <CoiStatement>JFD has no conflicts of interest in relation to this manuscript. JAP has recently received grant/research support from the National Health and Medical Research Council (NHMRC), BUPA Foundation, Amgen,/GlaxoSmithKline/Osteoporosis Australia/Australian and New Zealand Bone and Mineral Society, Western Alliance, Barwon Health, Deakin University and the Geelong Community Foundation. MB has received Grant/Research Support from the NIH, Cooperative Research Centre, Simons Autism Foundation, Cancer Council of Victoria, Stanley Medical Research Foundation, MBF, NHMRC, Beyond Blue, Rotary Health, Geelong Medical Research Foundation, Bristol Myers Squibb, Eli Lilly, Glaxo SmithKline, Meat and Livestock Board, Organon, Novartis, Mayne Pharma, Servier and Woolworths, has been a speaker for Astra Zeneca, Bristol Myers Squibb, Eli Lilly, Glaxo SmithKline, Janssen Cilag, Lundbeck, Merck, Pfizer, Sanofi Synthelabo, Servier, Solvay and Wyeth, and served as a consultant to Astra Zeneca, Bioadvantex, Bristol Myers Squibb, Eli Lilly, Glaxo SmithKline, Janssen Cilag, Lundbeck Merck and Servier. Drs Copolov, MB and Bush are co-inventors of provisional patent 02799377.3-2107-AU02 “Modulation of physiological process and agents useful for same”. MB and Laupu are co-authors of provisional patent 2014900627 “Modulation of diseases of the central nervous system and related disorders”. MB is supported by a NHMRC Senior Principal Research Fellowship 1059660. LJW is supported by a NHMRC Career Development Fellowship 1064272. SD has received grants/research support from the Stanley Medical Research Institute, NHMRC, Beyond Blue, ARHRF, Simons Foundation, Geelong Medical Research Foundation, Fondation FondaMental, Eli Lilly, Glaxo SmithKline, Organon, Mayne Pharma and Servier, speaker’s fees from Eli Lilly, advisory board fees from Eli Lilly and Novartis, and conference travel support from Servier. FNJ has received Grant/Research support from the Brain and Behaviour Research Institute, the National Health and Medical Research Council (NHMRC), Australian Rotary Health, the Geelong Medical Research Foundation, the Ian Potter Foundation, Eli Lilly, the Meat and Livestock Board and The University of Melbourne and has received speakers honoraria from Sanofi-Synthelabo, Janssen Cilag, Servier, Pfizer, Health Ed, Network Nutrition, Angelini Farmaceutica, and Eli Lilly. She is supported by an NHMRC Career Development Fellowship (#1108125). DM has received grant/research support from the Australian research Council (ARC), Mental Illness Research Fund (MIRF), Victorian Department of Justice, Beyond Blue, Swinburne University of Technology, Federal University. This does not alter our adherence to PLOS ONE policies on sharing data and materials.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27935995</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0167055</ArticleId>
+            <ArticleId IdType="pii">PONE-D-16-22658</ArticleId>
+            <ArticleId IdType="pmc">PMC5147841</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

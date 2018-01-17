@@ -1,0 +1,108 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29170952</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1940-6029</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>1671</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Methods in molecular biology (Clifton, N.J.)</Title>
+                <ISOAbbreviation>Methods Mol. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An Automated Pipeline for Engineering Many-Enzyme Pathways: Computational Sequence Design, Pathway Expression-Flux Mapping, and Scalable Pathway Optimization.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>39-61</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/978-1-4939-7295-1_4</ELocationID>
+            <Abstract>
+                <AbstractText>Engineering many-enzyme metabolic pathways suffers from the design curse of dimensionality. There are an astronomical number of synonymous DNA sequence choices, though relatively few will express an evolutionary robust, maximally productive pathway without metabolic bottlenecks. To solve this challenge, we have developed an integrated, automated computational-experimental pipeline that identifies a pathway's optimal DNA sequence without high-throughput screening or many cycles of design-build-test. The first step applies our Operon Calculator algorithm to design a host-specific evolutionary robust bacterial operon sequence with maximally tunable enzyme expression levels. The second step applies our RBS Library Calculator algorithm to systematically vary enzyme expression levels with the smallest-sized library. After characterizing a small number of constructed pathway variants, measurements are supplied to our Pathway Map Calculator algorithm, which then parameterizes a kinetic metabolic model that ultimately predicts the pathway's optimal enzyme expression levels and DNA sequences. Altogether, our algorithms provide the ability to efficiently map the pathway's sequence-expression-activity space and predict DNA sequences with desired metabolic fluxes. Here, we provide a step-by-step guide to applying the Pathway Optimization Pipeline on a desired multi-enzyme pathway in a bacterial host.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Halper</LastName>
+                    <ForeName>Sean M</ForeName>
+                    <Initials>SM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemical Engineering, Pennsylvania State University, University Park, PA, 16802, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cetnar</LastName>
+                    <ForeName>Daniel P</ForeName>
+                    <Initials>DP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemical Engineering, Pennsylvania State University, University Park, PA, 16802, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Salis</LastName>
+                    <ForeName>Howard M</ForeName>
+                    <Initials>HM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemical Engineering, Pennsylvania State University, University Park, PA, 16802, USA. salis@psu.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biological Engineering, Pennsylvania State University, University Park, PA, 16802, USA. salis@psu.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Methods Mol Biol</MedlineTA>
+            <NlmUniqueID>9214969</NlmUniqueID>
+            <ISSNLinking>1064-3745</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Evolutionary robustness</Keyword>
+            <Keyword MajorTopicYN="N">Expression optimization</Keyword>
+            <Keyword MajorTopicYN="N">Kinetic modeling</Keyword>
+            <Keyword MajorTopicYN="N">Metabolic engineering</Keyword>
+            <Keyword MajorTopicYN="N">Operon design</Keyword>
+            <Keyword MajorTopicYN="N">Synthetic biology</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29170952</ArticleId>
+            <ArticleId IdType="doi">10.1007/978-1-4939-7295-1_4</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

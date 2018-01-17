@@ -1,0 +1,169 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28921541</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automatic labeling of MR brain images through extensible learning and atlas forests.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>6329-6340</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12591</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Multiatlas-based method is extensively used in MR brain images segmentation because of its simplicity and robustness. This method provides excellent accuracy although it is time consuming and limited in terms of obtaining information about new atlases. In this study, an automatic labeling of MR brain images through extensible learning and atlas forest is presented to address these limitations.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We propose an extensible learning model which allows the multiatlas-based framework capable of managing the datasets with numerous atlases or dynamic atlas datasets and simultaneously ensure the accuracy of automatic labeling. Two new strategies are used to reduce the time and space complexity and improve the efficiency of the automatic labeling of brain MR images. First, atlases are encoded to atlas forests through random forest technology to reduce the time consumed for cross-registration between atlases and target image, and a scatter spatial vector is designed to eliminate errors caused by inaccurate registration. Second, an atlas selection method based on the extensible learning model is used to select atlases for target image without traversing the entire dataset and then obtain the accurate labeling.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The labeling results of the proposed method were evaluated in three public datasets, namely, IBSR, LONI LPBA40, and ADNI. With the proposed method, the dice coefficient metric values on the three datasets were 84.17 ± 4.61%, 83.25 ± 4.29%, and 81.88 ± 4.53% which were 5% higher than those of the conventional method, respectively. The efficiency of the extensible learning model was evaluated by state-of-the-art methods for labeling of MR brain images. Experimental results showed that the proposed method could achieve accurate labeling for MR brain images without traversing the entire datasets.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">In the proposed multiatlas-based method, extensible learning and atlas forests were applied to control the automatic labeling of brain anatomies on large atlas datasets or dynamic atlas datasets and obtain accurate results.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Lijun</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Education Ministry for Image Processing and Intelligent Control, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Hong</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Education Ministry for Image Processing and Intelligent Control, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>Enmin</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Education Ministry for Image Processing and Intelligent Control, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Meng</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Education Ministry for Image Processing and Intelligent Control, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jin</LastName>
+                    <ForeName>Renchao</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Education Ministry for Image Processing and Intelligent Control, Wuhan, Hubei, 430074, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hung</LastName>
+                    <ForeName>Chih-Cheng</ForeName>
+                    <Initials>CC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Machine Vision and Security Research, Kennesaw State University, Marietta, GA, 30144, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">atlas selection</Keyword>
+            <Keyword MajorTopicYN="N">brain MR images</Keyword>
+            <Keyword MajorTopicYN="N">image segmentation</Keyword>
+            <Keyword MajorTopicYN="N">learning</Keyword>
+            <Keyword MajorTopicYN="N">random forest</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28921541</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12591</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

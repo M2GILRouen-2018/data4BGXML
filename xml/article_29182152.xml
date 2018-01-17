@@ -1,0 +1,110 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29182152</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-2552</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of neural engineering</Title>
+                <ISOAbbreviation>J Neural Eng</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Decoding of finger trajectory from ECoG using Deep Learning.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1741-2552/aa9dbe</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Conventional decoding pipeline for brain machine interfaces (BMIs) consists of chained different stages of feature extraction, time-frequency analysis and statistical learning models. Each of these stages uses a different algorithm trained in a sequential manner, which makes it difficult to make the whole system adaptive. The goal was to create an adaptive online system with a single objective function and a single learning algorithm so that the whole system can be trained in parallel to increase the decoding performance. Here, we used deep neural networks consisting of convolutional neural networks (CNN) and a special kind of recurrent neural network (RNN) called long short term memory (LSTM) to address these needs. &amp;#13; &amp;#13; Approach: We used electrocorticography (ECoG) data collected by Kubanek et al. The task consisted of individual ﬁnger flexions upon a visual cue. Our model combined a hierarchical feature extractor CNN and a RNN that was able to process sequential data and recognize temporal dynamics in the neural data. CNN was used as the feature extractor and LSTM was used as the regression algorithm to capture the temporal dynamics of the signal. &amp;#13; &amp;#13; Results: We predicted the finger trajectory using ECoG signals and compared results for the least angle regression (LARS), CNN-LSTM, Random Forest, LSTM model (LSTM_HC, for using hard-coded features) and a decoding pipeline consisting of band-pass filtering, energy extraction, feature selection and linear regression. The results showed that the deep learning models performed better than the commonly used linear model. The deep learning models not only gave smoother and more realistic trajectories but also learned the transition between movement and rest state. &amp;#13; &amp;#13; Significance: This study demonstrated a decoding network for BMI that involved a convolutional and recurrent neural network model. It integrated the feature extraction pipeline into the convolution and pooling layer and used LSTM layer to capture the state transitions. The discussed network eliminated the need to separately train the model at each step in the decoding pipeline. The whole system can be jointly optimized using stochastic gradient descent and is capable of online learning. &amp;#13.</AbstractText>
+                <CopyrightInformation>© 2017 IOP Publishing Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Ziqian</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Miami, Coral Gables, Florida, 33124, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schwartz</LastName>
+                    <ForeName>Odelia</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Science, University of Miami, Coral Gables, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Prasad</LastName>
+                    <ForeName>Abhishek</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">0000-0001-9586-9400</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering RMSb 4077, University of Miami, 1600 NW 10th Avenue, Miami, FL 33136, USA, Miami, Florida, UNITED STATES.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Neural Eng</MedlineTA>
+            <NlmUniqueID>101217933</NlmUniqueID>
+            <ISSNLinking>1741-2552</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ECoG</Keyword>
+            <Keyword MajorTopicYN="N">brain machine interface</Keyword>
+            <Keyword MajorTopicYN="N">convolutional neural network</Keyword>
+            <Keyword MajorTopicYN="N">decoding</Keyword>
+            <Keyword MajorTopicYN="N">deep learning</Keyword>
+            <Keyword MajorTopicYN="N">long short term memory</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29182152</ArticleId>
+            <ArticleId IdType="doi">10.1088/1741-2552/aa9dbe</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

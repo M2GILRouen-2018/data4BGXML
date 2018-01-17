@@ -1,0 +1,86 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113352</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Multicolumn RBF Network.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2017.2650865</ELocationID>
+            <Abstract>
+                <AbstractText>This paper proposes the multicolumn RBF network (MCRN) as a method to improve the accuracy and speed of a traditional radial basis function network (RBFN). The RBFN, as a fully connected artificial neural network (ANN), suffers from costly kernel inner-product calculations due to the use of many instances as the centers of hidden units. This issue is not critical for small datasets, as adding more hidden units will not burden the computation time. However, for larger datasets, the RBFN requires many hidden units with several kernel computations to generalize the problem. The MCRN mechanism is constructed based on dividing a dataset into smaller subsets using the k-d tree algorithm. N resultant subsets are considered as separate training datasets to train $N$ individual RBFNs. Those small RBFNs are stacked in parallel and bulged into the MCRN structure during testing. The MCRN is considered as a well-developed and easy-to-use parallel structure, because each individual ANN has been trained on its own subsets and is completely separate from the other ANNs. This parallelized structure reduces the testing time compared with that of a single but larger RBFN, which cannot be easily parallelized due to its fully connected structure. Small informative subsets provide the MCRN with a regional experience to specify the problem instead of generalizing it. The MCRN has been tested on many benchmark datasets and has shown better accuracy and great improvements in training and testing times compared with a single RBFN. The MCRN also shows good results compared with those of some machine learning techniques, such as the support vector machine and k-nearest neighbors.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hoori</LastName>
+                    <ForeName>Ammar O</ForeName>
+                    <Initials>AO</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Motai</LastName>
+                    <ForeName>Yuichi</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113352</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2017.2650865</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

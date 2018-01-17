@@ -1,0 +1,133 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29183738</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2860</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Artificial intelligence in medicine</Title>
+                <ISOAbbreviation>Artif Intell Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>isGPT: An optimized model to identify sub-Golgi protein types using SVM and Random Forest based feature selection.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0933-3657(17)30517-1</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.artmed.2017.11.003</ELocationID>
+            <Abstract>
+                <AbstractText>The Golgi Apparatus (GA) is a key organelle for protein synthesis within the eukaryotic cell. The main task of GA is to modify and sort proteins for transport throughout the cell. Proteins permeate through the GA on the ER (Endoplasmic Reticulum) facing side (cis side) and depart on the other side (trans side). Based on this phenomenon, we get two types of GA proteins, namely, cis-Golgi protein and trans-Golgi protein. Any dysfunction of GA proteins can result in congenital glycosylation disorders and some other forms of difficulties that may lead to neurodegenerative and inherited diseases like diabetes, cancer and cystic fibrosis. So, the exact classification of GA proteins may contribute to drug development which will further help in medication. In this paper, we focus on building a new computational model that not only introduces easy ways to extract features from protein sequences but also optimizes classification of trans-Golgi and cis-Golgi proteins. After feature extraction, we have employed Random Forest (RF) model to rank the features based on the importance score obtained from it. After selecting the top ranked features, we have applied Support Vector Machine (SVM) to classify the sub-Golgi proteins. We have trained regression model as well as classification model and found the former to be superior. The model shows improved performance over all previous methods. As the benchmark dataset is significantly imbalanced, we have applied Synthetic Minority Over-sampling Technique (SMOTE) to the dataset to make it balanced and have conducted experiments on both versions. Our method, namely, identification of sub-Golgi Protein Types (isGPT), achieves accuracy values of 95.4%, 95.9% and 95.3% for 10-fold cross-validation test, jackknife test and independent test respectively. According to different performance metrics, isGPT performs better than state-of-the-art techniques. The source code of isGPT, along with relevant dataset and detailed experimental results, can be found at https://github.com/srautonu/isGPT.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rahman</LastName>
+                    <ForeName>M Saifur</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of CSE, BUET, ECE Building, West Palasi, Dhaka 1205, Bangladesh. Electronic address: mrahman@cse.buet.ac.bd.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rahman</LastName>
+                    <ForeName>Md Khaledur</ForeName>
+                    <Initials>MK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Indiana University, Bloomington, USA. Electronic address: morahma@iu.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kaykobad</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of CSE, BUET, ECE Building, West Palasi, Dhaka 1205, Bangladesh. Electronic address: kaykobad@cse.buet.ac.bd.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rahman</LastName>
+                    <ForeName>M Sohel</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of CSE, BUET, ECE Building, West Palasi, Dhaka 1205, Bangladesh. Electronic address: msrahman@cse.buet.ac.bd.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Artif Intell Med</MedlineTA>
+            <NlmUniqueID>8915031</NlmUniqueID>
+            <ISSNLinking>0933-3657</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">Random Forest</Keyword>
+            <Keyword MajorTopicYN="N">Regression</Keyword>
+            <Keyword MajorTopicYN="N">Sub-Golgi Apparatus</Keyword>
+            <Keyword MajorTopicYN="N">Support vector machine</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29183738</ArticleId>
+            <ArticleId IdType="pii">S0933-3657(17)30517-1</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.artmed.2017.11.003</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

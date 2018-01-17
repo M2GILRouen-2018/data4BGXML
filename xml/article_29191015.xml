@@ -1,0 +1,98 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29191015</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-9626</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical theory and computation</Title>
+                <ISOAbbreviation>J Chem Theory Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dynamics Sampling in Transition Pathway Space.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>14-29</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jctc.7b00606</ELocationID>
+            <Abstract>
+                <AbstractText>The minimum energy pathway contains important information describing the transition between two states on a potential energy surface (PES). Chain-of-states methods were developed to efficiently calculate minimum energy pathways connecting two stable states. In the chain-of-states framework, a series of structures are generated and optimized to represent the minimum energy pathway connecting two states. However, multiple pathways may exist connecting two existing states and should be identified to obtain a full view of the transitions. Therefore, we developed an enhanced sampling method, named as the direct pathway dynamics sampling (DPDS) method, to facilitate exploration of a PES for multiple pathways connecting two stable states as well as addition minima and their associated transition pathways. In the DPDS method, molecular dynamics simulations are carried out on the targeting PES within a chain-of-states framework to directly sample the transition pathway space. The simulations of DPDS could be regulated by two parameters controlling distance among states along the pathway and smoothness of the pathway. One advantage of the chain-of-states framework is that no specific reaction coordinates are necessary to generate the reaction pathway, because such information is implicitly represented by the structures along the pathway. The chain-of-states setup in a DPDS method greatly enhances the sufficient sampling in high-energy space between two end states, such as transition states. By removing the constraint on the end states of the pathway, DPDS will also sample pathways connecting minima on a PES in addition to the end points of the starting pathway. This feature makes DPDS an ideal method to directly explore transition pathway space. Three examples demonstrate the efficiency of DPDS methods in sampling the high-energy area important for reactions on the PES.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Hongyu</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Center for Drug Discovery, Design, and Delivery (CD4), Center for Scientific Computation, Southern Methodist University , Dallas, Texas 75275, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tao</LastName>
+                    <ForeName>Peng</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2488-0239</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, Center for Drug Discovery, Design, and Delivery (CD4), Center for Scientific Computation, Southern Methodist University , Dallas, Texas 75275, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Theory Comput</MedlineTA>
+            <NlmUniqueID>101232704</NlmUniqueID>
+            <ISSNLinking>1549-9618</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29191015</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jctc.7b00606</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

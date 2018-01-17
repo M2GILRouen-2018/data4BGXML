@@ -1,0 +1,93 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113995</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>46</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Optimal Output-Feedback Control of Unknown Continuous-Time Linear Systems Using Off-policy Reinforcement Learning.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2401-2410</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2015.2477810</ELocationID>
+            <Abstract>
+                <AbstractText>A model-free off-policy reinforcement learning algorithm is developed to learn the optimal output-feedback (OPFB) solution for linear continuous-time systems. The proposed algorithm has the important feature of being applicable to the design of optimal OPFB controllers for both regulation and tracking problems. To provide a unified framework for both optimal regulation and tracking, a discounted performance function is employed and a discounted algebraic Riccati equation (ARE) is derived which gives the solution to the problem. Conditions on the existence of a solution to the discounted ARE are provided and an upper bound for the discount factor is found to assure the stability of the optimal control solution. To develop an optimal OPFB controller, it is first shown that the system state can be constructed using some limited observations on the system output over a period of the history of the system. A Bellman equation is then developed to evaluate a control policy and find an improved policy simultaneously using only some limited observations on the system output. Then, using this Bellman equation, a model-free Off-policy RL-based OPFB controller is developed without requiring the knowledge of the system state or the system dynamics. It is shown that the proposed OPFB method is more powerful than the static OPFB as it is equivalent to a state-feedback control policy. The proposed method is successfully used to solve a regulation and a tracking problem.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Modares</LastName>
+                    <ForeName>Hamidreza</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lewis</LastName>
+                    <ForeName>Frank L</ForeName>
+                    <Initials>FL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhong-Ping Jiang</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113995</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2015.2477810</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

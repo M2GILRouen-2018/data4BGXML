@@ -1,0 +1,152 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">8528758</PMID>
+        <DateCreated>
+            <Year>1996</Year>
+            <Month>01</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>1996</Year>
+            <Month>01</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2006</Year>
+            <Month>11</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1081-5589</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>43</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>1995</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of investigative medicine : the official publication of the American Federation for Clinical Research</Title>
+                <ISOAbbreviation>J. Investig. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A comparison of performance of mathematical predictive methods for medical diagnosis: identifying acute cardiac ischemia among emergency department patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>468-76</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">There is increasing interest in mathematical methods for the prediction of medical outcomes. Three methods have attracted particular attention: logistic regression, classification trees (such as ID3 and CART), and neural networks. To compare their relative performance, we used a large clinical database to develop and compare models using these methods.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Each modeling method was used to generate predictive instruments for acute cardiac ischemia (which includes acute myocardial infarction and unstable angina pectoris), using prospectivel-collected clinical data on 5773 patients, who presented over a two year period to six hospitals' emergency departments with chest pain or symptoms suggesting acute ischemia. This data set was then split into training (n = 3453) and test (n = 2320) sets. Of 200 available variables, modeling was restricted to those available within the first 10 minutes of emergency department care (history, physical exam, and electrocardiogram).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">When the number of variables was limited to eight, representing a practical number for input in the real-time clinical setting, the logistic regression's receiver-operating characteristic (ROC) curve area, as a measure of diagnostic performance, was 0.887; the classification tree model's ROC curve area was 0.858, and the neural network's ROC curve area was 0.902. When the number of variables used by a model was not limited, the logistic regression's ROC area was 0.905, the classification tree model's 0.861, and the neural network's 0.923. Among these models the neural networks had noticeably poorer calibration. When the outputs from each of these unrestricted models were presented to each of the other methods as an additional independent variable, the ROC areas of the new &quot;hybrid&quot; models were not significantly better than the original unlimited models (ROC areas 0.858 to 0.920).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Logistic regression, classification tree, and neural network models all can provide excellent predictive performance of medical outcomes for clinical decision aids and policy models. Their ultimate limitations seem due to the availability of the information in data (a &quot;data barrier&quot;) rather than their respective intrinsic properties. Choices between these methods would seem to be most appropriately based on the needs of the specific application, rather than on the premise that any one of these methods is intrinsically more powerful.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Selker</LastName>
+                    <ForeName>H P</ForeName>
+                    <Initials>HP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, New England Medical Center, Boston, MA 02111, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Griffith</LastName>
+                    <ForeName>J L</ForeName>
+                    <Initials>JL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Patil</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Long</LastName>
+                    <ForeName>W J</ForeName>
+                    <Initials>WJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>D'Agostino</LastName>
+                    <ForeName>R B</ForeName>
+                    <Initials>RB</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016430">Clinical Trial</PublicationType>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016448">Multicenter Study</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Investig Med</MedlineTA>
+            <NlmUniqueID>9501229</NlmUniqueID>
+            <ISSNLinking>1081-5589</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003327" MajorTopicYN="N">Coronary Disease</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003663" MajorTopicYN="Y">Decision Trees</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004630" MajorTopicYN="N">Emergencies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016015" MajorTopicYN="Y">Logistic Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="N">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="Y">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011446" MajorTopicYN="N">Prospective Studies</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>1995</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>1995</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>1995</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">8528758</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

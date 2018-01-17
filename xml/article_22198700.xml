@@ -1,0 +1,260 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27307607</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>06</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>31</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>32</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jun</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel method for discovering local spatial clusters of genomic regions with functional relationships from DNA contact maps.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>i111-i120</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btw256</ELocationID>
+            <Abstract>
+                <AbstractText Label="MOTIVATION" NlmCategory="BACKGROUND">The three-dimensional structure of genomes makes it possible for genomic regions not adjacent in the primary sequence to be spatially proximal. These DNA contacts have been found to be related to various molecular activities. Previous methods for analyzing DNA contact maps obtained from Hi-C experiments have largely focused on studying individual interactions, forming spatial clusters composed of contiguous blocks of genomic locations, or classifying these clusters into general categories based on some global properties of the contact maps.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here, we describe a novel computational method that can flexibly identify small clusters of spatially proximal genomic regions based on their local contact patterns. Using simulated data that highly resemble Hi-C data obtained from real genome structures, we demonstrate that our method identifies spatial clusters that are more compact than methods previously used for clustering genomic regions based on DNA contact maps. The clusters identified by our method enable us to confirm functionally related genomic regions previously reported to be spatially proximal in different species. We further show that each genomic region can be assigned a numeric affinity value that indicates its degree of participation in each local cluster, and these affinity values correlate quantitatively with DNase I hypersensitivity, gene expression, super enhancer activities and replication timing in a cell type specific manner. We also show that these cluster affinity values can precisely define boundaries of reported topologically associating domains, and further define local sub-domains within each domain.</AbstractText>
+                <AbstractText Label="AVAILABILITY AND IMPLEMENTATION" NlmCategory="METHODS">The source code of BNMF and tutorials on how to use the software to extract local clusters from contact maps are available at http://yiplab.cse.cuhk.edu.hk/bnmf/</AbstractText>
+                <AbstractText Label="CONTACT" NlmCategory="BACKGROUND">kevinyip@cse.cuhk.edu.hk</AbstractText>
+                <AbstractText Label="SUPPLEMENTARY INFORMATION" NlmCategory="BACKGROUND">Supplementary data are available at Bioinformatics online.</AbstractText>
+                <CopyrightInformation>© The Author 2016. Published by Oxford University Press.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Xihao</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Engineering.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Christina Huan</ForeName>
+                    <Initials>CH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Engineering.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yip</LastName>
+                    <ForeName>Kevin Y</ForeName>
+                    <Initials>KY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Engineering Hong Kong Bioinformatics Centre CUHK-BGI Innovation Institute of Trans-omics Hong Kong Institute of Diabetes and Obesity, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>9007-49-2</RegistryNumber>
+                <NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2013 Nov 7;155(4):934-47</RefSource>
+                <PMID Version="1">24119843</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2014 Dec 18;159(7):1665-80</RefSource>
+                <PMID Version="1">25497547</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2013 Nov 14;503(7475):290-4</RefSource>
+                <PMID Version="1">24141950</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2008 Jul 25;4(7):e1000029</RefSource>
+                <PMID Version="1">18654623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1999 Oct 21;401(6755):788-91</RefSource>
+                <PMID Version="1">10548103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Oct;9(10):999-1003</RefSource>
+                <PMID Version="1">22941365</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2002 Jun;12(6):996-1006</RefSource>
+                <PMID Version="1">12045153</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2009 Nov 5;462(7269):58-64</RefSource>
+                <PMID Version="1">19890323</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 May 20;465(7296):363-7</RefSource>
+                <PMID Version="1">20436457</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Apr 11;485(7398):376-80</RefSource>
+                <PMID Version="1">22495300</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Sep 6;489(7414):57-74</RefSource>
+                <PMID Version="1">22955616</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2013 Oct 3;502(7469):59-64</RefSource>
+                <PMID Version="1">24067610</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Dec 1;28(23):3131-3</RefSource>
+                <PMID Version="1">23023982</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 May 1;41(10):5164-74</RefSource>
+                <PMID Version="1">23571755</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cold Spring Harb Perspect Biol. 2010 Mar;2(3):a003889</RefSource>
+                <PMID Version="1">20300217</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2014 Jun;24(6):974-88</RefSource>
+                <PMID Version="1">24671853</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Jun 15;30(12):i26-33</RefSource>
+                <PMID Version="1">24931992</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2012 Mar 2;148(5):908-21</RefSource>
+                <PMID Version="1">22341456</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2012 Jul;22(7):1295-305</RefSource>
+                <PMID Version="1">22619363</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2001 Apr;2(4):292-301</RefSource>
+                <PMID Version="1">11283701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2011 Oct 16;43(11):1059-65</RefSource>
+                <PMID Version="1">22001755</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Apr 11;485(7398):381-5</RefSource>
+                <PMID Version="1">22495304</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2009 Oct 9;326(5950):289-93</RefSource>
+                <PMID Version="1">19815776</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Aug 1;24(15):1722-8</RefSource>
+                <PMID Version="1">18556670</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2012 Aug 30;13:436</RefSource>
+                <PMID Version="1">22935139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2010 Jun;20(6):761-70</RefSource>
+                <PMID Version="1">20430782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2012 Feb 3;148(3):458-72</RefSource>
+                <PMID Version="1">22265598</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2015 Jan;12(1):71-8</RefSource>
+                <PMID Version="1">25437436</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2011 Dec 25;30(1):90-8</RefSource>
+                <PMID Version="1">22198700</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D004247" MajorTopicYN="N">DNA</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016678" MajorTopicYN="N">Genome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023281" MajorTopicYN="Y">Genomics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011381" MajorTopicYN="N">Programming Languages</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4908340</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27307607</ArticleId>
+            <ArticleId IdType="pii">btw256</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btw256</ArticleId>
+            <ArticleId IdType="pmc">PMC4908340</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

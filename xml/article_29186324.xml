@@ -1,0 +1,115 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186324</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Robust Inference of Population Structure from Next-Generation Sequencing Data with Systematic Differences in Sequencing.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx708</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Inferring population structure is important for both population genetics and genetic epidemiology. Principal components analysis (PCA) has been effective in ascertaining population structure with array genotype data but can be difficult to use with sequencing data, especially when low depth leads to uncertainty in called genotypes. Because PCA is sensitive to differences in variability, PCA using sequencing data can result in components that correspond to differences in sequencing quality (read depth and error rate), rather than differences in population structure. We demonstrate that even existing methods for PCA specifically designed for sequencing data can still yield biased conclusions when used with data having sequencing properties that are systematically different across different groups of samples (i.e., sequencing groups). This situation can arise in population genetics when combining sequencing data from different studies, or in genetic epidemiology when using historical controls such as samples from the 1000 Genomes Project.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">To allow inference on population structure using PCA in these situations, we provide an approach that is based on using sequencing reads directly without calling genotypes. Our approach is to adjust the data from different sequencing groups to have the same read depth and error rate so that PCA does not generate spurious components representing sequencing quality. To accomplish this, we have developed a subsampling procedure to match the depth distributions in different sequencing groups, and a read-flipping procedure to match the error rates. We average over subsamples and read flips to minimize loss of information. We demonstrate the utility of our approach using two datasets from 1000 Genomes, and further evaluate it using simulation studies.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">TASER-PC software is publicly available at http://web1.sph.emory.edu/users/yhu30/software.html.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">yijuan.hu@emory.edu.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liao</LastName>
+                    <ForeName>Peizhou</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, 30322, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Satten</LastName>
+                    <ForeName>Glen A</ForeName>
+                    <Initials>GA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centers for Disease Control and Prevention, Atlanta, GA, 30333, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Yi-Juan</ForeName>
+                    <Initials>YJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, 30322, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186324</ArticleId>
+            <ArticleId IdType="pii">4665415</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx708</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

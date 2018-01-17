@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28106615</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1536-0210</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>52</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Investigative radiology</Title>
+                <ISOAbbreviation>Invest Radiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Metal Artifact Reduction in X-ray Computed Tomography Using Computer-Aided Design Data of Implants as Prior Information.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>349-359</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/RLI.0000000000000345</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">The performance of metal artifact reduction (MAR) methods in x-ray computed tomography (CT) suffers from incorrect identification of metallic implants in the artifact-affected volumetric images. The aim of this study was to investigate potential improvements of state-of-the-art MAR methods by using prior information on geometry and material of the implant.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">The influence of a novel prior knowledge-based segmentation (PS) compared with threshold-based segmentation (TS) on 2 MAR methods (linear interpolation [LI] and normalized-MAR [NORMAR]) was investigated. The segmentation is the initial step of both MAR methods. Prior knowledge-based segmentation uses 3-dimensional registered computer-aided design (CAD) data as prior knowledge to estimate the correct position and orientation of the metallic objects. Threshold-based segmentation uses an adaptive threshold to identify metal. Subsequently, for LI and NORMAR, the selected voxels are projected into the raw data domain to mark metal areas. Attenuation values in these areas are replaced by different interpolation schemes followed by a second reconstruction. Finally, the previously selected metal voxels are replaced by the metal voxels determined by PS or TS in the initial reconstruction. First, we investigated in an elaborate phantom study if the knowledge of the exact implant shape extracted from the CAD data provided by the manufacturer of the implant can improve the MAR result. Second, the leg of a human cadaver was scanned using a clinical CT system before and after the implantation of an artificial knee joint. The results were compared regarding segmentation accuracy, CT number accuracy, and the restoration of distorted structures.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The use of PS improved the efficacy of LI and NORMAR compared with TS. Artifacts caused by insufficient segmentation were reduced, and additional information was made available within the projection data. The estimation of the implant shape was more exact and not dependent on a threshold value. Consequently, the visibility of structures was improved when comparing the new approach to the standard method. This was further confirmed by improved CT value accuracy and reduced image noise.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The PS approach based on prior implant information provides image quality which is superior to TS-based MAR, especially when the shape of the metallic implant is complex. The new approach can be useful for improving MAR methods and dose calculations within radiation therapy based on the MAR corrected CT images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ruth</LastName>
+                    <ForeName>Veikko</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>From the *Institute of Medical Physics, University of Erlangen-Nürnberg, Germany; †AB-CT - Advanced Breast-CT GmbH, Erlangen, Germany; and ‡Institute of Radiology, University Hospital Erlangen, Erlangen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kolditz</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steiding</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kalender</LastName>
+                    <ForeName>Willi A</ForeName>
+                    <Initials>WA</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Invest Radiol</MedlineTA>
+            <NlmUniqueID>0045377</NlmUniqueID>
+            <ISSNLinking>0020-9996</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28106615</ArticleId>
+            <ArticleId IdType="doi">10.1097/RLI.0000000000000345</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

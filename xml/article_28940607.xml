@@ -1,0 +1,145 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28940607</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fast segmentation of kidney components using random forests and ferns.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>6353-6363</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12594</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">This paper studies the feasibility of developing a fast and accurate automatic kidney component segmentation method. The proposed method segments the kidney into four components: renal cortex, renal column, renal medulla, and renal pelvis.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">In this article, we have proposed a highly efficient approach which strategically combines random forests and random ferns methods to segment the kidney into four components: renal cortex, renal column, renal medulla, and renal pelvis. The proposed method is designed following a coarse-to-fine strategy. The initial segmentation applies random forests and random ferns with a variety of features, and combines their results to obtain a coarse renal cortex region. Then the fine segmentation of four kidney components is achieved using the weighted forests-ferns approach with the well-designed potential energy features which are calculated based on the initial segmentation result. The proposed method was validated on a dataset with 37 contrast-enhanced CT images. Evaluation indices including Dice similarity coefficient (DSC), true positive volume fraction (TPVF), and false positive volume fraction (FPVF) are used to assess the segmentation accuracy. The proposed method was implemented and tested on a 64-bit system computer (Intel Core i7-3770 CPU, 3.4 GHz and 8 GB RAM).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The experimental results demonstrated the high accuracy and efficiency for segmenting the kidney components: the mean Dice similarity coefficients were 89.85%, 80.60%, 86.63%, and 77.75% for renal cortex, column, medulla, and pelvis, respectively, for right and left kidneys. The computational time of segmenting the whole kidney into four components was about 3 s.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The experimental results showed the feasibility and efficacy of the proposed automatic kidney component segmentation method. The proposed method applied an efficient weighted strategy to combine random forests and ferns, making full use of the advantages of both methods. The novel potential energy features help random forests effectively segment the kidney components and the background. The high accuracy and efficiency of our method make it practicable in clinical applications.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jin</LastName>
+                    <ForeName>Chao</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Fei</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiang</LastName>
+                    <ForeName>Dehui</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Lichun</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Xinjian</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">kidney components</Keyword>
+            <Keyword MajorTopicYN="N">random ferns</Keyword>
+            <Keyword MajorTopicYN="N">random forests</Keyword>
+            <Keyword MajorTopicYN="N">segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28940607</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12594</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

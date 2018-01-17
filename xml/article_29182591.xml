@@ -1,0 +1,149 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29182591</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ECG Signal De-noising and Baseline Wander Correction Based on CEEMDAN and Wavelet Threshold.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2754</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17122754</ELocationID>
+            <Abstract>
+                <AbstractText>A novel electrocardiogram (ECG) signal de-noising and baseline wander correction method based on complete ensemble empirical mode decomposition with adaptive noise (CEEMDAN) and wavelet threshold is proposed. Although CEEMDAN is based on empirical mode decomposition (EMD), it represents a significant improvement of the original EMD by overcoming the mode-mixing problem. However, there has been no previous study on using CEEMDAN to de-noise ECG signals, to the authors' best knowledge. In the proposed method, the original noisy ECG signal is decomposed into a series of intrinsic mode functions (IMFs) sorted from high to low frequency by CEEMDAN. Each IMF is then analyzed by the autocorrelation method to find out the first few high frequency IMFs containing random noise, and these IMFs should be de-noised by the wavelet threshold. The zero-crossing rate (ZCR) of all IMFs, including final residue, are computed, and the IMFs with ZCR less than a certain value are removed. Finally, the remaining IMFs are reconstructed to obtain the clean ECG signal. The proposed algorithm is validated through experiments using the MIT-BIH ECG databases, and the results show that the random noise in the ECG signal can be effectively suppressed, and at the same time the baseline wander can be corrected efficiently.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Yang</ForeName>
+                    <Initials>Y</Initials>
+                    <Identifier Source="ORCID">0000-0003-0175-4579</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Electronics &amp; Information School, Yangtze University, Jingzhou 434023, China. xuyang@yangtzeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Demonstration Center for Experimental Electrotechnics and Electronics Education, Yangtze University, Jingzhou 434023, China. xuyang@yangtzeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Mingzhang</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electronics &amp; Information School, Yangtze University, Jingzhou 434023, China. lmz@yangtzeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Demonstration Center for Experimental Electrotechnics and Electronics Education, Yangtze University, Jingzhou 434023, China. lmz@yangtzeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Tao</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electronics &amp; Information School, Yangtze University, Jingzhou 434023, China. ailin@yangtzeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Demonstration Center for Experimental Electrotechnics and Electronics Education, Yangtze University, Jingzhou 434023, China. ailin@yangtzeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>Gangbing</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Electronics &amp; Information School, Yangtze University, Jingzhou 434023, China. gsong@uh.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical Engineering, University of Houston, Houston, TX 77004, USA. gsong@uh.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">baseline wander</Keyword>
+            <Keyword MajorTopicYN="N">complete ensemble empirical mode decomposition with adaptive noise (CEEMDAN)</Keyword>
+            <Keyword MajorTopicYN="N">de-noise</Keyword>
+            <Keyword MajorTopicYN="N">electrocardiogram (ECG) signal</Keyword>
+            <Keyword MajorTopicYN="N">random noise</Keyword>
+            <Keyword MajorTopicYN="N">wavelet threshold</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29182591</ArticleId>
+            <ArticleId IdType="pii">s17122754</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17122754</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

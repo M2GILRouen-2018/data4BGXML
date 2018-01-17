@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28141531</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Feature Combination via Clustering.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2645883</ELocationID>
+            <Abstract>
+                <AbstractText>In image classification, feature combination is often used to combine the merits of multiple complementary features and improve the classification accuracy compared with one single feature. Existing feature combination algorithms, e.g., multiple kernel learning, usually determine the weights of features based on the optimization with respect to some classifier-dependent objective function. These algorithms are often computationally expensive, and in some cases are found to perform no better than simple baselines. In this paper, we solve the feature combination problem from a totally different perspective. Our algorithm is based on the simple idea of combining only base kernels suitable to be combined. Since the very aim of feature combination is to obtain the highest possible classification accuracy, we measure the combination suitableness of two base kernels by the maximum possible cross-validation accuracy of their combined kernel. By regarding the pairwise suitableness as the kernel adjacency, we obtain a weighted graph of all base kernels and find that the base kernels suitable to be combined correspond to a cluster in the graph. We then use the dominant sets algorithm to find the cluster and determine the weights of base kernels automatically. In this way, we transform the kernel combination problem into a clustering one. Our algorithm can be implemented in parallel easily and the running time can be adjusted based on available memory to a large extent. In experiments on several data sets, our algorithm generates comparable classification accuracy with the state of the art.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hou</LastName>
+                    <ForeName>Jian</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gao</LastName>
+                    <ForeName>Huijun</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Xuelong</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28141531</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2645883</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

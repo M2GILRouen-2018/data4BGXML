@@ -1,0 +1,142 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28114107</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-6560</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>62</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Feb</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physics in medicine and biology</Title>
+                <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Generation of synthetic CT data using patient specific daily MR image data and image registration.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1358-1377</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/aa5200</ELocationID>
+            <Abstract>
+                <AbstractText>To fully exploit the advantages of magnetic resonance imaging (MRI) for radiotherapy (RT) treatment planning, a method is required to overcome the problem of lacking electron density information. We aim to establish and evaluate a new method for computed tomography (CT) data generation based on MRI and image registration. The thereby generated CT data is used for dose accumulation. We developed a process flow based on an initial pair of rigidly co-registered CT and T2-weighted MR image representing the same anatomical situation. Deformable image registration using anatomical landmarks is performed between the initial MRI data and daily MR images. The resulting transformation is applied to the initial CT, thus fractional CT data is generated. Furthermore, the dose for a photon intensity modulated RT (IMRT) or intensity modulated proton therapy (IMPT) plan is calculated on the generated fractional CT and accumulated on the initial CT via inverse transformation. The method is evaluated by the use of phantom CT and MRI data. Quantitative validation is performed by evaluation of the mean absolute error (MAE) between the measured and the generated CT. The effect on dose accumulation is examined by means of dose-volume parameters. One patient case is presented to demonstrate the applicability of the method introduced here. Overall, CT data derivation lead to MAEs with a median of 37.0 HU ranging from 29.9 to 66.6 HU for all investigated tissues. The accuracy of image registration showed to be limited in the case of unexpected air cavities and at tissue boundaries. The comparisons of dose distributions based on measured and generated CT data agree well with the published literature. Differences in dose volume parameters kept within 1.6% and 3.2% for photon and proton RT, respectively. The method presented here is particularly suited for application in adaptive RT in current clinical routine, since only minor additional technical equipment is required.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kraus</LastName>
+                    <ForeName>Kim Melanie</ForeName>
+                    <Initials>KM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology and Radiation Therapy, University of Heidelberg, Germany, Im Neuenheimer Feld 400, 69120 Heidelberg, Germany. Department of Medical Physics in Radiation Oncology, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, 69120 Heidelberg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jäkel</LastName>
+                    <ForeName>Oliver</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Niebuhr</LastName>
+                    <ForeName>Nina I</ForeName>
+                    <Initials>NI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pfaffenberger</LastName>
+                    <ForeName>Asja</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Phys Med Biol</MedlineTA>
+            <NlmUniqueID>0401220</NlmUniqueID>
+            <ISSNLinking>0031-9155</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="N">Magnetic Resonance Imaging</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D066230" MajorTopicYN="Y">Patient-Specific Modeling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019047" MajorTopicYN="N">Phantoms, Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061766" MajorTopicYN="N">Proton Therapy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011880" MajorTopicYN="N">Radiotherapy Planning, Computer-Assisted</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D050397" MajorTopicYN="N">Radiotherapy, Intensity-Modulated</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28114107</ArticleId>
+            <ArticleId IdType="doi">10.1088/1361-6560/aa5200</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

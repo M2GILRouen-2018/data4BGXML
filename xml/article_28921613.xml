@@ -1,0 +1,149 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28921613</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Voxel-based multimodel fitting method for modeling time activity curves in SPECT images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>6280-6288</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12586</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Estimating the biodistribution and the pharmacokinetics from time-sequence SPECT images on a per-voxel basis is useful for studying activity nonuniformity or computing absorbed dose distributions by convolution of voxel kernels or Monte-Carlo radiation transport. Current approaches are either region-based, thus assuming uniform activity within the region, or voxel-based but using the same fitting model for all voxels.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We propose a voxel-based multimodel fitting method (VoMM) that estimates a fitting function for each voxel by automatically selecting the most appropriate model among a predetermined set with Akaike criteria. This approach can be used to compute the time integrated activity (TIA) for all voxels in the image. To control fitting optimization that may fail due to excessive image noise, an approximated version based on trapezoid integration, named restricted method, is also studied. From this comparison, the number of failed fittings within images was estimated and analyzed. Numerical experiments were used to quantify uncertainties and feasibility was demonstrated with real patient data.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Regarding numerical experiments, root mean square errors of TIA obtained with VoMM were similar to those obtained with bi-exponential fitting functions, and were lower (&lt; 5% vs.  &gt; 10%) than with single model approaches that consider the same fitting function for all voxels. Failure rates were lower with VoMM and restricted approaches than with single-model methods. On real clinical data, VoMM was able to fit 90% of the voxels and led to less failed fits than single-model approaches. On regions of interest (ROI) analysis, the difference between ROI-based and voxel-based TIA estimations was low, less than 4%. However, the computation of the mean residence time exhibited larger differences, up to 25%.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The proposed voxel-based multimodel fitting method, VoMM, is feasible on patient data. VoMM leads organ-based TIA estimations similar to conventional ROI-based method. However, for pharmacokinetics analysis, studies of spatial heterogeneity or voxel-based absorbed dose assessment, VoMM could be used preferentially as it prevents model overfitting.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sarrut</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Lyon, CREATIS, CNRS UMR5220, Inserm U1044, INSA-Lyon, Université Lyon 1, Centre Léon Bérard, Lyon, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Halty</LastName>
+                    <ForeName>Adrien</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Lyon, CREATIS, CNRS UMR5220, Inserm U1044, INSA-Lyon, Université Lyon 1, Centre Léon Bérard, Lyon, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Badel</LastName>
+                    <ForeName>Jean-Noel</ForeName>
+                    <Initials>JN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Lyon, CREATIS, CNRS UMR5220, Inserm U1044, INSA-Lyon, Université Lyon 1, Centre Léon Bérard, Lyon, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ferrer</LastName>
+                    <ForeName>Ludovic</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Physics Department, ICO René Gauducheau, St Herblain, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>CRCINA UMR 892, Nantes, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bardiès</LastName>
+                    <ForeName>Manuel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Inserm UMR1037, CRCT, Université Toulouse III-Paul Sabatier, F-31000, Toulouse, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">SPECT</Keyword>
+            <Keyword MajorTopicYN="N">dosimetry</Keyword>
+            <Keyword MajorTopicYN="N">targeted radionuclide therapy</Keyword>
+            <Keyword MajorTopicYN="N">time activity curve</Keyword>
+            <Keyword MajorTopicYN="N">voxel-based</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28921613</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12586</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

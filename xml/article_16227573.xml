@@ -1,0 +1,599 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29151691</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2219-2840</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>23</Volume>
+                    <Issue>41</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>World journal of gastroenterology</Title>
+                <ISOAbbreviation>World J. Gastroenterol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Parallel mRNA, proteomics and miRNA expression analysis in cell line models of the intestine.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>7369-7386</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3748/wjg.v23.i41.7369</ELocationID>
+            <Abstract>
+                <AbstractText Label="AIM" NlmCategory="OBJECTIVE">To identify miRNA-regulated proteins differentially expressed between Caco2 and HT-29: two principal cell line models of the intestine.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Exponentially growing Caco-2 and HT-29 cells were harvested and prepared for mRNA, miRNA and proteomic profiling. mRNA microarray profiling analysis was carried out using the Affymetrix GeneChip Human Gene 1.0 ST array. miRNA microarray profiling analysis was carried out using the Affymetrix Genechip miRNA 3.0 array. Quantitative Label-free LC-MS/MS proteomic analysis was performed using a Dionex Ultimate 3000 RSLCnano system coupled to a hybrid linear ion trap/Orbitrap mass spectrometer. Peptide identities were validated in Proteome Discoverer 2.1 and were subsequently imported into Progenesis QI software for further analysis. Hierarchical cluster analysis for all three parallel datasets (miRNA, proteomics, mRNA) was conducted in the R software environment using the Euclidean distance measure and Ward's clustering algorithm. The prediction of miRNA and oppositely correlated protein/mRNA interactions was performed using TargetScan 6.1. GO biological process, molecular function and cellular component enrichment analysis was carried out for the DE miRNA, protein and mRNA lists via the Pathway Studio 11.3 Web interface using their Mammalian database.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Differential expression (DE) profiling comparing the intestinal cell lines HT-29 and Caco-2 identified 1795 Genes, 168 Proteins and 160 miRNAs as DE between the two cell lines. At the gene level, 1084 genes were upregulated and 711 were downregulated in the Caco-2 cell line relative to the HT-29 cell line. At the protein level, 57 proteins were found to be upregulated and 111 downregulated in the Caco-2 cell line relative to the HT-29 cell line. Finally, at the miRNAs level, 104 were upregulated and 56 downregulated in the Caco-2 cell line relative to the HT-29 cell line. Gene ontology (GO) analysis of the DE mRNA identified cell adhesion, migration and ECM organization, cellular lipid and cholesterol metabolic processes, small molecule transport and a range of responses to external stimuli, while similar analysis of the DE protein list identified gene expression/transcription, epigenetic mechanisms, DNA replication, differentiation and translation ontology categories. The DE protein and gene lists were found to share 15 biological processes including for example epithelial cell differentiation [P value ≤ 1.81613E-08 (protein list); P ≤ 0.000434311 (gene list)] and actin filament bundle assembly [P value ≤ 0.001582797 (protein list); P ≤ 0.002733714 (gene list)]. Analysis was conducted on the three data streams acquired in parallel to identify targets undergoing potential miRNA translational repression identified 34 proteins, whose respective mRNAs were detected but no change in expression was observed. Of these 34 proteins, 27 proteins downregulated in the Caco-2 cell line relative to the HT-29 cell line and predicted to be targeted by 19 unique anti-correlated/upregulated microRNAs and 7 proteins upregulated in the Caco-2 cell line relative to the HT-29 cell line and predicted to be targeted by 15 unique anti-correlated/downregulated microRNAs.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This first study providing &quot;tri-omics&quot; analysis of the principal intestinal cell line models Caco-2 and HT-29 has identified 34 proteins potentially undergoing miRNA translational repression.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>O'Sullivan</LastName>
+                    <ForeName>Finbarr</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland. finbarr.osullivan@dcu.ie.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Keenan</LastName>
+                    <ForeName>Joanne</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aherne</LastName>
+                    <ForeName>Sinead</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O'Neill</LastName>
+                    <ForeName>Fiona</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clarke</LastName>
+                    <ForeName>Colin</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Bioprocessing Research &amp; Training, Blackrock, Dublin A94 X099, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Henry</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meleady</LastName>
+                    <ForeName>Paula</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Breen</LastName>
+                    <ForeName>Laura</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barron</LastName>
+                    <ForeName>Niall</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clynes</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Horgan</LastName>
+                    <ForeName>Karina</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alltech, Dunboyne, Meath, A86 X006, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Doolan</LastName>
+                    <ForeName>Padraig</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Institute for Cellular Biotechnology, Dublin City University, Dublin D09 W6Y4, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Murphy</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alltech, Dunboyne, Meath, A86 X006, Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>World J Gastroenterol</MedlineTA>
+            <NlmUniqueID>100883448</NlmUniqueID>
+            <ISSNLinking>1007-9327</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Motil Cytoskeleton. 2008 Sep;65(9):687-707</RefSource>
+                <PMID Version="1">18615630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Immunol. 2015 Jul;66(1):57-67</RefSource>
+                <PMID Version="1">25467799</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Cell Res. 2007 Oct 1;313(16):3517-25</RefSource>
+                <PMID Version="1">17825285</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gastroenterology. 2010 Nov;139(5):1654-64, 1664.e1</RefSource>
+                <PMID Version="1">20659473</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Cell Res. 2000 Aug 25;259(1):12-22</RefSource>
+                <PMID Version="1">10942575</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Nov 18;8(11):e79343</RefSource>
+                <PMID Version="1">24260202</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Pharm Biopharm. 2013 Apr;83(3):427-35</RefSource>
+                <PMID Version="1">23159710</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Res. 2011;44(1):89-105</RefSource>
+                <PMID Version="1">21720686</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Sci. 2015 May 15;128(10):1922-33</RefSource>
+                <PMID Version="1">25908858</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Comp Immunol. 2013 Apr;39(4):399-408</RefSource>
+                <PMID Version="1">23178402</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Cell Biol. 2010 Jun;89(6):428-36</RefSource>
+                <PMID Version="1">20219263</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003 Nov 1;19(16):2155-7</RefSource>
+                <PMID Version="1">14594725</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Development. 2011 Feb;138(3):455-64</RefSource>
+                <PMID Version="1">21205790</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biochem. 2010 Feb 15;109(3):519-31</RefSource>
+                <PMID Version="1">19998412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Open Bio. 2016 Jul 08;6(8):794-806</RefSource>
+                <PMID Version="1">27516958</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2015 Jul 10;290(28):17137-44</RefSource>
+                <PMID Version="1">25957404</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Brain. 2014 Oct 01;7:71</RefSource>
+                <PMID Version="1">25269856</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biol. 2000 Oct 2;151(1):29-40</RefSource>
+                <PMID Version="1">11018051</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 1985 Sep 2;188(2):197-204</RefSource>
+                <PMID Version="1">2993022</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2007 Sep 21;317(5845):1764-7</RefSource>
+                <PMID Version="1">17656684</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biotechnol Prog. 2006 Jan-Feb;22(1):186-98</RefSource>
+                <PMID Version="1">16454510</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2005 Feb 17;433(7027):769-73</RefSource>
+                <PMID Version="1">15685193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2003 Dec 26;115(7):787-98</RefSource>
+                <PMID Version="1">14697198</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Cell Biol. 2012 Dec;4(6):398-408</RefSource>
+                <PMID Version="1">22641646</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biol. 2004 May 24;165(4):465-71</RefSource>
+                <PMID Version="1">15159416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biol Rep. 2012 Feb;39(2):1471-8</RefSource>
+                <PMID Version="1">21625861</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Reprod. 2006 Sep;75(3):352-9</RefSource>
+                <PMID Version="1">16641145</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biol Pharm Bull. 2013;36(11):1822-8</RefSource>
+                <PMID Version="1">24189426</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Pharmacol Sin. 2005 Jul;26(7):769-79</RefSource>
+                <PMID Version="1">15960882</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cancer. 2009 Nov 12;8:100</RefSource>
+                <PMID Version="1">19909554</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Enzymol Relat Areas Mol Biol. 1987;59:1-57</RefSource>
+                <PMID Version="1">2949539</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Physiol Biochem. 2008 Dec;64(4):377-82</RefSource>
+                <PMID Version="1">19391463</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Natl Cancer Inst. 1977 Feb;58(2):209-14</RefSource>
+                <PMID Version="1">833871</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Nutr. 2008 Oct;138(10):1895-901</RefSource>
+                <PMID Version="1">18806098</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Kaohsiung J Med Sci. 2011 Aug;27(8):299-306</RefSource>
+                <PMID Version="1">21802640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2012 Nov 21;13:656</RefSource>
+                <PMID Version="1">23170974</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biol. 2004 May;24(10):4448-64</RefSource>
+                <PMID Version="1">15121863</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Sep 2;309(5740):1573-6</RefSource>
+                <PMID Version="1">16081698</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochim Biophys Acta. 2003 Aug 21;1650(1-2):73-91</RefSource>
+                <PMID Version="1">12922171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Mol Med. 2011 Sep;15(9):1941-54</RefSource>
+                <PMID Version="1">20831567</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int Rev Cytol. 2007;258:1-82</RefSource>
+                <PMID Version="1">17338919</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Invest Ophthalmol Vis Sci. 2014 Aug 14;55(9):5795-805</RefSource>
+                <PMID Version="1">25125605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Signal. 2013 Feb;25(2):457-69</RefSource>
+                <PMID Version="1">23153585</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Mol Cell Biol. 2014 Jan;15(1):19-33</RefSource>
+                <PMID Version="1">24326621</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2005 May;37(5):495-500</RefSource>
+                <PMID Version="1">15806104</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Metab Dispos. 2012 Apr;40(4):694-705</RefSource>
+                <PMID Version="1">22217464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Cell Res. 1995 Jan;216(1):30-4</RefSource>
+                <PMID Version="1">7813630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Cancer. 2010 Sep 1;127(5):1072-80</RefSource>
+                <PMID Version="1">20039318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Urol Oncol. 2012 Jul-Aug;30(4):434-43</RefSource>
+                <PMID Version="1">20843712</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Neurobiol. 2013 Nov;73(11):799-805</RefSource>
+                <PMID Version="1">23784998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Sci. 2009 Feb 1;122(Pt 3):305-11</RefSource>
+                <PMID Version="1">19158339</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Differentiation. 2010 Sep-Oct;80(2-3):147-54</RefSource>
+                <PMID Version="1">20638171</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2013 Oct;9(10):e1003913</RefSource>
+                <PMID Version="1">24204315</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncol Rep. 2012 Mar;27(3):608-20</RefSource>
+                <PMID Version="1">22076435</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2015 Jul;56:36-45</RefSource>
+                <PMID Version="1">25934277</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2005 Aug 26;122(4):553-63</RefSource>
+                <PMID Version="1">16122423</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biol. 1987 Jul;105(1):345-57</RefSource>
+                <PMID Version="1">3611191</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Biol Toxicol. 2005 Jan;21(1):1-26</RefSource>
+                <PMID Version="1">15868485</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2007 Apr 03;8:91</RefSource>
+                <PMID Version="1">17407598</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Mol Cell Biol. 2013 Jul;14(7):405-15</RefSource>
+                <PMID Version="1">23778968</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Biol. 2003 Mar 4;13(5):384-93</RefSource>
+                <PMID Version="1">12620186</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Exp Hematol. 2013 Jan;41(1):56-66.e2</RefSource>
+                <PMID Version="1">23063725</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 1994 Feb 7;338(3):272-6</RefSource>
+                <PMID Version="1">8307193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Cell. 2015 Dec 21;35(6):685-97</RefSource>
+                <PMID Version="1">26688336</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Vet Res. 2016 Sep 20;12 :210</RefSource>
+                <PMID Version="1">27646125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mutat. 2012 Mar;33(3):551-60</RefSource>
+                <PMID Version="1">22241525</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochim Biophys Acta. 1996 Oct 11;1313(3):201-8</RefSource>
+                <PMID Version="1">8898855</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem J. 1989 Mar 15;258(3):793-9</RefSource>
+                <PMID Version="1">2658973</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Gastroenterol. 2005 Jan 14;11(2):155-63</RefSource>
+                <PMID Version="1">15633208</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2004 Nov;2(11):e363</RefSource>
+                <PMID Version="1">15502875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Histochem Cytochem. 2009 Jan;57(1):41-50</RefSource>
+                <PMID Version="1">18796404</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Physiol. 2007 Jun 1;581(Pt 2):457-66</RefSource>
+                <PMID Version="1">17347267</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Med Rep. 2015 Sep;12(3):3923-9</RefSource>
+                <PMID Version="1">26004124</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Food Sci. 2011 Mar;76(2):H38-42</RefSource>
+                <PMID Version="1">21535765</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 1990 Oct 1;50(19):6334-43</RefSource>
+                <PMID Version="1">2205381</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Sci. 1993 Aug;105 ( Pt 4):1025-43</RefSource>
+                <PMID Version="1">8227193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2014 May;13(5):1198-218</RefSource>
+                <PMID Version="1">24567419</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 1984 Sep;44(9):3961-9</RefSource>
+                <PMID Version="1">6744312</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Toxicology. 2013 Sep 15;311(3):147-53</RefSource>
+                <PMID Version="1">23793072</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cytotechnology. 2002 Nov;40(1-3):93-8</RefSource>
+                <PMID Version="1">19003109</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncol Rep. 2011 Nov;26(5):1329-35</RefSource>
+                <PMID Version="1">21785829</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2007 Jan;7(1):121-9</RefSource>
+                <PMID Version="1">17205597</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biol Evol. 2002 May;19(5):608-18</RefSource>
+                <PMID Version="1">11961095</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biochem. 2014 Mar;115(3):510-22</RefSource>
+                <PMID Version="1">24122887</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Physiol. 1985 Jun;123(3):377-85</RefSource>
+                <PMID Version="1">2985631</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncol Rep. 2016 May;35(5):2743-54</RefSource>
+                <PMID Version="1">26936386</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Nutr Biochem. 2009 Jul;20(7):494-502</RefSource>
+                <PMID Version="1">18715773</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biol. 2015 Oct;35(19):3339-53</RefSource>
+                <PMID Version="1">26217012</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Dyn. 1995 Jun;203(2):141-51</RefSource>
+                <PMID Version="1">7655078</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Traffic. 2009 Apr;10(4):438-50</RefSource>
+                <PMID Version="1">19192249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Toxicol Lett. 2013 Mar 27;218(1):70-80</RefSource>
+                <PMID Version="1">23353816</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cell Biol. 2007 May 7;177(3):465-76</RefSource>
+                <PMID Version="1">17470633</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Pharmacother. 2016 Apr;79:153-8</RefSource>
+                <PMID Version="1">27044823</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Adh Migr. 2011 Mar-Apr;5(2):199-206</RefSource>
+                <PMID Version="1">21343695</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Mar 28;9(3):e92592</RefSource>
+                <PMID Version="1">24682221</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microbiol Methods. 2013 Sep;94(3):274-9</RefSource>
+                <PMID Version="1">23835135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biol. 2005 Nov;25(21):9198-208</RefSource>
+                <PMID Version="1">16227573</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Caco-2</Keyword>
+            <Keyword MajorTopicYN="N">Gene ontology</Keyword>
+            <Keyword MajorTopicYN="N">HT-29</Keyword>
+            <Keyword MajorTopicYN="N">Microarray</Keyword>
+            <Keyword MajorTopicYN="N">Proteomics</Keyword>
+            <Keyword MajorTopicYN="N">Targetscan</Keyword>
+            <Keyword MajorTopicYN="N">miRNA</Keyword>
+        </KeywordList>
+        <CoiStatement>Conflict-of-interest statement: The authors declare they have no conflicts of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29151691</ArticleId>
+            <ArticleId IdType="doi">10.3748/wjg.v23.i41.7369</ArticleId>
+            <ArticleId IdType="pmc">PMC5685843</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

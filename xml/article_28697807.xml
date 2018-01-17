@@ -1,0 +1,342 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29178837</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>VISPA2: a scalable pipeline for high-throughput identification and annotation of vector integration sites.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>520</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1937-9</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Bioinformatics tools designed to identify lentiviral or retroviral vector insertion sites in the genome of host cells are used to address the safety and long-term efficacy of hematopoietic stem cell gene therapy applications and to study the clonal dynamics of hematopoietic reconstitution. The increasing number of gene therapy clinical trials combined with the increasing amount of Next Generation Sequencing data, aimed at identifying integration sites, require both highly accurate and efficient computational software able to correctly process &quot;big data&quot; in a reasonable computational time.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here we present VISPA2 (Vector Integration Site Parallel Analysis, version 2), the latest optimized computational pipeline for integration site identification and analysis with the following features: (1) the sequence analysis for the integration site processing is fully compliant with paired-end reads and includes a sequence quality filter before and after the alignment on the target genome; (2) an heuristic algorithm to reduce false positive integration sites at nucleotide level to reduce the impact of Polymerase Chain Reaction or trimming/alignment artifacts; (3) a classification and annotation module for integration sites; (4) a user friendly web interface as researcher front-end to perform integration site analyses without computational skills; (5) the time speedup of all steps through parallelization (Hadoop free).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We tested VISPA2 performances using simulated and real datasets of lentiviral vector integration sites, previously obtained from patients enrolled in a hematopoietic stem cell gene therapy clinical trial and compared the results with other preexisting tools for integration site analysis. On the computational side, VISPA2 showed a &gt; 6-fold speedup and improved precision and recall metrics (1 and 0.97 respectively) compared to previously developed computational pipelines. These performances indicate that VISPA2 is a fast, reliable and user-friendly tool for integration site analysis, which allows gene therapy integration data to be handled in a cost and time effective fashion. Moreover, the web access of VISPA2 ( http://openserver.itb.cnr.it/vispa/ ) ensures accessibility and ease of usage to researches of a complex analytical tool. We released the source code of VISPA2 in a public repository ( https://bitbucket.org/andreacalabria/vispa2 ).</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Spinozzi</LastName>
+                    <ForeName>Giulio</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>San Raffaele Telethon Institute for Gene Therapy (SR-Tiget), IRCCS, San Raffaele Scientific Institute, Via Olgettina, 58, 20132, Milan, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Calabria</LastName>
+                    <ForeName>Andrea</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>San Raffaele Telethon Institute for Gene Therapy (SR-Tiget), IRCCS, San Raffaele Scientific Institute, Via Olgettina, 58, 20132, Milan, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brasca</LastName>
+                    <ForeName>Stefano</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>San Raffaele Telethon Institute for Gene Therapy (SR-Tiget), IRCCS, San Raffaele Scientific Institute, Via Olgettina, 58, 20132, Milan, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beretta</LastName>
+                    <ForeName>Stefano</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Milano Bicocca, Viale Sarca, 336, 20126, Milan, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Merelli</LastName>
+                    <ForeName>Ivan</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Research Council, Institute for Biomedical Technologies, Via Fratelli Cervi, 93, 20090, Segrate, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Milanesi</LastName>
+                    <ForeName>Luciano</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Research Council, Institute for Biomedical Technologies, Via Fratelli Cervi, 93, 20090, Segrate, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montini</LastName>
+                    <ForeName>Eugenio</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>San Raffaele Telethon Institute for Gene Therapy (SR-Tiget), IRCCS, San Raffaele Scientific Institute, Via Olgettina, 58, 20132, Milan, Italy. montini.eugenio@hsr.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>TGT11D1</GrantID>
+                    <Agency>Fondazione Telethon</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>TGT16B01</GrantID>
+                    <Agency>Fondazione Telethon</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>TGT16B03</GrantID>
+                    <Agency>Fondazione Telethon</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>PhD Program</GrantID>
+                    <Agency>Università degli Studi di Milano-Bicocca</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>PB05</GrantID>
+                    <Agency>Italian Ministry of Education and Research through the Flagship InterOmics</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HP10CEUWXF</GrantID>
+                    <Agency>Italian Super Computing Resource Allocation sponsored by CINECA for VISPA pipeline</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Commun. 2017 Sep 8;8(1):498</RefSource>
+                <PMID Version="1">28887441</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2010 Sep 16;467(7313):318-22</RefSource>
+                <PMID Version="1">20844535</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Ther Methods Clin Dev. 2016 Dec 18;4:39-49</RefSource>
+                <PMID Version="1">28344990</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Mar 04;9(4):357-9</RefSource>
+                <PMID Version="1">22388286</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Jan 1;27(1):130-1</RefSource>
+                <PMID Version="1">21088025</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Gene Ther. 2016 Oct;27(10 ):813-829</RefSource>
+                <PMID Version="1">27431943</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Jul 07;16:212</RefSource>
+                <PMID Version="1">26150117</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Mar 1;27(5):720-2</RefSource>
+                <PMID Version="1">21245052</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Gene Ther. 2012 Nov;23(11):1209-19</RefSource>
+                <PMID Version="1">22909036</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Ther Nucleic Acids. 2017 Mar 17;6:133-139</RefSource>
+                <PMID Version="1">28325279</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Ther Methods Clin Dev. 2016 Dec 18;4:17-26</RefSource>
+                <PMID Version="1">28344988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2016 Aug 9;7(32):51581-51597</RefSource>
+                <PMID Version="1">27323395</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Aug 15;25(16):2078-9</RefSource>
+                <PMID Version="1">19505943</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2015 Oct 15;526(7573):351-60</RefSource>
+                <PMID Version="1">26469046</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Mol Biol. 2016;1448:107-20</RefSource>
+                <PMID Version="1">27317177</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Ther. 2014 Dec;22(12):2056-68</RefSource>
+                <PMID Version="1">25195596</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2011 May;12(5):301-15</RefSource>
+                <PMID Version="1">21445084</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Med. 2014 Sep 03;6(9):67</RefSource>
+                <PMID Version="1">25342980</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Med. 2014 Jun 27;6(6):46</RefSource>
+                <PMID Version="1">25028597</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Microbiol. 2005 Nov;3(11):848-58</RefSource>
+                <PMID Version="1">16175173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2017 Jun 17;18(1):305</RefSource>
+                <PMID Version="1">28623888</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cancer Res. 2013 Oct;11(10):1141-58</RefSource>
+                <PMID Version="1">23928056</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Vis Exp. 2016 Mar 22;(109 ):</RefSource>
+                <PMID Version="1">27023428</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2015 Jan 29;160(3):420-32</RefSource>
+                <PMID Version="1">25635456</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Ther. 2006 Aug;14(2):218-25</RefSource>
+                <PMID Version="1">16647883</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2013 Aug 23;341(6148):1233158</RefSource>
+                <PMID Version="1">23845948</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2007 Dec;4(12):1051-7</RefSource>
+                <PMID Version="1">18049469</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2009 Jun;9(6):389-99</RefSource>
+                <PMID Version="1">19461666</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Mar 15;28(6):755-62</RefSource>
+                <PMID Version="1">22238265</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2013 Aug 23;341(6148):1233151</RefSource>
+                <PMID Version="1">23845947</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015;16 Suppl 9:S5</RefSource>
+                <PMID Version="1">26051409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gene Ther. 2009 Jul;16(7):885-93</RefSource>
+                <PMID Version="1">19387483</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Jul 15;25(14):1754-60</RefSource>
+                <PMID Version="1">19451168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2009 Nov 6;326(5954):818-23</RefSource>
+                <PMID Version="1">19892975</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2017 Jun 9;:null</RefSource>
+                <PMID Version="1">28605449</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Gene Ther Methods. 2012 Apr;23(2):111-8</RefSource>
+                <PMID Version="1">22559057</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Genomics. 2017 Jul 11;11(1):15</RefSource>
+                <PMID Version="1">28697807</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bioinformatics pipeline</Keyword>
+            <Keyword MajorTopicYN="N">Gene therapy</Keyword>
+            <Keyword MajorTopicYN="N">High-throughput sequencing</Keyword>
+            <Keyword MajorTopicYN="N">Integration site analysis</Keyword>
+            <Keyword MajorTopicYN="N">Next-generation sequencing</Keyword>
+            <Keyword MajorTopicYN="N">Open source software</Keyword>
+            <Keyword MajorTopicYN="N">Workflow</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29178837</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1937-9</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1937-9</ArticleId>
+            <ArticleId IdType="pmc">PMC5702242</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

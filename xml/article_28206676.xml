@@ -1,0 +1,188 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28206676</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Thoracic CT-MRI coregistration for regional pulmonary structure-function measurements of obstructive lung disease.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1718-1733</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12160</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Recent pulmonary imaging research has revealed that in patients with chronic obstructive pulmonary disease (COPD) and asthma, structural and functional abnormalities are spatially heterogeneous. This novel information may help optimize treatment in individual patients, monitor interventional efficacy, and develop new treatments. Moreover, by automating the measurement of regional biomarkers for the 19 different anatomical lung segments, there is an opportunity to embed imaging biomarkers into clinically acceptable clinical workflows and improve lung disease clinical care. Therefore, to exploit the regional structure-function information provided by thoracic imaging, and as a first step toward this goal, our objective was to develop a fully automated registration pipeline for thoracic x-ray computed tomography (CT) and inhaled gas functional magnetic resonance imaging (MRI) whole lung and segmental structure-function biomarkers.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Thirty-five patients including 15 severe, poorly controlled asthmatics and 20 COPD patients [classified according to the global initiative for chronic obstructive lung disease (GOLD) criteria)] provided written informed consent to a study protocol approved by Health Canada and underwent pulmonary function tests, MRI, and CT during a single 2-hour visit. Using this diverse patient dataset, we developed and evaluated a joint deformable registration approach to simultaneously coregister CT with both (1) H and (3) He MRI by enforcing the similarity of the deformation fields from the two individual registrations. We derived a simpler model that was equivalent to the original challenging optimization problem through variational analysis and the simpler model gave rise to an efficient numerical solver that was parallelized on a graphics processing unit. The coregistered CT-(3) He MRI and whole lung/segmental lung masks were used to generate whole lung and segmental (3) He MRI ventilation defect percent (VDP). To estimate fiducial localization reproducibility, a single observer manually identified 109 pairs of CT and (3) He MRI fiducials for 35 patient images on five separate occasions and determined the fiducial localization error (FLE). CT-(3) He MRI registration accuracy was evaluated using the target registration error (TRE). Whole lung VDP generated using the algorithm was compared with VDP generated using a previously validated semiautomated approach and computational efficiency was evaluated using run time.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In 35 patients including 15 with severe asthma and 20 with COPD, mean forced expiratory volume in 1 s (FEV1 ) was 63±24%pred and FEV1 /forced vital capacity (FVC) was 54 ± 17%. FLE was 0.16 mm and 0.34 mm for (3) He MRI and CT, respectively. TRE was 4.5 ± 2.0 mm, 4.0 ± 1.7 mm, 4.8 ± 2.3 mm for asthma, COPD GOLD II, and GOLD III groups, respectively, with a mean of 4.4 ± 2.0 mm for the entire dataset. TRE was significantly improved for joint CT-(1) H/(3) He MRI registration compared with CT-(1) H MRI rigid registration (P &lt; 0.0001). Whole lung VDP generated using the pipeline was not significantly different (P = 0.37) compared to a semiautomated method with which it was strongly correlated (r = 0.93, P &lt; 0.0001). The fully automated pipeline required 11 ± 0.4 min to generate whole lung and segmental VDP.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">For a diverse group of patients with COPD and asthma, whole lung and segmental VDP was measured using an automated lung image analysis pipeline which provides a way to incorporate lung functional biomarkers into clinical research and patient care.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Fumin</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate Program in Biomedical Engineering, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Svenningsen</LastName>
+                    <ForeName>Sarah</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kirby</LastName>
+                    <ForeName>Miranda</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>James Hogg Research Centre, St. Paul's Hospital, University of British Columbia, Vancouver, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Capaldi</LastName>
+                    <ForeName>Dante Pi</ForeName>
+                    <Initials>DP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Biophysics, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sheikh</LastName>
+                    <ForeName>Khadija</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Biophysics, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fenster</LastName>
+                    <ForeName>Aaron</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate Program in Biomedical Engineering, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Biophysics, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Parraga</LastName>
+                    <ForeName>Grace</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Robarts Research Institute, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Graduate Program in Biomedical Engineering, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Biophysics, The University of Western Ontario, London, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CT</Keyword>
+            <Keyword MajorTopicYN="N">MRI</Keyword>
+            <Keyword MajorTopicYN="N">convex optimization</Keyword>
+            <Keyword MajorTopicYN="N">deformable registration</Keyword>
+            <Keyword MajorTopicYN="N">lung</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28206676</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12160</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,134 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29180004</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-0534</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computers in biology and medicine</Title>
+                <ISOAbbreviation>Comput. Biol. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Estimating a person's age from walking over a sensor floor.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0010-4825(17)30363-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.compbiomed.2017.11.003</ELocationID>
+            <Abstract>
+                <AbstractText>Ageing has an effect on many parameters of the physical condition, and one of them is the way a person walks. This property, the gait pattern, can unintrusively be observed by letting people walk over a sensor floor. The electric capacitance sensors built into the floor deliver information about when and where feet get into close proximity and contact with the floor during the phases of human locomotion. We processed gait patterns recorded this way by extracting a feature vector containing the discretised distribution of occurring geometrical extents of significant sensor readings. This kind of feature vector is an implicit measure encoding the ratio of swing-to stance phase timings in the gait cycle and representing how cleanly the leg swing is performed. We then used the dataset to train a Multi-Layer Perceptron to perform regression with the age of the person as the target value, and the feature vector as input. With this method and a dataset size of 142 persons recorded, we achieved a mean absolute error of approximately 10 years between the true age and the estimated age of the person. Considering the novelty of our approach, this is an acceptable result. The combination of a floor sensor and machine learning methods for interpreting the sensor data seems promising for further research and applications in care and medicine.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hoffmann</LastName>
+                    <ForeName>Raoul</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Future-Shape GmbH, Altlaufstraße 34, 85635, Höhenkirchen-Siegertsbrunn, Germany. Electronic address: raoul.hoffmann@future-shape.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lauterbach</LastName>
+                    <ForeName>Christl</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Future-Shape GmbH, Altlaufstraße 34, 85635, Höhenkirchen-Siegertsbrunn, Germany. Electronic address: christl.lauterbach@future-shape.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Conradt</LastName>
+                    <ForeName>Jörg</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Neuroscientific System Theory (NST), Department of Electrical Engineering and Information Technology, Technische Universität München (TUM), Karlstraße 45, 80333 München, Germany. Electronic address: conradt@tum.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steinhage</LastName>
+                    <ForeName>Axel</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Future-Shape GmbH, Altlaufstraße 34, 85635, Höhenkirchen-Siegertsbrunn, Germany. Electronic address: axel.steinhage@future-shape.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Comput Biol Med</MedlineTA>
+            <NlmUniqueID>1250250</NlmUniqueID>
+            <ISSNLinking>0010-4825</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Age estimation</Keyword>
+            <Keyword MajorTopicYN="N">Gait analysis</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Multi-layer perceptron</Keyword>
+            <Keyword MajorTopicYN="N">Neural network</Keyword>
+            <Keyword MajorTopicYN="N">Sensor floor</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29180004</ArticleId>
+            <ArticleId IdType="pii">S0010-4825(17)30363-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.compbiomed.2017.11.003</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

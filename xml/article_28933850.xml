@@ -1,0 +1,161 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28933850</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1549-960X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>57</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of chemical information and modeling</Title>
+                <ISOAbbreviation>J Chem Inf Model</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Efficient Strategy for the Calculation of Solvation Free Energies in Water and Chloroform at the Quantum Mechanical/Molecular Mechanical Level.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2476-2489</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.jcim.7b00001</ELocationID>
+            <Abstract>
+                <AbstractText>The partitioning of solute molecules between immiscible solvents with significantly different polarities is of great importance. The polarization between the solute and solvent molecules plays an essential role in determining the solubility of the solute, which makes computational studies utilizing molecular mechanics (MM) rather difficult. In contrast, quantum mechanics (QM) can provide more reliable predictions. In this work, the partition coefficients of the side chain analogs of some amino acids between water and chloroform were computed. The QM solvation free energies were calculated indirectly via a series of MM states using the multistate Bennett acceptance ratio (MBAR) and the MM-to-QM corrections were applied at the two endpoints using thermodynamic perturbation (TP). Previously, it has been shown (Jia et al. J. Chem. Theory Comput. 2016, 12, 499-511) that this method provides the minimal variance in the results without running QM simulations. However, if there is insufficient overlap in phase space between the MM and QM Hamiltonians, this method fails. In this work, we propose, for the first time, a quantity termed the reweighting entropy that serves as a metric for the reliability of the TP calculations. If the reweighting entropy is below a certain threshold (0.65 for the solvation free energy calculations in this work), this MM-to-QM correction should be avoided and two alternative methods can be employed by either introducing a semiempirical state or conducting nonequilibrium simulations. However, the results show that the QM methods are not guaranteed to yield better results than the MM methods. Further improvement of the QM methods are imperative, especially the treatment of the van der Waals and the electrostatic interactions between the QM region and the MM region in the first shell. We also propose a scheme for the calculation of the van der Waals parameters for the solute molecules in nonaqueous solvent, which improves the quality of the computed thermodynamic properties. Furthermore, the force field parameters for the sulfur-containing molecules are also optimized.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Meiting</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Precision Spectroscopy, School of Physics and Materials Science, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Pengfei</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Precision Spectroscopy, School of Physics and Materials Science, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jia</LastName>
+                    <ForeName>Xiangyu</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Precision Spectroscopy, School of Physics and Materials Science, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Precision Spectroscopy, School of Physics and Materials Science, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shao</LastName>
+                    <ForeName>Yihan</ForeName>
+                    <Initials>Y</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9337-341X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Q-Chem Inc. , 6601 Owens Drive, Suite 105, Pleasanton, California 94588, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry and Biochemistry, University of Oklahoma , Norman Oklahoma 73019, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Wenxin</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Computer Center, School of Computer Science and Software Engineering, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zheng</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Computer Center, School of Computer Science and Software Engineering, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brooks</LastName>
+                    <ForeName>Bernard R</ForeName>
+                    <Initials>BR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Computational Biology, National Institutes of Health, National Heart, Lung and Blood Institute , 5635 Fishers Lane, T-900 Suite, Rockville, Maryland 20852, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mei</LastName>
+                    <ForeName>Ye</ForeName>
+                    <Initials>Y</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-3953-8508</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Precision Spectroscopy, School of Physics and Materials Science, East China Normal University , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>NYU-ECNU Center for Computational Chemistry at NYU Shanghai , Shanghai 200062, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Inf Model</MedlineTA>
+            <NlmUniqueID>101230060</NlmUniqueID>
+            <ISSNLinking>1549-9596</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28933850</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.jcim.7b00001</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,339 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29183290</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Modeling, validation and verification of three-dimensional cell-scaffold contacts from terabyte-sized images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>526</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1928-x</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Cell-scaffold contact measurements are derived from pairs of co-registered volumetric fluorescent confocal laser scanning microscopy (CLSM) images (z-stacks) of stained cells and three types of scaffolds (i.e., spun coat, large microfiber, and medium microfiber). Our analysis of the acquired terabyte-sized collection is motivated by the need to understand the nature of the shape dimensionality (1D vs 2D vs 3D) of cell-scaffold interactions relevant to tissue engineers that grow cells on biomaterial scaffolds.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We designed five statistical and three geometrical contact models, and then down-selected them to one from each category using a validation approach based on physically orthogonal measurements to CLSM. The two selected models were applied to 414 z-stacks with three scaffold types and all contact results were visually verified. A planar geometrical model for the spun coat scaffold type was validated from atomic force microscopy images by computing surface roughness of 52.35 nm ±31.76 nm which was 2 to 8 times smaller than the CLSM resolution. A cylindrical model for fiber scaffolds was validated from multi-view 2D scanning electron microscopy (SEM) images. The fiber scaffold segmentation error was assessed by comparing fiber diameters from SEM and CLSM to be between 0.46% to 3.8% of the SEM reference values. For contact verification, we constructed a web-based visual verification system with 414 pairs of images with cells and their segmentation results, and with 4968 movies with animated cell, scaffold, and contact overlays. Based on visual verification by three experts, we report the accuracy of cell segmentation to be 96.4% with 94.3% precision, and the accuracy of cell-scaffold contact for a statistical model to be 62.6% with 76.7% precision and for a geometrical model to be 93.5% with 87.6% precision.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The novelty of our approach lies in (1) representing cell-scaffold contact sites with statistical intensity and geometrical shape models, (2) designing a methodology for validating 3D geometrical contact models and (3) devising a mechanism for visual verification of hundreds of 3D measurements. The raw and processed data are publicly available from https://isg.nist.gov/deepzoomweb/data/ together with the web -based verification system.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bajcsy</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6968-2615</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technology Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA. peter.bajcsy@nist.gov.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yoon</LastName>
+                    <ForeName>Soweon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technology Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Dakota Consulting Inc, Silver Spring, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Florczyk</LastName>
+                    <ForeName>Stephen J</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Material Measurement Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Materials Science &amp; Engineering, University of Central Florida, Orlando, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hotaling</LastName>
+                    <ForeName>Nathan A</ForeName>
+                    <Initials>NA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Eye Institute, National Institute of Health, Bethesda, MD, USA. nathan.hotaling@nih.gov.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Simon</LastName>
+                    <ForeName>Mylene</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technology Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Szczypinski</LastName>
+                    <ForeName>Piotr M</ForeName>
+                    <Initials>PM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lodz University of Technology, Łódź, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schaub</LastName>
+                    <ForeName>Nicholas J</ForeName>
+                    <Initials>NJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Material Measurement Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Simon</LastName>
+                    <ForeName>Carl G</ForeName>
+                    <Initials>CG</Initials>
+                    <Suffix>Jr</Suffix>
+                    <AffiliationInfo>
+                        <Affiliation>Material Measurement Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brady</LastName>
+                    <ForeName>Mary</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technology Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sriram</LastName>
+                    <ForeName>Ram D</ForeName>
+                    <Initials>RD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technology Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P40 RR017447</GrantID>
+                    <Acronym>RR</Acronym>
+                    <Agency>NCRR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>NCRR-NIH P40RR017447</GrantID>
+                    <Agency>National Center for Research Resources</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cytometry A. 2003 Nov;56(1):23-36</RefSource>
+                <PMID Version="1">14566936</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microsc. 2006 Dec;224(Pt 3):213-32</RefSource>
+                <PMID Version="1">17210054</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2009 May;30(13):2516-22</RefSource>
+                <PMID Version="1">19176243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2015 Oct 15;16:330</RefSource>
+                <PMID Version="1">26472075</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Control Release. 2015 Sep 10;213:120-127</RefSource>
+                <PMID Version="1">26150116</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Mater. 2007 Dec;6(12):997-1003</RefSource>
+                <PMID Version="1">17891143</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2011 Dec;32(35):9188-96</RefSource>
+                <PMID Version="1">21890197</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microsc. 2014 Jul;255(1):20-9</RefSource>
+                <PMID Version="1">24802370</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 2004 Jun;86(6):3993-4003</RefSource>
+                <PMID Version="1">15189895</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Cell. 2004 Apr;6(4):483-95</RefSource>
+                <PMID Version="1">15068789</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2004 Aug;26(8):1007-19</RefSource>
+                <PMID Version="1">15641731</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2015 Aug;61:327-38</RefSource>
+                <PMID Version="1">26043061</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Biol. 2000 Sep 15;225(2):407-23</RefSource>
+                <PMID Version="1">10985859</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Stem Cell. 2014 Feb 6;14(2):141-5</RefSource>
+                <PMID Version="1">24506881</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dev Cell. 2016 Feb 22;36(4):462-75</RefSource>
+                <PMID Version="1">26906741</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Dent Res. 2005 May;84(5):407-13</RefSource>
+                <PMID Version="1">15840774</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Biomater. 2010 Aug;6(8):2949-59</RefSource>
+                <PMID Version="1">20144747</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Mater. 2013 May;12(5):458-65</RefSource>
+                <PMID Version="1">23524375</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1997 May 30;276(5317):1425-8</RefSource>
+                <PMID Version="1">9162012</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Mater Res A. 2013 Oct;101(10 ):2974-83</RefSource>
+                <PMID Version="1">23737120</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jun 28;9(7):676-82</RefSource>
+                <PMID Version="1">22743772</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cold Spring Harb Perspect Biol. 2012 Jun 01;4(6):null</RefSource>
+                <PMID Version="1">22570373</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Tissue Eng Part A. 2009 Jul;15(7):1855-64</RefSource>
+                <PMID Version="1">19196152</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2012 Jun;33(16):4022-30</RefSource>
+                <PMID Version="1">22417619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Adv Healthc Mater. 2014 May;3(5):737-51</RefSource>
+                <PMID Version="1">24574245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Mar 16;107(11):4872-7</RefSource>
+                <PMID Version="1">20194780</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microsc. 2015 Dec;260(3):363-76</RefSource>
+                <PMID Version="1">26268699</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 2006 Dec 15;91(12):4611-22</RefSource>
+                <PMID Version="1">17012312</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Conf Proc IEEE Eng Med Biol Soc. 2011;2011:7751-4</RefSource>
+                <PMID Version="1">22256135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 2010 Sep 22;99(6):1996-2005</RefSource>
+                <PMID Version="1">20858446</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Microsc. 2011 Jul;243(1):60-76</RefSource>
+                <PMID Version="1">21288236</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2008 May;27(5):723-34</RefSource>
+                <PMID Version="1">18450544</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomaterials. 2010 Jul;31(19):5051-62</RefSource>
+                <PMID Version="1">20378163</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cell-scaffold contact</Keyword>
+            <Keyword MajorTopicYN="N">Cellular measurements</Keyword>
+            <Keyword MajorTopicYN="N">Co-localization</Keyword>
+            <Keyword MajorTopicYN="N">Contact evaluation</Keyword>
+            <Keyword MajorTopicYN="N">Large-volume 3D image processing</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation models</Keyword>
+            <Keyword MajorTopicYN="N">Web-based verification</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29183290</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1928-x</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1928-x</ArticleId>
+            <ArticleId IdType="pmc">PMC5706418</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

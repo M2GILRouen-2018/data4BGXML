@@ -1,0 +1,226 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28137713</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>HIPred: an integrative approach to predicting haploinsufficient genes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1751-1757</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx028</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">A major cause of autosomal dominant disease is haploinsufficiency, whereby a single copy of a gene is not sufficient to maintain the normal function of the gene. A large proportion of existing methods for predicting haploinsufficiency incorporate biological networks, e.g. protein-protein interaction networks that have recently been shown to introduce study bias. As a result, these methods tend to perform best on well-studied genes, but underperform on less studied genes. The advent of large genome sequencing consortia, such as the 1000 genomes project, NHLBI Exome Sequencing Project and the Exome Aggregation Consortium creates an urgent need for unbiased haploinsufficiency prediction methods.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">Here, we describe a machine learning approach, called HIPred, that integrates genomic and evolutionary information from ENSEMBL, with functional annotations from the Encyclopaedia of DNA Elements consortium and the NIH Roadmap Epigenomics Project to predict haploinsufficiency, without the study bias described earlier. We benchmark HIPred using several datasets and show that our unbiased method performs as well as, and in most cases, outperforms existing biased algorithms.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">HIPred scores for all gene identifiers are available at: https://github.com/HAShihab/HIPred .</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">h.shihab@bristol.ac.uk or tom.gaunt@bristol.ac.uk.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shihab</LastName>
+                    <ForeName>Hashem A</ForeName>
+                    <Initials>HA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>MRC Integrative Epidemiology Unit (IEU), University of Bristol, Bristol BS8 2BN, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rogers</LastName>
+                    <ForeName>Mark F</ForeName>
+                    <Initials>MF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Intelligent Systems Laboratory, University of Bristol, Bristol BS8 1UB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Campbell</LastName>
+                    <ForeName>Colin</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Intelligent Systems Laboratory, University of Bristol, Bristol BS8 1UB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gaunt</LastName>
+                    <ForeName>Tom R</ForeName>
+                    <Initials>TR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>MRC Integrative Epidemiology Unit (IEU), University of Bristol, Bristol BS8 2BN, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>MC_UU_12013/8</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2013;9(8):e1003709</RefSource>
+                <PMID Version="1">23990802</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2015 Feb 19;518(7539):317-30</RefSource>
+                <PMID Version="1">25693563</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Mutat. 2013 Jan;34(1):57-65</RefSource>
+                <PMID Version="1">23033316</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Feb 17;335(6070):823-8</RefSource>
+                <PMID Version="1">22344438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Nov 1;491(7422):56-65</RefSource>
+                <PMID Version="1">23128226</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Apr 04;485(7397):237-41</RefSource>
+                <PMID Version="1">22495306</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Sep 6;489(7414):57-74</RefSource>
+                <PMID Version="1">22955616</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(10):e46688</RefSource>
+                <PMID Version="1">23056405</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2010 Oct 14;6(10):e1001154</RefSource>
+                <PMID Version="1">20976243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2016 Aug 17;536(7616):285-91</RefSource>
+                <PMID Version="1">27535533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 May 15;31(10):1536-43</RefSource>
+                <PMID Version="1">25583119</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuron. 2012 Apr 26;74(2):285-99</RefSource>
+                <PMID Version="1">22542183</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Mar 11;43(5):e33</RefSource>
+                <PMID Version="1">25550428</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2014 Mar;46(3):310-5</RefSource>
+                <PMID Version="1">24487276</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2010 Sep 09;6(9):e1001111</RefSource>
+                <PMID Version="1">20838461</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2013;9(3):e1002886</RefSource>
+                <PMID Version="1">23505346</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Hum Genet. 2008 Nov;16(11):1350-7</RefSource>
+                <PMID Version="1">18523451</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2008 Aug 15;4(8):e1000160</RefSource>
+                <PMID Version="1">18704161</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pathol. 2010 Jan;220(2):174-85</RefSource>
+                <PMID Version="1">19827001</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Apr 04;485(7397):246-50</RefSource>
+                <PMID Version="1">22495309</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2014 Mar;11(3):294-6</RefSource>
+                <PMID Version="1">24487584</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2015 Sep 3;43(15):e101</RefSource>
+                <PMID Version="1">26001969</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Apr 04;485(7397):242-5</RefSource>
+                <PMID Version="1">22495311</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28137713</ArticleId>
+            <ArticleId IdType="pii">btx028</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx028</ArticleId>
+            <ArticleId IdType="pmc">PMC5581952</ArticleId>
+            <ArticleId IdType="mid">EMS72263</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

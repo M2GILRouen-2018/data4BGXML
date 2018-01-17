@@ -1,0 +1,265 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">29184492</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">1662-5196</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>11</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in neuroinformatics</Title>
+                <ISOAbbreviation>Front Neuroinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Functional Brain Imaging Synthesis Based on Image Decomposition and Kernel Modeling: Application to Neurodegenerative Diseases.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>65</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fninf.2017.00065</ELocationID>
+            <Abstract>
+                <AbstractText>The rise of neuroimaging in research and clinical practice, together with the development of new machine learning techniques has strongly encouraged the Computer Aided Diagnosis (CAD) of different diseases and disorders. However, these algorithms are often tested in proprietary datasets to which the access is limited and, therefore, a direct comparison between CAD procedures is not possible. Furthermore, the sample size is often small for developing accurate machine learning methods. Multi-center initiatives are currently a very useful, although limited, tool in the recruitment of large populations and standardization of CAD evaluation. Conversely, we propose a brain image synthesis procedure intended to generate a new image set that share characteristics with an original one. Our system focuses on nuclear imaging modalities such as PET or SPECT brain images. We analyze the dataset by applying PCA to the original dataset, and then model the distribution of samples in the projected eigenbrain space using a Probability Density Function (PDF) estimator. Once the model has been built, we can generate new coordinates on the eigenbrain space belonging to the same class, which can be then projected back to the image space. The system has been evaluated on different functional neuroimaging datasets assessing the: resemblance of the synthetic images with the original ones, the differences between them, their generalization ability and the independence of the synthetic dataset with respect to the original. The synthetic images maintain the differences between groups found at the original dataset, with no significant differences when comparing them to real-world samples. Furthermore, they featured a similar performance and generalization capability to that of the original dataset. These results prove that these images are suitable for standardizing the evaluation of CAD pipelines, and providing data augmentation in machine learning systems -e.g. in deep learning-, or even to train future professionals at medical school.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Martinez-Murcia</LastName>
+                    <ForeName>Francisco J</ForeName>
+                    <Initials>FJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Górriz</LastName>
+                    <ForeName>Juan M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ramírez</LastName>
+                    <ForeName>Javier</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Illán</LastName>
+                    <ForeName>Ignacio A</ForeName>
+                    <Initials>IA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Scientific Computing, Florida State University, Tallahassee, FL, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Segovia</LastName>
+                    <ForeName>Fermín</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Castillo-Barnes</LastName>
+                    <ForeName>Diego</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Salas-Gonzalez</LastName>
+                    <ForeName>Diego</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Neuroinform</MedlineTA>
+            <NlmUniqueID>101477957</NlmUniqueID>
+            <ISSNLinking>1662-5196</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2011 Jun 26;8(8):665-70</RefSource>
+                <PMID Version="1">21706013</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroinformatics. 2015 Oct;13(4):391-402</RefSource>
+                <PMID Version="1">25749984</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Psychiatry. 2014 Jun;19(6):659-67</RefSource>
+                <PMID Version="1">23774715</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Oct;39(10 ):5971-80</RefSource>
+                <PMID Version="1">23039635</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2014 Jan;41(1):012502</RefSource>
+                <PMID Version="1">24387526</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2012 Feb 15;59(4):4160-7</RefSource>
+                <PMID Version="1">22178299</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2006 Nov 15;33(3):855-66</RefSource>
+                <PMID Version="1">16997578</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Sep;37(9):4902-15</RefSource>
+                <PMID Version="1">20964209</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 1993 Jul-Oct;17 (4-5):365-71</RefSource>
+                <PMID Version="1">8306311</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2017 Jul 15;155:530-548</RefSource>
+                <PMID Version="1">28414186</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2014 Nov;17(11):1442-7</RefSource>
+                <PMID Version="1">25349910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Rev Esp Med Nucl. 2010 Sep-Oct;29(5):246-50</RefSource>
+                <PMID Version="1">20655624</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Neurosci. 2014 Nov;17(11):1510-7</RefSource>
+                <PMID Version="1">25349916</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2004 Oct 7;49(19):4543-61</RefSource>
+                <PMID Version="1">15552416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucl Med Commun. 2011 Aug;32(8):699-707</RefSource>
+                <PMID Version="1">21659911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Neurol. 2010 Feb;6(2):67-77</RefSource>
+                <PMID Version="1">20139996</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2015 May 1;111:562-79</RefSource>
+                <PMID Version="1">25652394</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Neurol. 2009 Aug;22(4):370-8</RefSource>
+                <PMID Version="1">19506479</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2011 Oct 7;56(19):6441-57</RefSource>
+                <PMID Version="1">21934192</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Radiol. 1994 Oct;67(802):976-82</RefSource>
+                <PMID Version="1">8000842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2009 May 1;45(4):1241-52</RefSource>
+                <PMID Version="1">19349238</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Neurosci. 2017 Feb;18(2):115-126</RefSource>
+                <PMID Version="1">28053326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 1999 Nov;18(11):1085-97</RefSource>
+                <PMID Version="1">10661326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Alzheimers Res Ther. 2016 Feb 22;8:9</RefSource>
+                <PMID Version="1">26899835</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Schizophr Bull. 2009 Jan;35(1):1-2</RefSource>
+                <PMID Version="1">19023121</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Neuroimage. 2009 Jun;46(2):472-85</RefSource>
+                <PMID Version="1">19385015</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Alzheimers Dement. 2012 Feb;8(1 Suppl):S1-68</RefSource>
+                <PMID Version="1">22047634</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Alzheimer's Disease (AD)</Keyword>
+            <Keyword MajorTopicYN="N">Neuroimaging</Keyword>
+            <Keyword MajorTopicYN="N">Parkinson's Disease (PD)</Keyword>
+            <Keyword MajorTopicYN="N">Synthesis</Keyword>
+            <Keyword MajorTopicYN="N">data augmentation</Keyword>
+            <Keyword MajorTopicYN="N">density estimation</Keyword>
+            <Keyword MajorTopicYN="N">evaluation</Keyword>
+            <Keyword MajorTopicYN="N">validation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29184492</ArticleId>
+            <ArticleId IdType="doi">10.3389/fninf.2017.00065</ArticleId>
+            <ArticleId IdType="pmc">PMC5694626</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

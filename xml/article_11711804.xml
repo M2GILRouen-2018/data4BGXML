@@ -1,0 +1,138 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">11711804</PMID>
+        <DateCreated>
+            <Year>2001</Year>
+            <Month>11</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2002</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>11</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0363-8715</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>25</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <MedlineDate>2001 Nov-Dec</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of computer assisted tomography</Title>
+                <ISOAbbreviation>J Comput Assist Tomogr</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Heart rate adaptive optimization of spatial and temporal resolution for electrocardiogram-gated multislice spiral CT of the heart.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>907-23</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">We introduce a reconstruction method for electrocardiogram (ECG)-gated multislice spiral computed tomography (CT) examinations of the heart [adaptive cardio volume (ACV) reconstruction]. It is evaluated for a four-slice CT system (Siemens Somatom VolumeZoom).</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">State-of-the-art reconstruction techniques for ECG-gated multislice spiral CT use scan data from N consecutive heart cycles for image reconstruction. With increased N, the temporal resolution improves up to t rot /(2 N ) ( t rot is the 360 degrees rotation time of the scanner) but at the expense of insufficient volume coverage or loss of longitudinal resolution, especially at low heart rates. With the ACV technique, the number N of consecutive heart cycles used for image reconstruction is automatically adapted to the momentary heart rate of the patient, ranging from N = 1 at very low heart rates up to N = 3 at high heart rates, to maintain both high z resolution (reconstructed slice width close to the collimated slice width) and adequate temporal resolution. We evaluated slice sensitivity profiles and investigated 10 patients with different heart rates ranging from 55 to 110 beats/min for CT angiography (CTA) studies of the coronary arteries and compared the results with those from a reconstruction with fixed N ( N = 1 and N = 2). Axial images as well as multiplanar reformations were used for an evaluation of image quality.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">With the ACV approach, the complete heart may be scanned at 1 mm slice width within 25-35 s. A narrow slice sensitivity profile (full width at half-maximum of approximately 1.3 mm) is maintained for all heart rates. Diagnostic results can be obtained for heart rates up to about 95 beats/min by individual patient optimization of the ECG gating parameters. Improved temporal resolution at the expense of reduced longitudinal resolution may degrade the image quality of CTA studies at low heart rates by blurring plaques and stenoses.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The results indicate the potential of the ACV reconstruction technique for high-resolution coronary CTA in a wide range of heart rates.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Flohr</LastName>
+                    <ForeName>T</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Siemens Medical Solutions, Computed Tomography Division, Forchheim, Germany. thomas.flohr@med.siemens.de</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ohnesorge</LastName>
+                    <ForeName>B</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Comput Assist Tomogr</MedlineTA>
+            <NlmUniqueID>7703942</NlmUniqueID>
+            <ISSNLinking>0363-8715</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003327" MajorTopicYN="N">Coronary Disease</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004562" MajorTopicYN="N">Electrocardiography</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006339" MajorTopicYN="N">Heart Rate</DescriptorName>
+                <QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007091" MajorTopicYN="Y">Image Processing, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019047" MajorTopicYN="N">Phantoms, Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012680" MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013997" MajorTopicYN="N">Time Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2001</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+                <Hour>10</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2002</Year>
+                <Month>1</Month>
+                <Day>11</Day>
+                <Hour>10</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2001</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+                <Hour>10</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">11711804</ArticleId>
+            <ArticleId IdType="pii">00004728-200111000-00014</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

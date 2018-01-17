@@ -1,0 +1,100 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28103188</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-3539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>39</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on pattern analysis and machine intelligence</Title>
+                <ISOAbbreviation>IEEE Trans Pattern Anal Mach Intell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Numerical Inversion of SRNF Maps for Elastic Shape Analysis of Genus-Zero Surfaces.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2451-2464</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TPAMI.2016.2647596</ELocationID>
+            <Abstract>
+                <AbstractText>Recent developments in elastic shape analysis (ESA) are motivated by the fact that it provides a comprehensive framework for simultaneous registration, deformation, and comparison of shapes. These methods achieve computational efficiency using certain square-root representations that transform invariant elastic metrics into euclidean metrics, allowing for the application of standard algorithms and statistical tools. For analyzing shapes of embeddings of in , Jermyn et al. [1] introduced square-root normal fields (SRNFs), which transform an elastic metric, with desirable invariant properties, into the metric. These SRNFs are essentially surface normals scaled by square-roots of infinitesimal area elements. A critical need in shape analysis is a method for inverting solutions (deformations, averages, modes of variations, etc.) computed in SRNF space, back to the original surface space for visualizations and inferences. Due to the lack of theory for understanding SRNF maps and their inverses, we take a numerical approach, and derive an efficient multiresolution algorithm, based on solving an optimization problem in the surface space, that estimates surfaces corresponding to given SRNFs. This solution is found to be effective even for complex shapes that undergo significant deformations including bending and stretching, e.g., human bodies and animals. We use this inversion for computing elastic shape deformations, transferring deformations, summarizing shapes, and for finding modes of variability in a given collection, while simultaneously registering the surfaces. We demonstrate the proposed algorithms using a statistical analysis of human body shapes, classification of generic surfaces, and analysis of brain structures.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Laga</LastName>
+                    <ForeName>Hamid</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Qian</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jermyn</LastName>
+                    <ForeName>Ian H</ForeName>
+                    <Initials>IH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Srivastava</LastName>
+                    <ForeName>Anuj</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Pattern Anal Mach Intell</MedlineTA>
+            <NlmUniqueID>9885960</NlmUniqueID>
+            <ISSNLinking>0098-5589</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28103188</ArticleId>
+            <ArticleId IdType="doi">10.1109/TPAMI.2016.2647596</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,195 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29175980</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1535-5667</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of nuclear medicine : official publication, Society of Nuclear Medicine</Title>
+                <ISOAbbreviation>J. Nucl. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Glioma survival prediction with the combined analysis of in vivo 11C-MET-PET, ex vivo and patient features by supervised machine learning.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">jnumed.117.202267</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2967/jnumed.117.202267</ELocationID>
+            <Abstract>
+                <AbstractText>Gliomas are the most common types of tumors in the brain. While the definite diagnosis is routinely made ex vivo by histopathologic and molecular examination, diagnostic work-up of patients with suspected glioma is mainly done by using magnetic resonance imaging (MRI). Nevertheless, L-S-methyl-11C-methionine (11C-MET) Positron Emission Tomography (PET) holds a great potential in characterization of gliomas. The aim of this study was to establish machine learning (ML) driven survival models for glioma built on 11C-MET-PET, ex vivo and patient characteristics. Methods: 70 patients with a treatment naïve glioma, who had a positive 11C-MET-PET and histopathology-derived ex vivo feature extraction, such as World Health Organization (WHO) 2007 tumor grade, histology and isocitrate dehydrogenase (IDH1-R132H) mutation status were included. The 11C-MET-positive primary tumors were delineated semi-automatically on PET images followed by the feature extraction of tumor-to-background ratio based general and higher-order textural features by applying five different binning approaches. In vivo and ex vivo features, as well as patient characteristics (age, weight, height, body-mass-index, Karnofsky-score) were merged to characterize the tumors. Machine learning approaches were utilized to identify relevant in vivo, ex vivo and patient features and their relative weights for 36 months survival prediction. The resulting feature weights were used to establish three predictive models per binning configuration based on a combination of: in vivo/ex vivo and clinical patient information (M36IEP), in vivo and patient-only information (M36IP), and in vivo only (M36I). In addition a binning-independent ex vivo and patient-only (M36EP) model was created. The established models were validated in a Monte Carlo (MC) cross-validation scheme. Results: Most prominent ML-selected and -weighted features were patient and ex vivo based followed by in vivo features. The highest area under the curve (AUC) values of our models as revealed by the MC cross-validation were: 0.9 (M36IEP), 0.87 (M36EP), 0.77 (M36IP) and 0.72 (M36I). Conclusion: Survival prediction of glioma patients based on amino acid PET using computer-supported predictive models based on in vivo, ex vivo and patient features is highly accurate.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 by the Society of Nuclear Medicine and Molecular Imaging, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Papp</LastName>
+                    <ForeName>Laszlo</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Poetsch</LastName>
+                    <ForeName>Nina</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grahovac</LastName>
+                    <ForeName>Marko</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schmidbauer</LastName>
+                    <ForeName>Victor</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Woehrer</LastName>
+                    <ForeName>Adelheid</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Preusser</LastName>
+                    <ForeName>Matthias</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mitterhauser</LastName>
+                    <ForeName>Markus</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kiesel</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wadsak</LastName>
+                    <ForeName>Wolfgang</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beyer</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hacker</LastName>
+                    <ForeName>Marcus</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Traub-Weidinger</LastName>
+                    <ForeName>Tatjana</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical University of Vienna, Austria.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Nucl Med</MedlineTA>
+            <NlmUniqueID>0217410</NlmUniqueID>
+            <ISSNLinking>0161-5505</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Oncology: Brain</Keyword>
+            <Keyword MajorTopicYN="N">PET</Keyword>
+            <Keyword MajorTopicYN="N">Statistical Analysis</Keyword>
+            <Keyword MajorTopicYN="N">amino-acid PET</Keyword>
+            <Keyword MajorTopicYN="N">glioma</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+            <Keyword MajorTopicYN="N">radiomics</Keyword>
+            <Keyword MajorTopicYN="N">survival</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29175980</ArticleId>
+            <ArticleId IdType="pii">jnumed.117.202267</ArticleId>
+            <ArticleId IdType="doi">10.2967/jnumed.117.202267</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

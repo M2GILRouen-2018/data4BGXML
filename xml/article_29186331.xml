@@ -1,0 +1,115 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186331</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>DDR: Efficient computational method to predict drug-target interactions using graph mining and machine learning approaches.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx731</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Finding computationally drug-target interactions (DTIs) is a convenient strategy to identify new DTIs at low cost with reasonable accuracy. However, the current DTI prediction methods suffer the high false positive prediction rate.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We developed DDR, a novel method that improves the DTI prediction accuracy. DDR is based on the use of a heterogeneous graph that contains known DTIs with multiple similarities between drugs and multiple similarities between target proteins. DDR applies non-linear similarity fusion method to combine different similarities. Before fusion, DDR performs a pre-processing step where a subset of similarities is selected in a heuristic process to obtain an optimized combination of similarities. Then, DDR applies a random forest model using different graph-based features extracted from the DTI heterogeneous graph. Using five repeats of 10-fold cross-validation, three testing setups, and the weighted average of area under the precision-recall curve (AUPR) scores, we show that DDR significantly reduces the AUPR score error relative to the next best start-of-the-art method for predicting DTIs by 34% when the drugs are new, by 23% when targets are new, and by 34% when the drugs and the targets are known but not all DTIs between them are not known. Using independent sources of evidence, we verify as correct 22 out of the top 25 DDR novel predictions. This suggests that DDR can be used as an efficient method to identify correct DTIs.</AbstractText>
+                <AbstractText Label="Availability" NlmCategory="UNASSIGNED">The data and code are provided at https://bitbucket.org/RSO24/ddr/.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">vladimir.bajic@kaust.edu.sa.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Olayan</LastName>
+                    <ForeName>Rawan S</ForeName>
+                    <Initials>RS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, Thuwal, Saudi Arabia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ashoor</LastName>
+                    <ForeName>Haitham</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, Thuwal, Saudi Arabia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bajic</LastName>
+                    <ForeName>Vladimir B</ForeName>
+                    <Initials>VB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, Thuwal, Saudi Arabia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186331</ArticleId>
+            <ArticleId IdType="pii">4657065</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx731</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

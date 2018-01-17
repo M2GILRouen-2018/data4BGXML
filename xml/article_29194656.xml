@@ -1,0 +1,134 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29194656</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Head motion correction based on filtered backprojection for x-ray CT imaging.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12705</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">For head x-ray CT imaging, the head needs to remain motionless during the scan. In clinical practice, however, head motion is sometimes unavoidable depending on the patient. The motion can occur abruptly during the scan and can be unpredictable. It thereby causes motion artifacts such as tissue blurring or doubled edges around the skull area. To mitigate this problem, we propose a 3D head motion estimation (ME) and compensation algorithm based on filtered backprojection.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">If a patient moves his or her head during the scan, a motion-corrupted sinogram is obtained. Modeling the head motion as a 3D rigid transformation, we develop a motion-compensated (MC) reconstruction algorithm based on the FDK algorithm. To determine the head motion of a rigid transformation, we propose two optimization-based ME schemes depending on the degree of head motion, both of which are performed by updating motion parameters and the corresponding MC reconstructed image alternatively until the proposed cost function is minimized for the MC reconstructed image. In particular, to improve the robustness in the case of large motion, we propose attaching a fiducial marker to the head so that more reliable motion parameters can be initialized by determining the marker position, before the optimization. To evaluate the proposed algorithm, a numerical phantom with realistic, continuous, and smoothly varying motion, and a moving physical phantom are used with a gantry rotation time of 1 s.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In the simulation using a numerical phantom and in the experiment using a physical phantom, the proposed algorithm provides well-restored 3D motion-compensated images in both cases of small and large motion. In particular, in the case of large motion of the physical phantom, using a fiducial marker, we obtain remarkable improvement of image quality in cerebral arteries and a lesion as well as the skull. Quantitative evaluations using the image sharpness and root-mean-square error also show noticeable improvement of image quality in both simulations and experiments.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We propose a framework for head motion correction in an axial CT scan, which consists of motion estimation and compensation steps. Two image-based ME algorithms for rigid motion tracking are developed according to the degree of head motion. The estimated motion information is then used for MC image reconstruction. Both motion estimation and compensation algorithms are based on computationally efficient filtered backprojection. Excellent performance of the proposed framework is illustrated by means of simulations using a numerical phantom and experiments using a physical phantom.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jang</LastName>
+                    <ForeName>Seokhwan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical Engineering, KAIST, Daejeon, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Seungeon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical Engineering, KAIST, Daejeon, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Mina</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical Engineering, KAIST, Daejeon, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ra</LastName>
+                    <ForeName>Jong Beom</ForeName>
+                    <Initials>JB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Electrical Engineering, KAIST, Daejeon, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">3D rigid motion</Keyword>
+            <Keyword MajorTopicYN="N">fiducial marker</Keyword>
+            <Keyword MajorTopicYN="N">head CT imaging</Keyword>
+            <Keyword MajorTopicYN="N">motion estimation</Keyword>
+            <Keyword MajorTopicYN="N">motion-compensated reconstruction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29194656</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12705</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

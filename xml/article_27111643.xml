@@ -1,0 +1,174 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27111643</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>05</Month>
+            <Day>20</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>03</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>07</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1526-7598</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>122</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Anesthesia and analgesia</Title>
+                <ISOAbbreviation>Anesth. Analg.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Controlled Substance Reconciliation Accuracy Improvement Using Near Real-Time Drug Transaction Capture from Automated Dispensing Cabinets.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1841-55</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1213/ANE.0000000000001289</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Accurate accounting of controlled drug transactions by inpatient hospital pharmacies is a requirement in the United States under the Controlled Substances Act. At many hospitals, manual distribution of controlled substances from pharmacies is being replaced by automated dispensing cabinets (ADCs) at the point of care. Despite the promise of improved accountability, a high prevalence (15%) of controlled substance discrepancies between ADC records and anesthesia information management systems (AIMS) has been published, with a similar incidence (15.8%; 95% confidence interval [CI], 15.3% to 16.2%) noted at our institution. Most reconciliation errors are clerical. In this study, we describe a method to capture drug transactions in near real-time from our ADCs, compare them with documentation in our AIMS, and evaluate subsequent improvement in reconciliation accuracy.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">ADC-controlled substance transactions are transmitted to a hospital interface server, parsed, reformatted, and sent to a software script written in Perl. The script extracts the data and writes them to a SQL Server database. Concurrently, controlled drug totals for each patient having care are documented in the AIMS and compared with the balance of the ADC transactions (i.e., vending, transferring, wasting, and returning drug). Every minute, a reconciliation report is available to anesthesia providers over the hospital Intranet from AIMS workstations. The report lists all patients, the current provider, the balance of ADC transactions, the totals from the AIMS, the difference, and whether the case is still ongoing or had concluded. Accuracy and latency of the ADC transaction capture process were assessed via simulation and by comparison with pharmacy database records, maintained by the vendor on a central server located remotely from the hospital network. For assessment of reconciliation accuracy over time, data were collected from our AIMS from January 2012 to June 2013 (Baseline), July 2013 to April 2014 (Next Day Reports), and May 2014 to September 2015 (Near Real-Time Reports) and reconciled against pharmacy records from the central pharmacy database maintained by the vendor. Control chart (batch means) methods were used between successive epochs to determine if improvement had taken place.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">During simulation, 100% of 10,000 messages, transmitted at a rate of 1295 per minute, were accurately captured and inserted into the database. Latency (transmission time to local database insertion time) was 46.3 ± 0.44 milliseconds (SEM). During acceptance testing, only 1 of 1384 transactions analyzed had a difference between the near real-time process and what was in the central database; this was for a &quot;John Doe&quot; patient whose name had been changed subsequent to data capture. Once a transaction was entered at the ADC workstation, 84.9% (n = 18 bins; 95% CI, 78.4% to 91.3%) of these transactions were available in the database on the AIMS server within 2 minutes. Within 5 minutes, 98.2% (n = 18 bins; 95% CI, 97.2% to 99.3%) were available. Among 145,642 transactions present in the central pharmacy database, only 24 were missing from the local database table (mean = 0.018%; 95% CI, 0.002% to 0.034%). Implementation of near real-time reporting improved the controlled substance reconciliation error rate compared to the previous Next Day Reports epoch, from 8.8% to 5.2% (difference = -3.6%; 95% CI, -4.3% to -2.8%; P &lt; 10). Errors were distributed among staff, with 50% of discrepancies accounted for by 12.4% of providers and 80% accounted for by 28.5% of providers executing transactions during the Near Real-Time Reports epoch.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The near real-time system for the capture of transactional data flowing over the hospital network was highly accurate, reliable, and exhibited acceptable latency. This methodology can be used to implement similar data capture for transactions from their drug ADCs. Reconciliation accuracy improved significantly as a result of implementation. Our approach may be of particular utility at facilities with limited pharmacy resources to audit anesthesia records for controlled substance administration and reconcile them against dispensing records.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Epstein</LastName>
+                    <ForeName>Richard H</ForeName>
+                    <Initials>RH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>From the *Department of Anesthesiology, Perioperative Medicine and Pain Management, University of Miami, Miller School of Medicine, Miami, Florida; †Sidney Kimmel Medical College at Thomas Jefferson University, Philadelphia, Pennsylvania; ‡Department of Anesthesia, University of Iowa, Iowa City, Iowa; and §Department of Information Systems and Technology, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dexter</LastName>
+                    <ForeName>Franklin</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gratch</LastName>
+                    <ForeName>David M</ForeName>
+                    <Initials>DM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Perino</LastName>
+                    <ForeName>Michael</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Magrann</LastName>
+                    <ForeName>Jerry</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Anesth Analg</MedlineTA>
+            <NlmUniqueID>1310650</NlmUniqueID>
+            <ISSNLinking>0003-2999</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D061891">Controlled Substances</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000761" MajorTopicYN="Y">Anesthesia Department, Hospital</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001331" MajorTopicYN="N">Automation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016303" MajorTopicYN="N">Clinical Pharmacy Information Systems</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D061891" MajorTopicYN="N">Controlled Substances</DescriptorName>
+                <QualifierName UI="Q000600" MajorTopicYN="Y">supply &amp; distribution</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004282" MajorTopicYN="N">Documentation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004356" MajorTopicYN="N">Drug Storage</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004335" MajorTopicYN="Y">Drug and Narcotic Control</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008510" MajorTopicYN="Y">Medication Systems, Hospital</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009870" MajorTopicYN="Y">Operating Room Information Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019095" MajorTopicYN="Y">Point-of-Care Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015397" MajorTopicYN="N">Program Evaluation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013997" MajorTopicYN="N">Time Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057188" MajorTopicYN="N">Workflow</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27111643</ArticleId>
+            <ArticleId IdType="doi">10.1213/ANE.0000000000001289</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

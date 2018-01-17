@@ -1,0 +1,81 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113372</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>02</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The Bitonic Filter: Linear Filtering in an Edge-preserving Morphological Framework.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2605302</ELocationID>
+            <Abstract>
+                <AbstractText>A new filter is presented which has better edge and detail preserving properties than a median, noise reduction capability similar to a Gaussian, and is applicable to many signal and noise types. It is built on a definition of signal as bitonic, i.e. containing only one local maxima or minima within the filter range. This definition is based on data ranking rather than value, hence the bitonic filter comprises a combination of non-linear morphological and linear operators. It has no data-level-sensitive parameters and can locally adapt to the signal and noise levels in an image, precisely preserving both smooth and discontinuous signals of any level when there is no noise, but also reducing noise in other areas without creating additional artefactual noise. Both the basis and the performance of the filter are examined in detail, and it is shown to be a significant improvement on the Gaussian and median. It is also compared over various noisy images to the image-guided filter, anisotropic diffusion, non-local means, the grain filter, and self-dual forms of levelling and rank filters. In terms of signal-to-noise, the bitonic filter outperforms all these except non-local means, and sometimes anisotropic diffusion. However it gives good visual results in all circumstances, with characteristics which make it appropriate particularly for signals or images with varying noise, or features at varying levels. The bitonic has very few parameters, does not require optimisation nor prior knowledge of noise levels, does not have any problems with stability, and is reasonably fast to implement. Despite its non-linearity, it hence represents a very practical operation with general applicability.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Treece</LastName>
+                    <ForeName>Graham</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113372</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2605302</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

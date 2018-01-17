@@ -1,0 +1,134 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29171030</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A separable quadratic surrogate total variation minimization algorithm for accelerating accurate CT reconstruction from few-views and limited-angle data.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12692</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Total variation minimization (TVM) is a popular and useful method for accurate CT reconstruction from few-views and limited-angle data. However, the optimization procedure of previous TVM-based algorithms is very time-consuming. The purpose of this paper was to accelerate the high image quality CT reconstruction from few-views and limited-angle data.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">A new optimization algorithm based on the optimization transfer principle is proposed. The proposed algorithm uses TVM as the regularization term of the cost function that ensures the quality of the CT image reconstructed from few-views and limited-angle data. Additionally, half of the square of the difference between the original projection and the forward projection is used as the fidelity term. We then proved that the regularization term, i.e., 2-norm TV, is a convex function. Based on the convexity of the regularization and fidelity terms, a separable quadratic surrogate (SQS) function was proposed to substitute the regularization and fidelity terms. The solution of the cost function can be obtained by minimizing the SQS function and building the next SQS function at the minimum point.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Both numerical simulations and simulations using real experimental data showed that the proposed algorithm reconstruct high-quality CT image from few-views and limited-angle data. The differences between the image reconstructed by the proposed algorithm and the images reconstructed by the previous algorithms are very small. However, the proposed algorithm required less than 1/10 time of the computational time of the previous algorithms. The image quality is not assessed in a rigorous way.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The proposed algorithm can greatly accelerate the accurate CT reconstruction from few-views and limited-angle data relative to previous algorithms.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hou</LastName>
+                    <ForeName>Xiaowen</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-Dutch Biomedical and Information School, Northeastern University, Shenyang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Teng</LastName>
+                    <ForeName>Yueyang</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-Dutch Biomedical and Information School, Northeastern University, Shenyang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kang</LastName>
+                    <ForeName>Yan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-Dutch Biomedical and Information School, Northeastern University, Shenyang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qi</LastName>
+                    <ForeName>Shouliang</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sino-Dutch Biomedical and Information School, Northeastern University, Shenyang, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CT</Keyword>
+            <Keyword MajorTopicYN="N">concave function</Keyword>
+            <Keyword MajorTopicYN="N">few-views and limited-angle data</Keyword>
+            <Keyword MajorTopicYN="N">separable quadratic surrogate</Keyword>
+            <Keyword MajorTopicYN="N">total variation minimization</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29171030</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12692</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

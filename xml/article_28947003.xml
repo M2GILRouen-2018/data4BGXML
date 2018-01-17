@@ -1,0 +1,243 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28947003</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>151</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ARCOCT: Automatic detection of lumen border in intravascular OCT images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>21-32</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)31202-0</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.08.007</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Intravascular optical coherence tomography (OCT) is an invaluable tool for the detection of pathological features on the arterial wall and the investigation of post-stenting complications. Computational lumen border detection in OCT images is highly advantageous, since it may support rapid morphometric analysis. However, automatic detection is very challenging, since OCT images typically include various artifacts that impact image clarity, including features such as side branches and intraluminal blood presence. This paper presents ARCOCT, a segmentation method for fully-automatic detection of lumen border in OCT images.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">ARCOCT relies on multiple, consecutive processing steps, accounting for image preparation, contour extraction and refinement. In particular, for contour extraction ARCOCT employs the transformation of OCT images based on physical characteristics such as reflectivity and absorption of the tissue and, for contour refinement, local regression using weighted linear least squares and a 2nd degree polynomial model is employed to achieve artifact and small-branch correction as well as smoothness of the artery mesh. Our major focus was to achieve accurate contour delineation in the various types of OCT images, i.e., even in challenging cases with branches and artifacts.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">ARCOCT has been assessed in a dataset of 1812 images (308 from stented and 1504 from native segments) obtained from 20 patients. ARCOCT was compared against ground-truth manual segmentation performed by experts on the basis of various geometric features (e.g. area, perimeter, radius, diameter, centroid, etc.) and closed contour matching indicators (the Dice index, the Hausdorff distance and the undirected average distance), using standard statistical analysis methods. The proposed method was proven very efficient and close to the ground-truth, exhibiting non statistically-significant differences for most of the examined metrics.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">ARCOCT allows accurate and fully-automated lumen border detection in OCT images.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cheimariotis</LastName>
+                    <ForeName>Grigorios-Aris</ForeName>
+                    <Initials>GA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece; Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chatzizisis</LastName>
+                    <ForeName>Yiannis S</ForeName>
+                    <Initials>YS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cardiovascular Division, University of Nebraska Medical Center, Omaha, Nebraska, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koutkias</LastName>
+                    <ForeName>Vassilis G</ForeName>
+                    <Initials>VG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece; Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Toutouzas</LastName>
+                    <ForeName>Konstantinos</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1st Department of Cardiology, Athens Medical School, Hippokration Hospital, Athens, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Giannopoulos</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Applied Imaging Science Lab, Radiology Department, Brigham and Women's Hospital, Harvard Medical School, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Riga</LastName>
+                    <ForeName>Maria</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1st Department of Cardiology, Athens Medical School, Hippokration Hospital, Athens, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chouvarda</LastName>
+                    <ForeName>Ioanna</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece; Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Antoniadis</LastName>
+                    <ForeName>Antonios P</ForeName>
+                    <Initials>AP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cardiovascular Division, Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Doulaverakis</LastName>
+                    <ForeName>Charalambos</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technologies Institute, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsamboulatidis</LastName>
+                    <ForeName>Ioannis</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technologies Institute, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kompatsiaris</LastName>
+                    <ForeName>Ioannis</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Information Technologies Institute, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Giannoglou</LastName>
+                    <ForeName>George D</ForeName>
+                    <Initials>GD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1st Department of Cardiology, AHEPA University Hospital, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Maglaveras</LastName>
+                    <ForeName>Nicos</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece; Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece. Electronic address: nicmag@med.auth.gr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001158" MajorTopicYN="N">Arteries</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016477" MajorTopicYN="N">Artifacts</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001330" MajorTopicYN="N">Automatic Data Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007090" MajorTopicYN="Y">Image Interpretation, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015607" MajorTopicYN="N">Stents</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D041623" MajorTopicYN="Y">Tomography, Optical Coherence</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Automatic segmentation</Keyword>
+            <Keyword MajorTopicYN="N">Contour extraction</Keyword>
+            <Keyword MajorTopicYN="N">Intravascular optical coherence tomography (OCT)</Keyword>
+            <Keyword MajorTopicYN="N">Lumen–Endothelium border</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28947003</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)31202-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.08.007</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

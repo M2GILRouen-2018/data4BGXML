@@ -1,0 +1,159 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29180374</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1098-5336</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Applied and environmental microbiology</Title>
+                <ISOAbbreviation>Appl. Environ. Microbiol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Diazotroph community characterization via a high-throughput nifH amplicon sequencing and analysis pipeline.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">AEM.01512-17</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1128/AEM.01512-17</ELocationID>
+            <Abstract>
+                <AbstractText>The dinitrogenase reductase (nifH) gene is the most widely established molecular marker for the study of nitrogen-fixing prokaryotes in nature. A large number of PCR primer sets have been developed for nifH amplification, and the effective deployment of these approaches should be guided by a rapid, easy-to-use analysis protocol. Bioinformatic analysis of marker gene sequences also requires considerable expertise. In this study, we advance the state of the art for nifH analysis by evaluating nifH primer set performance, developing an improved amplicon sequencing workflow, and implementing a user-friendly bioinformatics pipeline. The developed amplicon sequencing workflow is a three-stage PCR-based approach that uses established technologies for incorporating sample-specific barcode sequences and sequencing adapters. Based on our primer evaluation, we recommend the Ando primer set be used with a modified annealing temperature of 58°C, as this approach captured the largest diversity of nifH templates, including paralog cluster IV/V sequences. To improve nifH sequence analysis, we developed a computational pipeline which infers taxonomy and optionally filters out paralog sequences. In addition, we employ an empirical model to derive optimal OTU cutoffs for the nifH gene at the species, genus, and family levels. A comprehensive workflow script named 'TaxADivA' is provided to ease processing and analysis of nifH amplicons. Our approach is then validated through characterization of diazotroph communities across environmental gradients in beach sands impacted by the Deepwater Horizon oil spill in the Gulf of Mexico, in a peat moss-dominated wetland, and in various plant compartments of a sugarcane field.Importance Nitrogen availability often limits ecosystem productivity, and nitrogen fixation, exclusive to prokaryotes, comprises a major nitrogen input that sustains food webs. The nifH gene, coding for the iron protein of the nitrogenase enzyme, is the most widely established molecular marker for the study of nitrogen-fixing microorganisms (diazotrophs) in nature. This study develops a flexible sequencing/analysis pipeline, named 'TaxADiva', targeted to nifH amplicons produced by Illumina paired-end sequencing, that enables inference of taxonomy, performs clustering, and produces output in formats that may be used by programs that facilitate data exploration and analysis. Diazotroph diversity/community composition are linked to ecosystem functioning, and our results advance the phylogenetic characterization of diazotroph communities by providing empirically-derived nifH similarity cutoffs for species, genus, and family levels. The utility of our pipeline is validated for diazotroph communities in a variety of ecosystems including contaminated beach sands, peatland ecosystems, living plant tissues, and rhizosphere soil.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 American Society for Microbiology.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gaby</LastName>
+                    <ForeName>John Christian</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biology, The Georgia Institute of Technology, Atlanta, GA 30332, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rishishwar</LastName>
+                    <ForeName>Lavanya</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biology, The Georgia Institute of Technology, Atlanta, GA 30332, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Applied Bioinformatics Laboratory, Atlanta, GA 30332, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>PanAmerican Bioinformatics Institute, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Valderrama-Aguirre</LastName>
+                    <ForeName>Lina C</ForeName>
+                    <Initials>LC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Microorganismal Production (Bioinoculums), Department of Field Research in Sugarcane, INCAUCA S.A.S, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Natural Resources and Environmental Engineering, PhD Program in Sanitary and Environmental Engineering, Universidad del Valle, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Green</LastName>
+                    <ForeName>Stefan J</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>DNA Services Facility, Research Resources Center, University of Illinois at Chicago, Chicago, IL 60612, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Valderrama-Aguirre</LastName>
+                    <ForeName>Augusto</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>PanAmerican Bioinformatics Institute, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Research Institute, Universidad Libre, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Regenerar - Center of Excellence for Regenerative and Personalized Medicine, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jordan</LastName>
+                    <ForeName>I King</ForeName>
+                    <Initials>IK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biology, The Georgia Institute of Technology, Atlanta, GA 30332, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Applied Bioinformatics Laboratory, Atlanta, GA 30332, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>PanAmerican Bioinformatics Institute, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kostka</LastName>
+                    <ForeName>Joel E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biology, The Georgia Institute of Technology, Atlanta, GA 30332, USA joel.kostka@biology.gatech.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>PanAmerican Bioinformatics Institute, Cali, Valle del Cauca, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Appl Environ Microbiol</MedlineTA>
+            <NlmUniqueID>7605801</NlmUniqueID>
+            <ISSNLinking>0099-2240</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29180374</ArticleId>
+            <ArticleId IdType="pii">AEM.01512-17</ArticleId>
+            <ArticleId IdType="doi">10.1128/AEM.01512-17</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

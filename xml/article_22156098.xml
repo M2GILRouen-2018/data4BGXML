@@ -1,0 +1,155 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28106716</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>17</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Tracking and Classification of In-Air Hand Gesture Based on Thermal Guided Joint Filter.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E166</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17010166</ELocationID>
+            <Abstract>
+                <AbstractText>The research on hand gestures has attracted many image processing-related studies, as it intuitively conveys the intention of a human as it pertains to motional meaning. Various sensors have been used to exploit the advantages of different modalities for the extraction of important information conveyed by the hand gesture of a user. Although many works have focused on learning the benefits of thermal information from thermal cameras, most have focused on face recognition or human body detection, rather than hand gesture recognition. Additionally, the majority of the works that take advantage of multiple modalities (e.g., the combination of a thermal sensor and a visual sensor), usually adopting simple fusion approaches between the two modalities. As both thermal sensors and visual sensors have their own shortcomings and strengths, we propose a novel joint filter-based hand gesture recognition method to simultaneously exploit the strengths and compensate the shortcomings of each. Our study is motivated by the investigation of the mutual supplementation between thermal and visual information in low feature level for the consistent representation of a hand in the presence of varying lighting conditions. Accordingly, our proposed method leverages the thermal sensor's stability against luminance and the visual sensors textural detail, while complementing the low resolution and halo effect of thermal sensors and the weakness against illumination of visual sensors. A conventional region tracking method and a deep convolutional neural network have been leveraged to track the trajectory of a hand gesture and to recognize the hand gesture, respectively. Our experimental results show stability in recognizing a hand gesture against varying lighting conditions based on the contribution of the joint kernels of spatial adjacency and thermal range similarity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Seongwan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Electronic Engineering, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 03722, Korea. knauer@yonsei.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ban</LastName>
+                    <ForeName>Yuseok</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Electronic Engineering, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 03722, Korea. van@yonsei.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Sangyoun</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Electronic Engineering, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 03722, Korea. syleee@yonsei.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Physiol Meas. 2012 Mar;33(3):R33-46</RefSource>
+                <PMID Version="1">22370242</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2009;9(9):7516-39</RefSource>
+                <PMID Version="1">22400006</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2009 Sep;31(9):1685-99</RefSource>
+                <PMID Version="1">19574627</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2014 Feb 28;14(3):4126-43</RefSource>
+                <PMID Version="1">24590354</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2016 Jul 11;16(7):null</RefSource>
+                <PMID Version="1">27409622</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2012 Jul;34(7):1409-22</RefSource>
+                <PMID Version="1">22156098</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">hand gesture recognition</Keyword>
+            <Keyword MajorTopicYN="N">hand gesture tracking</Keyword>
+            <Keyword MajorTopicYN="N">joint filter</Keyword>
+            <Keyword MajorTopicYN="N">thermal sensor</Keyword>
+            <Keyword MajorTopicYN="N">varying lighting conditions</Keyword>
+            <Keyword MajorTopicYN="N">visual sensor</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28106716</ArticleId>
+            <ArticleId IdType="pii">s17010166</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17010166</ArticleId>
+            <ArticleId IdType="pmc">PMC5298739</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

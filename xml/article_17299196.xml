@@ -1,0 +1,433 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">21443790</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>04</Month>
+            <Day>08</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>06</Month>
+            <Day>20</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1755-8794</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>4</Volume>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Mar</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medical genomics</Title>
+                <ISOAbbreviation>BMC Med Genomics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Development of a blood-based gene expression algorithm for assessment of obstructive coronary artery disease in non-diabetic patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>26</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1755-8794-4-26</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Alterations in gene expression in peripheral blood cells have been shown to be sensitive to the presence and extent of coronary artery disease (CAD). A non-invasive blood test that could reliably assess obstructive CAD likelihood would have diagnostic utility.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Microarray analysis of RNA samples from a 195 patient Duke CATHGEN registry case:control cohort yielded 2,438 genes with significant CAD association (p &lt; 0.05), and identified the clinical/demographic factors with the largest effects on gene expression as age, sex, and diabetic status. RT-PCR analysis of 88 CAD classifier genes confirmed that diabetic status was the largest clinical factor affecting CAD associated gene expression changes. A second microarray cohort analysis limited to non-diabetics from the multi-center PREDICT study (198 patients; 99 case: control pairs matched for age and sex) evaluated gene expression, clinical, and cell population predictors of CAD and yielded 5,935 CAD genes (p &lt; 0.05) with an intersection of 655 genes with the CATHGEN results. Biological pathway (gene ontology and literature) and statistical analyses (hierarchical clustering and logistic regression) were used in combination to select 113 genes for RT-PCR analysis including CAD classifiers, cell-type specific markers, and normalization genes.RT-PCR analysis of these 113 genes in a PREDICT cohort of 640 non-diabetic subject samples was used for algorithm development. Gene expression correlations identified clusters of CAD classifier genes which were reduced to meta-genes using LASSO. The final classifier for assessment of obstructive CAD was derived by Ridge Regression and contained sex-specific age functions and 6 meta-gene terms, comprising 23 genes. This algorithm showed a cross-validated estimated AUC = 0.77 (95% CI 0.73-0.81) in ROC analysis.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We have developed a whole blood classifier based on gene expression, age and sex for the assessment of obstructive CAD in non-diabetic patients from a combination of microarray and RT-PCR data derived from studies of patients clinically indicated for invasive angiography.</AbstractText>
+                <AbstractText Label="CLINICAL TRIAL REGISTRATION INFORMATION" NlmCategory="BACKGROUND">PREDICT, Personalized Risk Evaluation and Diagnosis in the Coronary Tree, http://www.clinicaltrials.gov, NCT00500617.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Elashoff</LastName>
+                    <ForeName>Michael R</ForeName>
+                    <Initials>MR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CardioDx, Inc., 2500 Faber Place, Palo Alto, CA 94602, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wingrove</LastName>
+                    <ForeName>James A</ForeName>
+                    <Initials>JA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beineke</LastName>
+                    <ForeName>Philip</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Daniels</LastName>
+                    <ForeName>Susan E</ForeName>
+                    <Initials>SE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tingley</LastName>
+                    <ForeName>Whittemore G</ForeName>
+                    <Initials>WG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rosenberg</LastName>
+                    <ForeName>Steven</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Voros</LastName>
+                    <ForeName>Szilard</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kraus</LastName>
+                    <ForeName>William E</ForeName>
+                    <Initials>WE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ginsburg</LastName>
+                    <ForeName>Geoffrey S</ForeName>
+                    <Initials>GS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schwartz</LastName>
+                    <ForeName>Robert S</ForeName>
+                    <Initials>RS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ellis</LastName>
+                    <ForeName>Stephen G</ForeName>
+                    <Initials>SG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tahirkheli</LastName>
+                    <ForeName>Naheem</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Waksman</LastName>
+                    <ForeName>Ron</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McPherson</LastName>
+                    <ForeName>John</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lansky</LastName>
+                    <ForeName>Alexandra J</ForeName>
+                    <Initials>AJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Topol</LastName>
+                    <ForeName>Eric J</ForeName>
+                    <Initials>EJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ClinicalTrials.gov</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>NCT00500617</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>UL1 RR025774</GrantID>
+                    <Acronym>RR</Acronym>
+                    <Agency>NCRR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med Genomics</MedlineTA>
+            <NlmUniqueID>101319628</NlmUniqueID>
+            <ISSNLinking>1755-8794</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Immunol. 2004 Sep-Oct;231(1-2):1-7</RefSource>
+                <PMID Version="1">15919363</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Cardiol. 2005 May 17;45(10):1638-43</RefSource>
+                <PMID Version="1">15893180</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genomic Med. 2007;1(3-4):105-12</RefSource>
+                <PMID Version="1">18923935</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Atherosclerosis. 2010 Apr;209(2):545-50</RefSource>
+                <PMID Version="1">19833340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Immunol. 2004 May;41(1):53-62</RefSource>
+                <PMID Version="1">15140575</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2010 Oct 5;153(7):425-34</RefSource>
+                <PMID Version="1">20921541</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Clin Oncol. 2010 Jun;7(6):327-34</RefSource>
+                <PMID Version="1">20421890</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Res. 2008 Feb 1;102(2):209-17</RefSource>
+                <PMID Version="1">17991882</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arterioscler Thromb Vasc Biol. 2006 Nov;26(11):2421-32</RefSource>
+                <PMID Version="1">16973967</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arterioscler Thromb Vasc Biol. 2004 Jun;24(6):1049-54</RefSource>
+                <PMID Version="1">14988092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Mar 23;101(12):4164-9</RefSource>
+                <PMID Version="1">15016911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Immunol. 2009 Mar;10(3):297-305</RefSource>
+                <PMID Version="1">19151721</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 1979 Jun 14;300(24):1350-8</RefSource>
+                <PMID Version="1">440357</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2010 Nov 2;122(18):1837-45</RefSource>
+                <PMID Version="1">20956207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2010 Apr;7(4):287-9</RefSource>
+                <PMID Version="1">20208531</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Immunol. 2008 Oct;9(10):1179-88</RefSource>
+                <PMID Version="1">18776906</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arterioscler Thromb Vasc Biol. 2002 Nov 1;22(11):1892-8</RefSource>
+                <PMID Version="1">12426221</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Antioxid Redox Signal. 2009 Jun;11(6):1415-52</RefSource>
+                <PMID Version="1">19061437</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Cardiovasc Imaging. 2009 Oct;25(7):717-23</RefSource>
+                <PMID Version="1">19633998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Cardiovasc Genet. 2008 Oct;1(1):31-8</RefSource>
+                <PMID Version="1">20031539</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 1981 Aug;64(2):360-7</RefSource>
+                <PMID Version="1">7249303</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2005 Aug 15;21(16):3448-9</RefSource>
+                <PMID Version="1">15972284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biostatistics. 2007 Apr;8(2):212-27</RefSource>
+                <PMID Version="1">16698769</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Apr 20;101(16):6062-7</RefSource>
+                <PMID Version="1">15075390</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Transplant. 2006 Jan;6(1):150-60</RefSource>
+                <PMID Version="1">16433769</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(8):e6803</RefSource>
+                <PMID Version="1">19710928</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2002 Mar 5;105(9):1135-43</RefSource>
+                <PMID Version="1">11877368</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(9):e7037</RefSource>
+                <PMID Version="1">19750006</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2008;3(8):e3024</RefSource>
+                <PMID Version="1">18714388</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Leukoc Biol. 2009 Sep;86(3):577-87</RefSource>
+                <PMID Version="1">19237640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2004 Dec 30;351(27):2817-26</RefSource>
+                <PMID Version="1">15591335</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Med. 2010 Aug 2;207(8):1579-87</RefSource>
+                <PMID Version="1">20603314</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arthritis Rheum. 2005 Oct;52(10):3045-53</RefSource>
+                <PMID Version="1">16200609</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Oncol. 2005 Oct 10;23(29):7332-41</RefSource>
+                <PMID Version="1">16145063</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Hum Genet. 2007 Apr;80(4):650-63</RefSource>
+                <PMID Version="1">17357071</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circ Res. 2002 Aug 23;91(4):281-91</RefSource>
+                <PMID Version="1">12193460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2010 Mar 11;362(10):886-95</RefSource>
+                <PMID Version="1">20220183</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2007 Sep;8(9):689-98</RefSource>
+                <PMID Version="1">17680007</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Intern Med. 2007 Dec;262(6):678-89</RefSource>
+                <PMID Version="1">17908163</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2007 Feb 14;297(6):611-9</RefSource>
+                <PMID Version="1">17299196</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000367" MajorTopicYN="N">Age Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001773" MajorTopicYN="N">Blood Cells</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016022" MajorTopicYN="N">Case-Control Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016000" MajorTopicYN="N">Cluster Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015331" MajorTopicYN="N">Cohort Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003920" MajorTopicYN="N">Diabetes Mellitus</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005786" MajorTopicYN="N">Gene Expression Regulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D046228" MajorTopicYN="N">Microarray Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012372" MajorTopicYN="N">ROC Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020133" MajorTopicYN="N">Reverse Transcriptase Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012737" MajorTopicYN="N">Sex Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3072303</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">21443790</ArticleId>
+            <ArticleId IdType="pii">1755-8794-4-26</ArticleId>
+            <ArticleId IdType="doi">10.1186/1755-8794-4-26</ArticleId>
+            <ArticleId IdType="pmc">PMC3072303</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

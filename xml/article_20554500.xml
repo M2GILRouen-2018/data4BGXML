@@ -1,0 +1,229 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23624056</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>04</Month>
+            <Day>29</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1438-8871</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of medical Internet research</Title>
+                <ISOAbbreviation>J. Med. Internet Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A data encryption solution for mobile health apps in cooperation environments.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e66</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2196/jmir.2498</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Mobile Health (mHealth) proposes health care delivering anytime and anywhere. It aims to answer several emerging problems in health services, including the increasing number of chronic diseases, high costs on national health services, and the need to provide direct access to health services, regardless of time and place. mHealth systems include the use of mobile devices and apps that interact with patients and caretakers. However, mobile devices present several constraints, such as processor, energy, and storage resource limitations. The constant mobility and often-required Internet connectivity also exposes and compromises the privacy and confidentiality of health information.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">This paper presents a proposal, construction, performance evaluation, and validation of a data encryption solution for mobile health apps (DE4MHA), considering a novel and early-proposed cooperation strategy. The goal was to present a robust solution based on encryption algorithms that guarantee the best confidentiality, integrity, and authenticity of users health information. In this paper, we presented, explained, evaluated the performance, and discussed the cooperation mechanisms and the proposed encryption solution for mHealth apps.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">First, we designed and deployed the DE4MHA. Then two studies were performed: (1) study and comparison of symmetric and asymmetric encryption/decryption algorithms in an mHealth app under a cooperation environment, and (2) performance evaluation of the DE4MHA. Its performance was evaluated through a prototype using an mHealth app for obesity prevention and cares, called SapoFit. We then conducted an evaluation study of the mHealth app with cooperation mechanisms and the DE4MHA using real users and a real cooperation scenario. In 5 days, 5 different groups of 7 students selected randomly agreed to use and experiment the SapoFit app using the 7 devices available for trials.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">There were 35 users of SapoFit that participated in this study. The performance evaluation of the app was done using 7 real mobile devices in 5 different days. The results showed that confidentiality and protection of the users' health information was guaranteed and SapoFit users were able to use the mHealth app with satisfactory quality. Results also showed that the app with the DE4MHA presented nearly the same results as the app without the DE4MHA. The performance evaluation results considered the probability that a request was successfully answered as a function of the number of uncooperative nodes in the network. The service delivery probability decreased with the increase of uncooperative mobile nodes. Using DE4MHA, it was observed that performance presented a slightly worse result. The service average was also slightly worse but practically insignificantly different than with DE4MHA, being considered negligible.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This paper proposed a data encryption solution for mobile health apps, called DE4MHA. The data encryption algorithm DE4MHA with cooperation mechanisms in mobile health allow users to safely obtain health information with the data being carried securely. These security mechanisms did not deteriorate the overall network performance and the app, maintaining similar performance levels as without the encryption. More importantly, it offers a robust and reliable increase of privacy, confidentiality, integrity, and authenticity of their health information. Although it was experimented on a specific mHealth app, SapoFit, both DE4MHA and the cooperation strategy can be deployed in other mHealth apps.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Silva</LastName>
+                    <ForeName>Bruno M</ForeName>
+                    <Initials>BM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Instituto de Telecomunicações, University of Beira Interior, Covilhã, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rodrigues</LastName>
+                    <ForeName>Joel J P C</ForeName>
+                    <Initials>JJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Canelo</LastName>
+                    <ForeName>Fábio</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lopes</LastName>
+                    <ForeName>Ivo C</ForeName>
+                    <Initials>IC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Liang</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D023361">Validation Studies</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>04</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Canada</Country>
+            <MedlineTA>J Med Internet Res</MedlineTA>
+            <NlmUniqueID>100959882</NlmUniqueID>
+            <ISSNLinking>1438-8871</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE J Sel Top Signal Process. 2010 Aug;4(4):756-766</RefSource>
+                <PMID Version="1">20862266</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2007;9(5):e36</RefSource>
+                <PMID Version="1">18166525</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2012;14(1):e1</RefSource>
+                <PMID Version="1">22281837</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2011;13(1):e10</RefSource>
+                <PMID Version="1">21371991</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Yearb Med Inform. 2010;:94-100</RefSource>
+                <PMID Version="1">20938579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Telemed J E Health. 2003 Fall;9(3):247-57</RefSource>
+                <PMID Version="1">14611692</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2010 Mar;14(2):401-9</RefSource>
+                <PMID Version="1">20007033</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Inform Health Soc Care. 2013 Jan;38(1):37-53</RefSource>
+                <PMID Version="1">22657250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2009;11(1):e1</RefSource>
+                <PMID Version="1">19141433</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2000 Sep;4(3):189-93</RefSource>
+                <PMID Version="1">11026588</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2010 May;14(3):726-33</RefSource>
+                <PMID Version="1">20371411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2012;14(1):e3</RefSource>
+                <PMID Version="1">22262730</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2010 May;14(3):622-33</RefSource>
+                <PMID Version="1">20123578</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2010;12(2):e21</RefSource>
+                <PMID Version="1">20554500</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D040421" MajorTopicYN="Y">Cell Phones</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016494" MajorTopicYN="Y">Computer Security</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017216" MajorTopicYN="Y">Telemedicine</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3636327</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">cooperation</Keyword>
+            <Keyword MajorTopicYN="N">eHealth</Keyword>
+            <Keyword MajorTopicYN="N">encryption</Keyword>
+            <Keyword MajorTopicYN="N">mHealth</Keyword>
+            <Keyword MajorTopicYN="N">mobile computing</Keyword>
+            <Keyword MajorTopicYN="N">mobile health</Keyword>
+            <Keyword MajorTopicYN="N">security</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2012</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>02</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>01</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23624056</ArticleId>
+            <ArticleId IdType="pii">v15i4e66</ArticleId>
+            <ArticleId IdType="doi">10.2196/jmir.2498</ArticleId>
+            <ArticleId IdType="pmc">PMC3636327</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

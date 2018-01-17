@@ -1,0 +1,98 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28141518</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Improved Computational Efficiency of Locally Low Rank MRI Reconstruction Using Iterative Random Patch Adjustments.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1209-1220</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2017.2659742</ELocationID>
+            <Abstract>
+                <AbstractText>This paper presents and analyzes an alternative formulation of the locally low-rank (LLR) regularization framework for magnetic resonance image (MRI) reconstruction. Generally, LLR-based MRI reconstruction techniques operate by dividing the underlying image into a collection of matrices formed from image patches. Each of these matrices is assumed to have low rank due to the inherent correlations among the data, whether along the coil, temporal, or multi-contrast dimensions. The LLR regularization has been successful for various MRI applications, such as parallel imaging and accelerated quantitative parameter mapping. However, a major limitation of most conventional implementations of the LLR regularization is the use of multiple sets of overlapping patches. Although the use of overlapping patches leads to effective shift-invariance, it also results in high-computational load, which limits the practical utility of the LLR regularization for MRI. To circumvent this problem, alternative LLR-based algorithms instead shift a single set of non-overlapping patches at each iteration, thereby achieving shift-invariance and avoiding block artifacts. A novel contribution of this paper is to provide a mathematical framework and justification of LLR regularization with iterative random patch adjustments (LLR-IRPA). This method is compared with a state-of-the-art LLR regularization algorithm based on overlapping patches, and it is shown experimentally that results are similar but with the advantage of much reduced computational load. We also present theoretical results demonstrating the effective shift invariance of the LLR-IRPA approach, and we show reconstruction examples and comparisons in both retrospectively and prospectively undersampled MRI acquisitions, and in T1 parameter mapping.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Saucedo</LastName>
+                    <ForeName>Andres</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lefkimmiatis</LastName>
+                    <ForeName>Stamatios</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rangwala</LastName>
+                    <ForeName>Novena</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kyunghyun Sung</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28141518</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2017.2659742</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

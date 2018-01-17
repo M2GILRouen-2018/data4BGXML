@@ -1,0 +1,158 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29178498</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Technical Note: Solving the &quot;Chinese postman problem&quot; for effective contour deformation.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12698</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">To develop a practical approach for accurate contour deformation when deformable image registration (DIR) is used for atlas-based segmentation or contour propagation in image-guided radiotherapy.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We developed a contour deformation approach based on 3D mesh operations. The 2D contours represented by a series of points in each slice were first converted to a 3D triangular mesh, which was deformed by the deformation vectors resulting from DIR. A set of parallel 2D planes then cut through the deformed 3D mesh, generating unordered points and line segments, to be reorganized into a set of 2D contour points. The reorganization problem was equivalent to solving the &quot;Chinese postman problem&quot; (CPP) by traversing a graph built from the unordered points with the least cost. Alternatively, deformation could be applied to a binary image converted from the original contours. The deformed binary image was then converted back into contours at the CT slice locations. We validated the mesh-based contour deformation approach using lung and heart contours from 10 patients with thoracic cancer.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">DIR could change the 3D mesh considerably, complicating 2D contour representations after deformation. CPP could effectively reorganize the points in 2D planes regardless of how complicated the 2D contours were. Among the 10 patients, the Dice similarity coefficient between the mesh-based contour and binary image-based contour was 97.6% ± 0.3% for lung and 97.5% ± 0.7% for heart, and the Hausdoroff distance between them was 19.8 ± 5.1 mm for lung and 6.1 ± 2.2 mm for heart. Subjective evaluation showed that the mesh-based approach could keep fine details, especially for the lung. The image-based approach seemed to overprocess contours and suffered from image resolution limits.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">We developed a practical approach for accurate contour deformation and demonstrated its effectiveness for both clinical and research applications.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jingqian</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yongbin</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Cincinnati Medical Center, Cincinnati, OH, 45219, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Lifei</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dong</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Balter</LastName>
+                    <ForeName>Peter A</ForeName>
+                    <Initials>PA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Court</LastName>
+                    <ForeName>Laurence E</ForeName>
+                    <Initials>LE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Jinzhong</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Chinese postman problem</Keyword>
+            <Keyword MajorTopicYN="N">contour deformation</Keyword>
+            <Keyword MajorTopicYN="N">deformable image registration</Keyword>
+            <Keyword MajorTopicYN="N">graph theory</Keyword>
+            <Keyword MajorTopicYN="N">radiation treatment planning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29178498</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12698</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

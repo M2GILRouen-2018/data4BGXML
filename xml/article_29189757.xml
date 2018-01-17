@@ -1,0 +1,135 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29189757</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Denoising Method for Randomly Clustered Noise in ICCD Sensing Images Based on Hypergraph Cut and Down Sampling.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2778</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17122778</ELocationID>
+            <Abstract>
+                <AbstractText>Intensified charge-coupled device (ICCD) images are captured by ICCD sensors in extremely low-light conditions. They often contains spatially clustered noises and general filtering methods do not work well. We find that the scale of the clustered noise in ICCD sensing images is often much smaller than that of the true structural information. Then the clustered noise can be identified by properly down-sampling and then up-sampling the ICCD sensing image and comparing it to the noisy image. Based on this finding, we present a denoising algorithm to remove the randomly clustered noise in ICCD images. First, we over-segment the ICCD image into a set of flat patches, and each patch contains very little structural information. Second, we classify the patches into noisy patches and noise-free patches based on the hypergraph cut method. Then the noise-free patches are easily recovered by the general block-matching and 3D filtering (BM3D) algorithm, since they often do not contain the clustered noise. The noisy patches are recovered by subtracting the identified clustered noise from the noisy patches. After that, we could get the whole recovered ICCD image. Finally, the quality of the recovered ICCD image is further improved by diminishing the remaining sparse noise with robust principal component analysis. Experiments are conducted on a set of ICCD images and compared with four existing denoising algorithms, which shows that the proposed algorithm removes well the randomly clustered noise and preserves the true textural information in the ICCD sensing images.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Meng</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. mengyang@xjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Fei</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. wfx@xjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yibin</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. wybxy001@126.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zheng</LastName>
+                    <ForeName>Nanning</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. nnzheng@xjtu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ICCD image sensor</Keyword>
+            <Keyword MajorTopicYN="N">hypergraph cut</Keyword>
+            <Keyword MajorTopicYN="N">image denoising</Keyword>
+            <Keyword MajorTopicYN="N">principal component analysis</Keyword>
+            <Keyword MajorTopicYN="N">randomly clustered noise</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29189757</ArticleId>
+            <ArticleId IdType="pii">s17122778</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17122778</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

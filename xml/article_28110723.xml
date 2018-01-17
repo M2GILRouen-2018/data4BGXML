@@ -1,0 +1,179 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110723</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Structural MRI-based detection of Alzheimer's disease using feature ranking and classification error.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>177-193</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30105-5</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.019</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">This paper presents an automatic computer-aided diagnosis (CAD) system based on feature ranking for detection of Alzheimer's disease (AD) using structural magnetic resonance imaging (sMRI) data.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The proposed CAD system is composed of four systematic stages. First, global and local differences in the gray matter (GM) of AD patients compared to the GM of healthy controls (HCs) are analyzed using a voxel-based morphometry technique. The aim is to identify significant local differences in the volume of GM as volumes of interests (VOIs). Second, the voxel intensity values of the VOIs are extracted as raw features. Third, the raw features are ranked using a seven-feature ranking method, namely, statistical dependency (SD), mutual information (MI), information gain (IG), Pearson's correlation coefficient (PCC), t-test score (TS), Fisher's criterion (FC), and the Gini index (GI). The features with higher scores are more discriminative. To determine the number of top features, the estimated classification error based on training set made up of the AD and HC groups is calculated, with the vector size that minimized this error selected as the top discriminative feature. Fourth, the classification is performed using a support vector machine (SVM). In addition, a data fusion approach among feature ranking methods is introduced to improve the classification performance.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The proposed method is evaluated using a data-set from ADNI (130 AD and 130 HC) with 10-fold cross-validation. The classification accuracy of the proposed automatic system for the diagnosis of AD is up to 92.48% using the sMRI data.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">An automatic CAD system for the classification of AD based on feature-ranking method and classification errors is proposed. In this regard, seven-feature ranking methods (i.e., SD, MI, IG, PCC, TS, FC, and GI) are evaluated. The optimal size of top discriminative features is determined by the classification error estimation in the training phase. The experimental results indicate that the performance of the proposed system is comparative to that of state-of-the-art classification models.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Beheshti</LastName>
+                    <ForeName>Iman</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Integrative Brain Imaging Center, National Center of Neurology and Psychiatry, 4-1-1, Ogawahigashi-cho, Kodaira, Tokyo 187-8551, Japan. Electronic address: Iman.beheshti@ncnp.go.jp.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Demirel</LastName>
+                    <ForeName>Hasan</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Image Processing Lab, Department of Electrical &amp; Electronic Engineering, Eastern Mediterranean University, Famagusta, Mersin 10, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Farokhian</LastName>
+                    <ForeName>Farnaz</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Science and Bioengineering, Beijing University of Technology, Beijing, 100022, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Chunlan</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Science and Bioengineering, Beijing University of Technology, Beijing, 100022, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Matsuda</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Integrative Brain Imaging Center, National Center of Neurology and Psychiatry, 4-1-1, Ogawahigashi-cho, Kodaira, Tokyo 187-8551, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Alzheimer's Disease Neuroimaging Initiative</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000544" MajorTopicYN="N">Alzheimer Disease</DescriptorName>
+                <QualifierName UI="Q000145" MajorTopicYN="N">classification</QualifierName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D021621" MajorTopicYN="N">Imaging, Three-Dimensional</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Alzheimer's disease</Keyword>
+            <Keyword MajorTopicYN="N">Classification error</Keyword>
+            <Keyword MajorTopicYN="N">Computer-aided diagnosis</Keyword>
+            <Keyword MajorTopicYN="N">Feature extraction</Keyword>
+            <Keyword MajorTopicYN="N">Feature ranking</Keyword>
+            <Keyword MajorTopicYN="N">Structural MRI</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110723</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30105-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.019</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

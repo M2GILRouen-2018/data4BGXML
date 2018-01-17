@@ -1,0 +1,324 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29155848</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An electronic health record based model predicts statin adherence, LDL cholesterol, and cardiovascular disease in the United States Military Health System.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0187809</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0187809</ELocationID>
+            <Abstract>
+                <AbstractText>HMG-CoA reductase inhibitors (or &quot;statins&quot;) are important and commonly used medications to lower cholesterol and prevent cardiovascular disease. Nearly half of patients stop taking statin medications one year after they are prescribed leading to higher cholesterol, increased cardiovascular risk, and costs due to excess hospitalizations. Identifying which patients are at highest risk for not adhering to long-term statin therapy is an important step towards individualizing interventions to improve adherence. Electronic health records (EHR) are an increasingly common source of data that are challenging to analyze but have potential for generating more accurate predictions of disease risk. The aim of this study was to build an EHR based model for statin adherence and link this model to biologic and clinical outcomes in patients receiving statin therapy. We gathered EHR data from the Military Health System which maintains administrative data for active duty, retirees, and dependents of the United States armed forces military that receive health care benefits. Data were gathered from patients prescribed their first statin prescription in 2005 and 2006. Baseline billing, laboratory, and pharmacy claims data were collected from the two years leading up to the first statin prescription and summarized using non-negative matrix factorization. Follow up statin prescription refill data was used to define the adherence outcome (&gt; 80 percent days covered). The subsequent factors to emerge from this model were then used to build cross-validated, predictive models of 1) overall disease risk using coalescent regression and 2) statin adherence (using random forest regression). The predicted statin adherence for each patient was subsequently used to correlate with cholesterol lowering and hospitalizations for cardiovascular disease during the 5 year follow up period using Cox regression. The analytical dataset included 138 731 individuals and 1840 potential baseline predictors that were reduced to 30 independent EHR &quot;factors&quot;. A random forest predictive model taking patient, statin prescription, predicted disease risk, and the EHR factors as potential inputs produced a cross-validated c-statistic of 0.736 for classifying statin non-adherence. The addition of the first refill to the model increased the c-statistic to 0.81. The predicted statin adherence was independently associated with greater cholesterol lowering (correlation = 0.14, p &lt; 1e-20) and lower hospitalization for myocardial infarction, coronary artery disease, and stroke (hazard ratio = 0.84, p = 1.87E-06). Electronic health records data can be used to build a predictive model of statin adherence that also correlates with statins' cardiovascular benefits.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lucas</LastName>
+                    <ForeName>Joseph E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Social Science Research Institute, Duke University, Durham, NC, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bazemore</LastName>
+                    <ForeName>Taylor C</ForeName>
+                    <Initials>TC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Duke University, Durham, NC, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alo</LastName>
+                    <ForeName>Celan</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>United States Air Force, Air Force Medical Operations Agency, Joint Base Lackland-Kelly, Texas, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Monahan</LastName>
+                    <ForeName>Patrick B</ForeName>
+                    <Initials>PB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>United States Air Force, Air Force Medical Operations Agency, Joint Base Lackland-Kelly, Texas, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Voora</LastName>
+                    <ForeName>Deepak</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0015-5179</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Duke University, Durham, NC, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Applied Genomics &amp; Precision Medicine, Duke University, Durham, NC, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D008078">Cholesterol, LDL</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D019161">Hydroxymethylglutaryl-CoA Reductase Inhibitors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>97C5T2UQ7J</RegistryNumber>
+                <NameOfSubstance UI="D002784">Cholesterol</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Apr;48:160-70</RefSource>
+                <PMID Version="1">24370496</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Public Health. 2011;32:5-22</RefSource>
+                <PMID Version="1">21417752</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2013 Apr 3;309(13):1351-2</RefSource>
+                <PMID Version="1">23549579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Manag Care Pharm. 2007 Jul-Aug;13(6):487-96</RefSource>
+                <PMID Version="1">17672810</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Prev Cardiol. 2010 Summer;13(3):104-11</RefSource>
+                <PMID Version="1">20626664</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am Heart J. 2008 Apr;155(4):772-9</RefSource>
+                <PMID Version="1">18371492</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2014 Jan 21;129(3):e28-e292</RefSource>
+                <PMID Version="1">24352519</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Transl Med. 2015 Oct 28;7(311):311ra174</RefSource>
+                <PMID Version="1">26511511</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2005 Aug 4;353(5):487-97</RefSource>
+                <PMID Version="1">16079372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE/ACM Trans Comput Biol Bioinform. 2017 May-Jun;14 (3):545-554</RefSource>
+                <PMID Version="1">27429443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2017 Jan;24(1):198-208</RefSource>
+                <PMID Version="1">27189013</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2014 Apr 10;370(15):1422-31</RefSource>
+                <PMID Version="1">24645848</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Serv Res. 2016 Feb;51(1):220-39</RefSource>
+                <PMID Version="1">25879372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2014 Jun 24;129(25 Suppl 2):S1-45</RefSource>
+                <PMID Version="1">24222016</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gen Intern Med. 2012 Jan;27(1):57-64</RefSource>
+                <PMID Version="1">21879374</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Epidemiol. 2015 Jan;68(1):3-14</RefSource>
+                <PMID Version="1">25441702</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Cardiol. 2011 Jun 1;107(11):1662-6</RefSource>
+                <PMID Version="1">21439533</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Care. 2010 Mar;48(3):196-202</RefSource>
+                <PMID Version="1">19890219</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Prefer Adherence. 2012;6:643-51</RefSource>
+                <PMID Version="1">23055697</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Clin Pharmacol. 2011 May;71(5):766-76</RefSource>
+                <PMID Version="1">21204911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Dec 03;9(12):e112479</RefSource>
+                <PMID Version="1">25469987</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Heart Assoc. 2016 Jun 17;5(6):null</RefSource>
+                <PMID Version="1">27317347</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2002 Jul 24-31;288(4):462-7</RefSource>
+                <PMID Version="1">12132976</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Manag Care. 2012 Oct 01;18(10):e372-7</RefSource>
+                <PMID Version="1">23145845</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000293" MajorTopicYN="N">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002784" MajorTopicYN="N">Cholesterol</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008078" MajorTopicYN="N">Cholesterol, LDL</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003324" MajorTopicYN="N">Coronary Artery Disease</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057286" MajorTopicYN="N">Electronic Health Records</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019161" MajorTopicYN="N">Hydroxymethylglutaryl-CoA Reductase Inhibitors</DescriptorName>
+                <QualifierName UI="Q000627" MajorTopicYN="Y">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006937" MajorTopicYN="N">Hypercholesterolemia</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055118" MajorTopicYN="N">Medication Adherence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008887" MajorTopicYN="N">Military Medicine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008889" MajorTopicYN="N">Military Personnel</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009203" MajorTopicYN="N">Myocardial Infarction</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014481" MajorTopicYN="N">United States</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058014" MajorTopicYN="N">Veterans Health</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29155848</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0187809</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-19640</ArticleId>
+            <ArticleId IdType="pmc">PMC5695792</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

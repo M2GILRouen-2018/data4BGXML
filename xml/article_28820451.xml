@@ -1,0 +1,146 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28934102</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Pose Estimation of a Mobile Robot Based on Fusion of IMU Data and Vision Data Using an Extended Kalman Filter.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2164</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17102164</ELocationID>
+            <Abstract>
+                <AbstractText>Using a single sensor to determine the pose estimation of a device cannot give accurate results. This paper presents a fusion of an inertial sensor of six degrees of freedom (6-DoF) which comprises the 3-axis of an accelerometer and the 3-axis of a gyroscope, and a vision to determine a low-cost and accurate position for an autonomous mobile robot. For vision, a monocular vision-based object detection algorithm speeded-up robust feature (SURF) and random sample consensus (RANSAC) algorithms were integrated and used to recognize a sample object in several images taken. As against the conventional method that depend on point-tracking, RANSAC uses an iterative method to estimate the parameters of a mathematical model from a set of captured data which contains outliers. With SURF and RANSAC, improved accuracy is certain; this is because of their ability to find interest points (features) under different viewing conditions using a Hessain matrix. This approach is proposed because of its simple implementation, low cost, and improved accuracy. With an extended Kalman filter (EKF), data from inertial sensors and a camera were fused to estimate the position and orientation of the mobile robot. All these sensors were mounted on the mobile robot to obtain an accurate localization. An indoor experiment was carried out to validate and evaluate the performance. Experimental results show that the proposed method is fast in computation, reliable and robust, and can be considered for practical applications. The performance of the experiments was verified by the ground truth data and root mean square errors (RMSEs).</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Alatise</LastName>
+                    <ForeName>Mary B</ForeName>
+                    <Initials>MB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical, Electronic and Computer Engineering, University of Pretoria, Pretoria 0028, South Africa. alatisemary@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hancke</LastName>
+                    <ForeName>Gerhard P</ForeName>
+                    <Initials>GP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical, Electronic and Computer Engineering, University of Pretoria, Pretoria 0028, South Africa. ghancke@ieee.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, City University of Hong Kong, Hong Kong, China. ghancke@ieee.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2017 May 07;17 (5):null</RefSource>
+                <PMID Version="1">28481285</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Vis Comput Graph. 2016 Dec;22(12 ):2633-2651</RefSource>
+                <PMID Version="1">26731768</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2015 Feb;24(2):538-48</RefSource>
+                <PMID Version="1">25531951</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2013 Feb 04;13(2):1919-41</RefSource>
+                <PMID Version="1">23385409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2017 Aug 18;17 (8):null</RefSource>
+                <PMID Version="1">28820451</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">extended Kalman filter</Keyword>
+            <Keyword MajorTopicYN="N">inertial sensors</Keyword>
+            <Keyword MajorTopicYN="N">mobile robot</Keyword>
+            <Keyword MajorTopicYN="N">object</Keyword>
+            <Keyword MajorTopicYN="N">pose estimation</Keyword>
+            <Keyword MajorTopicYN="N">vision</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28934102</ArticleId>
+            <ArticleId IdType="pii">s17102164</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17102164</ArticleId>
+            <ArticleId IdType="pmc">PMC5676736</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

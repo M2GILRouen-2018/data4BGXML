@@ -1,0 +1,188 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29154897</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-5894</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>47</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Magnetic resonance imaging</Title>
+                <ISOAbbreviation>Magn Reson Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Identification of ghost artifact using texture analysis in pediatric spinal cord diffusion tensor images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>7-15</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0730-725X(17)30259-X</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.mri.2017.11.006</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Ghost artifacts are a major contributor to degradation of spinal cord diffusion tensor images. A multi-stage post-processing pipeline was designed, implemented and validated to automatically remove ghost artifacts arising from reduced field of view diffusion tensor imaging (DTI) of the pediatric spinal cord.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">A total of 12 pediatric subjects including 7 healthy subjects (mean age=11.34years) with no evidence of spinal cord injury or pathology and 5 patients (mean age=10.96years) with cervical spinal cord injury were studied. Ghost/true cords, labeled as region of interests (ROIs), in non-diffusion weighted b0 images were segmented automatically using mathematical morphological processing. Initially, 21 texture features were extracted from each segmented ROI including 5 first-order features based on the histogram of the image (mean, variance, skewness, kurtosis and entropy) and 16s-order feature vector elements, incorporating four statistical measures (contrast, correlation, homogeneity and energy) calculated from co-occurrence matrices in directions of 0°, 45°, 90° and 135°. Next, ten features with a high value of mutual information (MI) relative to the pre-defined target class and within the features were selected as final features which were input to a trained classifier (adaptive neuro-fuzzy interface system) to separate the true cord from the ghost cord.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The implemented pipeline was successfully able to separate the ghost artifacts from true cord structures. The results obtained from the classifier showed a sensitivity of 91%, specificity of 79%, and accuracy of 84% in separating the true cord from ghost artifacts.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The results show that the proposed method is promising for the automatic detection of ghost cords present in DTI images of the spinal cord. This step is crucial towards development of accurate, automatic DTI spinal cord post processing pipelines.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Alizadeh</LastName>
+                    <ForeName>Mahdi</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Jefferson Integrated Magnetic Resonance Imaging Center, Department of Radiology, Thomas Jefferson University, Philadelphia, PA, United States; Department of Neurosurgery, Thomas Jefferson University, Philadelphia, PA, United States. Electronic address: mahdi.alizadeh.2@jefferson.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Conklin</LastName>
+                    <ForeName>Chris J</ForeName>
+                    <Initials>CJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Jefferson Integrated Magnetic Resonance Imaging Center, Department of Radiology, Thomas Jefferson University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Middleton</LastName>
+                    <ForeName>Devon M</ForeName>
+                    <Initials>DM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Jefferson Integrated Magnetic Resonance Imaging Center, Department of Radiology, Thomas Jefferson University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Pallav</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Temple University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saksena</LastName>
+                    <ForeName>Sona</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Jefferson Integrated Magnetic Resonance Imaging Center, Department of Radiology, Thomas Jefferson University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Krisa</LastName>
+                    <ForeName>Laura</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Occupational Therapy, Thomas Jefferson University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Finsterbusch</LastName>
+                    <ForeName>Jürgen</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Faro</LastName>
+                    <ForeName>Scott H</ForeName>
+                    <Initials>SH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Johns Hopkins University, Baltimore, MD, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mulcahey</LastName>
+                    <ForeName>M J</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Occupational Therapy, Thomas Jefferson University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mohamed</LastName>
+                    <ForeName>Feroze B</ForeName>
+                    <Initials>FB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Jefferson Integrated Magnetic Resonance Imaging Center, Department of Radiology, Thomas Jefferson University, Philadelphia, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Magn Reson Imaging</MedlineTA>
+            <NlmUniqueID>8214883</NlmUniqueID>
+            <ISSNLinking>0730-725X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">Diffusion tensor</Keyword>
+            <Keyword MajorTopicYN="N">Ghost artifact</Keyword>
+            <Keyword MajorTopicYN="N">Pediatric spinal cord</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29154897</ArticleId>
+            <ArticleId IdType="pii">S0730-725X(17)30259-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.mri.2017.11.006</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

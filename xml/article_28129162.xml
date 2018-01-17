@@ -1,0 +1,90 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28129162</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0506</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>24</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on visualization and computer graphics</Title>
+                <ISOAbbreviation>IEEE Trans Vis Comput Graph</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Memory-Efficient On-the-Fly Voxelization and Rendering of Particle Data.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1155-1166</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TVCG.2017.2656897</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper we present a novel GPU-friendly real-time voxelization technique for rendering homogeneous media that is defined by particles, e.g., fluids obtained from particle-based simulations such as Smoothed Particle Hydrodynamics (SPH). Our method computes view-adaptive binary voxelizations with on-the-fly compression of a tiled perspective voxel grid, achieving higher resolutions than previous approaches. It allows for interactive generation of realistic images, enabling advanced rendering techniques such as ray casting-based refraction and reflection, light scattering and absorption, and ambient occlusion. In contrast to previous methods, it does not rely on preprocessing such as expensive, and often coarse, scalar field conversion or mesh generation steps. Our method directly takes unsorted particle data as input. It can be further accelerated by identifying fully populated simulation cells during simulation. The extracted surface can be filtered to achieve smooth surface appearance. Finally, we provide a new scheme for accelerated ray casting inside the voxelization.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zirr</LastName>
+                    <ForeName>Tobias</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dachsbacher</LastName>
+                    <ForeName>Carsten</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Vis Comput Graph</MedlineTA>
+            <NlmUniqueID>9891704</NlmUniqueID>
+            <ISSNLinking>1077-2626</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28129162</ArticleId>
+            <ArticleId IdType="doi">10.1109/TVCG.2017.2656897</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

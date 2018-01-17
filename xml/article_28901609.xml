@@ -1,0 +1,160 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901609</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Adaptive non-local means on local principle neighborhood for noise/artifacts reduction in low-dose CT images.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e230-e241</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12388</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Low-dose CT (LDCT) technique can reduce the x-ray radiation exposure to patients at the cost of degraded images with severe noise and artifacts. Non-local means (NLM) filtering has shown its potential in improving LDCT image quality. However, currently most NLM-based approaches employ a weighted average operation directly on all neighbor pixels with a fixed filtering parameter throughout the NLM filtering process, ignoring the non-stationary noise nature of LDCT images. In this paper, an adaptive NLM filtering scheme on local principle neighborhoods (PC-NLM) is proposed for structure-preserving noise/artifacts reduction in LDCT images.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Instead of using neighboring patches directly, in the PC-NLM scheme, the principle component analysis (PCA) is first applied on local neighboring patches of the target patch to decompose the local patches into uncorrelated principle components (PCs), then a NLM filtering is used to regularize each PC of the target patch and finally the regularized components is transformed to get the target patch in image domain. Especially, in the NLM scheme, the filtering parameter is estimated adaptively from local noise level of the neighborhood as well as the signal-to-noise ratio (SNR) of the corresponding PC, which guarantees a &quot;weaker&quot; NLM filtering on PCs with higher SNR and a &quot;stronger&quot; filtering on PCs with lower SNR. The PC-NLM procedure is iteratively performed several times for better removal of the noise and artifacts, and an adaptive iteration strategy is developed to reduce the computational load by determining whether a patch should be processed or not in next round of the PC-NLM filtering.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The effectiveness of the presented PC-NLM algorithm is validated by experimental phantom studies and clinical studies. The results show that it can achieve promising gain over some state-of-the-art methods in terms of artifact suppression and structure preservation.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">With the use of PCA on local neighborhoods to extract principal structural components, as well as adaptive NLM filtering on PCs of the target patch using filtering parameter estimated based on the local noise level and corresponding SNR, the proposed PC-NLM method shows its efficacy in preserving fine anatomical structures and suppressing noise/artifacts in LDCT images.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yuanke</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Fourth Military Medical University, Xi'an, Shaanxi, 710032, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Hongbing</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Fourth Military Medical University, Xi'an, Shaanxi, 710032, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rong</LastName>
+                    <ForeName>Junyan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Engineering, Fourth Military Medical University, Xi'an, Shaanxi, 710032, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meng</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shang</LastName>
+                    <ForeName>Junliang</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Pinghong</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Junying</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi, 710071, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">artifacts suppression</Keyword>
+            <Keyword MajorTopicYN="N">low-dose CT</Keyword>
+            <Keyword MajorTopicYN="N">nonlocal means (NLM)</Keyword>
+            <Keyword MajorTopicYN="N">parameter estimation</Keyword>
+            <Keyword MajorTopicYN="N">principle component analysis (PCA)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>04</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901609</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12388</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

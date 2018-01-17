@@ -1,0 +1,137 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28925967</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Enabling Large-Scale IoT-Based Services through Elastic Publish/Subscribe.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2148</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17092148</ELocationID>
+            <Abstract>
+                <AbstractText>In this paper, we report an algorithm that is designed to leverage the cloud as infrastructure to support Internet of Things (IoT) by elastically scaling in/out so that IoT-based service users never stop receiving sensors' data. This algorithm is able to provide an uninterrupted service to end users even during the scaling operation since its internal state repartitioning is transparent for publishers or subscribers; its scaling operation is time-bounded and depends only on the dimension of the state partitions to be transmitted to the different nodes. We describe its implementation in E-SilboPS, an elastic content-based publish/subscribe (CBPS) system specifically designed to support context-aware sensing and communication in IoT-based services. E-SilboPS is a key internal asset of the FIWARE IoT services enablement platform, which offers an architecture of components specifically designed to capture data from, or act upon, IoT devices as easily as reading/changing the value of attributes linked to context entities. In addition, we discuss the quantitative measurements used to evaluate the scale-out process, as well as the results of this evaluation. This new feature rounds out the context-aware content-based features of E-SilboPS by providing, for example, the necessary middleware for constructing dashboards and monitoring panels that are capable of dynamically changing queries and continuously handling data in IoT-based services.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vavassori</LastName>
+                    <ForeName>Sergio</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">0000-0002-6398-1032</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, Universidad Politécnica de Madrid, 28660-Boadilla del Monte, Madrid, Spain. svavassori@fi.upm.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Soriano</LastName>
+                    <ForeName>Javier</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0001-6272-8708</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, Universidad Politécnica de Madrid, 28660-Boadilla del Monte, Madrid, Spain. jsoriano@fi.upm.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fernández</LastName>
+                    <ForeName>Rafael</ForeName>
+                    <Initials>R</Initials>
+                    <Identifier Source="ORCID">0000-0002-7032-1833</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>School of Computer Science, Universidad Politécnica de Madrid, 28660-Boadilla del Monte, Madrid, Spain. rfernandez@fi.upm.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2013 Mar 01;13(3):2945-66</RefSource>
+                <PMID Version="1">23529118</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Chandy–Lamport algorithm</Keyword>
+            <Keyword MajorTopicYN="N">Internet of Things</Keyword>
+            <Keyword MajorTopicYN="N">content-based publish/subscribe</Keyword>
+            <Keyword MajorTopicYN="N">distributed snapshot</Keyword>
+            <Keyword MajorTopicYN="N">distributed system</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28925967</ArticleId>
+            <ArticleId IdType="pii">s17092148</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17092148</ArticleId>
+            <ArticleId IdType="pmc">PMC5621175</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

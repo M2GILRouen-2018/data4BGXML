@@ -1,0 +1,145 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28901617</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dual-rotation C-arm cone-beam computed tomography to increase low-contrast detection.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e164-e173</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/mp.12247</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">This paper investigates the capabilities of a dual-rotation C-arm cone-beam computed tomography (CBCT) framework to improve non-contrast-enhanced low-contrast detection for full volume or volume-of-interest (VOI) brain imaging.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">The idea is to associate two C-arm short-scan rotational acquisitions (spins): one over the full detector field of view (FOV) at low dose, and one collimated to deliver a higher dose to the central densest parts of the head. The angular sampling performed by each spin is allowed to vary in terms of number of views and angular positions. Collimated data is truncated and does not contain measurement of the incoming X-ray intensities in air (air calibration). When targeting full volume reconstruction, the method is intended to act as a virtual bow-tie. When targeting VOI imaging, the method is intended to provide the minimum full detector FOV data that sufficiently corrects for truncation artifacts. A single dedicated iterative algorithm is described that handles all proposed sampling configurations despite truncation and absence of air calibration.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Full volume reconstruction of dual-rotation simulations and phantom acquisitions are shown to have increased low-contrast detection for less dose, with respect to a single-rotation acquisition. High CNR values were obtained on 1% inserts of the Catphan® 515 module in 0.94 mm thick slices. Image quality for VOI imaging was preserved from truncation artifacts even with less than 10 non-truncated views, without using the sparsity a priori common to such context.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">A flexible dual-rotation acquisition and reconstruction framework is proposed that has the potential to improve low-contrast detection in clinical C-arm brain soft-tissue imaging.</AbstractText>
+                <CopyrightInformation>© 2017 American Association of Physicists in Medicine.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Reshef</LastName>
+                    <ForeName>Aymeric</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LTCI, Télécom ParisTech, Université Paris-Saclay, 75013, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>GE Healthcare, Buc, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Riddell</LastName>
+                    <ForeName>Cyril</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GE Healthcare, Buc, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trousset</LastName>
+                    <ForeName>Yves</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GE Healthcare, Buc, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ladjal</LastName>
+                    <ForeName>Saïd</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LTCI, Télécom ParisTech, Université Paris-Saclay, 75013, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bloch</LastName>
+                    <ForeName>Isabelle</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LTCI, Télécom ParisTech, Université Paris-Saclay, 75013, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">bow-tie filter</Keyword>
+            <Keyword MajorTopicYN="N">brain imaging</Keyword>
+            <Keyword MajorTopicYN="N">cone-beam computed tomography</Keyword>
+            <Keyword MajorTopicYN="N">iterative reconstruction</Keyword>
+            <Keyword MajorTopicYN="N">low-contrast detection</Keyword>
+            <Keyword MajorTopicYN="N">volume-of-interest</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28901617</ArticleId>
+            <ArticleId IdType="doi">10.1002/mp.12247</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

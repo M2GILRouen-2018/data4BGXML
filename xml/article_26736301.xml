@@ -1,0 +1,95 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">26736301</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>07</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1557-170X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2015</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual Conference</Title>
+                <ISOAbbreviation>Conf Proc IEEE Eng Med Biol Soc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Parametric estimation of sample entropy for physical activity recognition.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>470-3</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/EMBC.2015.7318401</ELocationID>
+            <Abstract>
+                <AbstractText>Insufficient amount of physical activity, and hence storage of calories may lead depression, obesity, cardiovascular diseases, and diabetes. The amount of consumed calorie depends on the type of activity. The recognition of physical activity is very important to estimate the amount of calories spent by a subject every day. There are some research works already published in the literature for activity recognition through accelerometers (body worn sensors). The accuracy of any recognition system depends on the robustness of selected features and classifiers. The typical features reported for most physical activities recognitions are autoregressive coefficients (ARcoeffs), signal magnitude area (SMA), tilt angle (TA), and standard deviation (STD). In this study, we have studied the feasibility of using single value of sample entropy estimated parametrically (SETH) of an AR model instead of ARcoeffs. After feasibility study, we also compared the recognition accuracies between two popular classifiers ı.e. artificial neural network (ANN) and support vector machines (SVM). The recognition accuracies using linear structure (where all types of activities are classified using a single classifier) and hierarchical structure (where activities are first divided into static and dynamic events, and then activities of each event are classified in the second stage). The study showed that the use of SETH provides similar recognition accuracy (69.82%) as provided by ARcoeffs (67.67%) using ANN. The linear structure of SVM performs better (average accuracy of SVM: 98.22%) than linear ANN (average accuracy with ANN: 94.78%). The use of hierarchical structure of ANN increases the average recognition accuracy of static activities to about 100%. However, no significant changes are observed using hierarchical SVM than the linear one.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Aktaruzzaman</LastName>
+                    <ForeName>Md</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scarabottolo</LastName>
+                    <ForeName>Nello</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sassi</LastName>
+                    <ForeName>Roberto</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Conf Proc IEEE Eng Med Biol Soc</MedlineTA>
+            <NlmUniqueID>101243413</NlmUniqueID>
+            <ISSNLinking>1557-170X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26736301</ArticleId>
+            <ArticleId IdType="doi">10.1109/EMBC.2015.7318401</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

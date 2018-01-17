@@ -1,0 +1,124 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28914611</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-6560</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>62</Volume>
+                    <Issue>21</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Physics in medicine and biology</Title>
+                <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Deep convolutional neural network with transfer learning for rectum toxicity prediction in cervical cancer radiotherapy: a feasibility study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>8246-8263</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/aa8d09</ELocationID>
+            <Abstract>
+                <AbstractText>Better understanding of the dose-toxicity relationship is critical for safe dose escalation to improve local control in late-stage cervical cancer radiotherapy. In this study, we introduced a convolutional neural network (CNN) model to analyze rectum dose distribution and predict rectum toxicity. Forty-two cervical cancer patients treated with combined external beam radiotherapy (EBRT) and brachytherapy (BT) were retrospectively collected, including twelve toxicity patients and thirty non-toxicity patients. We adopted a transfer learning strategy to overcome the limited patient data issue. A 16-layers CNN developed by the visual geometry group (VGG-16) of the University of Oxford was pre-trained on a large-scale natural image database, ImageNet, and fine-tuned with patient rectum surface dose maps (RSDMs), which were accumulated EBRT  +  BT doses on the unfolded rectum surface. We used the adaptive synthetic sampling approach and the data augmentation method to address the two challenges, data imbalance and data scarcity. The gradient-weighted class activation maps (Grad-CAM) were also generated to highlight the discriminative regions on the RSDM along with the prediction model. We compare different CNN coefficients fine-tuning strategies, and compare the predictive performance using the traditional dose volume parameters, e.g. D 0.1/1/2cc, and the texture features extracted from the RSDM. Satisfactory prediction performance was achieved with the proposed scheme, and we found that the mean Grad-CAM over the toxicity patient group has geometric consistence of distribution with the statistical analysis result, which indicates possible rectum toxicity location. The evaluation results have demonstrated the feasibility of building a CNN-based rectum dose-toxicity prediction model with transfer learning for cervical cancer radiotherapy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhen</LastName>
+                    <ForeName>Xin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, The University of Texas, Southwestern Medical Center, Dallas, TX 75390, United States of America. Department of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Jiawei</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhong</LastName>
+                    <ForeName>Zichun</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hrycushko</LastName>
+                    <ForeName>Brian</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Linghong</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jiang</LastName>
+                    <ForeName>Steve</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Albuquerque</LastName>
+                    <ForeName>Kevin</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gu</LastName>
+                    <ForeName>Xuejun</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Phys Med Biol</MedlineTA>
+            <NlmUniqueID>0401220</NlmUniqueID>
+            <ISSNLinking>0031-9155</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28914611</ArticleId>
+            <ArticleId IdType="doi">10.1088/1361-6560/aa8d09</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

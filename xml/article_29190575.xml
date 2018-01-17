@@ -1,0 +1,128 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29190575</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-8423</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical image analysis</Title>
+                <ISOAbbreviation>Med Image Anal</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dictionary-based fiber orientation estimation with improved spatial consistency.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>41-53</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1361-8415(17)30179-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.media.2017.11.010</ELocationID>
+            <Abstract>
+                <AbstractText>Diffusion magnetic resonance imaging (dMRI) has enabled in vivo investigation of white matter tracts. Fiber orientation (FO) estimation is a key step in tract reconstruction and has been a popular research topic in dMRI analysis. In particular, the sparsity assumption has been used in conjunction with a dictionary-based framework to achieve reliable FO estimation with a reduced number of gradient directions. Because image noise can have a deleterious effect on the accuracy of FO estimation, previous works have incorporated spatial consistency of FOs in the dictionary-based framework to improve the estimation. However, because FOs are only indirectly determined from the mixture fractions of dictionary atoms and not modeled as variables in the objective function, these methods do not incorporate FO smoothness directly, and their ability to produce smooth FOs could be limited. In this work, we propose an improvement to Fiber Orientation Reconstruction using Neighborhood Information (FORNI), which we call FORNI+; this method estimates FOs in a dictionary-based framework where FO smoothness is better enforced than in FORNI alone. We describe an objective function that explicitly models the actual FOs and the mixture fractions of dictionary atoms. Specifically, it consists of data fidelity between the observed signals and the signals represented by the dictionary, pairwise FO dissimilarity that encourages FO smoothness, and weighted ℓ1-norm terms that ensure the consistency between the actual FOs and the FO configuration suggested by the dictionary representation. The FOs and mixture fractions are then jointly estimated by minimizing the objective function using an iterative alternating optimization strategy. FORNI+ was evaluated on a simulation phantom, a physical phantom, and real brain dMRI data. In particular, in the real brain dMRI experiment, we have qualitatively and quantitatively evaluated the reproducibility of the proposed method. Results demonstrate that FORNI+ produces FOs with better quality compared with competing methods.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ye</LastName>
+                    <ForeName>Chuyang</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing, China; National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, Beijing, China. Electronic address: chuyang.ye@nlpr.ia.ac.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Prince</LastName>
+                    <ForeName>Jerry L</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 NS056307</GrantID>
+                    <Acronym>NS</Acronym>
+                    <Agency>NINDS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Med Image Anal</MedlineTA>
+            <NlmUniqueID>9713490</NlmUniqueID>
+            <ISSNLinking>1361-8415</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Dictionary-based FO estimation</Keyword>
+            <Keyword MajorTopicYN="N">Diffusion MRI</Keyword>
+            <Keyword MajorTopicYN="N">Pairwise FO dissimilarity</Keyword>
+            <Keyword MajorTopicYN="N">Spatial consistency</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29190575</ArticleId>
+            <ArticleId IdType="pii">S1361-8415(17)30179-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.media.2017.11.010</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,90 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28147534</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1089-7690</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>146</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>01</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of chemical physics</Title>
+                <ISOAbbreviation>J Chem Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Estimating rare events in biochemical systems using conditional sampling.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>044117</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1063/1.4974898</ELocationID>
+            <Abstract>
+                <AbstractText>The paper focuses on development of variance reduction strategies to estimate rare events in biochemical systems. Obtaining this probability using brute force Monte Carlo simulations in conjunction with the stochastic simulation algorithm (Gillespie's method) is computationally prohibitive. To circumvent this, important sampling tools such as the weighted stochastic simulation algorithm and the doubly weighted stochastic simulation algorithm have been proposed. However, these strategies require an additional step of determining the important region to sample from, which is not straightforward for most of the problems. In this paper, we apply the subset simulation method, developed as a variance reduction tool in the context of structural engineering, to the problem of rare event estimation in biochemical systems. The main idea is that the rare event probability is expressed as a product of more frequent conditional probabilities. These conditional probabilities are estimated with high accuracy using Monte Carlo simulations, specifically the Markov chain Monte Carlo method with the modified Metropolis-Hastings algorithm. Generating sample realizations of the state vector using the stochastic simulation algorithm is viewed as mapping the discrete-state continuous-time random process to the standard normal random variable vector. This viewpoint opens up the possibility of applying more sophisticated and efficient sampling schemes developed elsewhere to problems in stochastic chemical kinetics. The results obtained using the subset simulation method are compared with existing variance reduction strategies for a few benchmark problems, and a satisfactory improvement in computational time is demonstrated.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sundar</LastName>
+                    <ForeName>V S</ForeName>
+                    <Initials>VS</Initials>
+                    <Identifier Source="ORCID">000000017933828X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of California, San Diego, La Jolla, California 92037, USA and Center for Multimodal Imaging and Genetics, University of California, San Diego, La Jolla, California 92037, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Phys</MedlineTA>
+            <NlmUniqueID>0375360</NlmUniqueID>
+            <ISSNLinking>0021-9606</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28147534</ArticleId>
+            <ArticleId IdType="doi">10.1063/1.4974898</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

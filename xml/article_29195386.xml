@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29195386</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1089-7623</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>88</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Review of scientific instruments</Title>
+                <ISOAbbreviation>Rev Sci Instrum</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fitting a defect non-linear model with or without prior, distinguishing nuclear reaction products as an example.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>115114</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1063/1.4993697</ELocationID>
+            <Abstract>
+                <AbstractText>Fitting a parametrized function to data is important for many researchers and scientists. If the model is non-linear and/or defect, it is not trivial to do correctly and to include an adequate uncertainty analysis. This work presents how the Levenberg-Marquardt algorithm for non-linear generalized least squares fitting can be used with a prior distribution for the parameters and how it can be combined with Gaussian processes to treat model defects. An example, where three peaks in a histogram are to be distinguished, is carefully studied. In particular, the probability r1 for a nuclear reaction to end up in one out of two overlapping peaks is studied. Synthetic data are used to investigate effects of linearizations and other assumptions. For perfect Gaussian peaks, it is seen that the estimated parameters are distributed close to the truth with good covariance estimates. This assumes that the method is applied correctly; for example, prior knowledge should be implemented using a prior distribution and not by assuming that some parameters are perfectly known (if they are not). It is also important to update the data covariance matrix using the fit if the uncertainties depend on the expected value of the data (e.g., for Poisson counting statistics or relative uncertainties). If a model defect is added to the peaks, such that their shape is unknown, a fit which assumes perfect Gaussian peaks becomes unable to reproduce the data, and the results for r1 become biased. It is, however, seen that it is possible to treat the model defect with a Gaussian process with a covariance function tailored for the situation, with hyper-parameters determined by leave-one-out cross validation. The resulting estimates for r1 are virtually unbiased, and the uncertainty estimates agree very well with the underlying uncertainty.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Helgesson</LastName>
+                    <ForeName>P</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sjöstrand</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Rev Sci Instrum</MedlineTA>
+            <NlmUniqueID>0405571</NlmUniqueID>
+            <ISSNLinking>0034-6748</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29195386</ArticleId>
+            <ArticleId IdType="doi">10.1063/1.4993697</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

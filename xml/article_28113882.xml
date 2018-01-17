@@ -1,0 +1,101 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28113882</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>47</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cross-Domain Recognition by Identifying Joint Subspaces of Source Domain and Target Domain.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1090-1101</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2016.2538199</ELocationID>
+            <Abstract>
+                <AbstractText>This paper introduces a new method to solve the cross-domain recognition problem. Different from the traditional domain adaption methods which rely on a global domain shift for all classes between the source and target domains, the proposed method is more flexible to capture individual class variations across domains. By adopting a natural and widely used assumption that the data samples from the same class should lay on an intrinsic low-dimensional subspace, even if they come from different domains, the proposed method circumvents the limitation of the global domain shift, and solves the cross-domain recognition by finding the joint subspaces of the source and target domains. Specifically, given labeled samples in the source domain, we construct a subspace for each of the classes. Then we construct subspaces in the target domain, called anchor subspaces, by collecting unlabeled samples that are close to each other and are highly likely to belong to the same class. The corresponding class label is then assigned by minimizing a cost function which reflects the overlap and topological structure consistency between subspaces across the source and target domains, and within the anchor subspaces, respectively. We further combine the anchor subspaces to the corresponding source subspaces to construct the joint subspaces. Subsequently, one-versus-rest support vector machine classifiers are trained using the data samples belonging to the same joint subspaces and applied to unlabeled data in the target domain. We evaluate the proposed method on two widely used datasets: 1) object recognition dataset for computer vision tasks and 2) sentiment classification dataset for natural language processing tasks. Comparison results demonstrate that the proposed method outperforms the comparison methods on both datasets.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yuewei Lin</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jing Chen</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu Cao</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Youjie Zhou</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lingfeng Zhang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yuan Yan Tang</LastName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song Wang</LastName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113882</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2016.2538199</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

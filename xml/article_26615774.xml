@@ -1,0 +1,238 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29186475</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>07</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2047-217X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>GigaScience</Title>
+                <ISOAbbreviation>Gigascience</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ProphTools: general prioritization tools for heterogeneous biological networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/gigascience/gix111</ELocationID>
+            <Abstract>
+                <AbstractText Label="Background" NlmCategory="UNASSIGNED">Networks have been proven effective representations for the analysis of biological data. As such, there exist multiple methods to extract knowledge from biological networks. However, these approaches usually limit their scope to a single biological entity type of interest or they lack the flexibility to analyze user-defined data.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We developed ProphTools, a flexible open-source command-line tool that performs prioritization on a heterogeneous network. ProphTools prioritization combines a Flow Propagation algorithm similar to a Random Walk with Restarts and a weighted propagation method. A flexible model for the representation of a heterogeneous network allows the user to define a prioritization problem involving an arbitrary number of entity types and their interconnections. Furthermore, ProphTools provides functionality to perform cross-validation tests, allowing users to select the best network configuration for a given problem. ProphTools core prioritization methodology has already been proven effective in gene-disease prioritization and drug repositioning. Here we make ProphTools available to the scientific community as flexible, open-source software and perform a new proof-of-concept case study on long noncoding RNAs (lncRNAs) to disease prioritization.</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">ProphTools is robust prioritization software that provides the flexibility not present in other state-of-the-art network analysis approaches, enabling researchers to perform prioritization tasks on any user-defined heterogeneous network. Furthermore, the application to lncRNA-disease prioritization shows that ProphTools can reach the performance levels of ad hoc prioritization tools without losing its generality.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Navarro</LastName>
+                    <ForeName>Carmen</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Artificial Intelligence, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martínez</LastName>
+                    <ForeName>Victor</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Artificial Intelligence, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blanco</LastName>
+                    <ForeName>Armando</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Artificial Intelligence, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cano</LastName>
+                    <ForeName>Carlos</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Artificial Intelligence, University of Granada, Granada, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Gigascience</MedlineTA>
+            <NlmUniqueID>101596872</NlmUniqueID>
+            <ISSNLinking>2047-217X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2017 Jan 04;7:39516</RefSource>
+                <PMID Version="1">28051121</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2012 Sep;22(9):1775-89</RefSource>
+                <PMID Version="1">22955988</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Oct 1;27(19):2692-9</RefSource>
+                <PMID Version="1">21824970</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014;15 Suppl 1:S5</RefSource>
+                <PMID Version="1">24564336</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2016;2016:5313050</RefSource>
+                <PMID Version="1">27648447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cancer. 2011 Apr 13;10:38</RefSource>
+                <PMID Version="1">21489289</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2012 Jul 03;13(8):523-36</RefSource>
+                <PMID Version="1">22751426</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Biotechnol. 2016 Jun;39:157-66</RefSource>
+                <PMID Version="1">27115495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Biosyst. 2014 Aug;10(8):2074-81</RefSource>
+                <PMID Version="1">24850297</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D983-6</RefSource>
+                <PMID Version="1">23175614</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Artif Intell Med. 2015 Jan;63(1):41-9</RefSource>
+                <PMID Version="1">25704113</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2015 Mar;47(3):199-208</RefSource>
+                <PMID Version="1">25599403</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2015 Aug;15(15):2597-601</RefSource>
+                <PMID Version="1">25921073</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Genet. 2013 Jun;9(6):e1003569</RefSource>
+                <PMID Version="1">23818866</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Jul 15;32(14 ):2167-75</RefSource>
+                <PMID Version="1">27153592</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Sep 15;32(18):2872-4</RefSource>
+                <PMID Version="1">27256314</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Struct Mol Biol. 2013 Mar;20(3):300-7</RefSource>
+                <PMID Version="1">23463315</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2016 Apr 1;32(7):1085-7</RefSource>
+                <PMID Version="1">26614125</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2017 Feb 27;:null</RefSource>
+                <PMID Version="1">28334136</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Oct 15;29(20):2617-24</RefSource>
+                <PMID Version="1">24002109</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Microbiol. 2017 Mar;25(3):217-228</RefSource>
+                <PMID Version="1">27916383</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Oncotarget. 2016 Sep 6;7(36):57919-57931</RefSource>
+                <PMID Version="1">27517318</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Gigascience. 2017 Dec 1;6(12 ):1-8</RefSource>
+                <PMID Version="1">29186475</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2009 Feb 20;136(4):629-41</RefSource>
+                <PMID Version="1">19239885</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Cell Biol. 2011 Jun;21(6):354-61</RefSource>
+                <PMID Version="1">21550244</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Genet. 2016 Oct;17 (10 ):615-29</RefSource>
+                <PMID Version="1">27498692</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2015 Nov 30;5:17417</RefSource>
+                <PMID Version="1">26615774</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">heterogeneous networks</Keyword>
+            <Keyword MajorTopicYN="N">long noncoding RNAs</Keyword>
+            <Keyword MajorTopicYN="N">network analysis</Keyword>
+            <Keyword MajorTopicYN="N">prioritization</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186475</ArticleId>
+            <ArticleId IdType="pii">4656248</ArticleId>
+            <ArticleId IdType="doi">10.1093/gigascience/gix111</ArticleId>
+            <ArticleId IdType="pmc">PMC5751048</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

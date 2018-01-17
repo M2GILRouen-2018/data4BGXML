@@ -1,0 +1,188 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28110728</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>137</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Left ventricle segmentation in fetal echocardiography using a multi-texture active appearance model based on the steered Hermite transform.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>231-245</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30042-6</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2016.09.021</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Fetal echocardiographic analysis is essential for detecting cardiac defects at early gestational ages. Fetal cardiac function can be assessed by performing some measurements regarding the dimension and shape of the heart cavities. In this work we propose an automatic segmentation method applied to the analysis of the left ventricle in fetal echocardiography.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">For segmentation of the left ventricle, we designed a novel multi-texture active appearance model (AAM) based on the Hermite transform (HT). Local orientation analysis is addressed by steering the coefficients obtained with the HT. The method basically consists of an AAM-based scheme which uses the steered HT to efficiently code texture patterns of the input image. A wider and detailed description of the image features can be obtained with this method. Compared with classic AAM methods, the segmentation performance is substantially improved with the proposed scheme. Since AAM-based approaches process local information, an automatic method is also proposed to initialize the multi-texture AAM. For this purpose, a database of pre-segmented images was built. Then, techniques such as thresholding, mathematical morphology and correlation are combined to identify the position and orientation of the left ventricle. Typical issues found in fetal cardiac ultrasound images such as different orientations and shape variations of the heart cavities can be easily handled with the designed method.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Several images of fetal echocardiography were used to evaluate the proposed segmentation method. The algorithm performance was validated using different metrics. We used a database of 143 real images of fetal hearts acquired for different phases of the cardiac cycle. We obtained an average Dice coefficient of 0.8631 and a point-to-curve distance of 2.027 pixels. The proposed algorithm was also validated by comparing it with other segmentation methods.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We have designed an automatic algorithm for left ventricle segmentation in fetal echocardiography. The reported results demonstrate that the proposed approach can achieve an efficient segmentation of the left ventricular cavity. Typical problems found in images of fetal echocardiography are satisfactorily handled with the proposed multi-texture AAM scheme.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vargas-Quintero</LastName>
+                    <ForeName>Lorena</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Universidad Nacional Autónoma de México, Facultad de Ingeniería, C.U., Mexico D.F., Mexico. Electronic address: vargas.lorena@yahoo.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Escalante-Ramírez</LastName>
+                    <ForeName>Boris</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Universidad Nacional Autónoma de México, Facultad de Ingeniería, C.U., Mexico D.F., Mexico.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Camargo Marín</LastName>
+                    <ForeName>Lisbeth</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Instituto Nacional de Perinatología, Mexico D.F., Mexico.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guzmán Huerta</LastName>
+                    <ForeName>Mario</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Instituto Nacional de Perinatología, Mexico D.F., Mexico.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arámbula Cosio</LastName>
+                    <ForeName>Fernando</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centro de Ciencias Aplicadas y Desarrollo Tecnológico (CCADET), Universidad Nacional Autónoma de México, Mexico D.F., Mexico.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borboa Olivares</LastName>
+                    <ForeName>Héctor</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Instituto Nacional de Perinatología, Mexico D.F., Mexico.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004452" MajorTopicYN="Y">Echocardiography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005333" MajorTopicYN="N">Fetus</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006352" MajorTopicYN="N">Heart Ventricles</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008962" MajorTopicYN="Y">Models, Theoretical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011247" MajorTopicYN="N">Pregnancy</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Active appearance models</Keyword>
+            <Keyword MajorTopicYN="N">Fetal echocardiography</Keyword>
+            <Keyword MajorTopicYN="N">Hermite transform</Keyword>
+            <Keyword MajorTopicYN="N">Segmentation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>01</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28110728</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30042-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2016.09.021</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

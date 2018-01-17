@@ -1,0 +1,243 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28920094</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2405-8440</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>3</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Heliyon</Title>
+                <ISOAbbreviation>Heliyon</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Convolutional auto-encoder for image denoising of ultra-low-dose CT.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e00393</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.heliyon.2017.e00393</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">The purpose of this study was to validate a patch-based image denoising method for ultra-low-dose CT images. Neural network with convolutional auto-encoder and pairs of standard-dose CT and ultra-low-dose CT image patches were used for image denoising. The performance of the proposed method was measured by using a chest phantom.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Standard-dose and ultra-low-dose CT images of the chest phantom were acquired. The tube currents for standard-dose and ultra-low-dose CT were 300 and 10 mA, respectively. Ultra-low-dose CT images were denoised with our proposed method using neural network, large-scale nonlocal mean, and block-matching and 3D filtering. Five radiologists and three technologists assessed the denoised ultra-low-dose CT images visually and recorded their subjective impressions of streak artifacts, noise other than streak artifacts, visualization of pulmonary vessels, and overall image quality.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">For the streak artifacts, noise other than streak artifacts, and visualization of pulmonary vessels, the results of our proposed method were statistically better than those of block-matching and 3D filtering (p-values &lt; 0.05). On the other hand, the difference in the overall image quality between our proposed method and block-matching and 3D filtering was not statistically significant (p-value = 0.07272). The p-values obtained between our proposed method and large-scale nonlocal mean were all less than 0.05.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Neural network with convolutional auto-encoder could be trained using pairs of standard-dose and ultra-low-dose CT image patches. According to the visual assessment by radiologists and technologists, the performance of our proposed method was superior to that of large-scale nonlocal mean and block-matching and 3D filtering.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nishio</LastName>
+                    <ForeName>Mizuho</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical PET Center, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nagashima</LastName>
+                    <ForeName>Chihiro</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical PET Center, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hirabayashi</LastName>
+                    <ForeName>Saori</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical PET Center, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ohnishi</LastName>
+                    <ForeName>Akinori</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Molecular Imaging, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sasaki</LastName>
+                    <ForeName>Kaori</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Kobe University Graduate School of Medicine, 7-5-2 Kusunoki-cho, Chuo-ku, Kobe, Hyogo 650-0017, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sagawa</LastName>
+                    <ForeName>Tomoyuki</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical PET Center, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hamada</LastName>
+                    <ForeName>Masayuki</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical PET Center, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yamashita</LastName>
+                    <ForeName>Tatsuo</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical PET Center, Institute of Biomedical Research and Innovation, 2-2, Minatojimaminamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Heliyon</MedlineTA>
+            <NlmUniqueID>101672560</NlmUniqueID>
+            <ISSNLinking>2405-8440</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Radiol. 2011 Nov;80(2):e42-9</RefSource>
+                <PMID Version="1">20709478</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Opt Express. 2017 Jan 09;8(2):679-694</RefSource>
+                <PMID Version="1">28270976</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2004 Apr;13(4):600-12</RefSource>
+                <PMID Version="1">15376593</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2011 Nov;30(11):1901-20</RefSource>
+                <PMID Version="1">21632295</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2014 Mar 1;145(3):618-24</RefSource>
+                <PMID Version="1">24590022</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2009 Aug 27;361(9):849-57</RefSource>
+                <PMID Version="1">19710483</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Conf Proc IEEE Eng Med Biol Soc. 2007;2007:2138-41</RefSource>
+                <PMID Version="1">18002411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Med Imaging Graph. 2010 Dec;34(8):617-31</RefSource>
+                <PMID Version="1">20713305</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AJR Am J Roentgenol. 2016 Jun;206(6):1184-92</RefSource>
+                <PMID Version="1">27058307</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2014 Jan;41(1):011908</RefSource>
+                <PMID Version="1">24387516</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Med Imaging. 2006 Apr;25(4):451-63</RefSource>
+                <PMID Version="1">16608060</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Invest Radiol. 2012 Aug;47(8):482-9</RefSource>
+                <PMID Version="1">22766910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Image Process. 2007 Aug;16(8):2080-95</RefSource>
+                <PMID Version="1">17688213</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1999 Feb;46(2):186-91</RefSource>
+                <PMID Version="1">9932340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2012 May 7;57(9):2667-88</RefSource>
+                <PMID Version="1">22504130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2011 Aug 4;365(5):395-409</RefSource>
+                <PMID Version="1">21714641</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acad Radiol. 2014 Jun;21(6):695-703</RefSource>
+                <PMID Version="1">24713541</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Chron Obstruct Pulmon Dis. 2016 Sep 06;11:2125-2137</RefSource>
+                <PMID Version="1">27660430</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Computer science</Keyword>
+            <Keyword MajorTopicYN="N">Medical imaging</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28920094</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.heliyon.2017.e00393</ArticleId>
+            <ArticleId IdType="pii">S2405-8440(16)32160-0</ArticleId>
+            <ArticleId IdType="pii">e00393</ArticleId>
+            <ArticleId IdType="pmc">PMC5577435</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

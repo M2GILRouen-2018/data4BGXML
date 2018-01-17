@@ -1,0 +1,137 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28130237</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>06</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jun</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Identification of protein complexes by integrating multiple alignment of protein interaction networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1681-1688</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx043</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Protein complexes are one of the keys to studying the behavior of a cell system. Many biological functions are carried out by protein complexes. During the past decade, the main strategy used to identify protein complexes from high-throughput network data has been to extract near-cliques or highly dense subgraphs from a single protein-protein interaction (PPI) network. Although experimental PPI data have increased significantly over recent years, most PPI networks still have many false positive interactions and false negative edge loss due to the limitations of high-throughput experiments. In particular, the false negative errors restrict the search space of such conventional protein complex identification approaches. Thus, it has become one of the most challenging tasks in systems biology to automatically identify protein complexes.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">In this study, we propose a new algorithm, NEOComplex ( NE CC- and O rtholog-based Complex identification by multiple network alignment), which integrates functional orthology information that can be obtained from different types of multiple network alignment (MNA) approaches to expand the search space of protein complex detection. As part of our approach, we also define a new edge clustering coefficient (NECC) to assign weights to interaction edges in PPI networks so that protein complexes can be identified more accurately. The NECC is based on the intuition that there is functional information captured in the common neighbors of the common neighbors as well. Our results show that our algorithm outperforms well-known protein complex identification tools in a balance between precision and recall on three eukaryotic species: human, yeast, and fly. As a result of MNAs of the species, the proposed approach can tolerate edge loss in PPI networks and even discover sparse protein complexes which have traditionally been a challenge to predict.</AbstractText>
+                <AbstractText Label="Availability and Implementation" NlmCategory="UNASSIGNED">http://acolab.ie.nthu.edu.tw/bionetwork/NEOComplex.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">bab@csail.mit.edu or csliao@ie.nthu.edu.tw.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Cheng-Yu</ForeName>
+                    <Initials>CY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, National Tsing Hua University, Hsinchu, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Computer Engineering, La Trobe University, Melbourne, Vic. 3086, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yi-Ping Phoebe</ForeName>
+                    <Initials>YP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Computer Engineering, La Trobe University, Melbourne, Vic. 3086, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berger</LastName>
+                    <ForeName>Bonnie</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computer Science and Artificial Intelligence Laboratory.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mathematics and Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liao</LastName>
+                    <ForeName>Chung-Shou</ForeName>
+                    <Initials>CS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Industrial Engineering and Engineering Management, National Tsing Hua University, Hsinchu, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 GM081871</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28130237</ArticleId>
+            <ArticleId IdType="pii">btx043</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx043</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

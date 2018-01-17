@@ -1,0 +1,251 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28944062</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2051-3933</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>5</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Movement ecology</Title>
+                <ISOAbbreviation>Mov Ecol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Coupling spectral analysis and hidden Markov models for the segmentation of behavioural patterns.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>20</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s40462-017-0111-3</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Movement pattern variations are reflective of behavioural switches, likely associated with different life history traits in response to the animals' abiotic and biotic environment. Detecting these can provide rich information on the underlying processes driving animal movement patterns. However, extracting these signals from movement time series, requires tools that objectively extract, describe and quantify these behaviours. The inference of behavioural modes from movement patterns has been mainly addressed through hidden Markov models. Until now, the metrics implemented in these models did not allow to characterize cyclic patterns directly from the raw time series. To address these challenges, we developed an approach to i) extract new metrics of cyclic behaviours and activity levels from a time-frequency analysis of movement time series, ii) implement the spectral signatures of these cyclic patterns and activity levels into a HMM framework to identify and classify latent behavioural states.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">To illustrate our approach, we applied it to 40 high-resolution European sea bass depth time series. Our results showed that the fish had different activity regimes, which were also associated (or not) with the spectral signature of different environmental cycles. Tidal rhythms were observed when animals tended to be less active and dived shallower. Conversely, animals exhibited a diurnal behaviour when more active and deeper in the water column. The different behaviours were well defined and occurred at similar periods throughout the annual cycle amongst individuals, suggesting these behaviours are likely related to seasonal functional behaviours (e.g. feeding, migrating and spawning).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The innovative aspects of our method lie within the combined use of powerful, but generic, mathematical tools (spectral analysis and hidden Markov Models) to extract complex behaviours from 1-D movement time series. It is fully automated which makes it suitable for analyzing large datasets. HMMs also offer the flexibility to include any additional variable in the segmentation process (e.g. environmental features, location coordinates). Thus, our method could be widely applied in the bio-logging community and contribute to prime issues in movement ecology (e.g. habitat requirements and selection, site fidelity and dispersal) that are crucial to inform mitigation, management and conservation strategies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Heerah</LastName>
+                    <ForeName>Karine</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ifremer, Sciences et Technologies Halieutiques, 10070, 29280 Plouzané, CS France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0641 9240</Identifier>
+                        <Identifier Source="GRID">grid.4825.b</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Woillez</LastName>
+                    <ForeName>Mathieu</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ifremer, Sciences et Technologies Halieutiques, 10070, 29280 Plouzané, CS France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0641 9240</Identifier>
+                        <Identifier Source="GRID">grid.4825.b</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fablet</LastName>
+                    <ForeName>Ronan</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>IMT Atlantique, University Bretagne Loire, 29238 Brest, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Garren</LastName>
+                    <ForeName>François</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ifremer, Sciences et Technologies Halieutiques, 10070, 29280 Plouzané, CS France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0641 9240</Identifier>
+                        <Identifier Source="GRID">grid.4825.b</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martin</LastName>
+                    <ForeName>Stéphane</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ifremer, Sciences et Technologies Halieutiques, 10070, 29280 Plouzané, CS France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0641 9240</Identifier>
+                        <Identifier Source="GRID">grid.4825.b</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De Pontual</LastName>
+                    <ForeName>Hélène</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ifremer, Sciences et Technologies Halieutiques, 10070, 29280 Plouzané, CS France.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0641 9240</Identifier>
+                        <Identifier Source="GRID">grid.4825.b</Identifier>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Mov Ecol</MedlineTA>
+            <NlmUniqueID>101635009</NlmUniqueID>
+            <ISSNLinking>2051-3933</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2010 Aug;91(8):2373-84</RefSource>
+                <PMID Version="1">20836459</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Biol. 2014 Jul 15;217(Pt 14):2609-19</RefSource>
+                <PMID Version="1">24803471</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2015 Feb;96(2):417-27</RefSource>
+                <PMID Version="1">26240863</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Ecol Evol. 2016 Jun;31(6):463-75</RefSource>
+                <PMID Version="1">26979550</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1999 Oct 21;401(6755):788-91</RefSource>
+                <PMID Version="1">10548103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2012 Nov;93(11):2336-42</RefSource>
+                <PMID Version="1">23236905</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013 Aug 23;8(8):e71246</RefSource>
+                <PMID Version="1">24058400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Mar 23;101(12):4164-9</RefSource>
+                <PMID Version="1">15016911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Biol Sci. 2013 Jan 7;280(1750):20122262</RefSource>
+                <PMID Version="1">23135676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecol Evol. 2016 Dec 20;7(2):606-618</RefSource>
+                <PMID Version="1">28116057</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2007 Jun 15;23(12):1495-502</RefSource>
+                <PMID Version="1">17483501</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Anim Ecol. 2009 Nov;78(6):1113-23</RefSource>
+                <PMID Version="1">19563470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Naturwissenschaften. 2005 Apr;92(4):158-63</RefSource>
+                <PMID Version="1">15770465</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2010 May;91(5):1506-18</RefSource>
+                <PMID Version="1">20503882</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecol Appl. 2015 Jul;25(5):1244-58</RefSource>
+                <PMID Version="1">26485953</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2008 Dec 1;24(23):2684-90</RefSource>
+                <PMID Version="1">18852176</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Ecol Evol. 2008 Feb;23(2):87-94</RefSource>
+                <PMID Version="1">18191283</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Biol. 2016 Jun 6;26(11):1441-6</RefSource>
+                <PMID Version="1">27238281</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ecology. 2012 Mar;93(3):679-88</RefSource>
+                <PMID Version="1">22624221</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010 Jul 02;11:367</RefSource>
+                <PMID Version="1">20598126</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J R Soc Interface. 2006 Feb 22;3(6):109-16</RefSource>
+                <PMID Version="1">16849222</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Fish Biol. 2010 Jan;76(1):7-26</RefSource>
+                <PMID Version="1">20738698</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Animal behaviour</Keyword>
+            <Keyword MajorTopicYN="N">Biologging</Keyword>
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">Data storage tags</Keyword>
+            <Keyword MajorTopicYN="N">Diurnal and tidal cycles</Keyword>
+            <Keyword MajorTopicYN="N">European sea bass</Keyword>
+            <Keyword MajorTopicYN="N">Fourier transform</Keyword>
+            <Keyword MajorTopicYN="N">Movement ecology</Keyword>
+            <Keyword MajorTopicYN="N">Non negative matrix factorization</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28944062</ArticleId>
+            <ArticleId IdType="doi">10.1186/s40462-017-0111-3</ArticleId>
+            <ArticleId IdType="pii">111</ArticleId>
+            <ArticleId IdType="pmc">PMC5609058</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,313 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28105958</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>16</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1752-0509</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>Suppl 5</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Dec</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC systems biology</Title>
+                <ISOAbbreviation>BMC Syst Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>DMirNet: Inferring direct microRNA-mRNA association networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>125</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12918-016-0373-1</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">MicroRNAs (miRNAs) play important regulatory roles in the wide range of biological processes by inducing target mRNA degradation or translational repression. Based on the correlation between expression profiles of a miRNA and its target mRNA, various computational methods have previously been proposed to identify miRNA-mRNA association networks by incorporating the matched miRNA and mRNA expression profiles. However, there remain three major issues to be resolved in the conventional computation approaches for inferring miRNA-mRNA association networks from expression profiles. 1) Inferred correlations from the observed expression profiles using conventional correlation-based methods include numerous erroneous links or over-estimated edge weight due to the transitive information flow among direct associations. 2) Due to the high-dimension-low-sample-size problem on the microarray dataset, it is difficult to obtain an accurate and reliable estimate of the empirical correlations between all pairs of expression profiles. 3) Because the previously proposed computational methods usually suffer from varying performance across different datasets, a more reliable model that guarantees optimal or suboptimal performance across different datasets is highly needed.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In this paper, we present DMirNet, a new framework for identifying direct miRNA-mRNA association networks. To tackle the aforementioned issues, DMirNet incorporates 1) three direct correlation estimation methods (namely Corpcor, SPACE, Network deconvolution) to infer direct miRNA-mRNA association networks, 2) the bootstrapping method to fully utilize insufficient training expression profiles, and 3) a rank-based Ensemble aggregation to build a reliable and robust model across different datasets. Our empirical experiments on three datasets demonstrate the combinatorial effects of necessary components in DMirNet. Additional performance comparison experiments show that DMirNet outperforms the state-of-the-art Ensemble-based model [1] which has shown the best performance across the same three datasets, with a factor of up to 1.29. Further, we identify 43 putative novel multi-cancer-related miRNA-mRNA association relationships from an inferred Top 1000 direct miRNA-mRNA association network.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">We believe that DMirNet is a promising method to identify novel direct miRNA-mRNA relations and to elucidate the direct miRNA-mRNA association networks. Since DMirNet infers direct relationships from the observed data, DMirNet can contribute to reconstructing various direct regulatory pathways, including, but not limited to, the direct miRNA-mRNA association networks.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Minsu</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Engineering, Ewha Womans University, Seoul, South Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>HyungJune</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Engineering, Ewha Womans University, Seoul, South Korea. hyungjune.lee@ewha.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Syst Biol</MedlineTA>
+            <NlmUniqueID>101301827</NlmUniqueID>
+            <ISSNLinking>1752-0509</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D035683">MicroRNAs</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D012333">RNA, Messenger</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stat Appl Genet Mol Biol. 2005;4:Article32</RefSource>
+                <PMID Version="1">16646851</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2013 Jun 19;7:47</RefSource>
+                <PMID Version="1">23782521</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Dec 30;10(12):e0145386</RefSource>
+                <PMID Version="1">26716983</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Rep. 2015 Jan 28;5:7922</RefSource>
+                <PMID Version="1">25628250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Dec;41(22):e203</RefSource>
+                <PMID Version="1">24194606</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genes Dev. 2013 Jul 15;27(14):1624-32</RefSource>
+                <PMID Version="1">23824327</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014 Nov 12;9(11):e106319</RefSource>
+                <PMID Version="1">25390635</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2009 Jan;37(Database issue):D105-10</RefSource>
+                <PMID Version="1">18996891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2012 Jul 15;9(8):796-804</RefSource>
+                <PMID Version="1">22796662</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Proc. 2015 Aug 13;9(Suppl 6 Proceedings of the 5th Symposium on Biological Data):S2</RefSource>
+                <PMID Version="1">26361498</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009 Dec 10;10:408</RefSource>
+                <PMID Version="1">20003267</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2005 Jan 14;120(1):15-20</RefSource>
+                <PMID Version="1">15652477</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2003 Nov;13(11):2498-504</RefSource>
+                <PMID Version="1">14597658</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009 Feb 19;10:62</RefSource>
+                <PMID Version="1">19228411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2015 Jun 26;10(6):e0131627</RefSource>
+                <PMID Version="1">26114448</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2016 Jan 11;17 Suppl 1:7</RefSource>
+                <PMID Version="1">26817421</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2002 Jan 1;30(1):42-6</RefSource>
+                <PMID Version="1">11752249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2014 Jan;42(Database issue):D78-85</RefSource>
+                <PMID Version="1">24304892</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteomics. 2011 Sep;11(17):3531-9</RefSource>
+                <PMID Version="1">21751348</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2009 Apr 15;25(8):1091-3</RefSource>
+                <PMID Version="1">19237447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biomed Res Int. 2015;2015:501262</RefSource>
+                <PMID Version="1">25874214</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Aug 15;28(16):2202-4</RefSource>
+                <PMID Version="1">22718784</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Stat Assoc. 2009 Jun 1;104(486):735-746</RefSource>
+                <PMID Version="1">19881892</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Syst Biol. 2012 Jun 15;6:68</RefSource>
+                <PMID Version="1">22703586</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Dec;52:438-47</RefSource>
+                <PMID Version="1">25181465</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Cancer. 2006 Apr;6(4):259-69</RefSource>
+                <PMID Version="1">16557279</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Struct Mol Biol. 2013 Nov;20(11):1325-32</RefSource>
+                <PMID Version="1">24096364</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2013 Aug;31(8):726-33</RefSource>
+                <PMID Version="1">23851448</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2004 Jan 23;116(2):281-97</RefSource>
+                <PMID Version="1">14744438</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Syst Biol. 2006;2:46</RefSource>
+                <PMID Version="1">16969338</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2012 Sep 7;337(6099):1159, 1161</RefSource>
+                <PMID Version="1">22955811</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Cancer. 2010 Aug 10;103(4):532-41</RefSource>
+                <PMID Version="1">20664596</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Genomics. 2015 Oct 12;16:767</RefSource>
+                <PMID Version="1">26459852</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2006 Jun;38 Suppl:S8-13</RefSource>
+                <PMID Version="1">16736023</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Mar 15;29(6):765-71</RefSource>
+                <PMID Version="1">23365408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2009 Jan 23;136(2):215-33</RefSource>
+                <PMID Version="1">19167326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2006 Sep 18;7:411</RefSource>
+                <PMID Version="1">16978421</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell. 2010 Apr 2;141(1):129-41</RefSource>
+                <PMID Version="1">20371350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2003;5(1):R1</RefSource>
+                <PMID Version="1">14709173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2007 May 1;23(9):1141-7</RefSource>
+                <PMID Version="1">17350973</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2011 Oct;44(5):839-47</RefSource>
+                <PMID Version="1">21605702</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2012 Jan;40(Database issue):D222-9</RefSource>
+                <PMID Version="1">22135297</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D053263" MajorTopicYN="Y">Gene Regulatory Networks</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D035683" MajorTopicYN="N">MicroRNAs</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020411" MajorTopicYN="N">Oligonucleotide Array Sequence Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012333" MajorTopicYN="N">RNA, Messenger</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059467" MajorTopicYN="N">Transcriptome</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28105958</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12918-016-0373-1</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12918-016-0373-1</ArticleId>
+            <ArticleId IdType="pmc">PMC5249041</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

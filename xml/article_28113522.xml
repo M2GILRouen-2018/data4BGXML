@@ -1,0 +1,110 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28113522</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>28</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mesh Convolutional Restricted Boltzmann Machines for Unsupervised Learning of Features With Structure Preservation on 3-D Meshes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2268-2281</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2582532</ELocationID>
+            <Abstract>
+                <AbstractText>Discriminative features of 3-D meshes are significant to many 3-D shape analysis tasks. However, handcrafted descriptors and traditional unsupervised 3-D feature learning methods suffer from several significant weaknesses: 1) the extensive human intervention is involved; 2) the local and global structure information of 3-D meshes cannot be preserved, which is in fact an important source of discriminability; 3) the irregular vertex topology and arbitrary resolution of 3-D meshes do not allow the direct application of the popular deep learning models; 4) the orientation is ambiguous on the mesh surface; and 5) the effect of rigid and nonrigid transformations on 3-D meshes cannot be eliminated. As a remedy, we propose a deep learning model with a novel irregular model structure, called mesh convolutional restricted Boltzmann machines (MCRBMs). MCRBM aims to simultaneously learn structure-preserving local and global features from a novel raw representation, local function energy distribution. In addition, multiple MCRBMs can be stacked into a deeper model, called mesh convolutional deep belief networks (MCDBNs). MCDBN employs a novel local structure preserving convolution (LSPC) strategy to convolve the geometry and the local structure learned by the lower MCRBM to the upper MCRBM. LSPC facilitates resolving the challenging issue of the orientation ambiguity on the mesh surface in MCDBN. Experiments using the proposed MCRBM and MCDBN were conducted on three common aspects: global shape retrieval, partial shape retrieval, and shape correspondence. Results show that the features learned by the proposed methods outperform the other state-of-the-art 3-D shape features.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Zhizhong</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Zhenbao</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Junwei</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vong</LastName>
+                    <ForeName>Chi-Man</ForeName>
+                    <Initials>CM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bu</LastName>
+                    <ForeName>Shuhui</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Chun Lung Philip</ForeName>
+                    <Initials>CLP</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>06</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113522</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2582532</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

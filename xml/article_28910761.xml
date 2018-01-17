@@ -1,0 +1,90 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28910761</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>37</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Phantomless Auto-Calibration and Online Calibration Assessment for a Tracked Freehand 2-D Ultrasound Probe.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>262-272</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2017.2750978</ELocationID>
+            <Abstract>
+                <AbstractText>This paper presents a method for automatically calibrating and assessing the calibration quality of an externally tracked 2-D ultrasound (US) probe by scanning arbitrary, natural tissues, as opposed a specialized calibration phantom as is the typical practice. A generative topic model quantifies the posterior probability of calibration parameters conditioned on local 2-D image features arising from a generic underlying substrate. Auto-calibration is achieved by identifying the maximum a-posteriori image-to-probe transform, and calibration quality is assessed online in terms of the posterior probability of the current image-to-probe transform. Both are closely linked to the 3-D point reconstruction error (PRE) in aligning feature observations arising from the same underlying physical structure in different US images. The method is of practical importance in that it operates simply by scanning arbitrary textured echogenic structures, e.g., in-vivo tissues in the context of the US-guided procedures, without requiring specialized calibration procedures or equipment. Observed data take the form of local scale-invariant features that can be extracted and fit to the model in near real-time. Experiments demonstrate the method on a public data set of in vivo human brain scans of 14 unique subjects acquired in the context of neurosurgery. Online calibration assessment can be performed at approximately 3 Hz for the US images of pixels. Auto-calibration achieves an internal mean PRE of 1.2 mm and a discrepancy of [2 mm, 6 mm] in comparison to the calibration via a standard phantom-based method.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Toews</LastName>
+                    <ForeName>Matthew</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wells</LastName>
+                    <ForeName>William M</ForeName>
+                    <Initials>WM</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28910761</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2017.2750978</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

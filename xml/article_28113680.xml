@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113680</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2162-2388</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on neural networks and learning systems</Title>
+                <ISOAbbreviation>IEEE Trans Neural Netw Learn Syst</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Greedy Methods, Randomization Approaches, and Multiarm Bandit Algorithms for Efficient Sparsity-Constrained Optimization.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TNNLS.2016.2600243</ELocationID>
+            <Abstract>
+                <AbstractText>Several sparsity-constrained algorithms, such as orthogonal matching pursuit (OMP) or the Frank-Wolfe (FW) algorithm, with sparsity constraints work by iteratively selecting a novel atom to add to the current nonzero set of variables. This selection step is usually performed by computing the gradient and then by looking for the gradient component with maximal absolute entry. This step can be computationally expensive especially for large-scale and high-dimensional data. In this paper, we aim at accelerating these sparsity-constrained optimization algorithms by exploiting the key observation that, for these algorithms to work, one only needs the coordinate of the gradient's top entry. Hence, we introduce algorithms based on greedy methods and randomization approaches that aim at cheaply estimating the gradient and its top entry. Another of our contribution is to cast the problem of finding the best gradient entry as a best-arm identification in a multiarmed bandit problem. Owing to this novel insight, we are able to provide a bandit-based algorithm that directly estimates the top entry in a very efficient way. Theoretical observations stating that the resulting inexact FW or OMP algorithms act, with high probability, similar to their exact versions are also given. We have carried out several experiments showing that the greedy deterministic and the bandit approaches we propose can achieve an acceleration of an order of magnitude while being as efficient as the exact gradient when used in algorithms, such as OMP, FW, or CoSaMP.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rakotomamonjy</LastName>
+                    <ForeName>Alain</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koco</LastName>
+                    <ForeName>Sokol</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ralaivola</LastName>
+                    <ForeName>Liva</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Neural Netw Learn Syst</MedlineTA>
+            <NlmUniqueID>101616214</NlmUniqueID>
+            <ISSNLinking>2162-237X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113680</ArticleId>
+            <ArticleId IdType="doi">10.1109/TNNLS.2016.2600243</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,151 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29165996</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-6882</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>89</Volume>
+                    <Issue>24</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Analytical chemistry</Title>
+                <ISOAbbreviation>Anal. Chem.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>iTop-Q: an Intelligent Tool for Top-down Proteomics Quantitation Using DYAMOND Algorithm.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>13128-13136</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acs.analchem.7b02343</ELocationID>
+            <Abstract>
+                <AbstractText>Top-down proteomics using liquid chromatogram coupled with mass spectrometry has been increasingly applied for analyzing intact proteins to study genetic variation, alternative splicing, and post-translational modifications (PTMs) of the proteins (proteoforms). However, only a few tools have been developed for charge state deconvolution, monoisotopic/average molecular weight determination and quantitation of proteoforms from LC-MS1 spectra. Though Decon2LS and MASH Suite Pro have been available to provide intraspectrum charge state deconvolution and quantitation, manual processing is still required to quantify proteoforms across multiple MS1 spectra. An automated tool for interspectrum quantitation is a pressing need. Thus, in this paper, we present a user-friendly tool, called iTop-Q (intelligent Top-down Proteomics Quantitation), that automatically performs large-scale proteoform quantitation based on interspectrum abundance in top-down proteomics. Instead of utilizing single spectrum for proteoform quantitation, iTop-Q constructs extracted ion chromatograms (XICs) of possible proteoform peaks across adjacent MS1 spectra to calculate abundances for accurate quantitation. Notably, iTop-Q is implemented with a newly proposed algorithm, called DYAMOND, using dynamic programming for charge state deconvolution. In addition, iTop-Q performs proteoform alignment to support quantitation analysis across replicates/samples. The performance evaluations on an in-house standard data set and a public large-scale yeast lysate data set show that iTop-Q achieves highly accurate quantitation, more consistent quantitation than using intraspectrum quantitation. Furthermore, the DYAMOND algorithm is suitable for high charge state deconvolution and can distinguish shared peaks in coeluting proteoforms. iTop-Q is publicly available for download at http://ms.iis.sinica.edu.tw/COmics/Software_iTop-Q .</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chang</LastName>
+                    <ForeName>Hui-Yin</ForeName>
+                    <Initials>HY</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1767-1874</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Information Science, Academia Sinica , Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Ching-Tai</ForeName>
+                    <Initials>CT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Information Science, Academia Sinica , Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ko</LastName>
+                    <ForeName>Chu-Ling</ForeName>
+                    <Initials>CL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, National Chiao Tung University , Hsinchu 300, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yi-Ju</ForeName>
+                    <Initials>YJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Chemistry, Academia Sinica , Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yu-Ju</ForeName>
+                    <Initials>YJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-3178-6697</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Chemistry, Academia Sinica , Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hsu</LastName>
+                    <ForeName>Wen-Lian</ForeName>
+                    <Initials>WL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Information Science, Academia Sinica , Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Juo</LastName>
+                    <ForeName>Chiun-Gung</ForeName>
+                    <Initials>CG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Medicine Research Center, Chang Gung University , Taoyuan 333, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>PharmaEssentia Corp., Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sung</LastName>
+                    <ForeName>Ting-Yi</ForeName>
+                    <Initials>TY</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6028-0409</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Information Science, Academia Sinica , Taipei 115, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Anal Chem</MedlineTA>
+            <NlmUniqueID>0370536</NlmUniqueID>
+            <ISSNLinking>0003-2700</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29165996</ArticleId>
+            <ArticleId IdType="doi">10.1021/acs.analchem.7b02343</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

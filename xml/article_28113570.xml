@@ -1,0 +1,91 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113570</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on cybernetics</Title>
+                <ISOAbbreviation>IEEE Trans Cybern</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>On Solving the Problem of Identifying Unreliable Sensors Without a Knowledge of the Ground Truth: The Case of Stochastic Environments.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TCYB.2016.2552979</ELocationID>
+            <Abstract>
+                <AbstractText>The purpose of this paper is to propose a solution to an extremely pertinent problem, namely, that of identifying unreliable sensors (in a domain of reliable and unreliable ones) without any knowledge of the ground truth. This fascinating paradox can be formulated in simple terms as trying to identify stochastic liars without any additional information about the truth. Though apparently impossible, we will show that it is feasible to solve the problem, a claim that is counter-intuitive in and of itself. One aspect of our contribution is to show how redundancy can be introduced, and how it can be effectively utilized in resolving this paradox. Legacy work and the reported literature (for example, in the so-called weighted majority algorithm) have merely addressed assessing the reliability of a sensor by comparing its reading to the ground truth either in an online or an offline manner. Unfortunately, the fundamental assumption of revealing the ground truth cannot be always guaranteed (or even expected) in many real life scenarios. While some extensions of the Condorcet jury theorem [9] can lead to a probabilistic guarantee on the quality of the fused process, they do not provide a solution to the unreliable sensor identification problem. The essence of our approach involves studying the agreement of each sensor with the rest of the sensors, and not comparing the reading of the individual sensors with the ground truth-as advocated in the literature. Under some mild conditions on the reliability of the sensors, we can prove that we can, indeed, filter out the unreliable ones. Our approach leverages the power of the theory of learning automata (LA) so as to gradually learn the identity of the reliable and unreliable sensors. To achieve this, we resort to a team of LA, where a distinct automaton is associated with each sensor. The solution provided here has been subjected to rigorous experimental tests, and the results presented are, in our opinion, both novel and conclusive.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yazidi</LastName>
+                    <ForeName>Anis</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oommen</LastName>
+                    <ForeName>B John</ForeName>
+                    <Initials>BJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodwin</LastName>
+                    <ForeName>Morten</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Cybern</MedlineTA>
+            <NlmUniqueID>101609393</NlmUniqueID>
+            <ISSNLinking>2168-2267</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113570</ArticleId>
+            <ArticleId IdType="doi">10.1109/TCYB.2016.2552979</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

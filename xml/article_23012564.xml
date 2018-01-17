@@ -1,0 +1,140 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29156581</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An Enhanced Non-Coherent Pre-Filter Design for Tracking Error Estimation in GNSS Receivers.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E2668</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17112668</ELocationID>
+            <Abstract>
+                <AbstractText>Tracking error estimation is of great importance in global navigation satellite system (GNSS) receivers. Any inaccurate estimation for tracking error will decrease the signal tracking ability of signal tracking loops and the accuracies of position fixing, velocity determination, and timing. Tracking error estimation can be done by traditional discriminator, or Kalman filter-based pre-filter. The pre-filter can be divided into two categories: coherent and non-coherent. This paper focuses on the performance improvements of non-coherent pre-filter. Firstly, the signal characteristics of coherent and non-coherent integration-which are the basis of tracking error estimation-are analyzed in detail. After that, the probability distribution of estimation noise of four-quadrant arctangent (ATAN2) discriminator is derived according to the mathematical model of coherent integration. Secondly, the statistical property of observation noise of non-coherent pre-filter is studied through Monte Carlo simulation to set the observation noise variance matrix correctly. Thirdly, a simple fault detection and exclusion (FDE) structure is introduced to the non-coherent pre-filter design, and thus its effective working range for carrier phase error estimation extends from (-0.25 cycle, 0.25 cycle) to (-0.5 cycle, 0.5 cycle). Finally, the estimation accuracies of discriminator, coherent pre-filter, and the enhanced non-coherent pre-filter are evaluated comprehensively through the carefully designed experiment scenario. The pre-filter outperforms traditional discriminator in estimation accuracy. In a highly dynamic scenario, the enhanced non-coherent pre-filter provides accuracy improvements of 41.6%, 46.4%, and 50.36% for carrier phase error, carrier frequency error, and code phase error estimation, respectively, when compared with coherent pre-filter. The enhanced non-coherent pre-filter outperforms the coherent pre-filter in code phase error estimation when carrier-to-noise density ratio is less than 28.8 dB-Hz, in carrier frequency error estimation when carrier-to-noise density ratio is less than 20 dB-Hz, and in carrier phase error estimation when carrier-to-noise density belongs to (15, 23) dB-Hz ∪ (26, 50) dB-Hz.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Zhibin</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Automation, Harbin Engineering University, Harbin 150001, China. woshiluozhibin@hrbeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ding</LastName>
+                    <ForeName>Jicheng</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Automation, Harbin Engineering University, Harbin 150001, China. aaron.heu@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Lin</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Automation, Harbin Engineering University, Harbin 150001, China. zhaolin@hrbeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Mouyan</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Automation, Harbin Engineering University, Harbin 150001, China. wumouyan@hrbeu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sensors (Basel). 2012;12 (7):9666-86</RefSource>
+                <PMID Version="1">23012564</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">GNSS receivers</Keyword>
+            <Keyword MajorTopicYN="N">pre-filter design</Keyword>
+            <Keyword MajorTopicYN="N">tracking error estimation</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29156581</ArticleId>
+            <ArticleId IdType="pii">s17112668</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17112668</ArticleId>
+            <ArticleId IdType="pmc">PMC5712877</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

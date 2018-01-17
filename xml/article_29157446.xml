@@ -1,0 +1,124 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157446</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>153</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dynamic visualization of multi-level molecular data: The Director package in R.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>129-136</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(16)30696-4</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.10.013</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">High-throughput measurement technologies have triggered a rise in large-scale cancer studies containing multiple levels of molecular data. While there are a number of efficient methods to analyze individual data types, there are far less that enhance data interpretation after analysis. We present the R package Director, a dynamic visualization approach to linking and interrogating multiple levels of molecular data after analysis for clinically meaningful, actionable insights.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Sankey diagrams are traditionally used to represent quantitative flows through multiple, distinct events. Regulation can be interpreted as a flow of biological information through a series of molecular interactions. Functions in Director introduce novel drawing capabilities to make Sankey diagrams robust to a wide range of quantitative measures and to depict molecular interactions as regulatory cascades. The package streamlines creation of diagrams using as input quantitative measurements identifying nodes as molecules of interest and paths as the interaction strength between two molecules.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Director's utility is demonstrated with quantitative measurements of candidate microRNA-gene networks identified in an ovarian cancer dataset. A recent study reported eight miRNAs as master regulators of signature genes in epithelial-mesenchymal transition (EMT). The Sankey diagrams generated with data from this study furthers interpretation of the miRNAs' roles by revealing potential co-regulatory behavior in the extracellular matrix (ECM). An additional analysis identified 32 genes differentially expressed between good and poor prognosis patients in four significant pathways (FDR  ≤  0.1), three of which support a complementary role of the ECM in ovarian cancer. The resulting diagram created with Director suggest elevated levels of COL11A1, INHBA, and THBS2 - a signature feature of metastasis [1] - and decreased levels of their targeting miRNAs define poor prognosis.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">We have demonstrated a visualization approach suitable for implementation in an analysis workflow, linking multiple levels of molecular data to gain novel perspective on candidate biomarkers in a complex disease. The diagrams are dynamic, easily replicable, and rendered locally as HTML files to facilitate sharing. The R package Director is simple to use and widely available on all operating systems through Bioconductor (http://bioconductor.org/packages/Director) and GitHub (http://kzouchka.github.io/Director).</AbstractText>
+                <CopyrightInformation>Copyright © 2017. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Icay</LastName>
+                    <ForeName>Katherine</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programs Unit, Genome-Scale Biology, Faculty of Medicine, University of Helsinki, Helsinki, POB 63, 00014, Finland. Electronic address: katherine.icay@helsinki.fi.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Chengyu</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programs Unit, Genome-Scale Biology, Faculty of Medicine, University of Helsinki, Helsinki, POB 63, 00014, Finland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hautaniemi</LastName>
+                    <ForeName>Sampsa</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Programs Unit, Genome-Scale Biology, Faculty of Medicine, University of Helsinki, Helsinki, POB 63, 00014, Finland. Electronic address: sampsa.hautaniemi@helsinki.fi.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157446</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(16)30696-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.10.013</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,159 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28924506</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2167-8359</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>5</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PeerJ</Title>
+                <ISOAbbreviation>PeerJ</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Automated classification of tropical shrub species: a hybrid of leaf shape and machine learning approach.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e3792</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.7717/peerj.3792</ELocationID>
+            <Abstract>
+                <AbstractText>Plants play a crucial role in foodstuff, medicine, industry, and environmental protection. The skill of recognising plants is very important in some applications, including conservation of endangered species and rehabilitation of lands after mining activities. However, it is a difficult task to identify plant species because it requires specialized knowledge. Developing an automated classification system for plant species is necessary and valuable since it can help specialists as well as the public in identifying plant species easily. Shape descriptors were applied on the myDAUN dataset that contains 45 tropical shrub species collected from the University of Malaya (UM), Malaysia. Based on literature review, this is the first study in the development of tropical shrub species image dataset and classification using a hybrid of leaf shape and machine learning approach. Four types of shape descriptors were used in this study namely morphological shape descriptors (MSD), Histogram of Oriented Gradients (HOG), Hu invariant moments (Hu) and Zernike moments (ZM). Single descriptor, as well as the combination of hybrid descriptors were tested and compared. The tropical shrub species are classified using six different classifiers, which are artificial neural network (ANN), random forest (RF), support vector machine (SVM), k-nearest neighbour (k-NN), linear discriminant analysis (LDA) and directed acyclic graph multiclass least squares twin support vector machine (DAG MLSTSVM). In addition, three types of feature selection methods were tested in the myDAUN dataset, Relief, Correlation-based feature selection (CFS) and Pearson's coefficient correlation (PCC). The well-known Flavia dataset and Swedish Leaf dataset were used as the validation dataset on the proposed methods. The results showed that the hybrid of all descriptors of ANN outperformed the other classifiers with an average classification accuracy of 98.23% for the myDAUN dataset, 95.25% for the Flavia dataset and 99.89% for the Swedish Leaf dataset. In addition, the Relief feature selection method achieved the highest classification accuracy of 98.13% after 80 (or 60%) of the original features were reduced, from 133 to 53 descriptors in the myDAUN dataset with the reduction in computational time. Subsequently, the hybridisation of four descriptors gave the best results compared to others. It is proven that the combination MSD and HOG were good enough for tropical shrubs species classification. Hu and ZM descriptors also improved the accuracy in tropical shrubs species classification in terms of invariant to translation, rotation and scale. ANN outperformed the others for tropical shrub species classification in this study. Feature selection methods can be used in the classification of tropical shrub species, as the comparable results could be obtained with the reduced descriptors and reduced in computational time and cost.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Murat</LastName>
+                    <ForeName>Miraemiliana</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chang</LastName>
+                    <ForeName>Siow-Wee</ForeName>
+                    <Initials>SW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abu</LastName>
+                    <ForeName>Arpah</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yap</LastName>
+                    <ForeName>Hwa Jen</ForeName>
+                    <Initials>HJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mechanical Engineering, Faculty of Engineering, University of Malaya, Kuala Lumpur, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yong</LastName>
+                    <ForeName>Kien-Thai</ForeName>
+                    <Initials>KT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ecology and Biodiversity Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>figshare</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>10.6084/m9.figshare.5259643.v1</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PeerJ</MedlineTA>
+            <NlmUniqueID>101603425</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2002 Aug 8;418(6898):671-7</RefSource>
+                <PMID Version="1">12167873</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(10):e25630</RefSource>
+                <PMID Version="1">21991324</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Biol. 2016 Dec 8;14 (12 ):e2001104</RefSource>
+                <PMID Version="1">27930674</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Classification</Keyword>
+            <Keyword MajorTopicYN="N">Feature selection</Keyword>
+            <Keyword MajorTopicYN="N">Machine learning</Keyword>
+            <Keyword MajorTopicYN="N">Shape descriptor</Keyword>
+            <Keyword MajorTopicYN="N">Tropical shrubs</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare there are no competing interests.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28924506</ArticleId>
+            <ArticleId IdType="doi">10.7717/peerj.3792</ArticleId>
+            <ArticleId IdType="pii">3792</ArticleId>
+            <ArticleId IdType="pmc">PMC5600178</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,106 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28113374</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-0042</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Sep</Month>
+                        <Day>02</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on image processing : a publication of the IEEE Signal Processing Society</Title>
+                <ISOAbbreviation>IEEE Trans Image Process</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Unsupervised 3D Local Feature Learning by Circle Convolutional Restricted Boltzmann Machine.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TIP.2016.2605920</ELocationID>
+            <Abstract>
+                <AbstractText>Extracting local features from 3D shapes is an important and challenging task that usually requires carefully designed 3D shape descriptors. However, these descriptors are hand-crafted and require intensive human intervention with prior knowledge. To tackle this issue, we propose a novel deep learning model, namely Circle Convolutional Restricted Boltzmann Machine (CCRBM), for unsupervised 3D local feature learning. CCRBM is specially designed to learn from raw 3D representations. It effectively overcomes obstacles such as irregular vertex topology, orientation ambiguity on the 3D surface, and rigid or slightly non-rigid transformation invariance in the hierarchical learning of 3D data that cannot be resolved by the existing deep learning models. Specifically, by introducing the novel circle convolution, CCRBM holds a novel ring-like multilayer structure to learn 3D local features in a structure preserving manner. Circle convolution convolves across 3D local regions via rotating a novel circular sector convolution window in a consistent circular direction. In the process of circle convolution, extra points are sampled in each 3D local region and projected onto the tangent plane of the center of the region. In this way, the projection distances in each sector window are employed to constitute a novel local raw 3D representation called Projection Distance Distribution (PDD). In addition, to eliminate the initial location ambiguity of a sector window, the Fourier Transform Modulus (FTM) is used to transform the PDD into the Fourier domain which is then conveyed to CCRBM. Experiments using the learned local features are conducted on three aspects: global shape retrieval, partial shape retrieval, and shape correspondence. The experimental results show that the learned local features outperform other state-of-the-art 3D shape descriptors.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Zhizhong</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Zhenbao</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Junwei</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vong</LastName>
+                    <ForeName>Chi-Man</ForeName>
+                    <Initials>CM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bu</LastName>
+                    <ForeName>Shuhui</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Xuelong</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Image Process</MedlineTA>
+            <NlmUniqueID>9886191</NlmUniqueID>
+            <ISSNLinking>1057-7149</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28113374</ArticleId>
+            <ArticleId IdType="doi">10.1109/TIP.2016.2605920</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

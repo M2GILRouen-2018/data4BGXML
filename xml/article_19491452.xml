@@ -1,0 +1,220 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28146088</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1424-8220</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Jan</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sensors (Basel, Switzerland)</Title>
+                <ISOAbbreviation>Sensors (Basel)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Ring Artifact Correction Method: Validation by Micro-CT Imaging with Flat-Panel Detectors and a 2D Photon-Counting Detector.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E269</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/s17020269</ELocationID>
+            <Abstract>
+                <AbstractText>We introduce an efficient ring artifact correction method for a cone-beam computed tomography (CT). In the first step, we correct the defective pixels whose values are close to zero or saturated in the projection domain. In the second step, we compute the mean value at each detector element along the view angle in the sinogram to obtain the one-dimensional (1D) mean vector, and we then compute the 1D correction vector by taking inverse of the mean vector. We multiply the correction vector with the sinogram row by row over all view angles. In the third step, we apply a Gaussian filter on the difference image between the original CT image and the corrected CT image obtained in the previous step. The filtered difference image is added to the corrected CT image to compensate the possible contrast anomaly that may appear due to the contrast change in the sinogram after removing stripe artifacts. We applied the proposed method to the projection data acquired by two flat-panel detectors (FPDs) and a silicon-based photon-counting X-ray detector (PCXD). Micro-CT imaging experiments of phantoms and a small animal have shown that the proposed method can greatly reduce ring artifacts regardless of detector types. Despite the great reduction of ring artifacts, the proposed method does not compromise the original spatial resolution and contrast.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Eldib</LastName>
+                    <ForeName>Mohamed Elsayed</ForeName>
+                    <Initials>ME</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Kyung Hee University, Yongin, Gyeonggi 17104, Korea. m.deeb1@yahoo.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hegazy</LastName>
+                    <ForeName>Mohamed</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Kyung Hee University, Yongin, Gyeonggi 17104, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mun</LastName>
+                    <ForeName>Yang Ji</ForeName>
+                    <Initials>YJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Kyung Hee University, Yongin, Gyeonggi 17104, Korea. ansdidwl@naver.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cho</LastName>
+                    <ForeName>Myung Hye</ForeName>
+                    <Initials>MH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Kyung Hee University, Yongin, Gyeonggi 17104, Korea. mhcho@khu.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cho</LastName>
+                    <ForeName>Min Hyoung</ForeName>
+                    <Initials>MH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Kyung Hee University, Yongin, Gyeonggi 17104, Korea. mhcho@khu.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Soo Yeol</ForeName>
+                    <Initials>SY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Engineering, Kyung Hee University, Yongin, Gyeonggi 17104, Korea. sylee01@khu.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Sensors (Basel)</MedlineTA>
+            <NlmUniqueID>101204366</NlmUniqueID>
+            <ISSNLinking>1424-8220</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2009 Sep 7;54(17):N385-91</RefSource>
+                <PMID Version="1">19661571</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2012 Nov 7;57(21):6743-59</RefSource>
+                <PMID Version="1">23032372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2011 Apr 7;56(7):1905-30</RefSource>
+                <PMID Version="1">21364268</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Opt Express. 2006 Dec 11;14(25):12071-5</RefSource>
+                <PMID Version="1">19529634</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Opt Express. 2009 May 11;17(10):8567-91</RefSource>
+                <PMID Version="1">19434191</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2010 Nov 21;55(22):6911-30</RefSource>
+                <PMID Version="1">21048294</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2008 Aug 7;53(15):4031-47</RefSource>
+                <PMID Version="1">18612175</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2012 Nov;39(11):6572-9</RefSource>
+                <PMID Version="1">23127051</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Nucl Sci. 2009;56(3):535-542</RefSource>
+                <PMID Version="1">19920884</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2011 Oct 7;56(19):6495-519</RefSource>
+                <PMID Version="1">21934193</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2004 Jul 21;49(14):N247-53</RefSource>
+                <PMID Version="1">15357205</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2010 Aug;37(8):3957-69</RefSource>
+                <PMID Version="1">20879558</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Radiol. 2010 Sep;20(9):2126-34</RefSource>
+                <PMID Version="1">20309554</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Biol Med. 2010 Jan;40(1):109-18</RefSource>
+                <PMID Version="1">20031123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2001 May;28(5):812-25</RefSource>
+                <PMID Version="1">11393477</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2003 Dec 21;48(24):4173-85</RefSource>
+                <PMID Version="1">14727760</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2014 Oct 21;59(20):6195-213</RefSource>
+                <PMID Version="1">25255737</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Med Biol. 2009 Jun 21;54(12):3881-95</RefSource>
+                <PMID Version="1">19491452</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Gaussian filter</Keyword>
+            <Keyword MajorTopicYN="N">correction vector</Keyword>
+            <Keyword MajorTopicYN="N">flat-panel detector</Keyword>
+            <Keyword MajorTopicYN="N">photon-counting X-ray detector</Keyword>
+            <Keyword MajorTopicYN="N">ring artifact correction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28146088</ArticleId>
+            <ArticleId IdType="pii">s17020269</ArticleId>
+            <ArticleId IdType="doi">10.3390/s17020269</ArticleId>
+            <ArticleId IdType="pmc">PMC5336082</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

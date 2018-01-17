@@ -1,0 +1,107 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">28147552</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1089-7690</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>146</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>01</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of chemical physics</Title>
+                <ISOAbbreviation>J Chem Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A practical approach to the sensitivity analysis for kinetic Monte Carlo simulation of heterogeneous catalysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>044118</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1063/1.4974261</ELocationID>
+            <Abstract>
+                <AbstractText>Lattice kinetic Monte Carlo simulations have become a vital tool for predictive quality atomistic understanding of complex surface chemical reaction kinetics over a wide range of reaction conditions. In order to expand their practical value in terms of giving guidelines for the atomic level design of catalytic systems, it is very desirable to readily evaluate a sensitivity analysis for a given model. The result of such a sensitivity analysis quantitatively expresses the dependency of the turnover frequency, being the main output variable, on the rate constants entering the model. In the past, the application of sensitivity analysis, such as degree of rate control, has been hampered by its exuberant computational effort required to accurately sample numerical derivatives of a property that is obtained from a stochastic simulation method. In this study, we present an efficient and robust three-stage approach that is capable of reliably evaluating the sensitivity measures for stiff microkinetic models as we demonstrate using the CO oxidation on RuO2(110) as a prototypical reaction. In the first step, we utilize the Fisher information matrix for filtering out elementary processes which only yield negligible sensitivity. Then we employ an estimator based on the linear response theory for calculating the sensitivity measure for non-critical conditions which covers the majority of cases. Finally, we adapt a method for sampling coupled finite differences for evaluating the sensitivity measure for lattice based models. This allows for an efficient evaluation even in critical regions near a second order phase transition that are hitherto difficult to control. The combined approach leads to significant computational savings over straightforward numerical derivatives and should aid in accelerating the nano-scale design of heterogeneous catalysts.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hoffmann</LastName>
+                    <ForeName>Max J</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Engelmann</LastName>
+                    <ForeName>Felix</ForeName>
+                    <Initials>F</Initials>
+                    <Identifier Source="ORCID">0000000193560231</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Theoretical Chemistry, Technische Universität München, Lichtenbergstraße 4, 85747 Garching, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Matera</LastName>
+                    <ForeName>Sebastian</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Mathematics, Freie Universität Berlin, Arnimallee 6, 14195 Berlin, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Chem Phys</MedlineTA>
+            <NlmUniqueID>0375360</NlmUniqueID>
+            <ISSNLinking>0021-9606</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28147552</ArticleId>
+            <ArticleId IdType="doi">10.1063/1.4974261</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

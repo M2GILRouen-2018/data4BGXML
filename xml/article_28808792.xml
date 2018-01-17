@@ -1,0 +1,281 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28808792</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1618-727X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of digital imaging</Title>
+                <ISOAbbreviation>J Digit Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using Natural Language Processing of Free-Text Radiology Reports to Identify Type 1 Modic Endplate Changes.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s10278-017-0013-3</ELocationID>
+            <Abstract>
+                <AbstractText>Electronic medical record (EMR) systems provide easy access to radiology reports and offer great potential to support quality improvement efforts and clinical research. Harnessing the full potential of the EMR requires scalable approaches such as natural language processing (NLP) to convert text into variables used for evaluation or analysis. Our goal was to determine the feasibility of using NLP to identify patients with Type 1 Modic endplate changes using clinical reports of magnetic resonance (MR) imaging examinations of the spine. Identifying patients with Type 1 Modic change who may be eligible for clinical trials is important as these findings may be important targets for intervention. Four annotators identified all reports that contained Type 1 Modic change, using N = 458 randomly selected lumbar spine MR reports. We then implemented a rule-based NLP algorithm in Java using regular expressions. The prevalence of Type 1 Modic change in the annotated dataset was 10%. Results were recall (sensitivity) 35/50 = 0.70 (95% confidence interval (C.I.) 0.52-0.82), specificity 404/408 = 0.99 (0.97-1.0), precision (positive predictive value) 35/39 = 0.90 (0.75-0.97), negative predictive value 404/419 = 0.96 (0.94-0.98), and F1-score 0.79 (0.43-1.0). Our evaluation shows the efficacy of rule-based NLP approach for identifying patients with Type 1 Modic change if the emphasis is on identifying only relevant cases with low concern regarding false negatives. As expected, our results show that specificity is higher than recall. This is due to the inherent difficulty of eliciting all possible keywords given the enormous variability of lumbar spine reporting, which decreases recall, while availability of good negation algorithms improves specificity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Huhdanpaa</LastName>
+                    <ForeName>Hannu T</ForeName>
+                    <Initials>HT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Radia, Inc., Lynwood, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>W Katherine</ForeName>
+                    <Initials>WK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Biomedical Statistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rundell</LastName>
+                    <ForeName>Sean D</ForeName>
+                    <Initials>SD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Rehabilitation Medicine, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suri</LastName>
+                    <ForeName>Pradeep</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Rehabilitation Medicine, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Rehabilitation Care Services, Seattle Epidemiologic Research and Information Center, VA Puget Sound Health Care System, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chokshi</LastName>
+                    <ForeName>Falgun H</ForeName>
+                    <Initials>FH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology and Imaging Sciences, Emory University School of Medicine, Atlanta, GA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Comstock</LastName>
+                    <ForeName>Bryan A</ForeName>
+                    <Initials>BA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Biomedical Statistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heagerty</LastName>
+                    <ForeName>Patrick J</ForeName>
+                    <Initials>PJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Biomedical Statistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>James</LastName>
+                    <ForeName>Kathryn T</ForeName>
+                    <Initials>KT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Washington, Box 359728, 325 Ninth Ave., Seattle, WA, 98104-2499, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Avins</LastName>
+                    <ForeName>Andrew L</ForeName>
+                    <Initials>AL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Research, Kaiser Permanente Northern California, Oakland, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nedeljkovic</LastName>
+                    <ForeName>Srdjan S</ForeName>
+                    <Initials>SS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Anesthesiology, Perioperative and Pain Medicine, Harvard Vanguard Medical Associates, Brigham and Women's Hospital and Spine Unit, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nerenz</LastName>
+                    <ForeName>David R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Henry Ford Hospital, Neuroscience Institute, Detroit, MI, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kallmes</LastName>
+                    <ForeName>David F</ForeName>
+                    <Initials>DF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Mayo Clinic, Rochester, MN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luetmer</LastName>
+                    <ForeName>Patrick H</ForeName>
+                    <Initials>PH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Mayo Clinic, Rochester, MN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sherman</LastName>
+                    <ForeName>Karen J</ForeName>
+                    <Initials>KJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Kaiser Permanente of Washington Research Institute, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Organ</LastName>
+                    <ForeName>Nancy L</ForeName>
+                    <Initials>NL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Biomedical Statistics, University of Washington, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Griffith</LastName>
+                    <ForeName>Brent</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Henry Ford Hospital, Detroit, MI, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Langlotz</LastName>
+                    <ForeName>Curtis P</ForeName>
+                    <Initials>CP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Stanford University, Palo Alto, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Carrell</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Kaiser Permanente of Washington Research Institute, Seattle, WA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hassanpour</LastName>
+                    <ForeName>Saeed</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Data Science, Dartmouth College, Lebanon, NH, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jarvik</LastName>
+                    <ForeName>Jeffrey G</ForeName>
+                    <Initials>JG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA. jarvikj@uw.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, University of Washington, Box 359728, 325 Ninth Ave., Seattle, WA, 98104-2499, USA. jarvikj@uw.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurological Surgery, University of Washington, Seattle, WA, USA. jarvikj@uw.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Health Services, University of Washington, Seattle, WA, USA. jarvikj@uw.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Digit Imaging</MedlineTA>
+            <NlmUniqueID>9100529</NlmUniqueID>
+            <ISSNLinking>0897-1889</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Lumbar spine imaging</Keyword>
+            <Keyword MajorTopicYN="N">Modic classification</Keyword>
+            <Keyword MajorTopicYN="N">Natural language processing</Keyword>
+            <Keyword MajorTopicYN="N">Radiology reporting</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>8</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28808792</ArticleId>
+            <ArticleId IdType="doi">10.1007/s10278-017-0013-3</ArticleId>
+            <ArticleId IdType="pii">10.1007/s10278-017-0013-3</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

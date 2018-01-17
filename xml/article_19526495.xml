@@ -1,0 +1,387 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26936712</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>03</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>12</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>02</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2473-4209</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>43</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical physics</Title>
+                <ISOAbbreviation>Med Phys</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Tumor radio-sensitivity assessment by means of volume data and magnetic resonance indices measured on prostate tumor bearing rats.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1275-84</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1118/1.4941746</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Radiation therapy is one of the most common treatments in the fight against prostate cancer, since it is used to control the tumor (early stages), to slow its progression, and even to control pain (metastasis). Although many factors (e.g., tumor oxygenation) are known to influence treatment efficacy, radiotherapy doses and fractionation schedules are often prescribed according to the principle &quot;one-fits-all,&quot; with little personalization. Therefore, the authors aim at predicting the outcome of radiation therapy a priori starting from morphologic and functional information to move a step forward in the treatment customization.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The authors propose a two-step protocol to predict the effects of radiation therapy on individual basis. First, one macroscopic mathematical model of tumor evolution was trained on tumor volume progression, measured by caliper, of eighteen Dunning R3327-AT1 bearing rats. Nine rats inhaled 100% O2 during irradiation (oxy), while the others were allowed to breathe air. Second, a supervised learning of the weight and biases of two feedforward neural networks was performed to predict the radio-sensitivity (target) from the initial volume and oxygenation-related information (inputs) for each rat group (air and oxygen breathing). To this purpose, four MRI-based indices related to blood and tissue oxygenation were computed, namely, the variation of signal intensity ΔSI in interleaved blood oxygen level dependent and tissue oxygen level dependent (IBT) sequences as well as changes in longitudinal ΔR1 and transverse ΔR2(*) relaxation rates.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">An inverse correlation of the radio-sensitivity parameter, assessed by the model, was found with respect the ΔR2(*) (-0.65) for the oxy group. A further subdivision according to positive and negative values of ΔR2(*) showed a larger average radio-sensitivity for the oxy rats with ΔR2(*)&lt;0 and a significant difference in the two distributions (p &lt; 0.05). Finally, a leave-one-out procedure yielded a radio-sensitivity error lower than 20% in both neural networks.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">While preliminary, these specific results suggest that subjects affected by the same pathology can benefit differently from the same irradiation modalities and support the usefulness of IBT in discriminating between different responses.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Belfatto</LastName>
+                    <ForeName>Antonella</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electronics, Information and Bioengineering, Politecnico di Milano University, Milan 20133, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>White</LastName>
+                    <ForeName>Derek A</ForeName>
+                    <Initials>DA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mason</LastName>
+                    <ForeName>Ralph P</ForeName>
+                    <Initials>RP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Zhang</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stojadinovic</LastName>
+                    <ForeName>Strahinja</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baroni</LastName>
+                    <ForeName>Guido</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electronics, Information and Bioengineering, Politecnico di Milano University, Milan 20133, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cerveri</LastName>
+                    <ForeName>Pietro</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Electronics, Information and Bioengineering, Politecnico di Milano University, Milan 20133, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>5R01 CA139043</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>EB015908</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA139043</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P41 EB015908</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P30 CA142543</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>S10 RR028011</GrantID>
+                    <Acronym>RR</Acronym>
+                    <Agency>NCRR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>1P30 EB015908</GrantID>
+                    <Acronym>EB</Acronym>
+                    <Agency>NIBIB NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Phys</MedlineTA>
+            <NlmUniqueID>0425746</NlmUniqueID>
+            <ISSNLinking>0094-2405</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>S88TT14065</RegistryNumber>
+                <NameOfSubstance UI="D010100">Oxygen</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2011 Jan 1;79(1):239-46</RefSource>
+                <PMID Version="1">20934276</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2015 Jan;42(1):90-102</RefSource>
+                <PMID Version="1">25563250</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Semin Radiat Oncol. 2004 Jul;14(3):198-206</RefSource>
+                <PMID Version="1">15254862</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Annu Rev Biomed Eng. 2011 Aug 15;13:127-55</RefSource>
+                <PMID Version="1">21529163</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2010 Jan;94(1):121-2; author reply 122-3</RefSource>
+                <PMID Version="1">19892421</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Biomed Comput. 1982 Jan;13(1):19-36</RefSource>
+                <PMID Version="1">7061168</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiat Res. 2004 Jul;162(1):71-83</RefSource>
+                <PMID Version="1">15222799</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE J Biomed Health Inform. 2016 Mar;20(2):596-605</RefSource>
+                <PMID Version="1">25647734</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Cancer Res. 2012 Apr 1;18(7):2108-14</RefSource>
+                <PMID Version="1">22465832</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2014 May;71(5):1863-73</RefSource>
+                <PMID Version="1">23813468</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiat Res. 1998 Oct;150(4):423-30</RefSource>
+                <PMID Version="1">9768856</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Radiol. 1989 Aug;62(740):679-94</RefSource>
+                <PMID Version="1">2670032</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Technol Cancer Res Treat. 2016 Feb;15(1):146-58</RefSource>
+                <PMID Version="1">25759423</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2004 Mar 1;58(3):750-7</RefSource>
+                <PMID Version="1">14967430</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2010 Nov 15;78(4):1193-200</RefSource>
+                <PMID Version="1">20813466</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 2010 Jan 15;70(2):463-70</RefSource>
+                <PMID Version="1">20068180</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Phys. 2015 Jun;42(6):2753-6</RefSource>
+                <PMID Version="1">26127027</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Cancer Res. 2009 Mar 1;15(5):1721-9</RefSource>
+                <PMID Version="1">19240176</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson Imaging. 2012 Jan;35(1):20-31</RefSource>
+                <PMID Version="1">22174000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Urology. 2002 Oct;60(4):634-9</RefSource>
+                <PMID Version="1">12385924</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Prolif. 1994 Feb;27(2):73-94</RefSource>
+                <PMID Version="1">10465028</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2011 Jan;98 (1):109-16</RefSource>
+                <PMID Version="1">21056487</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Pharm Des. 2014;20(30):4934-40</RefSource>
+                <PMID Version="1">24283955</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiat Res. 2003 May;159(5):621-31</RefSource>
+                <PMID Version="1">12710873</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Clin Oncol. 2013 Jan;10(1):27-40</RefSource>
+                <PMID Version="1">23165123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2013 Jul;70(1):136-46</RefSource>
+                <PMID Version="1">22926895</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Radiother Oncol. 2015 Jun;115(3):327-34</RefSource>
+                <PMID Version="1">26058991</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 1998 Apr 1;41(1):151-9</RefSource>
+                <PMID Version="1">9588930</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 2013 Apr 15;73(8):2407-11</RefSource>
+                <PMID Version="1">23393201</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acta Oncol. 2014 Aug;53(8):1035-40</RefSource>
+                <PMID Version="1">24957551</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Magn Reson Imaging. 2004 Apr;19(4):482-8</RefSource>
+                <PMID Version="1">15065173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2002 Dec;48(6):980-6</RefSource>
+                <PMID Version="1">12465107</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Radiol. 2006 Nov;79(947):905-11</RefSource>
+                <PMID Version="1">16885177</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2007 Mar 15;67(4):1179-86</RefSource>
+                <PMID Version="1">17336219</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Imaging. 1993;11(7):1007-17</RefSource>
+                <PMID Version="1">8231664</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Radiat Oncol Biol Phys. 2001 Mar 15;49(4):1171-82</RefSource>
+                <PMID Version="1">11240261</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Magn Reson Med. 2009 Aug;62(2):357-64</RefSource>
+                <PMID Version="1">19526495</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019583" MajorTopicYN="N">Dose Fractionation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008279" MajorTopicYN="Y">Magnetic Resonance Imaging</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008954" MajorTopicYN="N">Models, Biological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="N">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010100" MajorTopicYN="N">Oxygen</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011471" MajorTopicYN="N">Prostatic Neoplasms</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="Y">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+                <QualifierName UI="Q000532" MajorTopicYN="N">radiotherapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011836" MajorTopicYN="Y">Radiation Tolerance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051381" MajorTopicYN="N">Rats</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D047368" MajorTopicYN="Y">Tumor Burden</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26936712</ArticleId>
+            <ArticleId IdType="doi">10.1118/1.4941746</ArticleId>
+            <ArticleId IdType="pmc">PMC5148178</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,128 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29197705</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1361-8423</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical image analysis</Title>
+                <ISOAbbreviation>Med Image Anal</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A real-time and registration-free framework for dynamic shape instantiation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>86-97</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S1361-8415(17)30178-0</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.media.2017.11.009</ELocationID>
+            <Abstract>
+                <AbstractText>Real-time 3D navigation during minimally invasive procedures is an essential yet challenging task, especially when considerable tissue motion is involved. To balance image acquisition speed and resolution, only 2D images or low-resolution 3D volumes can be used clinically. In this paper, a real-time and registration-free framework for dynamic shape instantiation, generalizable to multiple anatomical applications, is proposed to instantiate high-resolution 3D shapes of an organ from a single 2D image intra-operatively. Firstly, an approximate optimal scan plane was determined by analyzing the pre-operative 3D statistical shape model (SSM) of the anatomy with sparse principal component analysis (SPCA) and considering practical constraints. Secondly, kernel partial least squares regression (KPLSR) was used to learn the relationship between the pre-operative 3D SSM and a synchronized 2D SSM constructed from 2D images obtained at the approximate optimal scan plane. Finally, the derived relationship was applied to the new intra-operative 2D image obtained at the same scan plane to predict the high-resolution 3D shape intra-operatively. A major feature of the proposed framework is that no extra registration between the pre-operative 3D SSM and the synchronized 2D SSM is required. Detailed validation was performed on studies including the liver and right ventricle (RV) of the heart. The derived results (mean accuracy of 2.19 mm on patients and computation speed of 1 ms) demonstrate its potential clinical value for real-time, high-resolution, dynamic and 3D interventional guidance.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Xiao-Yun</ForeName>
+                    <Initials>XY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Hamlyn Centre for Robotic Surgery, Imperial College London, London, UK. Electronic address: xiaoyun.zhou14@imperial.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Guang-Zhong</ForeName>
+                    <Initials>GZ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Hamlyn Centre for Robotic Surgery, Imperial College London, London, UK. Electronic address: g.z.yang@imperial.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Su-Lin</ForeName>
+                    <Initials>SL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Hamlyn Centre for Robotic Surgery, Imperial College London, London, UK. Electronic address: su-lin.lee@imperial.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Med Image Anal</MedlineTA>
+            <NlmUniqueID>9713490</NlmUniqueID>
+            <ISSNLinking>1361-8415</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">3D shape recovery</Keyword>
+            <Keyword MajorTopicYN="N">Dynamic shape instantiation</Keyword>
+            <Keyword MajorTopicYN="N">Image-guided interventions</Keyword>
+            <Keyword MajorTopicYN="N">KPLSR</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29197705</ArticleId>
+            <ArticleId IdType="pii">S1361-8415(17)30178-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.media.2017.11.009</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

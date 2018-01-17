@@ -1,0 +1,131 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29158403</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1091-6490</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>114</Volume>
+                    <Issue>49</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Dec</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Beating the curse of dimension with accurate statistics for the Fokker-Planck equation in complex turbulent systems.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>12864-12869</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1073/pnas.1717017114</ELocationID>
+            <Abstract>
+                <AbstractText>Solving the Fokker-Planck equation for high-dimensional complex dynamical systems is an important issue. Recently, the authors developed efficient statistically accurate algorithms for solving the Fokker-Planck equations associated with high-dimensional nonlinear turbulent dynamical systems with conditional Gaussian structures, which contain many strong non-Gaussian features such as intermittency and fat-tailed probability density functions (PDFs). The algorithms involve a hybrid strategy with a small number of samples [Formula: see text], where a conditional Gaussian mixture in a high-dimensional subspace via an extremely efficient parametric method is combined with a judicious Gaussian kernel density estimation in the remaining low-dimensional subspace. In this article, two effective strategies are developed and incorporated into these algorithms. The first strategy involves a judicious block decomposition of the conditional covariance matrix such that the evolutions of different blocks have no interactions, which allows an extremely efficient parallel computation due to the small size of each individual block. The second strategy exploits statistical symmetry for a further reduction of [Formula: see text] The resulting algorithms can efficiently solve the Fokker-Planck equation with strongly non-Gaussian PDFs in much higher dimensions even with orders in the millions and thus beat the curse of dimension. The algorithms are applied to a [Formula: see text]-dimensional stochastic coupled FitzHugh-Nagumo model for excitable media. An accurate recovery of both the transient and equilibrium non-Gaussian PDFs requires only [Formula: see text] samples! In addition, the block decomposition facilitates the algorithms to efficiently capture the distinct non-Gaussian features at different locations in a [Formula: see text]-dimensional two-layer inhomogeneous Lorenz 96 model, using only [Formula: see text] samples.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 the Author(s). Published by PNAS.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Nan</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mathematics, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012; jonjon@cims.nyu.edu chennan@cims.nyu.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Atmosphere Ocean Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Majda</LastName>
+                    <ForeName>Andrew J</ForeName>
+                    <Initials>AJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mathematics, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012; jonjon@cims.nyu.edu chennan@cims.nyu.edu.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Atmosphere Ocean Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Prototype Climate Modeling, New York University Abu Dhabi, Abu Dhabi, United Arab Emirates.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+            <NlmUniqueID>7505876</NlmUniqueID>
+            <ISSNLinking>0027-8424</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Phys Rev E Stat Nonlin Soft Matter Phys. 2005 Sep;72(3 Pt 1):031105</RefSource>
+                <PMID Version="1">16241409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2007 Jan 16;104(3):702-7</RefSource>
+                <PMID Version="1">17210922</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Philos Trans A Math Phys Eng Sci. 2013 Apr 15;371(1991):20110479</RefSource>
+                <PMID Version="1">23588046</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">block decomposition</Keyword>
+            <Keyword MajorTopicYN="N">high-dimensional non-Gaussian PDFs</Keyword>
+            <Keyword MajorTopicYN="N">hybrid strategy</Keyword>
+            <Keyword MajorTopicYN="N">small sample size</Keyword>
+            <Keyword MajorTopicYN="N">statistical symmetry</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29158403</ArticleId>
+            <ArticleId IdType="pii">1717017114</ArticleId>
+            <ArticleId IdType="doi">10.1073/pnas.1717017114</ArticleId>
+            <ArticleId IdType="pmc">PMC5724285</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

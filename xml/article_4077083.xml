@@ -1,0 +1,151 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">1640750</PMID>
+        <DateCreated>
+            <Year>1992</Year>
+            <Month>08</Month>
+            <Day>28</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>1992</Year>
+            <Month>08</Month>
+            <Day>28</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>08</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0140-0118</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>30</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>1992</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Medical &amp; biological engineering &amp; computing</Title>
+                <ISOAbbreviation>Med Biol Eng Comput</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Personal computer system for ECG ST-segment recognition based on neural networks.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>A personal computer system for electrocardiogram (ECG) ST-segment recognition is developed based on neural networks. The system consists of a preprocessor, neural networks and a recogniser. The adaptive resonance theory (ART) is employed to implement the neural networks in the system, which self-organise in response to the input ECG. Competitive and co-operative interaction among neurons in the neural networks makes the system robust to noise. The preprocessor detects the R points and divides the ECG into cardiac cycles. Each cardiac cycle is fed into the neural networks. The neural networks then address the approximate locations of the J point and the onset of the T-wave (T(on)). The recogniser determines the respective ranges in which the J and T(on) points lie, based on the locations addressed. Within those ranges, the recogniser finds the exact locations of the J and T(on) points either by a change in the sign of the slope of the ECG, a zero slope or a significant change in the slope. The ST-segment is thus recognised as the portion of the ECG between the J and T(on) points. Finally, the appropriateness of the length of the ST-segment is evaluated by an evaluation rule. As the process goes on, the neural networks self-organise and learn the characteristics of the ECG patterns which vary with each patient.(ABSTRACT TRUNCATED AT 250 WORDS)</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science and Systems Engineering, Muroran Institute of Technology, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ono</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Med Biol Eng Comput</MedlineTA>
+            <NlmUniqueID>7704869</NlmUniqueID>
+            <ISSNLinking>0140-0118</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Appl Opt. 1987 Dec 1;26(23):4919-30</RefSource>
+                <PMID Version="1">20523470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 1987 Sep;25(5):513-9</RefSource>
+                <PMID Version="1">3446973</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1986 Jun;33(6):585-93</RefSource>
+                <PMID Version="1">3755119</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Biol Eng Comput. 1989 May;27(3):221-9</RefSource>
+                <PMID Version="1">2601443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1986 Dec;33(12):1157-65</RefSource>
+                <PMID Version="1">3817849</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1986 Oct;33(10):972-4</RefSource>
+                <PMID Version="1">3770786</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1982 Sep;29(9):642-9</RefSource>
+                <PMID Version="1">6897053</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Biomed Eng. 1985 Dec;32(12):1052-60</RefSource>
+                <PMID Version="1">4077083</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003199" MajorTopicYN="N">Computer Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003327" MajorTopicYN="N">Coronary Disease</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004562" MajorTopicYN="N">Electrocardiography</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008838" MajorTopicYN="Y">Microcomputers</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016571" MajorTopicYN="Y">Neural Networks (Computer)</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>1992</Year>
+                <Month>1</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>1992</Year>
+                <Month>1</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>1992</Year>
+                <Month>1</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">1640750</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

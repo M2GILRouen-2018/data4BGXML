@@ -1,0 +1,105 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">28129153</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>05</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-254X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>36</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE transactions on medical imaging</Title>
+                <ISOAbbreviation>IEEE Trans Med Imaging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>3-D Morphology Prediction of Progressive Spinal Deformities From Probabilistic Modeling of Discriminant Manifolds.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1194-1204</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1109/TMI.2017.2657225</ELocationID>
+            <Abstract>
+                <AbstractText>We introduce a novel approach for predicting the progression of adolescent idiopathic scoliosis from 3-D spine models reconstructed from biplanar X-ray images. Recent progress in machine learning has allowed to improve classification and prognosis rates, but lack a probabilistic framework to measure uncertainty in the data. We propose a discriminative probabilistic manifold embedding where locally linear mappings transform data points from high-dimensional space to corresponding low-dimensional coordinates. A discriminant adjacency matrix is constructed to maximize the separation between progressive (P) and nonprogressive (NP) groups of patients diagnosed with scoliosis, while minimizing the distance in latent variables belonging to the same class. To predict the evolution of deformation, a baseline reconstruction is projected onto the manifold, from which a spatiotemporal regression model is built from parallel transport curves inferred from neighboring exemplars. Rate of progression is modulated from the spine flexibility and curve magnitude of the 3-D spine deformation. The method was tested on 745 reconstructions from 133 subjects using longitudinal 3-D reconstructions of the spine, with results demonstrating the discriminatory framework can identify between P and NP of scoliotic patients with a classification rate of 81% and the prediction differences of 2.1° in main curve angulation, outperforming other manifold learning methods. Our method achieved a higher prediction accuracy and improved the modeling of spatiotemporal morphological changes in highly deformed spines compared with other learning methods.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kadoury</LastName>
+                    <ForeName>Samuel</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mandel</LastName>
+                    <ForeName>William</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roy-Beaudry</LastName>
+                    <ForeName>Marjolaine</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nault</LastName>
+                    <ForeName>Marie-Lyne</ForeName>
+                    <Initials>ML</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Parent</LastName>
+                    <ForeName>Stefan</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>IEEE Trans Med Imaging</MedlineTA>
+            <NlmUniqueID>8310780</NlmUniqueID>
+            <ISSNLinking>0278-0062</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28129153</ArticleId>
+            <ArticleId IdType="doi">10.1109/TMI.2017.2657225</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

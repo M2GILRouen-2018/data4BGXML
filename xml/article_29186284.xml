@@ -1,0 +1,115 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29186284</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>CALQ: compression of quality values of aligned sequencing data.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btx737</ELocationID>
+            <Abstract>
+                <AbstractText Label="Motivation" NlmCategory="UNASSIGNED">Recent advancements in high-throughput sequencing technology have led to a rapid growth of genomic data. Several lossless compression schemes have been proposed for the coding of such data present in the form of raw FASTQ files and aligned SAM/BAM files. However, due to their high entropy, losslessly compressed quality values account for about 80% of the size of compressed files. For the quality values, we present a novel lossy compression scheme named CALQ. By controlling the coarseness of quality value quantization with a statistical genotyping model, we minimize the impact of the introduced distortion on downstream analyses.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We analyze the performance of several lossy compressors for quality values in terms of trade-off between the achieved compressed size (in bits per quality value) and the Precision and Recall achieved after running a variant calling pipeline over sequencing data of the well-known NA12878 individual. By compressing and reconstructing quality values with CALQ, we observe a better average variant calling performance than with the original data while achieving a size reduction of about one order of magnitude with respect to the state-of-the-art lossless compressors. Furthermore, we show that CALQ performs as good as or better than the state-of-the-art lossy compressors in terms of variant calling Recall and Precision for most of the analyzed data sets.</AbstractText>
+                <AbstractText Label="Availability" NlmCategory="UNASSIGNED">CALQ is written in C ++ and can be downloaded from https://github.com/voges/calq.</AbstractText>
+                <AbstractText Label="Contact" NlmCategory="UNASSIGNED">voges@tnt.uni-hannover.de.</AbstractText>
+                <AbstractText Label="Supplementary information" NlmCategory="UNASSIGNED">Supplementary Data are available at Bioinformatics online.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Voges</LastName>
+                    <ForeName>Jan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut für Informationsverarbeitung (TNT), Leibniz Universität Hannover, Hannover, 30167, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ostermann</LastName>
+                    <ForeName>Jörn</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut für Informationsverarbeitung (TNT), Leibniz Universität Hannover, Hannover, 30167, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hernaez</LastName>
+                    <ForeName>Mikel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Genomic Biology, University of Illinois, Urbana-Champaign, IL 61801, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29186284</ArticleId>
+            <ArticleId IdType="pii">4653693</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btx737</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,130 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">29157459</PMID>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7565</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>153</Volume>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Computer methods and programs in biomedicine</Title>
+                <ISOAbbreviation>Comput Methods Programs Biomed</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A computer-aided diagnosis system for breast ultrasound based on weighted BI-RADS classes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>33-40</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0169-2607(17)30567-9</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cmpb.2017.10.004</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND OBJECTIVE" NlmCategory="OBJECTIVE">Conventional computer-aided diagnosis (CAD) systems for breast ultrasound (BUS) are trained to classify pathological classes, that is, benign and malignant. However, from a clinical perspective, this kind of classification does not agree totally with radiologists' diagnoses. Usually, the tumors are assessed by using a BI-RADS (Breast Imaging-Reporting and Data System) category and, accordingly, a recommendation is emitted: annual study for category 2 (benign), six-month follow-up study for category 3 (probably benign), and biopsy for categories 4 and 5 (suspicious of malignancy). Hence, in this paper, a CAD system based on BI-RADS categories weighted by pathological information is presented. The goal is to increase the classification performance by reducing the common class imbalance found in pathological classes as well as to provide outcomes quite similar to radiologists' recommendations.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The BUS dataset considers 781 benign lesions and 347 malignant tumors proven by biopsy. Moreover, every lesion is associated to one BI-RADS category in the set {2, 3, 4, 5}. Thus, the dataset is split into three weighted classes: benign, BI-RADS 2 in benign lesions; probably benign, BI-RADS 3 and 4 in benign lesions; and malignant, BI-RADS 4 and 5 in malignant lesions. Thereafter, a random forest (RF) classifier, denoted by RFw, is trained to predict the weighted BI-RADS classes. In addition, for comparison purposes, a RF classifier is trained to predict pathological classes, denoted as RFp.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The ability of the classifiers to predict the pathological classes is measured by the area under the ROC curve (AUC), sensitivity (SEN), and specificity (SPE). The RFw classifier obtained AUC=0.872,SEN=0.826, and SPE=0.919, whereas the RFp classifier reached AUC=0.868,SEN=0.808, and SPE=0.929. According to a one-way analysis of variance test, the RFw classifier statistically outperforms (p &lt; 0.001) the RFp classifier in terms of the AUC and SEN. Moreover, the classification performance of RFw to predict weighted BI-RADS classes is given by the Matthews correlation coefficient that obtained 0.614.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The division of the classification problem into three classes reduces the imbalance between benign and malignant classes; thus, the sensitivity is increased without degrading the specificity. Therefore, the CAD based on weighted BI-RADS classes improves the classification performance of the conventional CAD systems. Additionally, the proposed approach has the advantage of being capable of providing a multiclass outcome related to radiologists' recommendations.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rodríguez-Cristerna</LastName>
+                    <ForeName>Arturo</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Research and Advanced Studies of the National Polytechnic Institute, ZIP 87130, Ciudad Victoria, Tamaulipas, Mexico.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gómez-Flores</LastName>
+                    <ForeName>Wilfrido</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Research and Advanced Studies of the National Polytechnic Institute, ZIP 87130, Ciudad Victoria, Tamaulipas, Mexico. Electronic address: wgomez@tamps.cinvestav.mx.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de Albuquerque Pereira</LastName>
+                    <ForeName>Wagner Coelho</ForeName>
+                    <Initials>WC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biomedical Engineering Program/COPPE, Federal University of Rio de Janeiro, ZIP 21941-972, Rio de Janeiro, Brazil.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Comput Methods Programs Biomed</MedlineTA>
+            <NlmUniqueID>8506513</NlmUniqueID>
+            <ISSNLinking>0169-2607</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">BI-RADS</Keyword>
+            <Keyword MajorTopicYN="N">Breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">Computer-aided diagnosis</Keyword>
+            <Keyword MajorTopicYN="N">Ultrasound</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>08</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29157459</ArticleId>
+            <ArticleId IdType="pii">S0169-2607(17)30567-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cmpb.2017.10.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

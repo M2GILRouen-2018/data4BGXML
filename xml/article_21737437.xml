@@ -1,0 +1,193 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28923003</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>12</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cleaning by clustering: methodology for addressing data quality issues in biomedical metadata.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>415</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12859-017-1832-4</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The ability to efficiently search and filter datasets depends on access to high quality metadata. While most biomedical repositories require data submitters to provide a minimal set of metadata, some such as the Gene Expression Omnibus (GEO) allows users to specify additional metadata in the form of textual key-value pairs (e.g. sex: female). However, since there is no structured vocabulary to guide the submitter regarding the metadata terms to use, consequently, the 44,000,000+ key-value pairs in GEO suffer from numerous quality issues including redundancy, heterogeneity, inconsistency, and incompleteness. Such issues hinder the ability of scientists to hone in on datasets that meet their requirements and point to a need for accurate, structured and complete description of the data.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this study, we propose a clustering-based approach to address data quality issues in biomedical, specifically gene expression, metadata. First, we present three different kinds of similarity measures to compare metadata keys. Second, we design a scalable agglomerative clustering algorithm to cluster similar keys together.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Our agglomerative cluster algorithm identified metadata keys that were similar, based on (i) name, (ii) core concept and (iii) value similarities, to each other and grouped them together. We evaluated our method using a manually created gold standard in which 359 keys were grouped into 27 clusters based on six types of characteristics: (i) age, (ii) cell line, (iii) disease, (iv) strain, (v) tissue and (vi) treatment. As a result, the algorithm generated 18 clusters containing 355 keys (four clusters with only one key were excluded). In the 18 clusters, there were keys that were identified correctly to be related to that cluster, but there were 13 keys which were not related to that cluster. We compared our approach with four other published methods. Our approach significantly outperformed them for most metadata keys and achieved the best average F-Score (0.63).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Our algorithm identified keys that were similar to each other and grouped them together. Our intuition that underpins cleaning by clustering is that, dividing keys into different clusters resolves the scalability issues for data observation and cleaning, and keys in the same cluster with duplicates and errors can easily be found. Our algorithm can also be applied to other biomedical data types.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory for Novel Software Technology, Nanjing University, 163 Xianlin Avenue, Nanjing, 210023, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zaveri</LastName>
+                    <ForeName>Amrapali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Data Science, Maastricht University, Maastricht, 6200, MD, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qiu</LastName>
+                    <ForeName>Honglei</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory for Novel Software Technology, Nanjing University, 163 Xianlin Avenue, Nanjing, 210023, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dumontier</LastName>
+                    <ForeName>Michel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Data Science, Maastricht University, Maastricht, 6200, MD, The Netherlands. michel.dumontier@maastrichtuniversity.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1998 Dec 8;95(25):14863-8</RefSource>
+                <PMID Version="1">9843981</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2011 Nov 09;12:436</RefSource>
+                <PMID Version="1">22070249</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2001 Dec;29(4):365-71</RefSource>
+                <PMID Version="1">11726920</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2011 Jan;39(Database issue):D1005-10</RefSource>
+                <PMID Version="1">21097893</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Transl Med. 2015 May 13;7(287):287ra71</RefSource>
+                <PMID Version="1">25972003</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2009 Jul 29;10:234</RefSource>
+                <PMID Version="1">19640299</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D991-5</RefSource>
+                <PMID Version="1">23193258</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2011 Sep 1;27(17):2463-4</RefSource>
+                <PMID Version="1">21737437</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016000" MajorTopicYN="N">Cluster Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000068598" MajorTopicYN="N">Data Accuracy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000071253" MajorTopicYN="N">Metadata</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="Y">standards</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Biomedical</Keyword>
+            <Keyword MajorTopicYN="N">Clustering</Keyword>
+            <Keyword MajorTopicYN="N">Data quality</Keyword>
+            <Keyword MajorTopicYN="N">Experimental data</Keyword>
+            <Keyword MajorTopicYN="N">GEO</Keyword>
+            <Keyword MajorTopicYN="N">Metadata</Keyword>
+            <Keyword MajorTopicYN="N">Reusability</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>12</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28923003</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12859-017-1832-4</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12859-017-1832-4</ArticleId>
+            <ArticleId IdType="pmc">PMC5604298</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
